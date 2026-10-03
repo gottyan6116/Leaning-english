@@ -4,6 +4,24 @@ const {AppState}=require('../app-state.js');
 const memory=()=>{const data=new Map();return{getItem:k=>data.get(k)??null,setItem:(k,v)=>data.set(k,v),removeItem:k=>data.delete(k)}};
 const items=Array.from({length:10},(_,i)=>({id:'v-'+i,headword:'term'+i}));
 const collection={id:'c1-01',level:'C1',unitNumber:1,items};
+test('saved collection excludes unsaved seed words and deduplicates all save sources',()=>{
+ const state=new AppState(memory(),collection);state.customWords=[{en:'term0',ja:'custom'},{en:'personal',ja:'個人'}];
+ assert.deepEqual(state.savedVocabulary(['v-0'],[{en:'term0',ja:'a',bookmarked:true},{en:'seed',ja:'b'},{en:'article-only',ja:'c',bookmarked:true}]).map(x=>x.headword),['term0','article-only','personal']);
+ assert.deepEqual(new AppState(memory(),collection).savedVocabulary([], [{en:'seed',status:'定着'}]),[]);
+});
+test('word status comes only from current-mode answers, including skips and successive correct answers',()=>{
+ const state=new AppState(memory(),collection),logs=[{wordId:'v-0',mode:'en',correct:true}];assert.equal(state.wordStatus('v-0',logs,'ja'),'未学習');
+ logs.push({wordId:'v-0',mode:'ja',correct:true});assert.equal(state.wordStatus('v-0',logs,'ja'),'学習中');
+ logs.push({wordId:'v-0',mode:'ja',correct:true});assert.equal(state.wordStatus('v-0',logs,'ja'),'定着');
+ logs.push({wordId:'v-0',mode:'ja',correct:false,skipped:true});assert.equal(state.wordStatus('v-0',logs,'ja'),'復習予定');
+ logs.push({wordId:'v-0',mode:'ja',correct:true});assert.equal(state.wordStatus('v-0',logs,'ja'),'学習中');assert.equal(state.wordStatus(null,logs,'ja'),'未学習');
+});
+test('manual entries matching material IDs participate in review and can be unsaved without deleting existing records',()=>{
+ const {QuizStore}=require('../quiz-core.js'),storage=memory(),state=new AppState(storage,collection),quiz=new QuizStore(storage);state.addCustomWord({en:'term0',ja:'語'});
+ const saved=state.savedVocabulary([],[]);assert.deepEqual(state.reviewCandidates([],saved.map(x=>x.id),'ja').map(x=>x.id),['v-0']);
+ state.setSavedState(quiz,[],[],'english-notes.quiz.bookmarks.v1',['term0']);assert.equal(state.savedVocabulary([],[]).length,0);assert.equal(state.customWords.length,1);assert.equal(new AppState(storage,collection).savedVocabulary([],[]).length,0);
+ state.addCustomWord({en:'term0',ja:'語'});assert.equal(state.savedVocabulary([],[]).length,1);
+});
 test('first launch has no invented review, goals or previous unit',()=>{
  const state=new AppState(memory(),collection);assert.equal(state.reviewCandidates([],[],'ja').length,0);assert.equal(state.lastUnit,null);assert.deepEqual(state.goals,{daily:null,weekly:null});
 });
