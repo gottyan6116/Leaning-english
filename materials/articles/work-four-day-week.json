@@ -1,0 +1,218 @@
+{
+  "id": "article-work-four-day-week-2022",
+  "version": 1,
+  "kind": "article",
+  "status": "draft",
+  "publishedAt": null,
+  "title": "What a Four-Day Working Week Changed",
+  "summaryJa": "英国の試行から、働き方の工夫と結果の読み方を考える",
+  "category": "仕事",
+  "level": "B2–C1",
+  "readingMinutes": 4,
+  "readingEstimateWordsPerMinute": 110,
+  "editorialNotice": "出典に基づく学習用編集版",
+  "textOrigin": "original-for-this-app; factual adaptation with original editorial questions",
+  "sources": [
+    {
+      "id": "cambridge-2023",
+      "title": "Would you prefer a four-day working week?",
+      "publisher": "University of Cambridge",
+      "author": "Fred Lewsey",
+      "publishedAt": "2023-02-21",
+      "url": "https://www.cam.ac.uk/stories/fourdayweek",
+      "checkedAt": "2026-10-04",
+      "paragraphIds": ["p1", "p3", "p5"],
+      "usage": "事実を独自の文で整理。原文・発言の直接引用なし"
+    },
+    {
+      "id": "autonomy-2023",
+      "title": "The results are in: the UK's four-day week pilot",
+      "publisher": "Autonomy",
+      "authors": ["Kyle Lewis", "Will Stronge", "Jack Kellam", "Lukas Kikuchi"],
+      "authorNote": "Autonomy執筆チーム。別途、定量・定性研究チームが出典ページに掲載されている",
+      "publishedAt": "2023-02",
+      "datePrecision": "month",
+      "url": "https://autonomy.work/portfolio/uk4dwpilotresults/",
+      "reportUrl": "https://autonomy.work/wp-content/uploads/2023/02/The-results-are-in-The-UKs-four-day-week-pilot.pdf",
+      "checkedAt": "2026-10-04",
+      "paragraphIds": ["p2", "p4", "p6"],
+      "usage": "報告公開ページの事実を独自の文で整理。転載なし"
+    }
+  ],
+  "photo": {
+    "pageUrl": "https://unsplash.com/photos/sittin-people-beside-table-inside-room-hCb3lIB8L8E",
+    "photoId": "hCb3lIB8L8E",
+    "photographer": "Annie Spratt",
+    "service": "Unsplash",
+    "licenseUrl": "https://unsplash.com/license",
+    "checkedAt": "2026-10-04",
+    "credit": "Photo by Annie Spratt on Unsplash",
+    "alt": "テーブルを囲んで働く人々",
+    "context": "関連する素材写真。試行に参加した企業の写真として扱わない",
+    "assetPath": null
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "kind": "source-based",
+      "sourceIds": ["cambridge-2023"],
+      "text": "From June to December 2022, 61 organisations in the United Kingdom took part in a trial involving around 2,900 employees. Participants committed to reducing working time by 20% while keeping pay unchanged. Researchers examined whether a shorter week could protect employees' well-being without undermining business performance. The results were reported in February 2023."
+    },
+    {
+      "id": "p2",
+      "kind": "source-based",
+      "sourceIds": ["autonomy-2023"],
+      "text": "Preparation lasted two months and included workshops, coaching and support from other participants. Employers did not all adopt the same timetable. Some used a common day off; others staggered employees' days off. The report describes several arrangements, including annualised and conditional schedules. Its central requirement was unchanged pay alongside a meaningful reduction in working time. Each organisation adapted the policy to its own operations."
+    },
+    {
+      "id": "p3",
+      "kind": "source-based",
+      "sourceIds": ["cambridge-2023"],
+      "text": "Employers also looked for ways to streamline work. They shortened meetings, made agendas clearer and introduced periods when employees could concentrate without interruptions. Some changed email practices or prepared task lists to improve handovers. These changes were intended to help organisations meet their targets within fewer working hours. The trial therefore involved reorganising work, as well as changing the weekly schedule."
+    },
+    {
+      "id": "p4",
+      "kind": "source-based",
+      "sourceIds": ["autonomy-2023"],
+      "text": "The report compared workers' experiences before and after the trial. At the end, 71% reported lower burnout and 39% reported less stress. These figures describe employees' reported experiences, rather than a guarantee that everyone benefited. Employee retention was another business consideration: the report recorded fewer staff departures. Of the 61 participating companies, 56 planned to continue the shorter week, and 18 confirmed a permanent change."
+    },
+    {
+      "id": "p5",
+      "kind": "source-based",
+      "sourceIds": ["cambridge-2023"],
+      "text": "Revenue figures need careful interpretation. Cambridge reported an average increase of 1.4% during the trial for the 23 organisations able to provide revenue data. That figure does not describe all 61 participants. Interviews also revealed concerns: some employees worried about more intense workloads, while others felt that less informal conversation could reduce opportunities for new ideas."
+    },
+    {
+      "id": "p6",
+      "kind": "source-based",
+      "sourceIds": ["autonomy-2023"],
+      "text": "The evidence came from company records, employee surveys and interviews collected during the pilot, with measurement points at its beginning, middle and end. These different sources allowed researchers to examine both organisational outcomes and individual experiences. The varied schedules are also significant: a four-day week was not one uniform policy applied in exactly the same way to every participating workplace."
+    },
+    {
+      "id": "p7",
+      "kind": "editorial",
+      "sourceIds": [],
+      "text": "Consider a hypothetical workplace deciding whether a shorter week would be viable under its own constraints. Would it alleviate pressure, or merely shift unfinished tasks into the remaining days? A team could ask how to maintain customer coverage, organise handovers and protect time for collaboration. These are questions for readers to consider, not additional findings from the trial. A useful proposal would explain what should change and how its results would be assessed."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "article-work-four-day-week-2022-retention",
+      "headword": "retention",
+      "partOfSpeech": "noun",
+      "meaning": "定着",
+      "definition": "keeping existing employees in an organisation",
+      "contextParagraphId": "p4",
+      "context": "Employee retention was another business consideration: the report recorded fewer staff departures.",
+      "example": "The company reviewed employee retention after introducing flexible schedules.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "従業員が組織に在籍し続けること",
+      "questions": {
+        "ja": {"choices": ["採用", "配置", "定着", "昇進"], "answerIndex": 2, "distractorHeadwords": ["recruitment", "placement", null, "promotion"], "explanation": "ここでは従業員が辞めずに在籍し続けること。採用・配置・昇進とは異なる。"},
+        "en": {"choices": ["hiring additional employees", "keeping existing employees", "promoting selected employees", "training inexperienced employees"], "answerIndex": 1, "distractorHeadwords": ["recruitment", null, "promotion", "training"], "explanation": "retentionは既存の従業員を組織にとどめること。新規採用・昇進・研修ではない。"}
+      }
+    },
+    {
+      "id": "article-work-four-day-week-2022-streamline",
+      "headword": "streamline",
+      "partOfSpeech": "verb",
+      "meaning": "効率化する",
+      "definition": "make a process simpler and more efficient",
+      "contextParagraphId": "p3",
+      "context": "Employers also looked for ways to streamline work.",
+      "example": "We streamlined the approval process by removing unnecessary steps.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "不要な複雑さを減らして業務を効率よくする",
+      "questions": {
+        "ja": {"choices": ["外注化する", "効率化する", "分散化する", "自動化する"], "answerIndex": 1, "distractorHeadwords": ["outsource", null, "decentralise", "automate"], "explanation": "streamlineは工程を簡素化して効率を高めること。外注・権限の分散・自動化そのものを意味しない。"},
+        "en": {"choices": ["transfer work to an outside supplier", "distribute authority among local teams", "replace manual work with technology", "simplify work to improve efficiency"], "answerIndex": 3, "distractorHeadwords": ["outsource", "decentralise", "automate", null], "explanation": "業務を簡素化し効率を高める意味。外注化・分権化・自動化は別の概念。"}
+      }
+    },
+    {
+      "id": "article-work-four-day-week-2022-alleviate",
+      "headword": "alleviate",
+      "partOfSpeech": "verb",
+      "meaning": "緩和する",
+      "definition": "make a problem or suffering less severe",
+      "contextParagraphId": "p7",
+      "context": "Would it alleviate pressure, or merely shift unfinished tasks into the remaining days?",
+      "example": "Extra support may alleviate the pressure on the team.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "負担・苦痛・問題の程度を和らげる",
+      "questions": {
+        "ja": {"choices": ["緩和する", "測定する", "分類する", "予測する"], "answerIndex": 0, "distractorHeadwords": [null, "measure", "classify", "predict"], "explanation": "alleviateは問題の程度を和らげること。測定・分類・予測は程度を和らげる行為ではない。"},
+        "en": {"choices": ["measure how severe a problem is", "sort problems into different groups", "make a problem less severe", "forecast problems before they occur"], "answerIndex": 2, "distractorHeadwords": ["measure", "classify", null, "predict"], "explanation": "負担の深刻さを小さくする意味。測る・分類する・予測するという意味ではない。"}
+      }
+    },
+    {
+      "id": "article-work-four-day-week-2022-viable",
+      "headword": "viable",
+      "partOfSpeech": "adjective",
+      "meaning": "実行可能な",
+      "definition": "capable of working successfully in practice",
+      "contextParagraphId": "p7",
+      "context": "Consider a hypothetical workplace deciding whether a shorter week would be viable under its own constraints.",
+      "example": "The pilot will help us decide whether the proposal is viable.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "計画が現実にうまく機能し得る",
+      "questions": {
+        "ja": {"choices": ["一時的な", "義務付けられた", "実験段階の", "実行可能な"], "answerIndex": 3, "distractorHeadwords": ["temporary", "mandatory", "experimental", null], "explanation": "viableは計画が現実にうまく機能し得ること。期間・義務・試験段階を表す語ではない。"},
+        "en": {"choices": ["capable of working successfully", "lasting for a limited period", "required by an official rule", "used to test an unproven idea"], "answerIndex": 0, "distractorHeadwords": [null, "temporary", "mandatory", "experimental"], "explanation": "実際に成功して機能する可能性を表す。一時的・義務的・実験的とは別の意味。"}
+      }
+    },
+    {
+      "id": "article-work-four-day-week-2022-constraint",
+      "headword": "constraint",
+      "partOfSpeech": "noun",
+      "meaning": "制約",
+      "definition": "a condition that limits what can be done",
+      "contextParagraphId": "p7",
+      "context": "Consider a hypothetical workplace deciding whether a shorter week would be viable under its own constraints.",
+      "example": "Budget constraints limited the number of people we could hire.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "計画や行動の自由を制限する条件",
+      "questions": {
+        "ja": {"choices": ["手順", "目標", "制約", "資源"], "answerIndex": 2, "distractorHeadwords": ["procedure", "objective", null, "resource"], "explanation": "constraintはできることを制限する条件。手順・到達目標・使える資源とは異なる。"},
+        "en": {"choices": ["a step in a planned action", "a limit on a planned action", "a goal for a planned action", "a resource for a planned action"], "answerIndex": 1, "distractorHeadwords": ["procedure", null, "objective", "resource"], "explanation": "行動を制限する条件を表す。工程・目標・資源ではない。"}
+      }
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "q1",
+      "question": "Which condition was central to the trial?",
+      "choices": ["Employees kept their pay while working less.", "Employees accepted less pay for fewer hours.", "Employees worked longer days for extra pay.", "Employees chose any schedule without limits."],
+      "answerIndex": 0,
+      "evidenceParagraphIds": ["p1", "p2"],
+      "explanationJa": "P1の賃金維持と労働時間削減へのコミット、P2の unchanged pay alongside a meaningful reduction が根拠。単に勤務日を詰める制度ではない。"
+    },
+    {
+      "id": "q2",
+      "question": "What does the reported 1.4% revenue increase refer to?",
+      "choices": ["Every worker's personal income in the trial.", "The average across all 61 participating firms.", "All companies in the United Kingdom that year.", "The average for 23 firms providing revenue data."],
+      "answerIndex": 3,
+      "evidenceParagraphIds": ["p5"],
+      "explanationJa": "P5の1.4%は売上データを提供できた23組織の平均。61組織全体、個人所得、英国全体の数値ではない。"
+    },
+    {
+      "id": "q3",
+      "question": "Which concern did the Cambridge interviews identify?",
+      "choices": ["Every firm lost the ability to meet its targets.", "Less informal talk might limit chances for ideas.", "All workers received less pay during the trial.", "The trial had no data about company revenue."],
+      "answerIndex": 1,
+      "evidenceParagraphIds": ["p5"],
+      "explanationJa": "P5で一部の従業員は非公式な会話の減少が新しいアイデアの機会を減らし得ると感じている。全員の不利益や全社の目標未達とは述べていない。"
+    }
+  ],
+  "opinion": {
+    "id": "opinion-1",
+    "prompt": "Would a shorter working week be viable in your workplace or a workplace you know? Explain one possible benefit, one constraint, and one result you would measure.",
+    "optional": true,
+    "saveScope": "device"
+  },
+  "review": {
+    "factsCheckedAt": "2026-10-04",
+    "editorialParagraphIds": ["p7"],
+    "contentApproval": "pending",
+    "notes": "出典確認済み。教材内容承認前のため未公開・未接続。P7は出典の追加事実ではなく、教材用に作成した仮定と問い。語彙集と同じ見出し語でも記事固有の文脈とIDを維持する。"
+  }
+}
