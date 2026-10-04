@@ -1,0 +1,9 @@
+(function(root){
+ 'use strict';
+ let records=[];
+ const visible=(record,now=Date.now())=>Boolean(record.publishedAt&&Number.isFinite(Date.parse(record.publishedAt))&&Date.parse(record.publishedAt)<=now);
+ async function digest(text){const hash=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text));return Array.from(new Uint8Array(hash),x=>x.toString(16).padStart(2,'0')).join('');}
+ const api={articles:()=>records.filter(a=>a.kind==='article'&&visible(a)),units:()=>records.filter(a=>a.kind==='vocabulary'&&visible(a)).sort((a,b)=>a.level.localeCompare(b.level)||a.unitNumber-b.unitNumber),items:()=>records.filter(a=>visible(a)).flatMap(a=>a.kind==='article'?a.vocabulary.map(v=>({...v,sourceKind:'article',articleId:a.id,materialVersion:a.version})):a.items),visible};
+ api.ready=(async()=>{try{const response=await fetch('materials/manifest.json',{cache:'no-cache'});if(!response.ok)throw Error('catalog');const manifest=await response.json();const results=await Promise.all(manifest.materials.map(async ref=>{if(!/^materials\/(articles|vocabulary)\/[a-z0-9-]+\.json$/.test(ref.path))throw Error('path');const result=await fetch(ref.path,{cache:'no-cache'});if(!result.ok)throw Error('material');const text=await result.text();if(await digest(text)!==ref.sha256)throw Error('unchecked material');const material=JSON.parse(text);if(material.id!==ref.id||material.version!==ref.version)throw Error('version');return material;}));records=results;const unit=records.find(x=>x.id===C1_UNIT_01.id&&visible(x));if(unit)Object.assign(C1_UNIT_01,unit);const items=api.items();root.AppUI?.addCatalog(items);root.QuizUI?.registerItems(items);if(typeof render==='function'&&!document.body.classList.contains('quiz-active'))render();return records;}catch(error){console.error('教材の読み込みに失敗しました',error);return [];}})();
+ root.MaterialCatalog=api;
+})(window);

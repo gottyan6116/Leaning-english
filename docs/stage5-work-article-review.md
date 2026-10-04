@@ -1,6 +1,6 @@
 # 記事1本目・修正版の内容レビュー
 
-内容の再確認待ち。公開日未設定のため公開対象外。
+内容承認済み。指定の推論選択肢へ修正し、2026-10-04公開。使い方は未確認のまま。
 
 ## What a Four-Day Working Week Changed
 
@@ -233,10 +233,10 @@ Which condition was central to the trial?
 
 Why should a reader avoid treating the 1.4% increase as a result for all participants?
 
-1. The revenue data cover only part of the trial. **正解**
-2. The figure measures only changes in staff pay.
-3. The interview data replace all revenue records.
-4. The participating firms all used one schedule.
+1. The revenue data cover only some of the participating organisations. **正解**
+2. The reported figure measures changes in the pay of individual employees.
+3. The interviews provide a complete replacement for company revenue records.
+4. The participating organisations applied the same schedule to all employees.
 
 根拠：P5。P5は売上データを提供したのが23組織で、試行参加は61組織と述べる。したがって、この平均から残りの組織を含む全参加企業の結果までは判断できない。「1.4%は誤り」や「未提供企業は悪化した」とも推論できない。
 
@@ -257,11 +257,9 @@ Would a shorter working week suit a workplace you know? Explain one possible ben
 
 入力は任意。端末内に保存する。
 
-## 追加仕様の実装境界
+## 実装結果
 
-- 本ファイルの選択肢番号はレビュー用。実装後は出題ごとに並べ替える。
-- 選択肢IDと正解IDをJSONへ追加。旧answerIndexは互換用に残すが、新しい採点には使わない。
-- 教材はmaterials内のJSONと索引に分離。承認後、C1①もJSONへ移行し、既存JSは互換経路として保持する。
-- statusが確認済みでpublishedAtが現在時刻以下の教材だけ表示。日付未設定・下書き・未来公開は対象外。
-- 取り込み前の検証で異常があれば取り込みを止める。現在は画面への取り込み前の内容レビュー段階。
-- 並べ替え、ID採点、1〜4キーと表示順の対応は承認後に実装・テスト。今回は未実装。
+- 選択肢番号はレビュー用。実際の出題は毎回並べ替え、採点・ログは固定IDを使う。
+- 記事語彙は両モードで本文の該当文を表示。内容理解もID採点・回答ログ保存を行う。
+- JSON教材と検証済み索引を読み込み、公開日時で表示を制御する。C1①は明示的な許可により下書きのまま使用。
+- 教材検証は0エラー・0警告。30件の動作テストが通過。

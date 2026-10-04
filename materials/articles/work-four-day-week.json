@@ -2,8 +2,8 @@
   "id": "article-work-four-day-week-2022",
   "version": 2,
   "kind": "article",
-  "status": "draft",
-  "publishedAt": null,
+  "status": "checked",
+  "publishedAt": "2026-10-04T00:00:00+09:00",
   "title": "What a Four-Day Working Week Changed",
   "summaryJa": "英国の試行から、働き方の工夫と結果の読み方を考える",
   "category": "仕事",
@@ -62,7 +62,7 @@
     "credit": "Photo by Annie Spratt on Unsplash",
     "alt": "テーブルを囲んで働く人々",
     "context": "関連する素材写真。試行に参加した企業の写真として扱わない",
-    "assetPath": null
+    "assetPath": "assets/articles/work.jpg"
   },
   "paragraphs": [
     {
@@ -615,10 +615,10 @@
       "id": "q2",
       "question": "Why should a reader avoid treating the 1.4% increase as a result for all participants?",
       "choices": [
-        "The revenue data cover only part of the trial.",
-        "The figure measures only changes in staff pay.",
-        "The interview data replace all revenue records.",
-        "The participating firms all used one schedule."
+        "The revenue data cover only some of the participating organisations.",
+        "The reported figure measures changes in the pay of individual employees.",
+        "The interviews provide a complete replacement for company revenue records.",
+        "The participating organisations applied the same schedule to all employees."
       ],
       "answerIndex": 0,
       "evidenceParagraphIds": [
@@ -667,7 +667,7 @@
   "review": {
     "factsCheckedAt": "2026-10-04",
     "editorialParagraphIds": [],
-    "contentApproval": "pending-revised-content",
-    "notes": "P7削除。本文内の5語を選定し直した。使い方はすべて未確認。本文と設問の再確認待ち。"
+    "contentApproval": "approved-with-revisions",
+    "notes": "本文と語彙は承認済み。推論問題の曖昧さを修正。使い方は未確認のまま。"
   }
 }

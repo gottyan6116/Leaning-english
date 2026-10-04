@@ -1,0 +1,694 @@
+{
+  "id": "article-education-europa-carbon-2023",
+  "version": 1,
+  "kind": "article",
+  "status": "checked",
+  "publishedAt": "2026-10-04T00:00:00+09:00",
+  "title": "What Carbon on Europa Can Tell Us",
+  "summaryJa": "エウロパの炭素観測から、証拠と推定の違いを読む",
+  "category": "教養",
+  "level": "B2–C1",
+  "readingMinutes": 3,
+  "readingEstimateWordsPerMinute": 110,
+  "editorialNotice": "出典に基づく学習用編集版",
+  "textOrigin": "original-for-this-app; factual adaptation",
+  "sources": [
+    {
+      "id": "nasa-2023",
+      "title": "NASA’s Webb Finds Carbon Source on Surface of Jupiter’s Moon Europa",
+      "publisher": "NASA Science",
+      "author": "NASA Webb Mission Team / Goddard Space Flight Center",
+      "publishedAt": "2023-09-21",
+      "pageUpdatedAt": "2026-09-21",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-finds-carbon-source-on-surface-of-jupiters-moon-europa/",
+      "checkedAt": "2026-10-04",
+      "paragraphIds": [
+        "p1",
+        "p3"
+      ],
+      "usage": "観測・位置・推定を独自の文で整理。原文・発言の直接引用なし"
+    },
+    {
+      "id": "esa-2023",
+      "title": "Webb finds carbon source on surface of Jupiter’s moon Europa",
+      "publisher": "European Space Agency",
+      "author": null,
+      "authorNote": "個人著者の署名なし。ESA公式発表",
+      "publishedAt": "2023-09-21",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_carbon_source_on_surface_of_Jupiter_s_moon_Europa",
+      "checkedAt": "2026-10-04",
+      "paragraphIds": [
+        "p4",
+        "p5"
+      ],
+      "usage": "観測装置と不検出の限界を独自の文で整理。原文・発言の直接引用なし"
+    },
+    {
+      "id": "trumbo-2023",
+      "title": "The distribution of CO2 on Europa indicates an internal source of carbon",
+      "publisher": "arXiv / Science",
+      "authors": ["Samantha K. Trumbo", "Michael E. Brown"],
+      "publishedAt": "2023-09-20",
+      "journalPublishedAt": "2023-09-21",
+      "dateNote": "初回プレプリント公開日。Scienceオンライン公開日は2023-09-21",
+      "url": "https://arxiv.org/abs/2309.11684",
+      "doi": "10.1126/science.adg4155",
+      "checkedAt": "2026-10-04",
+      "paragraphIds": ["p2"],
+      "usage": "原著論文の観測分布と形成場所の不確実性を独自の文で整理。転載なし"
+    },
+    {
+      "id": "villanueva-2023",
+      "title": "Endogenous CO2 ice mixture on the surface of Europa and no detection of plume activity",
+      "publisher": "Science / 著者公開版",
+      "author": "G. L. Villanueva et al.",
+      "publishedAt": "2023-09-21",
+      "printPublishedAt": "2023-09-22",
+      "url": "https://www.christopherglein.com/_files/ugd/08726c_caae5aad2a28409d8408eb02624e049e.pdf",
+      "doi": "10.1126/science.adg4270",
+      "checkedAt": "2026-10-04",
+      "paragraphIds": ["p6"],
+      "usage": "原著論文の不検出と放出量上限・観測条件の解釈を独自の文で整理。転載なし"
+    }
+  ],
+  "photo": {
+    "pageUrl": "https://unsplash.com/photos/the-night-sky-with-stars-and-a-telescope-9YBDgOJGnY8",
+    "photoId": "9YBDgOJGnY8",
+    "photographer": "Le Mucky",
+    "photographerUrl": "https://unsplash.com/@mucky",
+    "service": "Unsplash",
+    "licenseUrl": "https://unsplash.com/license",
+    "licenseName": "Unsplash License",
+    "checkedAt": "2026-10-04",
+    "credit": "Photo by Le Mucky on Unsplash",
+    "alt": "夜空の星と望遠鏡",
+    "context": "関連する素材写真。EuropaやWebbの実観測画像として扱わない",
+    "assetPath": "assets/articles/europa.jpg"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "kind": "source-based",
+      "sourceIds": [
+        "nasa-2023"
+      ],
+      "text": "In September 2023, researchers reported a discovery about Europa, one of Jupiter's moons. Data from the James Webb Space Telescope revealed carbon dioxide on its icy surface. Earlier research had indicated that a salty ocean lies beneath the ice, but scientists had not established whether this ocean contained carbon. The new observations offered a way to investigate that question."
+    },
+    {
+      "id": "p2",
+      "kind": "source-based",
+      "sourceIds": [
+        "trumbo-2023"
+      ],
+      "text": "The abundance of carbon dioxide was greatest in a region called Tara Regio. Its surface has recently been renewed. Trumbo and Brown considered this distribution evidence of an internal carbon source. They proposed formation in the ocean, but could not exclude carbon dioxide forming on the surface when radiation altered ocean-derived material. The source of carbon and the place of formation are distinct questions."
+    },
+    {
+      "id": "p3",
+      "kind": "source-based",
+      "sourceIds": [
+        "nasa-2023"
+      ],
+      "text": "The researchers considered the ocean the likely source of this carbon, rather than material arriving from meteorites. Carbon dioxide does not remain stable for long on Europa's surface, so its presence in young terrain also suggests a relatively recent supply. These conclusions concern the origin of a chemical, not the discovery of an organism."
+    },
+    {
+      "id": "p4",
+      "kind": "source-based",
+      "sourceIds": [
+        "esa-2023"
+      ],
+      "text": "Webb's Near-Infrared Spectrograph allowed the teams to study the distribution of chemicals across Europa. Such observations can provide clues to the ocean's composition without drilling through the ice. Scientists still debate how strongly the surface and ocean are connected. Reading the surface is therefore an indirect approach, whose interpretation depends on that connection."
+    },
+    {
+      "id": "p5",
+      "kind": "source-based",
+      "sourceIds": [
+        "esa-2023"
+      ],
+      "text": "The teams also searched for water-vapour plumes. Earlier Hubble studies had reported tentative detections, but definitive evidence remained difficult to obtain. Webb detected no plume during these observations. The researchers stressed that this result did not exclude plumes: activity might vary, making a plume visible at some times but not at others."
+    },
+    {
+      "id": "p6",
+      "kind": "source-based",
+      "sourceIds": [
+        "villanueva-2023"
+      ],
+      "text": "Although no plume was detected, the data helped constrain the possible rate at which material was being ejected. In other words, an observation without a detection can still limit the range of explanations. This differs from claiming that a process never occurs. The timing and sensitivity of an observation remain relevant to what can be concluded."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "article-education-europa-carbon-2023-abundance",
+      "headword": "abundance",
+      "partOfSpeech": "noun",
+      "meaning": "豊富な量",
+      "definition": "a plentiful amount of something",
+      "contextParagraphId": "p2",
+      "context": "The abundance of carbon dioxide was greatest in a region called Tara Regio.",
+      "surfaceForm": "abundance",
+      "example": "The survey revealed an abundance of marine plants.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "豊富な量",
+      "questions": {
+        "ja": {
+          "choices": [
+            "分布の様式",
+            "豊富な量",
+            "構成の割合",
+            "発生の頻度"
+          ],
+          "answerIndex": 1,
+          "distractorHeadwords": [
+            "distribution",
+            null,
+            "proportion",
+            "frequency"
+          ],
+          "explanation": "abundanceは物質などが豊富に存在する量。分布・割合・頻度そのものではない。",
+          "choiceIds": [
+            "article-education-europa-carbon-2023-abundance-ja-option-1",
+            "article-education-europa-carbon-2023-abundance-ja-option-2",
+            "article-education-europa-carbon-2023-abundance-ja-option-3",
+            "article-education-europa-carbon-2023-abundance-ja-option-4"
+          ],
+          "correctChoiceId": "article-education-europa-carbon-2023-abundance-ja-option-2"
+        },
+        "en": {
+          "choices": [
+            "an uneven distribution",
+            "a relative proportion",
+            "a plentiful amount",
+            "a recurring frequency"
+          ],
+          "answerIndex": 2,
+          "distractorHeadwords": [
+            "distribution",
+            "proportion",
+            null,
+            "frequency"
+          ],
+          "explanation": "abundanceは物質などが豊富に存在する量。分布・割合・頻度そのものではない。",
+          "choiceIds": [
+            "article-education-europa-carbon-2023-abundance-en-option-1",
+            "article-education-europa-carbon-2023-abundance-en-option-2",
+            "article-education-europa-carbon-2023-abundance-en-option-3",
+            "article-education-europa-carbon-2023-abundance-en-option-4"
+          ],
+          "correctChoiceId": "article-education-europa-carbon-2023-abundance-en-option-3"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "an abundance of ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "豊富な～",
+            "nuanceJa": "ofの後ろに豊富にあるものを示す。",
+            "example": "The region has an abundance of freshwater lakes.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "relative abundance",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "相対的な存在量",
+            "nuanceJa": "全体や他の成分と比較した量を示す。",
+            "example": "The report compared the relative abundance of three minerals.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "in abundance",
+            "pattern": "前置詞＋名詞",
+            "meaningJa": "豊富に",
+            "nuanceJa": "多量に存在する様子を示す。",
+            "example": "Wildflowers grow in abundance along the river.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-education-europa-carbon-2023-composition",
+      "headword": "composition",
+      "partOfSpeech": "noun",
+      "meaning": "物質の構成",
+      "definition": "the substances or parts that make up something",
+      "contextParagraphId": "p4",
+      "context": "Such observations can provide clues to the ocean's composition without drilling through the ice.",
+      "surfaceForm": "composition",
+      "example": "The laboratory measured the composition of the soil.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "物質の構成",
+      "questions": {
+        "ja": {
+          "choices": [
+            "物質の分布",
+            "物質の変化",
+            "物質の構成",
+            "物質の特性"
+          ],
+          "answerIndex": 2,
+          "distractorHeadwords": [
+            "distribution",
+            "transformation",
+            null,
+            "properties"
+          ],
+          "explanation": "ここでのcompositionは何からできているかという成分構成。位置・変化・性質とは異なる。",
+          "choiceIds": [
+            "article-education-europa-carbon-2023-composition-ja-option-1",
+            "article-education-europa-carbon-2023-composition-ja-option-2",
+            "article-education-europa-carbon-2023-composition-ja-option-3",
+            "article-education-europa-carbon-2023-composition-ja-option-4"
+          ],
+          "correctChoiceId": "article-education-europa-carbon-2023-composition-ja-option-3"
+        },
+        "en": {
+          "choices": [
+            "the materials something contains",
+            "the way something is distributed",
+            "the changes something undergoes",
+            "the properties something exhibits"
+          ],
+          "answerIndex": 0,
+          "distractorHeadwords": [
+            null,
+            "distribution",
+            "transformation",
+            "properties"
+          ],
+          "explanation": "ここでのcompositionは何からできているかという成分構成。位置・変化・性質とは異なる。",
+          "choiceIds": [
+            "article-education-europa-carbon-2023-composition-en-option-1",
+            "article-education-europa-carbon-2023-composition-en-option-2",
+            "article-education-europa-carbon-2023-composition-en-option-3",
+            "article-education-europa-carbon-2023-composition-en-option-4"
+          ],
+          "correctChoiceId": "article-education-europa-carbon-2023-composition-en-option-1"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "chemical composition",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "化学組成",
+            "nuanceJa": "どの化学成分からできているかを示す。",
+            "example": "We compared the chemical composition of two samples.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "the composition of ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～の構成",
+            "nuanceJa": "ofの後ろに調べる物質や集団を置く。",
+            "example": "The composition of the atmosphere changed over time.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "analyse the composition",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "構成を分析する",
+            "nuanceJa": "成分や構成要素を調べる動作を表す。",
+            "example": "The team used a sensor to analyse the composition.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-education-europa-carbon-2023-tentative",
+      "headword": "tentative",
+      "partOfSpeech": "adjective",
+      "meaning": "暫定的な",
+      "definition": "not yet established firmly or conclusively",
+      "contextParagraphId": "p5",
+      "context": "Earlier Hubble studies had reported tentative detections, but definitive evidence remained difficult to obtain.",
+      "surfaceForm": "tentative",
+      "example": "The team offered a tentative explanation for the unusual pattern.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "暫定的な",
+      "questions": {
+        "ja": {
+          "choices": [
+            "体系的な",
+            "非公開の",
+            "慣習的な",
+            "暫定的な"
+          ],
+          "answerIndex": 3,
+          "distractorHeadwords": [
+            "systematic",
+            "confidential",
+            "traditional",
+            null
+          ],
+          "explanation": "tentativeはまだ確定しておらず、追加確認によって変わり得ること。手順や公開範囲の意味ではない。",
+          "choiceIds": [
+            "article-education-europa-carbon-2023-tentative-ja-option-1",
+            "article-education-europa-carbon-2023-tentative-ja-option-2",
+            "article-education-europa-carbon-2023-tentative-ja-option-3",
+            "article-education-europa-carbon-2023-tentative-ja-option-4"
+          ],
+          "correctChoiceId": "article-education-europa-carbon-2023-tentative-ja-option-4"
+        },
+        "en": {
+          "choices": [
+            "following a systematic approach",
+            "not yet firmly established",
+            "restricted to private use",
+            "based on established customs"
+          ],
+          "answerIndex": 1,
+          "distractorHeadwords": [
+            "systematic",
+            null,
+            "confidential",
+            "traditional"
+          ],
+          "explanation": "tentativeはまだ確定しておらず、追加確認によって変わり得ること。手順や公開範囲の意味ではない。",
+          "choiceIds": [
+            "article-education-europa-carbon-2023-tentative-en-option-1",
+            "article-education-europa-carbon-2023-tentative-en-option-2",
+            "article-education-europa-carbon-2023-tentative-en-option-3",
+            "article-education-europa-carbon-2023-tentative-en-option-4"
+          ],
+          "correctChoiceId": "article-education-europa-carbon-2023-tentative-en-option-2"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "tentative evidence",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "暫定的な証拠",
+            "nuanceJa": "証拠の確実さがまだ十分でないことを示す。",
+            "example": "The observations provided tentative evidence of a seasonal change.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a tentative conclusion",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "暫定的な結論",
+            "nuanceJa": "追加の確認によって変わり得る結論を示す。",
+            "example": "Our tentative conclusion needs further testing.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a tentative plan",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "仮の計画",
+            "nuanceJa": "まだ決定・確定していない計画を示す。",
+            "example": "We agreed on a tentative plan for the next workshop.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-education-europa-carbon-2023-definitive",
+      "headword": "definitive",
+      "partOfSpeech": "adjective",
+      "meaning": "決定的な",
+      "definition": "able to settle a question conclusively",
+      "contextParagraphId": "p5",
+      "context": "Earlier Hubble studies had reported tentative detections, but definitive evidence remained difficult to obtain.",
+      "surfaceForm": "definitive",
+      "example": "The experiment did not provide a definitive answer.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "決定的な",
+      "questions": {
+        "ja": {
+          "choices": [
+            "決定的な",
+            "分析的な",
+            "体系的な",
+            "文脈依存の"
+          ],
+          "answerIndex": 0,
+          "distractorHeadwords": [
+            null,
+            "analytical",
+            "systematic",
+            "contextual"
+          ],
+          "explanation": "definitiveは問題に決着を付けるほど確定的なこと。分析的・体系的であることだけでは決定的とは限らない。",
+          "choiceIds": [
+            "article-education-europa-carbon-2023-definitive-ja-option-1",
+            "article-education-europa-carbon-2023-definitive-ja-option-2",
+            "article-education-europa-carbon-2023-definitive-ja-option-3",
+            "article-education-europa-carbon-2023-definitive-ja-option-4"
+          ],
+          "correctChoiceId": "article-education-europa-carbon-2023-definitive-ja-option-1"
+        },
+        "en": {
+          "choices": [
+            "concerned with detailed analysis",
+            "following an organised method",
+            "dependent on surrounding context",
+            "able to settle a question"
+          ],
+          "answerIndex": 3,
+          "distractorHeadwords": [
+            "analytical",
+            "systematic",
+            "contextual",
+            null
+          ],
+          "explanation": "definitiveは問題に決着を付けるほど確定的なこと。分析的・体系的であることだけでは決定的とは限らない。",
+          "choiceIds": [
+            "article-education-europa-carbon-2023-definitive-en-option-1",
+            "article-education-europa-carbon-2023-definitive-en-option-2",
+            "article-education-europa-carbon-2023-definitive-en-option-3",
+            "article-education-europa-carbon-2023-definitive-en-option-4"
+          ],
+          "correctChoiceId": "article-education-europa-carbon-2023-definitive-en-option-4"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "definitive evidence",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "決定的な証拠",
+            "nuanceJa": "疑問を解消するだけの確実さを持つ証拠を示す。",
+            "example": "The investigators are still seeking definitive evidence.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a definitive answer",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "確定的な答え",
+            "nuanceJa": "問いに決着を付ける答えを示す。",
+            "example": "One short interview cannot provide a definitive answer.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a definitive account",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "決定版となる記述",
+            "nuanceJa": "ある題材について基準となる詳しい記述を表す。",
+            "example": "The historian wrote a definitive account of the expedition.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-education-europa-carbon-2023-constrain",
+      "headword": "constrain",
+      "partOfSpeech": "verb",
+      "meaning": "可能な範囲を絞る",
+      "definition": "limit the range of what is possible",
+      "contextParagraphId": "p6",
+      "context": "Although no plume was detected, the data helped constrain the possible rate at which material was being ejected.",
+      "surfaceForm": "constrain",
+      "example": "The measurements constrain the range of plausible temperatures.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "可能な範囲を絞る",
+      "questions": {
+        "ja": {
+          "choices": [
+            "値を算出する",
+            "可能性を絞る",
+            "情報を集約する",
+            "位置を特定する"
+          ],
+          "answerIndex": 1,
+          "distractorHeadwords": [
+            "calculate",
+            null,
+            "aggregate",
+            "locate"
+          ],
+          "explanation": "ここでは観測データが許容される範囲を狭める意味。正確な値の算出や場所の特定を意味しない。",
+          "choiceIds": [
+            "article-education-europa-carbon-2023-constrain-ja-option-1",
+            "article-education-europa-carbon-2023-constrain-ja-option-2",
+            "article-education-europa-carbon-2023-constrain-ja-option-3",
+            "article-education-europa-carbon-2023-constrain-ja-option-4"
+          ],
+          "correctChoiceId": "article-education-europa-carbon-2023-constrain-ja-option-2"
+        },
+        "en": {
+          "choices": [
+            "calculate an exact numerical value",
+            "combine records from several sources",
+            "limit the range of possibilities",
+            "identify an object’s exact location"
+          ],
+          "answerIndex": 2,
+          "distractorHeadwords": [
+            "calculate",
+            "aggregate",
+            null,
+            "locate"
+          ],
+          "explanation": "ここでは観測データが許容される範囲を狭める意味。正確な値の算出や場所の特定を意味しない。",
+          "choiceIds": [
+            "article-education-europa-carbon-2023-constrain-en-option-1",
+            "article-education-europa-carbon-2023-constrain-en-option-2",
+            "article-education-europa-carbon-2023-constrain-en-option-3",
+            "article-education-europa-carbon-2023-constrain-en-option-4"
+          ],
+          "correctChoiceId": "article-education-europa-carbon-2023-constrain-en-option-3"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "constrain the range",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "範囲を絞る",
+            "nuanceJa": "可能な値や説明の範囲を制限する。",
+            "example": "The results constrain the range of possible ages.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "constrain a model",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "モデルに制約を与える",
+            "nuanceJa": "データなどによりモデルの条件を絞る。",
+            "example": "Additional observations may constrain the model.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "be constrained by ～",
+            "pattern": "受動態＋前置詞",
+            "meaningJa": "～によって制約される",
+            "nuanceJa": "制限をもたらす要因をbyで示す。",
+            "example": "The survey was constrained by the available funding.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "q1",
+      "question": "Why did the location of the carbon dioxide matter?",
+      "choices": [
+        "It matched a young region with signs of ocean exchange.",
+        "It marked a region covered by recently arrived meteorites.",
+        "It identified a place where organisms had been observed.",
+        "It proved that the entire surface had the same chemistry."
+      ],
+      "answerIndex": 0,
+      "evidenceParagraphIds": [
+        "p2",
+        "p3"
+      ],
+      "explanationJa": "P2は最近更新された地形での集中を内部炭素源の証拠と解釈し、P3は海が炭素源である可能性を示す。場所は内部との関連を考える根拠であり、生命や海中での形成の確定的証明ではない。",
+      "type": "literal",
+      "choiceIds": [
+        "article-education-europa-carbon-2023-q1-option-1",
+        "article-education-europa-carbon-2023-q1-option-2",
+        "article-education-europa-carbon-2023-q1-option-3",
+        "article-education-europa-carbon-2023-q1-option-4"
+      ],
+      "correctChoiceId": "article-education-europa-carbon-2023-q1-option-1"
+    },
+    {
+      "id": "q2",
+      "question": "What can reasonably be inferred from Webb’s failure to detect a plume?",
+      "choices": [
+        "Plumes have never existed anywhere on Europa’s surface.",
+        "Earlier Hubble studies must have recorded false results.",
+        "A plume could be present at a different observation time.",
+        "Europa’s surface cannot exchange material with its ocean."
+      ],
+      "answerIndex": 2,
+      "evidenceParagraphIds": [
+        "p5"
+      ],
+      "explanationJa": "P5は活動が変動し得るため不検出でもplumeを除外できないと述べる。別の時点で見える可能性は残るが、必ず見えるとも言えない。",
+      "type": "inference",
+      "choiceIds": [
+        "article-education-europa-carbon-2023-q2-option-1",
+        "article-education-europa-carbon-2023-q2-option-2",
+        "article-education-europa-carbon-2023-q2-option-3",
+        "article-education-europa-carbon-2023-q2-option-4"
+      ],
+      "correctChoiceId": "article-education-europa-carbon-2023-q2-option-3"
+    },
+    {
+      "id": "q3",
+      "question": "What did the non-detection still allow researchers to do?",
+      "choices": [
+        "Identify every substance present below the icy surface.",
+        "Limit the possible rate at which material was ejected.",
+        "Determine the exact number of living organisms below.",
+        "Establish that water never reaches the surface from below."
+      ],
+      "answerIndex": 1,
+      "evidenceParagraphIds": [
+        "p6"
+      ],
+      "explanationJa": "P6のconstrain the possible rateが根拠。不検出は放出率に上限を設ける助けになるが、不存在の証明ではない。",
+      "type": "literal",
+      "choiceIds": [
+        "article-education-europa-carbon-2023-q3-option-1",
+        "article-education-europa-carbon-2023-q3-option-2",
+        "article-education-europa-carbon-2023-q3-option-3",
+        "article-education-europa-carbon-2023-q3-option-4"
+      ],
+      "correctChoiceId": "article-education-europa-carbon-2023-q3-option-2"
+    }
+  ],
+  "opinion": {
+    "id": "opinion-1",
+    "prompt": "How should a science headline describe a promising but uncertain finding? Suggest one headline for these observations and explain which uncertainty it preserves.",
+    "optional": true,
+    "saveScope": "device"
+  },
+  "review": {
+    "factsCheckedAt": "2026-10-04",
+    "editorialParagraphIds": [],
+    "contentApproval": "approved-candidate-and-production",
+    "notes": "2023年の観測発表として編集。生命の発見・plume不存在・将来計画の現在化を避ける。新規例文は独自作成。usageは全件未確認。"
+  }
+}

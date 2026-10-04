@@ -1,109 +1,121 @@
-# 第6段階：学習データ同期の設計案
+# 第6段階：同期設計・簡略版
 
-2026-10-04。承認待ち。SQL・接続・同期処理はまだ実装しない。
+2026-10-04。再承認待ち。SQLファイル・同期実装はまだ作成しない。第5段階の記事実装を先に完了する。
 
-## 目的と境界
+## 前提
 
-スマホとPCで同じ学習データを使う。端末内保存と既存キー・既存項目を維持し、同期用ID・更新日時・送信待ち記録を追加する。教材はGitのmaterials内JSONのままでSupabaseへ送らない。学習時間の計測・記録ページ・管理画面は作らない。
+守る対象は他人からの学習データの読み書き。自分の成績を自分で変更することは脅威としない。user_id・RLS・ID・マイグレーション・利用者別ローカル保存は将来の多人数利用に対応させる。教材はGitのJSONのまま。
 
-## テーブル定義
+## テーブル（全学習テーブルの共通列）
 
-公開スキーマの全テーブルでRLSを有効化。以下のuser_idはuuid NOT NULL、auth.users(id)を参照する。追加情報のpayloadは既存項目を失わないためのjsonb。日時はtimestamptz、モードはtextでja/enにCHECK制約。
+user_id uuid NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE。
+server_updated_at timestamptz NOT NULL DEFAULT now()。クライアント値を採用せずINSERT/UPDATEの共通トリガーでDB側時刻を設定。
+modeはtext、ja/enのCHECK制約。日時はtimestamptz。device_sequenceと時計補正は作らない。
 
-| テーブル | 列・型 | 一意制約／制約 | 同期ルール |
-|---|---|---|---|
-| answer_logs | user_id uuid, event_id uuid, session_id text, question_id text, word_id text nullable, mode text, selected_choice_id text nullable, correct boolean, skipped boolean, answered_at timestamptz, device_id uuid, device_sequence bigint, legacy_payload jsonb nullable, received_at timestamptz | PK(user_id,event_id)。skippedならselected_choice_idはNULL、correct=false。旧ログだけlegacy_payloadを許容 | 追記のみ。同じID・同じ内容の再送は既存行を返す。IDが同じで内容が違う場合はエラー。UPDATE/DELETE権限なし |
-| saved_words | user_id uuid, word_key text, catalog_word_id text nullable, payload jsonb, saved boolean, deleted_at timestamptz nullable, updated_at timestamptz, device_id uuid | PK(user_id,word_key) | 更新日時が新しい方。記事保存・手入力・語彙集保存を含む。保存解除はsaved=false、手入力語の削除はdeleted_at。削除記録を残して復活を防ぐ |
-| preferences | user_id uuid, setting_key text, value jsonb, updated_at timestamptz, device_id uuid | PK(user_id,setting_key)。mode/autoAdvance/dailyGoal/weeklyGoal/lastUnitにキーを限定。各valueを検証 | 設定項目ごとに新しい日時を採用。片方の端末の目標変更で、他方のモード変更を上書きしない |
-| unit_sessions | user_id uuid, session_id text, unit_id text, mode text, total smallint, correct smallint, completed_at timestamptz, device_id uuid | PK(user_id,session_id)。0<=correct<=total、完了したユニットのtotal=10 | 完了セッションの追記のみ。同ID・同内容の再送は成功、異内容は拒否。未完了・誤答だけ再試行したセットはベストに含めない |
-| unit_best_scores | user_id uuid, unit_id text, mode text, best_score smallint, best_session_id text, updated_at timestamptz | PK(user_id,unit_id,mode)。0<=best_score<=10。best_session_idは同一ユーザーのunit_sessionsを参照 | セッション追加のDBトリガーで最大値を反映。直接のクライアント更新は禁止。値は下がらない |
-| article_states | user_id uuid, article_id text, read boolean, read_at timestamptz nullable, updated_at timestamptz, device_id uuid | PK(user_id,article_id) | 更新日時が新しい方。既存の読了記録は維持 |
-| opinion_drafts | user_id uuid, article_id text, prompt_id text, body text, updated_at timestamptz, device_id uuid, deleted_at timestamptz nullable | PK(user_id,article_id,prompt_id) | 更新日時が新しい方。削除も記録を同期 |
-
-word_keyは現行アプリの見出し語の前後空白除去＋小文字化に合わせる。記事の出典・文脈・既存IDはpayloadに保持する。既存集計の重複排除定義を変更しない。
-
-学習時間は今回はテーブルを作らない。将来、user_id＋端末発行のevent_idを持つlearning_time_eventsを追加できる。現在のテーブルを変更する前提にしない。
-
-## RLSと書き込み権限
-
-全学習テーブルのSELECTはTO authenticated、USING ((select auth.uid()) = user_id AND private.is_allowed_user())。
-
-追記テーブルのINSERTはWITH CHECKで同じ所有者条件。UPDATE/DELETEは許可しない。可変テーブルのUPDATEはUSINGとWITH CHECKの両方に同じ条件を置く。anonにはテーブル権限を付けない。
-
-可変データの更新は、所有者を検査し、更新日時を比較するSECURITY INVOKERの同期関数を通す。PostgRESTで古い行を無条件upsertして新しい行を消す方式は使わない。比較と更新をDB内の1トランザクションで行う。直接UPDATEも新旧日時を検査するトリガーで保護する。
-
-best_scoresはSELECTのみ許可。所有者RLSの下で動くSECURITY INVOKERトリガーに必要な列だけINSERT/UPDATE権限を与え、直接変更はトリガーの内部更新以外拒否する。公開RPCに管理者権限を持たせない。実装時に、直接API呼び出しによるベストの改ざんを検証する。
-
-## 許可リスト：認証とデータアクセスの二重制限
-
-private.allowed_accounts：slot smallint PRIMARY KEY CHECK(slot=1), email text NOT NULL UNIQUE, user_id uuid UNIQUE NULLABLE, enabled boolean NOT NULL。最大1行。RLS有効。privateスキーマはData APIへ公開しない。実際のメールはユーザーがSQL Editorで設定し、Git・ログ・フロントには保存しない。
-
-1. Googleのみ有効化。メール/パスワード、匿名、その他プロバイダーは無効化。
-2. Before User Created Hookで、許可メールとの一致とGoogleプロバイダーを検査。不一致ならユーザー作成を拒否。
-3. Custom Access Token Hookで、既存ユーザーのログイン・トークン更新時も許可を検査。不一致ならトークン発行を拒否。既存の許可外ユーザーがいても新規登録制限だけをすり抜けない。
-4. Custom Access Token Hook内で、Google・許可メールを確認後、許可表のuser_idがNULLの場合だけ当該user_idへ原子的に紐付け、成功してからトークンを発行。既に紐付いたIDと違う場合は拒否。同じメールでも別user_idを自動で置換しない。初回RLSアクセスの時点で紐付けが完了している。
-5. RLSはauth.uid()の所有者条件に加え、許可user_idが現在も有効かをDBで確認。許可取消後に古いJWTを持っていても学習データを読めない。
-
-プロバイダー・メールの検査はSupabaseが管理するAuth情報を使い、ユーザーが書き換えられるuser_metadataを許可判定に使わない。トークン発行時はauth.usersとauth.identitiesのGoogle連携・確認済みメールを照合する。
-
-Auth HookはSECURITY INVOKER。supabase_auth_adminにフック実行と許可表の必要な読み書きだけを付与し、他ロールのフック実行をREVOKEする。RLSから許可リストを読むprivate.is_allowed_user()だけ、最小権限の専用所有者を使うSECURITY DEFINERとし、search_path固定・引数なし・auth.uid()検査・真偽値のみ返却。PUBLIC/anonの実行権限は削除する。アプリロールに許可表を直接公開しない。
-
-公開用接続ファイルにsupabaseUrlとsupabaseAnonKeyの空欄だけを用意する。ユーザーが設定する。service_role keyは使用しない。静的フロントでは設定値は公開されるため、秘密値をここへ入れない。Googleのclient secretはSupabase側に設定する。
-
-## 端末内の追加保存
-
-- 既存localStorageを正として残す。新しい同期メタデータキーにdevice_id、event_idの対応表、レコードごとの更新日時、outbox、移行結果を追加する。
-- 新しい回答は操作時にUUIDを1回発行して永続化。同じ回答の再送では発行し直さない。
-- 旧回答は移行時にUUIDを1回だけ付与し、対応表を保存。旧selectedIndexを削除せずlegacy_payloadとして保持。過去の選択肢を復元できない場合はselected_choice_id=NULL、旧ログであることを記録。架空のIDを付けない。
-- 既存データを上書きしてID形式を変更しない。旧session_idはtextで保持する。
-- 端末更新をローカルに確定後、即時に画面反映。outboxには対象レコードのIDと版を保存。書き込み途中の終了はローカルの変更検出で起動時にoutboxを復元する。
-- ネット接続を伴わないJSON書き出しに、既存値・同期メタデータ・形式バージョン・出力日時を含める。認証トークンや接続キーは含めない。
-
-## 同期と競合
-
-ログイン・起動・フォアグラウンド復帰・通信復帰・学習操作後に同期。onlineフラグだけで成功扱いしない。実際の応答を確認する。バックグラウンド中の常時同期は保証しない。端末内に保存し、次回起動・復帰で再送する。
-
-1. 未送信のIDと版をスナップショット。
-2. 追記・日時比較の同期関数へ送信。成功したID/版だけoutboxから除去。送信中に編集された次の版は残す。
-3. クラウドの全行をページ分割で取得（PoC）。削除記録も取得。新しいレコードをローカルへ統合。
-4. 途中失敗なら未送信を保持し、失敗状態を表示。指数バックオフで再送。ユーザーの「再同期」も用意。
-
-回答ログは受信順ではなく、answered_at → device_id → device_sequence → event_idの昇順に統合したコピーを既存の状態算出へ渡す。同一端末・同一日時は端末内の操作順、別端末・同一日時はdevice_idで固定。device_sequenceは端末ごとに永続化する単調増加番号。旧ログには元の配列順で番号を一度だけ付与する。既存項目を削除せず、再取得した旧回答が末尾に追加されて最新扱いになることを防ぐ。wordStatus/reviewCandidatesの定義自体は変更しない。
-
-日時はUTC。更新日時が等しい場合はdevice_idの固定順で決着し、両端末で同じ結果にする。クライアント時計のずれはオンライン時にサーバー時刻との差を取って補正する。オフライン時の時計の完全一致は保証できないので、値を黙って消さず移行前バックアップとJSON書き出しを保持する。ベストスコアだけは更新日時によらず最大値を優先。
-
-## 初回移行
-
-アカウントメニューで「回答○件／保存語○件／手入力語○件／設定○件／完了セッション○件／読了○件／意見○件」を先に表示。設定の件数は設定キー単位、保存語と手入力語は重なる可能性があるため内訳として表示し、二重に合計しない。
-
-ローカルのJSONバックアップと移行対象ID一覧を先に保存する。移行中も学習を止めず、以後の更新は別のoutboxとして保持。クラウドに既存データがある場合は、全体件数が同じになるとは限らない。移行スナップショットの各IDがクラウドに存在する件数が送信前の件数と一致することを照合する。追記ログは内容一致も照合。可変データは、競合でより新しい版が採用された件数を別に示す。件数不一致・未応答・途中失敗を移行完了にしない。
-
-## 状態遷移
-
-| 内部状態 | アカウントメニュー表示 | 次の遷移 |
+| テーブル | 固有列・型 | 主キー・一意制約 |
 |---|---|---|
-| 未ログイン | ログインの導線 | ログイン→移行件数確認。学習は継続 |
-| 移行確認待ち | 移行する件数 | 実行→移行中。未実行ならローカルのまま |
-| 未送信・オフライン | 未送信あり | ログイン済みで接続回復→同期中 |
-| 同期中 | 同期中 | 送信・取得・照合成功→同期済み／新しい未送信があれば次の同期 |
-| 同期済み | 同期済み・最終同期日時 | 編集→未送信あり。起動・復帰→取得 |
-| 同期失敗 | 同期失敗・再同期 | 再試行→同期中。outboxとローカルを保持 |
-| 認証期限切れ／許可取消 | 再ログインの導線／アクセス不可 | 同期停止。ローカル学習・書き出しは継続 |
+| answer_logs | event_id uuid, session_id text, question_id text, word_id text NULL, mode text, selected_choice_id text NULL, correct boolean, skipped boolean, answered_at timestamptz, legacy_payload jsonb NULL | PK(user_id,event_id) |
+| saved_words | word_key text, catalog_word_id text NULL, payload jsonb, saved boolean, deleted_at timestamptz NULL, updated_at timestamptz | PK(user_id,word_key) |
+| preferences | setting_key text, value jsonb, updated_at timestamptz | PK(user_id,setting_key)。設定キーと型を検証 |
+| unit_sessions | session_id text, unit_id text, mode text, total smallint, correct smallint, completed_at timestamptz | PK(user_id,session_id)。0<=correct<=total、ユニット完了はtotal=10 |
+| article_states | article_id text, read boolean, read_at timestamptz NULL, updated_at timestamptz | PK(user_id,article_id) |
+| opinion_drafts | article_id text, prompt_id text, body text, updated_at timestamptz, deleted_at timestamptz NULL | PK(user_id,article_id,prompt_id) |
 
-同期状態はアカウントメニューだけに表示。通常の学習画面には出さない。
+unit_best_scoresテーブルと専用トリガーは作らない。unit_sessionsの完了記録から、unit_id＋modeごとにMAX(correct)を読み込み時に算出する。
 
-## 承認後の提出と検証
+private.allowed_emails：email text PRIMARY KEY、enabled boolean NOT NULL DEFAULT true、server_updated_at timestamptz DEFAULT now()。複数件登録可。メールは小文字化して格納する。user_id、slot、紐付け処理はなし。非公開スキーマ、RLS有効、一般利用者の読み書きは禁止。Auth Hook実行ロールに必要なSELECT権限だけ与える。
 
-SQLファイル、空の接続設定、Google・Auth Hookの設定手順を作成。SupabaseへのSQL実行と値の設定はユーザーが行う。
+## 認証とRLS
 
-検証：許可外の新規・既存アカウント拒否、別user_idアクセス拒否、全表RLS、キー漏洩なし、切断中の操作と再送、同IDの重複なし、旧ログの移行件数一致、端末間の保存・解除・回答・設定・ベスト・読了・下書き、JSON書き出し、競合日時同値・途中終了・再試行。2つの実端末で確認できないものは未確認と報告し、ブラウザ2画面を実端末検証とは呼ばない。
+Googleだけ有効にする。Before User Created Hookで、許可表の有効メールとGoogleプロバイダーを確認し、未許可ならユーザー作成を拒否する。user_metadataで許可を判定しない。
 
-## 公式資料（2026-10-04確認）
+Custom Access Token Hook、RLS内の許可表確認、private.is_allowed_user()、SECURITY DEFINER、許可表とuser_idの紐付けは作らない。許可表は登録可否だけを制御する。許可表から消しても既存アカウントのログインを禁止する機能にはならない。既存アカウントの停止・削除は将来の別手段で行う。
 
-- [Auth Hooks](https://supabase.com/docs/guides/auth/auth-hooks)：Before User CreatedとCustom Access TokenはFree/Proで利用可能。
-- [Before User Created](https://supabase.com/docs/guides/auth/auth-hooks/before-user-created-hook)：登録時の拒否。
-- [Custom Access Token](https://supabase.com/docs/guides/auth/auth-hooks/custom-access-token-hook)：トークン発行前の検査。
-- [RLS](https://supabase.com/docs/guides/database/postgres/row-level-security)：所有者条件、SELECT/INSERT/UPDATEのポリシー。
-- [Google](https://supabase.com/docs/guides/auth/social-login/auth-google)：Google OAuth設定。
+全学習テーブルでRLS有効。
+SELECT: TO authenticated USING ((select auth.uid()) = user_id)
+INSERT: TO authenticated WITH CHECK ((select auth.uid()) = user_id)
+UPDATE: TO authenticated USING ((select auth.uid()) = user_id) WITH CHECK ((select auth.uid()) = user_id)
+DELETE: 必要な本人の削除について同じUSING所有者条件。通常の保存解除は物理削除せずtombstone。
 
-Supabaseの変更履歴を確認。直近のPostgresマイナー更新の破壊的変更は既存の特殊インデックス・暗号化方式に関するもの。本設計はそれらを利用しない。
+追記テーブルの通常同期はINSERTのみ。本人改ざんを防ぐ追加関数・改ざん検出は作らない。anonに学習テーブルの権限を付けない。
+
+## 設定の順序
+
+承認後の手順書には次の順序を明記する。
+1. マイグレーションを適用し、Before User Created Hookを設定する（許可表が空なら全員を拒否）。
+2. 許可メールを登録する（実値はユーザーが設定しGit・ログへ入れない）。
+3. Googleログインを有効化する。他のプロバイダーを無効化する。
+
+Googleログインを先に有効化すると、Hook設定まで一時的に誰でも登録できる。既存の許可外ユーザーがいないことも有効化前に確認する。
+
+接続情報は空の設定ファイルから読む。フロントは公開用anon keyのみ。service_roleの実値はコード・Git・ログに置かない。Google client secretはSupabase側へ設定する。
+
+## 更新規則
+
+追記ログと完了セッション: ON CONFLICT DO NOTHING。同IDの再送は成功扱い。内容差異のエラー判定は作らない。
+
+可変データ: ON CONFLICT DO UPDATE ... WHERE existing.updated_at < excluded.updated_at。新しい端末更新日時だけを採用。同時刻は既存行を保持し、読み戻しで両端末を揃える。時計補正はしない。
+
+saved_wordsのword_keyは既存の前後空白除去＋小文字化に合わせる。保存解除・語の削除・意見の削除は削除記録を残し、他端末で復活させない。設定は項目別に更新する。
+
+回答ログはanswered_at → event_idの昇順に並べたコピーを既存の状態計算へ渡す。既存の回答項目を削除しない。旧回答のIDは移行時に1回だけ発行・保存する。
+
+## 静的フロントからの条件付きupsert：実装前に確認する点
+
+SQLのON CONFLICT ... WHEREはPostgresで可能だが、Supabase標準のブラウザ用upsert APIは競合キーと更新/無視の指定を提供し、このSQL条件を直接渡すパラメーターはない。専用同期RPCは作らない方針を守るため、本設計の推奨は、通常upsertと共通BEFORE UPDATEトリガーを組み合わせ、OLD.updated_at >= NEW.updated_atならRETURN NULLとすること。古い更新を無視する意味は指定SQLと同じ。server_updated_at更新トリガーとまとめ、追加APIサーバー・専用同期関数を作らない。
+
+これはSQLのWHEREを直接実行する案とは実現方法が異なるため、承認前に黙って採用しない。字句どおりのSQLを必須とする場合は、SQLを実行するバックエンドが必要になり、構成が増える。
+
+## 差分取得
+
+各user_id・各テーブルに別のカーソルを保存。初回は全件をページ分割で取得。それ以降はserver_updated_atを基準に取得し、端末updated_atをカーソルに使わない。送信と全ページ取得・ローカル保存が成功した後だけカーソルを進める。送信レスポンスだけでカーソルを進めない。
+
+指定の厳密な「server_updated_at > 前回の最大値」だけでは、同じ受信日時を持つ行や、古い時刻を持ったトランザクションが後からコミットした行を取りこぼす可能性がある。default now()はトランザクション開始時刻でありコミット時刻ではない。
+
+推奨する最小の補完は、境界を>=で再取得してIDで重複排除し、起動時に1日1回の全件照合を行うこと。通常同期は差分のままで、常に全件取得にはしない。同値境界の再取得でページ分割中の取りこぼしを防ぎ、遅れてコミットされた行は全件照合で回復する。追加テーブル・連番・専用同期関数は不要。絶対的な即時検出の保証はせず、最終整合性を回復する。
+
+この補完も指定の>とは異なるため、再承認対象として明示する。>だけを採用する場合は、差分の完全性を保証できない。
+
+## ローカル保存と利用者切替
+
+利用者ごとに english-notes.user.<auth.uid()>.* の名前空間を使う。学習値・outbox・同期カーソル・移行記録をすべて分離する。既存のキーとデータは移行前バックアップとして維持し、突然削除しない。
+
+未ログイン時は english-notes.guest.* に保存。初回ログインではゲストデータの件数を表示し、明示的な取り込み操作でログイン先へ移す。別アカウントへの自動取り込みは禁止。成功したゲストスナップショットには取り込み済みを記録し、同じスナップショットを次の利用者へ自動で再移行しない。
+
+ログアウト時は進行中送信を停止し、表示中の利用者データ・メモリキャッシュを外してゲスト名前空間へ切り替える。未送信データは本人の名前空間に残す。再ログインで再開する。他人のログインで以前の利用者のoutboxを送らない。ゲスト学習も継続できる。
+
+別利用者でログインしたときは、そのuser_idの保存値だけを読む。利用者切替中の非同期応答は開始時user_idと現在user_idを比較し、異なる画面に適用しない。IDを変えて送信する処理は作らない。
+
+ローカル分離はアプリ内の混在防止。端末を操作できる人からブラウザ保存領域を暗号化して隠す機能は今回作らない。
+
+## オフライン・移行・書き出し
+
+全操作は端末内へ先に保存・即時反映。outboxを永続化し、ログイン・接続回復・起動/復帰時に再送する。成功した版だけoutboxから除去し、途中失敗と未送信は保持する。
+
+初回移行前にJSONバックアップと内訳件数を提示する。移行対象IDがクラウドに存在する件数と照合し、不一致は移行完了にしない。クラウド全体には既存データがあり得るので、全体件数の単純一致では判定しない。
+
+JSON書き出しは本人の現在の名前空間だけを対象にし、形式版・日時・学習データ・未送信データを含める。JWT・接続キーは含めない。
+
+同期状態はアカウントメニュー内のみ。未ログイン → 移行件数確認 → 未送信あり → 同期中 → 同期済み。失敗は同期失敗として表示し、未送信を残して再試行する。通信停止中もローカル学習を継続する。
+
+## マイグレーションと削除手段
+
+DBの構造・関数・トリガー・RLS変更はすべてsupabase/migrationsの番号付きSQLで管理する。承認後、Supabase CLIのmigration newで順序番号付きファイルを生成し、ファイルから適用する。ダッシュボードでテーブルを手作業変更することを前提にしない。Auth Hook・プロバイダー設定は設定手順に分ける。許可メールの実値はリポジトリ外の入力として扱う。
+
+同期後の段階で「学習データのみ削除」と「アカウントも削除」を実装できるようにする。学習データ削除は本人のRLS下で行う。アカウント削除は本人の認証を検証するサーバー処理からAuth管理APIを使い、auth.users削除によりFK CASCADEで学習行を削除する。管理権限はサーバーの秘密設定のみ。クライアントへ置かない。
+
+削除後の旧端末outboxによる復活を防ぐため、学習データのみの削除段階ではユーザーごとのdata_generationと削除通知を追加するマイグレーションを設け、端末は世代更新時に旧outboxを破棄してローカル削除を反映する。今回の同期時点では削除ボタンを表示しない。アカウント削除後は旧JWT/旧user_idへの書き込みを許可しない。
+
+## 承認後の確認
+
+許可外登録拒否、別user_idの読み書き拒否、全テーブルRLS、同端末で利用者切替、オフライン再送、同ID重複なし、初回移行件数、保存解除の伝播、設定競合、server_updated_at境界、スマホ/PC実端末の相互反映、JSON書き出しを検証する。実端末で確認していない項目を完了扱いしない。
+
+## 一次資料
+
+- https://supabase.com/docs/guides/auth/auth-hooks/before-user-created-hook
+- https://supabase.com/docs/guides/database/postgres/row-level-security
+- https://supabase.com/docs/guides/api
+- https://docs.postgrest.org/en/v14/references/api/tables_views.html
+- https://www.postgresql.org/docs/current/functions-datetime.html
+
+再承認対象：通常upsert＋古い更新を無視する共通トリガー、差分の境界再取得＋日次全件照合。この2点を含む簡略設計の承認後にSQL・手順書を作る。同期実装は記事実装完了後。

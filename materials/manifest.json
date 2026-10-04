@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "materials": [
+    {
+      "id": "advanced-vocabulary-c1-01",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-04T00:00:00+09:00",
+      "path": "materials/vocabulary/c1-unit-01.json",
+      "sha256": "1d241d2fb609c78dad6c06f50235e841be0bc49557dfaad75f4c622bba776fbd"
+    },
+    {
+      "id": "article-culture-koji-skills-2024",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-04T00:00:00+09:00",
+      "path": "materials/articles/culture-koji.json",
+      "sha256": "94e536ae414aa8d9024f9bdd87830df2ebf50d448f08fa338ac3c20607638ef5"
+    },
+    {
+      "id": "article-education-europa-carbon-2023",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-04T00:00:00+09:00",
+      "path": "materials/articles/education-europa.json",
+      "sha256": "462788574e937bff010d4cf133fda0af930a14ac96a9243312a70bfe80ca2b7a"
+    },
+    {
+      "id": "article-work-four-day-week-2022",
+      "kind": "article",
+      "version": 2,
+      "publishedAt": "2026-10-04T00:00:00+09:00",
+      "path": "materials/articles/work-four-day-week.json",
+      "sha256": "174cbc5e37a597ac1c8fe4faaf344a5d7a2567e60d229b0cf24a842b1ceea380"
+    }
+  ]
+}

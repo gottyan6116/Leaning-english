@@ -1,6 +1,7 @@
 const test=require('node:test');
 const assert=require('node:assert/strict');
-const {QuizStore,QuizSession,chooseReview,scoreForMode,validateItem}=require('../quiz-core.js');
+const {QuizStore,QuizSession:ProductionQuizSession,chooseReview,scoreForMode,validateItem}=require('../quiz-core.js');
+class QuizSession extends ProductionQuizSession{constructor(items,mode,store,now){super(items,mode,store,now,()=>0.999999)}}
 const item=(id)=>({id,headword:id,meaning:'説得力のある',definition:'persuasive',example:'A persuasive argument.',questions:{ja:{choices:['説得力のある','決められない','暫定的な','曖昧な'],answerIndex:0},en:{choices:['persuasive','indecisive','tentative','ambiguous'],answerIndex:0}}});
 const bank=Array.from({length:30},(_,i)=>item('word-'+i));
 test('next set excludes the preceding set before ranking remaining mistakes',()=>{
