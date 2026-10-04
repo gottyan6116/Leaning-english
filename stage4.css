@@ -1,0 +1,72 @@
+/* Stage 4 changes palette, typography and finish only. */
+body { background:var(--color-bg); color:var(--color-text); font-size:var(--font-size-body); font-weight:var(--font-weight-regular); }
+button,input,select { font-weight:var(--font-weight-regular); }
+strong,b,h1,h2,h3,.brand,.side-brand,.navbtn.active { font-weight:var(--font-weight-bold)!important; }
+main#app h1,.qs-complete h1 { font-size:var(--font-size-page-title); }
+main#app h2,.home-section-head h2,.qs-result h2,.settings-header h2,.qs-dialog h2 { font-size:var(--font-size-section-title); }
+main#app h3 { font-size:var(--font-size-body); }
+.articlebody,.transcript { font-size:var(--font-size-body); }
+small,.muted,.meta,.eyebrow,.home-greeting small,.home-review-caption,.home-resume-row small,.home-note-row small,.vocabulary-label small,.source,.player p,.qs-count,.qs-example,.qs-sheet p,.qs-dialog p,.qs-score p,.qs-wrongrow small { font-size:var(--font-size-caption); }
+.word-state,.saved-filters button,.qs-menubutton span,.qs-option .qs-number,nav#nav .navbtn,.side-links .navbtn,.settings-fields label,.qs-status,.qs-toast { font-size:var(--font-size-caption); }
+.vocabulary-label strong,.unit-score,.home-resume-row strong,.home-note-row strong,.qs-menubutton { font-size:var(--font-size-body)!important; }
+.qs-root { font-size:var(--font-size-body); }
+.qs-target,.has-sheet .qs-target { font-size:var(--font-size-target); font-weight:var(--font-weight-bold); }
+.textbtn,a,.vocabulary-tabs button[aria-selected="true"],.level-switch button[aria-selected="true"],.qs-menubutton span { color:var(--color-primary-text); }
+.vocabulary-tabs button[aria-selected="true"] { border-bottom-color:var(--color-primary-text); }
+:focus-visible,.qs-root button:focus-visible { outline-color:var(--color-primary-text); }
+.bottomnav { backdrop-filter:none; background:var(--color-surface); }
+.navbtn.active,.side-links .navbtn.active,nav#nav .navbtn.active { color:var(--color-primary); }
+.navbtn.active>span { color:var(--color-primary-text); }
+.side-links .navbtn.active { background:var(--color-primary-soft); }
+.qs-progress i,.track i { background:var(--color-primary); }
+.home-primary,.primary,.qs-root .qs-next,.settings-actions button[type="submit"] {
+ background:var(--color-primary)!important; color:var(--color-on-primary)!important;
+ border-radius:var(--radius-button); font-size:var(--font-size-primary-label)!important; font-weight:var(--font-weight-bold)!important;
+ box-shadow:var(--shadow-primary); transition:transform var(--duration-press) var(--motion-easing),box-shadow var(--duration-press) var(--motion-easing),background var(--duration-feedback) var(--motion-easing);
+}
+.home-primary:hover,.primary:hover,.qs-root .qs-next:hover,.settings-actions button[type="submit"]:hover { background:var(--color-primary-hover)!important; filter:none; }
+.home-primary:active,.primary:active,.qs-root .qs-next:not(:disabled):active,.settings-actions button[type="submit"]:active { transform:translateY(4px); box-shadow:none; }
+.qs-root .qs-option,.qs-root .qs-secondary,.settings-actions button:not([type="submit"]),.player .play {
+ background:var(--color-surface); color:var(--color-text)!important; border:1px solid var(--color-border); border-radius:var(--radius-button);
+ box-shadow:var(--shadow-secondary); transition:transform var(--duration-press) var(--motion-easing),box-shadow var(--duration-press) var(--motion-easing),background var(--duration-feedback) var(--motion-easing);
+}
+.qs-root .qs-option:not(:disabled):active,.qs-root .qs-secondary:active,.settings-actions button:not([type="submit"]):active,.player .play:active { transform:translateY(2px); box-shadow:none; }
+.qs-root .qs-option.correct { background:var(--color-correct-soft); color:var(--color-correct-text)!important; border-color:var(--color-correct); box-shadow:var(--shadow-choice-correct); }
+.qs-root .qs-option.wrong { background:var(--color-wrong-soft); color:var(--color-wrong-text)!important; border-color:var(--color-wrong-text); box-shadow:var(--shadow-choice-wrong); }
+.qs-option.correct .qs-number,.qs-feedback { color:var(--color-correct-text); }
+.qs-option.wrong .qs-number,.qs-feedback.wrong,.qs-status { color:var(--color-wrong-text); }
+.qs-option.qs-wrong-enter { animation:qs-wrong-shake var(--duration-feedback) var(--motion-easing) 1; }
+.home-review,.vocabulary-group,.qs-card,.qs-sheet,.qs-dialog,dialog#app-settings,.flash,.wordmeaning,.player {
+ border-radius:var(--radius-surface); box-shadow:var(--shadow-surface);
+}
+.qs-card { border:0; }
+.qs-sheet { border-radius:var(--radius-surface) var(--radius-surface) 0 0; animation:none; }
+.settings-fields input:not([type="checkbox"]),.settings-fields select,.player select { border-radius:var(--radius-input); }
+.settings-fields input[type="checkbox"] { accent-color:var(--color-primary-text); }
+.qs-save.saved,.qs-wrongrow.saved .qs-icon { color:var(--color-primary-text)!important; }
+.qs-save.saved .qs-icon,.qs-wrongrow.saved .qs-icon { fill:var(--color-primary-soft); }
+.word-state-new { background:var(--color-bg); color:var(--color-text-sub); }
+.word-state-review { background:var(--color-primary-soft); color:var(--color-primary-text); }
+.word-state-learning { background:var(--color-learning-soft); color:var(--color-learning-text); }
+.word-state-retained { background:var(--color-correct-soft); color:var(--color-correct-text); }
+.filters button.active { background:var(--color-primary-soft); color:var(--color-primary-text); }
+.cover,.cover.two,.cover.three { background:var(--color-border); color:var(--color-text); }
+.cover:after,.cover.two:after,.cover.three:after { border-color:var(--color-surface); box-shadow:none; }
+.calendar .calday.current { box-shadow:none; outline:1px solid var(--color-border); }
+.calendar .calday.level3,.day.done i { background:var(--color-text-sub); color:var(--color-surface); }
+.day.today i { box-shadow:none; }
+.choice.correct { background:var(--color-correct-soft); color:var(--color-correct-text); box-shadow:none; }
+.choice.wrong { background:var(--color-wrong-soft); color:var(--color-wrong-text); }
+.vocabulary-row,.home-resume-row,.home-note-row,.home-article-row,.qs-wrongrow,.qs-menubutton,.navbtn,.textbtn,.qs-circle,.qs-plain,.tabs button,.level-switch button,.saved-filters button,.word-state { box-shadow:none; }
+.qs-root .qs-next:disabled { opacity:1; background:var(--color-border)!important; color:var(--color-text-sub)!important; box-shadow:none; }
+.qs-skip:disabled { opacity:1; color:var(--color-text-muted)!important; }
+.home-review-label,.home-review-count span,.home-review-complete>span,.account-button,.side-account { color:var(--color-text-sub); }
+@keyframes qs-wrong-shake {
+ 0%,100% { transform:translateX(0); }
+ 25% { transform:translateX(calc(-1 * var(--motion-wrong-distance))); }
+ 75% { transform:translateX(var(--motion-wrong-distance)); }
+}
+@media(prefers-reduced-motion:reduce) {
+ *,*::before,*::after { animation:none!important; transition:none!important; }
+ .home-primary:active,.primary:active,.qs-root .qs-next:active,.qs-root .qs-option:active,.qs-root .qs-secondary:active,.settings-actions button:active,.player .play:active { transform:none!important; }
+}

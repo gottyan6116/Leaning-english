@@ -17,7 +17,7 @@ body { font-family: var(--stage3-font); }
 .side-nav { display:none; }
 main#app { width:100%; max-width:var(--stage3-main-width); padding:16px 24px calc(88px + env(safe-area-inset-bottom)); }
 body[data-view="article"] main#app { max-width:var(--stage3-article-width); }
-main#app h1 { font-size:27px; font-weight:800; margin-bottom:12px; }
+main#app h1 { font-size:27px; font-weight:700; margin-bottom:12px; }
 nav#nav.bottomnav { height:calc(var(--stage3-tab-height) + env(safe-area-inset-bottom)); padding:0 8px env(safe-area-inset-bottom); gap:0; justify-content:space-around; align-items:center; background:var(--paper); box-shadow:none; }
 nav#nav .navbtn { flex:1; min-width:0; min-height:44px; padding:4px; gap:3px; font-size:10px; color:var(--muted); }
 nav#nav .navbtn.active { color:var(--blue); }
@@ -28,14 +28,14 @@ nav#nav .navbtn .ico { width:21px; height:21px; }
 .home-review { background:var(--stage3-surface); border-radius:16px; padding:26px; }
 .home-review-label { font-size:13px; font-weight:700; color:var(--muted); }
 .home-review-count { display:flex; align-items:baseline; gap:9px; margin:10px 0 8px; }
-.home-review-count strong { font-size:42px; font-weight:800; line-height:1.2; letter-spacing:-1px; }
+.home-review-count strong { font-size:42px; font-weight:700; line-height:1.2; letter-spacing:-1px; }
 .home-review-count span { font-size:14px; color:var(--muted); }
 .home-review-caption { color:var(--muted); font-size:13px; line-height:1.8; margin:12px 0 20px; }
 .home-primary { min-height:52px; width:100%; background:var(--blue); color:var(--stage3-surface); font-weight:700; border-radius:12px; padding:14px 20px; display:flex; align-items:center; justify-content:center; gap:12px; }
 .home-primary:hover { filter:brightness(.97); }
 .home-section { margin-top:32px; }
 .home-section-head { max-width:none; display:flex; justify-content:space-between; align-items:center; padding:0; margin:0 0 16px; gap:12px; }
-.home-section-head h2 { font-size:16px; font-weight:800; }
+.home-section-head h2 { font-size:16px; font-weight:700; }
 .home-resume-row,.home-note-row { display:flex; align-items:center; gap:14px; padding:16px 0; width:100%; text-align:left; background:none; color:var(--ink); border-radius:0; }
 .home-resume-row>span:not(.action-chevron),.home-note-row>span:not(.action-chevron) { flex:1; min-width:0; }
 .home-resume-row strong,.home-note-row strong { display:block; font-size:14px; font-weight:700; }
@@ -64,7 +64,7 @@ body.quiz-active .side-nav,body.quiz-active .app-header { display:none!important
 @media(min-width:1024px) {
   body { padding-left:var(--stage3-nav-width); }
   .side-nav { display:flex; flex-direction:column; position:fixed; left:0; top:0; bottom:0; width:var(--stage3-nav-width); padding:28px 12px 20px; background:var(--stage3-surface); z-index:4; }
-  .side-brand { font-size:17px; font-weight:800; padding:0 10px 32px; display:flex; align-items:center; gap:8px; }
+  .side-brand { font-size:17px; font-weight:700; padding:0 10px 32px; display:flex; align-items:center; gap:8px; }
   .side-brand .brandmark { width:26px; height:26px; font-size:18px; border-radius:8px; }
   .side-links { display:grid; gap:5px; }
   .side-links .navbtn { display:flex; flex-direction:row; align-items:center; gap:11px; font-size:12px; min-width:0; min-height:46px; padding:11px 12px; border-radius:9px; color:var(--muted); text-align:left; }
@@ -91,7 +91,7 @@ body.quiz-active .side-nav,body.quiz-active .app-header { display:none!important
 html { scroll-padding-bottom:calc(var(--stage3-tab-height) + env(safe-area-inset-bottom) + 32px); }
 main#app { padding-bottom:calc(var(--stage3-tab-height) + env(safe-area-inset-bottom) + 48px); }
 .vocabulary-tabs { display:flex; gap:24px; margin:18px 0 24px; border-bottom:1px solid var(--color-border); }
-.vocabulary-tabs button { padding:12px 0; border-radius:0; background:none; color:var(--color-text-sub); font-weight:700; border-bottom:2px solid transparent; }
+.vocabulary-tabs button { padding:12px 0; border-radius:0; background:none; color:var(--color-text-sub); font-weight:700; border-bottom:2px solid var(--color-clear); }
 .vocabulary-tabs button[aria-selected="true"] { color:var(--color-accent); border-bottom-color:var(--color-accent); }
 .saved-filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px; }
 .saved-filters button { min-height:36px; padding:7px 10px; background:none; color:var(--color-text-sub); border-radius:20px; font-size:12px; }
