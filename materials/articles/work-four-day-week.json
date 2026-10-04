@@ -609,7 +609,17 @@
         "article-work-four-day-week-2022-q1-option-3",
         "article-work-four-day-week-2022-q1-option-4"
       ],
-      "correctChoiceId": "article-work-four-day-week-2022-q1-option-1"
+      "correctChoiceId": "article-work-four-day-week-2022-q1-option-1",
+      "evidence": [
+        {
+          "paragraphId": "p1",
+          "text": "Participants committed to reducing working time by 20% while keeping pay unchanged.",
+          "highlights": [
+            "reducing working time by 20%",
+            "keeping pay unchanged"
+          ]
+        }
+      ]
     },
     {
       "id": "q2",
@@ -632,7 +642,24 @@
         "article-work-four-day-week-2022-q2-option-3",
         "article-work-four-day-week-2022-q2-option-4"
       ],
-      "correctChoiceId": "article-work-four-day-week-2022-q2-option-1"
+      "correctChoiceId": "article-work-four-day-week-2022-q2-option-1",
+      "evidence": [
+        {
+          "paragraphId": "p5",
+          "text": "Cambridge reported an average increase of 1.4% during the trial for the 23 organisations able to provide revenue data.",
+          "highlights": [
+            "1.4%",
+            "23 organisations"
+          ]
+        },
+        {
+          "paragraphId": "p5",
+          "text": "That figure does not describe all 61 participants.",
+          "highlights": [
+            "all 61 participants"
+          ]
+        }
+      ]
     },
     {
       "id": "q3",
@@ -655,7 +682,17 @@
         "article-work-four-day-week-2022-q3-option-3",
         "article-work-four-day-week-2022-q3-option-4"
       ],
-      "correctChoiceId": "article-work-four-day-week-2022-q3-option-2"
+      "correctChoiceId": "article-work-four-day-week-2022-q3-option-2",
+      "evidence": [
+        {
+          "paragraphId": "p5",
+          "text": "Interviews also revealed concerns: some employees worried about more intense workloads, while others felt that less informal conversation could reduce opportunities for new ideas.",
+          "highlights": [
+            "less informal conversation",
+            "opportunities for new ideas"
+          ]
+        }
+      ]
     }
   ],
   "opinion": {

@@ -1,6 +1,6 @@
 # 第6段階：同期設計・簡略版
 
-2026-10-04。再承認待ち。SQLファイル・同期実装はまだ作成しない。第5段階の記事実装を先に完了する。
+2026-10-04。ユーザー修正を反映して承認済み。記事の仕上げ完了後、番号付きSQL2本と手順書を作成。実Supabase適用・接続設定はユーザーが行う。フロント同期の実装はまだ行わない。
 
 ## 前提
 
@@ -14,7 +14,7 @@ modeはtext、ja/enのCHECK制約。日時はtimestamptz。device_sequenceと時
 
 | テーブル | 固有列・型 | 主キー・一意制約 |
 |---|---|---|
-| answer_logs | event_id uuid, session_id text, question_id text, word_id text NULL, mode text, selected_choice_id text NULL, correct boolean, skipped boolean, answered_at timestamptz, legacy_payload jsonb NULL | PK(user_id,event_id) |
+| answer_logs | event_id uuid, session_id text, question_id text, word_id text NULL, article_id text NULL, kind text (vocabulary/comprehension), material_version integer NULL, mode text, selected_choice_id text NULL, correct_choice_id text NULL, correct boolean, skipped boolean, answered_at timestamptz, legacy_payload jsonb NULL | PK(user_id,event_id) |
 | saved_words | word_key text, catalog_word_id text NULL, payload jsonb, saved boolean, deleted_at timestamptz NULL, updated_at timestamptz | PK(user_id,word_key) |
 | preferences | setting_key text, value jsonb, updated_at timestamptz | PK(user_id,setting_key)。設定キーと型を検証 |
 | unit_sessions | session_id text, unit_id text, mode text, total smallint, correct smallint, completed_at timestamptz | PK(user_id,session_id)。0<=correct<=total、ユニット完了はtotal=10 |
@@ -41,7 +41,7 @@ DELETE: 必要な本人の削除について同じUSING所有者条件。通常�
 
 ## 設定の順序
 
-承認後の手順書には次の順序を明記する。
+手順書はdocs/stage6-supabase-setup.md。次の順序を明記した。
 1. マイグレーションを適用し、Before User Created Hookを設定する（許可表が空なら全員を拒否）。
 2. 許可メールを登録する（実値はユーザーが設定しGit・ログへ入れない）。
 3. Googleログインを有効化する。他のプロバイダーを無効化する。
@@ -60,21 +60,32 @@ saved_wordsのword_keyは既存の前後空白除去＋小文字化に合わせ�
 
 回答ログはanswered_at → event_idの昇順に並べたコピーを既存の状態計算へ渡す。既存の回答項目を削除しない。旧回答のIDは移行時に1回だけ発行・保存する。
 
-## 静的フロントからの条件付きupsert：実装前に確認する点
+## 共通更新トリガー（承認済み）
 
-SQLのON CONFLICT ... WHEREはPostgresで可能だが、Supabase標準のブラウザ用upsert APIは競合キーと更新/無視の指定を提供し、このSQL条件を直接渡すパラメーターはない。専用同期RPCは作らない方針を守るため、本設計の推奨は、通常upsertと共通BEFORE UPDATEトリガーを組み合わせ、OLD.updated_at >= NEW.updated_atならRETURN NULLとすること。古い更新を無視する意味は指定SQLと同じ。server_updated_at更新トリガーとまとめ、追加APIサーバー・専用同期関数を作らない。
+対象はsaved_words、preferences、article_states、opinion_draftsの4表。BEFORE UPDATEでNEW.updated_at <= OLD.updated_atならRETURN NULL。行全体を更新せず、既存server_updated_atも変えない。新しい場合は端末のupdated_atを保持し、server_updated_atだけnow()で上書きする。BEFORE INSERTもserver_updated_atをDB時刻に設定する。可変表は標準upsert、専用RPC・SECURITY DEFINER関数は作らない。
 
-これはSQLのWHEREを直接実行する案とは実現方法が異なるため、承認前に黙って採用しない。字句どおりのSQLを必須とする場合は、SQLを実行するバックエンドが必要になり、構成が増える。
+| 表 | 新しいupdated_atの場合に受け入れる内容列 |
+|---|---|
+| saved_words | catalog_word_id、payload、saved、deleted_at |
+| preferences | value（mode / autoAdvance / daily / weekly） |
+| article_states | read、read_at |
+| opinion_drafts | body、deleted_at |
 
-## 差分取得
+user_idと各主キーは同期で変更せず、同じIDへupsertする。更新日時は端末の比較値のまま、サーバー受信日時と混同しない。
 
-各user_id・各テーブルに別のカーソルを保存。初回は全件をページ分割で取得。それ以降はserver_updated_atを基準に取得し、端末updated_atをカーソルに使わない。送信と全ページ取得・ローカル保存が成功した後だけカーソルを進める。送信レスポンスだけでカーソルを進めない。
+answer_logs・unit_sessionsはON CONFLICT DO NOTHINGで追記。管理側で更新する場合もserver_updated_atをDB側で設定する共通トリガーを持つ。private.allowed_emailsもINSERT/UPDATE時に受信日時を設定するが、端末同期の対象ではない。
 
-指定の厳密な「server_updated_at > 前回の最大値」だけでは、同じ受信日時を持つ行や、古い時刻を持ったトランザクションが後からコミットした行を取りこぼす可能性がある。default now()はトランザクション開始時刻でありコミット時刻ではない。
+古いupsertで返却行が0件でも送信内容の採用とは扱わない。同じIDを読み戻して既存値で端末を統合する。新しい送信が途中で発生した場合、その版のoutboxは残す。
 
-推奨する最小の補完は、境界を>=で再取得してIDで重複排除し、起動時に1日1回の全件照合を行うこと。通常同期は差分のままで、常に全件取得にはしない。同値境界の再取得でページ分割中の取りこぼしを防ぎ、遅れてコミットされた行は全件照合で回復する。追加テーブル・連番・専用同期関数は不要。絶対的な即時検出の保証はせず、最終整合性を回復する。
+## 差分取得（承認済み）
 
-この補完も指定の>とは異なるため、再承認対象として明示する。>だけを採用する場合は、差分の完全性を保証できない。
+各user_id・各テーブルで別のカーソルを保存。初回は全件取得。その後は前回受信した最大server_updated_atから、config/sync-policy.jsonのdeltaOverlapMsだけさかのぼった時刻以上を取得する。重複は主キーで統合する。端末updated_atを差分の基準に使わない。
+
+10分の幅の値はconfig/sync-policy.jsonだけに定義し、同期コードに再定義しない。毎日の自動全件照合は行わない。アカウントメニューの「再同期」で手動の全件照合を行う（同期実装時に追加）。再同期でも未送信outboxを捨てず、送信後に全件読み戻しする。
+
+取得はserver_updated_atと各表の主キーを組み合わせた安定順でページ分割し、全ページ取得・端末保存の成功後だけカーソルを進める。単純なoffsetのずれを避けるためキーによる継続位置を使い、送信レスポンスだけでカーソルを更新しない。
+
+now()はトランザクション開始時刻。重なり幅より長い遅延・トランザクションの後着は差分では回収できない可能性があり、手動再同期で回復する。この承認方式では完全な即時検出を保証しない。
 
 ## ローカル保存と利用者切替
 
@@ -100,15 +111,15 @@ JSON書き出しは本人の現在の名前空間だけを対象にし、形式�
 
 ## マイグレーションと削除手段
 
-DBの構造・関数・トリガー・RLS変更はすべてsupabase/migrationsの番号付きSQLで管理する。承認後、Supabase CLIのmigration newで順序番号付きファイルを生成し、ファイルから適用する。ダッシュボードでテーブルを手作業変更することを前提にしない。Auth Hook・プロバイダー設定は設定手順に分ける。許可メールの実値はリポジトリ外の入力として扱う。
+DBの構造・関数・トリガー・RLS変更はすべてsupabase/migrationsの番号付きSQLで管理する。Supabase CLI 2.119.0のmigration newでSQL2本を生成済み。手順書に従いユーザーがファイルから適用する。ダッシュボードでテーブルを手作業変更することを前提にしない。Auth Hook・プロバイダー設定は設定手順に分ける。許可メールの実値はリポジトリ外の入力として扱う。
 
 同期後の段階で「学習データのみ削除」と「アカウントも削除」を実装できるようにする。学習データ削除は本人のRLS下で行う。アカウント削除は本人の認証を検証するサーバー処理からAuth管理APIを使い、auth.users削除によりFK CASCADEで学習行を削除する。管理権限はサーバーの秘密設定のみ。クライアントへ置かない。
 
 削除後の旧端末outboxによる復活を防ぐため、学習データのみの削除段階ではユーザーごとのdata_generationと削除通知を追加するマイグレーションを設け、端末は世代更新時に旧outboxを破棄してローカル削除を反映する。今回の同期時点では削除ボタンを表示しない。アカウント削除後は旧JWT/旧user_idへの書き込みを許可しない。
 
-## 承認後の確認
+## 適用・同期実装後の確認
 
-許可外登録拒否、別user_idの読み書き拒否、全テーブルRLS、同端末で利用者切替、オフライン再送、同ID重複なし、初回移行件数、保存解除の伝播、設定競合、server_updated_at境界、スマホ/PC実端末の相互反映、JSON書き出しを検証する。実端末で確認していない項目を完了扱いしない。
+許可外登録拒否、別user_idの読み書き拒否、全テーブルRLS、同端末で利用者切替、オフライン再送、同ID重複なし、初回移行件数、保存解除の伝播、設定競合、server_updated_atの重なり取得・手動再同期、スマホ/PC実端末の相互反映、JSON書き出しを検証する。実端末で確認していない項目を完了扱いしない。
 
 ## 一次資料
 
@@ -118,4 +129,4 @@ DBの構造・関数・トリガー・RLS変更はすべてsupabase/migrations�
 - https://docs.postgrest.org/en/v14/references/api/tables_views.html
 - https://www.postgresql.org/docs/current/functions-datetime.html
 
-再承認対象：通常upsert＋古い更新を無視する共通トリガー、差分の境界再取得＋日次全件照合。この2点を含む簡略設計の承認後にSQL・手順書を作る。同期実装は記事実装完了後。
+今回の到達点：SQL・手順書の準備まで。隔離PostgreSQLで43項目を検証し、実Supabaseと2端末同期の確認は未実施。

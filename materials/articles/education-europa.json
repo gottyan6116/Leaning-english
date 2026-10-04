@@ -47,14 +47,19 @@
       "id": "trumbo-2023",
       "title": "The distribution of CO2 on Europa indicates an internal source of carbon",
       "publisher": "arXiv / Science",
-      "authors": ["Samantha K. Trumbo", "Michael E. Brown"],
+      "authors": [
+        "Samantha K. Trumbo",
+        "Michael E. Brown"
+      ],
       "publishedAt": "2023-09-20",
       "journalPublishedAt": "2023-09-21",
       "dateNote": "初回プレプリント公開日。Scienceオンライン公開日は2023-09-21",
       "url": "https://arxiv.org/abs/2309.11684",
       "doi": "10.1126/science.adg4155",
       "checkedAt": "2026-10-04",
-      "paragraphIds": ["p2"],
+      "paragraphIds": [
+        "p2"
+      ],
       "usage": "原著論文の観測分布と形成場所の不確実性を独自の文で整理。転載なし"
     },
     {
@@ -67,7 +72,9 @@
       "url": "https://www.christopherglein.com/_files/ugd/08726c_caae5aad2a28409d8408eb02624e049e.pdf",
       "doi": "10.1126/science.adg4270",
       "checkedAt": "2026-10-04",
-      "paragraphIds": ["p6"],
+      "paragraphIds": [
+        "p6"
+      ],
       "usage": "原著論文の不検出と放出量上限・観測条件の解釈を独自の文で整理。転載なし"
     }
   ],
@@ -630,7 +637,23 @@
         "article-education-europa-carbon-2023-q1-option-3",
         "article-education-europa-carbon-2023-q1-option-4"
       ],
-      "correctChoiceId": "article-education-europa-carbon-2023-q1-option-1"
+      "correctChoiceId": "article-education-europa-carbon-2023-q1-option-1",
+      "evidence": [
+        {
+          "paragraphId": "p2",
+          "text": "Trumbo and Brown considered this distribution evidence of an internal carbon source.",
+          "highlights": [
+            "internal carbon source"
+          ]
+        },
+        {
+          "paragraphId": "p3",
+          "text": "Carbon dioxide does not remain stable for long on Europa's surface, so its presence in young terrain also suggests a relatively recent supply.",
+          "highlights": [
+            "recent supply"
+          ]
+        }
+      ]
     },
     {
       "id": "q2",
@@ -653,7 +676,17 @@
         "article-education-europa-carbon-2023-q2-option-3",
         "article-education-europa-carbon-2023-q2-option-4"
       ],
-      "correctChoiceId": "article-education-europa-carbon-2023-q2-option-3"
+      "correctChoiceId": "article-education-europa-carbon-2023-q2-option-3",
+      "evidence": [
+        {
+          "paragraphId": "p5",
+          "text": "The researchers stressed that this result did not exclude plumes: activity might vary, making a plume visible at some times but not at others.",
+          "highlights": [
+            "did not exclude plumes",
+            "activity might vary"
+          ]
+        }
+      ]
     },
     {
       "id": "q3",
@@ -676,7 +709,16 @@
         "article-education-europa-carbon-2023-q3-option-3",
         "article-education-europa-carbon-2023-q3-option-4"
       ],
-      "correctChoiceId": "article-education-europa-carbon-2023-q3-option-2"
+      "correctChoiceId": "article-education-europa-carbon-2023-q3-option-2",
+      "evidence": [
+        {
+          "paragraphId": "p6",
+          "text": "Although no plume was detected, the data helped constrain the possible rate at which material was being ejected.",
+          "highlights": [
+            "constrain the possible rate"
+          ]
+        }
+      ]
     }
   ],
   "opinion": {

@@ -622,7 +622,16 @@
         "article-culture-koji-skills-2024-q1-option-3",
         "article-culture-koji-skills-2024-q1-option-4"
       ],
-      "correctChoiceId": "article-culture-koji-skills-2024-q1-option-3"
+      "correctChoiceId": "article-culture-koji-skills-2024-q1-option-3",
+      "evidence": [
+        {
+          "paragraphId": "p1",
+          "text": "On 4 December 2024, traditional knowledge and skills of sake-making with koji mould in Japan were added to UNESCO's Representative List of the Intangible Cultural Heritage of Humanity.",
+          "highlights": [
+            "traditional knowledge and skills"
+          ]
+        }
+      ]
     },
     {
       "id": "q2",
@@ -646,7 +655,23 @@
         "article-culture-koji-skills-2024-q2-option-3",
         "article-culture-koji-skills-2024-q2-option-4"
       ],
-      "correctChoiceId": "article-culture-koji-skills-2024-q2-option-1"
+      "correctChoiceId": "article-culture-koji-skills-2024-q2-option-1",
+      "evidence": [
+        {
+          "paragraphId": "p3",
+          "text": "They oversee the conditions in which the mould grows, adjusting temperature and humidity as necessary.",
+          "highlights": [
+            "temperature and humidity"
+          ]
+        },
+        {
+          "paragraphId": "p3",
+          "text": "These decisions affect the quality of the finished sake.",
+          "highlights": [
+            "quality"
+          ]
+        }
+      ]
     },
     {
       "id": "q3",
@@ -671,7 +696,24 @@
         "article-culture-koji-skills-2024-q3-option-3",
         "article-culture-koji-skills-2024-q3-option-4"
       ],
-      "correctChoiceId": "article-culture-koji-skills-2024-q3-option-4"
+      "correctChoiceId": "article-culture-koji-skills-2024-q3-option-4",
+      "evidence": [
+        {
+          "paragraphId": "p5",
+          "text": "The skills are transmitted through apprenticeships, with support from regional unions and national organisations.",
+          "highlights": [
+            "apprenticeships"
+          ]
+        },
+        {
+          "paragraphId": "p5",
+          "text": "Brewing requires teamwork, strengthening ties among craftspeople and with local residents, including farmers who supply ingredients.",
+          "highlights": [
+            "teamwork",
+            "local residents"
+          ]
+        }
+      ]
     }
   ],
   "opinion": {

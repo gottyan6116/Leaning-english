@@ -37,7 +37,7 @@ for(const file of fs.readdirSync(directory).filter(x=>x.endsWith('.json'))){
   for(const mode of ['ja','en']){const q=v.questions[mode];question(q,`${v.headword}/${mode}`,mode);check(q?.distractorHeadwords?.length===4&&q.distractorHeadwords.every((x,i)=>i===q.answerIndex?x===null:typeof x==='string'&&x.trim()),`${v.id}/${mode}: distractor origins required`);}
  }
  check(article.comprehension.length===3,`${file}: three comprehension questions required`);
- for(const q of article.comprehension){question(q,q.id,'en');check(q.evidenceParagraphIds.length>0&&q.evidenceParagraphIds.every(id=>paragraphIds.has(id)),`${q.id}: invalid evidence`);}
+ for(const q of article.comprehension){question(q,q.id,'en');check(q.evidenceParagraphIds.length>0&&q.evidenceParagraphIds.every(id=>paragraphIds.has(id)),`${q.id}: invalid evidence`);check(Array.isArray(q.evidence)&&q.evidence.length>=1&&q.evidence.length<=2,`${q.id}: one or two evidence sentences required`);for(const part of q.evidence||[]){check(article.paragraphs.find(p=>p.id===part.paragraphId)?.text.includes(part.text),`${q.id}: evidence must occur verbatim in paragraph`);check(Array.isArray(part.highlights)&&part.highlights.length>0&&part.highlights.every(h=>h&&part.text.includes(h)),`${q.id}: invalid evidence highlight`);}}
  check(Boolean(article.opinion?.prompt),`${file}: opinion prompt required`);
  check(article.sources.every(x=>x.url?.startsWith('https://')&&x.title&&x.publisher&&x.publishedAt&&x.checkedAt),`${file}: incomplete source metadata`);
  check(Boolean(article.photo?.photographer&&article.photo.service&&article.photo.licenseUrl&&article.photo.credit),`${file}: missing photo credit`);

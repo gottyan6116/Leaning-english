@@ -5,3 +5,9 @@ node_modules/
 __pycache__/
 .DS_Store
 Thumbs.db
+supabase/.temp/
+supabase/.branches/
+config/supabase.local.json
+.env
+.env.local
+.env.*.local
