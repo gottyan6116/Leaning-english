@@ -93,10 +93,6 @@ main#app { padding-bottom:calc(var(--stage3-tab-height) + env(safe-area-inset-bo
 .vocabulary-tabs { display:flex; gap:24px; margin:18px 0 24px; border-bottom:1px solid var(--color-border); }
 .vocabulary-tabs button { padding:12px 0; border-radius:0; background:none; color:var(--color-text-sub); font-weight:700; border-bottom:2px solid var(--color-clear); }
 .vocabulary-tabs button[aria-selected="true"] { color:var(--color-accent); border-bottom-color:var(--color-accent); }
-.saved-filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px; }
-.saved-filters button { min-height:36px; padding:7px 10px; background:none; color:var(--color-text-sub); border-radius:20px; font-size:12px; }
-.saved-filters button[aria-pressed="true"] { background:var(--wash); color:var(--color-text); font-weight:700; }
-.saved-filters span { margin-left:3px; }
 .vocabulary-group { background:var(--color-surface); border-radius:16px; overflow:hidden; }
 .vocabulary-row { display:flex; align-items:center; gap:12px; width:100%; min-height:64px; padding:10px 16px; background:none; color:var(--color-text); text-align:left; border-radius:0; }
 .vocabulary-row+.vocabulary-row { border-top:1px solid var(--color-border); }
@@ -104,11 +100,6 @@ main#app { padding-bottom:calc(var(--stage3-tab-height) + env(safe-area-inset-bo
 .vocabulary-label { flex:1; min-width:0; }
 .vocabulary-label strong { display:block; font-size:16px; line-height:1.4; overflow-wrap:anywhere; }
 .vocabulary-label small { display:block; margin-top:4px; font-size:12px; line-height:1.4; color:var(--color-text-sub); }
-.word-state { flex-shrink:0; padding:4px 7px; border-radius:6px; font-size:10px; white-space:nowrap; color:var(--color-text-sub); }
-.word-state-new { background:var(--paper); }
-.word-state-review { background:var(--wash); color:var(--ink); }
-.word-state-learning { background:var(--learning-color-35); color:var(--muted); }
-.word-state-retained { background:var(--learning-color-36); color:var(--learning-color-37); }
 .action-chevron { flex-shrink:0; font-size:24px; line-height:1; font-weight:400; }
 .vocabulary-row>.action-chevron { color:var(--color-text-sub); }
 .vocabulary-empty { padding:28px 18px; text-align:center; color:var(--color-text-sub); font-size:14px; }
