@@ -6,5 +6,6 @@ test('wrong answer renders cross and correct check together, shakes once and doe
  ctx.window={localStorage:{getItem:k=>memory.get(k)??null,setItem:(k,v)=>memory.set(k,v)}};vm.createContext(ctx);vm.runInContext(fs.readFileSync(require.resolve('../quiz-session.js'),'utf8'),ctx);
  ctx.window.QuizUI.startUnit();ctx.window.QuizUI.answer(1);const html=elements[0].innerHTML;
  assert.match(html,/wrong qs-wrong-enter/);assert.match(html,/M7 7l10 10M17 7 7 17/);assert.match(html,/m5 12 4 4L19 6/);assert.equal((html.match(/ disabled/g)||[]).length,5);
+ assert.match(html,/<strong>constraint<\/strong>/);assert.match(html,/>定義<\/span>/);
  ctx.window.QuizUI.bookmark(item.id);assert.doesNotMatch(elements[0].innerHTML,/qs-wrong-enter/);assert.equal(ctx.window.QuizUI.getStore().logs.length,1);
 });

@@ -70,3 +70,19 @@ small,.muted,.meta,.eyebrow,.home-greeting small,.home-review-caption,.home-resu
  *,*::before,*::after { animation:none!important; transition:none!important; }
  .home-primary:active,.primary:active,.qs-root .qs-next:active,.qs-root .qs-option:active,.qs-root .qs-secondary:active,.settings-actions button:active,.player .play:active { transform:none!important; }
 }
+
+/* Finishing: local session geometry; existing design tokens stay unchanged. */
+.qs-card,.has-sheet .qs-card { flex:none; height:220px; min-height:220px; max-height:220px; padding:30px 20px 45px; }
+.qs-target,.has-sheet .qs-target { margin:12px 0; }
+.qs-count,.has-sheet .qs-count { top:18px; }
+.has-sheet .qs-example { display:block; }
+.has-sheet .qs-content { flex:initial; gap:12px; }
+.has-sheet .qs-answerarea { margin-top:0; }
+.has-sheet .qs-toolbar { margin-bottom:18px; }
+.qs-sheet .qs-definition-label { display:block; font-size:var(--font-size-caption); color:var(--color-text-sub); margin-bottom:3px; }
+.qs-save.saved .qs-icon,.qs-wrongrow.saved .qs-icon { fill:currentColor; }
+.saved-filters { flex-wrap:nowrap; overflow-x:auto; padding-bottom:4px; scrollbar-width:none; }
+.saved-filters::-webkit-scrollbar { display:none; }
+.saved-filters button { flex:0 0 auto; white-space:nowrap; }
+.saved-filters button.filter-empty { color:var(--color-text-muted); }
+@media(min-width:1024px) { .qs-card,.has-sheet .qs-card { height:260px; min-height:260px; max-height:260px; } }
