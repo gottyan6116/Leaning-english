@@ -1,6 +1,6 @@
 {
   "id": "article-work-four-day-week-2022",
-  "version": 1,
+  "version": 2,
   "kind": "article",
   "status": "draft",
   "publishedAt": null,
@@ -8,10 +8,10 @@
   "summaryJa": "英国の試行から、働き方の工夫と結果の読み方を考える",
   "category": "仕事",
   "level": "B2–C1",
-  "readingMinutes": 4,
+  "readingMinutes": 3,
   "readingEstimateWordsPerMinute": 110,
   "editorialNotice": "出典に基づく学習用編集版",
-  "textOrigin": "original-for-this-app; factual adaptation with original editorial questions",
+  "textOrigin": "original-for-this-app; factual adaptation",
   "sources": [
     {
       "id": "cambridge-2023",
@@ -21,21 +21,34 @@
       "publishedAt": "2023-02-21",
       "url": "https://www.cam.ac.uk/stories/fourdayweek",
       "checkedAt": "2026-10-04",
-      "paragraphIds": ["p1", "p3", "p5"],
+      "paragraphIds": [
+        "p1",
+        "p3",
+        "p5"
+      ],
       "usage": "事実を独自の文で整理。原文・発言の直接引用なし"
     },
     {
       "id": "autonomy-2023",
       "title": "The results are in: the UK's four-day week pilot",
       "publisher": "Autonomy",
-      "authors": ["Kyle Lewis", "Will Stronge", "Jack Kellam", "Lukas Kikuchi"],
+      "authors": [
+        "Kyle Lewis",
+        "Will Stronge",
+        "Jack Kellam",
+        "Lukas Kikuchi"
+      ],
       "authorNote": "Autonomy執筆チーム。別途、定量・定性研究チームが出典ページに掲載されている",
       "publishedAt": "2023-02",
       "datePrecision": "month",
       "url": "https://autonomy.work/portfolio/uk4dwpilotresults/",
       "reportUrl": "https://autonomy.work/wp-content/uploads/2023/02/The-results-are-in-The-UKs-four-day-week-pilot.pdf",
       "checkedAt": "2026-10-04",
-      "paragraphIds": ["p2", "p4", "p6"],
+      "paragraphIds": [
+        "p2",
+        "p4",
+        "p6"
+      ],
       "usage": "報告公開ページの事実を独自の文で整理。転載なし"
     }
   ],
@@ -55,44 +68,50 @@
     {
       "id": "p1",
       "kind": "source-based",
-      "sourceIds": ["cambridge-2023"],
+      "sourceIds": [
+        "cambridge-2023"
+      ],
       "text": "From June to December 2022, 61 organisations in the United Kingdom took part in a trial involving around 2,900 employees. Participants committed to reducing working time by 20% while keeping pay unchanged. Researchers examined whether a shorter week could protect employees' well-being without undermining business performance. The results were reported in February 2023."
     },
     {
       "id": "p2",
       "kind": "source-based",
-      "sourceIds": ["autonomy-2023"],
+      "sourceIds": [
+        "autonomy-2023"
+      ],
       "text": "Preparation lasted two months and included workshops, coaching and support from other participants. Employers did not all adopt the same timetable. Some used a common day off; others staggered employees' days off. The report describes several arrangements, including annualised and conditional schedules. Its central requirement was unchanged pay alongside a meaningful reduction in working time. Each organisation adapted the policy to its own operations."
     },
     {
       "id": "p3",
       "kind": "source-based",
-      "sourceIds": ["cambridge-2023"],
+      "sourceIds": [
+        "cambridge-2023"
+      ],
       "text": "Employers also looked for ways to streamline work. They shortened meetings, made agendas clearer and introduced periods when employees could concentrate without interruptions. Some changed email practices or prepared task lists to improve handovers. These changes were intended to help organisations meet their targets within fewer working hours. The trial therefore involved reorganising work, as well as changing the weekly schedule."
     },
     {
       "id": "p4",
       "kind": "source-based",
-      "sourceIds": ["autonomy-2023"],
+      "sourceIds": [
+        "autonomy-2023"
+      ],
       "text": "The report compared workers' experiences before and after the trial. At the end, 71% reported lower burnout and 39% reported less stress. These figures describe employees' reported experiences, rather than a guarantee that everyone benefited. Employee retention was another business consideration: the report recorded fewer staff departures. Of the 61 participating companies, 56 planned to continue the shorter week, and 18 confirmed a permanent change."
     },
     {
       "id": "p5",
       "kind": "source-based",
-      "sourceIds": ["cambridge-2023"],
+      "sourceIds": [
+        "cambridge-2023"
+      ],
       "text": "Revenue figures need careful interpretation. Cambridge reported an average increase of 1.4% during the trial for the 23 organisations able to provide revenue data. That figure does not describe all 61 participants. Interviews also revealed concerns: some employees worried about more intense workloads, while others felt that less informal conversation could reduce opportunities for new ideas."
     },
     {
       "id": "p6",
       "kind": "source-based",
-      "sourceIds": ["autonomy-2023"],
+      "sourceIds": [
+        "autonomy-2023"
+      ],
       "text": "The evidence came from company records, employee surveys and interviews collected during the pilot, with measurement points at its beginning, middle and end. These different sources allowed researchers to examine both organisational outcomes and individual experiences. The varied schedules are also significant: a four-day week was not one uniform policy applied in exactly the same way to every participating workplace."
-    },
-    {
-      "id": "p7",
-      "kind": "editorial",
-      "sourceIds": [],
-      "text": "Consider a hypothetical workplace deciding whether a shorter week would be viable under its own constraints. Would it alleviate pressure, or merely shift unfinished tasks into the remaining days? A team could ask how to maintain customer coverage, organise handovers and protect time for collaboration. These are questions for readers to consider, not additional findings from the trial. A useful proposal would explain what should change and how its results would be assessed."
     }
   ],
   "vocabulary": [
@@ -100,7 +119,7 @@
       "id": "article-work-four-day-week-2022-retention",
       "headword": "retention",
       "partOfSpeech": "noun",
-      "meaning": "定着",
+      "meaning": "（人材の）定着・維持",
       "definition": "keeping existing employees in an organisation",
       "contextParagraphId": "p4",
       "context": "Employee retention was another business consideration: the report recorded fewer staff departures.",
@@ -108,9 +127,87 @@
       "exampleOrigin": "original-for-this-app",
       "testedSense": "従業員が組織に在籍し続けること",
       "questions": {
-        "ja": {"choices": ["採用", "配置", "定着", "昇進"], "answerIndex": 2, "distractorHeadwords": ["recruitment", "placement", null, "promotion"], "explanation": "ここでは従業員が辞めずに在籍し続けること。採用・配置・昇進とは異なる。"},
-        "en": {"choices": ["hiring additional employees", "keeping existing employees", "promoting selected employees", "training inexperienced employees"], "answerIndex": 1, "distractorHeadwords": ["recruitment", null, "promotion", "training"], "explanation": "retentionは既存の従業員を組織にとどめること。新規採用・昇進・研修ではない。"}
-      }
+        "ja": {
+          "choices": [
+            "人材の採用",
+            "人材の配置",
+            "人材の維持",
+            "人材の昇進"
+          ],
+          "answerIndex": 2,
+          "distractorHeadwords": [
+            "recruitment",
+            "placement",
+            null,
+            "promotion"
+          ],
+          "explanation": "ここでは従業員が辞めずに在籍し続けること。採用・配置・昇進とは異なる。",
+          "choiceIds": [
+            "article-work-four-day-week-2022-retention-ja-option-1",
+            "article-work-four-day-week-2022-retention-ja-option-2",
+            "article-work-four-day-week-2022-retention-ja-option-3",
+            "article-work-four-day-week-2022-retention-ja-option-4"
+          ],
+          "correctChoiceId": "article-work-four-day-week-2022-retention-ja-option-3"
+        },
+        "en": {
+          "choices": [
+            "hiring additional employees",
+            "keeping existing employees",
+            "promoting selected employees",
+            "training inexperienced employees"
+          ],
+          "answerIndex": 1,
+          "distractorHeadwords": [
+            "recruitment",
+            null,
+            "promotion",
+            "training"
+          ],
+          "explanation": "retentionは既存の従業員を組織にとどめること。新規採用・昇進・研修ではない。",
+          "choiceIds": [
+            "article-work-four-day-week-2022-retention-en-option-1",
+            "article-work-four-day-week-2022-retention-en-option-2",
+            "article-work-four-day-week-2022-retention-en-option-3",
+            "article-work-four-day-week-2022-retention-en-option-4"
+          ],
+          "correctChoiceId": "article-work-four-day-week-2022-retention-en-option-2"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "employee retention",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "従業員の定着・維持",
+            "nuanceJa": "在籍している人材が辞めずに働き続けること。新規採用とは分ける。",
+            "example": "Employee retention improved after the team introduced regular mentoring.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "improve retention",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "定着率を改善する",
+            "nuanceJa": "人材が残りやすくなる方向への変化を表す。",
+            "example": "The manager reviewed whether flexible shifts could improve retention.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "retention rate",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "定着率",
+            "nuanceJa": "定着を測定する割合。対象期間と人数の定義が必要。",
+            "example": "We measured the retention rate over the first twelve months.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "retention"
     },
     {
       "id": "article-work-four-day-week-2022-streamline",
@@ -124,95 +221,453 @@
       "exampleOrigin": "original-for-this-app",
       "testedSense": "不要な複雑さを減らして業務を効率よくする",
       "questions": {
-        "ja": {"choices": ["外注化する", "効率化する", "分散化する", "自動化する"], "answerIndex": 1, "distractorHeadwords": ["outsource", null, "decentralise", "automate"], "explanation": "streamlineは工程を簡素化して効率を高めること。外注・権限の分散・自動化そのものを意味しない。"},
-        "en": {"choices": ["transfer work to an outside supplier", "distribute authority among local teams", "replace manual work with technology", "simplify work to improve efficiency"], "answerIndex": 3, "distractorHeadwords": ["outsource", "decentralise", "automate", null], "explanation": "業務を簡素化し効率を高める意味。外注化・分権化・自動化は別の概念。"}
-      }
+        "ja": {
+          "choices": [
+            "外注化する",
+            "効率化する",
+            "分散化する",
+            "自動化する"
+          ],
+          "answerIndex": 1,
+          "distractorHeadwords": [
+            "outsource",
+            null,
+            "decentralise",
+            "automate"
+          ],
+          "explanation": "streamlineは工程を簡素化して効率を高めること。外注・権限の分散・自動化そのものを意味しない。",
+          "choiceIds": [
+            "article-work-four-day-week-2022-streamline-ja-option-1",
+            "article-work-four-day-week-2022-streamline-ja-option-2",
+            "article-work-four-day-week-2022-streamline-ja-option-3",
+            "article-work-four-day-week-2022-streamline-ja-option-4"
+          ],
+          "correctChoiceId": "article-work-four-day-week-2022-streamline-ja-option-2"
+        },
+        "en": {
+          "choices": [
+            "transfer work to an outside supplier",
+            "distribute authority among local teams",
+            "replace manual work with technology",
+            "simplify work to improve efficiency"
+          ],
+          "answerIndex": 3,
+          "distractorHeadwords": [
+            "outsource",
+            "decentralise",
+            "automate",
+            null
+          ],
+          "explanation": "業務を簡素化し効率を高める意味。外注化・分権化・自動化は別の概念。",
+          "choiceIds": [
+            "article-work-four-day-week-2022-streamline-en-option-1",
+            "article-work-four-day-week-2022-streamline-en-option-2",
+            "article-work-four-day-week-2022-streamline-en-option-3",
+            "article-work-four-day-week-2022-streamline-en-option-4"
+          ],
+          "correctChoiceId": "article-work-four-day-week-2022-streamline-en-option-4"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "streamline a process",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "工程を効率化する",
+            "nuanceJa": "工程の重複や無駄を減らす。自動化するとは限らない。",
+            "example": "The team streamlined the process by combining two approval steps.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "streamline operations",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "業務運営を効率化する",
+            "nuanceJa": "個別工程より広い日常業務全体を対象にする。",
+            "example": "A shared booking system helped the clinic streamline operations.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "streamline communication",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "連絡の流れを簡素化する",
+            "nuanceJa": "連絡経路や手順を整理する。会話を減らすこと自体ではない。",
+            "example": "We streamlined communication by choosing one channel for urgent requests.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "streamline"
     },
     {
-      "id": "article-work-four-day-week-2022-alleviate",
-      "headword": "alleviate",
+      "id": "article-work-four-day-week-2022-undermine",
+      "headword": "undermine",
       "partOfSpeech": "verb",
-      "meaning": "緩和する",
-      "definition": "make a problem or suffering less severe",
-      "contextParagraphId": "p7",
-      "context": "Would it alleviate pressure, or merely shift unfinished tasks into the remaining days?",
-      "example": "Extra support may alleviate the pressure on the team.",
+      "meaning": "損なう",
+      "definition": "make something weaker or less effective",
+      "contextParagraphId": "p1",
+      "context": "Researchers examined whether a shorter week could protect employees' well-being without undermining business performance.",
+      "example": "Repeated changes to the deadline undermined confidence in the plan.",
       "exampleOrigin": "original-for-this-app",
-      "testedSense": "負担・苦痛・問題の程度を和らげる",
+      "testedSense": "損なう",
       "questions": {
-        "ja": {"choices": ["緩和する", "測定する", "分類する", "予測する"], "answerIndex": 0, "distractorHeadwords": [null, "measure", "classify", "predict"], "explanation": "alleviateは問題の程度を和らげること。測定・分類・予測は程度を和らげる行為ではない。"},
-        "en": {"choices": ["measure how severe a problem is", "sort problems into different groups", "make a problem less severe", "forecast problems before they occur"], "answerIndex": 2, "distractorHeadwords": ["measure", "classify", null, "predict"], "explanation": "負担の深刻さを小さくする意味。測る・分類する・予測するという意味ではない。"}
-      }
+        "ja": {
+          "choices": [
+            "調整する",
+            "損なう",
+            "評価する",
+            "維持する"
+          ],
+          "answerIndex": 1,
+          "distractorHeadwords": [
+            "adjust",
+            null,
+            "evaluate",
+            "maintain"
+          ],
+          "explanation": "ここでは業績を弱めたり悪化させたりする意味。調整・評価・維持ではない。",
+          "choiceIds": [
+            "article-work-four-day-week-2022-undermine-ja-option-1",
+            "article-work-four-day-week-2022-undermine-ja-option-2",
+            "article-work-four-day-week-2022-undermine-ja-option-3",
+            "article-work-four-day-week-2022-undermine-ja-option-4"
+          ],
+          "correctChoiceId": "article-work-four-day-week-2022-undermine-ja-option-2"
+        },
+        "en": {
+          "choices": [
+            "assess how effective something is",
+            "keep something in its current condition",
+            "make something weaker or less effective",
+            "change something to suit new conditions"
+          ],
+          "answerIndex": 2,
+          "distractorHeadwords": [
+            "evaluate",
+            "maintain",
+            null,
+            "adjust"
+          ],
+          "explanation": "ここでは業績を弱めたり悪化させたりする意味。調整・評価・維持ではない。",
+          "choiceIds": [
+            "article-work-four-day-week-2022-undermine-en-option-1",
+            "article-work-four-day-week-2022-undermine-en-option-2",
+            "article-work-four-day-week-2022-undermine-en-option-3",
+            "article-work-four-day-week-2022-undermine-en-option-4"
+          ],
+          "correctChoiceId": "article-work-four-day-week-2022-undermine-en-option-3"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "undermine confidence in ～",
+            "pattern": "動詞＋名詞＋前置詞",
+            "meaningJa": "～への信頼を損なう",
+            "nuanceJa": "confidenceの対象はinで続ける。信頼を弱める。",
+            "example": "Unexplained delays undermined confidence in the delivery plan.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "undermine efforts to ～",
+            "pattern": "動詞＋名詞＋不定詞",
+            "meaningJa": "～するための努力を損なう",
+            "nuanceJa": "努力の効果を弱める。努力そのものがなくなるとは限らない。",
+            "example": "Conflicting instructions undermined efforts to reduce errors.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "undermine authority",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "権威を損なう",
+            "nuanceJa": "人や組織の指示が受け入れられる力を弱める。",
+            "example": "Publicly reversing every decision undermined the supervisor's authority.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "undermining"
     },
     {
-      "id": "article-work-four-day-week-2022-viable",
-      "headword": "viable",
+      "id": "article-work-four-day-week-2022-stagger",
+      "headword": "stagger",
+      "partOfSpeech": "verb",
+      "meaning": "時間をずらす",
+      "definition": "arrange events to happen at different times",
+      "contextParagraphId": "p2",
+      "context": "Some used a common day off; others staggered employees' days off.",
+      "example": "We staggered lunch breaks to keep the reception desk staffed.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "時間をずらす",
+      "questions": {
+        "ja": {
+          "choices": [
+            "順番を替える",
+            "時間を延ばす",
+            "回数を減らす",
+            "時間をずらす"
+          ],
+          "answerIndex": 3,
+          "distractorHeadwords": [
+            "reorder",
+            "extend",
+            "reduce",
+            null
+          ],
+          "explanation": "休日や開始時刻を同時にせず分散させる意味。単なる順番の変更・延長・回数削減とは異なる。",
+          "choiceIds": [
+            "article-work-four-day-week-2022-stagger-ja-option-1",
+            "article-work-four-day-week-2022-stagger-ja-option-2",
+            "article-work-four-day-week-2022-stagger-ja-option-3",
+            "article-work-four-day-week-2022-stagger-ja-option-4"
+          ],
+          "correctChoiceId": "article-work-four-day-week-2022-stagger-ja-option-4"
+        },
+        "en": {
+          "choices": [
+            "arrange events in a different sequence",
+            "make events last for a longer period",
+            "arrange events at different start times",
+            "reduce the number of scheduled events"
+          ],
+          "answerIndex": 2,
+          "distractorHeadwords": [
+            "reorder",
+            "extend",
+            null,
+            "reduce"
+          ],
+          "explanation": "休日や開始時刻を同時にせず分散させる意味。単なる順番の変更・延長・回数削減とは異なる。",
+          "choiceIds": [
+            "article-work-four-day-week-2022-stagger-en-option-1",
+            "article-work-four-day-week-2022-stagger-en-option-2",
+            "article-work-four-day-week-2022-stagger-en-option-3",
+            "article-work-four-day-week-2022-stagger-en-option-4"
+          ],
+          "correctChoiceId": "article-work-four-day-week-2022-stagger-en-option-3"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "stagger start times",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "開始時刻をずらす",
+            "nuanceJa": "全員が同時に開始しないようにする。",
+            "example": "The organiser staggered start times to avoid a queue at the entrance.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "stagger lunch breaks",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "昼休憩の時間をずらす",
+            "nuanceJa": "休憩を分散し、人員配置を維持する。",
+            "example": "We stagger lunch breaks so that someone can answer customer calls.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "stagger payments",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "支払い時期を分散する",
+            "nuanceJa": "支払いを別々の時期に配置する。単なる期日の延期とは異なる。",
+            "example": "The buyer asked to stagger payments across three months.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "staggered"
+    },
+    {
+      "id": "article-work-four-day-week-2022-uniform",
+      "headword": "uniform",
       "partOfSpeech": "adjective",
-      "meaning": "実行可能な",
-      "definition": "capable of working successfully in practice",
-      "contextParagraphId": "p7",
-      "context": "Consider a hypothetical workplace deciding whether a shorter week would be viable under its own constraints.",
-      "example": "The pilot will help us decide whether the proposal is viable.",
+      "meaning": "一律の",
+      "definition": "the same across a group or range",
+      "contextParagraphId": "p6",
+      "context": "The varied schedules are also significant: a four-day week was not one uniform policy applied in exactly the same way to every participating workplace.",
+      "example": "The branches use a uniform process for handling refund requests.",
       "exampleOrigin": "original-for-this-app",
-      "testedSense": "計画が現実にうまく機能し得る",
+      "testedSense": "一律の",
       "questions": {
-        "ja": {"choices": ["一時的な", "義務付けられた", "実験段階の", "実行可能な"], "answerIndex": 3, "distractorHeadwords": ["temporary", "mandatory", "experimental", null], "explanation": "viableは計画が現実にうまく機能し得ること。期間・義務・試験段階を表す語ではない。"},
-        "en": {"choices": ["capable of working successfully", "lasting for a limited period", "required by an official rule", "used to test an unproven idea"], "answerIndex": 0, "distractorHeadwords": [null, "temporary", "mandatory", "experimental"], "explanation": "実際に成功して機能する可能性を表す。一時的・義務的・実験的とは別の意味。"}
-      }
-    },
-    {
-      "id": "article-work-four-day-week-2022-constraint",
-      "headword": "constraint",
-      "partOfSpeech": "noun",
-      "meaning": "制約",
-      "definition": "a condition that limits what can be done",
-      "contextParagraphId": "p7",
-      "context": "Consider a hypothetical workplace deciding whether a shorter week would be viable under its own constraints.",
-      "example": "Budget constraints limited the number of people we could hire.",
-      "exampleOrigin": "original-for-this-app",
-      "testedSense": "計画や行動の自由を制限する条件",
-      "questions": {
-        "ja": {"choices": ["手順", "目標", "制約", "資源"], "answerIndex": 2, "distractorHeadwords": ["procedure", "objective", null, "resource"], "explanation": "constraintはできることを制限する条件。手順・到達目標・使える資源とは異なる。"},
-        "en": {"choices": ["a step in a planned action", "a limit on a planned action", "a goal for a planned action", "a resource for a planned action"], "answerIndex": 1, "distractorHeadwords": ["procedure", null, "objective", "resource"], "explanation": "行動を制限する条件を表す。工程・目標・資源ではない。"}
-      }
+        "ja": {
+          "choices": [
+            "暫定的な",
+            "厳格な",
+            "一律の",
+            "任意の"
+          ],
+          "answerIndex": 2,
+          "distractorHeadwords": [
+            "provisional",
+            "strict",
+            null,
+            "optional"
+          ],
+          "explanation": "ここでは全職場で同じように適用される意味。制服という名詞ではなく、形容詞の一律の。",
+          "choiceIds": [
+            "article-work-four-day-week-2022-uniform-ja-option-1",
+            "article-work-four-day-week-2022-uniform-ja-option-2",
+            "article-work-four-day-week-2022-uniform-ja-option-3",
+            "article-work-four-day-week-2022-uniform-ja-option-4"
+          ],
+          "correctChoiceId": "article-work-four-day-week-2022-uniform-ja-option-3"
+        },
+        "en": {
+          "choices": [
+            "temporary until a final decision is made",
+            "the same across all members of a group",
+            "requiring close obedience to every rule",
+            "left to the choice of each participant"
+          ],
+          "answerIndex": 1,
+          "distractorHeadwords": [
+            "provisional",
+            null,
+            "strict",
+            "optional"
+          ],
+          "explanation": "ここでは全職場で同じように適用される意味。制服という名詞ではなく、形容詞の一律の。",
+          "choiceIds": [
+            "article-work-four-day-week-2022-uniform-en-option-1",
+            "article-work-four-day-week-2022-uniform-en-option-2",
+            "article-work-four-day-week-2022-uniform-en-option-3",
+            "article-work-four-day-week-2022-uniform-en-option-4"
+          ],
+          "correctChoiceId": "article-work-four-day-week-2022-uniform-en-option-2"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "a uniform policy",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "一律の方針",
+            "nuanceJa": "対象ごとに別方針を使わず、共通の方針を適用する。",
+            "example": "The company adopted a uniform policy for refund requests.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "uniform standards",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "統一された基準",
+            "nuanceJa": "複数の場所や対象に同じ基準を使う。厳しさとは別。",
+            "example": "Uniform standards made it easier to compare inspection results.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "uniform across ～",
+            "pattern": "形容詞＋前置詞",
+            "meaningJa": "～全体で一様な",
+            "nuanceJa": "何の範囲で同じなのかをacrossで示す。",
+            "example": "The reporting format is uniform across all regional offices.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "uniform"
     }
   ],
   "comprehension": [
     {
       "id": "q1",
       "question": "Which condition was central to the trial?",
-      "choices": ["Employees kept their pay while working less.", "Employees accepted less pay for fewer hours.", "Employees worked longer days for extra pay.", "Employees chose any schedule without limits."],
+      "choices": [
+        "Employees kept their pay while working less.",
+        "Employees accepted less pay for fewer hours.",
+        "Employees worked longer days for extra pay.",
+        "Employees chose any schedule without limits."
+      ],
       "answerIndex": 0,
-      "evidenceParagraphIds": ["p1", "p2"],
-      "explanationJa": "P1の賃金維持と労働時間削減へのコミット、P2の unchanged pay alongside a meaningful reduction が根拠。単に勤務日を詰める制度ではない。"
+      "evidenceParagraphIds": [
+        "p1",
+        "p2"
+      ],
+      "explanationJa": "P1の賃金維持と労働時間削減へのコミット、P2の unchanged pay alongside a meaningful reduction が根拠。単に勤務日を詰める制度ではない。",
+      "type": "literal",
+      "choiceIds": [
+        "article-work-four-day-week-2022-q1-option-1",
+        "article-work-four-day-week-2022-q1-option-2",
+        "article-work-four-day-week-2022-q1-option-3",
+        "article-work-four-day-week-2022-q1-option-4"
+      ],
+      "correctChoiceId": "article-work-four-day-week-2022-q1-option-1"
     },
     {
       "id": "q2",
-      "question": "What does the reported 1.4% revenue increase refer to?",
-      "choices": ["Every worker's personal income in the trial.", "The average across all 61 participating firms.", "All companies in the United Kingdom that year.", "The average for 23 firms providing revenue data."],
-      "answerIndex": 3,
-      "evidenceParagraphIds": ["p5"],
-      "explanationJa": "P5の1.4%は売上データを提供できた23組織の平均。61組織全体、個人所得、英国全体の数値ではない。"
+      "question": "Why should a reader avoid treating the 1.4% increase as a result for all participants?",
+      "choices": [
+        "The revenue data cover only part of the trial.",
+        "The figure measures only changes in staff pay.",
+        "The interview data replace all revenue records.",
+        "The participating firms all used one schedule."
+      ],
+      "answerIndex": 0,
+      "evidenceParagraphIds": [
+        "p5"
+      ],
+      "explanationJa": "P5は売上データを提供したのが23組織で、試行参加は61組織と述べる。したがって、この平均から残りの組織を含む全参加企業の結果までは判断できない。「1.4%は誤り」や「未提供企業は悪化した」とも推論できない。",
+      "type": "inference",
+      "choiceIds": [
+        "article-work-four-day-week-2022-q2-option-1",
+        "article-work-four-day-week-2022-q2-option-2",
+        "article-work-four-day-week-2022-q2-option-3",
+        "article-work-four-day-week-2022-q2-option-4"
+      ],
+      "correctChoiceId": "article-work-four-day-week-2022-q2-option-1"
     },
     {
       "id": "q3",
       "question": "Which concern did the Cambridge interviews identify?",
-      "choices": ["Every firm lost the ability to meet its targets.", "Less informal talk might limit chances for ideas.", "All workers received less pay during the trial.", "The trial had no data about company revenue."],
+      "choices": [
+        "Every firm lost the ability to meet its targets.",
+        "Less informal talk might limit chances for ideas.",
+        "All workers received less pay during the trial.",
+        "The trial had no data about company revenue."
+      ],
       "answerIndex": 1,
-      "evidenceParagraphIds": ["p5"],
-      "explanationJa": "P5で一部の従業員は非公式な会話の減少が新しいアイデアの機会を減らし得ると感じている。全員の不利益や全社の目標未達とは述べていない。"
+      "evidenceParagraphIds": [
+        "p5"
+      ],
+      "explanationJa": "P5で一部の従業員は非公式な会話の減少が新しいアイデアの機会を減らし得ると感じている。全員の不利益や全社の目標未達とは述べていない。",
+      "type": "literal",
+      "choiceIds": [
+        "article-work-four-day-week-2022-q3-option-1",
+        "article-work-four-day-week-2022-q3-option-2",
+        "article-work-four-day-week-2022-q3-option-3",
+        "article-work-four-day-week-2022-q3-option-4"
+      ],
+      "correctChoiceId": "article-work-four-day-week-2022-q3-option-2"
     }
   ],
   "opinion": {
     "id": "opinion-1",
-    "prompt": "Would a shorter working week be viable in your workplace or a workplace you know? Explain one possible benefit, one constraint, and one result you would measure.",
+    "prompt": "Would a shorter working week suit a workplace you know? Explain one possible benefit, one possible difficulty, and one result you would measure.",
     "optional": true,
     "saveScope": "device"
   },
   "review": {
     "factsCheckedAt": "2026-10-04",
-    "editorialParagraphIds": ["p7"],
-    "contentApproval": "pending",
-    "notes": "出典確認済み。教材内容承認前のため未公開・未接続。P7は出典の追加事実ではなく、教材用に作成した仮定と問い。語彙集と同じ見出し語でも記事固有の文脈とIDを維持する。"
+    "editorialParagraphIds": [],
+    "contentApproval": "pending-revised-content",
+    "notes": "P7削除。本文内の5語を選定し直した。使い方はすべて未確認。本文と設問の再確認待ち。"
   }
 }

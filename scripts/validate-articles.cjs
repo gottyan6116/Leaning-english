@@ -10,6 +10,8 @@ function question(q,label,mode){
  check(choices.every(x=>typeof x==='string'&&x.trim()),`${label}: empty choice`);
  check(new Set(choices.map(x=>x.trim().toLowerCase())).size===4,`${label}: duplicate choice`);
  check(Number.isInteger(q.answerIndex)&&q.answerIndex>=0&&q.answerIndex<4,`${label}: invalid answer`);
+ check(Array.isArray(q.choiceIds)&&q.choiceIds.length===4&&q.choiceIds.every(x=>typeof x==='string'&&x.trim())&&new Set(q.choiceIds).size===4,`${label}: four unique choice IDs required`);
+ check(q.choiceIds?.includes(q.correctChoiceId)&&q.correctChoiceId===q.choiceIds?.[q.answerIndex],`${label}: correct choice ID must match legacy answer`);
  const lengths=choices.map(x=>Array.from(x.trim()).length),ranked=[...lengths].sort((a,b)=>b-a);
  if(lengths[q.answerIndex]===ranked[0]&&lengths.filter(x=>x===ranked[0]).length===1&&ranked[0]>=ranked[1]*1.2)errors.push(`${label}: correct answer uniquely longest by 20% or more`);
  const ratio=ranked[0]/ranked[ranked.length-1];
@@ -28,6 +30,10 @@ for(const file of fs.readdirSync(directory).filter(x=>x.endsWith('.json'))){
   check(!ids.has(v.id),`${file}: duplicate vocabulary ID ${v.id}`);ids.add(v.id);
   check(paragraphIds.has(v.contextParagraphId),`${v.id}: unknown context paragraph`);
   check(article.paragraphs.find(p=>p.id===v.contextParagraphId)?.text.includes(v.context),`${v.id}: context does not match text`);
+  check(['unverified','verified'].includes(v.usage?.status),`${v.id}: invalid usage review status`);
+  const combinations=v.usage?.combinations;
+  check(Array.isArray(combinations)&&combinations.length>=3&&combinations.length<=5,`${v.id}: 3–5 usage combinations required`);
+  check(Array.isArray(combinations)&&combinations.every(c=>c.form&&c.pattern&&c.meaningJa&&c.nuanceJa&&c.example&&c.exampleOrigin==='original-for-this-app'&&['unverified','verified'].includes(c.status)),`${v.id}: incomplete usage fields or invalid review status`);
   for(const mode of ['ja','en']){const q=v.questions[mode];question(q,`${v.headword}/${mode}`,mode);check(q?.distractorHeadwords?.length===4&&q.distractorHeadwords.every((x,i)=>i===q.answerIndex?x===null:typeof x==='string'&&x.trim()),`${v.id}/${mode}: distractor origins required`);}
  }
  check(article.comprehension.length===3,`${file}: three comprehension questions required`);

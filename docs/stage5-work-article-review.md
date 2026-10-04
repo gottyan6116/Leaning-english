@@ -1,10 +1,10 @@
-# 第5段階：仕事の記事1本目・内容レビュー
+# 記事1本目・修正版の内容レビュー
 
-教材内容の承認待ち。画面にはまだ表示しない。
+内容の再確認待ち。公開日未設定のため公開対象外。
 
 ## What a Four-Day Working Week Changed
 
-仕事 / B2〜C1 / 本文432語 / 読む目安4分（110語/分で約3.93分）
+仕事 / B2〜C1 / 本文359語 / 読む目安3分（110語/分）
 
 出典に基づく学習用編集版
 
@@ -13,241 +13,255 @@
 - [Would you prefer a four-day working week?](https://www.cam.ac.uk/stories/fourdayweek) — University of Cambridge / Fred Lewsey / 公開：2023-02-21 / 確認：2026-10-04
 - [The results are in: the UK's four-day week pilot](https://autonomy.work/portfolio/uk4dwpilotresults/) — Autonomy / Kyle Lewis、Will Stronge、Jack Kellam、Lukas Kikuchi / 公開：2023-02 / 確認：2026-10-04
 
-写真：Annie Spratt / Unsplash。関連する素材写真であり、試行参加企業を撮影した写真としては扱わない。
-- [写真ページ](https://unsplash.com/photos/sittin-people-beside-table-inside-room-hCb3lIB8L8E) / [利用条件](https://unsplash.com/license)
-
 ## 本文
 
 ### P1
 
 From June to December 2022, 61 organisations in the United Kingdom took part in a trial involving around 2,900 employees. Participants committed to reducing working time by 20% while keeping pay unchanged. Researchers examined whether a shorter week could protect employees' well-being without undermining business performance. The results were reported in February 2023.
 
-出典：[University of Cambridge](https://www.cam.ac.uk/stories/fourdayweek)
-
 ### P2
 
 Preparation lasted two months and included workshops, coaching and support from other participants. Employers did not all adopt the same timetable. Some used a common day off; others staggered employees' days off. The report describes several arrangements, including annualised and conditional schedules. Its central requirement was unchanged pay alongside a meaningful reduction in working time. Each organisation adapted the policy to its own operations.
-
-出典：[Autonomy](https://autonomy.work/portfolio/uk4dwpilotresults/)
 
 ### P3
 
 Employers also looked for ways to streamline work. They shortened meetings, made agendas clearer and introduced periods when employees could concentrate without interruptions. Some changed email practices or prepared task lists to improve handovers. These changes were intended to help organisations meet their targets within fewer working hours. The trial therefore involved reorganising work, as well as changing the weekly schedule.
 
-出典：[University of Cambridge](https://www.cam.ac.uk/stories/fourdayweek)
-
 ### P4
 
 The report compared workers' experiences before and after the trial. At the end, 71% reported lower burnout and 39% reported less stress. These figures describe employees' reported experiences, rather than a guarantee that everyone benefited. Employee retention was another business consideration: the report recorded fewer staff departures. Of the 61 participating companies, 56 planned to continue the shorter week, and 18 confirmed a permanent change.
-
-出典：[Autonomy](https://autonomy.work/portfolio/uk4dwpilotresults/)
 
 ### P5
 
 Revenue figures need careful interpretation. Cambridge reported an average increase of 1.4% during the trial for the 23 organisations able to provide revenue data. That figure does not describe all 61 participants. Interviews also revealed concerns: some employees worried about more intense workloads, while others felt that less informal conversation could reduce opportunities for new ideas.
 
-出典：[University of Cambridge](https://www.cam.ac.uk/stories/fourdayweek)
-
 ### P6
 
 The evidence came from company records, employee surveys and interviews collected during the pilot, with measurement points at its beginning, middle and end. These different sources allowed researchers to examine both organisational outcomes and individual experiences. The varied schedules are also significant: a four-day week was not one uniform policy applied in exactly the same way to every participating workplace.
 
-出典：[Autonomy](https://autonomy.work/portfolio/uk4dwpilotresults/)
+## 重要語彙5語
 
-### P7（教材用の仮定と問い）
+### retention（noun）
 
-Consider a hypothetical workplace deciding whether a shorter week would be viable under its own constraints. Would it alleviate pressure, or merely shift unfinished tasks into the remaining days? A team could ask how to maintain customer coverage, organise handovers and protect time for collaboration. These are questions for readers to consider, not additional findings from the trial. A useful proposal would explain what should change and how its results would be assessed.
-
-## 重要語彙と4択
-
-例文はすべて本アプリ向けに作成。4択の日本語は簡潔な訳語、英英は定義。各誤答の元となる別語も記録した。
-
-### 1. retention（noun）
-
-- 意味：定着（従業員が組織に在籍し続けること）
+- 意味：（人材の）定着・維持
 - 定義：keeping existing employees in an organisation
-- 本文の文脈：P4 — Employee retention was another business consideration: the report recorded fewer staff departures.
+- 本文：P4 — Employee retention was another business consideration: the report recorded fewer staff departures.
 - オリジナル例文：The company reviewed employee retention after introducing flexible schedules.
 
 **英→日**
 
-|番号|選択肢|対応する語|
-|---|---|---|
-|1|採用|recruitment|
-|2|配置|placement|
-|3|定着|retention|
-|4|昇進|promotion|
+1. 人材の採用
+2. 人材の配置
+3. 人材の維持 **正解**
+4. 人材の昇進
 
-正解：3。ここでは従業員が辞めずに在籍し続けること。採用・配置・昇進とは異なる。
+ここでは従業員が辞めずに在籍し続けること。採用・配置・昇進とは異なる。
 
 **英→英**
 
-|番号|選択肢|対応する語|
-|---|---|---|
-|1|hiring additional employees|recruitment|
-|2|keeping existing employees|retention|
-|3|promoting selected employees|promotion|
-|4|training inexperienced employees|training|
+1. hiring additional employees
+2. keeping existing employees **正解**
+3. promoting selected employees
+4. training inexperienced employees
 
-正解：2。retentionは既存の従業員を組織にとどめること。新規採用・昇進・研修ではない。
+retentionは既存の従業員を組織にとどめること。新規採用・昇進・研修ではない。
 
-### 2. streamline（verb）
+**使い方：すべて未確認。表示は今回実装しない。**
 
-- 意味：効率化する（不要な複雑さを減らして業務を効率よくする）
+| 組み合わせ | 型 | 意味 | 違い・ニュアンス | オリジナル例文 |
+|---|---|---|---|---|
+| employee retention | 名詞＋名詞 | 従業員の定着・維持 | 在籍している人材が辞めずに働き続けること。新規採用とは分ける。 | Employee retention improved after the team introduced regular mentoring. |
+| improve retention | 動詞＋名詞 | 定着率を改善する | 人材が残りやすくなる方向への変化を表す。 | The manager reviewed whether flexible shifts could improve retention. |
+| retention rate | 名詞＋名詞 | 定着率 | 定着を測定する割合。対象期間と人数の定義が必要。 | We measured the retention rate over the first twelve months. |
+
+よくある誤用：今回は未登録。確証のない誤用は作らない。
+
+### streamline（verb）
+
+- 意味：効率化する
 - 定義：make a process simpler and more efficient
-- 本文の文脈：P3 — Employers also looked for ways to streamline work.
+- 本文：P3 — Employers also looked for ways to streamline work.
 - オリジナル例文：We streamlined the approval process by removing unnecessary steps.
 
 **英→日**
 
-|番号|選択肢|対応する語|
-|---|---|---|
-|1|外注化する|outsource|
-|2|効率化する|streamline|
-|3|分散化する|decentralise|
-|4|自動化する|automate|
+1. 外注化する
+2. 効率化する **正解**
+3. 分散化する
+4. 自動化する
 
-正解：2。streamlineは工程を簡素化して効率を高めること。外注・権限の分散・自動化そのものを意味しない。
+streamlineは工程を簡素化して効率を高めること。外注・権限の分散・自動化そのものを意味しない。
 
 **英→英**
 
-|番号|選択肢|対応する語|
-|---|---|---|
-|1|transfer work to an outside supplier|outsource|
-|2|distribute authority among local teams|decentralise|
-|3|replace manual work with technology|automate|
-|4|simplify work to improve efficiency|streamline|
+1. transfer work to an outside supplier
+2. distribute authority among local teams
+3. replace manual work with technology
+4. simplify work to improve efficiency **正解**
 
-正解：4。業務を簡素化し効率を高める意味。外注化・分権化・自動化は別の概念。
+業務を簡素化し効率を高める意味。外注化・分権化・自動化は別の概念。
 
-### 3. alleviate（verb）
+**使い方：すべて未確認。表示は今回実装しない。**
 
-- 意味：緩和する（負担・苦痛・問題の程度を和らげる）
-- 定義：make a problem or suffering less severe
-- 本文の文脈：P7 — Would it alleviate pressure, or merely shift unfinished tasks into the remaining days?
-- オリジナル例文：Extra support may alleviate the pressure on the team.
+| 組み合わせ | 型 | 意味 | 違い・ニュアンス | オリジナル例文 |
+|---|---|---|---|---|
+| streamline a process | 動詞＋名詞 | 工程を効率化する | 工程の重複や無駄を減らす。自動化するとは限らない。 | The team streamlined the process by combining two approval steps. |
+| streamline operations | 動詞＋名詞 | 業務運営を効率化する | 個別工程より広い日常業務全体を対象にする。 | A shared booking system helped the clinic streamline operations. |
+| streamline communication | 動詞＋名詞 | 連絡の流れを簡素化する | 連絡経路や手順を整理する。会話を減らすこと自体ではない。 | We streamlined communication by choosing one channel for urgent requests. |
+
+よくある誤用：今回は未登録。確証のない誤用は作らない。
+
+### undermine（verb）
+
+- 意味：損なう
+- 定義：make something weaker or less effective
+- 本文：P1 — Researchers examined whether a shorter week could protect employees' well-being without undermining business performance.
+- オリジナル例文：Repeated changes to the deadline undermined confidence in the plan.
 
 **英→日**
 
-|番号|選択肢|対応する語|
-|---|---|---|
-|1|緩和する|alleviate|
-|2|測定する|measure|
-|3|分類する|classify|
-|4|予測する|predict|
+1. 調整する
+2. 損なう **正解**
+3. 評価する
+4. 維持する
 
-正解：1。alleviateは問題の程度を和らげること。測定・分類・予測は程度を和らげる行為ではない。
+ここでは業績を弱めたり悪化させたりする意味。調整・評価・維持ではない。
 
 **英→英**
 
-|番号|選択肢|対応する語|
-|---|---|---|
-|1|measure how severe a problem is|measure|
-|2|sort problems into different groups|classify|
-|3|make a problem less severe|alleviate|
-|4|forecast problems before they occur|predict|
+1. assess how effective something is
+2. keep something in its current condition
+3. make something weaker or less effective **正解**
+4. change something to suit new conditions
 
-正解：3。負担の深刻さを小さくする意味。測る・分類する・予測するという意味ではない。
+ここでは業績を弱めたり悪化させたりする意味。調整・評価・維持ではない。
 
-### 4. viable（adjective）
+**使い方：すべて未確認。表示は今回実装しない。**
 
-- 意味：実行可能な（計画が現実にうまく機能し得る）
-- 定義：capable of working successfully in practice
-- 本文の文脈：P7 — Consider a hypothetical workplace deciding whether a shorter week would be viable under its own constraints.
-- オリジナル例文：The pilot will help us decide whether the proposal is viable.
+| 組み合わせ | 型 | 意味 | 違い・ニュアンス | オリジナル例文 |
+|---|---|---|---|---|
+| undermine confidence in ～ | 動詞＋名詞＋前置詞 | ～への信頼を損なう | confidenceの対象はinで続ける。信頼を弱める。 | Unexplained delays undermined confidence in the delivery plan. |
+| undermine efforts to ～ | 動詞＋名詞＋不定詞 | ～するための努力を損なう | 努力の効果を弱める。努力そのものがなくなるとは限らない。 | Conflicting instructions undermined efforts to reduce errors. |
+| undermine authority | 動詞＋名詞 | 権威を損なう | 人や組織の指示が受け入れられる力を弱める。 | Publicly reversing every decision undermined the supervisor's authority. |
+
+よくある誤用：今回は未登録。確証のない誤用は作らない。
+
+### stagger（verb）
+
+- 意味：時間をずらす
+- 定義：arrange events to happen at different times
+- 本文：P2 — Some used a common day off; others staggered employees' days off.
+- オリジナル例文：We staggered lunch breaks to keep the reception desk staffed.
 
 **英→日**
 
-|番号|選択肢|対応する語|
-|---|---|---|
-|1|一時的な|temporary|
-|2|義務付けられた|mandatory|
-|3|実験段階の|experimental|
-|4|実行可能な|viable|
+1. 順番を替える
+2. 時間を延ばす
+3. 回数を減らす
+4. 時間をずらす **正解**
 
-正解：4。viableは計画が現実にうまく機能し得ること。期間・義務・試験段階を表す語ではない。
+休日や開始時刻を同時にせず分散させる意味。単なる順番の変更・延長・回数削減とは異なる。
 
 **英→英**
 
-|番号|選択肢|対応する語|
-|---|---|---|
-|1|capable of working successfully|viable|
-|2|lasting for a limited period|temporary|
-|3|required by an official rule|mandatory|
-|4|used to test an unproven idea|experimental|
+1. arrange events in a different sequence
+2. make events last for a longer period
+3. arrange events at different start times **正解**
+4. reduce the number of scheduled events
 
-正解：1。実際に成功して機能する可能性を表す。一時的・義務的・実験的とは別の意味。
+休日や開始時刻を同時にせず分散させる意味。単なる順番の変更・延長・回数削減とは異なる。
 
-### 5. constraint（noun）
+**使い方：すべて未確認。表示は今回実装しない。**
 
-- 意味：制約（計画や行動の自由を制限する条件）
-- 定義：a condition that limits what can be done
-- 本文の文脈：P7 — Consider a hypothetical workplace deciding whether a shorter week would be viable under its own constraints.
-- オリジナル例文：Budget constraints limited the number of people we could hire.
+| 組み合わせ | 型 | 意味 | 違い・ニュアンス | オリジナル例文 |
+|---|---|---|---|---|
+| stagger start times | 動詞＋名詞 | 開始時刻をずらす | 全員が同時に開始しないようにする。 | The organiser staggered start times to avoid a queue at the entrance. |
+| stagger lunch breaks | 動詞＋名詞 | 昼休憩の時間をずらす | 休憩を分散し、人員配置を維持する。 | We stagger lunch breaks so that someone can answer customer calls. |
+| stagger payments | 動詞＋名詞 | 支払い時期を分散する | 支払いを別々の時期に配置する。単なる期日の延期とは異なる。 | The buyer asked to stagger payments across three months. |
+
+よくある誤用：今回は未登録。確証のない誤用は作らない。
+
+### uniform（adjective）
+
+- 意味：一律の
+- 定義：the same across a group or range
+- 本文：P6 — The varied schedules are also significant: a four-day week was not one uniform policy applied in exactly the same way to every participating workplace.
+- オリジナル例文：The branches use a uniform process for handling refund requests.
 
 **英→日**
 
-|番号|選択肢|対応する語|
-|---|---|---|
-|1|手順|procedure|
-|2|目標|objective|
-|3|制約|constraint|
-|4|資源|resource|
+1. 暫定的な
+2. 厳格な
+3. 一律の **正解**
+4. 任意の
 
-正解：3。constraintはできることを制限する条件。手順・到達目標・使える資源とは異なる。
+ここでは全職場で同じように適用される意味。制服という名詞ではなく、形容詞の一律の。
 
 **英→英**
 
-|番号|選択肢|対応する語|
-|---|---|---|
-|1|a step in a planned action|procedure|
-|2|a limit on a planned action|constraint|
-|3|a goal for a planned action|objective|
-|4|a resource for a planned action|resource|
+1. temporary until a final decision is made
+2. the same across all members of a group **正解**
+3. requiring close obedience to every rule
+4. left to the choice of each participant
 
-正解：2。行動を制限する条件を表す。工程・目標・資源ではない。
+ここでは全職場で同じように適用される意味。制服という名詞ではなく、形容詞の一律の。
 
-## 内容理解：3問
+**使い方：すべて未確認。表示は今回実装しない。**
 
-### Q1. Which condition was central to the trial?
+| 組み合わせ | 型 | 意味 | 違い・ニュアンス | オリジナル例文 |
+|---|---|---|---|---|
+| a uniform policy | 形容詞＋名詞 | 一律の方針 | 対象ごとに別方針を使わず、共通の方針を適用する。 | The company adopted a uniform policy for refund requests. |
+| uniform standards | 形容詞＋名詞 | 統一された基準 | 複数の場所や対象に同じ基準を使う。厳しさとは別。 | Uniform standards made it easier to compare inspection results. |
+| uniform across ～ | 形容詞＋前置詞 | ～全体で一様な | 何の範囲で同じなのかをacrossで示す。 | The reporting format is uniform across all regional offices. |
 
-1. Employees kept their pay while working less.
+よくある誤用：今回は未登録。確証のない誤用は作らない。
+
+## 内容理解
+
+### q1 — 本文の確認
+
+Which condition was central to the trial?
+
+1. Employees kept their pay while working less. **正解**
 2. Employees accepted less pay for fewer hours.
 3. Employees worked longer days for extra pay.
 4. Employees chose any schedule without limits.
 
-正解：1 / 根拠段落：P1, P2
-P1の賃金維持と労働時間削減へのコミット、P2の unchanged pay alongside a meaningful reduction が根拠。単に勤務日を詰める制度ではない。
+根拠：P1・P2。P1の賃金維持と労働時間削減へのコミット、P2の unchanged pay alongside a meaningful reduction が根拠。単に勤務日を詰める制度ではない。
 
-### Q2. What does the reported 1.4% revenue increase refer to?
+### q2 — 推論
 
-1. Every worker's personal income in the trial.
-2. The average across all 61 participating firms.
-3. All companies in the United Kingdom that year.
-4. The average for 23 firms providing revenue data.
+Why should a reader avoid treating the 1.4% increase as a result for all participants?
 
-正解：4 / 根拠段落：P5
-P5の1.4%は売上データを提供できた23組織の平均。61組織全体、個人所得、英国全体の数値ではない。
+1. The revenue data cover only part of the trial. **正解**
+2. The figure measures only changes in staff pay.
+3. The interview data replace all revenue records.
+4. The participating firms all used one schedule.
 
-### Q3. Which concern did the Cambridge interviews identify?
+根拠：P5。P5は売上データを提供したのが23組織で、試行参加は61組織と述べる。したがって、この平均から残りの組織を含む全参加企業の結果までは判断できない。「1.4%は誤り」や「未提供企業は悪化した」とも推論できない。
+
+### q3 — 本文の確認
+
+Which concern did the Cambridge interviews identify?
 
 1. Every firm lost the ability to meet its targets.
-2. Less informal talk might limit chances for ideas.
+2. Less informal talk might limit chances for ideas. **正解**
 3. All workers received less pay during the trial.
 4. The trial had no data about company revenue.
 
-正解：2 / 根拠段落：P5
-P5で一部の従業員は非公式な会話の減少が新しいアイデアの機会を減らし得ると感じている。全員の不利益や全社の目標未達とは述べていない。
+根拠：P5。P5で一部の従業員は非公式な会話の減少が新しいアイデアの機会を減らし得ると感じている。全員の不利益や全社の目標未達とは述べていない。
 
 ## 自分の意見を書く
 
-Would a shorter working week be viable in your workplace or a workplace you know? Explain one possible benefit, one constraint, and one result you would measure.
+Would a shorter working week suit a workplace you know? Explain one possible benefit, one possible difficulty, and one result you would measure.
 
-任意回答。入力は端末内に保存する設計。
+入力は任意。端末内に保存する。
 
-## 検証結果
+## 追加仕様の実装境界
 
-- 自動検証：エラー0・警告0。語彙5語/両モード10問/内容理解3問。
-- 数字・日付・自己申告・集計対象を出典と照合。P7は出典の追加事実ではなく教材用補足。
-- 独立QA：事実・語義・正解一意性・本文根拠にP1/P2指摘なし。
-- 第5段階Step2の内容レビューとして停止。承認後に残り2本と記事画面へ進む。
+- 本ファイルの選択肢番号はレビュー用。実装後は出題ごとに並べ替える。
+- 選択肢IDと正解IDをJSONへ追加。旧answerIndexは互換用に残すが、新しい採点には使わない。
+- 教材はmaterials内のJSONと索引に分離。承認後、C1①もJSONへ移行し、既存JSは互換経路として保持する。
+- statusが確認済みでpublishedAtが現在時刻以下の教材だけ表示。日付未設定・下書き・未来公開は対象外。
+- 取り込み前の検証で異常があれば取り込みを止める。現在は画面への取り込み前の内容レビュー段階。
+- 並べ替え、ID採点、1〜4キーと表示順の対応は承認後に実装・テスト。今回は未実装。
