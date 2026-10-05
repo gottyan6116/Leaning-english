@@ -2,7 +2,7 @@ const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypt
 const root=path.join(__dirname,'..');
 const result=spawnSync(process.execPath,[path.join(__dirname,'validate-articles.cjs'),...(process.argv.includes('--write')?['--report']:[])],{stdio:'inherit'});
 if(result.status!==0)process.exit(result.status||1);
-const {validateItem}=require('../quiz-core.js'),entries=[],ids=new Set(),heads=new Set(),errors=[],articles=[],vocabularyRefs=[],wordIndex={},generated=[];
+const {validateItem}=require('../quiz-core.js'),entries=[],ids=new Set(),heads=new Set(),errors=[],articles=[],vocabularyRefs=[],wordIndex={},generated=[],searchRows=[];
 const json=x=>JSON.stringify(x,null,2)+'\n',hash=text=>crypto.createHash('sha256').update(text).digest('hex');
 function artifact(relative,text){generated.push([relative,text]);return{path:relative,sha256:hash(text)};}
 for(const folder of ['vocabulary','articles'])for(const file of fs.readdirSync(path.join(root,'materials',folder)).filter(x=>x.endsWith('.json')&&x!=='index.json')){
@@ -19,7 +19,7 @@ for(const folder of ['vocabulary','articles'])for(const file of fs.readdirSync(p
  }
  if(material.publishedAt){entries.push({id:material.id,kind:material.kind,version:material.version,publishedAt:material.publishedAt,path:relative,sha256:hash(text)});
   if(folder==='articles'){
-   const metadata=Object.fromEntries(['id','kind','status','version','publishedAt','title','summaryJa','category','level','readingMinutes','photo'].map(k=>[k,material[k]]));metadata.sourcePublishedAt=material.sources[0].publishedAt;metadata.articlePath=relative;articles.push(metadata);
+   const metadata=Object.fromEntries(['id','kind','status','version','publishedAt','title','summaryJa','category','level','readingMinutes','photo'].map(k=>[k,material[k]]));metadata.sourcePublishedAt=material.sources[0].publishedAt;metadata.articlePath=relative;articles.push(metadata);searchRows.push({id:material.id,searchText:[material.title,material.summaryJa,material.category,...material.vocabulary.flatMap(v=>[v.headword,v.meaning])].join(" ")});
    const items=material.vocabulary.map(v=>({...v,sourceKind:'article',articleId:material.id,materialVersion:material.version}));for(const item of items){if(!validateItem(item))errors.push(`Invalid article vocabulary ${item.id}`);if(ids.has(item.id))errors.push(`Duplicate word ID ${item.id}`);ids.add(item.id);wordIndex[item.id]={articleId:material.id};}
    const ref=artifact(`materials/article-vocabulary/${file}`,json({id:material.id,version:material.version,kind:'article-vocabulary',publishedAt:material.publishedAt,items}));vocabularyRefs.push({id:material.id,version:material.version,...ref});
   }
@@ -28,6 +28,7 @@ for(const folder of ['vocabulary','articles'])for(const file of fs.readdirSync(p
 if(errors.length){errors.forEach(e=>console.error(e));process.exit(1);}
 articles.sort((a,b)=>Date.parse(b.sourcePublishedAt)-Date.parse(a.sourcePublishedAt)||Date.parse(b.publishedAt)-Date.parse(a.publishedAt)||a.id.localeCompare(b.id));
 const articleIndex=artifact('materials/articles/index.json',json({id:'article-index',version:1,articles}));
-const content=json({version:2,materials:entries.sort((a,b)=>a.id.localeCompare(b.id)),articleIndex:{id:'article-index',version:1,...articleIndex},articleVocabulary:vocabularyRefs.sort((a,b)=>a.id.localeCompare(b.id)),wordIndex});generated.push(['materials/manifest.json',content]);
+const articleSearch=artifact('materials/search/article-index.json',json({id:'article-search',version:1,articles:searchRows.sort((a,b)=>a.id.localeCompare(b.id))}));
+const content=json({version:2,articleSearch:{id:'article-search',version:1,...articleSearch},materials:entries.sort((a,b)=>a.id.localeCompare(b.id)),articleIndex:{id:'article-index',version:1,...articleIndex},articleVocabulary:vocabularyRefs.sort((a,b)=>a.id.localeCompare(b.id)),wordIndex});generated.push(['materials/manifest.json',content]);
 for(const [relative,text] of generated){const destination=path.join(root,relative);if(process.argv.includes('--write')){fs.mkdirSync(path.dirname(destination),{recursive:true});fs.writeFileSync(destination,text);}else if(!fs.existsSync(destination)||fs.readFileSync(destination,'utf8')!==text){console.error(`Generated catalog missing or stale: ${relative}. Validate and regenerate before importing.`);process.exit(1);}}
 console.log(`Material import validation: ${entries.length} materials / 0 errors; metadata and vocabulary ${process.argv.includes('--write')?'generated':'match verified JSON'}`);

@@ -1,0 +1,58 @@
+{
+  "id": "article-search",
+  "version": 1,
+  "articles": [
+    {
+      "id": "article-culture-koji-skills-2024",
+      "searchText": "How Sake-Making Skills Are Passed On 麹を使う酒造りから、職人技と地域のつながりを読む 日常・文化 craftsmanship 熟練した職人技 distinctive 特徴的な oversee 監督する transmit 伝える cohesion 結びつき"
+    },
+    {
+      "id": "article-culture-statistics-2026",
+      "searchText": "How Can We Measure Culture Fairly? 文化の価値を一つの数字にまとめない統計の試み 日常・文化 framework 枠組み practitioners 実務家 governance 統治 interchangeable 交換可能 coverage 対象範囲"
+    },
+    {
+      "id": "article-education-europa-carbon-2023",
+      "searchText": "What Carbon on Europa Can Tell Us エウロパの炭素観測から、証拠と推定の違いを読む 教養 abundance 豊富な量 composition 物質の構成 tentative 暫定的な definitive 決定的な constrain 可能な範囲を絞る"
+    },
+    {
+      "id": "article-ethiopia-business-2026",
+      "searchText": "Training for New Businesses in Ethiopia 難民と地域の人々を支える事業研修と資金の計画 仕事 competition 競争・コンテスト training 研修 develop 具体化する support 支援 local 地域の"
+    },
+    {
+      "id": "article-informal-workers-2026",
+      "searchText": "Whose Voice Shapes Trade Policy? 貿易政策で非公式部門の働き手の声をどう届けるか 仕事 representation 代表参加 dialogue 対話 livelihoods 生計 affiliated 提携した inclusive 包摂的な"
+    },
+    {
+      "id": "article-jordan-skills-2026",
+      "searchText": "Turning Work Experience into Recognised Skills 学校外で得た技能を資格につなげるヨルダンの取り組み 仕事 recognise 認定する assess 評価する qualification 資格 accessible 利用しやすい foundation 土台"
+    },
+    {
+      "id": "article-mexico-tourism-2026",
+      "searchText": "Measuring Tourism Beyond Visitor Numbers 地域主体の観光を収入以外の面からも評価する 日常・文化 networks 交流網 cooperatives 協同組合 indicators 指標 heritage 文化遺産 evaluation 評価"
+    },
+    {
+      "id": "article-particle-telescope-2026",
+      "searchText": "A Small Detector for a Long Space Journey 小型検出器の経験を小惑星帯探査につなぐ 教養 incorporated 組み込む compact 小型の temporary 一時的な resumed 再開した perspective 観点"
+    },
+    {
+      "id": "article-samoa-tsunami-2026",
+      "searchText": "How Samoan Communities Prepare for Tsunamis 17地域の認定から、警報と避難の備えを読む 教養 community 地域社会 warning 警報 practise 練習する clear 分かりやすい route 経路"
+    },
+    {
+      "id": "article-school-poetry-2026",
+      "searchText": "Schools Create a Poem Together 1,000校のアイデアから生まれた共同詩 日常・文化 contribute 提供する perform 披露する response 反応・返答 estimate 概算 collection 作品集"
+    },
+    {
+      "id": "article-science-balloon-2026",
+      "searchText": "A Scientific Balloon Carries Student Projects 実験と訓練を支えたNASAの気球飛行 教養 launch 打ち上げる experimental 実験的な equipment 装備・機器 suitable 適した attempt 試み"
+    },
+    {
+      "id": "article-space-ports-2026",
+      "searchText": "How Satellites Could Help Ports Work Better 衛星技術を港の現場に生かすための協力 仕事 maritime 海事の logistics 物流 operational 業務上の monitoring 監視 deployment 導入"
+    },
+    {
+      "id": "article-work-four-day-week-2022",
+      "searchText": "What a Four-Day Working Week Changed 英国の試行から、働き方の工夫と結果の読み方を考える 仕事 retention （人材の）定着・維持 streamline 効率化する undermine 損なう stagger 時間をずらす uniform 一律の"
+    }
+  ]
+}

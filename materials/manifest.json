@@ -1,5 +1,11 @@
 {
   "version": 2,
+  "articleSearch": {
+    "id": "article-search",
+    "version": 1,
+    "path": "materials/search/article-index.json",
+    "sha256": "99286bdf13cb1c32d07b233757032bf456bbe0703ce354b778821a67e1dfb8b3"
+  },
   "materials": [
     {
       "id": "advanced-vocabulary-c1-01",
