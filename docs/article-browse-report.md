@@ -23,4 +23,11 @@
 - ○ 独自の既存トークン・写真を使用。DMMの資産は取り込んでいない。
 - ○ design-rules.mdに記事一覧の例外を追記。
 
-公開画面での確認結果は反映後に追記する。
+## 公開反映と確認範囲
+
+65cf4caを公開元codex/learning-uiへpush。GitHub Pagesのビルド・デプロイと教材CIが成功。公開HTMLに20261005-article-browse、article-browse.js/cssの参照があることを確認し、検索索引とmanifestの公開配信を確認した。
+
+ブラウザが接続エラー画面となり、後続操作もURLポリシーで拒否されたため、1280px／390pxの実画面での操作・見た目確認は未完了。上記の○はコード・自動テスト・独立QAによる評価であり、実画面を確認したという意味ではない。スクリーンショットは取得していない。
+
+確認URL：https://gottyan6116.github.io/Leaning-english/?view=articles&v=65cf4ca
+
