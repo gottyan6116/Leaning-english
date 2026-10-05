@@ -1,140 +1,9 @@
 {
   "id": "article-culture-koji-skills-2024",
   "version": 1,
-  "kind": "article",
-  "status": "checked",
+  "kind": "article-vocabulary",
   "publishedAt": "2026-10-04T00:00:00+09:00",
-  "title": "How Sake-Making Skills Are Passed On",
-  "summaryJa": "麹を使う酒造りから、職人技と地域のつながりを読む",
-  "category": "日常・文化",
-  "level": "B2",
-  "readingMinutes": 4,
-  "readingEstimateWordsPerMinute": 110,
-  "editorialNotice": "出典に基づく学習用編集版",
-  "textOrigin": "original-for-this-app; factual adaptation",
-  "sources": [
-    {
-      "id": "government-2025",
-      "title": "The Techniques and Appeal of ‘Traditional knowledge and skills of sake-making with koji mold in Japan’ Registered as an Intangible Cultural Heritage",
-      "publisher": "政府広報オンライン / HIGHLIGHTING Japan",
-      "author": null,
-      "authorNote": "署名著者は未確認。TOKURA Shunichiは取材対象であり著者ではない",
-      "interviewSubject": "TOKURA Shunichi",
-      "publishedAt": "2025-03",
-      "datePrecision": "month",
-      "url": "https://www.gov-online.go.jp/hlj/en/march_2025/march_2025-00.html",
-      "reportUrl": "https://www.gov-online.go.jp/en/assets/hj_march_2025_all.pdf",
-      "checkedAt": "2026-10-04",
-      "paragraphIds": [
-        "p2",
-        "p4",
-        "p6"
-      ],
-      "usage": "インタビューと工程解説の事実を独自の文で整理。発言・原文の直接引用なし"
-    },
-    {
-      "id": "unesco-2024",
-      "title": "Traditional knowledge and skills of sake-making with koji mold in Japan",
-      "publisher": "UNESCO Intangible Cultural Heritage",
-      "author": null,
-      "publishedAt": "2024",
-      "datePrecision": "year",
-      "dateKind": "inscription-year",
-      "dateNote": "登録年。ページの初回公開日は未確認",
-      "sourcePublishedAt": null,
-      "url": "https://ich.unesco.org/en/RL/traditional-knowledge-and-skills-of-sake-making-with-koji-mold-in-japan-01977",
-      "checkedAt": "2026-10-04",
-      "paragraphIds": [
-        "p3",
-        "p5"
-      ],
-      "usage": "登録説明の知識・技能・継承に関する事実を独自の文で整理。原文転載なし"
-    },
-    {
-      "id": "delegation-2024",
-      "title": "4 December 2024: The inscription of “Traditional knowledge and skills of sake-making with koji mold in Japan” on the Representative List of the Intangible Cultural Heritage of Humanity.",
-      "publisher": "Permanent Delegation of Japan to UNESCO",
-      "author": null,
-      "publishedAt": "2024-12-04",
-      "url": "https://www.unesco.emb-japan.go.jp/itpr_ja/11_000001_00200.html",
-      "checkedAt": "2026-10-04",
-      "paragraphIds": [
-        "p1"
-      ],
-      "usage": "登録日・登録対象を確認。製品ブランドの認定とは区別"
-    }
-  ],
-  "photo": {
-    "pageUrl": "https://unsplash.com/photos/kanji-labeled-product-lot-e1AtwT_cGPU",
-    "photoId": "e1AtwT_cGPU",
-    "photographer": "Leio McLaren",
-    "photographerUrl": "https://unsplash.com/@leio",
-    "service": "Unsplash",
-    "licenseUrl": "https://unsplash.com/license",
-    "licenseName": "Unsplash License",
-    "checkedAt": "2026-10-04",
-    "credit": "Photo by Leio McLaren on Unsplash",
-    "alt": "明治神宮に並ぶ酒樽",
-    "context": "関連する素材写真。UNESCO登録式や本文の特定の蔵の写真として扱わない",
-    "assetPath": "assets/articles/koji.jpg"
-  },
-  "paragraphs": [
-    {
-      "id": "p1",
-      "kind": "source-based",
-      "sourceIds": [
-        "delegation-2024"
-      ],
-      "text": "On 4 December 2024, traditional knowledge and skills of sake-making with koji mould in Japan were added to UNESCO's Representative List of the Intangible Cultural Heritage of Humanity. The inscription recognises knowledge and skills associated with production. It should not be described as the registration of a particular bottle or brand.",
-      "translationJa": "2024年12月4日、日本の麹菌を使った伝統的な酒造りの知識と技能が、ユネスコの「人類の無形文化遺産の代表的な一覧表」に登録されました。登録の対象は、製造に関わる知識と技能です。特定の酒のボトルやブランドが登録された、という意味ではありません。"
-    },
-    {
-      "id": "p2",
-      "kind": "source-based",
-      "sourceIds": [
-        "government-2025"
-      ],
-      "text": "In a March 2025 government publication, TOKURA Shunichi, then Commissioner for Cultural Affairs, explained the tradition's development. Its original forms were established more than five centuries ago. Regional climates and environments shaped distinctive techniques for making nihonshu, shochu, awamori and mirin. These products share the use of koji, while their production methods differ. The tradition therefore includes varied forms of craftsmanship.",
-      "translationJa": "2025年3月の政府広報では、当時の文化庁長官、都倉俊一氏がこの伝統の発展について説明しています。その原形は500年以上前に確立されました。地域の気候や環境によって、日本酒、焼酎、泡盛、みりんを造る独自の技術が育まれてきました。いずれも麹を使いますが、製法は異なります。この伝統には、さまざまな職人の技が含まれています。"
-    },
-    {
-      "id": "p3",
-      "kind": "source-based",
-      "sourceIds": [
-        "unesco-2024"
-      ],
-      "text": "UNESCO describes how craftspeople use koji mould to convert starch in grains into sugar. They oversee the conditions in which the mould grows, adjusting temperature and humidity as necessary. These decisions affect the quality of the finished sake. Chief makers, known as toji, lead brewery workers called kurabito. The practice depends on skilled people managing the process, as well as on the ingredients themselves.",
-      "translationJa": "ユネスコは、造り手が麹菌を使って穀物のでんぷんを糖に変える仕組みを紹介しています。造り手は菌が育つ環境を管理し、必要に応じて温度や湿度を調整します。こうした判断は完成した酒の品質に影響します。杜氏と呼ばれる責任者が、蔵人と呼ばれる働き手をまとめます。酒造りは原料だけでなく、技能を持つ人々が工程を管理することに支えられています。"
-    },
-    {
-      "id": "p4",
-      "kind": "source-based",
-      "sourceIds": [
-        "government-2025"
-      ],
-      "text": "The government interview also outlines three areas of skill: preparing raw materials, making koji and controlling fermentation. Rice is washed, soaked and steamed before it is used. Koji mould is allowed to grow on steamed rice. In moromi-making, koji, steamed rice, water and yeast are combined. Brewers observe the developing mash while starch becomes sugar and yeast converts sugar into alcohol.",
-      "translationJa": "政府広報のインタビューでは、原料の準備、麹造り、発酵管理という3つの技能も紹介されています。米は使う前に洗い、水に浸し、蒸します。蒸した米に麹菌を育てます。もろみ造りでは、麹、蒸米、水、酵母を合わせます。でんぷんが糖に変わり、酵母が糖をアルコールに変えていく間、造り手はもろみの変化を見守ります。"
-    },
-    {
-      "id": "p5",
-      "kind": "source-based",
-      "sourceIds": [
-        "unesco-2024"
-      ],
-      "text": "The skills are transmitted through apprenticeships, with support from regional unions and national organisations. UNESCO notes that people of all genders can learn the practice. Brewing requires teamwork, strengthening ties among craftspeople and with local residents, including farmers who supply ingredients. In this account, social cohesion concerns relationships built around the work. The tradition includes those connections, rather than only the steps followed inside a brewery.",
-      "translationJa": "技能は、地域の組合や全国的な団体の支援を受けながら、見習いとしての実践を通じて受け継がれます。ユネスコによると、性別を問わず学ぶことができます。酒造りにはチームワークが必要で、職人同士や、原料を供給する農家を含む地域住民とのつながりを強めます。ここでいう社会的な結びつきとは、仕事を通じて築かれる人間関係のことです。この伝統には、蔵の中の作業手順だけでなく、そうした関係も含まれます。"
-    },
-    {
-      "id": "p6",
-      "kind": "source-based",
-      "sourceIds": [
-        "government-2025"
-      ],
-      "text": "Passing skills on also depends on supporting the people and places involved. The March 2025 interview discussed damage to Noto breweries after the 2024 earthquake and heavy rain. It described donations, help from nearby breweries and shared brewing spaces. In January 2025, the Agency for Cultural Affairs organised an event in Ishikawa to support recovery and promote the region's appeal.",
-      "translationJa": "技能を次の世代へつなぐには、関わる人々と場所を支えることも欠かせません。2025年3月のインタビューでは、2024年の地震と豪雨による能登の酒蔵の被害が取り上げられました。寄付や近隣の酒蔵による支援、共同で使える醸造場所についても紹介されています。2025年1月には、文化庁が復興を支え、地域の魅力を発信するための催しを石川県で開きました。"
-    }
-  ],
-  "vocabulary": [
+  "items": [
     {
       "id": "article-culture-koji-skills-2024-craftsmanship",
       "headword": "craftsmanship",
@@ -227,7 +96,10 @@
           }
         ],
         "commonMisuse": null
-      }
+      },
+      "sourceKind": "article",
+      "articleId": "article-culture-koji-skills-2024",
+      "materialVersion": 1
     },
     {
       "id": "article-culture-koji-skills-2024-distinctive",
@@ -321,7 +193,10 @@
           }
         ],
         "commonMisuse": null
-      }
+      },
+      "sourceKind": "article",
+      "articleId": "article-culture-koji-skills-2024",
+      "materialVersion": 1
     },
     {
       "id": "article-culture-koji-skills-2024-oversee",
@@ -415,7 +290,10 @@
           }
         ],
         "commonMisuse": null
-      }
+      },
+      "sourceKind": "article",
+      "articleId": "article-culture-koji-skills-2024",
+      "materialVersion": 1
     },
     {
       "id": "article-culture-koji-skills-2024-transmit",
@@ -509,7 +387,10 @@
           }
         ],
         "commonMisuse": null
-      }
+      },
+      "sourceKind": "article",
+      "articleId": "article-culture-koji-skills-2024",
+      "materialVersion": 1
     },
     {
       "id": "article-culture-koji-skills-2024-cohesion",
@@ -603,144 +484,10 @@
           }
         ],
         "commonMisuse": null
-      }
+      },
+      "sourceKind": "article",
+      "articleId": "article-culture-koji-skills-2024",
+      "materialVersion": 1
     }
-  ],
-  "comprehension": [
-    {
-      "id": "q1",
-      "question": "What was added to UNESCO’s Representative List in December 2024?",
-      "choices": [
-        "A protected brand name for one particular bottle of sake.",
-        "A single recipe used by every brewery across the country.",
-        "The traditional knowledge and skills used in sake-making.",
-        "The industrial equipment installed in all modern breweries."
-      ],
-      "answerIndex": 2,
-      "evidenceParagraphIds": [
-        "p1"
-      ],
-      "explanationJa": "P1の登録対象はtraditional knowledge and skills。特定ブランド・単一レシピ・製造設備の登録ではない。",
-      "type": "literal",
-      "choiceIds": [
-        "article-culture-koji-skills-2024-q1-option-1",
-        "article-culture-koji-skills-2024-q1-option-2",
-        "article-culture-koji-skills-2024-q1-option-3",
-        "article-culture-koji-skills-2024-q1-option-4"
-      ],
-      "correctChoiceId": "article-culture-koji-skills-2024-q1-option-3",
-      "evidence": [
-        {
-          "paragraphId": "p1",
-          "text": "On 4 December 2024, traditional knowledge and skills of sake-making with koji mould in Japan were added to UNESCO's Representative List of the Intangible Cultural Heritage of Humanity.",
-          "highlights": [
-            "traditional knowledge and skills"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "q2",
-      "question": "Why must craftspeople monitor the conditions in which koji grows?",
-      "choices": [
-        "Those conditions affect the quality of the finished sake.",
-        "Those conditions decide which brand UNESCO recognises.",
-        "Those conditions replace the need for any fermentation.",
-        "Those conditions make regional production methods identical."
-      ],
-      "answerIndex": 0,
-      "evidenceParagraphIds": [
-        "p3",
-        "p4"
-      ],
-      "explanationJa": "P3は温度・湿度の調整が品質に影響すると述べ、P4は麹と発酵の工程を示す。登録ブランドや地域差の消去に関する説明ではない。",
-      "type": "literal",
-      "choiceIds": [
-        "article-culture-koji-skills-2024-q2-option-1",
-        "article-culture-koji-skills-2024-q2-option-2",
-        "article-culture-koji-skills-2024-q2-option-3",
-        "article-culture-koji-skills-2024-q2-option-4"
-      ],
-      "correctChoiceId": "article-culture-koji-skills-2024-q2-option-1",
-      "evidence": [
-        {
-          "paragraphId": "p3",
-          "text": "They oversee the conditions in which the mould grows, adjusting temperature and humidity as necessary.",
-          "highlights": [
-            "temperature and humidity"
-          ]
-        },
-        {
-          "paragraphId": "p3",
-          "text": "These decisions affect the quality of the finished sake.",
-          "highlights": [
-            "quality"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "q3",
-      "question": "Which inference is best supported by the account of transmission?",
-      "choices": [
-        "Preserving the tradition requires every brewery to use one recipe.",
-        "Preserving the tradition depends only on protecting old buildings.",
-        "Preserving the tradition means recording facts without practising.",
-        "Preserving the tradition involves people learning and working together."
-      ],
-      "answerIndex": 3,
-      "evidenceParagraphIds": [
-        "p3",
-        "p5",
-        "p6"
-      ],
-      "explanationJa": "P3の杜氏と蔵人、P5の徒弟制度・協力関係、P6の蔵同士の支援が根拠。技能継承は人の学習や協働に関わり、単一レシピや建物だけでは説明できない。",
-      "type": "inference",
-      "choiceIds": [
-        "article-culture-koji-skills-2024-q3-option-1",
-        "article-culture-koji-skills-2024-q3-option-2",
-        "article-culture-koji-skills-2024-q3-option-3",
-        "article-culture-koji-skills-2024-q3-option-4"
-      ],
-      "correctChoiceId": "article-culture-koji-skills-2024-q3-option-4",
-      "evidence": [
-        {
-          "paragraphId": "p5",
-          "text": "The skills are transmitted through apprenticeships, with support from regional unions and national organisations.",
-          "highlights": [
-            "apprenticeships"
-          ]
-        },
-        {
-          "paragraphId": "p5",
-          "text": "Brewing requires teamwork, strengthening ties among craftspeople and with local residents, including farmers who supply ingredients.",
-          "highlights": [
-            "teamwork",
-            "local residents"
-          ]
-        }
-      ]
-    }
-  ],
-  "opinion": {
-    "id": "opinion-1",
-    "prompt": "Choose a craft or skill you know. How could experienced practitioners pass it on while allowing regional or individual differences to continue?",
-    "optional": true,
-    "saveScope": "device"
-  },
-  "review": {
-    "factsCheckedAt": "2026-10-04",
-    "editorialParagraphIds": [],
-    "contentApproval": "approved-candidate-and-production",
-    "notes": "登録対象は知識・技能。登録日2024-12-04と記事発表月2025-03を区別。取材対象を著者としない。本文は一次資料の事実のみ。usageは全件未確認。"
-  },
-  "sourcePublishedAt": "2025-03",
-  "translationReview": {
-    "status": "reviewed",
-    "note": "数字・時点・推定と観測・予定と実績を原英文と照合。段落IDを保持。"
-  },
-  "vocabularyReview": {
-    "status": "reviewed",
-    "reason": "既存のB2〜C1教材。未収録の醸造・天文学の専門語や複合語を確認し、本文の説明と重要語彙で補う。固有名詞・数字・否定・推定の訳を英文と段落単位で照合。"
-  }
+  ]
 }

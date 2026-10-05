@@ -1,0 +1,722 @@
+{
+  "id": "article-ethiopia-business-2026",
+  "version": 1,
+  "kind": "article",
+  "status": "checked",
+  "createdAt": "2026-10-05",
+  "publishedAt": "2026-10-05T00:00:00+09:00",
+  "sourcePublishedAt": "2026-10-02",
+  "title": "Training for New Businesses in Ethiopia",
+  "summaryJa": "難民と地域の人々を支える事業研修と資金の計画",
+  "category": "仕事",
+  "level": "A2",
+  "readingMinutes": 3,
+  "readingEstimateWordsPerMinute": 80,
+  "editorialNotice": "出典に基づく学習用編集版",
+  "textOrigin": "original-for-this-app; factual adaptation",
+  "sources": [
+    {
+      "id": "ilo-business",
+      "title": "ILO launches new phase of business plan competition for refugees and host communities in Ethiopia",
+      "publisher": "International Labour Organization",
+      "publishedAt": "2026-10-02",
+      "url": "https://www.ilo.org/resource/article/ilo-launches-new-phase-business-plan-competition-refugees-and-host",
+      "checkedAt": "2026-10-05",
+      "paragraphIds": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "usage": "事実を独自の文で整理。原文・発言の直接引用なし",
+      "author": null
+    }
+  ],
+  "photo": {
+    "pageUrl": "https://unsplash.com/photos/white-sewing-machine-1mnXGDl3iRY",
+    "photoId": "1mnXGDl3iRY",
+    "photographer": "Agto Nugroho",
+    "service": "Unsplash",
+    "licenseUrl": "https://unsplash.com/license",
+    "checkedAt": "2026-10-05",
+    "credit": "Photo by Agto Nugroho on Unsplash",
+    "alt": "ミシンを使う仕事場",
+    "context": "関連する素材写真。出典で扱う地域・人物・出来事の現場写真ではない。",
+    "assetPath": "assets/articles/sewing.jpg"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "kind": "source-based",
+      "sourceIds": [
+        "ilo-business"
+      ],
+      "text": "On 2 October 2026, the International Labour Organization reported a new business competition in Ethiopia. It is for refugees and people in the communities where they live. Some want to start a business. Others already have one and want to grow it.",
+      "translationJa": "2026年10月2日、国際労働機関はエチオピアで新たな事業コンテストが始まったと発表しました。対象は難民と、難民を受け入れている地域の人々です。これから事業を始めたい人も、すでに営む事業を大きくしたい人も参加対象です。"
+    },
+    {
+      "id": "p2",
+      "kind": "source-based",
+      "sourceIds": [
+        "ilo-business"
+      ],
+      "text": "The programme plans to give training to 3,000 people. They will learn how to develop a business idea. Next, 1,500 people will receive more training to make their plans better. After a selection, 450 people will receive money to start or grow their businesses.",
+      "translationJa": "このプログラムでは3,000人に研修を提供する予定です。参加者は事業のアイデアを具体化する方法を学びます。次に1,500人が追加の研修を受け、計画をよりよいものにします。その後の選考を経て、450人が事業の開始や拡大に使う資金を受け取る予定です。"
+    },
+    {
+      "id": "p3",
+      "kind": "source-based",
+      "sourceIds": [
+        "ilo-business"
+      ],
+      "text": "The support is not only money. Participants can learn about business planning and managing money. They can also get help with the official steps needed to run a business. People who do not receive money may be connected with banks, where possible.",
+      "translationJa": "支援は資金だけではありません。参加者は事業計画やお金の管理についても学べます。事業を営むために必要な正式な手続きの支援も受けられます。資金を受け取れなかった人には、可能な場合、銀行への紹介も行われます。"
+    },
+    {
+      "id": "p4",
+      "kind": "source-based",
+      "sourceIds": [
+        "ilo-business"
+      ],
+      "text": "These numbers describe the new programme's plans. They do not tell us how many businesses have already opened. The competition brings training and financial support together. Both refugees and local people can take part.",
+      "translationJa": "これらの人数は、新しいプログラムの計画を表しています。すでに開業した事業の数を示しているわけではありません。このコンテストは研修と資金面の支援を組み合わせています。難民も地域の人々も参加できます。"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "article-ethiopia-business-2026-competition",
+      "headword": "competition",
+      "partOfSpeech": "noun",
+      "meaning": "競争・コンテスト",
+      "definition": "an event in which people try to win",
+      "contextParagraphId": "p1",
+      "context": "On 2 October 2026, the International Labour Organization reported a new business competition in Ethiopia.",
+      "example": "Our town held a competition for new business ideas.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "競争・コンテスト",
+      "questions": {
+        "ja": {
+          "choices": [
+            "競技会",
+            "討論会",
+            "展覧会",
+            "式典"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-ethiopia-business-2026-competition-ja-option-1",
+            "article-ethiopia-business-2026-competition-ja-option-2",
+            "article-ethiopia-business-2026-competition-ja-option-3",
+            "article-ethiopia-business-2026-competition-ja-option-4"
+          ],
+          "correctChoiceId": "article-ethiopia-business-2026-competition-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "conference",
+            "exhibition",
+            "ceremony"
+          ],
+          "explanation": "本文では「競争・コンテスト」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "an event where people try to win",
+            "a meeting where people discuss issues",
+            "a show where people display objects",
+            "a ceremony where people mark occasions"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-ethiopia-business-2026-competition-en-option-1",
+            "article-ethiopia-business-2026-competition-en-option-2",
+            "article-ethiopia-business-2026-competition-en-option-3",
+            "article-ethiopia-business-2026-competition-en-option-4"
+          ],
+          "correctChoiceId": "article-ethiopia-business-2026-competition-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "conference",
+            "exhibition",
+            "ceremony"
+          ],
+          "explanation": "本文では「競争・コンテスト」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "enter a competition",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "コンテストに参加する",
+            "nuanceJa": "応募して参加者になる。",
+            "example": "My sister entered a competition for young cooks.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "win a competition",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "コンテストで優勝する",
+            "nuanceJa": "参加だけでなく勝者になる。",
+            "example": "Their team won a competition for useful inventions.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a business competition",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "事業コンテスト",
+            "nuanceJa": "事業のアイデアなどを競う催し。",
+            "example": "The business competition attracted local shop owners.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "competition"
+    },
+    {
+      "id": "article-ethiopia-business-2026-training",
+      "headword": "training",
+      "partOfSpeech": "noun",
+      "meaning": "研修",
+      "definition": "learning and practice for a job or activity",
+      "contextParagraphId": "p2",
+      "context": "The programme plans to give training to 3,000 people.",
+      "example": "The new assistant starts her training on Monday.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "研修",
+      "questions": {
+        "ja": {
+          "choices": [
+            "研修",
+            "面接",
+            "調査",
+            "会議"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-ethiopia-business-2026-training-ja-option-1",
+            "article-ethiopia-business-2026-training-ja-option-2",
+            "article-ethiopia-business-2026-training-ja-option-3",
+            "article-ethiopia-business-2026-training-ja-option-4"
+          ],
+          "correctChoiceId": "article-ethiopia-business-2026-training-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "interview",
+            "survey",
+            "meeting"
+          ],
+          "explanation": "本文では「研修」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "learning skills for a job or activity",
+            "answering questions for a job application",
+            "collecting facts for a study or report",
+            "discussing topics at a planned meeting"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-ethiopia-business-2026-training-en-option-1",
+            "article-ethiopia-business-2026-training-en-option-2",
+            "article-ethiopia-business-2026-training-en-option-3",
+            "article-ethiopia-business-2026-training-en-option-4"
+          ],
+          "correctChoiceId": "article-ethiopia-business-2026-training-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "interview",
+            "survey",
+            "meeting"
+          ],
+          "explanation": "本文では「研修」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "receive training",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "研修を受ける",
+            "nuanceJa": "教えられる側を主語にする。",
+            "example": "All new staff receive training before using the machine.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "provide training",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "研修を提供する",
+            "nuanceJa": "教える側の行動を表す。",
+            "example": "The library provides training for its volunteers.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "practical training",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "実践的な研修",
+            "nuanceJa": "実際の作業を通じた学習を指す。",
+            "example": "Practical training helped me use the new tools.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "training"
+    },
+    {
+      "id": "article-ethiopia-business-2026-develop",
+      "headword": "develop",
+      "partOfSpeech": "verb",
+      "meaning": "具体化する",
+      "definition": "make an idea grow into a more detailed plan",
+      "contextParagraphId": "p2",
+      "context": "They will learn how to develop a business idea.",
+      "example": "We developed an idea for a small delivery service.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "具体化する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "案を練る",
+            "提案する",
+            "承認する",
+            "実施する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-ethiopia-business-2026-develop-ja-option-1",
+            "article-ethiopia-business-2026-develop-ja-option-2",
+            "article-ethiopia-business-2026-develop-ja-option-3",
+            "article-ethiopia-business-2026-develop-ja-option-4"
+          ],
+          "correctChoiceId": "article-ethiopia-business-2026-develop-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "propose",
+            "approve",
+            "implement"
+          ],
+          "explanation": "本文では「具体化する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "make an idea into a fuller plan",
+            "offer an idea for others to consider",
+            "accept an idea with official permission",
+            "put an idea into practical action"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-ethiopia-business-2026-develop-en-option-1",
+            "article-ethiopia-business-2026-develop-en-option-2",
+            "article-ethiopia-business-2026-develop-en-option-3",
+            "article-ethiopia-business-2026-develop-en-option-4"
+          ],
+          "correctChoiceId": "article-ethiopia-business-2026-develop-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "propose",
+            "approve",
+            "implement"
+          ],
+          "explanation": "本文では「具体化する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "develop an idea",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "アイデアを具体化する",
+            "nuanceJa": "細部を考えて形にする。",
+            "example": "Our group developed an idea for a reading club.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "develop a plan",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "計画を練る",
+            "nuanceJa": "手順や内容を詳しくする。",
+            "example": "We developed a plan for selling our handmade bags.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "develop skills",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "技能を伸ばす",
+            "nuanceJa": "能力の成長を表す別の組み合わせ。",
+            "example": "The course helps learners develop writing skills.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "develop"
+    },
+    {
+      "id": "article-ethiopia-business-2026-support",
+      "headword": "support",
+      "partOfSpeech": "noun",
+      "meaning": "支援",
+      "definition": "help given to someone or something",
+      "contextParagraphId": "p3",
+      "context": "The support is not only money.",
+      "example": "The club offered support to families moving into the area.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "支援",
+      "questions": {
+        "ja": {
+          "choices": [
+            "支援",
+            "許可",
+            "評価",
+            "契約"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-ethiopia-business-2026-support-ja-option-1",
+            "article-ethiopia-business-2026-support-ja-option-2",
+            "article-ethiopia-business-2026-support-ja-option-3",
+            "article-ethiopia-business-2026-support-ja-option-4"
+          ],
+          "correctChoiceId": "article-ethiopia-business-2026-support-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "permission",
+            "assessment",
+            "contract"
+          ],
+          "explanation": "本文では「支援」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "help given to a person or project",
+            "permission given for a planned action",
+            "judgement given about a person’s work",
+            "agreement made between different people"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-ethiopia-business-2026-support-en-option-1",
+            "article-ethiopia-business-2026-support-en-option-2",
+            "article-ethiopia-business-2026-support-en-option-3",
+            "article-ethiopia-business-2026-support-en-option-4"
+          ],
+          "correctChoiceId": "article-ethiopia-business-2026-support-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "permission",
+            "assessment",
+            "agreement"
+          ],
+          "explanation": "本文では「支援」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "offer support",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "支援を申し出る",
+            "nuanceJa": "支援を提供できると伝える。",
+            "example": "Our neighbours offered support after the storm.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "financial support",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "資金面の支援",
+            "nuanceJa": "お金に関係する支援に限定する。",
+            "example": "The project received financial support from local shops.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "support for a project",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "事業への支援",
+            "nuanceJa": "支援の対象をforで示す。",
+            "example": "Support for the project came from several community groups.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "support"
+    },
+    {
+      "id": "article-ethiopia-business-2026-local",
+      "headword": "local",
+      "partOfSpeech": "adjective",
+      "meaning": "地域の",
+      "definition": "connected with the nearby area",
+      "contextParagraphId": "p4",
+      "context": "Both refugees and local people can take part.",
+      "example": "We buy vegetables from local farmers.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "地域の",
+      "questions": {
+        "ja": {
+          "choices": [
+            "地域の",
+            "全国の",
+            "外国の",
+            "国際的な"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-ethiopia-business-2026-local-ja-option-1",
+            "article-ethiopia-business-2026-local-ja-option-2",
+            "article-ethiopia-business-2026-local-ja-option-3",
+            "article-ethiopia-business-2026-local-ja-option-4"
+          ],
+          "correctChoiceId": "article-ethiopia-business-2026-local-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "national",
+            "foreign",
+            "international"
+          ],
+          "explanation": "本文では「地域の」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "connected with a nearby area",
+            "connected with a whole country",
+            "connected with another country",
+            "connected with several countries"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-ethiopia-business-2026-local-en-option-1",
+            "article-ethiopia-business-2026-local-en-option-2",
+            "article-ethiopia-business-2026-local-en-option-3",
+            "article-ethiopia-business-2026-local-en-option-4"
+          ],
+          "correctChoiceId": "article-ethiopia-business-2026-local-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "national",
+            "foreign",
+            "international"
+          ],
+          "explanation": "本文では「地域の」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "local people",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "地域の人々",
+            "nuanceJa": "その土地に住む人を指す。",
+            "example": "Local people helped clean the park.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a local business",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "地元の事業者",
+            "nuanceJa": "活動の拠点が近隣にある事業者。",
+            "example": "A local business supplied chairs for the event.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "the local community",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "地域社会",
+            "nuanceJa": "その地域の人々全体を指す。",
+            "example": "The local community welcomed the new library.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "local"
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "article-ethiopia-business-2026-q1",
+      "question": "Who can take part?",
+      "choices": [
+        "Refugees and people in host communities.",
+        "Only managers of large foreign companies.",
+        "Only people who already work for banks.",
+        "Tourists visiting the country for holidays."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-ethiopia-business-2026-q1-option-1",
+        "article-ethiopia-business-2026-q1-option-2",
+        "article-ethiopia-business-2026-q1-option-3",
+        "article-ethiopia-business-2026-q1-option-4"
+      ],
+      "correctChoiceId": "article-ethiopia-business-2026-q1-option-1",
+      "evidenceParagraphIds": [
+        "p1"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p1",
+          "text": "It is for refugees and people in the communities where they live.",
+          "highlights": [
+            "refugees"
+          ]
+        }
+      ],
+      "explanationJa": "難民と、難民が暮らす地域の人々の両方が対象。",
+      "type": "literal"
+    },
+    {
+      "id": "article-ethiopia-business-2026-q2",
+      "question": "How many people are planned to receive start-up money?",
+      "choices": [
+        "450 people after a selection.",
+        "1,500 people without selection.",
+        "3,000 people at the first class.",
+        "All people living in the country."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-ethiopia-business-2026-q2-option-1",
+        "article-ethiopia-business-2026-q2-option-2",
+        "article-ethiopia-business-2026-q2-option-3",
+        "article-ethiopia-business-2026-q2-option-4"
+      ],
+      "correctChoiceId": "article-ethiopia-business-2026-q2-option-1",
+      "evidenceParagraphIds": [
+        "p2"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p2",
+          "text": "After a selection, 450 people will receive money to start or grow their businesses.",
+          "highlights": [
+            "450 people"
+          ]
+        }
+      ],
+      "explanationJa": "研修対象3,000人とは区別する。",
+      "type": "literal"
+    },
+    {
+      "id": "article-ethiopia-business-2026-q3",
+      "question": "What can we conclude about the numbers?",
+      "choices": [
+        "They describe planned stages of support.",
+        "They show businesses already earning money.",
+        "They prove everyone has received bank loans.",
+        "They count businesses already hiring workers."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-ethiopia-business-2026-q3-option-1",
+        "article-ethiopia-business-2026-q3-option-2",
+        "article-ethiopia-business-2026-q3-option-3",
+        "article-ethiopia-business-2026-q3-option-4"
+      ],
+      "correctChoiceId": "article-ethiopia-business-2026-q3-option-1",
+      "evidenceParagraphIds": [
+        "p4"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p4",
+          "text": "These numbers describe the new programme's plans.",
+          "highlights": [
+            "plans"
+          ]
+        }
+      ],
+      "explanationJa": "計画の人数であり、開業の実績はまだ分からない。",
+      "type": "inference"
+    }
+  ],
+  "opinion": {
+    "id": "opinion-1",
+    "prompt": "What help would you need to start a small business?",
+    "optional": true,
+    "saveScope": "device"
+  },
+  "properNouns": [
+    "Ethiopia",
+    "International Labour Organization",
+    "October"
+  ],
+  "review": {
+    "factsCheckedAt": "2026-10-05",
+    "editorialParagraphIds": [],
+    "contentApproval": "editorial-reviewed",
+    "notes": "本文の事実・訳・設問根拠を出典と照合。使い方はすべて未確認。"
+  },
+  "reviewNotes": [
+    "出典の計画・目標と実績を区別。選択肢は同品詞の別の語から作成。"
+  ],
+  "validationProperNouns": [
+    "Ethiopia",
+    "International Labour Organization",
+    "October"
+  ],
+  "validationEntityAliases": {
+    "Ethiopia": "エチオピア",
+    "Samoa": "サモア",
+    "Aleipata": "アレイパタ",
+    "Lepa": "レパ",
+    "Jordan": "ヨルダン",
+    "NASA": "NASA",
+    "Mullenax": "Mullenax",
+    "Fort Sumner": "フォートサムナー",
+    "Michael Rosen": "マイケル・ローゼン",
+    "Chris Redmond": "クリス・レドモンド",
+    "Liv Torc": "リヴ・トーク",
+    "National Poetry Day": "National Poetry Day",
+    "UNESCO": "ユネスコ",
+    "International Labour Organization": "国際労働機関",
+    "Forward Arts Foundation": "Forward Arts Foundation",
+    "October": "10月",
+    "September": "9月",
+    "Jordanians": "ヨルダン人",
+    "Syrian": "シリア",
+    "ILO": "ILO",
+    "RPL": "RPL",
+    "Recognition of Prior Learning": "既修得学習の認定",
+    "Tsunami Ready": "Tsunami Ready",
+    "Test Flight": "試験飛行",
+    "New Mexico": "ニューメキシコ",
+    "Mountain Daylight Time": "山岳部夏時間",
+    "Hurricane Polo": "ハリケーン・ポロ",
+    "United Kingdom": "英国",
+    "Torc": "トーク",
+    "Rosen": "ローゼン"
+  },
+  "validationNumberAliases": {
+    "half a million": "50万人",
+    "1,000": "1,000",
+    "3,257": "3,257",
+    "7:57": "7時57分"
+  },
+  "vocabularyReview": {
+    "status": "reviewed",
+    "reason": "5つの重要語を本文の実際の用例と対応させ、同品詞の別語による誤答と比較。制度や科学の固有用語は直後の短文で意味を説明し、計画と実績・認定と就職・飛行と実験結果を区別。専門語を覚えなくても本文と訳から3問の根拠を確認できる。未収録語は固有名詞と語形を個別に確認。"
+  }
+}

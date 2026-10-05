@@ -1,0 +1,754 @@
+{
+  "id": "article-jordan-skills-2026",
+  "version": 1,
+  "kind": "article",
+  "status": "checked",
+  "createdAt": "2026-10-05",
+  "publishedAt": "2026-10-05T00:00:00+09:00",
+  "sourcePublishedAt": "2026-10-02",
+  "title": "Turning Work Experience into Recognised Skills",
+  "summaryJa": "学校外で得た技能を資格につなげるヨルダンの取り組み",
+  "category": "仕事",
+  "level": "B1",
+  "readingMinutes": 3,
+  "readingEstimateWordsPerMinute": 100,
+  "editorialNotice": "出典に基づく学習用編集版",
+  "textOrigin": "original-for-this-app; factual adaptation",
+  "sources": [
+    {
+      "id": "ilo-jordan",
+      "title": "ILO and partners establish official recognition of prior learning system in Jordan, expanding pathways to decent work",
+      "publisher": "International Labour Organization",
+      "publishedAt": "2026-10-02",
+      "url": "https://www.ilo.org/resource/news/ilo-and-partners-establish-official-recognition-prior-learning-system",
+      "checkedAt": "2026-10-05",
+      "paragraphIds": [
+        "p1",
+        "p2",
+        "p3",
+        "p5"
+      ],
+      "usage": "事実を独自の文で整理。原文・発言の直接引用なし",
+      "author": null
+    },
+    {
+      "id": "ilo-rpl-guide",
+      "title": "Guidelines on costing and financing: Recognition of prior learning",
+      "publisher": "International Labour Organization",
+      "publishedAt": "2025-08-11",
+      "url": "https://www.ilo.org/resource/report/guidelines-costing-and-financing-recognition-prior-learning",
+      "checkedAt": "2026-10-05",
+      "paragraphIds": [
+        "p4"
+      ],
+      "usage": "事実を独自の文で整理。原文・発言の直接引用なし",
+      "author": null
+    }
+  ],
+  "photo": {
+    "pageUrl": "https://unsplash.com/photos/tools-in-a-workshop-illuminated-by-a-single-light-b5vBGnCsq_g",
+    "photoId": "b5vBGnCsq_g",
+    "photographer": "Sofie D.",
+    "service": "Unsplash",
+    "licenseUrl": "https://unsplash.com/license",
+    "checkedAt": "2026-10-05",
+    "credit": "Photo by Sofie D. on Unsplash",
+    "alt": "工房に並ぶ道具",
+    "context": "技能に関連する素材写真。ヨルダンの対象者や実際の認定場所の写真ではない。",
+    "assetPath": "assets/articles/workshop.jpg"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "kind": "source-based",
+      "sourceIds": [
+        "ilo-jordan"
+      ],
+      "text": "On 2 October 2026, the International Labour Organization reported the end of a two-year programme in Jordan. The programme helped build a system for recognising skills learned outside formal education. A person may know how to do a job because of work experience, even without a school certificate.",
+      "translationJa": "2026年10月2日、国際労働機関はヨルダンで2年間の事業が終わったと発表しました。この事業は、正規の教育以外で身につけた技能を認定する制度づくりを支援しました。学校の修了証がなくても、仕事の経験を通して業務のやり方を理解している人はいます。"
+    },
+    {
+      "id": "p2",
+      "kind": "source-based",
+      "sourceIds": [
+        "ilo-jordan"
+      ],
+      "text": "The process is called Recognition of Prior Learning, or RPL. Its purpose is to assess what people can already do and connect those skills with recognised qualifications. The pilot targeted 1,000 Jordanians and Syrian refugees. That number describes the people it aimed to reach, not a reported total of successful certificates.",
+      "translationJa": "この仕組みは「既修得学習の認定」、略してRPLと呼ばれます。すでにできることを評価し、その技能を公的に認められる資格につなげることが目的です。試行はヨルダン人とシリア難民の1,000人を対象としました。この人数は支援を届けようとした対象数であり、資格を取得した人数の実績ではありません。"
+    },
+    {
+      "id": "p3",
+      "kind": "source-based",
+      "sourceIds": [
+        "ilo-jordan"
+      ],
+      "text": "National organisations worked together on the programme. They developed tools to assess skills and guide applicants. A community organisation helped people find services. A government ministry supported an online portal. These steps were intended to make the system accessible and useful beyond the initial programme. The work involved both people and digital services.",
+      "translationJa": "国内の組織が協力して事業を進めました。技能の評価や申請者への案内に使う道具を開発し、地域の団体はサービスを探す人を支援しました。政府の省庁はオンライン窓口を支えました。こうした取り組みは、最初の事業が終わった後も制度を利用しやすく、役立つものにするためのものです。 人による支援とデジタルのサービスの両方が関わっています。"
+    },
+    {
+      "id": "p4",
+      "kind": "source-based",
+      "sourceIds": [
+        "ilo-rpl-guide"
+      ],
+      "text": "The ILO's earlier guidelines explain that recognising skills also requires financial planning. There are direct costs, support costs and opportunity costs. A national system therefore needs arrangements that can continue over time. The guidelines discuss different ways to finance the process, rather than one method that every country must copy.",
+      "translationJa": "ILOの以前の指針では、技能の認定には資金計画も必要だと説明されています。直接かかる費用、支援に伴う費用、参加などによって失う機会の費用があります。そのため、国の制度には長期的に続けられる仕組みが必要です。指針は、すべての国が同じ方法をまねするのではなく、さまざまな資金調達の方法を紹介しています。"
+    },
+    {
+      "id": "p5",
+      "kind": "source-based",
+      "sourceIds": [
+        "ilo-jordan"
+      ],
+      "text": "Formal recognition can make existing skills easier for employers to identify. However, a qualification and a job offer are different things. The new announcement describes a foundation for a broader system. It does not show that every participant has gained employment or that all planned services have already reached every worker.",
+      "translationJa": "正式に認定されると、雇用主が既存の技能を把握しやすくなります。ただし、資格と採用の申し出は別のものです。今回の発表は、より広い制度に向けた土台を説明しています。参加者全員が就職したことや、予定されたサービスがすべての労働者に届いたことを示すものではありません。"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "article-jordan-skills-2026-recognise",
+      "headword": "recognise",
+      "partOfSpeech": "verb",
+      "meaning": "認定する",
+      "definition": "officially accept skills as valid",
+      "contextParagraphId": "p1",
+      "context": "The programme helped build a system for recognising skills learned outside formal education.",
+      "example": "The course recognises experience gained in previous jobs.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "認定する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "認定する",
+            "測定する",
+            "記録する",
+            "検討する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-recognise-ja-option-1",
+            "article-jordan-skills-2026-recognise-ja-option-2",
+            "article-jordan-skills-2026-recognise-ja-option-3",
+            "article-jordan-skills-2026-recognise-ja-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-recognise-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "measure",
+            "record",
+            "consider"
+          ],
+          "explanation": "本文では「認定する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "officially accept skills as valid",
+            "measure skills against a given scale",
+            "record skills in a written document",
+            "consider skills when discussing options"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-recognise-en-option-1",
+            "article-jordan-skills-2026-recognise-en-option-2",
+            "article-jordan-skills-2026-recognise-en-option-3",
+            "article-jordan-skills-2026-recognise-en-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-recognise-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "measure",
+            "record",
+            "consider"
+          ],
+          "explanation": "本文では「認定する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "recognise skills",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "技能を認定する",
+            "nuanceJa": "既存の技能を正式に認める。",
+            "example": "The programme recognises skills gained at work.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "recognise experience",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "経験を認める",
+            "nuanceJa": "学習や仕事の経験を評価に含める。",
+            "example": "The school recognises experience from volunteer work.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "officially recognised",
+            "pattern": "副詞＋過去分詞",
+            "meaningJa": "正式に認定された",
+            "nuanceJa": "公的な承認があることを表す。",
+            "example": "The certificate is officially recognised by the association.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "recognising"
+    },
+    {
+      "id": "article-jordan-skills-2026-assess",
+      "headword": "assess",
+      "partOfSpeech": "verb",
+      "meaning": "評価する",
+      "definition": "judge the ability or quality of something",
+      "contextParagraphId": "p2",
+      "context": "Its purpose is to assess what people can already do and connect those skills with recognised qualifications.",
+      "example": "The tutor assessed our writing before choosing the next lesson.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "評価する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "評価する",
+            "指導する",
+            "採用する",
+            "割り当てる"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-assess-ja-option-1",
+            "article-jordan-skills-2026-assess-ja-option-2",
+            "article-jordan-skills-2026-assess-ja-option-3",
+            "article-jordan-skills-2026-assess-ja-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-assess-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "teach",
+            "hire",
+            "assign"
+          ],
+          "explanation": "本文では「評価する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "judge the level of someone's ability",
+            "teach someone how to improve a skill",
+            "hire someone for a particular job",
+            "assign someone to a particular task"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-assess-en-option-1",
+            "article-jordan-skills-2026-assess-en-option-2",
+            "article-jordan-skills-2026-assess-en-option-3",
+            "article-jordan-skills-2026-assess-en-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-assess-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "teach",
+            "hire",
+            "assign"
+          ],
+          "explanation": "本文では「評価する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "assess skills",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "技能を評価する",
+            "nuanceJa": "現在できることを判断する。",
+            "example": "The instructor assessed my cooking skills.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "assess an applicant",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "申請者を評価する",
+            "nuanceJa": "人の適性などを審査する。",
+            "example": "Two tutors assessed each applicant.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "assess the quality",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "質を評価する",
+            "nuanceJa": "対象の出来栄えを判断する。",
+            "example": "We assessed the quality of the repaired chairs.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "assess"
+    },
+    {
+      "id": "article-jordan-skills-2026-qualification",
+      "headword": "qualification",
+      "partOfSpeech": "noun",
+      "meaning": "資格",
+      "definition": "an official record showing skills or study",
+      "contextParagraphId": "p5",
+      "context": "However, a qualification and a job offer are different things.",
+      "example": "She gained a qualification in childcare.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "資格",
+      "questions": {
+        "ja": {
+          "choices": [
+            "資格",
+            "推薦",
+            "契約",
+            "履歴"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-qualification-ja-option-1",
+            "article-jordan-skills-2026-qualification-ja-option-2",
+            "article-jordan-skills-2026-qualification-ja-option-3",
+            "article-jordan-skills-2026-qualification-ja-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-qualification-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "recommendation",
+            "contract",
+            "history"
+          ],
+          "explanation": "本文では「資格」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "an official record of skills or study",
+            "a recommendation supporting an application",
+            "an agreement between two different parties",
+            "a history of someone's previous work"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-qualification-en-option-1",
+            "article-jordan-skills-2026-qualification-en-option-2",
+            "article-jordan-skills-2026-qualification-en-option-3",
+            "article-jordan-skills-2026-qualification-en-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-qualification-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "recommendation",
+            "contract",
+            "history"
+          ],
+          "explanation": "本文では「資格」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "gain a qualification",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "資格を取得する",
+            "nuanceJa": "学習や評価を経て取得する。",
+            "example": "He gained a qualification after the evening course.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a recognised qualification",
+            "pattern": "過去分詞＋名詞",
+            "meaningJa": "認められた資格",
+            "nuanceJa": "資格に正式な認知があること。",
+            "example": "The job requires a recognised qualification.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a professional qualification",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "専門資格",
+            "nuanceJa": "特定の職業に関係する資格。",
+            "example": "She is studying for a professional qualification.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "qualification"
+    },
+    {
+      "id": "article-jordan-skills-2026-accessible",
+      "headword": "accessible",
+      "partOfSpeech": "adjective",
+      "meaning": "利用しやすい",
+      "definition": "easy for people to reach or use",
+      "contextParagraphId": "p3",
+      "context": "These steps were intended to make the system accessible and useful beyond the initial programme.",
+      "example": "The evening opening hours make the library more accessible.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "利用しやすい",
+      "questions": {
+        "ja": {
+          "choices": [
+            "使いやすい",
+            "手頃な価格の",
+            "信頼できる",
+            "変更できる"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-accessible-ja-option-1",
+            "article-jordan-skills-2026-accessible-ja-option-2",
+            "article-jordan-skills-2026-accessible-ja-option-3",
+            "article-jordan-skills-2026-accessible-ja-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-accessible-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "affordable",
+            "reliable",
+            "adaptable"
+          ],
+          "explanation": "本文では「利用しやすい」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "easy for people to reach or use",
+            "cheap enough for people to buy",
+            "reliable enough for people to trust",
+            "flexible enough for people to change"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-accessible-en-option-1",
+            "article-jordan-skills-2026-accessible-en-option-2",
+            "article-jordan-skills-2026-accessible-en-option-3",
+            "article-jordan-skills-2026-accessible-en-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-accessible-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "affordable",
+            "reliable",
+            "adaptable"
+          ],
+          "explanation": "本文では「利用しやすい」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "accessible to people",
+            "pattern": "形容詞＋前置詞",
+            "meaningJa": "人々が利用しやすい",
+            "nuanceJa": "利用可能な対象をtoで示す。",
+            "example": "The reading room is accessible to all residents.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "accessible services",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "利用しやすいサービス",
+            "nuanceJa": "サービスの使いやすさを述べる。",
+            "example": "Accessible services help people complete applications.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "make something accessible",
+            "pattern": "動詞＋目的語＋形容詞",
+            "meaningJa": "何かを利用しやすくする",
+            "nuanceJa": "利用の障壁を下げる動作。",
+            "example": "Clear signs make the building accessible.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "accessible"
+    },
+    {
+      "id": "article-jordan-skills-2026-foundation",
+      "headword": "foundation",
+      "partOfSpeech": "noun",
+      "meaning": "土台",
+      "definition": "a basis on which further work can develop",
+      "contextParagraphId": "p5",
+      "context": "The new announcement describes a foundation for a broader system.",
+      "example": "The short course gave me a foundation for further study.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "土台",
+      "questions": {
+        "ja": {
+          "choices": [
+            "土台",
+            "目標",
+            "工程",
+            "成果"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-foundation-ja-option-1",
+            "article-jordan-skills-2026-foundation-ja-option-2",
+            "article-jordan-skills-2026-foundation-ja-option-3",
+            "article-jordan-skills-2026-foundation-ja-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-foundation-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "goal",
+            "stage",
+            "outcome"
+          ],
+          "explanation": "本文では「土台」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a basis for further work to develop",
+            "a target that future work should reach",
+            "a stage through which work must pass",
+            "a result that completed work produces"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-foundation-en-option-1",
+            "article-jordan-skills-2026-foundation-en-option-2",
+            "article-jordan-skills-2026-foundation-en-option-3",
+            "article-jordan-skills-2026-foundation-en-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-foundation-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "goal",
+            "stage",
+            "outcome"
+          ],
+          "explanation": "本文では「土台」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "lay a foundation",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "土台を築く",
+            "nuanceJa": "後の発展のために基礎を作る。",
+            "example": "The first lessons laid a foundation for speaking practice.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a foundation for growth",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "成長の土台",
+            "nuanceJa": "成長を支えるものを表す。",
+            "example": "Good records provide a foundation for growth.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a strong foundation",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "しっかりした土台",
+            "nuanceJa": "基礎の強さを述べる。",
+            "example": "The team built a strong foundation through regular meetings.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "foundation"
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "article-jordan-skills-2026-q1",
+      "question": "What kind of learning does RPL recognise?",
+      "choices": [
+        "Skills gained through work and other experience.",
+        "Only lessons taught at one particular university.",
+        "Only skills learned after the project ended.",
+        "Skills invented for a future online examination."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-jordan-skills-2026-q1-option-1",
+        "article-jordan-skills-2026-q1-option-2",
+        "article-jordan-skills-2026-q1-option-3",
+        "article-jordan-skills-2026-q1-option-4"
+      ],
+      "correctChoiceId": "article-jordan-skills-2026-q1-option-1",
+      "evidenceParagraphIds": [
+        "p1"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p1",
+          "text": "The programme helped build a system for recognising skills learned outside formal education.",
+          "highlights": [
+            "outside formal education"
+          ]
+        }
+      ],
+      "explanationJa": "正規教育以外で得た技能が対象。",
+      "type": "literal"
+    },
+    {
+      "id": "article-jordan-skills-2026-q2",
+      "question": "What did the pilot number of 1,000 describe?",
+      "choices": [
+        "The group the pilot intended to reach.",
+        "The workers already given guaranteed jobs.",
+        "The schools already selling certificates.",
+        "The companies already using one website."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-jordan-skills-2026-q2-option-1",
+        "article-jordan-skills-2026-q2-option-2",
+        "article-jordan-skills-2026-q2-option-3",
+        "article-jordan-skills-2026-q2-option-4"
+      ],
+      "correctChoiceId": "article-jordan-skills-2026-q2-option-1",
+      "evidenceParagraphIds": [
+        "p2"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p2",
+          "text": "The pilot targeted 1,000 Jordanians and Syrian refugees.",
+          "highlights": [
+            "targeted 1,000"
+          ]
+        }
+      ],
+      "explanationJa": "試行が対象とした人数であり、資格取得実績ではない。",
+      "type": "literal"
+    },
+    {
+      "id": "article-jordan-skills-2026-q3",
+      "question": "Why should a reader be careful about employment results?",
+      "choices": [
+        "Formal recognition is not the same as a job offer.",
+        "Formal recognition requires people to stop working.",
+        "Formal recognition means every person already has work.",
+        "Formal recognition is offered only to employers."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-jordan-skills-2026-q3-option-1",
+        "article-jordan-skills-2026-q3-option-2",
+        "article-jordan-skills-2026-q3-option-3",
+        "article-jordan-skills-2026-q3-option-4"
+      ],
+      "correctChoiceId": "article-jordan-skills-2026-q3-option-1",
+      "evidenceParagraphIds": [
+        "p5"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p5",
+          "text": "However, a qualification and a job offer are different things.",
+          "highlights": [
+            "different things"
+          ]
+        }
+      ],
+      "explanationJa": "資格認定の制度整備から、全員の就職までは推論できない。",
+      "type": "inference"
+    }
+  ],
+  "opinion": {
+    "id": "opinion-1",
+    "prompt": "What skill have you learned outside school, and how could you show it to someone else?",
+    "optional": true,
+    "saveScope": "device"
+  },
+  "properNouns": [
+    "Jordan",
+    "Jordanians",
+    "Syrian",
+    "International Labour Organization",
+    "ILO",
+    "RPL",
+    "Recognition of Prior Learning",
+    "October"
+  ],
+  "review": {
+    "factsCheckedAt": "2026-10-05",
+    "editorialParagraphIds": [],
+    "contentApproval": "editorial-reviewed",
+    "notes": "本文の事実・訳・設問根拠を出典と照合。使い方はすべて未確認。"
+  },
+  "reviewNotes": [
+    "出典の計画・目標と実績を区別。選択肢は同品詞の別の語から作成。"
+  ],
+  "validationProperNouns": [
+    "Jordan",
+    "Jordanians",
+    "Syrian",
+    "International Labour Organization",
+    "ILO",
+    "RPL",
+    "Recognition of Prior Learning",
+    "October"
+  ],
+  "validationEntityAliases": {
+    "Ethiopia": "エチオピア",
+    "Samoa": "サモア",
+    "Aleipata": "アレイパタ",
+    "Lepa": "レパ",
+    "Jordan": "ヨルダン",
+    "NASA": "NASA",
+    "Mullenax": "Mullenax",
+    "Fort Sumner": "フォートサムナー",
+    "Michael Rosen": "マイケル・ローゼン",
+    "Chris Redmond": "クリス・レドモンド",
+    "Liv Torc": "リヴ・トーク",
+    "National Poetry Day": "National Poetry Day",
+    "UNESCO": "ユネスコ",
+    "International Labour Organization": "国際労働機関",
+    "Forward Arts Foundation": "Forward Arts Foundation",
+    "October": "10月",
+    "September": "9月",
+    "Jordanians": "ヨルダン人",
+    "Syrian": "シリア",
+    "ILO": "ILO",
+    "RPL": "RPL",
+    "Recognition of Prior Learning": "既修得学習の認定",
+    "Tsunami Ready": "Tsunami Ready",
+    "Test Flight": "試験飛行",
+    "New Mexico": "ニューメキシコ",
+    "Mountain Daylight Time": "山岳部夏時間",
+    "Hurricane Polo": "ハリケーン・ポロ",
+    "United Kingdom": "英国",
+    "Torc": "トーク",
+    "Rosen": "ローゼン"
+  },
+  "validationNumberAliases": {
+    "half a million": "50万人",
+    "1,000": "1,000",
+    "3,257": "3,257",
+    "7:57": "7時57分"
+  },
+  "vocabularyReview": {
+    "status": "reviewed",
+    "reason": "5つの重要語を本文の実際の用例と対応させ、同品詞の別語による誤答と比較。制度や科学の固有用語は直後の短文で意味を説明し、計画と実績・認定と就職・飛行と実験結果を区別。専門語を覚えなくても本文と訳から3問の根拠を確認できる。未収録語は固有名詞と語形を個別に確認。"
+  }
+}

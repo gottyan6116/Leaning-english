@@ -1,154 +1,9 @@
 {
   "id": "article-education-europa-carbon-2023",
   "version": 1,
-  "kind": "article",
-  "status": "checked",
+  "kind": "article-vocabulary",
   "publishedAt": "2026-10-04T00:00:00+09:00",
-  "title": "What Carbon on Europa Can Tell Us",
-  "summaryJa": "エウロパの炭素観測から、証拠と推定の違いを読む",
-  "category": "教養",
-  "level": "B2",
-  "readingMinutes": 3,
-  "readingEstimateWordsPerMinute": 110,
-  "editorialNotice": "出典に基づく学習用編集版",
-  "textOrigin": "original-for-this-app; factual adaptation",
-  "sources": [
-    {
-      "id": "nasa-2023",
-      "title": "NASA’s Webb Finds Carbon Source on Surface of Jupiter’s Moon Europa",
-      "publisher": "NASA Science",
-      "author": "NASA Webb Mission Team / Goddard Space Flight Center",
-      "publishedAt": "2023-09-21",
-      "pageUpdatedAt": "2026-09-21",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-finds-carbon-source-on-surface-of-jupiters-moon-europa/",
-      "checkedAt": "2026-10-04",
-      "paragraphIds": [
-        "p1",
-        "p3"
-      ],
-      "usage": "観測・位置・推定を独自の文で整理。原文・発言の直接引用なし"
-    },
-    {
-      "id": "esa-2023",
-      "title": "Webb finds carbon source on surface of Jupiter’s moon Europa",
-      "publisher": "European Space Agency",
-      "author": null,
-      "authorNote": "個人著者の署名なし。ESA公式発表",
-      "publishedAt": "2023-09-21",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_carbon_source_on_surface_of_Jupiter_s_moon_Europa",
-      "checkedAt": "2026-10-04",
-      "paragraphIds": [
-        "p4",
-        "p5"
-      ],
-      "usage": "観測装置と不検出の限界を独自の文で整理。原文・発言の直接引用なし"
-    },
-    {
-      "id": "trumbo-2023",
-      "title": "The distribution of CO2 on Europa indicates an internal source of carbon",
-      "publisher": "arXiv / Science",
-      "authors": [
-        "Samantha K. Trumbo",
-        "Michael E. Brown"
-      ],
-      "publishedAt": "2023-09-20",
-      "journalPublishedAt": "2023-09-21",
-      "dateNote": "初回プレプリント公開日。Scienceオンライン公開日は2023-09-21",
-      "url": "https://arxiv.org/abs/2309.11684",
-      "doi": "10.1126/science.adg4155",
-      "checkedAt": "2026-10-04",
-      "paragraphIds": [
-        "p2"
-      ],
-      "usage": "原著論文の観測分布と形成場所の不確実性を独自の文で整理。転載なし"
-    },
-    {
-      "id": "villanueva-2023",
-      "title": "Endogenous CO2 ice mixture on the surface of Europa and no detection of plume activity",
-      "publisher": "Science / 著者公開版",
-      "author": "G. L. Villanueva et al.",
-      "publishedAt": "2023-09-21",
-      "printPublishedAt": "2023-09-22",
-      "url": "https://www.christopherglein.com/_files/ugd/08726c_caae5aad2a28409d8408eb02624e049e.pdf",
-      "doi": "10.1126/science.adg4270",
-      "checkedAt": "2026-10-04",
-      "paragraphIds": [
-        "p6"
-      ],
-      "usage": "原著論文の不検出と放出量上限・観測条件の解釈を独自の文で整理。転載なし"
-    }
-  ],
-  "photo": {
-    "pageUrl": "https://unsplash.com/photos/the-night-sky-with-stars-and-a-telescope-9YBDgOJGnY8",
-    "photoId": "9YBDgOJGnY8",
-    "photographer": "Le Mucky",
-    "photographerUrl": "https://unsplash.com/@mucky",
-    "service": "Unsplash",
-    "licenseUrl": "https://unsplash.com/license",
-    "licenseName": "Unsplash License",
-    "checkedAt": "2026-10-04",
-    "credit": "Photo by Le Mucky on Unsplash",
-    "alt": "夜空の星と望遠鏡",
-    "context": "関連する素材写真。EuropaやWebbの実観測画像として扱わない",
-    "assetPath": "assets/articles/europa.jpg"
-  },
-  "paragraphs": [
-    {
-      "id": "p1",
-      "kind": "source-based",
-      "sourceIds": [
-        "nasa-2023"
-      ],
-      "text": "In September 2023, researchers reported a discovery about Europa, one of Jupiter's moons. Data from the James Webb Space Telescope revealed carbon dioxide on its icy surface. Earlier research had indicated that a salty ocean lies beneath the ice, but scientists had not established whether this ocean contained carbon. The new observations offered a way to investigate that question.",
-      "translationJa": "2023年9月、研究者たちは木星の衛星の1つ、エウロパについての発見を報告しました。ジェイムズ・ウェッブ宇宙望遠鏡のデータから、氷に覆われた表面に二酸化炭素があることが分かりました。それまでの研究では、氷の下に塩分を含む海があると考えられていましたが、その海に炭素があるかどうかは確認されていませんでした。今回の観測は、その問いを調べる手がかりになりました。"
-    },
-    {
-      "id": "p2",
-      "kind": "source-based",
-      "sourceIds": [
-        "trumbo-2023"
-      ],
-      "text": "The abundance of carbon dioxide was greatest in a region called Tara Regio. Its surface has recently been renewed. Trumbo and Brown considered this distribution evidence of an internal carbon source. They proposed formation in the ocean, but could not exclude carbon dioxide forming on the surface when radiation altered ocean-derived material. The source of carbon and the place of formation are distinct questions.",
-      "translationJa": "二酸化炭素が最も多く見られたのは、タラ・レジオと呼ばれる地域でした。その表面は比較的最近に更新されたものです。トランボとブラウンは、この分布を、炭素が内部に由来することを示す証拠と考えました。二酸化炭素が海の中でできたとする一方、海に由来する物質が放射線によって変化し、表面で二酸化炭素ができた可能性も否定できないとしています。炭素の供給源と、二酸化炭素ができた場所は、別の問いです。"
-    },
-    {
-      "id": "p3",
-      "kind": "source-based",
-      "sourceIds": [
-        "nasa-2023"
-      ],
-      "text": "The researchers considered the ocean the likely source of this carbon, rather than material arriving from meteorites. Carbon dioxide does not remain stable for long on Europa's surface, so its presence in young terrain also suggests a relatively recent supply. These conclusions concern the origin of a chemical, not the discovery of an organism.",
-      "translationJa": "研究者たちは、この炭素は隕石で運ばれてきた物質ではなく、海に由来する可能性が高いと考えました。エウロパの表面では二酸化炭素は長く安定して存在できません。そのため、若い地形に二酸化炭素があることは、比較的最近に供給された可能性も示しています。これらの結論は化学物質の起源に関するもので、生物が発見されたという意味ではありません。"
-    },
-    {
-      "id": "p4",
-      "kind": "source-based",
-      "sourceIds": [
-        "esa-2023"
-      ],
-      "text": "Webb's Near-Infrared Spectrograph allowed the teams to study the distribution of chemicals across Europa. Such observations can provide clues to the ocean's composition without drilling through the ice. Scientists still debate how strongly the surface and ocean are connected. Reading the surface is therefore an indirect approach, whose interpretation depends on that connection.",
-      "translationJa": "ウェッブの近赤外線分光器によって、研究チームはエウロパ全体の化学物質の分布を調べることができました。こうした観測は、氷を掘り抜かずに海の成分を知る手がかりを与えます。表面と海がどの程度つながっているかについては、科学者の間で議論が続いています。表面を調べるのは間接的な方法であり、その解釈は両者のつながりに左右されます。"
-    },
-    {
-      "id": "p5",
-      "kind": "source-based",
-      "sourceIds": [
-        "esa-2023"
-      ],
-      "text": "The teams also searched for water-vapour plumes. Earlier Hubble studies had reported tentative detections, but definitive evidence remained difficult to obtain. Webb detected no plume during these observations. The researchers stressed that this result did not exclude plumes: activity might vary, making a plume visible at some times but not at others.",
-      "translationJa": "研究チームは、水蒸気の噴出も探しました。以前のハッブル宇宙望遠鏡の研究では、噴出を捉えた可能性が報告されていましたが、決定的な証拠を得るのは依然として困難でした。今回、ウェッブは噴出を検出しませんでした。ただし研究者は、これで噴出が否定されたわけではないと強調しています。活動が変動し、見える時と見えない時があるかもしれないためです。"
-    },
-    {
-      "id": "p6",
-      "kind": "source-based",
-      "sourceIds": [
-        "villanueva-2023"
-      ],
-      "text": "Although no plume was detected, the data helped constrain the possible rate at which material was being ejected. In other words, an observation without a detection can still limit the range of explanations. This differs from claiming that a process never occurs. The timing and sensitivity of an observation remain relevant to what can be concluded.",
-      "translationJa": "噴出は検出されませんでしたが、データは物質が放出される速さの可能な範囲を絞るのに役立ちました。つまり、何も検出されなかった観測でも、考えられる説明を限定できる場合があります。これは、その現象が一度も起こらないと主張することとは違います。何が結論づけられるかを考えるには、観測の時期や感度も重要です。"
-    }
-  ],
-  "vocabulary": [
+  "items": [
     {
       "id": "article-education-europa-carbon-2023-abundance",
       "headword": "abundance",
@@ -241,7 +96,10 @@
           }
         ],
         "commonMisuse": null
-      }
+      },
+      "sourceKind": "article",
+      "articleId": "article-education-europa-carbon-2023",
+      "materialVersion": 1
     },
     {
       "id": "article-education-europa-carbon-2023-composition",
@@ -335,7 +193,10 @@
           }
         ],
         "commonMisuse": null
-      }
+      },
+      "sourceKind": "article",
+      "articleId": "article-education-europa-carbon-2023",
+      "materialVersion": 1
     },
     {
       "id": "article-education-europa-carbon-2023-tentative",
@@ -429,7 +290,10 @@
           }
         ],
         "commonMisuse": null
-      }
+      },
+      "sourceKind": "article",
+      "articleId": "article-education-europa-carbon-2023",
+      "materialVersion": 1
     },
     {
       "id": "article-education-europa-carbon-2023-definitive",
@@ -523,7 +387,10 @@
           }
         ],
         "commonMisuse": null
-      }
+      },
+      "sourceKind": "article",
+      "articleId": "article-education-europa-carbon-2023",
+      "materialVersion": 1
     },
     {
       "id": "article-education-europa-carbon-2023-constrain",
@@ -617,135 +484,10 @@
           }
         ],
         "commonMisuse": null
-      }
+      },
+      "sourceKind": "article",
+      "articleId": "article-education-europa-carbon-2023",
+      "materialVersion": 1
     }
-  ],
-  "comprehension": [
-    {
-      "id": "q1",
-      "question": "Why did the location of the carbon dioxide matter?",
-      "choices": [
-        "It matched a young region with signs of ocean exchange.",
-        "It marked a region covered by recently arrived meteorites.",
-        "It identified a place where organisms had been observed.",
-        "It proved that the entire surface had the same chemistry."
-      ],
-      "answerIndex": 0,
-      "evidenceParagraphIds": [
-        "p2",
-        "p3"
-      ],
-      "explanationJa": "P2は最近更新された地形での集中を内部炭素源の証拠と解釈し、P3は海が炭素源である可能性を示す。場所は内部との関連を考える根拠であり、生命や海中での形成の確定的証明ではない。",
-      "type": "literal",
-      "choiceIds": [
-        "article-education-europa-carbon-2023-q1-option-1",
-        "article-education-europa-carbon-2023-q1-option-2",
-        "article-education-europa-carbon-2023-q1-option-3",
-        "article-education-europa-carbon-2023-q1-option-4"
-      ],
-      "correctChoiceId": "article-education-europa-carbon-2023-q1-option-1",
-      "evidence": [
-        {
-          "paragraphId": "p2",
-          "text": "Trumbo and Brown considered this distribution evidence of an internal carbon source.",
-          "highlights": [
-            "internal carbon source"
-          ]
-        },
-        {
-          "paragraphId": "p3",
-          "text": "Carbon dioxide does not remain stable for long on Europa's surface, so its presence in young terrain also suggests a relatively recent supply.",
-          "highlights": [
-            "recent supply"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "q2",
-      "question": "What can reasonably be inferred from Webb’s failure to detect a plume?",
-      "choices": [
-        "Plumes have never existed anywhere on Europa’s surface.",
-        "Earlier Hubble studies must have recorded false results.",
-        "A plume could be present at a different observation time.",
-        "Europa’s surface cannot exchange material with its ocean."
-      ],
-      "answerIndex": 2,
-      "evidenceParagraphIds": [
-        "p5"
-      ],
-      "explanationJa": "P5は活動が変動し得るため不検出でもplumeを除外できないと述べる。別の時点で見える可能性は残るが、必ず見えるとも言えない。",
-      "type": "inference",
-      "choiceIds": [
-        "article-education-europa-carbon-2023-q2-option-1",
-        "article-education-europa-carbon-2023-q2-option-2",
-        "article-education-europa-carbon-2023-q2-option-3",
-        "article-education-europa-carbon-2023-q2-option-4"
-      ],
-      "correctChoiceId": "article-education-europa-carbon-2023-q2-option-3",
-      "evidence": [
-        {
-          "paragraphId": "p5",
-          "text": "The researchers stressed that this result did not exclude plumes: activity might vary, making a plume visible at some times but not at others.",
-          "highlights": [
-            "did not exclude plumes",
-            "activity might vary"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "q3",
-      "question": "What did the non-detection still allow researchers to do?",
-      "choices": [
-        "Identify every substance present below the icy surface.",
-        "Limit the possible rate at which material was ejected.",
-        "Determine the exact number of living organisms below.",
-        "Establish that water never reaches the surface from below."
-      ],
-      "answerIndex": 1,
-      "evidenceParagraphIds": [
-        "p6"
-      ],
-      "explanationJa": "P6のconstrain the possible rateが根拠。不検出は放出率に上限を設ける助けになるが、不存在の証明ではない。",
-      "type": "literal",
-      "choiceIds": [
-        "article-education-europa-carbon-2023-q3-option-1",
-        "article-education-europa-carbon-2023-q3-option-2",
-        "article-education-europa-carbon-2023-q3-option-3",
-        "article-education-europa-carbon-2023-q3-option-4"
-      ],
-      "correctChoiceId": "article-education-europa-carbon-2023-q3-option-2",
-      "evidence": [
-        {
-          "paragraphId": "p6",
-          "text": "Although no plume was detected, the data helped constrain the possible rate at which material was being ejected.",
-          "highlights": [
-            "constrain the possible rate"
-          ]
-        }
-      ]
-    }
-  ],
-  "opinion": {
-    "id": "opinion-1",
-    "prompt": "How should a science headline describe a promising but uncertain finding? Suggest one headline for these observations and explain which uncertainty it preserves.",
-    "optional": true,
-    "saveScope": "device"
-  },
-  "review": {
-    "factsCheckedAt": "2026-10-04",
-    "editorialParagraphIds": [],
-    "contentApproval": "approved-candidate-and-production",
-    "notes": "2023年の観測発表として編集。生命の発見・plume不存在・将来計画の現在化を避ける。新規例文は独自作成。usageは全件未確認。"
-  },
-  "sourcePublishedAt": "2023-09-21",
-  "translationReview": {
-    "status": "reviewed",
-    "note": "数字・時点・推定と観測・予定と実績を原英文と照合。段落IDを保持。"
-  },
-  "vocabularyReview": {
-    "status": "reviewed",
-    "reason": "既存のB2〜C1教材。未収録の醸造・天文学の専門語や複合語を確認し、本文の説明と重要語彙で補う。固有名詞・数字・否定・推定の訳を英文と段落単位で照合。"
-  }
+  ]
 }

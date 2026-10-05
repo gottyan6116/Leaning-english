@@ -1,0 +1,493 @@
+{
+  "id": "article-informal-workers-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-05T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-informal-workers-2026-representation",
+      "headword": "representation",
+      "surfaceForm": "representation",
+      "partOfSpeech": "noun",
+      "meaning": "代表参加",
+      "definition": "the act of speaking for a group",
+      "contextParagraphId": "p1",
+      "context": "An ILO announcement on 2 October 2026 draws attention to a gap between economic importance and political representation.",
+      "example": "The committee reviewed representation of smaller communities.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "代表参加",
+      "questions": {
+        "ja": {
+          "choices": [
+            "代表参加",
+            "条件交渉",
+            "業務監督",
+            "紛争調停"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-representation-ja-option-1",
+            "article-informal-workers-2026-representation-ja-option-2",
+            "article-informal-workers-2026-representation-ja-option-3",
+            "article-informal-workers-2026-representation-ja-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-representation-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "negotiation",
+            "supervision",
+            "mediation"
+          ],
+          "explanation": "本文では「代表参加」の意味。交渉・監督・調停とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "the act of speaking for a group",
+            "the process of bargaining over terms",
+            "the act of supervising a group",
+            "the process of settling a dispute"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-representation-en-option-1",
+            "article-informal-workers-2026-representation-en-option-2",
+            "article-informal-workers-2026-representation-en-option-3",
+            "article-informal-workers-2026-representation-en-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-representation-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "negotiation",
+            "supervision",
+            "mediation"
+          ],
+          "explanation": "本文では「代表参加」の意味。交渉・監督・調停とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "political representation",
+            "pattern": "名詞を含む句",
+            "meaningJa": "政治への代表参加",
+            "nuanceJa": "「政治への代表参加」という場面で用いる組み合わせ。",
+            "example": "The proposal seeks broader political representation.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "worker representation",
+            "pattern": "名詞を含む句",
+            "meaningJa": "労働者の代表参加",
+            "nuanceJa": "「労働者の代表参加」という場面で用いる組み合わせ。",
+            "example": "The agreement strengthens worker representation.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "fair representation",
+            "pattern": "名詞を含む句",
+            "meaningJa": "公正な代表参加",
+            "nuanceJa": "「公正な代表参加」という場面で用いる組み合わせ。",
+            "example": "Members asked for fair representation on the board.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-informal-workers-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-informal-workers-2026-dialogue",
+      "headword": "dialogue",
+      "surfaceForm": "dialogue",
+      "partOfSpeech": "noun",
+      "meaning": "対話",
+      "definition": "discussion between different participants",
+      "contextParagraphId": "p1",
+      "context": "The organisation's new research brief examines ways to bring these workers and small businesses into trade and labour policy dialogue, rather than treating them only as people affected by decisions made elsewhere.",
+      "example": "The association opened a dialogue with local officials.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "対話",
+      "questions": {
+        "ja": {
+          "choices": [
+            "対話",
+            "交渉",
+            "指導",
+            "仲裁"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-dialogue-ja-option-1",
+            "article-informal-workers-2026-dialogue-ja-option-2",
+            "article-informal-workers-2026-dialogue-ja-option-3",
+            "article-informal-workers-2026-dialogue-ja-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-dialogue-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "negotiation",
+            "mentoring",
+            "arbitration"
+          ],
+          "explanation": "本文では「対話」の意味。交渉・指導・仲裁とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "discussion between different participants",
+            "bargaining over specific agreed terms",
+            "guidance from an experienced adviser",
+            "settlement by an appointed decision-maker"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-dialogue-en-option-1",
+            "article-informal-workers-2026-dialogue-en-option-2",
+            "article-informal-workers-2026-dialogue-en-option-3",
+            "article-informal-workers-2026-dialogue-en-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-dialogue-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "negotiation",
+            "mentoring",
+            "arbitration"
+          ],
+          "explanation": "本文では「対話」の意味。交渉・指導・仲裁とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "policy dialogue",
+            "pattern": "名詞を含む句",
+            "meaningJa": "政策対話",
+            "nuanceJa": "「政策対話」という場面で用いる組み合わせ。",
+            "example": "The workshop opened a policy dialogue.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "social dialogue",
+            "pattern": "名詞を含む句",
+            "meaningJa": "社会的対話",
+            "nuanceJa": "「社会的対話」という場面で用いる組み合わせ。",
+            "example": "Social dialogue brought different groups together.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "open dialogue",
+            "pattern": "名詞を含む句",
+            "meaningJa": "率直な対話",
+            "nuanceJa": "「率直な対話」という場面で用いる組み合わせ。",
+            "example": "Open dialogue helped identify shared concerns.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-informal-workers-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-informal-workers-2026-livelihoods",
+      "headword": "livelihoods",
+      "surfaceForm": "livelihoods",
+      "partOfSpeech": "noun",
+      "meaning": "生計",
+      "definition": "ways of earning a living",
+      "contextParagraphId": "p3",
+      "context": "The brief explains why established categories do not always fit these livelihoods.",
+      "example": "Road closures affected the traders' livelihoods.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "生計",
+      "questions": {
+        "ja": {
+          "choices": [
+            "生計",
+            "貯蓄",
+            "負債",
+            "補助金"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-livelihoods-ja-option-1",
+            "article-informal-workers-2026-livelihoods-ja-option-2",
+            "article-informal-workers-2026-livelihoods-ja-option-3",
+            "article-informal-workers-2026-livelihoods-ja-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-livelihoods-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "savings",
+            "debts",
+            "subsidies"
+          ],
+          "explanation": "本文では「生計」の意味。貯蓄・負債・補助金とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "ways people earn their income",
+            "money people keep for the future",
+            "money people owe to other people",
+            "money given to support activities"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-livelihoods-en-option-1",
+            "article-informal-workers-2026-livelihoods-en-option-2",
+            "article-informal-workers-2026-livelihoods-en-option-3",
+            "article-informal-workers-2026-livelihoods-en-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-livelihoods-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "savings",
+            "debts",
+            "subsidies"
+          ],
+          "explanation": "本文では「生計」の意味。貯蓄・負債・補助金とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "protect livelihoods",
+            "pattern": "名詞を含む句",
+            "meaningJa": "生計を守る",
+            "nuanceJa": "「生計を守る」という場面で用いる組み合わせ。",
+            "example": "The plan aims to protect livelihoods during repairs.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "rural livelihoods",
+            "pattern": "名詞を含む句",
+            "meaningJa": "農村の生計",
+            "nuanceJa": "「農村の生計」という場面で用いる組み合わせ。",
+            "example": "Researchers studied rural livelihoods in the region.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "sustainable livelihoods",
+            "pattern": "名詞を含む句",
+            "meaningJa": "持続可能な生計",
+            "nuanceJa": "「持続可能な生計」という場面で用いる組み合わせ。",
+            "example": "The cooperative supports sustainable livelihoods.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-informal-workers-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-informal-workers-2026-affiliated",
+      "headword": "affiliated",
+      "surfaceForm": "affiliated",
+      "partOfSpeech": "verb",
+      "meaning": "提携した",
+      "definition": "formally connected with an organisation",
+      "contextParagraphId": "p4",
+      "context": "One route involves cooperatives and associations becoming affiliated with established workers' or employers' organisations.",
+      "example": "The local association became affiliated with a national organisation.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "提携した",
+      "questions": {
+        "ja": {
+          "choices": [
+            "提携した",
+            "合併した",
+            "管理した",
+            "補助した"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-affiliated-ja-option-1",
+            "article-informal-workers-2026-affiliated-ja-option-2",
+            "article-informal-workers-2026-affiliated-ja-option-3",
+            "article-informal-workers-2026-affiliated-ja-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-affiliated-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "merged",
+            "administered",
+            "subsidised"
+          ],
+          "explanation": "本文では「提携した」の意味。合併した・管理した・補助したとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "formally connected with an organisation",
+            "combined into a single organisation",
+            "controlled the work of an organisation",
+            "provided funds to an organisation"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-affiliated-en-option-1",
+            "article-informal-workers-2026-affiliated-en-option-2",
+            "article-informal-workers-2026-affiliated-en-option-3",
+            "article-informal-workers-2026-affiliated-en-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-affiliated-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "merged",
+            "administered",
+            "subsidised"
+          ],
+          "explanation": "本文では「提携した」の意味。合併した・管理した・補助したとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "affiliated with a union",
+            "pattern": "動詞を含む句",
+            "meaningJa": "組合と提携した",
+            "nuanceJa": "「組合と提携した」という場面で用いる組み合わせ。",
+            "example": "The association is affiliated with a union.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "affiliated with a university",
+            "pattern": "動詞を含む句",
+            "meaningJa": "大学と提携した",
+            "nuanceJa": "「大学と提携した」という場面で用いる組み合わせ。",
+            "example": "The centre is affiliated with a university.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "affiliated with a network",
+            "pattern": "動詞を含む句",
+            "meaningJa": "ネットワークに所属した",
+            "nuanceJa": "「ネットワークに所属した」という場面で用いる組み合わせ。",
+            "example": "The group is affiliated with a regional network.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-informal-workers-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-informal-workers-2026-inclusive",
+      "headword": "inclusive",
+      "surfaceForm": "inclusive",
+      "partOfSpeech": "adjective",
+      "meaning": "包摂的な",
+      "definition": "allowing different groups to participate",
+      "contextParagraphId": "p6",
+      "context": "More inclusive consultation could help policymakers understand situations that familiar organisational categories miss.",
+      "example": "An inclusive process allows smaller groups to contribute.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "包摂的な",
+      "questions": {
+        "ja": {
+          "choices": [
+            "包摂的な",
+            "協議形式の",
+            "代表選出の",
+            "規則上の"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-inclusive-ja-option-1",
+            "article-informal-workers-2026-inclusive-ja-option-2",
+            "article-informal-workers-2026-inclusive-ja-option-3",
+            "article-informal-workers-2026-inclusive-ja-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-inclusive-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "consultative",
+            "representative",
+            "regulatory"
+          ],
+          "explanation": "本文では「包摂的な」の意味。協議形式の・代表選出の・規則上のとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "allowing different groups to participate",
+            "using discussion to consider proposals",
+            "using selected delegates to express views",
+            "following formally established rules"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-inclusive-en-option-1",
+            "article-informal-workers-2026-inclusive-en-option-2",
+            "article-informal-workers-2026-inclusive-en-option-3",
+            "article-informal-workers-2026-inclusive-en-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-inclusive-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "consultative",
+            "representative",
+            "regulatory"
+          ],
+          "explanation": "本文では「包摂的な」の意味。協議形式の・代表選出の・規則上のとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "inclusive policy",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "包摂的な政策",
+            "nuanceJa": "「包摂的な政策」という場面で用いる組み合わせ。",
+            "example": "The council developed an inclusive policy.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "inclusive discussion",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "多様な人が参加できる議論",
+            "nuanceJa": "「多様な人が参加できる議論」という場面で用いる組み合わせ。",
+            "example": "The facilitator encouraged an inclusive discussion.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "inclusive workplace",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "多様な人を受け入れる職場",
+            "nuanceJa": "「多様な人を受け入れる職場」という場面で用いる組み合わせ。",
+            "example": "The company reviewed its inclusive workplace practices.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-informal-workers-2026",
+      "materialVersion": 1
+    }
+  ]
+}

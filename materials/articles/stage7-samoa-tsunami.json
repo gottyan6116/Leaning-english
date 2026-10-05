@@ -1,0 +1,730 @@
+{
+  "id": "article-samoa-tsunami-2026",
+  "version": 1,
+  "kind": "article",
+  "status": "checked",
+  "createdAt": "2026-10-05",
+  "publishedAt": "2026-10-05T00:00:00+09:00",
+  "sourcePublishedAt": "2026-10-05",
+  "title": "How Samoan Communities Prepare for Tsunamis",
+  "summaryJa": "17地域の認定から、警報と避難の備えを読む",
+  "category": "教養",
+  "level": "A2",
+  "readingMinutes": 2,
+  "readingEstimateWordsPerMinute": 80,
+  "editorialNotice": "出典に基づく学習用編集版",
+  "textOrigin": "original-for-this-app; factual adaptation",
+  "sources": [
+    {
+      "id": "unesco-samoa",
+      "title": "Samoa Marks Major Tsunami Preparedness Milestone with 17 Communities Recognized under UNESCO-IOC Tsunami Ready Programme",
+      "publisher": "UNESCO",
+      "publishedAt": "2026-10-05",
+      "url": "https://www.unesco.org/en/articles/samoa-marks-major-tsunami-preparedness-milestone-17-communities-recognized-under-unesco-ioc-tsunami",
+      "checkedAt": "2026-10-05",
+      "paragraphIds": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "usage": "事実を独自の文で整理。原文・発言の直接引用なし",
+      "author": null
+    }
+  ],
+  "photo": {
+    "pageUrl": "https://unsplash.com/photos/a-view-of-a-body-of-water-from-a-window-lCCnwZmpynM",
+    "photoId": "lCCnwZmpynM",
+    "photographer": "Romeo Leaupepe Su’a",
+    "service": "Unsplash",
+    "licenseUrl": "https://unsplash.com/license",
+    "checkedAt": "2026-10-05",
+    "credit": "Photo by Romeo Leaupepe Su’a on Unsplash",
+    "alt": "サモアの海辺",
+    "context": "関連する素材写真。認定された17地域の現場写真として扱わない",
+    "assetPath": "assets/articles/samoa-coast.jpg"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "kind": "source-based",
+      "sourceIds": [
+        "unesco-samoa"
+      ],
+      "text": "On 5 October 2026, UNESCO shared news about 17 communities in Samoa. These places had become Tsunami Ready. They are in Aleipata and Lepa, where the 2009 tsunami caused great damage. People received their official certificates at an event 17 years after that tsunami.",
+      "translationJa": "2026年10月5日、ユネスコはサモアの17地域について発表しました。これらの地域が「Tsunami Ready」に認定されたという知らせです。対象地域は、2009年の津波で大きな被害を受けたアレイパタとレパにあります。津波から17年となる日の行事で、正式な認定証が授与されました。"
+    },
+    {
+      "id": "p2",
+      "kind": "source-based",
+      "sourceIds": [
+        "unesco-samoa"
+      ],
+      "text": "Each place had to pass 12 checks. People need to understand the danger, plan how to leave dangerous places, and practise what to do. They also need ways to share a warning. People must receive the information and know how to act.",
+      "translationJa": "各地域は12の条件を満たす必要がありました。危険を把握し、危険な場所から離れる方法を計画し、行動を練習する必要があります。警報を伝える仕組みも必要です。住民が情報を受け取り、行動の仕方を理解していなければなりません。"
+    },
+    {
+      "id": "p3",
+      "kind": "source-based",
+      "sourceIds": [
+        "unesco-samoa"
+      ],
+      "text": "People from the villages worked with the government and partners from other countries. They practised together and improved the way they shared information. Samoa changed its tsunami warning levels, too. The new words should make each warning clearer.",
+      "translationJa": "村の人々は政府や他の国の協力機関と連携しました。一緒に訓練し、情報の伝え方を改善しました。サモアは津波の警戒レベルも変更しました。新しい表現によって、一つひとつの警報をより分かりやすくすることを目指しています。"
+    },
+    {
+      "id": "p4",
+      "kind": "source-based",
+      "sourceIds": [
+        "unesco-samoa"
+      ],
+      "text": "The work will continue. People will look after their evacuation routes and keep their warning systems working. They will also keep practising. Receiving a certificate does not finish the work. They need to remember the plans and use them over time.",
+      "translationJa": "取り組みは今後も続きます。住民は避難経路を維持し、警報システムが使える状態に保ちます。訓練も続けます。認定証を受け取っただけで取り組みが終わるわけではありません。計画を覚え、長く活用していく必要があります。"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "article-samoa-tsunami-2026-community",
+      "headword": "community",
+      "partOfSpeech": "noun",
+      "meaning": "地域社会",
+      "definition": "a group of people living in the same area",
+      "contextParagraphId": "p1",
+      "context": "On 5 October 2026, UNESCO shared news about 17 communities in Samoa.",
+      "example": "Our community organised a clean-up by the river.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "地域社会",
+      "questions": {
+        "ja": {
+          "choices": [
+            "共同体",
+            "委員会",
+            "企業体",
+            "同居者"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-samoa-tsunami-2026-community-ja-option-1",
+            "article-samoa-tsunami-2026-community-ja-option-2",
+            "article-samoa-tsunami-2026-community-ja-option-3",
+            "article-samoa-tsunami-2026-community-ja-option-4"
+          ],
+          "correctChoiceId": "article-samoa-tsunami-2026-community-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "committee",
+            "company",
+            "household"
+          ],
+          "explanation": "本文では「地域社会」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "people living in the same area",
+            "people chosen to make group decisions",
+            "people employed by the same business",
+            "people sharing a home together"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-samoa-tsunami-2026-community-en-option-1",
+            "article-samoa-tsunami-2026-community-en-option-2",
+            "article-samoa-tsunami-2026-community-en-option-3",
+            "article-samoa-tsunami-2026-community-en-option-4"
+          ],
+          "correctChoiceId": "article-samoa-tsunami-2026-community-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "committee",
+            "company",
+            "household"
+          ],
+          "explanation": "本文では「地域社会」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "a coastal community",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "沿岸の地域社会",
+            "nuanceJa": "海岸付近に暮らす人々。",
+            "example": "The coastal community discussed new walking routes.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "community members",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "地域の住民",
+            "nuanceJa": "その地域社会を構成する人。",
+            "example": "Community members met at the school.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "support a community",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "地域社会を支援する",
+            "nuanceJa": "地域全体への援助を表す。",
+            "example": "The new bus service supports a small community.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "communities"
+    },
+    {
+      "id": "article-samoa-tsunami-2026-warning",
+      "headword": "warning",
+      "partOfSpeech": "noun",
+      "meaning": "警報",
+      "definition": "a message telling people about a possible danger",
+      "contextParagraphId": "p2",
+      "context": "They also need ways to share a warning.",
+      "example": "We heard a warning before the road was closed.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "警報",
+      "questions": {
+        "ja": {
+          "choices": [
+            "警報",
+            "指示",
+            "提案",
+            "報告"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-samoa-tsunami-2026-warning-ja-option-1",
+            "article-samoa-tsunami-2026-warning-ja-option-2",
+            "article-samoa-tsunami-2026-warning-ja-option-3",
+            "article-samoa-tsunami-2026-warning-ja-option-4"
+          ],
+          "correctChoiceId": "article-samoa-tsunami-2026-warning-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "instruction",
+            "suggestion",
+            "report"
+          ],
+          "explanation": "本文では「警報」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a message about a possible danger",
+            "an instruction about a required action",
+            "a suggestion about a possible choice",
+            "a report about a completed activity"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-samoa-tsunami-2026-warning-en-option-1",
+            "article-samoa-tsunami-2026-warning-en-option-2",
+            "article-samoa-tsunami-2026-warning-en-option-3",
+            "article-samoa-tsunami-2026-warning-en-option-4"
+          ],
+          "correctChoiceId": "article-samoa-tsunami-2026-warning-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "instruction",
+            "suggestion",
+            "report"
+          ],
+          "explanation": "本文では「警報」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "receive a warning",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "警報を受け取る",
+            "nuanceJa": "情報を受け取る側の動作。",
+            "example": "Residents received a warning on their phones.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "issue a warning",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "警報を出す",
+            "nuanceJa": "知らせを発する側の動作。",
+            "example": "The town issued a warning about the flooded road.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a warning system",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "警報システム",
+            "nuanceJa": "危険情報を知らせる仕組み。",
+            "example": "The school tested its warning system.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "warning"
+    },
+    {
+      "id": "article-samoa-tsunami-2026-practise",
+      "headword": "practise",
+      "partOfSpeech": "verb",
+      "meaning": "練習する",
+      "definition": "do an activity repeatedly to become better at it",
+      "contextParagraphId": "p2",
+      "context": "People need to understand the danger, plan how to leave dangerous places, and practise what to do.",
+      "example": "We practise leaving the building safely once each term.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "練習する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "練習する",
+            "準備する",
+            "説明する",
+            "点検する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-samoa-tsunami-2026-practise-ja-option-1",
+            "article-samoa-tsunami-2026-practise-ja-option-2",
+            "article-samoa-tsunami-2026-practise-ja-option-3",
+            "article-samoa-tsunami-2026-practise-ja-option-4"
+          ],
+          "correctChoiceId": "article-samoa-tsunami-2026-practise-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "prepare",
+            "explain",
+            "inspect"
+          ],
+          "explanation": "本文では「練習する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "repeat an activity to improve a skill",
+            "prepare materials before starting a task",
+            "explain a process to another person",
+            "inspect equipment for possible damage"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-samoa-tsunami-2026-practise-en-option-1",
+            "article-samoa-tsunami-2026-practise-en-option-2",
+            "article-samoa-tsunami-2026-practise-en-option-3",
+            "article-samoa-tsunami-2026-practise-en-option-4"
+          ],
+          "correctChoiceId": "article-samoa-tsunami-2026-practise-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "prepare",
+            "explain",
+            "inspect"
+          ],
+          "explanation": "本文では「練習する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "practise a skill",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "技能を練習する",
+            "nuanceJa": "反復して技能を高める。",
+            "example": "I practise a new cooking skill every weekend.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "practise doing ～",
+            "pattern": "動詞＋動名詞",
+            "meaningJa": "～する練習をする",
+            "nuanceJa": "後ろには動名詞を使う。",
+            "example": "The class practised finding the emergency exit.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "practise regularly",
+            "pattern": "動詞＋副詞",
+            "meaningJa": "定期的に練習する",
+            "nuanceJa": "継続する頻度を表す。",
+            "example": "The volunteers practise regularly before public events.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "practise"
+    },
+    {
+      "id": "article-samoa-tsunami-2026-clear",
+      "headword": "clear",
+      "partOfSpeech": "adjective",
+      "meaning": "分かりやすい",
+      "definition": "easy to understand",
+      "contextParagraphId": "p3",
+      "context": "The new words should make each warning clearer.",
+      "example": "The guide gave clear instructions for the journey.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "分かりやすい",
+      "questions": {
+        "ja": {
+          "choices": [
+            "明快な",
+            "詳細な",
+            "正確な",
+            "公式の"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-samoa-tsunami-2026-clear-ja-option-1",
+            "article-samoa-tsunami-2026-clear-ja-option-2",
+            "article-samoa-tsunami-2026-clear-ja-option-3",
+            "article-samoa-tsunami-2026-clear-ja-option-4"
+          ],
+          "correctChoiceId": "article-samoa-tsunami-2026-clear-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "detailed",
+            "accurate",
+            "official"
+          ],
+          "explanation": "本文では「分かりやすい」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "easy for people to understand",
+            "containing many facts and details",
+            "correct in the facts it presents",
+            "approved by a responsible authority"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-samoa-tsunami-2026-clear-en-option-1",
+            "article-samoa-tsunami-2026-clear-en-option-2",
+            "article-samoa-tsunami-2026-clear-en-option-3",
+            "article-samoa-tsunami-2026-clear-en-option-4"
+          ],
+          "correctChoiceId": "article-samoa-tsunami-2026-clear-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "detailed",
+            "accurate",
+            "official"
+          ],
+          "explanation": "本文では「分かりやすい」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "clear instructions",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "分かりやすい指示",
+            "nuanceJa": "理解しやすさを述べる。",
+            "example": "Clear instructions helped visitors find the entrance.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "make something clear",
+            "pattern": "動詞＋目的語＋形容詞",
+            "meaningJa": "何かを明確にする",
+            "nuanceJa": "内容を理解しやすくする動作。",
+            "example": "The diagram made the process clear.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a clear message",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "分かりやすい知らせ",
+            "nuanceJa": "受け手が意味を捉えやすい情報。",
+            "example": "The poster gave a clear message about opening hours.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "clearer"
+    },
+    {
+      "id": "article-samoa-tsunami-2026-route",
+      "headword": "route",
+      "partOfSpeech": "noun",
+      "meaning": "経路",
+      "definition": "a way from one place to another",
+      "contextParagraphId": "p4",
+      "context": "People will look after their evacuation routes and keep their warning systems working.",
+      "example": "We found a route from the library to the station.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "経路",
+      "questions": {
+        "ja": {
+          "choices": [
+            "経路",
+            "目的地",
+            "距離",
+            "境界"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-samoa-tsunami-2026-route-ja-option-1",
+            "article-samoa-tsunami-2026-route-ja-option-2",
+            "article-samoa-tsunami-2026-route-ja-option-3",
+            "article-samoa-tsunami-2026-route-ja-option-4"
+          ],
+          "correctChoiceId": "article-samoa-tsunami-2026-route-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "destination",
+            "distance",
+            "boundary"
+          ],
+          "explanation": "本文では「経路」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a way from one place to another",
+            "a place where a journey will end",
+            "the space between two different places",
+            "a line separating two different areas"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-samoa-tsunami-2026-route-en-option-1",
+            "article-samoa-tsunami-2026-route-en-option-2",
+            "article-samoa-tsunami-2026-route-en-option-3",
+            "article-samoa-tsunami-2026-route-en-option-4"
+          ],
+          "correctChoiceId": "article-samoa-tsunami-2026-route-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "destination",
+            "distance",
+            "boundary"
+          ],
+          "explanation": "本文では「経路」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "an evacuation route",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "避難経路",
+            "nuanceJa": "危険な場所から移動するための経路。",
+            "example": "The map shows an evacuation route to higher ground.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "plan a route",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "経路を計画する",
+            "nuanceJa": "通る道をあらかじめ決める。",
+            "example": "We planned a route that avoided the busy road.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "follow a route",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "経路に沿って進む",
+            "nuanceJa": "指定された道をたどる。",
+            "example": "Visitors followed a route around the garden.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "routes"
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "article-samoa-tsunami-2026-q1",
+      "question": "How many communities received recognition?",
+      "choices": [
+        "17 communities in Samoa.",
+        "12 communities in Samoa.",
+        "17 countries in the Pacific.",
+        "12 countries in the Pacific."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-samoa-tsunami-2026-q1-option-1",
+        "article-samoa-tsunami-2026-q1-option-2",
+        "article-samoa-tsunami-2026-q1-option-3",
+        "article-samoa-tsunami-2026-q1-option-4"
+      ],
+      "correctChoiceId": "article-samoa-tsunami-2026-q1-option-1",
+      "evidenceParagraphIds": [
+        "p1"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p1",
+          "text": "On 5 October 2026, UNESCO shared news about 17 communities in Samoa.",
+          "highlights": [
+            "17 communities"
+          ]
+        }
+      ],
+      "explanationJa": "認定された地域数は17。12は条件の数。",
+      "type": "literal"
+    },
+    {
+      "id": "article-samoa-tsunami-2026-q2",
+      "question": "Why did Samoa change its alert levels?",
+      "choices": [
+        "To make warnings easier to understand.",
+        "To stop all warnings reaching villages.",
+        "To move every village to another island.",
+        "To replace all exercises with certificates."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-samoa-tsunami-2026-q2-option-1",
+        "article-samoa-tsunami-2026-q2-option-2",
+        "article-samoa-tsunami-2026-q2-option-3",
+        "article-samoa-tsunami-2026-q2-option-4"
+      ],
+      "correctChoiceId": "article-samoa-tsunami-2026-q2-option-1",
+      "evidenceParagraphIds": [
+        "p3"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p3",
+          "text": "The new words should make each warning clearer.",
+          "highlights": [
+            "clearer"
+          ]
+        }
+      ],
+      "explanationJa": "警報の理解を助け、混乱を減らすため。",
+      "type": "literal"
+    },
+    {
+      "id": "article-samoa-tsunami-2026-q3",
+      "question": "What does recognition suggest about future work?",
+      "choices": [
+        "Communities still need to maintain their plans.",
+        "Communities no longer need to practise together.",
+        "Communities can remove their warning equipment.",
+        "Communities will never face another sea danger."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-samoa-tsunami-2026-q3-option-1",
+        "article-samoa-tsunami-2026-q3-option-2",
+        "article-samoa-tsunami-2026-q3-option-3",
+        "article-samoa-tsunami-2026-q3-option-4"
+      ],
+      "correctChoiceId": "article-samoa-tsunami-2026-q3-option-1",
+      "evidenceParagraphIds": [
+        "p4"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p4",
+          "text": "Receiving a certificate does not finish the work.",
+          "highlights": [
+            "does not finish the work"
+          ]
+        }
+      ],
+      "explanationJa": "認定後も維持や訓練を続ける必要がある。安全の保証ではない。",
+      "type": "inference"
+    }
+  ],
+  "opinion": {
+    "id": "opinion-1",
+    "prompt": "What is one useful way for your community to practise for an emergency?",
+    "optional": true,
+    "saveScope": "device"
+  },
+  "properNouns": [
+    "UNESCO",
+    "Samoa",
+    "Samoan",
+    "Aleipata",
+    "Lepa",
+    "Tsunami Ready",
+    "October"
+  ],
+  "review": {
+    "factsCheckedAt": "2026-10-05",
+    "editorialParagraphIds": [],
+    "contentApproval": "editorial-reviewed",
+    "notes": "本文の事実・訳・設問根拠を出典と照合。使い方はすべて未確認。"
+  },
+  "reviewNotes": [
+    "出典の計画・目標と実績を区別。選択肢は同品詞の別の語から作成。"
+  ],
+  "validationProperNouns": [
+    "UNESCO",
+    "Samoa",
+    "Samoan",
+    "Aleipata",
+    "Lepa",
+    "Tsunami Ready",
+    "October"
+  ],
+  "validationEntityAliases": {
+    "Ethiopia": "エチオピア",
+    "Samoa": "サモア",
+    "Aleipata": "アレイパタ",
+    "Lepa": "レパ",
+    "Jordan": "ヨルダン",
+    "NASA": "NASA",
+    "Mullenax": "Mullenax",
+    "Fort Sumner": "フォートサムナー",
+    "Michael Rosen": "マイケル・ローゼン",
+    "Chris Redmond": "クリス・レドモンド",
+    "Liv Torc": "リヴ・トーク",
+    "National Poetry Day": "National Poetry Day",
+    "UNESCO": "ユネスコ",
+    "International Labour Organization": "国際労働機関",
+    "Forward Arts Foundation": "Forward Arts Foundation",
+    "October": "10月",
+    "September": "9月",
+    "Jordanians": "ヨルダン人",
+    "Syrian": "シリア",
+    "ILO": "ILO",
+    "RPL": "RPL",
+    "Recognition of Prior Learning": "既修得学習の認定",
+    "Tsunami Ready": "Tsunami Ready",
+    "Test Flight": "試験飛行",
+    "New Mexico": "ニューメキシコ",
+    "Mountain Daylight Time": "山岳部夏時間",
+    "Hurricane Polo": "ハリケーン・ポロ",
+    "United Kingdom": "英国",
+    "Torc": "トーク",
+    "Rosen": "ローゼン"
+  },
+  "validationNumberAliases": {
+    "half a million": "50万人",
+    "1,000": "1,000",
+    "3,257": "3,257",
+    "7:57": "7時57分"
+  },
+  "vocabularyReview": {
+    "status": "reviewed",
+    "reason": "A2に合わせてrecognition、requirements、confusionなどを短い基本語の説明に置き換えた。残るcertificate、warning、evacuationなどは認定と防災を扱うための主題語で、意味を訳と重要語彙で確認可能。文は短く、複雑な従属節や専門的な因果説明を避けた。認定が継続的な備えであり安全の保証ではないことを出典と照合。"
+  }
+}

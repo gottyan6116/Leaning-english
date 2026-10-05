@@ -1,0 +1,719 @@
+{
+  "id": "article-particle-telescope-2026",
+  "version": 1,
+  "kind": "article",
+  "status": "checked",
+  "createdAt": "2026-10-05",
+  "publishedAt": "2026-10-05T00:00:00+09:00",
+  "sourcePublishedAt": "2026-10-01",
+  "title": "A Small Detector for a Long Space Journey",
+  "summaryJa": "小型検出器の経験を小惑星帯探査につなぐ",
+  "category": "教養",
+  "level": "B2",
+  "readingMinutes": 3,
+  "readingEstimateWordsPerMinute": 110,
+  "editorialNotice": "出典に基づく学習用編集版",
+  "textOrigin": "original-for-this-app; factual adaptation",
+  "sources": [
+    {
+      "id": "main",
+      "title": "Miniaturized Particle Telescope Infused into Deep Space Asteroid Mission",
+      "publisher": "NASA HESTO",
+      "author": "Scott Schaire",
+      "publishedAt": "2026-10-01",
+      "url": "https://hesto.smce.nasa.gov/2026/10/01/miniaturized-particle-telescope-infused-into-deep-space-asteroid-mission/",
+      "checkedAt": "2026-10-05",
+      "usage": "確認した一次資料の事実を独自に再構成。例文・選択肢はこのアプリ用に作成。原文転載なし",
+      "paragraphIds": [
+        "p1",
+        "p5"
+      ]
+    },
+    {
+      "id": "background",
+      "title": "NASA CubeSat Finds New Radiation Belts After May 2024 Solar Storm",
+      "publisher": "NASA Science",
+      "author": "Mara Johnson-Groh",
+      "publishedAt": "2025-02-06",
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasa-cubesat-finds-new-radiation-belts-after-may-2024-solar-storm/",
+      "checkedAt": "2026-10-05",
+      "usage": "確認した一次資料の事実を独自に再構成。例文・選択肢はこのアプリ用に作成。原文転載なし",
+      "paragraphIds": [
+        "p2",
+        "p3",
+        "p4"
+      ]
+    }
+  ],
+  "photo": {
+    "pageUrl": "https://unsplash.com/photos/the-night-sky-with-stars-and-a-telescope-9YBDgOJGnY8",
+    "photoId": "9YBDgOJGnY8",
+    "photographer": "Le Mucky",
+    "photographerUrl": "https://unsplash.com/@mucky",
+    "service": "Unsplash",
+    "licenseUrl": "https://unsplash.com/license",
+    "licenseName": "Unsplash License",
+    "checkedAt": "2026-10-04",
+    "credit": "Photo by Le Mucky on Unsplash",
+    "alt": "夜空の星と望遠鏡",
+    "context": "宇宙観測に関連する素材写真。REPTile-3の写真ではない。",
+    "assetPath": "assets/articles/europa.jpg"
+  },
+  "paragraphs": [
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "main"
+      ],
+      "text": "NASA reported on 1 October 2026 that a small particle detector called REPTile-3 had been incorporated into the Emirates Mission to the Asteroid Belt. The mission is scheduled to launch in March 2028. It has not yet begun its journey. The detector will study energetic particles, helping scientists understand the radiation environment far from Earth and plan for future exploration.",
+      "translationJa": "NASAは2026年10月1日、小型の粒子検出器REPTile-3がエミレーツ小惑星帯探査計画に組み込まれたと報告した。打ち上げは2028年3月の予定で、まだ飛行を開始していない。検出器は高エネルギー粒子を調べ、地球から遠い場所の放射線環境の理解と将来の探査計画に役立てる。",
+      "id": "p1"
+    },
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "background"
+      ],
+      "text": "The instrument builds on an earlier detector, REPTile-2, carried by the CIRBE satellite. CIRBE entered low Earth orbit in April 2023. Although the satellite was roughly the size of a shoebox, it collected detailed measurements of electrons and protons. This earlier work showed that compact equipment could provide useful information about particles surrounding our planet. A small instrument need not produce a small scientific contribution.",
+      "translationJa": "装置の基礎となるのは、CIRBE衛星に搭載された先行機REPTile-2だ。CIRBEは2023年4月に地球低軌道へ入った。衛星は靴箱ほどの大きさだったが、電子と陽子を詳しく測定した。この先行研究は、小型装置でも地球を取り巻く粒子について有用な情報を集められることを示した。装置が小さいからといって、科学への貢献も小さいとは限らない。",
+      "id": "p2"
+    },
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "background"
+      ],
+      "text": "NASA explained in February 2025 that CIRBE data revealed two temporary radiation belts after the powerful solar storm of May 2024. A radiation belt is a region containing energetic particles held by Earth's magnetic field. Such particles can damage spacecraft and put astronauts at risk. Understanding changes in these regions is therefore relevant to safety, rather than simply to making a map of space.",
+      "translationJa": "NASAは2025年2月、2024年5月の強い太陽嵐の後に生じた二つの一時的な放射線帯を、CIRBEのデータから確認したと説明した。放射線帯は地球の磁場に捕らえられた高エネルギー粒子が存在する領域だ。こうした粒子は宇宙機を傷つけ、宇宙飛行士を危険にさらす可能性がある。その変化を理解することは、宇宙の地図を作るだけでなく安全にも関わる。",
+      "id": "p3"
+    },
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "background"
+      ],
+      "text": "CIRBE's observations also had limits. A fault stopped its measurements in April 2024, so it was silent during the May storm itself. The satellite resumed collecting data in June. Its later measurements helped researchers identify the new belts. This sequence matters: detecting a storm's effects afterwards is different from observing every stage while the storm is happening.",
+      "translationJa": "CIRBEの観測にも限界があった。2024年4月に故障して測定が止まり、5月の太陽嵐そのものが起きている間は動作していなかった。6月にデータ収集を再開し、その後の測定が新しい放射線帯の特定に役立った。この順序は重要だ。後から嵐の影響を検出することと、発生中の全過程を観測することは異なる。",
+      "id": "p4"
+    },
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "main"
+      ],
+      "text": "For REPTile-3, the team widened the field of view and changed part of the sensor to measure lower-energy protons. The planned route extends from inside Venus's orbit to beyond Mars and into the asteroid belt. The mission will provide another perspective on how solar particles spread. Its results remain future possibilities, but its design connects experience near Earth with questions about deeper space.",
+      "translationJa": "REPTile-3では視野を広げ、より低いエネルギーの陽子を測れるようセンサーの一部を変更した。予定する航路は金星の軌道の内側から火星の先、小惑星帯へと延びる。太陽由来の粒子がどう広がるかを別の位置から調べられる見込みだ。成果はまだ将来の可能性だが、設計は地球近傍で得た経験と、より遠い宇宙の問いを結びつけている。",
+      "id": "p5"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "article-particle-telescope-2026-incorporated",
+      "headword": "incorporated",
+      "surfaceForm": "incorporated",
+      "partOfSpeech": "verb",
+      "meaning": "組み込む",
+      "definition": "included as part of a larger system",
+      "contextParagraphId": "p1",
+      "context": "NASA reported on 1 October 2026 that a small particle detector called REPTile-3 had been incorporated into the Emirates Mission to the Asteroid Belt.",
+      "example": "The safety feature was incorporated into the device.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "組み込んだ",
+      "questions": {
+        "ja": {
+          "choices": [
+            "組み込む",
+            "輸送する",
+            "製造する",
+            "修理する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-incorporated-ja-option-1",
+            "article-particle-telescope-2026-incorporated-ja-option-2",
+            "article-particle-telescope-2026-incorporated-ja-option-3",
+            "article-particle-telescope-2026-incorporated-ja-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-incorporated-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "transported",
+            "manufactured",
+            "repaired"
+          ],
+          "explanation": "本文では「組み込んだ」の意味。輸送した・製造した・修理したとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "included as part of a larger system",
+            "moved between two different locations",
+            "produced through a manufacturing process",
+            "restored after damage to a working state"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-incorporated-en-option-1",
+            "article-particle-telescope-2026-incorporated-en-option-2",
+            "article-particle-telescope-2026-incorporated-en-option-3",
+            "article-particle-telescope-2026-incorporated-en-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-incorporated-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "transported",
+            "manufactured",
+            "repaired"
+          ],
+          "explanation": "本文では「組み込んだ」の意味。輸送した・製造した・修理したとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "incorporated into a design",
+            "pattern": "動詞を含む句",
+            "meaningJa": "設計に組み込まれた",
+            "nuanceJa": "「設計に組み込まれた」という場面で用いる組み合わせ。",
+            "example": "The new sensor was incorporated into the design.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "incorporated in a system",
+            "pattern": "動詞を含む句",
+            "meaningJa": "システムに組み込まれた",
+            "nuanceJa": "「システムに組み込まれた」という場面で用いる組み合わせ。",
+            "example": "Several checks were incorporated in the system.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "incorporated into a plan",
+            "pattern": "動詞を含む句",
+            "meaningJa": "計画に取り入れられた",
+            "nuanceJa": "「計画に取り入れられた」という場面で用いる組み合わせ。",
+            "example": "Their suggestions were incorporated into the plan.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-particle-telescope-2026-compact",
+      "headword": "compact",
+      "surfaceForm": "compact",
+      "partOfSpeech": "adjective",
+      "meaning": "小型の",
+      "definition": "small and efficiently arranged",
+      "contextParagraphId": "p2",
+      "context": "This earlier work showed that compact equipment could provide useful information about particles surrounding our planet.",
+      "example": "The compact instrument fits inside a small container.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "小型の",
+      "questions": {
+        "ja": {
+          "choices": [
+            "小型の",
+            "透明な",
+            "柔軟な",
+            "頑丈な"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-compact-ja-option-1",
+            "article-particle-telescope-2026-compact-ja-option-2",
+            "article-particle-telescope-2026-compact-ja-option-3",
+            "article-particle-telescope-2026-compact-ja-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-compact-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "transparent",
+            "flexible",
+            "sturdy"
+          ],
+          "explanation": "本文では「小型の」の意味。透明な・柔軟な・頑丈なとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "small and efficiently arranged",
+            "clear and allowing light through",
+            "flexible and easy to bend",
+            "strong and difficult to break"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-compact-en-option-1",
+            "article-particle-telescope-2026-compact-en-option-2",
+            "article-particle-telescope-2026-compact-en-option-3",
+            "article-particle-telescope-2026-compact-en-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-compact-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "transparent",
+            "flexible",
+            "sturdy"
+          ],
+          "explanation": "本文では「小型の」の意味。透明な・柔軟な・頑丈なとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "compact design",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "小型の設計",
+            "nuanceJa": "「小型の設計」という場面で用いる組み合わせ。",
+            "example": "A compact design saves space on the desk.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "compact device",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "小型装置",
+            "nuanceJa": "「小型装置」という場面で用いる組み合わせ。",
+            "example": "They developed a compact device for field work.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "compact camera",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "小型カメラ",
+            "nuanceJa": "「小型カメラ」という場面で用いる組み合わせ。",
+            "example": "I packed a compact camera for the trip.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-particle-telescope-2026-temporary",
+      "headword": "temporary",
+      "surfaceForm": "temporary",
+      "partOfSpeech": "adjective",
+      "meaning": "一時的な",
+      "definition": "lasting for a limited period",
+      "contextParagraphId": "p3",
+      "context": "NASA explained in February 2025 that CIRBE data revealed two temporary radiation belts after the powerful solar storm of May 2024.",
+      "example": "The temporary repair kept the machine running overnight.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "一時的な",
+      "questions": {
+        "ja": {
+          "choices": [
+            "一時的な",
+            "季節的な",
+            "断続的な",
+            "周期的な"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-temporary-ja-option-1",
+            "article-particle-telescope-2026-temporary-ja-option-2",
+            "article-particle-telescope-2026-temporary-ja-option-3",
+            "article-particle-telescope-2026-temporary-ja-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-temporary-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "seasonal",
+            "intermittent",
+            "periodic"
+          ],
+          "explanation": "本文では「一時的な」の意味。季節的な・断続的な・周期的なとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "lasting for a limited period",
+            "occurring during a particular season",
+            "happening with breaks between events",
+            "repeating at regular time intervals"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-temporary-en-option-1",
+            "article-particle-telescope-2026-temporary-en-option-2",
+            "article-particle-telescope-2026-temporary-en-option-3",
+            "article-particle-telescope-2026-temporary-en-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-temporary-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "seasonal",
+            "intermittent",
+            "periodic"
+          ],
+          "explanation": "本文では「一時的な」の意味。季節的な・断続的な・周期的なとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "temporary closure",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "一時閉鎖",
+            "nuanceJa": "「一時閉鎖」という場面で用いる組み合わせ。",
+            "example": "The station announced a temporary closure.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "temporary position",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "臨時の職",
+            "nuanceJa": "「臨時の職」という場面で用いる組み合わせ。",
+            "example": "She accepted a temporary position at the library.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "temporary shelter",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "一時的な避難所",
+            "nuanceJa": "「一時的な避難所」という場面で用いる組み合わせ。",
+            "example": "The school provided temporary shelter during repairs.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-particle-telescope-2026-resumed",
+      "headword": "resumed",
+      "surfaceForm": "resumed",
+      "partOfSpeech": "verb",
+      "meaning": "再開した",
+      "definition": "started again after a pause",
+      "contextParagraphId": "p4",
+      "context": "The satellite resumed collecting data in June.",
+      "example": "The experiment resumed after the equipment was repaired.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "再開した",
+      "questions": {
+        "ja": {
+          "choices": [
+            "再開した",
+            "延長した",
+            "変更した",
+            "加速した"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-resumed-ja-option-1",
+            "article-particle-telescope-2026-resumed-ja-option-2",
+            "article-particle-telescope-2026-resumed-ja-option-3",
+            "article-particle-telescope-2026-resumed-ja-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-resumed-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "extended",
+            "modified",
+            "accelerated"
+          ],
+          "explanation": "本文では「再開した」の意味。延長した・変更した・加速したとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "started again after a pause",
+            "continued for a longer period",
+            "changed from the previous arrangement",
+            "became faster than the previous pace"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-resumed-en-option-1",
+            "article-particle-telescope-2026-resumed-en-option-2",
+            "article-particle-telescope-2026-resumed-en-option-3",
+            "article-particle-telescope-2026-resumed-en-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-resumed-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "extended",
+            "modified",
+            "accelerated"
+          ],
+          "explanation": "本文では「再開した」の意味。延長した・変更した・加速したとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "resumed work",
+            "pattern": "動詞を含む句",
+            "meaningJa": "仕事を再開した",
+            "nuanceJa": "「仕事を再開した」という場面で用いる組み合わせ。",
+            "example": "The team resumed work after lunch.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "resumed operations",
+            "pattern": "動詞を含む句",
+            "meaningJa": "運転を再開した",
+            "nuanceJa": "「運転を再開した」という場面で用いる組み合わせ。",
+            "example": "The factory resumed operations on Monday.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "resumed discussions",
+            "pattern": "動詞を含む句",
+            "meaningJa": "議論を再開した",
+            "nuanceJa": "「議論を再開した」という場面で用いる組み合わせ。",
+            "example": "They resumed discussions after the break.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-particle-telescope-2026-perspective",
+      "headword": "perspective",
+      "surfaceForm": "perspective",
+      "partOfSpeech": "noun",
+      "meaning": "観点",
+      "definition": "a particular way of viewing something",
+      "contextParagraphId": "p5",
+      "context": "The mission will provide another perspective on how solar particles spread.",
+      "example": "Measurements from another location offer a new perspective.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "観点",
+      "questions": {
+        "ja": {
+          "choices": [
+            "観点",
+            "見積もり",
+            "予測",
+            "仮説"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-perspective-ja-option-1",
+            "article-particle-telescope-2026-perspective-ja-option-2",
+            "article-particle-telescope-2026-perspective-ja-option-3",
+            "article-particle-telescope-2026-perspective-ja-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-perspective-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "estimate",
+            "prediction",
+            "hypothesis"
+          ],
+          "explanation": "本文では「観点」の意味。見積もり・予測・仮説とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "a particular way of viewing something",
+            "an approximate calculation of a quantity",
+            "a forecast of a future development",
+            "a proposed explanation for an observation"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-perspective-en-option-1",
+            "article-particle-telescope-2026-perspective-en-option-2",
+            "article-particle-telescope-2026-perspective-en-option-3",
+            "article-particle-telescope-2026-perspective-en-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-perspective-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "estimate",
+            "prediction",
+            "hypothesis"
+          ],
+          "explanation": "本文では「観点」の意味。見積もり・予測・仮説とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "a different perspective",
+            "pattern": "名詞を含む句",
+            "meaningJa": "異なる観点",
+            "nuanceJa": "「異なる観点」という場面で用いる組み合わせ。",
+            "example": "The interview offered a different perspective.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "from a scientific perspective",
+            "pattern": "名詞を含む句",
+            "meaningJa": "科学的な観点から",
+            "nuanceJa": "「科学的な観点から」という場面で用いる組み合わせ。",
+            "example": "They examined the issue from a scientific perspective.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "gain perspective",
+            "pattern": "名詞を含む句",
+            "meaningJa": "見方を広げる",
+            "nuanceJa": "「見方を広げる」という場面で用いる組み合わせ。",
+            "example": "The visit helped me gain perspective on the debate.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "article-particle-telescope-2026-q1",
+      "question": "When is the asteroid mission scheduled to launch?",
+      "choices": [
+        "In March 2028, according to the current plan.",
+        "In April 2023, together with the CIRBE satellite.",
+        "In May 2024, while the solar storm was occurring.",
+        "In February 2025, when NASA reported the belts."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-particle-telescope-2026-q1-option-1",
+        "article-particle-telescope-2026-q1-option-2",
+        "article-particle-telescope-2026-q1-option-3",
+        "article-particle-telescope-2026-q1-option-4"
+      ],
+      "correctChoiceId": "article-particle-telescope-2026-q1-option-1",
+      "evidenceParagraphIds": [
+        "p1"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p1",
+          "text": "The mission is scheduled to launch in March 2028.",
+          "highlights": [
+            "scheduled to launch in March 2028"
+          ]
+        }
+      ],
+      "type": "literal",
+      "explanationJa": "本文中の根拠に基づいて判断します。"
+    },
+    {
+      "id": "article-particle-telescope-2026-q2",
+      "question": "What did CIRBE's later data help researchers identify?",
+      "choices": [
+        "Two temporary belts after the May 2024 storm.",
+        "A new planet outside the orbit of the Earth.",
+        "A permanent change to the route of all asteroids.",
+        "A complete absence of protons near the planet."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-particle-telescope-2026-q2-option-1",
+        "article-particle-telescope-2026-q2-option-2",
+        "article-particle-telescope-2026-q2-option-3",
+        "article-particle-telescope-2026-q2-option-4"
+      ],
+      "correctChoiceId": "article-particle-telescope-2026-q2-option-1",
+      "evidenceParagraphIds": [
+        "p3"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p3",
+          "text": "NASA explained in February 2025 that CIRBE data revealed two temporary radiation belts after the powerful solar storm of May 2024.",
+          "highlights": [
+            "two temporary radiation belts"
+          ]
+        }
+      ],
+      "type": "literal",
+      "explanationJa": "本文中の根拠に基づいて判断します。"
+    },
+    {
+      "id": "article-particle-telescope-2026-q3",
+      "question": "Why should CIRBE not be described as observing the whole storm?",
+      "choices": [
+        "It collected data again only after the May event.",
+        "It had never measured any particles before May.",
+        "It had reached the asteroid belt before June.",
+        "It measured only sunlight throughout the event."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-particle-telescope-2026-q3-option-1",
+        "article-particle-telescope-2026-q3-option-2",
+        "article-particle-telescope-2026-q3-option-3",
+        "article-particle-telescope-2026-q3-option-4"
+      ],
+      "correctChoiceId": "article-particle-telescope-2026-q3-option-1",
+      "evidenceParagraphIds": [
+        "p4"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p4",
+          "text": "A fault stopped its measurements in April 2024, so it was silent during the May storm itself.",
+          "highlights": [
+            "silent during the May storm itself"
+          ]
+        }
+      ],
+      "type": "inference",
+      "explanationJa": "測定停止は4月、嵐は5月、再開は6月。嵐後の影響は調べられても、嵐の全過程を観測したとは言えない。"
+    }
+  ],
+  "opinion": {
+    "id": "opinion-1",
+    "prompt": "Would you prefer one large scientific instrument or several small ones? Explain a benefit and a limitation.",
+    "optional": true,
+    "saveScope": "device"
+  },
+  "review": {
+    "factsCheckedAt": "2026-10-05",
+    "editorialParagraphIds": [],
+    "contentApproval": "approved-candidate-and-production",
+    "notes": "公開日と本文の数値・予定を一次資料で確認。日本語訳を段落IDで対応。使い方はすべて未確認。",
+    "translationReview": "段落IDごとに人数・割合・年月を照合し、予定は未来表現、推定や可能性は断定しない日本語に確認。"
+  },
+  "vocabularyReview": {
+    "status": "reviewed",
+    "reason": "detector・protons・radiationは分野語で、検出器の用途と放射線帯をP1〜P3で説明。NASA/CIRBE/REPTileは固有名詞。観測停止と再開、2028年の予定を原資料と訳で照合。"
+  },
+  "validationProperNouns": [
+    "NASA",
+    "REPTile",
+    "REPTile-2",
+    "REPTile-3",
+    "CIRBE",
+    "Emirates",
+    "Venus",
+    "Mars",
+    "Earth"
+  ],
+  "validationEntityAliases": {
+    "NASA": "NASA",
+    "CIRBE": "CIRBE",
+    "Venus": "金星",
+    "Mars": "火星",
+    "Earth": "地球",
+    "REPTile": "REPTile",
+    "REPTile-2": "REPTile-2",
+    "REPTile-3": "REPTile-3",
+    "Emirates": "エミレーツ"
+  },
+  "validationNumberAliases": {}
+}

@@ -1,0 +1,493 @@
+{
+  "id": "article-mexico-tourism-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-05T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-mexico-tourism-2026-networks",
+      "headword": "networks",
+      "surfaceForm": "networks",
+      "partOfSpeech": "noun",
+      "meaning": "交流網",
+      "definition": "groups linked through shared activities",
+      "contextParagraphId": "p1",
+      "context": "UNESCO reported on 25 September 2026 that Mexican organisations had opened a meeting on community tourism, research and local networks.",
+      "example": "The project connects local networks with universities.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "つながり",
+      "questions": {
+        "ja": {
+          "choices": [
+            "交流網",
+            "施設群",
+            "契約書",
+            "資源量"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-mexico-tourism-2026-networks-ja-option-1",
+            "article-mexico-tourism-2026-networks-ja-option-2",
+            "article-mexico-tourism-2026-networks-ja-option-3",
+            "article-mexico-tourism-2026-networks-ja-option-4"
+          ],
+          "correctChoiceId": "article-mexico-tourism-2026-networks-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "facilities",
+            "contracts",
+            "resources"
+          ],
+          "explanation": "本文では「つながり」の意味。施設・契約・資源とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "groups linked through shared activities",
+            "buildings used for particular activities",
+            "agreements defining agreed responsibilities",
+            "supplies available for particular activities"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-mexico-tourism-2026-networks-en-option-1",
+            "article-mexico-tourism-2026-networks-en-option-2",
+            "article-mexico-tourism-2026-networks-en-option-3",
+            "article-mexico-tourism-2026-networks-en-option-4"
+          ],
+          "correctChoiceId": "article-mexico-tourism-2026-networks-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "facilities",
+            "contracts",
+            "resources"
+          ],
+          "explanation": "本文では「つながり」の意味。施設・契約・資源とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "local networks",
+            "pattern": "名詞を含む句",
+            "meaningJa": "地域のつながり",
+            "nuanceJa": "「地域のつながり」という場面で用いる組み合わせ。",
+            "example": "Local networks helped new residents find support.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "research networks",
+            "pattern": "名詞を含む句",
+            "meaningJa": "研究者のネットワーク",
+            "nuanceJa": "「研究者のネットワーク」という場面で用いる組み合わせ。",
+            "example": "Research networks connect teams across borders.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "support networks",
+            "pattern": "名詞を含む句",
+            "meaningJa": "支援のつながり",
+            "nuanceJa": "「支援のつながり」という場面で用いる組み合わせ。",
+            "example": "Strong support networks helped the volunteers.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-mexico-tourism-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-mexico-tourism-2026-cooperatives",
+      "headword": "cooperatives",
+      "surfaceForm": "cooperatives",
+      "partOfSpeech": "noun",
+      "meaning": "協同組合",
+      "definition": "organisations jointly owned by members",
+      "contextParagraphId": "p3",
+      "context": "Some projects work with fishing communities, cooperatives and local producers.",
+      "example": "The cooperatives agreed to share storage facilities.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "協同組合",
+      "questions": {
+        "ja": {
+          "choices": [
+            "協同組合",
+            "請負業者",
+            "販売代理店",
+            "規制当局"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-mexico-tourism-2026-cooperatives-ja-option-1",
+            "article-mexico-tourism-2026-cooperatives-ja-option-2",
+            "article-mexico-tourism-2026-cooperatives-ja-option-3",
+            "article-mexico-tourism-2026-cooperatives-ja-option-4"
+          ],
+          "correctChoiceId": "article-mexico-tourism-2026-cooperatives-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "contractors",
+            "distributors",
+            "regulators"
+          ],
+          "explanation": "本文では「協同組合」の意味。請負業者・販売代理店・規制当局とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "organisations jointly owned by members",
+            "businesses hired to complete agreed work",
+            "businesses selling goods for other companies",
+            "authorities enforcing official industry rules"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-mexico-tourism-2026-cooperatives-en-option-1",
+            "article-mexico-tourism-2026-cooperatives-en-option-2",
+            "article-mexico-tourism-2026-cooperatives-en-option-3",
+            "article-mexico-tourism-2026-cooperatives-en-option-4"
+          ],
+          "correctChoiceId": "article-mexico-tourism-2026-cooperatives-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "contractors",
+            "distributors",
+            "regulators"
+          ],
+          "explanation": "本文では「協同組合」の意味。請負業者・販売代理店・規制当局とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "farming cooperatives",
+            "pattern": "名詞を含む句",
+            "meaningJa": "農業協同組合",
+            "nuanceJa": "「農業協同組合」という場面で用いる組み合わせ。",
+            "example": "Farming cooperatives share equipment among members.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "worker cooperatives",
+            "pattern": "名詞を含む句",
+            "meaningJa": "労働者協同組合",
+            "nuanceJa": "「労働者協同組合」という場面で用いる組み合わせ。",
+            "example": "Worker cooperatives make decisions through their members.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "join cooperatives",
+            "pattern": "名詞を含む句",
+            "meaningJa": "協同組合に参加する",
+            "nuanceJa": "「協同組合に参加する」という場面で用いる組み合わせ。",
+            "example": "Local producers decided to join cooperatives.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-mexico-tourism-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-mexico-tourism-2026-indicators",
+      "headword": "indicators",
+      "surfaceForm": "indicators",
+      "partOfSpeech": "noun",
+      "meaning": "指標",
+      "definition": "measures showing a particular condition",
+      "contextParagraphId": "p3",
+      "context": "New indicators will examine social and environmental effects.",
+      "example": "The indicators include income and participation.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "指標",
+      "questions": {
+        "ja": {
+          "choices": [
+            "指標",
+            "予算",
+            "予測",
+            "手続き"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-mexico-tourism-2026-indicators-ja-option-1",
+            "article-mexico-tourism-2026-indicators-ja-option-2",
+            "article-mexico-tourism-2026-indicators-ja-option-3",
+            "article-mexico-tourism-2026-indicators-ja-option-4"
+          ],
+          "correctChoiceId": "article-mexico-tourism-2026-indicators-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "budgets",
+            "forecasts",
+            "procedures"
+          ],
+          "explanation": "本文では「指標」の意味。予算・予測・手続きとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "measures showing a particular condition",
+            "funds planned for a particular activity",
+            "estimates of a future development",
+            "steps followed for a particular activity"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-mexico-tourism-2026-indicators-en-option-1",
+            "article-mexico-tourism-2026-indicators-en-option-2",
+            "article-mexico-tourism-2026-indicators-en-option-3",
+            "article-mexico-tourism-2026-indicators-en-option-4"
+          ],
+          "correctChoiceId": "article-mexico-tourism-2026-indicators-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "budgets",
+            "forecasts",
+            "procedures"
+          ],
+          "explanation": "本文では「指標」の意味。予算・予測・手続きとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "economic indicators",
+            "pattern": "名詞を含む句",
+            "meaningJa": "経済指標",
+            "nuanceJa": "「経済指標」という場面で用いる組み合わせ。",
+            "example": "The team compared several economic indicators.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "performance indicators",
+            "pattern": "名詞を含む句",
+            "meaningJa": "実績の指標",
+            "nuanceJa": "「実績の指標」という場面で用いる組み合わせ。",
+            "example": "We selected performance indicators before the project.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "develop indicators",
+            "pattern": "名詞を含む句",
+            "meaningJa": "指標を作る",
+            "nuanceJa": "「指標を作る」という場面で用いる組み合わせ。",
+            "example": "Researchers will develop indicators for community access.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-mexico-tourism-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-mexico-tourism-2026-heritage",
+      "headword": "heritage",
+      "surfaceForm": "heritage",
+      "partOfSpeech": "noun",
+      "meaning": "文化遺産",
+      "definition": "traditions passed on from earlier generations",
+      "contextParagraphId": "p4",
+      "context": "The approach seeks to ensure that local communities benefit while maintaining their living heritage.",
+      "example": "Young residents are learning skills connected to their heritage.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "受け継いだ文化",
+      "questions": {
+        "ja": {
+          "choices": [
+            "文化遺産",
+            "経済資産",
+            "娯楽活動",
+            "社会評価"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-mexico-tourism-2026-heritage-ja-option-1",
+            "article-mexico-tourism-2026-heritage-ja-option-2",
+            "article-mexico-tourism-2026-heritage-ja-option-3",
+            "article-mexico-tourism-2026-heritage-ja-option-4"
+          ],
+          "correctChoiceId": "article-mexico-tourism-2026-heritage-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "assets",
+            "entertainment",
+            "reputation"
+          ],
+          "explanation": "本文では「受け継いだ文化」の意味。資産・娯楽・評判とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "traditions passed on from earlier generations",
+            "property owned by a person or organisation",
+            "activities enjoyed during time away from work",
+            "opinions held about a person or organisation"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-mexico-tourism-2026-heritage-en-option-1",
+            "article-mexico-tourism-2026-heritage-en-option-2",
+            "article-mexico-tourism-2026-heritage-en-option-3",
+            "article-mexico-tourism-2026-heritage-en-option-4"
+          ],
+          "correctChoiceId": "article-mexico-tourism-2026-heritage-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "assets",
+            "entertainment",
+            "reputation"
+          ],
+          "explanation": "本文では「受け継いだ文化」の意味。資産・娯楽・評判とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "cultural heritage",
+            "pattern": "名詞を含む句",
+            "meaningJa": "文化遺産",
+            "nuanceJa": "「文化遺産」という場面で用いる組み合わせ。",
+            "example": "The festival celebrates local cultural heritage.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "preserve heritage",
+            "pattern": "名詞を含む句",
+            "meaningJa": "文化を守る",
+            "nuanceJa": "「文化を守る」という場面で用いる組み合わせ。",
+            "example": "Residents formed a group to preserve heritage.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "shared heritage",
+            "pattern": "名詞を含む句",
+            "meaningJa": "共有する文化",
+            "nuanceJa": "「共有する文化」という場面で用いる組み合わせ。",
+            "example": "The exhibition explores the communities' shared heritage.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-mexico-tourism-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-mexico-tourism-2026-evaluation",
+      "headword": "evaluation",
+      "surfaceForm": "evaluation",
+      "partOfSpeech": "noun",
+      "meaning": "評価",
+      "definition": "an assessment of quality or results",
+      "contextParagraphId": "p5",
+      "context": "Promotion and evaluation also form part of the process.",
+      "example": "The evaluation considered both costs and local benefits.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "評価",
+      "questions": {
+        "ja": {
+          "choices": [
+            "評価",
+            "記録",
+            "予測",
+            "資金配分"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-mexico-tourism-2026-evaluation-ja-option-1",
+            "article-mexico-tourism-2026-evaluation-ja-option-2",
+            "article-mexico-tourism-2026-evaluation-ja-option-3",
+            "article-mexico-tourism-2026-evaluation-ja-option-4"
+          ],
+          "correctChoiceId": "article-mexico-tourism-2026-evaluation-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "documentation",
+            "prediction",
+            "allocation"
+          ],
+          "explanation": "本文では「評価」の意味。記録・予測・資金配分とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "an assessment of quality or results",
+            "a written account of events or findings",
+            "a forecast of future events or results",
+            "an allocation of money to activities"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-mexico-tourism-2026-evaluation-en-option-1",
+            "article-mexico-tourism-2026-evaluation-en-option-2",
+            "article-mexico-tourism-2026-evaluation-en-option-3",
+            "article-mexico-tourism-2026-evaluation-en-option-4"
+          ],
+          "correctChoiceId": "article-mexico-tourism-2026-evaluation-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "documentation",
+            "prediction",
+            "allocation"
+          ],
+          "explanation": "本文では「評価」の意味。記録・予測・資金配分とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "independent evaluation",
+            "pattern": "名詞を含む句",
+            "meaningJa": "独立した評価",
+            "nuanceJa": "「独立した評価」という場面で用いる組み合わせ。",
+            "example": "An independent evaluation reviewed the programme.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "conduct an evaluation",
+            "pattern": "名詞を含む句",
+            "meaningJa": "評価を行う",
+            "nuanceJa": "「評価を行う」という場面で用いる組み合わせ。",
+            "example": "The university will conduct an evaluation.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "evaluation criteria",
+            "pattern": "名詞を含む句",
+            "meaningJa": "評価基準",
+            "nuanceJa": "「評価基準」という場面で用いる組み合わせ。",
+            "example": "We agreed on evaluation criteria before starting.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-mexico-tourism-2026",
+      "materialVersion": 1
+    }
+  ]
+}

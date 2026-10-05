@@ -1,0 +1,713 @@
+{
+  "id": "article-space-ports-2026",
+  "version": 1,
+  "kind": "article",
+  "status": "checked",
+  "createdAt": "2026-10-05",
+  "publishedAt": "2026-10-05T00:00:00+09:00",
+  "sourcePublishedAt": "2026-10-01",
+  "title": "How Satellites Could Help Ports Work Better",
+  "summaryJa": "衛星技術を港の現場に生かすための協力",
+  "category": "仕事",
+  "level": "B2",
+  "readingMinutes": 3,
+  "readingEstimateWordsPerMinute": 110,
+  "editorialNotice": "出典に基づく学習用編集版",
+  "textOrigin": "original-for-this-app; factual adaptation",
+  "sources": [
+    {
+      "id": "main",
+      "title": "From space to ports: a new Working Group turns cooperation into action",
+      "publisher": "ESA",
+      "author": null,
+      "publishedAt": "2026-10-01",
+      "url": "https://business.esa.int/news/space-to-ports-new-working-group-turns-cooperation-action",
+      "checkedAt": "2026-10-05",
+      "usage": "確認した一次資料の事実を独自に再構成。例文・選択肢はこのアプリ用に作成。原文転載なし",
+      "paragraphIds": [
+        "p1",
+        "p2",
+        "p5"
+      ]
+    },
+    {
+      "id": "background",
+      "title": "Maritime",
+      "publisher": "ESA",
+      "author": null,
+      "publishedAt": null,
+      "url": "https://business.esa.int/maritime",
+      "checkedAt": "2026-10-05",
+      "usage": "確認した一次資料の事実を独自に再構成。例文・選択肢はこのアプリ用に作成。原文転載なし",
+      "paragraphIds": [
+        "p3",
+        "p4"
+      ],
+      "datePrecision": "unknown",
+      "authorNote": "公開日の表示なし。確認日を公開日として扱わない。",
+      "dateNote": "公開日記載なし",
+      "type": "background"
+    }
+  ],
+  "photo": {
+    "pageUrl": "https://unsplash.com/photos/aerial-view-of-stacked-shipping-containers-at-a-port-37mW7MvAOvU",
+    "photoId": "37mW7MvAOvU",
+    "photographer": "Daniel Miksha",
+    "service": "Unsplash",
+    "licenseUrl": "https://unsplash.com/license",
+    "checkedAt": "2026-10-05",
+    "credit": "Photo by Daniel Miksha on Unsplash",
+    "alt": "港に並ぶコンテナ",
+    "context": "関連する素材写真。出典で扱う地域・人物・出来事の現場写真ではない。",
+    "assetPath": "assets/articles/ports.jpg"
+  },
+  "paragraphs": [
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "main"
+      ],
+      "text": "On 29 September 2026, more than 200 people met in Naples, Italy, to discuss links between space technology and the maritime sector. Ports, coastguards, companies and research organisations were represented. The European Space Agency, or ESA, organised the event with the Italian Space Agency. ESA reported the meeting on 1 October and announced a new Space for Ports Working Group.",
+      "translationJa": "2026年9月29日、宇宙技術と海事分野のつながりを話し合うため、200人を超える参加者がイタリアのナポリに集まった。港湾、沿岸警備隊、企業、研究機関の関係者が参加した。欧州宇宙機関（ESA）がイタリア宇宙機関と共同で開催し、10月1日の報告で新たな「Space for Ports Working Group」の設立を発表した。",
+      "id": "p1"
+    },
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "main"
+      ],
+      "text": "A port connects ships with roads, businesses and surrounding communities. Improving its operations can therefore involve several organisations rather than a single company. At the meeting, speakers discussed safety, logistics and digital connections. They stressed that a useful service must answer an operational need and work with systems that ports already use. An attractive technology alone is not enough.",
+      "translationJa": "港は船と道路、企業、周辺地域をつなぐ。したがって業務の改善には、一社だけでなく複数の組織が関わることがある。会議では安全、物流、デジタル接続が議論された。役立つサービスには現場の必要性への対応と既存システムとの連携が必要だと強調された。魅力的な技術だけでは十分ではない。",
+      "id": "p2"
+    },
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "background"
+      ],
+      "text": "ESA describes three ways satellites can help at sea. Communication satellites link offshore activities to people on land. Navigation systems help ships determine their position. Earth observation provides images and other information about the surface. These services perform different tasks; combining them does not mean that one satellite replaces every piece of equipment used by a port.",
+      "translationJa": "ESAは海上で衛星が役立つ方法を三つ説明している。通信衛星は沖合の活動と陸上の人々を結ぶ。航法システムは船の位置確認を助ける。地球観測は地表の画像や情報を提供する。それぞれ役割は異なり、組み合わせれば一つの衛星で港のあらゆる設備を代替できるという意味ではない。",
+      "id": "p3"
+    },
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "background"
+      ],
+      "text": "For example, ESA lists environmental monitoring among the uses of Earth observation. It can support coastal planning, help assess a port's environmental impact and detect oil spills. Satellite communication also supports search and rescue. These are examples of possible applications across the maritime sector, not a claim that every port has adopted all of them or achieved identical results.",
+      "translationJa": "たとえばESAは、地球観測の用途に環境の監視を挙げている。沿岸の計画、港の環境への影響の評価、油の流出の発見などを支援できる。衛星通信は捜索・救助にも役立つ。これらは海事分野での活用例であり、すべての港が導入済みで同じ成果を上げたという主張ではない。",
+      "id": "p4"
+    },
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "main"
+      ],
+      "text": "The new group will let ports share priorities and identify common challenges. It also aims to connect port users with the space community and develop practical initiatives. ESA wants promising services to move beyond demonstration into deployment. This is a plan for cooperation, not evidence that the group has already reduced waiting times or lowered costs. Its value will depend on what participants can put into practice.",
+      "translationJa": "新組織は、港湾が優先事項を共有し、共通の課題を見つける場となる。港の利用者と宇宙分野を結び、実用的な取り組みを進めることも目指す。ESAは有望なサービスを実証から実際の導入へ進めたいと考えている。これは協力の計画であり、すでに待ち時間や費用を減らした証拠ではない。価値は参加者が何を実現できるかにかかっている。",
+      "id": "p5"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "article-space-ports-2026-maritime",
+      "headword": "maritime",
+      "surfaceForm": "maritime",
+      "partOfSpeech": "adjective",
+      "meaning": "海事の",
+      "definition": "relating to ships and sea activities",
+      "contextParagraphId": "p1",
+      "context": "On 29 September 2026, more than 200 people met in Naples, Italy, to discuss links between space technology and the maritime sector.",
+      "example": "The project examines maritime safety near busy ports.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "海事の",
+      "questions": {
+        "ja": {
+          "choices": [
+            "海事の",
+            "航空の",
+            "農業の",
+            "金融の"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-space-ports-2026-maritime-ja-option-1",
+            "article-space-ports-2026-maritime-ja-option-2",
+            "article-space-ports-2026-maritime-ja-option-3",
+            "article-space-ports-2026-maritime-ja-option-4"
+          ],
+          "correctChoiceId": "article-space-ports-2026-maritime-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "aeronautical",
+            "agricultural",
+            "financial"
+          ],
+          "explanation": "本文では「海事の」の意味。航空の・農業の・金融のとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "relating to ships and sea activities",
+            "relating to aircraft and air travel",
+            "relating to farming and food production",
+            "relating to money and banking services"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-space-ports-2026-maritime-en-option-1",
+            "article-space-ports-2026-maritime-en-option-2",
+            "article-space-ports-2026-maritime-en-option-3",
+            "article-space-ports-2026-maritime-en-option-4"
+          ],
+          "correctChoiceId": "article-space-ports-2026-maritime-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "aeronautical",
+            "agricultural",
+            "financial"
+          ],
+          "explanation": "本文では「海事の」の意味。航空の・農業の・金融のとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "maritime safety",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "海上の安全",
+            "nuanceJa": "「海上の安全」という場面で用いる組み合わせ。",
+            "example": "The course covers maritime safety.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "maritime trade",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "海上貿易",
+            "nuanceJa": "「海上貿易」という場面で用いる組み合わせ。",
+            "example": "The museum explains the history of maritime trade.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "maritime transport",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "海上輸送",
+            "nuanceJa": "「海上輸送」という場面で用いる組み合わせ。",
+            "example": "The report compares maritime transport with rail services.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-space-ports-2026-logistics",
+      "headword": "logistics",
+      "surfaceForm": "logistics",
+      "partOfSpeech": "noun",
+      "meaning": "物流",
+      "definition": "the organisation of moving goods",
+      "contextParagraphId": "p2",
+      "context": "At the meeting, speakers discussed safety, logistics and digital connections.",
+      "example": "The coordinator manages logistics for deliveries.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "物流",
+      "questions": {
+        "ja": {
+          "choices": [
+            "物流",
+            "調達",
+            "在庫",
+            "流通量"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-space-ports-2026-logistics-ja-option-1",
+            "article-space-ports-2026-logistics-ja-option-2",
+            "article-space-ports-2026-logistics-ja-option-3",
+            "article-space-ports-2026-logistics-ja-option-4"
+          ],
+          "correctChoiceId": "article-space-ports-2026-logistics-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "procurement",
+            "inventory",
+            "turnover"
+          ],
+          "explanation": "本文では「物流」の意味。調達・在庫・流通量とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "the organisation of moving goods",
+            "the purchase of goods from suppliers",
+            "the stock of goods held in storage",
+            "the volume of goods sold in markets"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-space-ports-2026-logistics-en-option-1",
+            "article-space-ports-2026-logistics-en-option-2",
+            "article-space-ports-2026-logistics-en-option-3",
+            "article-space-ports-2026-logistics-en-option-4"
+          ],
+          "correctChoiceId": "article-space-ports-2026-logistics-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "procurement",
+            "inventory",
+            "turnover"
+          ],
+          "explanation": "本文では「物流」の意味。調達・在庫・流通量とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "manage logistics",
+            "pattern": "名詞を含む句",
+            "meaningJa": "物流を管理する",
+            "nuanceJa": "「物流を管理する」という場面で用いる組み合わせ。",
+            "example": "A small team manages logistics for the exhibition.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "logistics network",
+            "pattern": "名詞を含む句",
+            "meaningJa": "物流網",
+            "nuanceJa": "「物流網」という場面で用いる組み合わせ。",
+            "example": "The company expanded its logistics network.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "logistics costs",
+            "pattern": "名詞を含む句",
+            "meaningJa": "物流費用",
+            "nuanceJa": "「物流費用」という場面で用いる組み合わせ。",
+            "example": "Better planning reduced our logistics costs.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-space-ports-2026-operational",
+      "headword": "operational",
+      "surfaceForm": "operational",
+      "partOfSpeech": "adjective",
+      "meaning": "業務上の",
+      "definition": "connected with everyday working activities",
+      "contextParagraphId": "p2",
+      "context": "They stressed that a useful service must answer an operational need and work with systems that ports already use.",
+      "example": "We reviewed the operational needs of the warehouse.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "業務上の",
+      "questions": {
+        "ja": {
+          "choices": [
+            "業務上の",
+            "法規上の",
+            "財務上の",
+            "理論上の"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-space-ports-2026-operational-ja-option-1",
+            "article-space-ports-2026-operational-ja-option-2",
+            "article-space-ports-2026-operational-ja-option-3",
+            "article-space-ports-2026-operational-ja-option-4"
+          ],
+          "correctChoiceId": "article-space-ports-2026-operational-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "regulatory",
+            "financial",
+            "theoretical"
+          ],
+          "explanation": "本文では「業務上の」の意味。法規上の・財務上の・理論上のとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "connected with everyday working activities",
+            "connected with official legal requirements",
+            "connected with income and expenditure",
+            "connected with abstract explanatory ideas"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-space-ports-2026-operational-en-option-1",
+            "article-space-ports-2026-operational-en-option-2",
+            "article-space-ports-2026-operational-en-option-3",
+            "article-space-ports-2026-operational-en-option-4"
+          ],
+          "correctChoiceId": "article-space-ports-2026-operational-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "regulatory",
+            "financial",
+            "theoretical"
+          ],
+          "explanation": "本文では「業務上の」の意味。法規上の・財務上の・理論上のとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "operational needs",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "業務上の必要性",
+            "nuanceJa": "「業務上の必要性」という場面で用いる組み合わせ。",
+            "example": "The design team asked users about operational needs.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "operational costs",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "運営費用",
+            "nuanceJa": "「運営費用」という場面で用いる組み合わせ。",
+            "example": "The new office has lower operational costs.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "operational efficiency",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "業務効率",
+            "nuanceJa": "「業務効率」という場面で用いる組み合わせ。",
+            "example": "A clearer schedule improved operational efficiency.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-space-ports-2026-monitoring",
+      "headword": "monitoring",
+      "surfaceForm": "monitoring",
+      "partOfSpeech": "noun",
+      "meaning": "監視",
+      "definition": "the regular observation of conditions",
+      "contextParagraphId": "p4",
+      "context": "For example, ESA lists environmental monitoring among the uses of Earth observation.",
+      "example": "Regular monitoring revealed a change in water quality.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "監視",
+      "questions": {
+        "ja": {
+          "choices": [
+            "監視",
+            "予測",
+            "修復",
+            "規制"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-space-ports-2026-monitoring-ja-option-1",
+            "article-space-ports-2026-monitoring-ja-option-2",
+            "article-space-ports-2026-monitoring-ja-option-3",
+            "article-space-ports-2026-monitoring-ja-option-4"
+          ],
+          "correctChoiceId": "article-space-ports-2026-monitoring-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "forecasting",
+            "restoration",
+            "regulation"
+          ],
+          "explanation": "本文では「監視」の意味。予測・修復・規制とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "the regular observation of conditions",
+            "the prediction of future conditions",
+            "the repair of damaged facilities",
+            "the control of permitted activities"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-space-ports-2026-monitoring-en-option-1",
+            "article-space-ports-2026-monitoring-en-option-2",
+            "article-space-ports-2026-monitoring-en-option-3",
+            "article-space-ports-2026-monitoring-en-option-4"
+          ],
+          "correctChoiceId": "article-space-ports-2026-monitoring-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "forecasting",
+            "restoration",
+            "regulation"
+          ],
+          "explanation": "本文では「監視」の意味。予測・修復・規制とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "environmental monitoring",
+            "pattern": "名詞を含む句",
+            "meaningJa": "環境の監視",
+            "nuanceJa": "「環境の監視」という場面で用いる組み合わせ。",
+            "example": "Environmental monitoring continued after the repairs.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "continuous monitoring",
+            "pattern": "名詞を含む句",
+            "meaningJa": "継続的な監視",
+            "nuanceJa": "「継続的な監視」という場面で用いる組み合わせ。",
+            "example": "The equipment requires continuous monitoring.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "monitoring system",
+            "pattern": "名詞を含む句",
+            "meaningJa": "監視システム",
+            "nuanceJa": "「監視システム」という場面で用いる組み合わせ。",
+            "example": "Engineers tested the monitoring system overnight.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-space-ports-2026-deployment",
+      "headword": "deployment",
+      "surfaceForm": "deployment",
+      "partOfSpeech": "noun",
+      "meaning": "導入",
+      "definition": "the introduction of equipment into use",
+      "contextParagraphId": "p5",
+      "context": "ESA wants promising services to move beyond demonstration into deployment.",
+      "example": "Deployment will follow a final safety review.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "導入",
+      "questions": {
+        "ja": {
+          "choices": [
+            "導入",
+            "調達",
+            "整備",
+            "撤去"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-space-ports-2026-deployment-ja-option-1",
+            "article-space-ports-2026-deployment-ja-option-2",
+            "article-space-ports-2026-deployment-ja-option-3",
+            "article-space-ports-2026-deployment-ja-option-4"
+          ],
+          "correctChoiceId": "article-space-ports-2026-deployment-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "procurement",
+            "maintenance",
+            "removal"
+          ],
+          "explanation": "本文では「導入」の意味。調達・整備・撤去とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "the introduction of equipment into use",
+            "the purchase of equipment from suppliers",
+            "the maintenance of equipment in service",
+            "the removal of equipment from a site"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-space-ports-2026-deployment-en-option-1",
+            "article-space-ports-2026-deployment-en-option-2",
+            "article-space-ports-2026-deployment-en-option-3",
+            "article-space-ports-2026-deployment-en-option-4"
+          ],
+          "correctChoiceId": "article-space-ports-2026-deployment-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "procurement",
+            "maintenance",
+            "removal"
+          ],
+          "explanation": "本文では「導入」の意味。調達・整備・撤去とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "system deployment",
+            "pattern": "名詞を含む句",
+            "meaningJa": "システムの導入",
+            "nuanceJa": "「システムの導入」という場面で用いる組み合わせ。",
+            "example": "System deployment will begin next month.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "deployment plan",
+            "pattern": "名詞を含む句",
+            "meaningJa": "導入計画",
+            "nuanceJa": "「導入計画」という場面で用いる組み合わせ。",
+            "example": "The team revised its deployment plan.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "large-scale deployment",
+            "pattern": "名詞を含む句",
+            "meaningJa": "大規模な導入",
+            "nuanceJa": "「大規模な導入」という場面で用いる組み合わせ。",
+            "example": "Testing must precede large-scale deployment.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "article-space-ports-2026-q1",
+      "question": "What was announced after the Naples meeting?",
+      "choices": [
+        "A group connecting ports with space services.",
+        "A company replacing every port authority.",
+        "A rule closing all ports during satellite tests.",
+        "A system banning ships without satellite links."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-space-ports-2026-q1-option-1",
+        "article-space-ports-2026-q1-option-2",
+        "article-space-ports-2026-q1-option-3",
+        "article-space-ports-2026-q1-option-4"
+      ],
+      "correctChoiceId": "article-space-ports-2026-q1-option-1",
+      "evidenceParagraphIds": [
+        "p1"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p1",
+          "text": "ESA reported the meeting on 1 October and announced a new Space for Ports Working Group.",
+          "highlights": [
+            "a new Space for Ports Working Group"
+          ]
+        }
+      ],
+      "type": "literal",
+      "explanationJa": "本文中の根拠に基づいて判断します。"
+    },
+    {
+      "id": "article-space-ports-2026-q2",
+      "question": "Which task is linked to Earth observation?",
+      "choices": [
+        "Assessing environmental impacts around ports.",
+        "Hiring experienced staff to work on ships.",
+        "Repairing damaged engines inside vessels.",
+        "Setting the ticket prices for ferry journeys."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-space-ports-2026-q2-option-1",
+        "article-space-ports-2026-q2-option-2",
+        "article-space-ports-2026-q2-option-3",
+        "article-space-ports-2026-q2-option-4"
+      ],
+      "correctChoiceId": "article-space-ports-2026-q2-option-1",
+      "evidenceParagraphIds": [
+        "p4"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p4",
+          "text": "It can support coastal planning, help assess a port's environmental impact and detect oil spills.",
+          "highlights": [
+            "assess a port's environmental impact"
+          ]
+        }
+      ],
+      "type": "literal",
+      "explanationJa": "本文中の根拠に基づいて判断します。"
+    },
+    {
+      "id": "article-space-ports-2026-q3",
+      "question": "Why can the group's success not yet be assumed?",
+      "choices": [
+        "Cooperation plans still need practical implementation.",
+        "Every port has already recorded the same cost savings.",
+        "The group will replace all existing port equipment.",
+        "Satellite services have no connection to port needs."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-space-ports-2026-q3-option-1",
+        "article-space-ports-2026-q3-option-2",
+        "article-space-ports-2026-q3-option-3",
+        "article-space-ports-2026-q3-option-4"
+      ],
+      "correctChoiceId": "article-space-ports-2026-q3-option-1",
+      "evidenceParagraphIds": [
+        "p5"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p5",
+          "text": "This is a plan for cooperation, not evidence that the group has already reduced waiting times or lowered costs.",
+          "highlights": [
+            "not evidence"
+          ]
+        }
+      ],
+      "type": "inference",
+      "explanationJa": "設立と成果の実現は別。本文は協力の計画であり、費用削減などの実績はまだ示していない。"
+    }
+  ],
+  "opinion": {
+    "id": "opinion-1",
+    "prompt": "Which problem at a port would you prioritise, and what would you measure before adopting a new service?",
+    "optional": true,
+    "saveScope": "device"
+  },
+  "review": {
+    "factsCheckedAt": "2026-10-05",
+    "editorialParagraphIds": [],
+    "contentApproval": "approved-candidate-and-production",
+    "notes": "公開日と本文の数値・予定を一次資料で確認。日本語訳を段落IDで対応。使い方はすべて未確認。",
+    "translationReview": "段落IDごとに人数・割合・年月を照合し、予定は未来表現、推定や可能性は断定しない日本語に確認。"
+  },
+  "vocabularyReview": {
+    "status": "reviewed",
+    "reason": "maritime・coastguards・logistics・deploymentは分野語。P3で衛星の3機能を説明し、P5は実証と導入を区別。未収録met等は基本語の不規則形として人手確認。"
+  },
+  "validationProperNouns": [
+    "ESA",
+    "European Space Agency",
+    "Italian Space Agency",
+    "Naples",
+    "Italy"
+  ],
+  "validationEntityAliases": {
+    "Naples": "ナポリ",
+    "Italy": "イタリア",
+    "ESA": "ESA",
+    "European Space Agency": "欧州宇宙機関",
+    "Italian Space Agency": "イタリア宇宙機関"
+  },
+  "validationNumberAliases": {}
+}

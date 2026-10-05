@@ -1,126 +1,9 @@
 {
   "id": "article-work-four-day-week-2022",
   "version": 2,
-  "kind": "article",
-  "status": "checked",
+  "kind": "article-vocabulary",
   "publishedAt": "2026-10-04T00:00:00+09:00",
-  "title": "What a Four-Day Working Week Changed",
-  "summaryJa": "英国の試行から、働き方の工夫と結果の読み方を考える",
-  "category": "仕事",
-  "level": "B2",
-  "readingMinutes": 3,
-  "readingEstimateWordsPerMinute": 110,
-  "editorialNotice": "出典に基づく学習用編集版",
-  "textOrigin": "original-for-this-app; factual adaptation",
-  "sources": [
-    {
-      "id": "cambridge-2023",
-      "title": "Would you prefer a four-day working week?",
-      "publisher": "University of Cambridge",
-      "author": "Fred Lewsey",
-      "publishedAt": "2023-02-21",
-      "url": "https://www.cam.ac.uk/stories/fourdayweek",
-      "checkedAt": "2026-10-04",
-      "paragraphIds": [
-        "p1",
-        "p3",
-        "p5"
-      ],
-      "usage": "事実を独自の文で整理。原文・発言の直接引用なし"
-    },
-    {
-      "id": "autonomy-2023",
-      "title": "The results are in: the UK's four-day week pilot",
-      "publisher": "Autonomy",
-      "authors": [
-        "Kyle Lewis",
-        "Will Stronge",
-        "Jack Kellam",
-        "Lukas Kikuchi"
-      ],
-      "authorNote": "Autonomy執筆チーム。別途、定量・定性研究チームが出典ページに掲載されている",
-      "publishedAt": "2023-02",
-      "datePrecision": "month",
-      "url": "https://autonomy.work/portfolio/uk4dwpilotresults/",
-      "reportUrl": "https://autonomy.work/wp-content/uploads/2023/02/The-results-are-in-The-UKs-four-day-week-pilot.pdf",
-      "checkedAt": "2026-10-04",
-      "paragraphIds": [
-        "p2",
-        "p4",
-        "p6"
-      ],
-      "usage": "報告公開ページの事実を独自の文で整理。転載なし"
-    }
-  ],
-  "photo": {
-    "pageUrl": "https://unsplash.com/photos/sittin-people-beside-table-inside-room-hCb3lIB8L8E",
-    "photoId": "hCb3lIB8L8E",
-    "photographer": "Annie Spratt",
-    "service": "Unsplash",
-    "licenseUrl": "https://unsplash.com/license",
-    "checkedAt": "2026-10-04",
-    "credit": "Photo by Annie Spratt on Unsplash",
-    "alt": "テーブルを囲んで働く人々",
-    "context": "関連する素材写真。試行に参加した企業の写真として扱わない",
-    "assetPath": "assets/articles/work.jpg"
-  },
-  "paragraphs": [
-    {
-      "id": "p1",
-      "kind": "source-based",
-      "sourceIds": [
-        "cambridge-2023"
-      ],
-      "text": "From June to December 2022, 61 organisations in the United Kingdom took part in a trial involving around 2,900 employees. Participants committed to reducing working time by 20% while keeping pay unchanged. Researchers examined whether a shorter week could protect employees' well-being without undermining business performance. The results were reported in February 2023.",
-      "translationJa": "2022年6月から12月にかけて、英国の61の組織が、約2,900人の従業員を対象とした試行に参加しました。参加組織は、賃金を変えずに労働時間を20%減らすことに取り組みました。研究者は、労働時間を短くすることで、事業の業績を損なわずに従業員の心身の健康を守れるかを調べました。結果は2023年2月に報告されました。"
-    },
-    {
-      "id": "p2",
-      "kind": "source-based",
-      "sourceIds": [
-        "autonomy-2023"
-      ],
-      "text": "Preparation lasted two months and included workshops, coaching and support from other participants. Employers did not all adopt the same timetable. Some used a common day off; others staggered employees' days off. The report describes several arrangements, including annualised and conditional schedules. Its central requirement was unchanged pay alongside a meaningful reduction in working time. Each organisation adapted the policy to its own operations.",
-      "translationJa": "準備期間は2か月で、研修、指導、他の参加組織からの支援などが含まれていました。すべての雇用主が同じ勤務日程を採用したわけではありません。全員が同じ日に休む組織もあれば、休みをずらす組織もありました。報告書には、年間を通じて調整する方式や、条件付きの日程などが紹介されています。中心となる条件は、賃金を維持しながら労働時間を実質的に減らすことでした。各組織は、自分たちの業務に合わせて制度を調整しました。"
-    },
-    {
-      "id": "p3",
-      "kind": "source-based",
-      "sourceIds": [
-        "cambridge-2023"
-      ],
-      "text": "Employers also looked for ways to streamline work. They shortened meetings, made agendas clearer and introduced periods when employees could concentrate without interruptions. Some changed email practices or prepared task lists to improve handovers. These changes were intended to help organisations meet their targets within fewer working hours. The trial therefore involved reorganising work, as well as changing the weekly schedule.",
-      "translationJa": "雇用主は、仕事を効率化する方法も探しました。会議を短くし、議題を明確にし、従業員が邪魔されずに集中できる時間を設けました。メールの扱い方を変えたり、引き継ぎを改善するために作業リストを用意したりした組織もありました。これらは、少ない労働時間でも目標を達成できるようにするための工夫です。そのため試行では、週の勤務日程の変更だけでなく、仕事の進め方の見直しも行われました。"
-    },
-    {
-      "id": "p4",
-      "kind": "source-based",
-      "sourceIds": [
-        "autonomy-2023"
-      ],
-      "text": "The report compared workers' experiences before and after the trial. At the end, 71% reported lower burnout and 39% reported less stress. These figures describe employees' reported experiences, rather than a guarantee that everyone benefited. Employee retention was another business consideration: the report recorded fewer staff departures. Of the 61 participating companies, 56 planned to continue the shorter week, and 18 confirmed a permanent change.",
-      "translationJa": "報告書は、試行の前後で働き手の経験を比較しています。終了時には、71%が燃え尽き感の軽減、39%がストレスの軽減を報告しました。これらは従業員が報告した経験を示す数字であり、全員が恩恵を受けたという保証ではありません。人材の定着・維持も事業上の課題で、報告書では離職者が減ったことが記録されています。参加した61社のうち56社が短い勤務週を続ける予定で、18社が恒久的な変更を決めました。"
-    },
-    {
-      "id": "p5",
-      "kind": "source-based",
-      "sourceIds": [
-        "cambridge-2023"
-      ],
-      "text": "Revenue figures need careful interpretation. Cambridge reported an average increase of 1.4% during the trial for the 23 organisations able to provide revenue data. That figure does not describe all 61 participants. Interviews also revealed concerns: some employees worried about more intense workloads, while others felt that less informal conversation could reduce opportunities for new ideas.",
-      "translationJa": "売上の数字は慎重に読む必要があります。ケンブリッジ大学によると、売上データを提供できた23の組織では、試行中の売上が平均1.4%増えました。この数字は参加した61の組織すべてを表すものではありません。インタビューでは懸念も明らかになりました。仕事の密度が増すことを心配する従業員がいる一方、気軽な会話が減ることで、新しいアイデアが生まれる機会も少なくなると感じた人もいました。"
-    },
-    {
-      "id": "p6",
-      "kind": "source-based",
-      "sourceIds": [
-        "autonomy-2023"
-      ],
-      "text": "The evidence came from company records, employee surveys and interviews collected during the pilot, with measurement points at its beginning, middle and end. These different sources allowed researchers to examine both organisational outcomes and individual experiences. The varied schedules are also significant: a four-day week was not one uniform policy applied in exactly the same way to every participating workplace.",
-      "translationJa": "根拠となったのは、試行中に集められた企業の記録、従業員アンケート、インタビューで、測定は開始時、中間、終了時に行われました。異なる種類の資料を使うことで、研究者は組織の成果と個人の経験の両方を調べることができました。勤務日程に違いがあったことも重要です。週4日勤務は、すべての職場にまったく同じように適用された単一の制度ではありませんでした。"
-    }
-  ],
-  "vocabulary": [
+  "items": [
     {
       "id": "article-work-four-day-week-2022-retention",
       "headword": "retention",
@@ -213,7 +96,10 @@
         ],
         "commonMisuse": null
       },
-      "surfaceForm": "retention"
+      "surfaceForm": "retention",
+      "sourceKind": "article",
+      "articleId": "article-work-four-day-week-2022",
+      "materialVersion": 2
     },
     {
       "id": "article-work-four-day-week-2022-streamline",
@@ -307,7 +193,10 @@
         ],
         "commonMisuse": null
       },
-      "surfaceForm": "streamline"
+      "surfaceForm": "streamline",
+      "sourceKind": "article",
+      "articleId": "article-work-four-day-week-2022",
+      "materialVersion": 2
     },
     {
       "id": "article-work-four-day-week-2022-undermine",
@@ -401,7 +290,10 @@
         ],
         "commonMisuse": null
       },
-      "surfaceForm": "undermining"
+      "surfaceForm": "undermining",
+      "sourceKind": "article",
+      "articleId": "article-work-four-day-week-2022",
+      "materialVersion": 2
     },
     {
       "id": "article-work-four-day-week-2022-stagger",
@@ -495,7 +387,10 @@
         ],
         "commonMisuse": null
       },
-      "surfaceForm": "staggered"
+      "surfaceForm": "staggered",
+      "sourceKind": "article",
+      "articleId": "article-work-four-day-week-2022",
+      "materialVersion": 2
     },
     {
       "id": "article-work-four-day-week-2022-uniform",
@@ -589,137 +484,10 @@
         ],
         "commonMisuse": null
       },
-      "surfaceForm": "uniform"
+      "surfaceForm": "uniform",
+      "sourceKind": "article",
+      "articleId": "article-work-four-day-week-2022",
+      "materialVersion": 2
     }
-  ],
-  "comprehension": [
-    {
-      "id": "q1",
-      "question": "Which condition was central to the trial?",
-      "choices": [
-        "Employees kept their pay while working less.",
-        "Employees accepted less pay for fewer hours.",
-        "Employees worked longer days for extra pay.",
-        "Employees chose any schedule without limits."
-      ],
-      "answerIndex": 0,
-      "evidenceParagraphIds": [
-        "p1",
-        "p2"
-      ],
-      "explanationJa": "P1の賃金維持と労働時間削減へのコミット、P2の unchanged pay alongside a meaningful reduction が根拠。単に勤務日を詰める制度ではない。",
-      "type": "literal",
-      "choiceIds": [
-        "article-work-four-day-week-2022-q1-option-1",
-        "article-work-four-day-week-2022-q1-option-2",
-        "article-work-four-day-week-2022-q1-option-3",
-        "article-work-four-day-week-2022-q1-option-4"
-      ],
-      "correctChoiceId": "article-work-four-day-week-2022-q1-option-1",
-      "evidence": [
-        {
-          "paragraphId": "p1",
-          "text": "Participants committed to reducing working time by 20% while keeping pay unchanged.",
-          "highlights": [
-            "reducing working time by 20%",
-            "keeping pay unchanged"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "q2",
-      "question": "Why should a reader avoid treating the 1.4% increase as a result for all participants?",
-      "choices": [
-        "The revenue data cover only some of the participating organisations.",
-        "The reported figure measures changes in the pay of individual employees.",
-        "The interviews provide a complete replacement for company revenue records.",
-        "The participating organisations applied the same schedule to all employees."
-      ],
-      "answerIndex": 0,
-      "evidenceParagraphIds": [
-        "p5"
-      ],
-      "explanationJa": "P5は売上データを提供したのが23組織で、試行参加は61組織と述べる。したがって、この平均から残りの組織を含む全参加企業の結果までは判断できない。「1.4%は誤り」や「未提供企業は悪化した」とも推論できない。",
-      "type": "inference",
-      "choiceIds": [
-        "article-work-four-day-week-2022-q2-option-1",
-        "article-work-four-day-week-2022-q2-option-2",
-        "article-work-four-day-week-2022-q2-option-3",
-        "article-work-four-day-week-2022-q2-option-4"
-      ],
-      "correctChoiceId": "article-work-four-day-week-2022-q2-option-1",
-      "evidence": [
-        {
-          "paragraphId": "p5",
-          "text": "Cambridge reported an average increase of 1.4% during the trial for the 23 organisations able to provide revenue data.",
-          "highlights": [
-            "1.4%",
-            "23 organisations"
-          ]
-        },
-        {
-          "paragraphId": "p5",
-          "text": "That figure does not describe all 61 participants.",
-          "highlights": [
-            "all 61 participants"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "q3",
-      "question": "Which concern did the Cambridge interviews identify?",
-      "choices": [
-        "Every firm lost the ability to meet its targets.",
-        "Less informal talk might limit chances for ideas.",
-        "All workers received less pay during the trial.",
-        "The trial had no data about company revenue."
-      ],
-      "answerIndex": 1,
-      "evidenceParagraphIds": [
-        "p5"
-      ],
-      "explanationJa": "P5で一部の従業員は非公式な会話の減少が新しいアイデアの機会を減らし得ると感じている。全員の不利益や全社の目標未達とは述べていない。",
-      "type": "literal",
-      "choiceIds": [
-        "article-work-four-day-week-2022-q3-option-1",
-        "article-work-four-day-week-2022-q3-option-2",
-        "article-work-four-day-week-2022-q3-option-3",
-        "article-work-four-day-week-2022-q3-option-4"
-      ],
-      "correctChoiceId": "article-work-four-day-week-2022-q3-option-2",
-      "evidence": [
-        {
-          "paragraphId": "p5",
-          "text": "Interviews also revealed concerns: some employees worried about more intense workloads, while others felt that less informal conversation could reduce opportunities for new ideas.",
-          "highlights": [
-            "less informal conversation",
-            "opportunities for new ideas"
-          ]
-        }
-      ]
-    }
-  ],
-  "opinion": {
-    "id": "opinion-1",
-    "prompt": "Would a shorter working week suit a workplace you know? Explain one possible benefit, one possible difficulty, and one result you would measure.",
-    "optional": true,
-    "saveScope": "device"
-  },
-  "review": {
-    "factsCheckedAt": "2026-10-04",
-    "editorialParagraphIds": [],
-    "contentApproval": "approved-with-revisions",
-    "notes": "本文と語彙は承認済み。推論問題の曖昧さを修正。使い方は未確認のまま。"
-  },
-  "sourcePublishedAt": "2023-02-21",
-  "translationReview": {
-    "status": "reviewed",
-    "note": "数字・時点・推定と観測・予定と実績を原英文と照合。段落IDを保持。"
-  },
-  "vocabularyReview": {
-    "status": "reviewed",
-    "reason": "既存のB2〜C1教材。未収録の醸造・天文学の専門語や複合語を確認し、本文の説明と重要語彙で補う。固有名詞・数字・否定・推定の訳を英文と段落単位で照合。"
-  }
+  ]
 }

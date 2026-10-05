@@ -1,0 +1,493 @@
+{
+  "id": "article-culture-statistics-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-05T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-culture-statistics-2026-framework",
+      "headword": "framework",
+      "surfaceForm": "framework",
+      "partOfSpeech": "noun",
+      "meaning": "枠組み",
+      "definition": "a structure guiding the development of work",
+      "contextParagraphId": "p1",
+      "context": "On 23 September 2026, the UNESCO Institute for Statistics opened a global consultation on a draft framework for measuring culture and creativity.",
+      "example": "The framework connects several types of evidence.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "枠組み",
+      "questions": {
+        "ja": {
+          "choices": [
+            "枠組み",
+            "目録",
+            "工程表",
+            "協定"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-culture-statistics-2026-framework-ja-option-1",
+            "article-culture-statistics-2026-framework-ja-option-2",
+            "article-culture-statistics-2026-framework-ja-option-3",
+            "article-culture-statistics-2026-framework-ja-option-4"
+          ],
+          "correctChoiceId": "article-culture-statistics-2026-framework-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "catalogue",
+            "schedule",
+            "agreement"
+          ],
+          "explanation": "本文では「枠組み」の意味。目録・工程表・協定とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "a structure guiding the development of work",
+            "a list describing the contents of a collection",
+            "a timetable showing stages of planned work",
+            "an agreement defining responsibilities of parties"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-culture-statistics-2026-framework-en-option-1",
+            "article-culture-statistics-2026-framework-en-option-2",
+            "article-culture-statistics-2026-framework-en-option-3",
+            "article-culture-statistics-2026-framework-en-option-4"
+          ],
+          "correctChoiceId": "article-culture-statistics-2026-framework-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "catalogue",
+            "schedule",
+            "agreement"
+          ],
+          "explanation": "本文では「枠組み」の意味。目録・工程表・協定とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "statistical framework",
+            "pattern": "名詞を含む句",
+            "meaningJa": "統計の枠組み",
+            "nuanceJa": "「統計の枠組み」という場面で用いる組み合わせ。",
+            "example": "The team tested the statistical framework.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "policy framework",
+            "pattern": "名詞を含む句",
+            "meaningJa": "政策の枠組み",
+            "nuanceJa": "「政策の枠組み」という場面で用いる組み合わせ。",
+            "example": "The council reviewed its policy framework.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "develop a framework",
+            "pattern": "名詞を含む句",
+            "meaningJa": "枠組みを作る",
+            "nuanceJa": "「枠組みを作る」という場面で用いる組み合わせ。",
+            "example": "Researchers will develop a framework for comparison.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-culture-statistics-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-culture-statistics-2026-practitioners",
+      "headword": "practitioners",
+      "surfaceForm": "practitioners",
+      "partOfSpeech": "noun",
+      "meaning": "実務家",
+      "definition": "people working in a particular field",
+      "contextParagraphId": "p2",
+      "context": "UIS invites national statistical offices, culture ministries, researchers, practitioners and associations to comment.",
+      "example": "Practitioners described difficulties in their daily work.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "実務家",
+      "questions": {
+        "ja": {
+          "choices": [
+            "実務家",
+            "研究者",
+            "立法者",
+            "審査者"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-culture-statistics-2026-practitioners-ja-option-1",
+            "article-culture-statistics-2026-practitioners-ja-option-2",
+            "article-culture-statistics-2026-practitioners-ja-option-3",
+            "article-culture-statistics-2026-practitioners-ja-option-4"
+          ],
+          "correctChoiceId": "article-culture-statistics-2026-practitioners-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "researchers",
+            "legislators",
+            "reviewers"
+          ],
+          "explanation": "本文では「実務家」の意味。研究者・立法者・審査者とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "people working in a particular field",
+            "people studying questions in a particular field",
+            "people creating laws within a political system",
+            "people reviewing submissions through a formal process"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-culture-statistics-2026-practitioners-en-option-1",
+            "article-culture-statistics-2026-practitioners-en-option-2",
+            "article-culture-statistics-2026-practitioners-en-option-3",
+            "article-culture-statistics-2026-practitioners-en-option-4"
+          ],
+          "correctChoiceId": "article-culture-statistics-2026-practitioners-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "researchers",
+            "legislators",
+            "reviewers"
+          ],
+          "explanation": "本文では「実務家」の意味。研究者・立法者・審査者とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "cultural practitioners",
+            "pattern": "名詞を含む句",
+            "meaningJa": "文化分野の実務家",
+            "nuanceJa": "「文化分野の実務家」という場面で用いる組み合わせ。",
+            "example": "Cultural practitioners joined the workshop.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "experienced practitioners",
+            "pattern": "名詞を含む句",
+            "meaningJa": "経験豊富な実務家",
+            "nuanceJa": "「経験豊富な実務家」という場面で用いる組み合わせ。",
+            "example": "Experienced practitioners advised the students.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "consult practitioners",
+            "pattern": "名詞を含む句",
+            "meaningJa": "実務家に意見を聞く",
+            "nuanceJa": "「実務家に意見を聞く」という場面で用いる組み合わせ。",
+            "example": "The research team will consult practitioners.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-culture-statistics-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-culture-statistics-2026-governance",
+      "headword": "governance",
+      "surfaceForm": "governance",
+      "partOfSpeech": "noun",
+      "meaning": "統治",
+      "definition": "the way an organisation is directed",
+      "contextParagraphId": "p3",
+      "context": "Its approach uses several dimensions, including economic value, cultural engagement, social conditions and governance.",
+      "example": "The report considers governance and public accountability.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "統治の仕組み",
+      "questions": {
+        "ja": {
+          "choices": [
+            "統治",
+            "資金調達",
+            "販売促進",
+            "作品保存"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-culture-statistics-2026-governance-ja-option-1",
+            "article-culture-statistics-2026-governance-ja-option-2",
+            "article-culture-statistics-2026-governance-ja-option-3",
+            "article-culture-statistics-2026-governance-ja-option-4"
+          ],
+          "correctChoiceId": "article-culture-statistics-2026-governance-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "fundraising",
+            "marketing",
+            "conservation"
+          ],
+          "explanation": "本文では「統治の仕組み」の意味。資金調達・販売促進・作品保存とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "the way an organisation is directed",
+            "the way an organisation raises funds",
+            "the way an organisation attracts customers",
+            "the way an organisation preserves objects"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-culture-statistics-2026-governance-en-option-1",
+            "article-culture-statistics-2026-governance-en-option-2",
+            "article-culture-statistics-2026-governance-en-option-3",
+            "article-culture-statistics-2026-governance-en-option-4"
+          ],
+          "correctChoiceId": "article-culture-statistics-2026-governance-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "fundraising",
+            "marketing",
+            "conservation"
+          ],
+          "explanation": "本文では「統治の仕組み」の意味。資金調達・販売促進・作品保存とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "cultural governance",
+            "pattern": "名詞を含む句",
+            "meaningJa": "文化分野の運営の仕組み",
+            "nuanceJa": "「文化分野の運営の仕組み」という場面で用いる組み合わせ。",
+            "example": "The study examines cultural governance.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "good governance",
+            "pattern": "名詞を含む句",
+            "meaningJa": "適切な統治",
+            "nuanceJa": "「適切な統治」という場面で用いる組み合わせ。",
+            "example": "Clear responsibilities support good governance.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "governance structure",
+            "pattern": "名詞を含む句",
+            "meaningJa": "統治の構造",
+            "nuanceJa": "「統治の構造」という場面で用いる組み合わせ。",
+            "example": "Members reviewed the governance structure.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-culture-statistics-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-culture-statistics-2026-interchangeable",
+      "headword": "interchangeable",
+      "surfaceForm": "interchangeable",
+      "partOfSpeech": "adjective",
+      "meaning": "交換可能",
+      "definition": "able to replace each other in use",
+      "contextParagraphId": "p4",
+      "context": "The framework treats economic and social information as related but not interchangeable.",
+      "example": "The measures describe different things and are not interchangeable.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "置き換え可能な",
+      "questions": {
+        "ja": {
+          "choices": [
+            "交換可能",
+            "相互依存",
+            "補完関係",
+            "比較可能"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-culture-statistics-2026-interchangeable-ja-option-1",
+            "article-culture-statistics-2026-interchangeable-ja-option-2",
+            "article-culture-statistics-2026-interchangeable-ja-option-3",
+            "article-culture-statistics-2026-interchangeable-ja-option-4"
+          ],
+          "correctChoiceId": "article-culture-statistics-2026-interchangeable-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "interdependent",
+            "complementary",
+            "comparable"
+          ],
+          "explanation": "本文では「置き換え可能な」の意味。相互依存の・補完的な・比較可能なとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "able to replace each other in use",
+            "dependent on each other to work",
+            "useful alongside each other in use",
+            "able to be compared with each other"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-culture-statistics-2026-interchangeable-en-option-1",
+            "article-culture-statistics-2026-interchangeable-en-option-2",
+            "article-culture-statistics-2026-interchangeable-en-option-3",
+            "article-culture-statistics-2026-interchangeable-en-option-4"
+          ],
+          "correctChoiceId": "article-culture-statistics-2026-interchangeable-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "interdependent",
+            "complementary",
+            "comparable"
+          ],
+          "explanation": "本文では「置き換え可能な」の意味。相互依存の・補完的な・比較可能なとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "interchangeable parts",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "交換可能な部品",
+            "nuanceJa": "「交換可能な部品」という場面で用いる組み合わせ。",
+            "example": "The devices use interchangeable parts.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "interchangeable terms",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "置き換えて使える用語",
+            "nuanceJa": "「置き換えて使える用語」という場面で用いる組み合わせ。",
+            "example": "These terms are not interchangeable.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "largely interchangeable",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "おおむね交換可能な",
+            "nuanceJa": "「おおむね交換可能な」という場面で用いる組み合わせ。",
+            "example": "The two connectors are largely interchangeable.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-culture-statistics-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-culture-statistics-2026-coverage",
+      "headword": "coverage",
+      "surfaceForm": "coverage",
+      "partOfSpeech": "noun",
+      "meaning": "対象範囲",
+      "definition": "the range included in a measurement",
+      "contextParagraphId": "p5",
+      "context": "Interpretation also depends on definitions and coverage.",
+      "example": "Coverage determines which activities appear in the totals.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "対象範囲",
+      "questions": {
+        "ja": {
+          "choices": [
+            "対象範囲",
+            "測定精度",
+            "測定頻度",
+            "変化傾向"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-culture-statistics-2026-coverage-ja-option-1",
+            "article-culture-statistics-2026-coverage-ja-option-2",
+            "article-culture-statistics-2026-coverage-ja-option-3",
+            "article-culture-statistics-2026-coverage-ja-option-4"
+          ],
+          "correctChoiceId": "article-culture-statistics-2026-coverage-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "precision",
+            "frequency",
+            "trend"
+          ],
+          "explanation": "本文では「対象範囲」の意味。精度・頻度・傾向とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "the range included in a measurement",
+            "the exactness achieved in a measurement",
+            "the rate of repeated observations",
+            "the direction of changes in observations"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-culture-statistics-2026-coverage-en-option-1",
+            "article-culture-statistics-2026-coverage-en-option-2",
+            "article-culture-statistics-2026-coverage-en-option-3",
+            "article-culture-statistics-2026-coverage-en-option-4"
+          ],
+          "correctChoiceId": "article-culture-statistics-2026-coverage-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "precision",
+            "frequency",
+            "trend"
+          ],
+          "explanation": "本文では「対象範囲」の意味。精度・頻度・傾向とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "statistical coverage",
+            "pattern": "名詞を含む句",
+            "meaningJa": "統計の対象範囲",
+            "nuanceJa": "「統計の対象範囲」という場面で用いる組み合わせ。",
+            "example": "The report explains its statistical coverage.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "extend coverage",
+            "pattern": "名詞を含む句",
+            "meaningJa": "対象を広げる",
+            "nuanceJa": "「対象を広げる」という場面で用いる組み合わせ。",
+            "example": "The survey will extend coverage to smaller towns.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "limited coverage",
+            "pattern": "名詞を含む句",
+            "meaningJa": "限られた対象範囲",
+            "nuanceJa": "「限られた対象範囲」という場面で用いる組み合わせ。",
+            "example": "Limited coverage makes comparison difficult.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-culture-statistics-2026",
+      "materialVersion": 1
+    }
+  ]
+}

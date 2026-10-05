@@ -1,0 +1,493 @@
+{
+  "id": "article-jordan-skills-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-05T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-jordan-skills-2026-recognise",
+      "headword": "recognise",
+      "partOfSpeech": "verb",
+      "meaning": "認定する",
+      "definition": "officially accept skills as valid",
+      "contextParagraphId": "p1",
+      "context": "The programme helped build a system for recognising skills learned outside formal education.",
+      "example": "The course recognises experience gained in previous jobs.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "認定する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "認定する",
+            "測定する",
+            "記録する",
+            "検討する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-recognise-ja-option-1",
+            "article-jordan-skills-2026-recognise-ja-option-2",
+            "article-jordan-skills-2026-recognise-ja-option-3",
+            "article-jordan-skills-2026-recognise-ja-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-recognise-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "measure",
+            "record",
+            "consider"
+          ],
+          "explanation": "本文では「認定する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "officially accept skills as valid",
+            "measure skills against a given scale",
+            "record skills in a written document",
+            "consider skills when discussing options"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-recognise-en-option-1",
+            "article-jordan-skills-2026-recognise-en-option-2",
+            "article-jordan-skills-2026-recognise-en-option-3",
+            "article-jordan-skills-2026-recognise-en-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-recognise-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "measure",
+            "record",
+            "consider"
+          ],
+          "explanation": "本文では「認定する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "recognise skills",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "技能を認定する",
+            "nuanceJa": "既存の技能を正式に認める。",
+            "example": "The programme recognises skills gained at work.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "recognise experience",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "経験を認める",
+            "nuanceJa": "学習や仕事の経験を評価に含める。",
+            "example": "The school recognises experience from volunteer work.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "officially recognised",
+            "pattern": "副詞＋過去分詞",
+            "meaningJa": "正式に認定された",
+            "nuanceJa": "公的な承認があることを表す。",
+            "example": "The certificate is officially recognised by the association.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "recognising",
+      "sourceKind": "article",
+      "articleId": "article-jordan-skills-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-jordan-skills-2026-assess",
+      "headword": "assess",
+      "partOfSpeech": "verb",
+      "meaning": "評価する",
+      "definition": "judge the ability or quality of something",
+      "contextParagraphId": "p2",
+      "context": "Its purpose is to assess what people can already do and connect those skills with recognised qualifications.",
+      "example": "The tutor assessed our writing before choosing the next lesson.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "評価する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "評価する",
+            "指導する",
+            "採用する",
+            "割り当てる"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-assess-ja-option-1",
+            "article-jordan-skills-2026-assess-ja-option-2",
+            "article-jordan-skills-2026-assess-ja-option-3",
+            "article-jordan-skills-2026-assess-ja-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-assess-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "teach",
+            "hire",
+            "assign"
+          ],
+          "explanation": "本文では「評価する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "judge the level of someone's ability",
+            "teach someone how to improve a skill",
+            "hire someone for a particular job",
+            "assign someone to a particular task"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-assess-en-option-1",
+            "article-jordan-skills-2026-assess-en-option-2",
+            "article-jordan-skills-2026-assess-en-option-3",
+            "article-jordan-skills-2026-assess-en-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-assess-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "teach",
+            "hire",
+            "assign"
+          ],
+          "explanation": "本文では「評価する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "assess skills",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "技能を評価する",
+            "nuanceJa": "現在できることを判断する。",
+            "example": "The instructor assessed my cooking skills.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "assess an applicant",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "申請者を評価する",
+            "nuanceJa": "人の適性などを審査する。",
+            "example": "Two tutors assessed each applicant.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "assess the quality",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "質を評価する",
+            "nuanceJa": "対象の出来栄えを判断する。",
+            "example": "We assessed the quality of the repaired chairs.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "assess",
+      "sourceKind": "article",
+      "articleId": "article-jordan-skills-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-jordan-skills-2026-qualification",
+      "headword": "qualification",
+      "partOfSpeech": "noun",
+      "meaning": "資格",
+      "definition": "an official record showing skills or study",
+      "contextParagraphId": "p5",
+      "context": "However, a qualification and a job offer are different things.",
+      "example": "She gained a qualification in childcare.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "資格",
+      "questions": {
+        "ja": {
+          "choices": [
+            "資格",
+            "推薦",
+            "契約",
+            "履歴"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-qualification-ja-option-1",
+            "article-jordan-skills-2026-qualification-ja-option-2",
+            "article-jordan-skills-2026-qualification-ja-option-3",
+            "article-jordan-skills-2026-qualification-ja-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-qualification-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "recommendation",
+            "contract",
+            "history"
+          ],
+          "explanation": "本文では「資格」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "an official record of skills or study",
+            "a recommendation supporting an application",
+            "an agreement between two different parties",
+            "a history of someone's previous work"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-qualification-en-option-1",
+            "article-jordan-skills-2026-qualification-en-option-2",
+            "article-jordan-skills-2026-qualification-en-option-3",
+            "article-jordan-skills-2026-qualification-en-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-qualification-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "recommendation",
+            "contract",
+            "history"
+          ],
+          "explanation": "本文では「資格」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "gain a qualification",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "資格を取得する",
+            "nuanceJa": "学習や評価を経て取得する。",
+            "example": "He gained a qualification after the evening course.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a recognised qualification",
+            "pattern": "過去分詞＋名詞",
+            "meaningJa": "認められた資格",
+            "nuanceJa": "資格に正式な認知があること。",
+            "example": "The job requires a recognised qualification.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a professional qualification",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "専門資格",
+            "nuanceJa": "特定の職業に関係する資格。",
+            "example": "She is studying for a professional qualification.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "qualification",
+      "sourceKind": "article",
+      "articleId": "article-jordan-skills-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-jordan-skills-2026-accessible",
+      "headword": "accessible",
+      "partOfSpeech": "adjective",
+      "meaning": "利用しやすい",
+      "definition": "easy for people to reach or use",
+      "contextParagraphId": "p3",
+      "context": "These steps were intended to make the system accessible and useful beyond the initial programme.",
+      "example": "The evening opening hours make the library more accessible.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "利用しやすい",
+      "questions": {
+        "ja": {
+          "choices": [
+            "使いやすい",
+            "手頃な価格の",
+            "信頼できる",
+            "変更できる"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-accessible-ja-option-1",
+            "article-jordan-skills-2026-accessible-ja-option-2",
+            "article-jordan-skills-2026-accessible-ja-option-3",
+            "article-jordan-skills-2026-accessible-ja-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-accessible-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "affordable",
+            "reliable",
+            "adaptable"
+          ],
+          "explanation": "本文では「利用しやすい」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "easy for people to reach or use",
+            "cheap enough for people to buy",
+            "reliable enough for people to trust",
+            "flexible enough for people to change"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-accessible-en-option-1",
+            "article-jordan-skills-2026-accessible-en-option-2",
+            "article-jordan-skills-2026-accessible-en-option-3",
+            "article-jordan-skills-2026-accessible-en-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-accessible-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "affordable",
+            "reliable",
+            "adaptable"
+          ],
+          "explanation": "本文では「利用しやすい」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "accessible to people",
+            "pattern": "形容詞＋前置詞",
+            "meaningJa": "人々が利用しやすい",
+            "nuanceJa": "利用可能な対象をtoで示す。",
+            "example": "The reading room is accessible to all residents.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "accessible services",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "利用しやすいサービス",
+            "nuanceJa": "サービスの使いやすさを述べる。",
+            "example": "Accessible services help people complete applications.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "make something accessible",
+            "pattern": "動詞＋目的語＋形容詞",
+            "meaningJa": "何かを利用しやすくする",
+            "nuanceJa": "利用の障壁を下げる動作。",
+            "example": "Clear signs make the building accessible.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "accessible",
+      "sourceKind": "article",
+      "articleId": "article-jordan-skills-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-jordan-skills-2026-foundation",
+      "headword": "foundation",
+      "partOfSpeech": "noun",
+      "meaning": "土台",
+      "definition": "a basis on which further work can develop",
+      "contextParagraphId": "p5",
+      "context": "The new announcement describes a foundation for a broader system.",
+      "example": "The short course gave me a foundation for further study.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "土台",
+      "questions": {
+        "ja": {
+          "choices": [
+            "土台",
+            "目標",
+            "工程",
+            "成果"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-foundation-ja-option-1",
+            "article-jordan-skills-2026-foundation-ja-option-2",
+            "article-jordan-skills-2026-foundation-ja-option-3",
+            "article-jordan-skills-2026-foundation-ja-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-foundation-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "goal",
+            "stage",
+            "outcome"
+          ],
+          "explanation": "本文では「土台」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a basis for further work to develop",
+            "a target that future work should reach",
+            "a stage through which work must pass",
+            "a result that completed work produces"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-jordan-skills-2026-foundation-en-option-1",
+            "article-jordan-skills-2026-foundation-en-option-2",
+            "article-jordan-skills-2026-foundation-en-option-3",
+            "article-jordan-skills-2026-foundation-en-option-4"
+          ],
+          "correctChoiceId": "article-jordan-skills-2026-foundation-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "goal",
+            "stage",
+            "outcome"
+          ],
+          "explanation": "本文では「土台」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "lay a foundation",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "土台を築く",
+            "nuanceJa": "後の発展のために基礎を作る。",
+            "example": "The first lessons laid a foundation for speaking practice.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a foundation for growth",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "成長の土台",
+            "nuanceJa": "成長を支えるものを表す。",
+            "example": "Good records provide a foundation for growth.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a strong foundation",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "しっかりした土台",
+            "nuanceJa": "基礎の強さを述べる。",
+            "example": "The team built a strong foundation through regular meetings.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "foundation",
+      "sourceKind": "article",
+      "articleId": "article-jordan-skills-2026",
+      "materialVersion": 1
+    }
+  ]
+}

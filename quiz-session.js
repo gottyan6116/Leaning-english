@@ -2,7 +2,7 @@
  'use strict';
  const {QuizStore,QuizSession,chooseReview,chooseNextSet,scoreForMode,validateItem}=EnglishQuiz;
  const bank=[...C1_UNIT_01.items,...DEVELOPMENT_VOCABULARY.items].filter(validateItem);
- let sourceContext=null;
+ let sourceContext=null,launchGeneration=0;
  let store=null,session=null,returnView='home',timer=null,overlay=null,error='',lastResult=null,focusBefore=null,toastTimer=null;
  try{store=new QuizStore(window.AppStorage||window.localStorage);}catch(e){error='回答履歴を読み込めません。ブラウザの保存設定を確認してください。';}
  const svg=(name)=>{const paths={close:'M6 6l12 12M18 6 6 18',more:'M5 12h.01M12 12h.01M19 12h.01',save:'M6 3h12v18l-6-4-6 4z',check:'m5 12 4 4L19 6',wrong:'M7 7l10 10M17 7 7 17',arrow:'m9 5 7 7-7 7'};return `<svg class="qs-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="${paths[name]}"/></svg>`;};
@@ -14,15 +14,15 @@
  function notify(message){root.querySelector('.qs-toast')?.remove();const el=document.createElement('div');el.className='qs-toast';el.setAttribute('role','status');el.textContent=message;root.append(el);clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.remove(),2000);}
  function activate(){focusBefore=document.activeElement;returnView=view;stopAudio();document.body.classList.add('quiz-active');root.hidden=false;}
  function launch(items,context=null){clearAuto();overlay=null;error='';lastResult=null;sourceContext=context;session=new QuizSession(items,store.settings.mode,store);draw();root.querySelector('.qs-close')?.focus({preventScroll:true});}
- function start(i){if(!store){activate();drawUnavailable();return;}activate();const linked=Number.isInteger(i)?bank.find(x=>x.headword.toLowerCase()===words[i]?.en.toLowerCase()):null;
+ async function start(i){const attempt=++launchGeneration;if(window.MaterialCatalog){try{await MaterialCatalog.ready;await MaterialCatalog.hydrateSaved();if(MaterialCatalog.error())throw MaterialCatalog.error();}catch(e){if(attempt!==launchGeneration)return;toast('復習する語彙を取得できませんでした。もう一度お試しください');return;}}if(attempt!==launchGeneration)return;if(!store){activate();drawUnavailable();return;}activate();const linked=Number.isInteger(i)?bank.find(x=>x.headword.toLowerCase()===words[i]?.en.toLowerCase()):null;
    if(Number.isInteger(i)&&!linked){leave(returnView);toast('この表現の4択を準備してから練習できます');return;}
    const items=linked?[linked]:(window.AppUI?AppUI.reviewItems().slice(0,10):[]);if(!items.length){session=null;drawComplete();return;}launch(items);
  }
  function advanced(){startUnit();}
- function startUnit(id=C1_UNIT_01.id){const unit=window.MaterialCatalog?.units().find(x=>x.id===id)||(id===C1_UNIT_01.id?C1_UNIT_01:null);if(!store||!unit)return;if(root.hidden)activate();if(window.AppUI&&!AppUI.unitStarted(unit)){leave();return;}launch(unit.items,{kind:'unit',unitId:unit.id});}
- function startArticle(id){const article=window.MaterialCatalog?.articles().find(a=>a.id===id);if(!store||!article)return;if(root.hidden)activate();launch(bank.filter(item=>item.articleId===id),{kind:'article',articleId:id});}
+ function startUnit(id=C1_UNIT_01.id){launchGeneration++;const unit=window.MaterialCatalog?.units().find(x=>x.id===id)||(id===C1_UNIT_01.id?C1_UNIT_01:null);if(!store||!unit)return;if(root.hidden)activate();if(window.AppUI&&!AppUI.unitStarted(unit)){leave();return;}launch(unit.items,{kind:'unit',unitId:unit.id});}
+ async function startArticle(id){const attempt=++launchGeneration;if(!store)return;try{const items=await window.MaterialCatalog.getArticleVocabulary(id);if(attempt!==launchGeneration)return;if(root.hidden)activate();launch(items,{kind:'article',articleId:id});}catch(e){if(attempt===launchGeneration)toast('語彙を取得できませんでした。もう一度お試しください');}}
  function registerItems(items){for(const item of items.filter(validateItem)){const at=bank.findIndex(x=>x.id===item.id);if(at<0)bank.push(item);else bank[at]=item;}}
- function startWord(id){const item=bank.find(x=>x.id===id);if(!store||!item)return;if(root.hidden)activate();launch([item]);}
+ async function startWord(id){const attempt=++launchGeneration;try{if(window.MaterialCatalog&&!bank.some(x=>x.id===id))await MaterialCatalog.getWords([id]);if(attempt!==launchGeneration)return;const item=bank.find(x=>x.id===id);if(!store||!item)return;if(root.hidden)activate();launch([item]);}catch(e){toast('語彙を取得できませんでした。もう一度お試しください');}}
  function drawUnavailable(){root.innerHTML=`<div class="qs-frame qs-complete"><h1>履歴を保存できません</h1><p class="qs-status" role="alert">${safe(error)}</p><button class="qs-secondary" onclick="QuizUI.leave()">元の画面へ</button></div>`;}
  function drawComplete(){root.innerHTML=`<div class="qs-frame qs-complete"><h1>今日の復習は完了</h1><button class="qs-next" onclick="QuizUI.startUnit()">C1①から10問</button><button class="qs-plain" onclick="QuizUI.leave()">元の画面へ</button></div>`;}
  function draw(animateWrong=false){if(!session)return;if(session.state==='result'){drawResult();return;}const item=session.item,q=item.questions[session.mode],answer=session.answers[session.answers.length-1],answered=session.state!=='question',wrong=session.state==='wrong';
@@ -43,12 +43,12 @@
  function switchMode(){if(settings({mode:store.settings.mode==='ja'?'en':'ja'})){drawOverlay();notify('次のセットから '+modeName(store.settings.mode));}}
  function toggleAuto(){if(settings({autoAdvance:!store.settings.autoAdvance})){draw();if(overlay)drawOverlay();}}
  function interrupt(){if(!session||session.state==='result'){leave();return;}openOverlay('interrupt');}
- function leave(destination=returnView){clearAuto();overlay=null;session=null;root.hidden=true;root.innerHTML='';document.body.classList.remove('quiz-active');go(destination);focusBefore?.focus?.({preventScroll:true});}
+ function leave(destination=returnView){launchGeneration++;clearAuto();overlay=null;session=null;root.hidden=true;root.innerHTML='';document.body.classList.remove('quiz-active');go(destination);focusBefore?.focus?.({preventScroll:true});}
  function retry(){if(!lastResult?.wrongItems.length)return;const retryItems=[...lastResult.wrongItems];launch(retryItems);}
  function nextSet(){const previous=new Set(session.items.map(x=>x.id)),items=(window.AppUI?AppUI.reviewItems():[]).filter(x=>!previous.has(x.id)).slice(0,10);if(items.length)launch(items);else{session=null;drawComplete();}}
  startReview=start;
  window.QuizUI={answer:i=>submit(i),skip:()=>submit(null,true),next,bookmark,saveResult:drawResult,menu:()=>openOverlay('menu'),interrupt,closeOverlay,switchMode,toggleAuto,retry,nextSet,advanced,startUnit,startWord,startArticle,registerItems,getStore:()=>store,leave:()=>leave(),home:()=>leave('home')};
- window.QuizUI.reloadStore=({scopeChanged=false}={})=>{if(scopeChanged&&!root.hidden)leave('home');const fresh=new QuizStore(window.AppStorage||window.localStorage);if(store){store.logs=fresh.logs;store.settings=fresh.settings;store.bookmarks=fresh.bookmarks;}else store=fresh;};
+ window.QuizUI.reloadStore=({scopeChanged=false}={})=>{if(scopeChanged)launchGeneration++;if(scopeChanged&&!root.hidden)leave('home');const fresh=new QuizStore(window.AppStorage||window.localStorage);if(store){store.logs=fresh.logs;store.settings=fresh.settings;store.bookmarks=fresh.bookmarks;}else store=fresh;};
  document.addEventListener('keydown',e=>{if(root.hidden)return;if(overlay){if(e.key==='Escape'){e.preventDefault();closeOverlay();return;}if(e.key==='Tab'){const buttons=[...root.querySelectorAll('.qs-overlay button')],first=buttons[0],last=buttons[buttons.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}return;}if(e.key==='Escape'){e.preventDefault();interrupt();return;}if(e.repeat)return;if(session?.state==='question'&&/^[1-4]$/.test(e.key)){e.preventDefault();submit(Number(e.key)-1);}else if(session&&['correct','wrong'].includes(session.state)&&['Enter',' '].includes(e.key)){e.preventDefault();next();}},true);
  document.addEventListener('visibilitychange',()=>{if(document.hidden)clearAuto();else scheduleAuto();});
  render();

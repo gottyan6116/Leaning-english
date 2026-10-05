@@ -1,0 +1,754 @@
+{
+  "id": "article-science-balloon-2026",
+  "version": 1,
+  "kind": "article",
+  "status": "checked",
+  "createdAt": "2026-10-05",
+  "publishedAt": "2026-10-05T00:00:00+09:00",
+  "sourcePublishedAt": "2026-09-29",
+  "title": "A Scientific Balloon Carries Student Projects",
+  "summaryJa": "実験と訓練を支えたNASAの気球飛行",
+  "category": "教養",
+  "level": "B1",
+  "readingMinutes": 3,
+  "readingEstimateWordsPerMinute": 100,
+  "editorialNotice": "出典に基づく学習用編集版",
+  "textOrigin": "original-for-this-app; factual adaptation",
+  "sources": [
+    {
+      "id": "nasa-flight",
+      "title": "Fifth Balloon of NASA Scientific Balloon Campaign Launches",
+      "publisher": "NASA",
+      "publishedAt": "2026-09-29",
+      "url": "https://www.nasa.gov/blogs/wallops/2026/09/29/fifth-balloon-of-nasa-scientific-balloon-campaign-launches/",
+      "checkedAt": "2026-10-05",
+      "paragraphIds": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "usage": "事実を独自の文で整理。原文・発言の直接引用なし",
+      "author": "Amy Barra"
+    },
+    {
+      "id": "nasa-update",
+      "title": "Two More NASA Balloons Remain for Fall Campaign",
+      "publisher": "NASA",
+      "publishedAt": "2026-09-25",
+      "url": "https://www.nasa.gov/blogs/wallops/2026/09/25/two-more-nasa-balloons-remain-for-fall-campaign/",
+      "checkedAt": "2026-10-05",
+      "paragraphIds": [
+        "p4",
+        "p5"
+      ],
+      "usage": "事実を独自の文で整理。原文・発言の直接引用なし",
+      "author": "Amy Barra"
+    }
+  ],
+  "photo": {
+    "pageUrl": "https://unsplash.com/photos/the-night-sky-with-stars-and-a-telescope-9YBDgOJGnY8",
+    "photoId": "9YBDgOJGnY8",
+    "photographer": "Le Mucky",
+    "service": "Unsplash",
+    "licenseUrl": "https://unsplash.com/license",
+    "checkedAt": "2026-10-05",
+    "credit": "Photo by Le Mucky on Unsplash",
+    "alt": "星空と望遠鏡",
+    "context": "関連する素材写真。気球の実際の写真として扱わない",
+    "assetPath": "assets/articles/europa.jpg"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "kind": "source-based",
+      "sourceIds": [
+        "nasa-flight"
+      ],
+      "text": "On 28 September 2026, NASA launched the Mullenax Test Flight from Fort Sumner in New Mexico. The scientific balloon carried university and student projects, as well as experimental camera technology. NASA published a report about this fifth launch of its fall campaign on 29 September.",
+      "translationJa": "2026年9月28日、NASAはニューメキシコ州フォートサムナーからMullenax試験飛行を打ち上げました。科学観測気球には、大学や学生の研究装置に加え、実験用のカメラ技術も搭載されました。NASAは秋の観測計画で5回目となるこの打ち上げを9月29日に報告しました。"
+    },
+    {
+      "id": "p2",
+      "kind": "source-based",
+      "sourceIds": [
+        "nasa-flight"
+      ],
+      "text": "The balloon left the launch site at 7:57 in the morning, local Mountain Daylight Time. It reached a height of about 105,900 feet and stayed in flight for 10 hours and 14 minutes. These figures describe the flight. They do not tell us the results of every experiment carried on board.",
+      "translationJa": "気球は山岳部夏時間の午前7時57分に発射地点を離れました。高度は約105,900フィートに達し、10時間14分飛行しました。これらは飛行の記録であり、搭載されたすべての実験の結果を示すものではありません。"
+    },
+    {
+      "id": "p3",
+      "kind": "source-based",
+      "sourceIds": [
+        "nasa-flight"
+      ],
+      "text": "The mission also provided training for staff who work with weather and balloon equipment. Testing hardware was another purpose. One flight could therefore support several activities: checking equipment, developing camera technology and carrying projects created by students. NASA did not present it simply as a journey to a high place. Its purposes included both learning and testing.",
+      "translationJa": "この飛行では、気象や気球の装備を扱う職員の訓練も行われました。機器の試験も目的の一つです。つまり、一度の飛行が、装備の確認、カメラ技術の開発、学生が作った研究装置の搭載など、複数の活動を支えていました。NASAの発表は、単に高い場所へ行く飛行として紹介しているわけではありません。 学ぶことと試すことの両方が目的に含まれていました。"
+    },
+    {
+      "id": "p4",
+      "kind": "source-based",
+      "sourceIds": [
+        "nasa-update"
+      ],
+      "text": "An earlier update, published on 25 September, explained the situation before Mullenax flew. Four missions had already launched successfully. Hurricane Polo was affecting winds high above the launch site, so the team was looking for suitable chances to launch the remaining flights. Planning did not mean that those flights had already happened.",
+      "translationJa": "9月25日に公表された先の報告では、Mullenaxが飛ぶ前の状況が説明されています。その時点では4回の打ち上げが成功していました。ハリケーン・ポロが発射地点の上空の風に影響していたため、チームは残る飛行を打ち上げる適切な機会を探していました。予定があることは、飛行がすでに行われたことを意味しません。"
+    },
+    {
+      "id": "p5",
+      "kind": "source-based",
+      "sourceIds": [
+        "nasa-update"
+      ],
+      "text": "The same update described a separate mission that had been stopped after its equipment touched the ground shortly after liftoff. Nobody was injured. The team was considering repairs and another attempt. Reading the two reports in date order helps separate that earlier problem from the later Mullenax flight.",
+      "translationJa": "同じ報告では、離陸直後に装備が地面に接触し、中止された別の飛行についても説明されています。けが人はいませんでした。チームは修理と再挑戦を検討していました。二つの報告を日付順に読むと、この以前の問題と、その後のMullenaxの飛行を区別できます。"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "article-science-balloon-2026-launch",
+      "headword": "launch",
+      "partOfSpeech": "verb",
+      "meaning": "打ち上げる",
+      "definition": "send a vehicle or balloon into flight",
+      "contextParagraphId": "p1",
+      "context": "On 28 September 2026, NASA launched the Mullenax Test Flight from Fort Sumner in New Mexico.",
+      "example": "The team launched a small balloon before sunrise.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "打ち上げる",
+      "questions": {
+        "ja": {
+          "choices": [
+            "打ち上げる",
+            "誘導する",
+            "着陸させる",
+            "操縦する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-science-balloon-2026-launch-ja-option-1",
+            "article-science-balloon-2026-launch-ja-option-2",
+            "article-science-balloon-2026-launch-ja-option-3",
+            "article-science-balloon-2026-launch-ja-option-4"
+          ],
+          "correctChoiceId": "article-science-balloon-2026-launch-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "guide",
+            "land",
+            "steer"
+          ],
+          "explanation": "本文では「打ち上げる」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "send a vehicle into the air",
+            "guide a vehicle along a route",
+            "bring a vehicle onto the ground",
+            "control a vehicle during a journey"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-science-balloon-2026-launch-en-option-1",
+            "article-science-balloon-2026-launch-en-option-2",
+            "article-science-balloon-2026-launch-en-option-3",
+            "article-science-balloon-2026-launch-en-option-4"
+          ],
+          "correctChoiceId": "article-science-balloon-2026-launch-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "guide",
+            "land",
+            "steer"
+          ],
+          "explanation": "本文では「打ち上げる」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "launch a balloon",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "気球を打ち上げる",
+            "nuanceJa": "飛行の開始を表す。",
+            "example": "They launched a balloon to test a sensor.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "launch a mission",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "ミッションを開始する",
+            "nuanceJa": "計画を実際に始動させる。",
+            "example": "The agency launched a mission to study clouds.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a launch site",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "発射地点",
+            "nuanceJa": "打ち上げを行う場所。",
+            "example": "The truck arrived at the launch site early.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "launched"
+    },
+    {
+      "id": "article-science-balloon-2026-experimental",
+      "headword": "experimental",
+      "partOfSpeech": "adjective",
+      "meaning": "実験的な",
+      "definition": "used to test a new idea or method",
+      "contextParagraphId": "p1",
+      "context": "The scientific balloon carried university and student projects, as well as experimental camera technology.",
+      "example": "The team tested an experimental water filter.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "実験的な",
+      "questions": {
+        "ja": {
+          "choices": [
+            "実験的な",
+            "自動的な",
+            "標準的な",
+            "携帯用の"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-science-balloon-2026-experimental-ja-option-1",
+            "article-science-balloon-2026-experimental-ja-option-2",
+            "article-science-balloon-2026-experimental-ja-option-3",
+            "article-science-balloon-2026-experimental-ja-option-4"
+          ],
+          "correctChoiceId": "article-science-balloon-2026-experimental-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "automatic",
+            "standard",
+            "portable"
+          ],
+          "explanation": "本文では「実験的な」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "used to test a new idea or method",
+            "made to work without human control",
+            "chosen as the normal accepted type",
+            "made to be carried between places"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-science-balloon-2026-experimental-en-option-1",
+            "article-science-balloon-2026-experimental-en-option-2",
+            "article-science-balloon-2026-experimental-en-option-3",
+            "article-science-balloon-2026-experimental-en-option-4"
+          ],
+          "correctChoiceId": "article-science-balloon-2026-experimental-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "automatic",
+            "standard",
+            "portable"
+          ],
+          "explanation": "本文では「実験的な」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "experimental technology",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "実験段階の技術",
+            "nuanceJa": "性能などを試している技術。",
+            "example": "The boat uses experimental technology to save energy.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "an experimental design",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "試験的な設計",
+            "nuanceJa": "評価のために試す設計。",
+            "example": "We tested an experimental design before choosing the final model.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "experimental equipment",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "実験用の装置",
+            "nuanceJa": "新しい手法を試す装置。",
+            "example": "The students borrowed experimental equipment.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "experimental"
+    },
+    {
+      "id": "article-science-balloon-2026-equipment",
+      "headword": "equipment",
+      "partOfSpeech": "noun",
+      "meaning": "装備・機器",
+      "definition": "the tools needed for a particular activity",
+      "contextParagraphId": "p3",
+      "context": "The mission also provided training for staff who work with weather and balloon equipment.",
+      "example": "We checked our equipment before leaving the workshop.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "装備・機器",
+      "questions": {
+        "ja": {
+          "choices": [
+            "機器",
+            "資材",
+            "部品",
+            "燃料"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-science-balloon-2026-equipment-ja-option-1",
+            "article-science-balloon-2026-equipment-ja-option-2",
+            "article-science-balloon-2026-equipment-ja-option-3",
+            "article-science-balloon-2026-equipment-ja-option-4"
+          ],
+          "correctChoiceId": "article-science-balloon-2026-equipment-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "materials",
+            "components",
+            "fuel"
+          ],
+          "explanation": "本文では「装備・機器」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "tools needed for a particular activity",
+            "materials used to make an object",
+            "components belonging to a larger machine",
+            "fuel used to power a working machine"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-science-balloon-2026-equipment-en-option-1",
+            "article-science-balloon-2026-equipment-en-option-2",
+            "article-science-balloon-2026-equipment-en-option-3",
+            "article-science-balloon-2026-equipment-en-option-4"
+          ],
+          "correctChoiceId": "article-science-balloon-2026-equipment-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "materials",
+            "components",
+            "fuel"
+          ],
+          "explanation": "本文では「装備・機器」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "test equipment",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "機器を試験する",
+            "nuanceJa": "作動などを試す。",
+            "example": "We tested the equipment before the trip.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "safety equipment",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "安全装備",
+            "nuanceJa": "安全のために使う道具。",
+            "example": "The instructor checked our safety equipment.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a piece of equipment",
+            "pattern": "数量表現＋名詞",
+            "meaningJa": "一つの機器",
+            "nuanceJa": "equipmentは不可算名詞なのでpieceを使う。",
+            "example": "Each student cleaned one piece of equipment.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "equipment"
+    },
+    {
+      "id": "article-science-balloon-2026-suitable",
+      "headword": "suitable",
+      "partOfSpeech": "adjective",
+      "meaning": "適した",
+      "definition": "right for a particular purpose or situation",
+      "contextParagraphId": "p4",
+      "context": "Hurricane Polo was affecting winds high above the launch site, so the team was looking for suitable chances to launch the remaining flights.",
+      "example": "We chose a suitable room for the music lesson.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "適した",
+      "questions": {
+        "ja": {
+          "choices": [
+            "適した",
+            "利用可能な",
+            "必要な",
+            "一時的な"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-science-balloon-2026-suitable-ja-option-1",
+            "article-science-balloon-2026-suitable-ja-option-2",
+            "article-science-balloon-2026-suitable-ja-option-3",
+            "article-science-balloon-2026-suitable-ja-option-4"
+          ],
+          "correctChoiceId": "article-science-balloon-2026-suitable-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "available",
+            "necessary",
+            "temporary"
+          ],
+          "explanation": "本文では「適した」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "right for a particular purpose",
+            "available for people to use",
+            "required to complete a task",
+            "lasting for a limited period"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-science-balloon-2026-suitable-en-option-1",
+            "article-science-balloon-2026-suitable-en-option-2",
+            "article-science-balloon-2026-suitable-en-option-3",
+            "article-science-balloon-2026-suitable-en-option-4"
+          ],
+          "correctChoiceId": "article-science-balloon-2026-suitable-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "available",
+            "necessary",
+            "temporary"
+          ],
+          "explanation": "本文では「適した」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "suitable for ～",
+            "pattern": "形容詞＋前置詞",
+            "meaningJa": "～に適した",
+            "nuanceJa": "適している対象をforで示す。",
+            "example": "This box is suitable for carrying books.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "suitable conditions",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "適した条件",
+            "nuanceJa": "目的に合う環境や状況。",
+            "example": "We waited for suitable conditions to paint the fence.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a suitable time",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "適切な時間",
+            "nuanceJa": "活動に都合のよい時刻。",
+            "example": "They agreed on a suitable time for the call.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "suitable"
+    },
+    {
+      "id": "article-science-balloon-2026-attempt",
+      "headword": "attempt",
+      "partOfSpeech": "noun",
+      "meaning": "試み",
+      "definition": "an effort to do something",
+      "contextParagraphId": "p5",
+      "context": "The team was considering repairs and another attempt.",
+      "example": "Our first attempt to build a bridge from paper failed.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "試み",
+      "questions": {
+        "ja": {
+          "choices": [
+            "試み",
+            "決定",
+            "点検",
+            "遅延"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-science-balloon-2026-attempt-ja-option-1",
+            "article-science-balloon-2026-attempt-ja-option-2",
+            "article-science-balloon-2026-attempt-ja-option-3",
+            "article-science-balloon-2026-attempt-ja-option-4"
+          ],
+          "correctChoiceId": "article-science-balloon-2026-attempt-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "decision",
+            "inspection",
+            "delay"
+          ],
+          "explanation": "本文では「試み」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "an effort to do a task",
+            "a decision about a future action",
+            "an inspection of a working device",
+            "a delay before a planned event"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-science-balloon-2026-attempt-en-option-1",
+            "article-science-balloon-2026-attempt-en-option-2",
+            "article-science-balloon-2026-attempt-en-option-3",
+            "article-science-balloon-2026-attempt-en-option-4"
+          ],
+          "correctChoiceId": "article-science-balloon-2026-attempt-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "decision",
+            "inspection",
+            "delay"
+          ],
+          "explanation": "本文では「試み」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "make an attempt",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "試みる",
+            "nuanceJa": "試しに取り組む行為を表す。",
+            "example": "We made an attempt to repair the old radio.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "an attempt to do ～",
+            "pattern": "名詞＋不定詞",
+            "meaningJa": "～しようとする試み",
+            "nuanceJa": "何を試すかを不定詞で示す。",
+            "example": "Their attempt to cross the river was unsuccessful.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "another attempt",
+            "pattern": "限定詞＋名詞",
+            "meaningJa": "再度の試み",
+            "nuanceJa": "以前の試みに続く挑戦。",
+            "example": "She made another attempt after changing the design.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "attempt"
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "article-science-balloon-2026-q1",
+      "question": "What did the Mullenax balloon carry?",
+      "choices": [
+        "University projects and experimental camera technology.",
+        "Passengers taking a regular holiday flight.",
+        "Only weather reports printed for local schools.",
+        "Food deliveries sent to several nearby towns."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-science-balloon-2026-q1-option-1",
+        "article-science-balloon-2026-q1-option-2",
+        "article-science-balloon-2026-q1-option-3",
+        "article-science-balloon-2026-q1-option-4"
+      ],
+      "correctChoiceId": "article-science-balloon-2026-q1-option-1",
+      "evidenceParagraphIds": [
+        "p1"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p1",
+          "text": "The scientific balloon carried university and student projects, as well as experimental camera technology.",
+          "highlights": [
+            "university and student projects"
+          ]
+        }
+      ],
+      "explanationJa": "研究装置と実験用カメラ技術が搭載された。",
+      "type": "literal"
+    },
+    {
+      "id": "article-science-balloon-2026-q2",
+      "question": "How long did the flight last?",
+      "choices": [
+        "10 hours and 14 minutes.",
+        "14 hours and 10 minutes.",
+        "7 hours and 57 minutes.",
+        "25 hours and 29 minutes."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-science-balloon-2026-q2-option-1",
+        "article-science-balloon-2026-q2-option-2",
+        "article-science-balloon-2026-q2-option-3",
+        "article-science-balloon-2026-q2-option-4"
+      ],
+      "correctChoiceId": "article-science-balloon-2026-q2-option-1",
+      "evidenceParagraphIds": [
+        "p2"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p2",
+          "text": "It reached a height of about 105,900 feet and stayed in flight for 10 hours and 14 minutes.",
+          "highlights": [
+            "10 hours and 14 minutes"
+          ]
+        }
+      ],
+      "explanationJa": "高度と飛行時間を混同しない。",
+      "type": "literal"
+    },
+    {
+      "id": "article-science-balloon-2026-q3",
+      "question": "What should readers infer from the two dates?",
+      "choices": [
+        "The wind update came before the Mullenax launch.",
+        "The wind update proves Mullenax never left the ground.",
+        "The earlier accident happened during Mullenax's flight.",
+        "The later report proves every experiment succeeded."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-science-balloon-2026-q3-option-1",
+        "article-science-balloon-2026-q3-option-2",
+        "article-science-balloon-2026-q3-option-3",
+        "article-science-balloon-2026-q3-option-4"
+      ],
+      "correctChoiceId": "article-science-balloon-2026-q3-option-1",
+      "evidenceParagraphIds": [
+        "p4"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p4",
+          "text": "An earlier update, published on 25 September, explained the situation before Mullenax flew.",
+          "highlights": [
+            "before Mullenax flew"
+          ]
+        }
+      ],
+      "explanationJa": "9月25日の予定・状況と、9月28日の実際の飛行を区別する。",
+      "type": "inference"
+    }
+  ],
+  "opinion": {
+    "id": "opinion-1",
+    "prompt": "Would you prefer to build an experiment or help prepare its flight? Explain why.",
+    "optional": true,
+    "saveScope": "device"
+  },
+  "properNouns": [
+    "NASA",
+    "Mullenax",
+    "Test Flight",
+    "Fort Sumner",
+    "New Mexico",
+    "Mountain Daylight Time",
+    "Hurricane Polo",
+    "September"
+  ],
+  "review": {
+    "factsCheckedAt": "2026-10-05",
+    "editorialParagraphIds": [],
+    "contentApproval": "editorial-reviewed",
+    "notes": "本文の事実・訳・設問根拠を出典と照合。使い方はすべて未確認。"
+  },
+  "reviewNotes": [
+    "出典の計画・目標と実績を区別。選択肢は同品詞の別の語から作成。"
+  ],
+  "validationProperNouns": [
+    "NASA",
+    "Mullenax",
+    "Test Flight",
+    "Fort Sumner",
+    "New Mexico",
+    "Mountain Daylight Time",
+    "Hurricane Polo",
+    "September"
+  ],
+  "validationEntityAliases": {
+    "Ethiopia": "エチオピア",
+    "Samoa": "サモア",
+    "Aleipata": "アレイパタ",
+    "Lepa": "レパ",
+    "Jordan": "ヨルダン",
+    "NASA": "NASA",
+    "Mullenax": "Mullenax",
+    "Fort Sumner": "フォートサムナー",
+    "Michael Rosen": "マイケル・ローゼン",
+    "Chris Redmond": "クリス・レドモンド",
+    "Liv Torc": "リヴ・トーク",
+    "National Poetry Day": "National Poetry Day",
+    "UNESCO": "ユネスコ",
+    "International Labour Organization": "国際労働機関",
+    "Forward Arts Foundation": "Forward Arts Foundation",
+    "October": "10月",
+    "September": "9月",
+    "Jordanians": "ヨルダン人",
+    "Syrian": "シリア",
+    "ILO": "ILO",
+    "RPL": "RPL",
+    "Recognition of Prior Learning": "既修得学習の認定",
+    "Tsunami Ready": "Tsunami Ready",
+    "Test Flight": "試験飛行",
+    "New Mexico": "ニューメキシコ",
+    "Mountain Daylight Time": "山岳部夏時間",
+    "Hurricane Polo": "ハリケーン・ポロ",
+    "United Kingdom": "英国",
+    "Torc": "トーク",
+    "Rosen": "ローゼン"
+  },
+  "validationNumberAliases": {
+    "half a million": "50万人",
+    "1,000": "1,000",
+    "3,257": "3,257",
+    "7:57": "7時57分"
+  },
+  "vocabularyReview": {
+    "status": "reviewed",
+    "reason": "5つの重要語を本文の実際の用例と対応させ、同品詞の別語による誤答と比較。制度や科学の固有用語は直後の短文で意味を説明し、計画と実績・認定と就職・飛行と実験結果を区別。専門語を覚えなくても本文と訳から3問の根拠を確認できる。未収録語は固有名詞と語形を個別に確認。"
+  }
+}

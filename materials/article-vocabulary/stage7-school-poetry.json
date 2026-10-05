@@ -1,0 +1,493 @@
+{
+  "id": "article-school-poetry-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-05T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-school-poetry-2026-contribute",
+      "headword": "contribute",
+      "partOfSpeech": "verb",
+      "meaning": "提供する",
+      "definition": "give ideas or work to help create something",
+      "contextParagraphId": "p1",
+      "context": "The Forward Arts Foundation reported that 1,000 schools contributed to this shared piece of writing.",
+      "example": "Everyone contributed an idea for the exhibition.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "提供する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "提供する",
+            "承認する",
+            "選択する",
+            "配布する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-school-poetry-2026-contribute-ja-option-1",
+            "article-school-poetry-2026-contribute-ja-option-2",
+            "article-school-poetry-2026-contribute-ja-option-3",
+            "article-school-poetry-2026-contribute-ja-option-4"
+          ],
+          "correctChoiceId": "article-school-poetry-2026-contribute-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "approve",
+            "select",
+            "distribute"
+          ],
+          "explanation": "本文では「提供する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "give ideas to a shared project",
+            "approve ideas for an official project",
+            "choose ideas from a proposed list",
+            "distribute ideas to a wider audience"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-school-poetry-2026-contribute-en-option-1",
+            "article-school-poetry-2026-contribute-en-option-2",
+            "article-school-poetry-2026-contribute-en-option-3",
+            "article-school-poetry-2026-contribute-en-option-4"
+          ],
+          "correctChoiceId": "article-school-poetry-2026-contribute-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "approve",
+            "select",
+            "distribute"
+          ],
+          "explanation": "本文では「提供する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "contribute an idea",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "アイデアを提供する",
+            "nuanceJa": "自分の考えを共同作業に出す。",
+            "example": "Each pupil contributed an idea for the story.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "contribute to a project",
+            "pattern": "動詞＋前置詞",
+            "meaningJa": "事業に参加して力を貸す",
+            "nuanceJa": "貢献する対象をtoで示す。",
+            "example": "Several volunteers contributed to the garden project.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "contribute time",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "時間を提供する",
+            "nuanceJa": "作業に時間を割く。",
+            "example": "Our neighbours contributed time to clean the hall.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "contributed",
+      "sourceKind": "article",
+      "articleId": "article-school-poetry-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-school-poetry-2026-perform",
+      "headword": "perform",
+      "partOfSpeech": "verb",
+      "meaning": "披露する",
+      "definition": "present a piece of art to an audience",
+      "contextParagraphId": "p2",
+      "context": "Torc brought the ideas together in about 15 minutes, and Rosen performed the finished poem live.",
+      "example": "The class performed a short play for their families.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "観客に向けて詩を披露する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "披露する",
+            "制作する",
+            "批評する",
+            "出版する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-school-poetry-2026-perform-ja-option-1",
+            "article-school-poetry-2026-perform-ja-option-2",
+            "article-school-poetry-2026-perform-ja-option-3",
+            "article-school-poetry-2026-perform-ja-option-4"
+          ],
+          "correctChoiceId": "article-school-poetry-2026-perform-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "create",
+            "review",
+            "publish"
+          ],
+          "explanation": "本文では観客に向けて作品を披露する意味。制作・批評・出版とは異なる。"
+        },
+        "en": {
+          "choices": [
+            "present a piece before an audience",
+            "create a piece using new ideas",
+            "review a piece with critical comments",
+            "publish a piece for public reading"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-school-poetry-2026-perform-en-option-1",
+            "article-school-poetry-2026-perform-en-option-2",
+            "article-school-poetry-2026-perform-en-option-3",
+            "article-school-poetry-2026-perform-en-option-4"
+          ],
+          "correctChoiceId": "article-school-poetry-2026-perform-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "create",
+            "review",
+            "publish"
+          ],
+          "explanation": "本文では観客に向けて作品を披露する意味。制作・批評・出版とは異なる。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "perform a poem",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "詩を朗読する",
+            "nuanceJa": "観客に向けて作品を読む。",
+            "example": "The student performed a poem at the school concert.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "perform live",
+            "pattern": "動詞＋副詞",
+            "meaningJa": "生で上演する",
+            "nuanceJa": "録画ではなくその場で演じる。",
+            "example": "The band will perform live in the library.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "perform on stage",
+            "pattern": "動詞＋前置詞",
+            "meaningJa": "舞台で演じる",
+            "nuanceJa": "上演する場所を示す。",
+            "example": "Our group performed on stage for the first time.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "performed",
+      "sourceKind": "article",
+      "articleId": "article-school-poetry-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-school-poetry-2026-response",
+      "headword": "response",
+      "partOfSpeech": "noun",
+      "meaning": "反応・返答",
+      "definition": "something said or done as an answer",
+      "contextParagraphId": "p3",
+      "context": "It contained 3,257 creative responses.",
+      "example": "We received a friendly response to our invitation.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "反応・返答",
+      "questions": {
+        "ja": {
+          "choices": [
+            "返答",
+            "質問",
+            "要望",
+            "提案"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-school-poetry-2026-response-ja-option-1",
+            "article-school-poetry-2026-response-ja-option-2",
+            "article-school-poetry-2026-response-ja-option-3",
+            "article-school-poetry-2026-response-ja-option-4"
+          ],
+          "correctChoiceId": "article-school-poetry-2026-response-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "question",
+            "request",
+            "suggestion"
+          ],
+          "explanation": "本文では「反応・返答」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "an answer given to a message",
+            "a question asked to obtain information",
+            "a request made to obtain something",
+            "a suggestion offered for future action"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-school-poetry-2026-response-en-option-1",
+            "article-school-poetry-2026-response-en-option-2",
+            "article-school-poetry-2026-response-en-option-3",
+            "article-school-poetry-2026-response-en-option-4"
+          ],
+          "correctChoiceId": "article-school-poetry-2026-response-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "question",
+            "request",
+            "suggestion"
+          ],
+          "explanation": "本文では「反応・返答」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "a response to ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～への返答",
+            "nuanceJa": "何に対する反応かをtoで示す。",
+            "example": "Her response to the letter arrived yesterday.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "receive a response",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "返答を受け取る",
+            "nuanceJa": "受信する側の動作を表す。",
+            "example": "We received a response from the organiser.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a positive response",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "好意的な反応",
+            "nuanceJa": "返答の内容や態度を述べる。",
+            "example": "The proposal received a positive response.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "responses",
+      "sourceKind": "article",
+      "articleId": "article-school-poetry-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-school-poetry-2026-estimate",
+      "headword": "estimate",
+      "partOfSpeech": "noun",
+      "meaning": "概算",
+      "definition": "a number judged to be close to the real amount",
+      "contextParagraphId": "p4",
+      "context": "This was the organiser's reported estimate.",
+      "example": "Our estimate of the repair cost was too low.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "概算",
+      "questions": {
+        "ja": {
+          "choices": [
+            "概算",
+            "総計",
+            "平均",
+            "比率"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-school-poetry-2026-estimate-ja-option-1",
+            "article-school-poetry-2026-estimate-ja-option-2",
+            "article-school-poetry-2026-estimate-ja-option-3",
+            "article-school-poetry-2026-estimate-ja-option-4"
+          ],
+          "correctChoiceId": "article-school-poetry-2026-estimate-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "total",
+            "average",
+            "ratio"
+          ],
+          "explanation": "本文では「概算」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a number thought close to the real amount",
+            "a total obtained by adding all amounts",
+            "an average obtained from several amounts",
+            "a ratio comparing two different amounts"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-school-poetry-2026-estimate-en-option-1",
+            "article-school-poetry-2026-estimate-en-option-2",
+            "article-school-poetry-2026-estimate-en-option-3",
+            "article-school-poetry-2026-estimate-en-option-4"
+          ],
+          "correctChoiceId": "article-school-poetry-2026-estimate-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "total",
+            "average",
+            "ratio"
+          ],
+          "explanation": "本文では「概算」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "a rough estimate",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "おおまかな見積もり",
+            "nuanceJa": "精密さを求めない概算。",
+            "example": "We made a rough estimate of the travel costs.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "make an estimate",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "見積もりを出す",
+            "nuanceJa": "金額や人数などを概算する。",
+            "example": "The builder made an estimate for the repair.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "an estimate of ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～の概算",
+            "nuanceJa": "何を見積もるかをofで示す。",
+            "example": "We need an estimate of the number of visitors.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "estimate",
+      "sourceKind": "article",
+      "articleId": "article-school-poetry-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-school-poetry-2026-collection",
+      "headword": "collection",
+      "partOfSpeech": "noun",
+      "meaning": "作品集",
+      "definition": "a group of works gathered together",
+      "contextParagraphId": "p5",
+      "context": "These included a newsletter and weekly collections of five poems.",
+      "example": "The library bought a collection of short stories.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "作品集",
+      "questions": {
+        "ja": {
+          "choices": [
+            "作品集",
+            "解説文",
+            "翻訳文",
+            "目録表"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-school-poetry-2026-collection-ja-option-1",
+            "article-school-poetry-2026-collection-ja-option-2",
+            "article-school-poetry-2026-collection-ja-option-3",
+            "article-school-poetry-2026-collection-ja-option-4"
+          ],
+          "correctChoiceId": "article-school-poetry-2026-collection-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "commentary",
+            "translation",
+            "catalogue"
+          ],
+          "explanation": "本文では「作品集」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a group of works gathered together",
+            "an explanation of what a work means",
+            "a translation of a work into another language",
+            "a catalogue listing the titles of works"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-school-poetry-2026-collection-en-option-1",
+            "article-school-poetry-2026-collection-en-option-2",
+            "article-school-poetry-2026-collection-en-option-3",
+            "article-school-poetry-2026-collection-en-option-4"
+          ],
+          "correctChoiceId": "article-school-poetry-2026-collection-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "commentary",
+            "translation",
+            "catalogue"
+          ],
+          "explanation": "本文では「作品集」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "a poetry collection",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "詩集",
+            "nuanceJa": "複数の詩をまとめたもの。",
+            "example": "She borrowed a poetry collection from the library.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a collection of stories",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "物語集",
+            "nuanceJa": "ofで収められた内容を示す。",
+            "example": "We read a collection of stories about the sea.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "publish a collection",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "作品集を出版する",
+            "nuanceJa": "まとめた作品を世に出す。",
+            "example": "The club published a collection of student essays.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "collections",
+      "sourceKind": "article",
+      "articleId": "article-school-poetry-2026",
+      "materialVersion": 1
+    }
+  ]
+}

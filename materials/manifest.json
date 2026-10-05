@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "materials": [
     {
       "id": "advanced-vocabulary-c1-01",
@@ -15,7 +15,15 @@
       "version": 1,
       "publishedAt": "2026-10-04T00:00:00+09:00",
       "path": "materials/articles/culture-koji.json",
-      "sha256": "d9b57947cade082d3918136efc26110a0b87b412fda9de34a01288445c960671"
+      "sha256": "79cddb8395ea982914fda51d4c78c8c01ae724e69edf86cec52cbc6218713b9a"
+    },
+    {
+      "id": "article-culture-statistics-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-05T00:00:00+09:00",
+      "path": "materials/articles/stage7-culture-statistics.json",
+      "sha256": "94951e0470005abd839ef6d64e3d4d37729011c383ce3bc479b539e8ee8ead67"
     },
     {
       "id": "article-education-europa-carbon-2023",
@@ -23,7 +31,79 @@
       "version": 1,
       "publishedAt": "2026-10-04T00:00:00+09:00",
       "path": "materials/articles/education-europa.json",
-      "sha256": "14b0ba16387d147f5d341a55c9c8452ccddc250873d5cf2ac38c436ccc6a9273"
+      "sha256": "9b8052f007c44641c044eb2410ab6bed6fa9ec895e620872d69717c5387dfafe"
+    },
+    {
+      "id": "article-ethiopia-business-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-05T00:00:00+09:00",
+      "path": "materials/articles/stage7-ethiopia-business.json",
+      "sha256": "bfcc29f8e5b99b6641f106d9d541828940a13bae8554f755094ea97a3c91a39e"
+    },
+    {
+      "id": "article-informal-workers-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-05T00:00:00+09:00",
+      "path": "materials/articles/stage7-informal-workers.json",
+      "sha256": "8bfbef2f1d158f630c8b81545d7869f6a5d2d57f1bb251e1c0b14c0316b65b8b"
+    },
+    {
+      "id": "article-jordan-skills-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-05T00:00:00+09:00",
+      "path": "materials/articles/stage7-jordan-skills.json",
+      "sha256": "69102e29792977a446841747cb2c8cbbd0aff4d42c77c8148abc4d42c79590cc"
+    },
+    {
+      "id": "article-mexico-tourism-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-05T00:00:00+09:00",
+      "path": "materials/articles/stage7-mexico-tourism.json",
+      "sha256": "5961d21b5970d97ad8ee23ad4d0b913204dc28776eab79637244ca08ee694b07"
+    },
+    {
+      "id": "article-particle-telescope-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-05T00:00:00+09:00",
+      "path": "materials/articles/stage7-particle-telescope.json",
+      "sha256": "d62a592b6a980ae7d384294a8d0b680f90ede102ab896a55b269bbb299b806fa"
+    },
+    {
+      "id": "article-samoa-tsunami-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-05T00:00:00+09:00",
+      "path": "materials/articles/stage7-samoa-tsunami.json",
+      "sha256": "245a5cef35309ba5728ccac8a5d21e7542aad54f8d6220c8dafc23d300cab9bc"
+    },
+    {
+      "id": "article-school-poetry-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-05T00:00:00+09:00",
+      "path": "materials/articles/stage7-school-poetry.json",
+      "sha256": "d641325ca1f8a9895e9cfb68d73e3779039914bd29bc78d274a6b72d18504715"
+    },
+    {
+      "id": "article-science-balloon-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-05T00:00:00+09:00",
+      "path": "materials/articles/stage7-science-balloon.json",
+      "sha256": "3eb9c7782244c4241655c18efc5d37288081dfce64c08991da1b32dcd64a713f"
+    },
+    {
+      "id": "article-space-ports-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-05T00:00:00+09:00",
+      "path": "materials/articles/stage7-space-ports.json",
+      "sha256": "a027b5443211409bb3dca99297a4b56e0bc3c695dbd51997b04fadf629395623"
     },
     {
       "id": "article-work-four-day-week-2022",
@@ -31,7 +111,290 @@
       "version": 2,
       "publishedAt": "2026-10-04T00:00:00+09:00",
       "path": "materials/articles/work-four-day-week.json",
-      "sha256": "1fee39dbcbe1002582c8f8b5813b57cc9ba61d872107beb0d7dfb83c08bb3919"
+      "sha256": "3f169b7361637555eb8fcd656abbacf425f98c87a126b8e67a109c835534012c"
     }
-  ]
+  ],
+  "articleIndex": {
+    "id": "article-index",
+    "version": 1,
+    "path": "materials/articles/index.json",
+    "sha256": "42e5b8c7c23415a6abc4cb42b101bcc08ade34502faff9cf8cb51b8033a04573"
+  },
+  "articleVocabulary": [
+    {
+      "id": "article-culture-koji-skills-2024",
+      "version": 1,
+      "path": "materials/article-vocabulary/culture-koji.json",
+      "sha256": "91670b0de3b16ea7b76552e40fa2a529e63d1cec67eb1751b5b83f2fcf18d0c8"
+    },
+    {
+      "id": "article-culture-statistics-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/stage7-culture-statistics.json",
+      "sha256": "3589c9735250658bb1241b7f2d82ce6ef1d65f49ccd7e92d8afebd8d951b7909"
+    },
+    {
+      "id": "article-education-europa-carbon-2023",
+      "version": 1,
+      "path": "materials/article-vocabulary/education-europa.json",
+      "sha256": "3105da5832874e25d7609f1a8faa0974b0253b159271679b790ea8a7ea39e008"
+    },
+    {
+      "id": "article-ethiopia-business-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/stage7-ethiopia-business.json",
+      "sha256": "f554d6359dc84ff84d012173e45f1b0751e88a77ec74e3f333069effbbee5864"
+    },
+    {
+      "id": "article-informal-workers-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/stage7-informal-workers.json",
+      "sha256": "63738275c9e9a26227be469fa6c056f2a25f20ac2b74c904c308d3197da58e05"
+    },
+    {
+      "id": "article-jordan-skills-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/stage7-jordan-skills.json",
+      "sha256": "7894bafaa08b6bcba40ee65c8381c0c018d4c8f06424adbfc57d94a918152667"
+    },
+    {
+      "id": "article-mexico-tourism-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/stage7-mexico-tourism.json",
+      "sha256": "5c102cb861052ef8799b117450cd9920c4a1140d6804e3d438fa9a48de87689c"
+    },
+    {
+      "id": "article-particle-telescope-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/stage7-particle-telescope.json",
+      "sha256": "851441bfaee566a3c338d702eea1b7b870d3d86becf5fe740e71c1b061b038df"
+    },
+    {
+      "id": "article-samoa-tsunami-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/stage7-samoa-tsunami.json",
+      "sha256": "a06a1186c1fe44510ce8323bcedce3f6d0a83a31a605fa070bec045e65ed3fb1"
+    },
+    {
+      "id": "article-school-poetry-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/stage7-school-poetry.json",
+      "sha256": "29da821a56e812c9a669eb937d912d53caaf590c9d23d5730645d43e0a6f7f96"
+    },
+    {
+      "id": "article-science-balloon-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/stage7-science-balloon.json",
+      "sha256": "00d1584aac2a6bba6ebd7f28273d7dcaff8b0cbce6544a71b51ccf422ba8eec0"
+    },
+    {
+      "id": "article-space-ports-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/stage7-space-ports.json",
+      "sha256": "094a34b1b72e73da2738c80d819d5a5d04280d3c4f6a9d35f4dab8f8afba511e"
+    },
+    {
+      "id": "article-work-four-day-week-2022",
+      "version": 2,
+      "path": "materials/article-vocabulary/work-four-day-week.json",
+      "sha256": "ac0796b9d56eace5b2432a75229d121221cc87459f27ee565ae4245d173f15c0"
+    }
+  ],
+  "wordIndex": {
+    "article-culture-koji-skills-2024-craftsmanship": {
+      "articleId": "article-culture-koji-skills-2024"
+    },
+    "article-culture-koji-skills-2024-distinctive": {
+      "articleId": "article-culture-koji-skills-2024"
+    },
+    "article-culture-koji-skills-2024-oversee": {
+      "articleId": "article-culture-koji-skills-2024"
+    },
+    "article-culture-koji-skills-2024-transmit": {
+      "articleId": "article-culture-koji-skills-2024"
+    },
+    "article-culture-koji-skills-2024-cohesion": {
+      "articleId": "article-culture-koji-skills-2024"
+    },
+    "article-education-europa-carbon-2023-abundance": {
+      "articleId": "article-education-europa-carbon-2023"
+    },
+    "article-education-europa-carbon-2023-composition": {
+      "articleId": "article-education-europa-carbon-2023"
+    },
+    "article-education-europa-carbon-2023-tentative": {
+      "articleId": "article-education-europa-carbon-2023"
+    },
+    "article-education-europa-carbon-2023-definitive": {
+      "articleId": "article-education-europa-carbon-2023"
+    },
+    "article-education-europa-carbon-2023-constrain": {
+      "articleId": "article-education-europa-carbon-2023"
+    },
+    "article-culture-statistics-2026-framework": {
+      "articleId": "article-culture-statistics-2026"
+    },
+    "article-culture-statistics-2026-practitioners": {
+      "articleId": "article-culture-statistics-2026"
+    },
+    "article-culture-statistics-2026-governance": {
+      "articleId": "article-culture-statistics-2026"
+    },
+    "article-culture-statistics-2026-interchangeable": {
+      "articleId": "article-culture-statistics-2026"
+    },
+    "article-culture-statistics-2026-coverage": {
+      "articleId": "article-culture-statistics-2026"
+    },
+    "article-ethiopia-business-2026-competition": {
+      "articleId": "article-ethiopia-business-2026"
+    },
+    "article-ethiopia-business-2026-training": {
+      "articleId": "article-ethiopia-business-2026"
+    },
+    "article-ethiopia-business-2026-develop": {
+      "articleId": "article-ethiopia-business-2026"
+    },
+    "article-ethiopia-business-2026-support": {
+      "articleId": "article-ethiopia-business-2026"
+    },
+    "article-ethiopia-business-2026-local": {
+      "articleId": "article-ethiopia-business-2026"
+    },
+    "article-informal-workers-2026-representation": {
+      "articleId": "article-informal-workers-2026"
+    },
+    "article-informal-workers-2026-dialogue": {
+      "articleId": "article-informal-workers-2026"
+    },
+    "article-informal-workers-2026-livelihoods": {
+      "articleId": "article-informal-workers-2026"
+    },
+    "article-informal-workers-2026-affiliated": {
+      "articleId": "article-informal-workers-2026"
+    },
+    "article-informal-workers-2026-inclusive": {
+      "articleId": "article-informal-workers-2026"
+    },
+    "article-jordan-skills-2026-recognise": {
+      "articleId": "article-jordan-skills-2026"
+    },
+    "article-jordan-skills-2026-assess": {
+      "articleId": "article-jordan-skills-2026"
+    },
+    "article-jordan-skills-2026-qualification": {
+      "articleId": "article-jordan-skills-2026"
+    },
+    "article-jordan-skills-2026-accessible": {
+      "articleId": "article-jordan-skills-2026"
+    },
+    "article-jordan-skills-2026-foundation": {
+      "articleId": "article-jordan-skills-2026"
+    },
+    "article-mexico-tourism-2026-networks": {
+      "articleId": "article-mexico-tourism-2026"
+    },
+    "article-mexico-tourism-2026-cooperatives": {
+      "articleId": "article-mexico-tourism-2026"
+    },
+    "article-mexico-tourism-2026-indicators": {
+      "articleId": "article-mexico-tourism-2026"
+    },
+    "article-mexico-tourism-2026-heritage": {
+      "articleId": "article-mexico-tourism-2026"
+    },
+    "article-mexico-tourism-2026-evaluation": {
+      "articleId": "article-mexico-tourism-2026"
+    },
+    "article-particle-telescope-2026-incorporated": {
+      "articleId": "article-particle-telescope-2026"
+    },
+    "article-particle-telescope-2026-compact": {
+      "articleId": "article-particle-telescope-2026"
+    },
+    "article-particle-telescope-2026-temporary": {
+      "articleId": "article-particle-telescope-2026"
+    },
+    "article-particle-telescope-2026-resumed": {
+      "articleId": "article-particle-telescope-2026"
+    },
+    "article-particle-telescope-2026-perspective": {
+      "articleId": "article-particle-telescope-2026"
+    },
+    "article-samoa-tsunami-2026-community": {
+      "articleId": "article-samoa-tsunami-2026"
+    },
+    "article-samoa-tsunami-2026-warning": {
+      "articleId": "article-samoa-tsunami-2026"
+    },
+    "article-samoa-tsunami-2026-practise": {
+      "articleId": "article-samoa-tsunami-2026"
+    },
+    "article-samoa-tsunami-2026-clear": {
+      "articleId": "article-samoa-tsunami-2026"
+    },
+    "article-samoa-tsunami-2026-route": {
+      "articleId": "article-samoa-tsunami-2026"
+    },
+    "article-school-poetry-2026-contribute": {
+      "articleId": "article-school-poetry-2026"
+    },
+    "article-school-poetry-2026-perform": {
+      "articleId": "article-school-poetry-2026"
+    },
+    "article-school-poetry-2026-response": {
+      "articleId": "article-school-poetry-2026"
+    },
+    "article-school-poetry-2026-estimate": {
+      "articleId": "article-school-poetry-2026"
+    },
+    "article-school-poetry-2026-collection": {
+      "articleId": "article-school-poetry-2026"
+    },
+    "article-science-balloon-2026-launch": {
+      "articleId": "article-science-balloon-2026"
+    },
+    "article-science-balloon-2026-experimental": {
+      "articleId": "article-science-balloon-2026"
+    },
+    "article-science-balloon-2026-equipment": {
+      "articleId": "article-science-balloon-2026"
+    },
+    "article-science-balloon-2026-suitable": {
+      "articleId": "article-science-balloon-2026"
+    },
+    "article-science-balloon-2026-attempt": {
+      "articleId": "article-science-balloon-2026"
+    },
+    "article-space-ports-2026-maritime": {
+      "articleId": "article-space-ports-2026"
+    },
+    "article-space-ports-2026-logistics": {
+      "articleId": "article-space-ports-2026"
+    },
+    "article-space-ports-2026-operational": {
+      "articleId": "article-space-ports-2026"
+    },
+    "article-space-ports-2026-monitoring": {
+      "articleId": "article-space-ports-2026"
+    },
+    "article-space-ports-2026-deployment": {
+      "articleId": "article-space-ports-2026"
+    },
+    "article-work-four-day-week-2022-retention": {
+      "articleId": "article-work-four-day-week-2022"
+    },
+    "article-work-four-day-week-2022-streamline": {
+      "articleId": "article-work-four-day-week-2022"
+    },
+    "article-work-four-day-week-2022-undermine": {
+      "articleId": "article-work-four-day-week-2022"
+    },
+    "article-work-four-day-week-2022-stagger": {
+      "articleId": "article-work-four-day-week-2022"
+    },
+    "article-work-four-day-week-2022-uniform": {
+      "articleId": "article-work-four-day-week-2022"
+    }
+  }
 }

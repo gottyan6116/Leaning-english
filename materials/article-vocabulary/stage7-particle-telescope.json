@@ -1,0 +1,493 @@
+{
+  "id": "article-particle-telescope-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-05T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-particle-telescope-2026-incorporated",
+      "headword": "incorporated",
+      "surfaceForm": "incorporated",
+      "partOfSpeech": "verb",
+      "meaning": "組み込む",
+      "definition": "included as part of a larger system",
+      "contextParagraphId": "p1",
+      "context": "NASA reported on 1 October 2026 that a small particle detector called REPTile-3 had been incorporated into the Emirates Mission to the Asteroid Belt.",
+      "example": "The safety feature was incorporated into the device.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "組み込んだ",
+      "questions": {
+        "ja": {
+          "choices": [
+            "組み込む",
+            "輸送する",
+            "製造する",
+            "修理する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-incorporated-ja-option-1",
+            "article-particle-telescope-2026-incorporated-ja-option-2",
+            "article-particle-telescope-2026-incorporated-ja-option-3",
+            "article-particle-telescope-2026-incorporated-ja-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-incorporated-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "transported",
+            "manufactured",
+            "repaired"
+          ],
+          "explanation": "本文では「組み込んだ」の意味。輸送した・製造した・修理したとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "included as part of a larger system",
+            "moved between two different locations",
+            "produced through a manufacturing process",
+            "restored after damage to a working state"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-incorporated-en-option-1",
+            "article-particle-telescope-2026-incorporated-en-option-2",
+            "article-particle-telescope-2026-incorporated-en-option-3",
+            "article-particle-telescope-2026-incorporated-en-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-incorporated-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "transported",
+            "manufactured",
+            "repaired"
+          ],
+          "explanation": "本文では「組み込んだ」の意味。輸送した・製造した・修理したとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "incorporated into a design",
+            "pattern": "動詞を含む句",
+            "meaningJa": "設計に組み込まれた",
+            "nuanceJa": "「設計に組み込まれた」という場面で用いる組み合わせ。",
+            "example": "The new sensor was incorporated into the design.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "incorporated in a system",
+            "pattern": "動詞を含む句",
+            "meaningJa": "システムに組み込まれた",
+            "nuanceJa": "「システムに組み込まれた」という場面で用いる組み合わせ。",
+            "example": "Several checks were incorporated in the system.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "incorporated into a plan",
+            "pattern": "動詞を含む句",
+            "meaningJa": "計画に取り入れられた",
+            "nuanceJa": "「計画に取り入れられた」という場面で用いる組み合わせ。",
+            "example": "Their suggestions were incorporated into the plan.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-particle-telescope-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-particle-telescope-2026-compact",
+      "headword": "compact",
+      "surfaceForm": "compact",
+      "partOfSpeech": "adjective",
+      "meaning": "小型の",
+      "definition": "small and efficiently arranged",
+      "contextParagraphId": "p2",
+      "context": "This earlier work showed that compact equipment could provide useful information about particles surrounding our planet.",
+      "example": "The compact instrument fits inside a small container.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "小型の",
+      "questions": {
+        "ja": {
+          "choices": [
+            "小型の",
+            "透明な",
+            "柔軟な",
+            "頑丈な"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-compact-ja-option-1",
+            "article-particle-telescope-2026-compact-ja-option-2",
+            "article-particle-telescope-2026-compact-ja-option-3",
+            "article-particle-telescope-2026-compact-ja-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-compact-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "transparent",
+            "flexible",
+            "sturdy"
+          ],
+          "explanation": "本文では「小型の」の意味。透明な・柔軟な・頑丈なとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "small and efficiently arranged",
+            "clear and allowing light through",
+            "flexible and easy to bend",
+            "strong and difficult to break"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-compact-en-option-1",
+            "article-particle-telescope-2026-compact-en-option-2",
+            "article-particle-telescope-2026-compact-en-option-3",
+            "article-particle-telescope-2026-compact-en-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-compact-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "transparent",
+            "flexible",
+            "sturdy"
+          ],
+          "explanation": "本文では「小型の」の意味。透明な・柔軟な・頑丈なとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "compact design",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "小型の設計",
+            "nuanceJa": "「小型の設計」という場面で用いる組み合わせ。",
+            "example": "A compact design saves space on the desk.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "compact device",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "小型装置",
+            "nuanceJa": "「小型装置」という場面で用いる組み合わせ。",
+            "example": "They developed a compact device for field work.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "compact camera",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "小型カメラ",
+            "nuanceJa": "「小型カメラ」という場面で用いる組み合わせ。",
+            "example": "I packed a compact camera for the trip.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-particle-telescope-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-particle-telescope-2026-temporary",
+      "headword": "temporary",
+      "surfaceForm": "temporary",
+      "partOfSpeech": "adjective",
+      "meaning": "一時的な",
+      "definition": "lasting for a limited period",
+      "contextParagraphId": "p3",
+      "context": "NASA explained in February 2025 that CIRBE data revealed two temporary radiation belts after the powerful solar storm of May 2024.",
+      "example": "The temporary repair kept the machine running overnight.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "一時的な",
+      "questions": {
+        "ja": {
+          "choices": [
+            "一時的な",
+            "季節的な",
+            "断続的な",
+            "周期的な"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-temporary-ja-option-1",
+            "article-particle-telescope-2026-temporary-ja-option-2",
+            "article-particle-telescope-2026-temporary-ja-option-3",
+            "article-particle-telescope-2026-temporary-ja-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-temporary-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "seasonal",
+            "intermittent",
+            "periodic"
+          ],
+          "explanation": "本文では「一時的な」の意味。季節的な・断続的な・周期的なとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "lasting for a limited period",
+            "occurring during a particular season",
+            "happening with breaks between events",
+            "repeating at regular time intervals"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-temporary-en-option-1",
+            "article-particle-telescope-2026-temporary-en-option-2",
+            "article-particle-telescope-2026-temporary-en-option-3",
+            "article-particle-telescope-2026-temporary-en-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-temporary-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "seasonal",
+            "intermittent",
+            "periodic"
+          ],
+          "explanation": "本文では「一時的な」の意味。季節的な・断続的な・周期的なとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "temporary closure",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "一時閉鎖",
+            "nuanceJa": "「一時閉鎖」という場面で用いる組み合わせ。",
+            "example": "The station announced a temporary closure.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "temporary position",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "臨時の職",
+            "nuanceJa": "「臨時の職」という場面で用いる組み合わせ。",
+            "example": "She accepted a temporary position at the library.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "temporary shelter",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "一時的な避難所",
+            "nuanceJa": "「一時的な避難所」という場面で用いる組み合わせ。",
+            "example": "The school provided temporary shelter during repairs.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-particle-telescope-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-particle-telescope-2026-resumed",
+      "headword": "resumed",
+      "surfaceForm": "resumed",
+      "partOfSpeech": "verb",
+      "meaning": "再開した",
+      "definition": "started again after a pause",
+      "contextParagraphId": "p4",
+      "context": "The satellite resumed collecting data in June.",
+      "example": "The experiment resumed after the equipment was repaired.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "再開した",
+      "questions": {
+        "ja": {
+          "choices": [
+            "再開した",
+            "延長した",
+            "変更した",
+            "加速した"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-resumed-ja-option-1",
+            "article-particle-telescope-2026-resumed-ja-option-2",
+            "article-particle-telescope-2026-resumed-ja-option-3",
+            "article-particle-telescope-2026-resumed-ja-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-resumed-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "extended",
+            "modified",
+            "accelerated"
+          ],
+          "explanation": "本文では「再開した」の意味。延長した・変更した・加速したとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "started again after a pause",
+            "continued for a longer period",
+            "changed from the previous arrangement",
+            "became faster than the previous pace"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-resumed-en-option-1",
+            "article-particle-telescope-2026-resumed-en-option-2",
+            "article-particle-telescope-2026-resumed-en-option-3",
+            "article-particle-telescope-2026-resumed-en-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-resumed-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "extended",
+            "modified",
+            "accelerated"
+          ],
+          "explanation": "本文では「再開した」の意味。延長した・変更した・加速したとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "resumed work",
+            "pattern": "動詞を含む句",
+            "meaningJa": "仕事を再開した",
+            "nuanceJa": "「仕事を再開した」という場面で用いる組み合わせ。",
+            "example": "The team resumed work after lunch.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "resumed operations",
+            "pattern": "動詞を含む句",
+            "meaningJa": "運転を再開した",
+            "nuanceJa": "「運転を再開した」という場面で用いる組み合わせ。",
+            "example": "The factory resumed operations on Monday.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "resumed discussions",
+            "pattern": "動詞を含む句",
+            "meaningJa": "議論を再開した",
+            "nuanceJa": "「議論を再開した」という場面で用いる組み合わせ。",
+            "example": "They resumed discussions after the break.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-particle-telescope-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-particle-telescope-2026-perspective",
+      "headword": "perspective",
+      "surfaceForm": "perspective",
+      "partOfSpeech": "noun",
+      "meaning": "観点",
+      "definition": "a particular way of viewing something",
+      "contextParagraphId": "p5",
+      "context": "The mission will provide another perspective on how solar particles spread.",
+      "example": "Measurements from another location offer a new perspective.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "観点",
+      "questions": {
+        "ja": {
+          "choices": [
+            "観点",
+            "見積もり",
+            "予測",
+            "仮説"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-perspective-ja-option-1",
+            "article-particle-telescope-2026-perspective-ja-option-2",
+            "article-particle-telescope-2026-perspective-ja-option-3",
+            "article-particle-telescope-2026-perspective-ja-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-perspective-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "estimate",
+            "prediction",
+            "hypothesis"
+          ],
+          "explanation": "本文では「観点」の意味。見積もり・予測・仮説とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "a particular way of viewing something",
+            "an approximate calculation of a quantity",
+            "a forecast of a future development",
+            "a proposed explanation for an observation"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-particle-telescope-2026-perspective-en-option-1",
+            "article-particle-telescope-2026-perspective-en-option-2",
+            "article-particle-telescope-2026-perspective-en-option-3",
+            "article-particle-telescope-2026-perspective-en-option-4"
+          ],
+          "correctChoiceId": "article-particle-telescope-2026-perspective-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "estimate",
+            "prediction",
+            "hypothesis"
+          ],
+          "explanation": "本文では「観点」の意味。見積もり・予測・仮説とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "a different perspective",
+            "pattern": "名詞を含む句",
+            "meaningJa": "異なる観点",
+            "nuanceJa": "「異なる観点」という場面で用いる組み合わせ。",
+            "example": "The interview offered a different perspective.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "from a scientific perspective",
+            "pattern": "名詞を含む句",
+            "meaningJa": "科学的な観点から",
+            "nuanceJa": "「科学的な観点から」という場面で用いる組み合わせ。",
+            "example": "They examined the issue from a scientific perspective.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "gain perspective",
+            "pattern": "名詞を含む句",
+            "meaningJa": "見方を広げる",
+            "nuanceJa": "「見方を広げる」という場面で用いる組み合わせ。",
+            "example": "The visit helped me gain perspective on the debate.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "sourceKind": "article",
+      "articleId": "article-particle-telescope-2026",
+      "materialVersion": 1
+    }
+  ]
+}

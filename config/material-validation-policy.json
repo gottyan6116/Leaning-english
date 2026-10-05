@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "maxSourceAgeDays": 14,
+  "unknownWarningPercent": 3,
+  "levels": {
+    "A2": {"minWords": 150, "maxWords": 200, "upperWarningPercent": 5},
+    "B1": {"minWords": 250, "maxWords": 300, "upperWarningPercent": 7},
+    "B2": {"minWords": 300, "maxWords": 400, "upperWarningPercent": 10},
+    "C1": {"minWords": 400, "maxWords": 500, "upperWarningPercent": 10}
+  },
+  "legacyArticleIds": ["article-culture-koji-skills-2024", "article-education-europa-carbon-2023", "article-work-four-day-week-2022"],
+  "newLevelDistribution": {"A2": 2, "B1": 3, "B2": 3, "C1": 2}
+}

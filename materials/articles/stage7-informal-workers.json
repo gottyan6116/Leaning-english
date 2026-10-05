@@ -1,0 +1,730 @@
+{
+  "id": "article-informal-workers-2026",
+  "version": 1,
+  "kind": "article",
+  "status": "checked",
+  "createdAt": "2026-10-05",
+  "publishedAt": "2026-10-05T00:00:00+09:00",
+  "sourcePublishedAt": "2026-10-02",
+  "title": "Whose Voice Shapes Trade Policy?",
+  "summaryJa": "貿易政策で非公式部門の働き手の声をどう届けるか",
+  "category": "仕事",
+  "level": "C1",
+  "readingMinutes": 4,
+  "readingEstimateWordsPerMinute": 110,
+  "editorialNotice": "出典に基づく学習用編集版",
+  "textOrigin": "original-for-this-app; factual adaptation",
+  "sources": [
+    {
+      "id": "main",
+      "title": "Informal workers need stronger voice in Africa’s trade policies, ILO research finds",
+      "publisher": "ILO",
+      "author": null,
+      "publishedAt": "2026-10-02",
+      "url": "https://www.ilo.org/resource/news/informal-workers-need-stronger-voice-africa%E2%80%99s-trade-policies-ilo-research",
+      "checkedAt": "2026-10-05",
+      "usage": "確認した一次資料の事実を独自に再構成。例文・選択肢はこのアプリ用に作成。原文転載なし",
+      "paragraphIds": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "id": "brief",
+      "title": "Engaging informal economy actors in trade and labour policy in Africa",
+      "publisher": "ILO",
+      "author": "Iuliia Privalikhina",
+      "publishedAt": "2026-09",
+      "url": "https://www.ilo.org/sites/default/files/2026-10/Research%20Brief_Engaging%20informal%20economy%20actors%20in%20trade%20and%20labour%20policy%20in%20Africa.pdf",
+      "checkedAt": "2026-10-05",
+      "usage": "確認した一次資料の事実を独自に再構成。例文・選択肢はこのアプリ用に作成。原文転載なし",
+      "paragraphIds": [
+        "p3",
+        "p4"
+      ],
+      "datePrecision": "month"
+    },
+    {
+      "id": "overview",
+      "title": "Engaging informal economy actors in trade and labour policy in Africa: publication page",
+      "publisher": "ILO",
+      "author": "Iuliia Privalikhina",
+      "publishedAt": "2026-10-02",
+      "url": "https://www.ilo.org/publications/engaging-informal-economy-actors-trade-and-labour-policy-africa",
+      "checkedAt": "2026-10-05",
+      "usage": "確認した一次資料の事実を独自に再構成。例文・選択肢はこのアプリ用に作成。原文転載なし",
+      "paragraphIds": [
+        "p5",
+        "p6"
+      ]
+    }
+  ],
+  "photo": {
+    "pageUrl": "https://unsplash.com/photos/sittin-people-beside-table-inside-room-hCb3lIB8L8E",
+    "photoId": "hCb3lIB8L8E",
+    "photographer": "Annie Spratt",
+    "service": "Unsplash",
+    "licenseUrl": "https://unsplash.com/license",
+    "checkedAt": "2026-10-04",
+    "credit": "Photo by Annie Spratt on Unsplash",
+    "alt": "テーブルを囲んで働く人々",
+    "context": "港湾・会議に関連する素材写真。Naplesの会議参加者の写真ではない。",
+    "assetPath": "assets/articles/work.jpg"
+  },
+  "paragraphs": [
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "main"
+      ],
+      "text": "An ILO announcement on 2 October 2026 draws attention to a gap between economic importance and political representation. Informal workers contribute to trade, but their concerns are often absent from the discussions that shape it. The organisation's new research brief examines ways to bring these workers and small businesses into trade and labour policy dialogue, rather than treating them only as people affected by decisions made elsewhere.",
+      "translationJa": "ILOが2026年10月2日に公表した記事は、経済での重要性と政策への代表参加の間にある隔たりを指摘した。非公式部門の労働者は貿易に貢献しているが、その関心事は政策を決める議論に反映されにくい。新しい研究報告は、決定の影響を受けるだけの存在として扱うのではなく、労働者や小規模事業者を貿易・労働政策の対話に参加させる方法を検討している。",
+      "id": "p1"
+    },
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "main"
+      ],
+      "text": "In 11 African countries with available data, more than three quarters of employment connected with trade and global supply chains is informal. Those countries account for 45% of employment in Africa. The scope is important: this particular trade-linked estimate is not a direct measurement covering every African country. A separate continent-wide figure describes informal employment more generally. Mixing the two populations would obscure what the evidence actually measures.",
+      "translationJa": "データのあるアフリカ11か国では、貿易と世界的な供給網に関わる雇用の4分の3超が非公式雇用だ。その11か国はアフリカの雇用の45％を占める。対象範囲は重要で、この貿易関連の推計はアフリカ全か国を直接測ったものではない。非公式雇用全体については別の大陸規模の数字がある。二つの母集団を混ぜると、何を測った証拠なのかが曖昧になる。",
+      "id": "p2"
+    },
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "brief"
+      ],
+      "text": "The brief explains why established categories do not always fit these livelihoods. Someone may both perform work and run a business on their own account. A conventional division between employer and worker can therefore make representation difficult. Informal actors may also lack information about policies intended to assist them. Having a consultation process on paper does not ensure that the people most affected can participate in it.",
+      "translationJa": "報告は、既存の分類がこうした生計の形に必ずしも合わない理由を説明する。自ら働く人が同時に個人事業主である場合もある。そのため雇用主と労働者を分ける従来の区分では、代表参加が難しくなる。支援のための政策について情報を得られない人もいる。制度として協議の場があっても、最も影響を受ける人が参加できるとは限らない。",
+      "id": "p3"
+    },
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "brief"
+      ],
+      "text": "One route involves cooperatives and associations becoming affiliated with established workers' or employers' organisations. Such connections can bring local concerns into existing dialogue structures. The research also identifies committees under the African Continental Free Trade Area as potential channels for participation. These are possible institutional routes, not a claim that every committee already represents informal workers equally well or that joining an association automatically resolves all difficulties.",
+      "translationJa": "一つの方法は、協同組合や団体が既存の労働者・雇用主の組織と連携することだ。そのつながりは、地域の懸念を既存の対話の仕組みに届ける助けになる。研究は、アフリカ大陸自由貿易圏の委員会も参加の経路になり得るとしている。これは制度上の可能性であり、すべての委員会がすでに十分な代表参加を実現したとか、団体への加入だけで問題が自動的に解決するという主張ではない。",
+      "id": "p4"
+    },
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "overview"
+      ],
+      "text": "The publication page also distinguishes association from a guaranteed transition. Trade-linked jobs have lower informality than other jobs in the estimates, but this does not establish that expanding trade will automatically make employment formal. Greater competition can place pressure on domestic firms. Policy therefore needs to consider how opportunities and risks are distributed, rather than assuming that a larger volume of trade benefits all workers in the same way.",
+      "translationJa": "報告の公開ページは、統計上の関連と、確実に起きる移行を区別している。推計では貿易関連の仕事の非公式雇用率は他の仕事より低いが、貿易の拡大で雇用が自動的に公式化することを証明するわけではない。競争の激化は国内企業に圧力をかけ得る。政策には、貿易量が増えれば全員が同じように利益を受けると想定せず、機会とリスクの分配を考える必要がある。",
+      "id": "p5"
+    },
+    {
+      "kind": "source-based",
+      "sourceIds": [
+        "overview"
+      ],
+      "text": "The brief's proposals address participation alongside the transition towards formal employment. More inclusive consultation could help policymakers understand situations that familiar organisational categories miss. It may also improve the information reaching workers and enterprises. The central argument is about whose experience enters the policy process. A stronger voice is a proposed means of improving decisions, rather than evidence that consultation alone has already produced better outcomes across the continent.",
+      "translationJa": "報告の提案は、公式雇用への移行と並行して参加の問題を扱っている。より包摂的な協議は、既存の組織分類では見落とす状況を政策担当者が理解する助けになり得る。労働者や企業に届く情報も改善する可能性がある。中心的な論点は、政策をつくる過程に誰の経験が入るかだ。発言力の強化は判断を改善するための提案であり、協議だけですでに大陸全体の成果が改善したという証拠ではない。",
+      "id": "p6"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "article-informal-workers-2026-representation",
+      "headword": "representation",
+      "surfaceForm": "representation",
+      "partOfSpeech": "noun",
+      "meaning": "代表参加",
+      "definition": "the act of speaking for a group",
+      "contextParagraphId": "p1",
+      "context": "An ILO announcement on 2 October 2026 draws attention to a gap between economic importance and political representation.",
+      "example": "The committee reviewed representation of smaller communities.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "代表参加",
+      "questions": {
+        "ja": {
+          "choices": [
+            "代表参加",
+            "条件交渉",
+            "業務監督",
+            "紛争調停"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-representation-ja-option-1",
+            "article-informal-workers-2026-representation-ja-option-2",
+            "article-informal-workers-2026-representation-ja-option-3",
+            "article-informal-workers-2026-representation-ja-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-representation-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "negotiation",
+            "supervision",
+            "mediation"
+          ],
+          "explanation": "本文では「代表参加」の意味。交渉・監督・調停とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "the act of speaking for a group",
+            "the process of bargaining over terms",
+            "the act of supervising a group",
+            "the process of settling a dispute"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-representation-en-option-1",
+            "article-informal-workers-2026-representation-en-option-2",
+            "article-informal-workers-2026-representation-en-option-3",
+            "article-informal-workers-2026-representation-en-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-representation-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "negotiation",
+            "supervision",
+            "mediation"
+          ],
+          "explanation": "本文では「代表参加」の意味。交渉・監督・調停とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "political representation",
+            "pattern": "名詞を含む句",
+            "meaningJa": "政治への代表参加",
+            "nuanceJa": "「政治への代表参加」という場面で用いる組み合わせ。",
+            "example": "The proposal seeks broader political representation.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "worker representation",
+            "pattern": "名詞を含む句",
+            "meaningJa": "労働者の代表参加",
+            "nuanceJa": "「労働者の代表参加」という場面で用いる組み合わせ。",
+            "example": "The agreement strengthens worker representation.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "fair representation",
+            "pattern": "名詞を含む句",
+            "meaningJa": "公正な代表参加",
+            "nuanceJa": "「公正な代表参加」という場面で用いる組み合わせ。",
+            "example": "Members asked for fair representation on the board.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-informal-workers-2026-dialogue",
+      "headword": "dialogue",
+      "surfaceForm": "dialogue",
+      "partOfSpeech": "noun",
+      "meaning": "対話",
+      "definition": "discussion between different participants",
+      "contextParagraphId": "p1",
+      "context": "The organisation's new research brief examines ways to bring these workers and small businesses into trade and labour policy dialogue, rather than treating them only as people affected by decisions made elsewhere.",
+      "example": "The association opened a dialogue with local officials.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "対話",
+      "questions": {
+        "ja": {
+          "choices": [
+            "対話",
+            "交渉",
+            "指導",
+            "仲裁"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-dialogue-ja-option-1",
+            "article-informal-workers-2026-dialogue-ja-option-2",
+            "article-informal-workers-2026-dialogue-ja-option-3",
+            "article-informal-workers-2026-dialogue-ja-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-dialogue-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "negotiation",
+            "mentoring",
+            "arbitration"
+          ],
+          "explanation": "本文では「対話」の意味。交渉・指導・仲裁とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "discussion between different participants",
+            "bargaining over specific agreed terms",
+            "guidance from an experienced adviser",
+            "settlement by an appointed decision-maker"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-dialogue-en-option-1",
+            "article-informal-workers-2026-dialogue-en-option-2",
+            "article-informal-workers-2026-dialogue-en-option-3",
+            "article-informal-workers-2026-dialogue-en-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-dialogue-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "negotiation",
+            "mentoring",
+            "arbitration"
+          ],
+          "explanation": "本文では「対話」の意味。交渉・指導・仲裁とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "policy dialogue",
+            "pattern": "名詞を含む句",
+            "meaningJa": "政策対話",
+            "nuanceJa": "「政策対話」という場面で用いる組み合わせ。",
+            "example": "The workshop opened a policy dialogue.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "social dialogue",
+            "pattern": "名詞を含む句",
+            "meaningJa": "社会的対話",
+            "nuanceJa": "「社会的対話」という場面で用いる組み合わせ。",
+            "example": "Social dialogue brought different groups together.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "open dialogue",
+            "pattern": "名詞を含む句",
+            "meaningJa": "率直な対話",
+            "nuanceJa": "「率直な対話」という場面で用いる組み合わせ。",
+            "example": "Open dialogue helped identify shared concerns.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-informal-workers-2026-livelihoods",
+      "headword": "livelihoods",
+      "surfaceForm": "livelihoods",
+      "partOfSpeech": "noun",
+      "meaning": "生計",
+      "definition": "ways of earning a living",
+      "contextParagraphId": "p3",
+      "context": "The brief explains why established categories do not always fit these livelihoods.",
+      "example": "Road closures affected the traders' livelihoods.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "生計",
+      "questions": {
+        "ja": {
+          "choices": [
+            "生計",
+            "貯蓄",
+            "負債",
+            "補助金"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-livelihoods-ja-option-1",
+            "article-informal-workers-2026-livelihoods-ja-option-2",
+            "article-informal-workers-2026-livelihoods-ja-option-3",
+            "article-informal-workers-2026-livelihoods-ja-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-livelihoods-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "savings",
+            "debts",
+            "subsidies"
+          ],
+          "explanation": "本文では「生計」の意味。貯蓄・負債・補助金とは区別する。"
+        },
+        "en": {
+          "choices": [
+            "ways people earn their income",
+            "money people keep for the future",
+            "money people owe to other people",
+            "money given to support activities"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-livelihoods-en-option-1",
+            "article-informal-workers-2026-livelihoods-en-option-2",
+            "article-informal-workers-2026-livelihoods-en-option-3",
+            "article-informal-workers-2026-livelihoods-en-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-livelihoods-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "savings",
+            "debts",
+            "subsidies"
+          ],
+          "explanation": "本文では「生計」の意味。貯蓄・負債・補助金とは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "protect livelihoods",
+            "pattern": "名詞を含む句",
+            "meaningJa": "生計を守る",
+            "nuanceJa": "「生計を守る」という場面で用いる組み合わせ。",
+            "example": "The plan aims to protect livelihoods during repairs.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "rural livelihoods",
+            "pattern": "名詞を含む句",
+            "meaningJa": "農村の生計",
+            "nuanceJa": "「農村の生計」という場面で用いる組み合わせ。",
+            "example": "Researchers studied rural livelihoods in the region.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "sustainable livelihoods",
+            "pattern": "名詞を含む句",
+            "meaningJa": "持続可能な生計",
+            "nuanceJa": "「持続可能な生計」という場面で用いる組み合わせ。",
+            "example": "The cooperative supports sustainable livelihoods.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-informal-workers-2026-affiliated",
+      "headword": "affiliated",
+      "surfaceForm": "affiliated",
+      "partOfSpeech": "verb",
+      "meaning": "提携した",
+      "definition": "formally connected with an organisation",
+      "contextParagraphId": "p4",
+      "context": "One route involves cooperatives and associations becoming affiliated with established workers' or employers' organisations.",
+      "example": "The local association became affiliated with a national organisation.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "提携した",
+      "questions": {
+        "ja": {
+          "choices": [
+            "提携した",
+            "合併した",
+            "管理した",
+            "補助した"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-affiliated-ja-option-1",
+            "article-informal-workers-2026-affiliated-ja-option-2",
+            "article-informal-workers-2026-affiliated-ja-option-3",
+            "article-informal-workers-2026-affiliated-ja-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-affiliated-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "merged",
+            "administered",
+            "subsidised"
+          ],
+          "explanation": "本文では「提携した」の意味。合併した・管理した・補助したとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "formally connected with an organisation",
+            "combined into a single organisation",
+            "controlled the work of an organisation",
+            "provided funds to an organisation"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-affiliated-en-option-1",
+            "article-informal-workers-2026-affiliated-en-option-2",
+            "article-informal-workers-2026-affiliated-en-option-3",
+            "article-informal-workers-2026-affiliated-en-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-affiliated-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "merged",
+            "administered",
+            "subsidised"
+          ],
+          "explanation": "本文では「提携した」の意味。合併した・管理した・補助したとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "affiliated with a union",
+            "pattern": "動詞を含む句",
+            "meaningJa": "組合と提携した",
+            "nuanceJa": "「組合と提携した」という場面で用いる組み合わせ。",
+            "example": "The association is affiliated with a union.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "affiliated with a university",
+            "pattern": "動詞を含む句",
+            "meaningJa": "大学と提携した",
+            "nuanceJa": "「大学と提携した」という場面で用いる組み合わせ。",
+            "example": "The centre is affiliated with a university.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "affiliated with a network",
+            "pattern": "動詞を含む句",
+            "meaningJa": "ネットワークに所属した",
+            "nuanceJa": "「ネットワークに所属した」という場面で用いる組み合わせ。",
+            "example": "The group is affiliated with a regional network.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    },
+    {
+      "id": "article-informal-workers-2026-inclusive",
+      "headword": "inclusive",
+      "surfaceForm": "inclusive",
+      "partOfSpeech": "adjective",
+      "meaning": "包摂的な",
+      "definition": "allowing different groups to participate",
+      "contextParagraphId": "p6",
+      "context": "More inclusive consultation could help policymakers understand situations that familiar organisational categories miss.",
+      "example": "An inclusive process allows smaller groups to contribute.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "包摂的な",
+      "questions": {
+        "ja": {
+          "choices": [
+            "包摂的な",
+            "協議形式の",
+            "代表選出の",
+            "規則上の"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-inclusive-ja-option-1",
+            "article-informal-workers-2026-inclusive-ja-option-2",
+            "article-informal-workers-2026-inclusive-ja-option-3",
+            "article-informal-workers-2026-inclusive-ja-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-inclusive-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "consultative",
+            "representative",
+            "regulatory"
+          ],
+          "explanation": "本文では「包摂的な」の意味。協議形式の・代表選出の・規則上のとは区別する。"
+        },
+        "en": {
+          "choices": [
+            "allowing different groups to participate",
+            "using discussion to consider proposals",
+            "using selected delegates to express views",
+            "following formally established rules"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-informal-workers-2026-inclusive-en-option-1",
+            "article-informal-workers-2026-inclusive-en-option-2",
+            "article-informal-workers-2026-inclusive-en-option-3",
+            "article-informal-workers-2026-inclusive-en-option-4"
+          ],
+          "correctChoiceId": "article-informal-workers-2026-inclusive-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "consultative",
+            "representative",
+            "regulatory"
+          ],
+          "explanation": "本文では「包摂的な」の意味。協議形式の・代表選出の・規則上のとは区別する。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "inclusive policy",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "包摂的な政策",
+            "nuanceJa": "「包摂的な政策」という場面で用いる組み合わせ。",
+            "example": "The council developed an inclusive policy.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "inclusive discussion",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "多様な人が参加できる議論",
+            "nuanceJa": "「多様な人が参加できる議論」という場面で用いる組み合わせ。",
+            "example": "The facilitator encouraged an inclusive discussion.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "inclusive workplace",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "多様な人を受け入れる職場",
+            "nuanceJa": "「多様な人を受け入れる職場」という場面で用いる組み合わせ。",
+            "example": "The company reviewed its inclusive workplace practices.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      }
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "article-informal-workers-2026-q1",
+      "question": "What is the scope of the trade-linked employment estimate?",
+      "choices": [
+        "Eleven African countries for which data are available.",
+        "Every country with exactly the same quality of data.",
+        "Only companies employing staff outside the continent.",
+        "All employment measured solely through border surveys."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-informal-workers-2026-q1-option-1",
+        "article-informal-workers-2026-q1-option-2",
+        "article-informal-workers-2026-q1-option-3",
+        "article-informal-workers-2026-q1-option-4"
+      ],
+      "correctChoiceId": "article-informal-workers-2026-q1-option-1",
+      "evidenceParagraphIds": [
+        "p2"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p2",
+          "text": "In 11 African countries with available data, more than three quarters of employment connected with trade and global supply chains is informal.",
+          "highlights": [
+            "11 African countries"
+          ]
+        }
+      ],
+      "type": "literal",
+      "explanationJa": "本文中の根拠に基づいて判断します。"
+    },
+    {
+      "id": "article-informal-workers-2026-q2",
+      "question": "Which route for participation does the brief identify?",
+      "choices": [
+        "Links between associations and established organisations.",
+        "The closure of all associations outside major cities.",
+        "The removal of workers from all trade committees.",
+        "The replacement of every cooperative with one company."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-informal-workers-2026-q2-option-1",
+        "article-informal-workers-2026-q2-option-2",
+        "article-informal-workers-2026-q2-option-3",
+        "article-informal-workers-2026-q2-option-4"
+      ],
+      "correctChoiceId": "article-informal-workers-2026-q2-option-1",
+      "evidenceParagraphIds": [
+        "p4"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p4",
+          "text": "One route involves cooperatives and associations becoming affiliated with established workers' or employers' organisations.",
+          "highlights": [
+            "becoming affiliated"
+          ]
+        }
+      ],
+      "type": "literal",
+      "explanationJa": "本文中の根拠に基づいて判断します。"
+    },
+    {
+      "id": "article-informal-workers-2026-q3",
+      "question": "What would be an unjustified conclusion from the estimates?",
+      "choices": [
+        "Increasing trade inevitably makes employment formal.",
+        "Different employment groups may have different rates.",
+        "Researchers must distinguish the populations measured.",
+        "Policy needs information about workers' experiences."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-informal-workers-2026-q3-option-1",
+        "article-informal-workers-2026-q3-option-2",
+        "article-informal-workers-2026-q3-option-3",
+        "article-informal-workers-2026-q3-option-4"
+      ],
+      "correctChoiceId": "article-informal-workers-2026-q3-option-1",
+      "evidenceParagraphIds": [
+        "p5"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p5",
+          "text": "Trade-linked jobs have lower informality than other jobs in the estimates, but this does not establish that expanding trade will automatically make employment formal.",
+          "highlights": [
+            "does not establish"
+          ]
+        }
+      ],
+      "type": "inference",
+      "explanationJa": "ある群の非公式雇用率が低いという関連から、貿易拡大が必ず公式化を起こすという因果関係までは導けない。"
+    }
+  ],
+  "opinion": {
+    "id": "opinion-1",
+    "prompt": "What would make a consultation accessible to people who are usually underrepresented? Propose one practical measure.",
+    "optional": true,
+    "saveScope": "device"
+  },
+  "review": {
+    "factsCheckedAt": "2026-10-05",
+    "editorialParagraphIds": [],
+    "contentApproval": "approved-candidate-and-production",
+    "notes": "公開日と本文の数値・予定を一次資料で確認。日本語訳を段落IDで対応。使い方はすべて未確認。",
+    "translationReview": "段落IDごとに人数・割合・年月を照合し、予定は未来表現、推定や可能性は断定しない日本語に確認。"
+  },
+  "vocabularyReview": {
+    "status": "reviewed",
+    "reason": "非公式雇用・代表参加の分野語を文脈と5語の解説で補助。11か国・45%の対象範囲を維持し、統計上の関連から必然的因果を導かない内容に確認。"
+  },
+  "validationProperNouns": [
+    "ILO",
+    "Africa",
+    "African",
+    "African Continental Free Trade Area"
+  ],
+  "validationEntityAliases": {
+    "ILO": "ILO",
+    "African": "アフリカ",
+    "Africa": "アフリカ",
+    "African Continental Free Trade Area": "アフリカ大陸自由貿易圏"
+  },
+  "validationNumberAliases": {}
+}
