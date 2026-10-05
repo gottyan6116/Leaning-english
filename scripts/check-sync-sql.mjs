@@ -13,7 +13,7 @@ try {
  insert into auth.users values('${A}'),('${B}');`);
  const files=(await fs.readdir('supabase/migrations')).filter(f=>f.endsWith('.sql')).sort();
  for(const file of files)await db.exec(await fs.readFile('supabase/migrations/'+file,'utf8'));
- ok(files.length===3,'three ordered migrations applied');
+ ok(files.length===4,'four ordered migrations applied');
  const tables=['answer_logs','saved_words','preferences','unit_sessions','article_states','opinion_drafts'];
  const rows=await db.query(`select relname,relrowsecurity from pg_class join pg_namespace n on n.oid=relnamespace where n.nspname in ('public','private') and relkind='r'`);
  ok(rows.rows.length===7&&rows.rows.every(r=>r.relrowsecurity),'all seven tables have RLS');
@@ -28,11 +28,22 @@ try {
   opinion_drafts:`(user_id,article_id,prompt_id,body,updated_at) values('${A}','article','opinion','Draft','2026-01-02')`
  };
  for(const table of tables){await db.exec(`insert into public.${table} ${fixture[table]}`);await assert.rejects(db.exec(`insert into public.${table} ${fixture[table].replaceAll(A,B)}`));checks++;}
- const stamp=(await db.query(`select server_updated_at::text s from public.preferences`)).rows[0].s;
+ for(const key of ['daily','weekly']){
+  await db.exec(`insert into public.preferences(user_id,setting_key,value,updated_at) values('${A}','${key}',NULL,'2026-01-02')`);
+  ok((await db.query(`select value from public.preferences where setting_key='${key}'`)).rows[0].value===null,'unset goal accepted as SQL NULL');
+  await db.exec(`update public.preferences set value='null'::jsonb,updated_at='2026-01-03' where setting_key='${key}'`);
+  ok((await db.query(`select value from public.preferences where setting_key='${key}'`)).rows[0].value===null,'unset goal accepted as JSON null');
+  const max=key==='daily'?1440:10080;
+  for(const bad of ['0','-1','1.5',String(max+1),'true','"unset"']){await assert.rejects(db.exec(`update public.preferences set value='${bad}'::jsonb,updated_at='2026-01-04' where setting_key='${key}'`));checks++;}
+  await db.exec(`update public.preferences set value='${max}'::jsonb,updated_at='2026-01-04' where setting_key='${key}'`);
+  ok((await db.query(`select value from public.preferences where setting_key='${key}'`)).rows[0].value===max,'valid upper goal accepted');
+ }
+ for(const key of ['mode','autoAdvance'])for(const value of ['NULL',"'null'::jsonb"]){await assert.rejects(db.exec(`insert into public.preferences(user_id,setting_key,value,updated_at) values('${A}','${key}',${value},'2026-01-05') on conflict(user_id,setting_key) do update set value=excluded.value,updated_at=excluded.updated_at`));checks++;}
+ const stamp=(await db.query(`select server_updated_at::text s from public.preferences where setting_key='mode'`)).rows[0].s;
  for(const date of ['2026-01-01','2026-01-02']){const result=await db.query(`insert into public.preferences(user_id,setting_key,value,updated_at,server_updated_at) values('${A}','mode','"en"','${date}','1900-01-01') on conflict(user_id,setting_key) do update set value=excluded.value,updated_at=excluded.updated_at,server_updated_at=excluded.server_updated_at returning *`);ok(result.rows.length===0,'older or equal upsert ignored');}
- ok((await db.query(`select value,server_updated_at::text s from public.preferences`)).rows[0].s===stamp,'ignored update preserves received timestamp');
+ ok((await db.query(`select value,server_updated_at::text s from public.preferences where setting_key='mode'`)).rows[0].s===stamp,'ignored update preserves received timestamp');
  await db.exec(`insert into public.preferences(user_id,setting_key,value,updated_at,server_updated_at) values('${A}','mode','"en"','2026-01-03','1900-01-01') on conflict(user_id,setting_key) do update set value=excluded.value,updated_at=excluded.updated_at,server_updated_at=excluded.server_updated_at`);
- const newer=(await db.query(`select value,server_updated_at::text s from public.preferences`)).rows[0];ok(newer.value==='en'&&!newer.s.startsWith('1900'),'newer upsert accepted with server timestamp');
+ const newer=(await db.query(`select value,server_updated_at::text s from public.preferences where setting_key='mode'`)).rows[0];ok(newer.value==='en'&&!newer.s.startsWith('1900'),'newer upsert accepted with server timestamp');
  for(const table of ['saved_words','article_states','opinion_drafts']){await db.exec(`update public.${table} set updated_at='2026-01-01',server_updated_at='1900-01-01'`);ok((await db.query(`select updated_at::text u,server_updated_at::text s from public.${table}`)).rows.every(r=>r.u.startsWith('2026-01-02')&&!r.s.startsWith('1900')),'other mutable table rejects old changes');}
  await db.exec(`insert into public.answer_logs ${fixture.answer_logs} on conflict(user_id,event_id) do nothing;insert into public.unit_sessions ${fixture.unit_sessions} on conflict(user_id,session_id) do nothing;`);
  ok((await db.query('select count(*)::int n from public.answer_logs')).rows[0].n===1,'answer resend deduplicated');

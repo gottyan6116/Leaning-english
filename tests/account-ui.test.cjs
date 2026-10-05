@@ -51,3 +51,23 @@ test('import toast only appears inside reopened account after verified success',
  ui.openImport();let dialog=body.children[0];await dialog.querySelector('.account65-primary').listeners.click();assert.equal(body.children[0],dialog);assert.equal(dialog.querySelector('.account65-toast'),null);assert.match(dialog.querySelector('.account65-error').textContent,/取り込めません/);
  success=true;await dialog.querySelector('.account65-primary').listeners.click();dialog=body.children[0];const notice=dialog.querySelector('.account65-toast');assert.equal(notice.textContent,'取り込みました');assert.equal(notice.attributes.role,'status');
 });
+
+test('partial import errors show partial failure and retain an explicit retry',async()=>{
+ const backend={getState:()=>({enabled:true,user:{id:'user'},migrationPreview:{available:true,counts:{saved_words:1}},migrationResult:{success:false,successCount:7,failureCount:2}}),importGuest:async()=>{throw Object.assign(Error('raw server error'),{partialImport:true});}};
+ const {ui,body}=domApi(backend);ui.openImport();const dialog=body.children[0];await dialog.querySelector('.account65-primary').listeners.click();assert.equal(dialog.querySelector('.account65-error').textContent,'一部を取り込めませんでした');assert.equal(dialog.querySelector('.account65-toast'),null);ui.openData();assert.ok(body.children[0].querySelectorAll('button').some(button=>button.children.some(child=>child.textContent==='取り込みを再試行')));
+});
+
+test('blocked items are only exposed under data management, safely and individually discardable',async()=>{
+ let records=[{table:'preferences',key:'opaque-key',revision:3,row:{setting_key:'daily',value:null},error:'raw database error'}];let discarded;
+ const backend={getState:()=>({enabled:true,user:{id:'hidden-user-id',email:'user@example.test'},blockedCount:records.length}),blockedData:()=>records,discardBlocked:async(...args)=>{discarded=args;records=[];}};
+ const {ui,body}=domApi(backend);ui.openAccount();assert.equal(body.children[0].querySelector('.account65-blocked'),null);ui.openData();const dialog=body.children[0],details=dialog.querySelector('.account65-blocked');assert.ok(details);const allText=element=>[element.textContent||'',...element.children.map(allText)].join(' ');const text=allText(details);assert.match(text,/送信できないデータが 1 件あります/);assert.match(text,/日目標：未設定/);for(const hidden of ['opaque-key','hidden-user-id','raw database error'])assert.ok(!text.includes(hidden));
+ const discard=details.querySelector('button');discard.listeners.click();assert.equal(discarded,undefined);const confirm=dialog.querySelector('.account65-discard-confirm');assert.match(allText(confirm),/学習記録は端末に残ります/);await confirm.querySelectorAll('button').find(button=>button.textContent==='破棄').listeners.click();assert.deepEqual(discarded,['preferences','opaque-key',3]);assert.equal(body.children[0].querySelector('.account65-blocked'),null);
+});
+
+test('an empty blocked collection and successful migration create no extra notices',()=>{
+ const backend={getState:()=>({enabled:true,user:{id:'user'},blockedCount:0,migrationResult:{success:true},migrationPreview:{available:true,counts:{}}}),blockedData:()=>[]};const {ui,body}=domApi(backend);ui.openData();assert.equal(body.children[0].querySelector('.account65-blocked'),null);assert.equal(body.children[0].querySelector('.account65-import-failed'),null);
+});
+
+test('blocked session and article records expose actual score and reading state',()=>{
+ const backend={getState:()=>({enabled:true,user:{id:'user'}}),blockedData:()=>[{table:'unit_sessions',row:{correct:7,total:10}},{table:'article_states',row:{read:true}}]};const {ui,body}=domApi(backend);ui.openData();const text=body.children[0].querySelector('.account65-blocked').querySelectorAll('p').map(p=>p.textContent).join(' ');assert.match(text,/7 \/ 10/);assert.match(text,/読了/);
+});

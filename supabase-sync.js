@@ -16,6 +16,8 @@
     const current=()=>session?.user?.id||null;
     function emit(){
       state.pendingCount=storage?.pending().length||0;
+      state.blockedCount=storage?.blocked?.().length||0;
+      if(storage?.snapshot)state.migrationResult=storage.snapshot().migration?.importResult||null;
       const preview=storage?.migrationPreview?.();
       state.migrationPreview=preview?{...preview,guest:{counts:preview.guestCounts||preview.counts},legacy:{counts:preview.legacyCounts||{}}}:null;
       for(const fn of listeners){try{fn(getState());}catch(_){/* A UI subscriber must not stop persistence. */}}
@@ -29,7 +31,7 @@
       const timeout=setTimeout(()=>controller.abort(),options.requestTimeoutMs||20000);timeout.unref?.();
       try{
         const response=await fetcher(config.url+path,{method,signal:controller.signal,headers:{apikey:config.key,...(token?{Authorization:'Bearer '+token}:{}),...(body!==undefined?{'Content-Type':'application/json'}:{}),...headers},...(body!==undefined?{body:JSON.stringify(body)}:{})});
-        if(!response.ok){const error=new Error(response.status===401?'認証が切れました。もう一度ログインしてください。':'同期できませんでした。通信と接続設定を確認してください。');error.status=response.status;try{const detail=await response.json();if(typeof detail.code==='string'&&/^[a-z_]+$/.test(detail.code))error.code=detail.code;}catch(_){}throw error;}
+        if(!response.ok){const error=new Error(response.status===401?'認証が切れました。もう一度ログインしてください。':'同期できませんでした。通信と接続設定を確認してください。');error.status=response.status;error.dataWriteRejected=method==='POST'&&path.startsWith('/rest/v1/');try{const detail=await response.json();if(typeof detail.code==='string'&&/^[a-z_]+$/.test(detail.code))error.code=detail.code;}catch(_){}throw error;}
         if(response.status===204)return null;
         return await response.json();
       }finally{clearTimeout(timeout);controllers.delete(controller);}
@@ -57,13 +59,20 @@
       for(const entry of storage.pending()){
         assertOwner(owner,epoch);
         if(!TABLE_KEYS[entry.table]||entry.row.user_id!==owner)throw new Error('送信データの利用者が一致しません。');
-        const row={...entry.row};delete row.server_updated_at;
-        const query=new URLSearchParams({on_conflict:['user_id',...TABLE_KEYS[entry.table]].join(',')});
-        let accepted=await request('/rest/v1/'+entry.table+'?'+query,{method:'POST',body:row,headers:{Prefer:'resolution='+(APPEND.has(entry.table)?'ignore-duplicates':'merge-duplicates')+',return=representation'}},owner,epoch);
-        if(!Array.isArray(accepted))throw new Error('同期の応答を確認できませんでした。');
-        if(!accepted.length)accepted=await request('/rest/v1/'+entry.table+'?'+rowQuery(entry.table,row,owner),{},owner,epoch);
-        if(!accepted.length)throw new Error('送信したデータを確認できませんでした。');
-        assertOwner(owner,epoch);storage.acknowledge(entry.table,entry.key,entry.revision);storage.merge(entry.table,accepted);
+        try{
+          const row={...entry.row};delete row.server_updated_at;
+          const query=new URLSearchParams({on_conflict:['user_id',...TABLE_KEYS[entry.table]].join(',')});
+          let accepted=await request('/rest/v1/'+entry.table+'?'+query,{method:'POST',body:row,headers:{Prefer:'resolution='+(APPEND.has(entry.table)?'ignore-duplicates':'merge-duplicates')+',return=representation'}},owner,epoch);
+          if(!Array.isArray(accepted))throw new Error('同期の応答を確認できませんでした。');
+          if(!accepted.length)accepted=await request('/rest/v1/'+entry.table+'?'+rowQuery(entry.table,row,owner),{},owner,epoch);
+          if(!accepted.length)throw new Error('送信したデータを確認できませんでした。');
+          assertOwner(owner,epoch);storage.acknowledge(entry.table,entry.key,entry.revision);storage.merge(entry.table,accepted);
+        }catch(error){
+          assertOwner(owner,epoch);
+          if(error.dataWriteRejected&&error.status>=400&&error.status<500&&error.status!==401&&storage.block){
+            storage.block(entry.table,entry.key,entry.revision,{status:error.status,code:error.code});emit();
+          }else throw error;
+        }
       }
     }
     function continuation(table,last){
@@ -99,7 +108,7 @@
         await sendPending(owner,epoch);
         for(const table of Object.keys(TABLE_KEYS))await pullTable(table,full,owner,epoch);
         assertOwner(owner,epoch);state.lastSyncedAt=new Date(now()).toISOString();storage.setItem?.(LAST_KEY,state.lastSyncedAt);
-        state.status=storage.pending().length?'pending':'synced';emit();
+        state.status=storage.blocked?.().length?'failed':storage.pending().length?'pending':'synced';state.error=storage.blocked?.().length?'送信できないデータがあります。':null;emit();
       }catch(error){if(!error.stale&&current()===owner&&generation===epoch){state.status='failed';state.error=error.message&&error.status?error.message:'同期に失敗しました。未送信データは端末に残っています。';emit();}}
       return getState();
     }
@@ -165,30 +174,48 @@
       if(previous&&online()){try{await raw('/auth/v1/logout?scope=local',{method:'POST',token:previous.access_token});}catch(_){/* Local logout still completes offline. */}}
       return getState();
     }
-    function download(data,name){
-      if(options.download)return options.download(data,name);
-      if(!options.document)return;
-      const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'})),a=options.document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    function recordImportResult(result){
+      state.migrationResult=storage.recordImportResult?.(result)||result;emit();return state.migrationResult;
     }
     async function performImport(){
       if(!current())throw new Error('ログインしてください。');const owner=current(),epoch=generation,preview=storage.migrationPreview();
       if(!preview.available)return {targetCounts:preview.counts,imported:false};
-      const backup=storage.exportData('guest');download(backup,'english-notes-before-import.json');
+      // The storage adapter atomically keeps a local pre-import snapshot. No download.
       const result=storage.importGuest();emit();await sync();assertOwner(owner,epoch);
-      if(state.status==='failed'||state.pendingCount)throw new Error('取り込みデータの同期が完了していません。再同期してください。');
-      const counts={};
+      const counts={},tables={};let successCount=0,failureCount=0;
+      const waiting=[...storage.pending(),...(storage.blocked?.()||[])];
       for(const [table,rows]of Object.entries(result.targetRows||{})){
-        counts[table]=0;for(const row of rows){const found=await request('/rest/v1/'+table+'?'+rowQuery(table,row,owner),{},owner,epoch);if(found.length)counts[table]++;}
-        if(counts[table]!==rows.length)throw new Error('取り込み件数が一致しません。再同期してください。');
+        counts[table]=0;const outcomes=[];
+        for(const row of rows){
+          const key=TABLE_KEYS[table].length===1?row[TABLE_KEYS[table][0]]:JSON.stringify(TABLE_KEYS[table].map(k=>row[k]));
+          const outstanding=waiting.find(entry=>entry.table===table&&entry.key===key);
+          let verified=false,status=outstanding?(outstanding.status?'blocked':'pending'):'unverified';
+          if(!outstanding){
+            try{
+              const found=await request('/rest/v1/'+table+'?'+rowQuery(table,row,owner),{},owner,epoch);
+              verified=Array.isArray(found)&&found.some(value=>value.user_id===owner&&TABLE_KEYS[table].every(k=>value[k]===row[k]));
+              if(verified)status='verified';
+            }catch(error){if(error.stale)throw error;assertOwner(owner,epoch);}
+          }
+          if(verified){counts[table]++;successCount++;}else failureCount++;
+          outcomes.push({key,status});
+        }
+        tables[table]={successful:counts[table],failed:rows.length-counts[table],outcomes};
       }
-      storage.markGuestImported(result.snapshotId,owner);state.migrationResult={success:true,verified:true,targetCounts:counts,imported:true};emit();return state.migrationResult;
+      const summary={snapshotId:result.snapshotId,success:failureCount===0,verified:failureCount===0,imported:failureCount===0,targetCounts:counts,successCount,failureCount,tables};
+      assertOwner(owner,epoch);
+      if(failureCount){
+        recordImportResult(summary);
+        const error=new Error('一部を取り込めませんでした');error.code='partial_import';error.partialImport=true;throw error;
+      }
+      storage.markGuestImported(result.snapshotId,owner);return recordImportResult(summary);
     }
     async function importGuest(){
       const owner=current(),epoch=generation;
       try{return await performImport();}
-      catch(error){if(owner===current()&&epoch===generation){state.status='failed';state.error=error.message;state.migrationResult=null;emit();}throw error;}
+      catch(error){if(owner===current()&&epoch===generation){state.status='failed';state.error=error.message;emit();}throw error;}
     }
-    return {init,login,logout,sync,resync:()=>sync({full:true}),getState,subscribe(fn){listeners.add(fn);return()=>listeners.delete(fn);},importGuest,exportData:()=>storage.exportData()};
+    return {init,login,logout,sync,resync:()=>sync({full:true}),getState,subscribe(fn){listeners.add(fn);return()=>listeners.delete(fn);},importGuest,blockedData:()=>storage.blocked?.()||[],discardBlocked:(table,key,revision)=>{if(!current())throw new Error('ログインしてください。');assertOwner(current(),generation);const removed=storage.discardBlocked(table,key,revision);emit();return removed;},exportData:()=>storage.exportData()};
   }
   return {createSyncClient};
 });
