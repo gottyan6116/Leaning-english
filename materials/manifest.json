@@ -15,7 +15,7 @@
       "version": 1,
       "publishedAt": "2026-10-04T00:00:00+09:00",
       "path": "materials/articles/culture-koji.json",
-      "sha256": "79cddb8395ea982914fda51d4c78c8c01ae724e69edf86cec52cbc6218713b9a"
+      "sha256": "02d628170b19637890332b0f6ead45e0a02d1283c2965c515b9059dc27157c6d"
     },
     {
       "id": "article-culture-statistics-2026",
@@ -23,7 +23,7 @@
       "version": 1,
       "publishedAt": "2026-10-05T00:00:00+09:00",
       "path": "materials/articles/stage7-culture-statistics.json",
-      "sha256": "94951e0470005abd839ef6d64e3d4d37729011c383ce3bc479b539e8ee8ead67"
+      "sha256": "1e7646a304e6b465eb0af774f4332d1f3bb39acfb1aa5c3c37bffd9c125d8dc5"
     },
     {
       "id": "article-education-europa-carbon-2023",
@@ -31,7 +31,7 @@
       "version": 1,
       "publishedAt": "2026-10-04T00:00:00+09:00",
       "path": "materials/articles/education-europa.json",
-      "sha256": "9b8052f007c44641c044eb2410ab6bed6fa9ec895e620872d69717c5387dfafe"
+      "sha256": "cde26969d3b87dabe4d9530cf0a02e78022b1a577dfb33ba4ab35b262568e9be"
     },
     {
       "id": "article-ethiopia-business-2026",
@@ -39,7 +39,7 @@
       "version": 1,
       "publishedAt": "2026-10-05T00:00:00+09:00",
       "path": "materials/articles/stage7-ethiopia-business.json",
-      "sha256": "bfcc29f8e5b99b6641f106d9d541828940a13bae8554f755094ea97a3c91a39e"
+      "sha256": "d2dc58bfec272d048a5a6235f4ddf197759f8a3170beff7cfb7d5293f7edd551"
     },
     {
       "id": "article-informal-workers-2026",
@@ -47,7 +47,7 @@
       "version": 1,
       "publishedAt": "2026-10-05T00:00:00+09:00",
       "path": "materials/articles/stage7-informal-workers.json",
-      "sha256": "8bfbef2f1d158f630c8b81545d7869f6a5d2d57f1bb251e1c0b14c0316b65b8b"
+      "sha256": "45e08a85d4619662cf916cbef8fabb08fd86878a1310f41872e2e5c3fd691e34"
     },
     {
       "id": "article-jordan-skills-2026",
@@ -55,7 +55,7 @@
       "version": 1,
       "publishedAt": "2026-10-05T00:00:00+09:00",
       "path": "materials/articles/stage7-jordan-skills.json",
-      "sha256": "69102e29792977a446841747cb2c8cbbd0aff4d42c77c8148abc4d42c79590cc"
+      "sha256": "2c1e5b2144ac183b0706b55d55ce505efd0b3b04c218178783b47265817740d8"
     },
     {
       "id": "article-mexico-tourism-2026",
@@ -63,7 +63,7 @@
       "version": 1,
       "publishedAt": "2026-10-05T00:00:00+09:00",
       "path": "materials/articles/stage7-mexico-tourism.json",
-      "sha256": "5961d21b5970d97ad8ee23ad4d0b913204dc28776eab79637244ca08ee694b07"
+      "sha256": "253b9d06dc5b0e36e95083c166fa6e29dc56dd9a8d4a5da4de035b048d9d6452"
     },
     {
       "id": "article-particle-telescope-2026",
@@ -71,7 +71,7 @@
       "version": 1,
       "publishedAt": "2026-10-05T00:00:00+09:00",
       "path": "materials/articles/stage7-particle-telescope.json",
-      "sha256": "d62a592b6a980ae7d384294a8d0b680f90ede102ab896a55b269bbb299b806fa"
+      "sha256": "169748675c9e75e8c00138a9fde9bca0a0e05e53910415f004759c0eed0ba4d6"
     },
     {
       "id": "article-samoa-tsunami-2026",
@@ -79,7 +79,7 @@
       "version": 1,
       "publishedAt": "2026-10-05T00:00:00+09:00",
       "path": "materials/articles/stage7-samoa-tsunami.json",
-      "sha256": "245a5cef35309ba5728ccac8a5d21e7542aad54f8d6220c8dafc23d300cab9bc"
+      "sha256": "9ca58234858f6ff73e939648bc24ff03fe5fa065832540166eb24c28d03b1568"
     },
     {
       "id": "article-school-poetry-2026",
@@ -87,7 +87,7 @@
       "version": 1,
       "publishedAt": "2026-10-05T00:00:00+09:00",
       "path": "materials/articles/stage7-school-poetry.json",
-      "sha256": "d641325ca1f8a9895e9cfb68d73e3779039914bd29bc78d274a6b72d18504715"
+      "sha256": "1727fe110789b882168a7731626b1bb346e5fe44948491f1c6b9c7c7ae37f43f"
     },
     {
       "id": "article-science-balloon-2026",
@@ -95,7 +95,7 @@
       "version": 1,
       "publishedAt": "2026-10-05T00:00:00+09:00",
       "path": "materials/articles/stage7-science-balloon.json",
-      "sha256": "3eb9c7782244c4241655c18efc5d37288081dfce64c08991da1b32dcd64a713f"
+      "sha256": "3956e7470ceabce26a65b49808dafa77b80770db3c84228ed668597cf731dca7"
     },
     {
       "id": "article-space-ports-2026",
@@ -103,7 +103,7 @@
       "version": 1,
       "publishedAt": "2026-10-05T00:00:00+09:00",
       "path": "materials/articles/stage7-space-ports.json",
-      "sha256": "a027b5443211409bb3dca99297a4b56e0bc3c695dbd51997b04fadf629395623"
+      "sha256": "5a5de720487799a32f13a56471f0f38c7f2dbccba7e0024e8a5e0e4aa9eb123b"
     },
     {
       "id": "article-work-four-day-week-2022",
@@ -111,7 +111,7 @@
       "version": 2,
       "publishedAt": "2026-10-04T00:00:00+09:00",
       "path": "materials/articles/work-four-day-week.json",
-      "sha256": "3f169b7361637555eb8fcd656abbacf425f98c87a126b8e67a109c835534012c"
+      "sha256": "6bdb6ca13c83fb7a049ef7fccd16eee00a2b660735b569b9e56869d6bd86095b"
     }
   ],
   "articleIndex": {

@@ -6,7 +6,9 @@ const {validateItem}=require('../quiz-core.js'),entries=[],ids=new Set(),heads=n
 const json=x=>JSON.stringify(x,null,2)+'\n',hash=text=>crypto.createHash('sha256').update(text).digest('hex');
 function artifact(relative,text){generated.push([relative,text]);return{path:relative,sha256:hash(text)};}
 for(const folder of ['vocabulary','articles'])for(const file of fs.readdirSync(path.join(root,'materials',folder)).filter(x=>x.endsWith('.json')&&x!=='index.json')){
- const relative=`materials/${folder}/${file}`,text=fs.readFileSync(path.join(root,relative),'utf8'),material=JSON.parse(text);
+ const relative=`materials/${folder}/${file}`,destination=path.join(root,relative),raw=fs.readFileSync(destination,'utf8'),text=raw.replace(/\r\n/g,'\n'),material=JSON.parse(text);
+ // Git publishes LF via .gitattributes. Keep the local server and hashes identical too.
+ if(raw!==text){if(process.argv.includes('--write'))fs.writeFileSync(destination,text);else errors.push(`Material uses CRLF: ${relative}. Regenerate with --write before importing.`);}
  if(ids.has(material.id))errors.push(`Duplicate material ID: ${material.id}`);ids.add(material.id);
  if(material.publishedAt!==null&&(!/(Z|[+-]\d\d:\d\d)$/.test(material.publishedAt)||!Number.isFinite(Date.parse(material.publishedAt))))errors.push(`Invalid publication date: ${file}`);
  if(folder==='vocabulary'){
