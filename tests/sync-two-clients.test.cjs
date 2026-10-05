@@ -24,7 +24,7 @@ function server(){
    const accepted={...row,server_updated_at:new Date(++clock).toISOString()};tables[table].set(key,accepted);return response([accepted]);
   }
   let rows=[...tables[table].values()].filter(r=>r.user_id===q.get('user_id').slice(3));
-  for(const col of Core.PRIMARY_KEYS[table])if(q.has(col)){const value=q.get(col).slice(3);rows=rows.filter(r=>r[col]===(value.startsWith('"')?JSON.parse(value):value));}
+  for(const col of Core.PRIMARY_KEYS[table])if(q.has(col)){const filter=q.get(col);if(filter.startsWith('in.(')){const ids=filter.slice(4,-1).split(',').map(v=>v.startsWith('"')?JSON.parse(v):v);rows=rows.filter(r=>ids.includes(r[col]));}else{const value=filter.slice(3);rows=rows.filter(r=>r[col]===(value.startsWith('"')?JSON.parse(value):value));}}
   if(q.has('server_updated_at'))rows=rows.filter(r=>Date.parse(r.server_updated_at)>=Date.parse(q.get('server_updated_at').slice(4)));
   rows.sort((a,b)=>a.server_updated_at.localeCompare(b.server_updated_at)||Core.rowKey(table,a).localeCompare(Core.rowKey(table,b)));
   return response(rows.slice(0,Number(q.get('limit')||500)));
@@ -73,12 +73,12 @@ test('offline local operation survives app restart and sends once after reconnec
  restarted.connectivity.online=true;await restarted.sync.sync();await restarted.sync.sync();assert.equal(restarted.storage.pending().length,0);assert.equal(remote.tables.answer_logs.size,1);assert.equal(remote.tables.saved_words.size,1);
  const pc=await device(remote);await pc.sync.login('x','password');assert.equal(pc.app().savedVocabulary(pc.quiz().bookmarks)[0].headword,'bespoke');
 });
-test('guest and legacy migration is explicit, backed up, reconciles target IDs and leaves old keys intact',async()=>{
+test('guest and legacy records automatically integrate on login and leave old keys intact',async()=>{
  const remote=server(),learning=memory(),original=JSON.stringify([unit.items[0].id]);learning.setItem(KEYS.bookmarks,original);
  const phone=await device(remote,{learning});phone.app().addCustomWord({en:'custom-note',ja:'手入力'});const guestCounts=phone.storage.migrationPreview();assert.equal(guestCounts.counts.saved_words,2);
- await phone.sync.login('x','password');assert.equal(remote.tables.saved_words.size,0);assert.equal(phone.quiz().bookmarks.length,0);
+ await phone.sync.login('x','password');assert.equal(remote.tables.saved_words.size,2);assert.equal(phone.quiz().bookmarks.length,1);
  const result=await phone.sync.importGuest();assert.equal(result.verified,true);assert.equal(result.targetCounts.saved_words,2);assert.equal(phone.storage.migrationPreview().alreadyImported,true);assert.equal(learning.getItem(KEYS.bookmarks),original);
  const pc=await device(remote);await pc.sync.login('x','password');assert.equal(pc.app().savedVocabulary(pc.quiz().bookmarks).length,2);
  const exported=JSON.stringify(phone.sync.exportData());assert.doesNotMatch(exported,/test-token|test-refresh|public-test-key/);
- await phone.sync.logout();assert.equal(phone.storage.getUser(),null);assert.equal(phone.app().savedVocabulary(phone.quiz().bookmarks).length,2);
+ await phone.sync.logout();assert.equal(phone.storage.getUser(),null);assert.equal(phone.app().savedVocabulary(phone.quiz().bookmarks).length,0);
 });

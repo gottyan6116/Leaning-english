@@ -11,9 +11,6 @@ test('login errors separate credentials, network, server and local persistence f
  for(const error of [{code:'connection_failed'},{status:503},{status:400,code:'configuration_failed'},new TypeError('fetch failed')])assert.equal(ui.loginError(error),'サーバーに接続できません。時間をおいて再度お試しください');
  assert.match(ui.loginError({code:'login_failed'}),/端末に保存/);
 });
-test('migration display counts use already deduplicated aggregate, never guest plus legacy totals',()=>{
- const ui=api();assert.equal(ui.total({counts:{answer_logs:2,saved_words:1},guest:{counts:{answer_logs:2}},legacy:{counts:{answer_logs:2}}}),3);assert.equal(ui.total({counts:{}}),0);assert.equal(ui.total(null),0);
-});
 test('last synchronization presentation never includes seconds',()=>{
  const ui=api();const label=ui.dateLabel('2026-10-05T04:13:57.000Z');assert.match(label,/\d{2}:\d{2}$/);assert.doesNotMatch(label,/:57$/);assert.equal(ui.dateLabel(null),null);assert.equal(ui.dateLabel('invalid'),null);
 });
@@ -25,6 +22,7 @@ test('learning settings edits leave previously stored daily and weekly goals unt
  assert.deepEqual(JSON.parse(values.get(APP_KEYS.goals)),{daily:20,weekly:100});
  assert.equal(JSON.parse(values.get(KEYS.settings)).mode,'en');assert.equal(new QuizStore(storage).settings.autoAdvance,false);
 });
+function allText(element){return [element.textContent||'',...element.children.map(allText)].join(' ');}
 function domApi(backend){
  class Element{
   constructor(tag){this.tagName=tag;this.children=[];this.attributes={};this.listeners={};this.classList={add(){},remove(){}};this.validity={valid:true};this.value='';this.dataset={};}
@@ -37,7 +35,7 @@ function domApi(backend){
   querySelector(selector){return this.querySelectorAll(selector)[0]||null;}
  }
  const body=new Element('body'),document={body,createElement:tag=>new Element(tag)},values=new Map(),context={window:{SupabaseSync:backend,AppUI:{creditMarkup:()=>''}},document,localStorage:{getItem:key=>values.get(key),setItem:(key,value)=>values.set(key,value),removeItem:key=>values.delete(key)},setTimeout(){}};
- vm.runInNewContext(source,context);return {ui:context.window.AccountSync,body,values};
+ vm.runInNewContext(source,context);return {ui:context.window.AccountSync,body,values,context};
 }
 test('pending login locks password, eye, submit and guest until failure settles',async()=>{
  let rejectLogin;const backend={getState:()=>({enabled:true}),login:()=>new Promise((_,reject)=>{rejectLogin=reject;})};
@@ -46,15 +44,19 @@ test('pending login locks password, eye, submit and guest until failure settles'
  const guest=dialog.querySelector('.login-guest');guest.listeners.click();assert.equal(body.children[0],dialog);assert.equal(values.size,0);
  rejectLogin({code:'invalid_credentials',status:400});await flight;assert.equal(dialog.querySelectorAll('input,button').every(control=>!control.disabled),true);assert.equal(inputs[1].value,'');assert.equal(dialog.querySelectorAll('.login-error')[1].textContent,'メールアドレスまたはパスワードが違います');
 });
-test('import toast only appears inside reopened account after verified success',async()=>{
- let success=false;const backend={getState:()=>({enabled:true,user:{id:'user',email:'user@example.test'},migrationPreview:{available:true,counts:{saved_words:1}}}),importGuest:async()=>({success})};const {ui,body}=domApi(backend);
- ui.openImport();let dialog=body.children[0];await dialog.querySelector('.account65-primary').listeners.click();assert.equal(body.children[0],dialog);assert.equal(dialog.querySelector('.account65-toast'),null);assert.match(dialog.querySelector('.account65-error').textContent,/取り込めません/);
- success=true;await dialog.querySelector('.account65-primary').listeners.click();dialog=body.children[0];const notice=dialog.querySelector('.account65-toast');assert.equal(notice.textContent,'取り込みました');assert.equal(notice.attributes.role,'status');
+test('login succeeds directly to home without an import prompt, button, count or toast',async()=>{
+ let current={enabled:true};let homeCalls=[];
+ const backend={getState:()=>current,login:async()=>{current={enabled:true,user:{id:'user'},migrationPreview:{available:true,counts:{answer_logs:7,preferences:4}},migrationResult:{success:false}};}};
+ const {ui,body,context}=domApi(backend);context.window.go=view=>homeCalls.push(view);
+ ui.openLogin();const dialog=body.children[0],form=dialog.querySelector('form'),inputs=dialog.querySelectorAll('input');inputs[0].value='user@example.test';inputs[1].value='password-value';
+ await form.listeners.submit({preventDefault(){}});
+ assert.equal(body.children.length,0);assert.deepEqual(homeCalls,['home']);assert.equal(ui.openImport,undefined);
+ ui.openData();const dataText=allText(body.children[0]);assert.doesNotMatch(dataText,/取り込|取り込み|11 件/);assert.equal(body.children[0].querySelector('.account65-toast'),null);
 });
 
-test('partial import errors show partial failure and retain an explicit retry',async()=>{
- const backend={getState:()=>({enabled:true,user:{id:'user'},migrationPreview:{available:true,counts:{saved_words:1}},migrationResult:{success:false,successCount:7,failureCount:2}}),importGuest:async()=>{throw Object.assign(Error('raw server error'),{partialImport:true});}};
- const {ui,body}=domApi(backend);ui.openImport();const dialog=body.children[0];await dialog.querySelector('.account65-primary').listeners.click();assert.equal(dialog.querySelector('.account65-error').textContent,'一部を取り込めませんでした');assert.equal(dialog.querySelector('.account65-toast'),null);ui.openData();assert.ok(body.children[0].querySelectorAll('button').some(button=>button.children.some(child=>child.textContent==='取り込みを再試行')));
+test('past migration verification failures are not exposed as import errors or retry actions',()=>{
+ const backend={getState:()=>({enabled:true,user:{id:'user'},migrationPreview:{available:true,counts:{answer_logs:7}},migrationResult:{success:false,successCount:7,failureCount:2}}),blockedData:()=>[]};
+ const {ui,body}=domApi(backend);ui.openData();assert.doesNotMatch(allText(body.children[0]),/取り込|取り込み|再試行/);assert.equal(body.children[0].querySelector('.account65-import-failed'),null);
 });
 
 test('blocked items are only exposed under data management, safely and individually discardable',async()=>{
