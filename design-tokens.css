@@ -18,6 +18,13 @@
  --color-border:#E6E8EC;
  --color-bg:#F6F7F9;
  --color-surface:#FFFFFF;
+ --glass-surface:rgba(255,255,255,.72);
+ --glass-border:rgba(255,255,255,.65);
+ --glass-blur:20px;
+ --login-color-complement:#B8D9DE;
+ --login-shape-primary:rgba(255,51,102,.15);
+ --login-shape-complement:rgba(184,217,222,.55);
+ --login-gradient:linear-gradient(145deg,var(--color-bg) 0%,var(--color-primary-soft) 52%,var(--login-color-complement) 100%);
  --color-clear:transparent;
  --color-shadow-edge:rgba(20,30,50,.06);
  --color-shadow-ambient:rgba(20,30,50,.05);

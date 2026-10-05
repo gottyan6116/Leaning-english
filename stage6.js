@@ -22,6 +22,6 @@
  Promise.resolve(window.MaterialCatalog?.ready).catch(()=>null).then(()=>{
   const catalog=window.AppUI?.syncCatalog?.();
   if(catalog)storage.setCatalog(catalog.items,catalog.legacyWords);
-  window.SupabaseSync?.init({storage});
+  Promise.resolve(window.SupabaseSync?.init({storage})).then(()=>window.AccountSync?.start());
  });
 })();

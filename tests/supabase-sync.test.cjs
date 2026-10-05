@@ -21,3 +21,31 @@ test('auth persistence failure rolls back the namespace before any sync',async()
 test('storage ownership mismatch stops every network synchronization request',async()=>{const s=storage();let restCalls=0;const c=await client(s,()=>{restCalls++;return response([]);});await c.login('x','secret');restCalls=0;s.setUser(null);await c.sync();assert.equal(restCalls,0);assert.equal(c.getState().status,'failed');});
 test('failed logout namespace switch clears auth and stops sync without writing guest data',async()=>{const s=storage();let restCalls=0;const auth=memory(),c=await client(s,()=>{restCalls++;return response([]);},{authStorage:auth});await c.login('x','secret');const switchUser=s.setUser;s.setUser=uid=>{if(uid===null)throw new Error('Storage inaccessible');switchUser(uid);};restCalls=0;await c.logout();await c.sync();assert.equal(c.getState().user,null);assert.equal(c.getState().status,'failed');assert.equal(auth.getItem('english-notes.auth.session.v1'),null);assert.equal(s.getUser(),'user-a');assert.equal(restCalls,0);});
 test('startup namespace failure disables synchronization rather than restoring authenticated UI',async()=>{const s=storage(),auth=memory();auth.setItem('english-notes.auth.session.v1',JSON.stringify({user:{id:'user-a',email:'learner@example.invalid'},access_token:'test-token',refresh_token:'test-refresh',expires_at:Date.now()/1000+3600}));s.setUser=()=>{throw new Error('Quota exceeded');};let restCalls=0;const c=await client(s,()=>{restCalls++;return response([]);},{authStorage:auth});assert.equal(c.getState().enabled,false);assert.equal(c.getState().user,null);assert.equal(s.getUser(),null);assert.equal(restCalls,0);});
+test('login preserves safe auth error classification without exposing server message',async()=>{
+ for(const [status,code] of [[400,'invalid_credentials'],[503,'unexpected_failure']]){
+  const s=storage();const c=await client(s,()=>response([]),{fetch:async url=>{
+   if(url.includes('config/supabase'))return response({url:'https://unit.supabase.co',anonKey:'public-test'});
+   if(url.includes('sync-policy'))return response({deltaOverlapMs:600000});
+   return response({code,message:'PRIVATE RAW SERVER MESSAGE'},status);
+  }});
+  await assert.rejects(c.login('x','secret'),error=>error.status===status&&error.code===code&&!error.message.includes('PRIVATE'));
+  assert.equal(s.getUser(),null);
+ }
+});
+test('network login failure carries connection classification and leaves guest data unchanged',async()=>{
+ const s=storage();const c=await client(s,()=>response([]),{fetch:async url=>{
+  if(url.includes('config/supabase'))return response({url:'https://unit.supabase.co',anonKey:'public-test'});
+  if(url.includes('sync-policy'))return response({deltaOverlapMs:600000});
+  throw new TypeError('Failed to fetch');
+ }});
+ await assert.rejects(c.login('x','secret'),error=>error.code==='connection_failed');
+ assert.equal(s.getUser(),null);
+});
+test('server rejection without an auth code is classified as connection failure',async()=>{
+ const c=await client(storage(),()=>response([]),{fetch:async url=>{
+  if(url.includes('config/supabase'))return response({url:'https://unit.supabase.co',anonKey:'public-test'});
+  if(url.includes('sync-policy'))return response({deltaOverlapMs:600000});
+  return response({},503);
+ }});
+ await assert.rejects(c.login('x','secret'),error=>error.status===503&&error.code==='connection_failed');
+});

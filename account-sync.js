@@ -1,127 +1,59 @@
-(function (root) {
+(function(root){
  'use strict';
- let activeCleanup = null;
- const countLabels = {answer_logs:'回答履歴',saved_words:'保存した語',preferences:'設定',unit_sessions:'ユニット履歴',article_states:'記事の記録',opinion_drafts:'意見メモ'};
- function node(tag, text, className) {
-  const element = document.createElement(tag);
-  if (text !== undefined) element.textContent = text;
-  if (className) element.className = className;
-  return element;
+ const GUEST_KEY='english-notes.ui.guest-choice.v1';
+ const CREDENTIAL_ERROR='メールアドレスまたはパスワードが違います';
+ const CONNECTION_ERROR='サーバーに接続できません。時間をおいて再度お試しください';
+ const labels={answer_logs:'回答履歴',saved_words:'保存した語',preferences:'設定',unit_sessions:'ユニット履歴',article_states:'記事の記録',opinion_drafts:'意見メモ'};
+ let dialog=null,view=null,unsubscribe=null,busy=false,importAsked=false;
+ const backend=()=>root.SupabaseSync;
+ const state=()=>backend()?.getState?.()||{enabled:false};
+ function node(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
+ function guestSelected(){try{return localStorage.getItem(GUEST_KEY)==='true';}catch(_){return false;}}
+ function setGuest(value){try{if(value)localStorage.setItem(GUEST_KEY,'true');else localStorage.removeItem(GUEST_KEY);}catch(_){/* A unavailable UI preference does not prevent learning. */}}
+ function loginError(error){const code=String(error?.code||'');if(code==='login_failed')return '端末に保存できませんでした。保存領域を確認して再度お試しください';return code==='invalid_credentials'||(!code&&error?.status===401)?CREDENTIAL_ERROR:CONNECTION_ERROR;}
+ function total(preview){return Object.values(preview?.counts||{}).reduce((sum,value)=>sum+(Array.isArray(value)?value.length:Number(value)||0),0);}
+ function canImport(current=state()){const p=current.migrationPreview;return !!current.user&&!!p?.available&&!p.imported&&!p.alreadyImported&&total(p)>0;}
+ function close(){dialog?.close();dialog?.remove();dialog=null;view=null;document.body.classList.remove('login-open');}
+ function shell(name,login=false){close();view=name;dialog=node('dialog',undefined,login?'login-screen':'account-screen');dialog.setAttribute('aria-label',login?'ログイン':name);document.body.append(dialog);dialog.addEventListener('cancel',event=>{if(login){event.preventDefault();return;}close();});dialog.showModal();if(login)document.body.classList.add('login-open');return dialog;}
+ function button(text,action,cls='account65-text',parent=dialog){const b=node('button',text,cls);b.type='button';b.addEventListener('click',action);parent.append(b);return b;}
+ function header(text,back){const h=node('div',undefined,'account65-header');button('‹',back,'account65-back',h).setAttribute('aria-label','戻る');h.append(node('h2',text));dialog.append(h);}
+ function message(text){let box=dialog?.querySelector('.account65-error');if(!box&&dialog){box=node('p',undefined,'account65-error');box.setAttribute('role','alert');dialog.append(box);}if(box)box.textContent=text;}
+ async function perform(action,failure,onSuccess){if(busy)return;busy=true;const host=dialog;host?.setAttribute('aria-busy','true');host?.querySelectorAll('button').forEach(b=>b.disabled=true);try{const result=await action();if(onSuccess)onSuccess(result);}catch(_){message(failure);}finally{busy=false;if(host===dialog){host?.removeAttribute('aria-busy');host?.querySelectorAll('button').forEach(b=>b.disabled=false);}}}
+ function openLogin(){
+  if(!state().enabled){setGuest(true);close();return;}
+  shell('login',true);
+  dialog.append(node('div',undefined,'login-shape login-shape-one'),node('div',undefined,'login-shape login-shape-two'),node('div',undefined,'login-shape login-shape-three'));
+  const wrap=node('div',undefined,'login-wrap'),card=node('div',undefined,'login-card');
+  card.append(node('p','English Notes','login-brand'),node('h1','ログイン'));
+  const form=node('form',undefined,'login-form');form.setAttribute('aria-label','ログイン');form.noValidate=true;
+  const emailLabel=node('label','メールアドレス'),email=node('input');email.type='email';email.name='email';email.autocomplete='email';email.required=true;email.id='login-email';emailLabel.htmlFor=email.id;form.append(emailLabel,email);
+  const emailError=node('p',undefined,'login-error');emailError.id='login-email-error';emailError.setAttribute('role','alert');emailError.hidden=true;email.setAttribute('aria-describedby',emailError.id);form.append(emailError);
+  const passwordLabel=node('label','パスワード'),passwordWrap=node('div',undefined,'login-password'),password=node('input');password.type='password';password.name='password';password.autocomplete='current-password';password.required=true;password.id='login-password';passwordLabel.htmlFor=password.id;passwordWrap.append(password);
+  const eye=button('',()=>{const visible=password.type==='password';password.type=visible?'text':'password';eye.setAttribute('aria-label',visible?'パスワードを隠す':'パスワードを表示');eye.setAttribute('aria-pressed',String(visible));},'login-eye',passwordWrap);eye.setAttribute('aria-label','パスワードを表示');eye.setAttribute('aria-pressed','false');eye.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/><path class="eye-slash" d="m4 4 16 16"/></svg>';
+  form.append(passwordLabel,passwordWrap);const passwordError=node('p',undefined,'login-error');passwordError.id='login-password-error';passwordError.setAttribute('role','alert');passwordError.hidden=true;password.setAttribute('aria-describedby',passwordError.id);form.append(passwordError);
+  const submit=node('button','ログイン','account65-primary');submit.type='submit';form.append(submit);card.append(form);wrap.append(card);
+  const guest=button('ログインせずに使う',()=>{if(busy)return;setGuest(true);close();},'login-guest',wrap);wrap.append(node('p','学習記録はこの端末にのみ保存されます','login-note'));dialog.append(wrap);
+  for(const [input,error]of [[email,emailError],[password,passwordError]])input.addEventListener('input',()=>{error.hidden=true;input.removeAttribute('aria-invalid');});
+  form.addEventListener('submit',async event=>{event.preventDefault();if(busy)return;emailError.hidden=true;passwordError.hidden=true;email.removeAttribute('aria-invalid');password.removeAttribute('aria-invalid');let valid=true;if(!email.value.trim()||!email.validity.valid){emailError.textContent='メールアドレスを正しく入力してください';emailError.hidden=false;email.setAttribute('aria-invalid','true');valid=false;}if(!password.value){passwordError.textContent='パスワードを入力してください';passwordError.hidden=false;password.setAttribute('aria-invalid','true');valid=false;}if(!valid){(emailError.hidden?password:email).focus();return;}busy=true;const host=dialog;host.querySelectorAll('input,button').forEach(control=>control.disabled=true);guest.disabled=true;form.setAttribute('aria-busy','true');const secret=password.value;
+   try{await backend().login(email.value.trim(),secret);setGuest(false);importAsked=false;close();if(canImport()&&!importAsked){importAsked=true;openImport();}}
+   catch(error){password.value='';password.type='password';eye.setAttribute('aria-pressed','false');eye.setAttribute('aria-label','パスワードを表示');passwordError.textContent=loginError(error);passwordError.hidden=false;password.setAttribute('aria-invalid','true');}
+   finally{busy=false;if(host===dialog){host.querySelectorAll('input,button').forEach(control=>control.disabled=false);guest.disabled=false;}form.removeAttribute('aria-busy');}
+  });
  }
- function download(data) {
-  if (!data || typeof data !== 'object') throw new Error('Export unavailable');
-  const url = URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));
-  const link = node('a');
-  link.href=url; link.download='english-notes-'+new Date().toISOString().slice(0,10)+'.json';
-  document.body.append(link); link.click(); link.remove();
-  setTimeout(()=>URL.revokeObjectURL(url),1000);
+ function row(text,action){const b=button('',action,'account65-row');b.append(node('span',text),node('span','›','account65-chevron'));return b;}
+ function statusLine(){const holder=dialog?.querySelector('[data-account-status]');if(!holder)return;holder.replaceChildren();const current=state();if(!current.user)return;if(['failed','error'].includes(current.status)){holder.append(node('p','同期できませんでした'));button('再試行',()=>perform(async()=>{await backend().resync();if(state().status==='failed')throw Error('sync');},'同期できませんでした'),'account65-text',holder);}else if(current.pendingCount>0){holder.append(node('p','未送信 '+current.pendingCount+'件'));}}
+ function openAccount(){shell('アカウント');header('アカウント',close);const current=state();if(current.user){dialog.append(node('p',current.user.email||'','account65-email'));const holder=node('div',undefined,'account65-status');holder.dataset.accountStatus='';holder.setAttribute('role','status');dialog.append(holder);statusLine();}else if(current.enabled){row('ログイン',openLogin);}row('学習設定',openSettings);row('データの管理',openData);if(current.user)button('ログアウト',()=>perform(()=>backend().logout(),'ログアウトできませんでした。もう一度お試しください。',()=>{setGuest(false);importAsked=false;openLogin();}));button('このアプリについて',openAbout,'account65-about');}
+ function openSettings(){shell('学習設定');header('学習設定',openAccount);const settings=root.AppUI?.learningSettings?.()||root.QuizUI?.getStore?.()?.settings||{};const modeLabel=node('label','出題モード','account65-field'),select=node('select');select.name='mode';for(const [value,label]of [['ja','英語 → 日本語'],['en','英語 → 英語']]){const option=node('option',label);option.value=value;select.append(option);}select.value=settings.mode||'ja';modeLabel.append(select);dialog.append(modeLabel);const autoLabel=node('label',undefined,'account65-toggle'),auto=node('input');auto.type='checkbox';auto.name='autoAdvance';auto.checked=settings.autoAdvance!==false;autoLabel.append(node('span','正解したら自動で次へ'),auto);dialog.append(autoLabel);
+  function save(){try{root.AppUI.saveLearningSettings({mode:select.value,autoAdvance:auto.checked});dialog.querySelector('.account65-error')?.remove();}catch(_){const restored=root.AppUI.learningSettings();select.value=restored.mode;auto.checked=restored.autoAdvance;message('設定を保存できませんでした。もう一度お試しください。');}}
+  select.addEventListener('change',save);auto.addEventListener('change',save);
  }
- function countBlock(title, source) {
-  const section = node('div',undefined,'account-sync-counts');
-  section.append(node('h4',title));
-  const counts = source?.counts || source || {};
-  const list = node('dl');
-  for (const [key,label] of Object.entries(countLabels)) {
-   const raw=counts[key],value=Array.isArray(raw)?raw.length:Number(raw);
-   const row=node('div'); row.append(node('dt',label),node('dd',(Number.isFinite(value)?value:0)+'件')); list.append(row);
-  }
-  section.append(list); return section;
+ function dateLabel(value){const date=new Date(value);return value&&Number.isFinite(date.getTime())?date.toLocaleString('ja-JP',{year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}):null;}
+ function download(data){const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const link=node('a');link.href=url;link.download='english-notes-'+new Date().toISOString().slice(0,10)+'.json';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+ function openData(){shell('データの管理');header('データの管理',openAccount);const current=state(),last=dateLabel(current.lastSyncedAt);if(last)dialog.append(node('p','最終同期 '+last,'account65-caption'));if(current.user)row('再同期',()=>perform(async()=>{await backend().resync();if(state().status==='failed')throw Error('sync');},'同期できませんでした',openData));row('学習データを書き出す（JSON）',()=>perform(async()=>download(await backend().exportData()),'書き出しできませんでした。もう一度お試しください。'));if(canImport(current))row('この端末の学習記録を取り込む',openImport);}
+ function openImport(){if(!canImport()){openAccount();return;}shell('学習記録の取り込み');header('学習記録の取り込み',openAccount);const preview=state().migrationPreview;dialog.append(node('p','この端末に学習記録が '+total(preview)+' 件あります。アカウントに取り込みますか？','account65-import-question'));const details=node('details',undefined,'account65-details');details.append(node('summary','詳細'));const list=node('dl');for(const [key,label]of Object.entries(labels)){const value=Number(preview.counts?.[key])||0;if(value){const line=node('div');line.append(node('dt',label),node('dd',value+'件'));list.append(line);}}details.append(list);dialog.append(details);
+  button('取り込む',()=>perform(async()=>{const result=await backend().importGuest();if(result?.success!==true)throw Error('Import not verified');return result;},'取り込めませんでした。時間をおいて再度お試しください。',()=>{openAccount();const notice=node('p','取り込みました','account65-toast');notice.setAttribute('role','status');dialog.append(notice);setTimeout(()=>notice.remove(),3000);}),'account65-primary');button('今はしない',openAccount);
  }
- function mount(container) {
-  if (!container) return ()=>{};
-  if (activeCleanup) activeCleanup();
-  container.querySelector('[data-account-sync]')?.remove();
-  const backend=root.SupabaseSync;
-  const section=node('section',undefined,'account-sync'); section.dataset.accountSync='';
-  section.setAttribute('aria-label','アカウントと学習データ');
-  const auth=node('div'),status=node('p',undefined,'account-sync-status'),message=node('p',undefined,'account-sync-message');
-  status.setAttribute('role','status'); message.setAttribute('role','status');
-  const migration=node('div',undefined,'account-sync-migration'),actions=node('div',undefined,'account-sync-actions');
-  section.append(auth,status,message,migration,actions); container.append(section);
-  let busy=false,disposed=false,authKey=null,unsubscribe=null,lastImport=null;
-  function button(label,action,parent=actions) {
-   const element=node('button',label,'account-sync-button'); element.type='button';
-   element.addEventListener('click',action); parent.append(element); return element;
-  }
-  function state() { return backend?.getState?.() || {enabled:false}; }
-  function setBusy(value) {
-   busy=value;
-   section.querySelectorAll('button,input').forEach(element=>{element.disabled=value;});
-   section.setAttribute('aria-busy',String(value));
-  }
-  async function perform(operation,failure,success) {
-   if(busy || disposed) return;
-   message.textContent=''; setBusy(true);
-   try {
-    const result=await operation();
-    if(!disposed) { if(success) success(result); }
-   } catch (_) {
-    if(!disposed) message.textContent=failure;
-   } finally {
-    if(!disposed) { setBusy(false); render(); }
-   }
-  }
-  function render() {
-   if(disposed) return;
-   const current=state(),enabled=current.enabled===true,user=current.user;
-   const key=enabled?(user?.id || user?.email || 'guest'):'disabled';
-   if(authKey!==key) {
-    authKey=key; auth.replaceChildren(); message.textContent=''; lastImport=null;
-    if(enabled) {
-     auth.append(node('h3','アカウント'));
-     if(user) auth.append(node('p',user.email || 'ログイン中','account-sync-email'));
-     else {
-      const emailLabel=node('label','メールアドレス'),email=node('input');
-      email.type='email'; email.autocomplete='username'; email.name='sync-email'; email.setAttribute('form','account-sync-auth-fields'); emailLabel.append(email);
-      const passwordLabel=node('label','パスワード'),password=node('input');
-      password.type='password'; password.autocomplete='current-password'; password.name='sync-password'; password.setAttribute('form','account-sync-auth-fields'); passwordLabel.append(password);
-      auth.append(emailLabel,passwordLabel);
-      const login=()=>{
-       if(busy) return;
-       const address=email.value.trim(),secret=password.value;
-       if(!address || !email.checkValidity() || !secret) { message.textContent='メールアドレスとパスワードを入力してください。'; return; }
-       password.value='';
-       perform(()=>backend.login(address,secret),'ログインできませんでした。入力内容と接続を確認してください。');
-      };
-      button('ログイン',login,auth);
-      password.addEventListener('keydown',event=>{if(event.key==='Enter'){event.preventDefault();event.stopPropagation();login();}});
-      email.addEventListener('keydown',event=>{if(event.key==='Enter'){event.preventDefault();event.stopPropagation();password.focus();}});
-     }
-    }
-   }
-   status.hidden=!enabled; migration.replaceChildren(); actions.replaceChildren();
-   if(enabled) {
-    const pending=Number(current.pendingCount)||0;
-    const labels={pending:pending?'未送信 '+pending+'件':'未送信あり',syncing:'同期中',failed:'同期に失敗しました。未送信の記録は端末に保存されています。',error:'同期に失敗しました。未送信の記録は端末に保存されています。',synced:'同期済み',idle:user?'同期を待っています':'ログインしていません',guest:'ログインしていません'};
-    status.textContent=labels[current.status] || (user?'同期を待っています':'ログインしていません');
-    if(user && current.lastSyncedAt) {
-     const date=new Date(current.lastSyncedAt);
-     if(Number.isFinite(date.getTime())) status.textContent+=' · '+date.toLocaleString('ja-JP');
-    }
-    if(user) {
-     button(['failed','error'].includes(current.status)?'同期を再試行':'再同期',()=>perform(()=>backend.resync(),'同期できませんでした。接続を確認して再試行してください。'));
-     button('ログアウト',()=>perform(()=>backend.logout(),'ログアウトできませんでした。もう一度お試しください。'));
-     const preview=current.migrationPreview;
-     if(preview && !preview.imported && !preview.alreadyImported && preview.available===true) {
-      migration.append(node('h3','この端末の学習データを取り込む'));
-      migration.append(countBlock('ゲストの記録',preview.guest),countBlock('以前の保存形式の記録',preview.legacy));
-      migration.append(node('p','取り込む前に、この端末の対象データをJSONで書き出します。','account-sync-description'));
-      button('表示したデータを取り込む',()=>perform(()=>backend.importGuest(),'取り込みを完了できませんでした。記録は端末に残っています。',result=>{lastImport=result;}),migration);
-     }
-     const result=lastImport || current.migrationResult;
-     if(result?.targetCounts) {
-      migration.append(node('h3',result.success===true || result.verified===true?'取り込み完了':'取り込み件数の確認'),countBlock('取り込み対象の照合件数',result.targetCounts));
-     }
-    }
-   }
-   button('学習データをJSONで書き出す',()=>perform(async()=>download(await backend.exportData()),'書き出しできませんでした。もう一度お試しください。'));
-   if(!enabled) actions.prepend(node('h3','学習データ'));
-   setBusy(busy);
-  }
-  render();
-  unsubscribe=backend?.subscribe?.(()=>render());
-  const cleanup=()=>{disposed=true;if(typeof unsubscribe==='function')unsubscribe();section.querySelectorAll('input[type="password"]').forEach(input=>{input.value='';});if(activeCleanup===cleanup)activeCleanup=null;};
-  activeCleanup=cleanup; return cleanup;
- }
- root.AccountSync={mount};
+ function openAbout(){shell('このアプリについて');header('このアプリについて',openAccount);const content=node('div',undefined,'account65-credits');content.innerHTML=root.AppUI?.creditMarkup?.()||'';dialog.append(content);}
+ function start(){unsubscribe?.();unsubscribe=backend()?.subscribe?.(()=>{if(view==='アカウント')statusLine();});const current=state();if(current.enabled&&!current.user&&!guestSelected())openLogin();}
+ root.AccountSync={start,openAccount,openLogin,openSettings,openData,openAbout,openImport,close,mount:()=>()=>{},destroy:()=>{unsubscribe?.();unsubscribe=null;close();},loginError,total,dateLabel};
 })(window);

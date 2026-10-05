@@ -29,7 +29,7 @@
       const timeout=setTimeout(()=>controller.abort(),options.requestTimeoutMs||20000);timeout.unref?.();
       try{
         const response=await fetcher(config.url+path,{method,signal:controller.signal,headers:{apikey:config.key,...(token?{Authorization:'Bearer '+token}:{}),...(body!==undefined?{'Content-Type':'application/json'}:{}),...headers},...(body!==undefined?{body:JSON.stringify(body)}:{})});
-        if(!response.ok){const error=new Error(response.status===401?'認証が切れました。もう一度ログインしてください。':'同期できませんでした。通信と接続設定を確認してください。');error.status=response.status;throw error;}
+        if(!response.ok){const error=new Error(response.status===401?'認証が切れました。もう一度ログインしてください。':'同期できませんでした。通信と接続設定を確認してください。');error.status=response.status;try{const detail=await response.json();if(typeof detail.code==='string'&&/^[a-z_]+$/.test(detail.code))error.code=detail.code;}catch(_){}throw error;}
         if(response.status===204)return null;
         return await response.json();
       }finally{clearTimeout(timeout);controllers.delete(controller);}
@@ -153,7 +153,7 @@
         if(epoch!==generation)throw new Error('ログインが中断されました。');
         try{storage.setUser(previousUser);session=previousSession;state={...previousState};}
         catch(_){session=null;state.user=null;state.enabled=false;}
-        state.status='failed';state.error='ログインできませんでした。認証情報と端末の保存領域を確認してください。';emit();throw new Error(state.error);
+        state.status='failed';state.error='ログインできませんでした。認証情報と端末の保存領域を確認してください。';emit();const failure=new Error(state.error);if(error.status)failure.status=error.status;failure.code=error.code||(error.status===401?'invalid_credentials':(error.status||error instanceof TypeError||error.name==='AbortError')?'connection_failed':'login_failed');throw failure;
       }
     }
     async function logout(){
