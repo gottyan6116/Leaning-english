@@ -4,7 +4,7 @@
  const bank=[...C1_UNIT_01.items,...DEVELOPMENT_VOCABULARY.items].filter(validateItem);
  let sourceContext=null;
  let store=null,session=null,returnView='home',timer=null,overlay=null,error='',lastResult=null,focusBefore=null,toastTimer=null;
- try{store=new QuizStore(window.localStorage);}catch(e){error='回答履歴を読み込めません。ブラウザの保存設定を確認してください。';}
+ try{store=new QuizStore(window.AppStorage||window.localStorage);}catch(e){error='回答履歴を読み込めません。ブラウザの保存設定を確認してください。';}
  const svg=(name)=>{const paths={close:'M6 6l12 12M18 6 6 18',more:'M5 12h.01M12 12h.01M19 12h.01',save:'M6 3h12v18l-6-4-6 4z',check:'m5 12 4 4L19 6',wrong:'M7 7l10 10M17 7 7 17',arrow:'m9 5 7 7-7 7'};return `<svg class="qs-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="${paths[name]}"/></svg>`;};
  const root=document.createElement('div');root.id='quiz-session';root.className='qs-root';root.hidden=true;document.body.append(root);
  const safe=s=>esc(s),modeName=m=>m==='en'?'英語 → 英語':'英語 → 日本語';
@@ -48,6 +48,7 @@
  function nextSet(){const previous=new Set(session.items.map(x=>x.id)),items=(window.AppUI?AppUI.reviewItems():[]).filter(x=>!previous.has(x.id)).slice(0,10);if(items.length)launch(items);else{session=null;drawComplete();}}
  startReview=start;
  window.QuizUI={answer:i=>submit(i),skip:()=>submit(null,true),next,bookmark,saveResult:drawResult,menu:()=>openOverlay('menu'),interrupt,closeOverlay,switchMode,toggleAuto,retry,nextSet,advanced,startUnit,startWord,startArticle,registerItems,getStore:()=>store,leave:()=>leave(),home:()=>leave('home')};
+ window.QuizUI.reloadStore=({scopeChanged=false}={})=>{if(scopeChanged&&!root.hidden)leave('home');const fresh=new QuizStore(window.AppStorage||window.localStorage);if(store){store.logs=fresh.logs;store.settings=fresh.settings;store.bookmarks=fresh.bookmarks;}else store=fresh;};
  document.addEventListener('keydown',e=>{if(root.hidden)return;if(overlay){if(e.key==='Escape'){e.preventDefault();closeOverlay();return;}if(e.key==='Tab'){const buttons=[...root.querySelectorAll('.qs-overlay button')],first=buttons[0],last=buttons[buttons.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}return;}if(e.key==='Escape'){e.preventDefault();interrupt();return;}if(e.repeat)return;if(session?.state==='question'&&/^[1-4]$/.test(e.key)){e.preventDefault();submit(Number(e.key)-1);}else if(session&&['correct','wrong'].includes(session.state)&&['Enter',' '].includes(e.key)){e.preventDefault();next();}},true);
  document.addEventListener('visibilitychange',()=>{if(document.hidden)clearAuto();else scheduleAuto();});
  render();

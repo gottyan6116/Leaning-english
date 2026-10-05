@@ -13,7 +13,7 @@ try {
  insert into auth.users values('${A}'),('${B}');`);
  const files=(await fs.readdir('supabase/migrations')).filter(f=>f.endsWith('.sql')).sort();
  for(const file of files)await db.exec(await fs.readFile('supabase/migrations/'+file,'utf8'));
- ok(files.length===2,'two ordered migrations applied');
+ ok(files.length===3,'three ordered migrations applied');
  const tables=['answer_logs','saved_words','preferences','unit_sessions','article_states','opinion_drafts'];
  const rows=await db.query(`select relname,relrowsecurity from pg_class join pg_namespace n on n.oid=relnamespace where n.nspname in ('public','private') and relkind='r'`);
  ok(rows.rows.length===7&&rows.rows.every(r=>r.relrowsecurity),'all seven tables have RLS');
@@ -44,7 +44,7 @@ try {
  for(const table of tables){await assert.rejects(db.query(`select * from public.${table}`));checks++;}
  await assert.rejects(db.query(`select public.before_user_created_allowlist('{}')`));checks++;
  await db.exec(`reset role;insert into private.allowed_emails(email) values('one@example.test'),('two@example.test');set role supabase_auth_admin;`);
- for(const [email,provider,allowed] of [['ONE@example.test','google',true],['two@example.test','google',true],['other@example.test','google',false],['one@example.test','email',false],['one@example.test',null,false]]){
+ for(const [email,provider,allowed] of [['ONE@example.test','google',true],['two@example.test','google',true],['other@example.test','google',false],['one@example.test','email',true],['other@example.test','email',false],['one@example.test','github',false],['one@example.test',null,false]]){
   const result=await db.query('select public.before_user_created_allowlist($1::jsonb) result',[JSON.stringify({user:{email,app_metadata:{provider}}})]);ok(Boolean(result.rows[0].result.error)!==allowed,'Hook registration gate');
  }
  await db.exec(`reset role;delete from auth.users where id='${A}'`);

@@ -5,8 +5,9 @@
  function saveAnswer(a,q,choiceId){const events=readStore(ANSWER_KEY),eventId=crypto.randomUUID();events[eventId]={eventId,questionId:q.id,articleId:a.id,wordId:null,materialVersion:a.version,selectedChoiceId:choiceId,correctChoiceId:q.correctChoiceId,correct:choiceId===q.correctChoiceId,skipped:false,answeredAt:new Date().toISOString(),kind:'comprehension',mode:'en',sessionId:state.readSession};return writeStore(ANSWER_KEY,events)}
  const e=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const safeUrl=value=>{try{const u=new URL(value,location.href);return ['https:','http:'].includes(u.protocol)?u.href:''}catch{return ''}};
- const readStore=key=>{try{const val=JSON.parse(localStorage.getItem(key)||'{}');return val&&typeof val==='object'&&!Array.isArray(val)?val:{}}catch{return {}}};
- function writeStore(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{toast('保存できませんでした');return false}}
+ const storage=window.AppStorage||localStorage;
+ const readStore=key=>{try{const val=JSON.parse(storage.getItem(key)||'{}');return val&&typeof val==='object'&&!Array.isArray(val)?val:{}}catch{return {}}};
+ function writeStore(key,value){try{storage.setItem(key,JSON.stringify(value));return true}catch{toast('保存できませんでした');return false}}
  const catalogue=()=>window.MaterialCatalog?.articles?.()||[];
  const current=()=>catalogue().find(a=>a.id===state.selected)||null;
  const read=a=>Boolean(readStore(READ_KEY)[a.id]?.completedAt);
@@ -49,6 +50,6 @@
  document.addEventListener('keydown',event=>{const card=event.target;if(card.matches('[role="link"][data-a5-open]')&&(event.key==='Enter'||event.key===' ')){event.preventDefault();open(card.dataset.a5Open)}});
  document.addEventListener('mouseup',selection);document.addEventListener('touchend',()=>setTimeout(selection,50));document.addEventListener('keyup',selection);
  articles=list;article=detail;
- window.ArticleUI={open,articles:list,article:detail,readKeys:{read:READ_KEY,opinion:DRAFT_KEY,answers:ANSWER_KEY}};
+ window.ArticleUI={open,articles:list,article:detail,scopeChanged:()=>{state.orders.clear();state.answers.clear();state.selection=null;state.activeWord=null;state.readSession=crypto.randomUUID();document.getElementById('a5-meaning')?.setAttribute('hidden','');document.getElementById('a5-selection')?.setAttribute('hidden','');},readKeys:{read:READ_KEY,opinion:DRAFT_KEY,answers:ANSWER_KEY}};
  Promise.resolve(window.MaterialCatalog?.ready).then(()=>{if(view==='articles'||view==='article')render()}).catch(()=>{if(view==='articles')render()});
 })();

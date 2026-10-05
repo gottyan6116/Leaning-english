@@ -1,0 +1,20 @@
+.account-sync { margin-top:24px; padding-top:20px; border-top:1px solid var(--color-border); color:var(--color-text); font-size:var(--font-size-body); }
+.account-sync h3 { margin:0 0 12px; font-size:var(--font-size-section-title); font-weight:var(--font-weight-bold); }
+.account-sync label { display:block; margin-bottom:14px; font-weight:var(--font-weight-regular); }
+.account-sync input { display:block; width:100%; box-sizing:border-box; margin-top:6px; padding:12px; min-height:44px; border:1px solid var(--color-border); border-radius:var(--radius-input); background:var(--color-surface); color:var(--color-text); font-size:var(--font-size-body); }
+.account-sync .account-sync-button { min-height:44px; margin:0 0 10px; padding:10px 16px; border:1px solid var(--color-border); border-radius:var(--radius-button); background:var(--color-surface); color:var(--color-text); box-shadow:var(--shadow-secondary); font-weight:var(--font-weight-bold); font-size:var(--font-size-body); transition:transform var(--duration-press) var(--motion-easing),box-shadow var(--duration-press) var(--motion-easing); }
+.account-sync .account-sync-button:active { transform:translateY(2px); box-shadow:none; }
+.account-sync .account-sync-button:disabled { color:var(--color-text-muted); cursor:wait; }
+.account-sync input:focus-visible,.account-sync button:focus-visible { outline:2px solid var(--color-text); outline-offset:3px; }
+.account-sync-status,.account-sync-message,.account-sync-description { color:var(--color-text-sub); line-height:1.6; margin:12px 0; }
+.account-sync-message:empty { display:none; }
+.account-sync-email { overflow-wrap:anywhere; margin-bottom:12px; }
+.account-sync-actions { display:flex; gap:8px; flex-wrap:wrap; }
+.account-sync-actions h3 { flex-basis:100%; }
+.account-sync-migration:not(:empty) { padding:16px 0; margin-bottom:12px; border-bottom:1px solid var(--color-border); }
+.account-sync-counts { margin:12px 0; }
+.account-sync-counts h4 { margin:0 0 8px; font-size:var(--font-size-body); font-weight:var(--font-weight-bold); }
+.account-sync-counts dl { margin:0; }
+.account-sync-counts dl>div { display:flex; justify-content:space-between; gap:12px; margin:6px 0; color:var(--color-text-sub); }
+.account-sync-counts dd { margin:0; font-variant-numeric:tabular-nums; }
+@media(prefers-reduced-motion:reduce) { .account-sync .account-sync-button { transition:none; } .account-sync .account-sync-button:active { transform:none; } }
