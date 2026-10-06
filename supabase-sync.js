@@ -99,6 +99,7 @@
       }while(true);
       assertOwner(owner,epoch);storage.merge(table,all);if(max)storage.cursor(table,max);
     }
+    const retriedBlocked=new Set();
     async function cycle(full){
       const owner=current(),epoch=generation;
       if(!state.enabled||!owner)return getState();
@@ -107,6 +108,8 @@
       if(!online()){state.status=storage.pending().length?'pending':'failed';state.error='通信が戻ると同期を再開します。';emit();return getState();}
       state.status='syncing';state.error=null;emit();
       try{
+        // Answers rejected before the collocation migration was applied are retried once per session and on manual resync.
+        if(full||!retriedBlocked.has(owner)){retriedBlocked.add(owner);storage.requeueBlocked?.(entry=>entry.table==='answer_logs'&&entry.row?.kind==='collocation');}
         await sendPending(owner,epoch);
         for(const table of Object.keys(TABLE_KEYS))await pullTable(table,full,owner,epoch);
         await verifyIntegration(owner,epoch);
