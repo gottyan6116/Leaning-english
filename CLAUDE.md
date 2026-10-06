@@ -8,8 +8,8 @@
 
 1. docs/HANDOVER.md（現状、公開先、既知の問題、次工程）
 2. docs/design-rules.md、design-tokens.css、AGENTS.md
-3. requirements-draft.mdの正本はrootになく、../requirements-draft.mdにある。
-   cloneで正本が読めない場合はdocs/requirements.mdを読む（確認時点で同一内容）。
+3. 要件定義書の正本はdocs/requirements.md（一本化済み）。リポジトリ外のファイルは参照しない。
+   第8・9段階の仕様はdocs/stage8-spec.md、docs/stage9-spec.md（受領後に保存）。
 4. 該当段階の設計書・報告書。同期ならdocs/stage6-sync-design.mdとdocs/stage6-supabase-setup.md。
 5. 古いREADME／初期要件にGoogleログイン・同期未実装の記載が残る。
    最新ユーザー指示と段階設計・実コードを優先し、矛盾を報告する。
@@ -73,7 +73,8 @@ git diff --check
 - 訳は段落IDに対応。語彙の例文はオリジナル。写真の利用条件とクレジットを維持。
 - 英日の選択肢は簡潔な訳語。誤答は同レベル・同品詞の別語の訳／定義から選ぶ。
   正解の類義語、反意語、不自然な選択肢を誤答にしない。正解は1つ。
-- コロケーションのunverified／下書きを勝手に確認済みにしない。
+- コロケーションのunverified／下書きを勝手に確認済みにしない。確認済みへの変更はユーザーが行う。
+  第8段階の試作ではunverifiedも出題してよく、その場合は画面に「確認中」と控えめに表示する。
 - C1①の作り直しと残りユニットの追加は未承認の工程として扱う。
 - 公開日、manifestのハッシュ、LFの一致を守る。検証エラーのある教材を公開しない。
   警告は内容レビューと判断理由を残す。機械検証だけで意味の品質を保証しない。
@@ -84,6 +85,7 @@ git diff --check
   明示的な確認不要／既存承認を尊重し、承認を取り直さない。
 - スクリーンショットは不要。実機・模擬・読取検証を区別し、未確認を明記。
 - 依頼されたスコープ以外は触らない。学習時間の固定値を実測として扱わない。
-- 作業開始時にgit statusと公開元を確認。上位AI_companyの変更を含めない。
-- 現在はcodex/learning-uiが作業・公開元。Vercel固定URLは未確認、Pagesは稼働中。
+- 作業開始時にgit statusと公開元を確認。C:/Users/takas/AI_companyは参照・編集しない。
+- 現在はcodex/learning-uiが作業・公開元。公開URLはhttps://learningenglish2026-xi.vercel.app/（Supabase Site URL／Redirect URLs設定済み）。Pagesも稼働中。
+- Cloudflareの既存Worker ba-own-analysis-gatewayには触れない。
   pushだけで公開成功とは言わず、公開設定と配信を確認する。

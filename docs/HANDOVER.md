@@ -1,6 +1,7 @@
 # English Notes 引継書
 
 確認日：2026-10-06（日本時間）。リポジトリ、GitHub API、公開HTTP応答、実Supabaseの読み取り結果を確認。コード変更なし。
+2026-10-06追記：ユーザー側で確認済みの事実（公開URL、Cloudflare Workers AI、要件定義書の正本、第8段階の方針）を反映。コードは未変更。
 「完了」は実装・自動検証の状態であり、未確認の実機検証まで完了した意味ではない。
 
 ## 1. プロジェクトの概要
@@ -15,21 +16,22 @@
 
 ### リポジトリと公開
 
-- ローカル：`C:/Users/takas/AI_company/artifacts/english-learning/repository`
+- ローカル：`C:/Users/takas/dev/Leaning-english`（GitHubからクローンした作業用。以後の作業はここだけで行う）
 - GitHub：`https://github.com/gottyan6116/Leaning-english`
 - 作業ブランチ・GitHub既定ブランチ・GitHub Pages公開元：いずれも `codex/learning-ui`。
 - Pagesはブランチの `/`（root）からのlegacy build。APIでstatus=built、HTTP200、新版 `20261006-mosaic-fade` を確認。
 - Pages URL：`https://gottyan6116.github.io/Leaning-english/`
 - ローカル・remoteに確認できたブランチは `codex/learning-ui`。作業ブランチと公開元が同じなので直近は直接pushして公開。main等へのマージ運用は未確認。
 - 引継書作成前の `git status --short --branch`：変更なし、originと同期。未コミット・未pushの変更なし。
-- この引継ぎのコミットはHANDOVER.mdとCLAUDE.mdだけを対象にする。上位AI_companyの変更を一緒にコミットしない。
+- 引継ぎ更新のコミットはHANDOVER.mdとCLAUDE.mdだけを対象にする。`C:/Users/takas/AI_company` は参照・編集しない。
 
 ### Vercel
 
 - `vercel.json`：framework=null、buildCommand/installCommandは空、outputDirectory="."。静的ファイル公開用。
 - GitHubの最新Productionデプロイは `abc51cc336d5aa19bd4bc318cd77b70cf28f8f78`、成功記録あり。
 - 最新デプロイ固有URL：`https://learningenglish2026-c7m9gznzx-takas-projects-5debe5e4.vercel.app`。匿名HTTPでは302でVercelログインへ転送され、転送先が200。アプリが公開閲覧できたという確認ではない。
-- GitHubのhomepageに登録された `https://learningenglish2026.vercel.app` は今回HTTP404。現在の正しい固定URL・alias設定は未確認。
+- 公開URL（ユーザー確認済み）：`https://learningenglish2026-xi.vercel.app/`。SupabaseのSite URLとRedirect URLsはこのURLに設定済み。
+- `https://learningenglish2026.vercel.app` は使っていない（GitHubのhomepage欄に残る場合は旧値）。
 - 直近のpushに対応するProductionデプロイ履歴を確認。ただしVercel管理画面のProduction Branch設定そのもの、ドメイン設定、Git連携設定の全内容は未確認。履歴のcommitは `codex/learning-ui` と一致する。
 - GitHub Pagesも現在使われている。Vercel移行で停止されたとは扱わない。
 
@@ -98,8 +100,7 @@ git diff --check
 | tests/ | Node標準test runnerによる回帰テスト |
 
 必読ルール：`docs/design-rules.md`、`design-tokens.css`、`AGENTS.md`。
-機能要件の正本はリポジトリの外の `../requirements-draft.md`（絶対パス：`C:/Users/takas/AI_company/artifacts/english-learning/requirements-draft.md`）。rootにrequirements-draft.mdはない。
-`docs/requirements.md` は今回ファイルハッシュが正本と同じ。cloneだけで正本が読めない場合はこの写しと最新の段階設計書を読む。
+機能要件の正本は `docs/requirements.md` に一本化（ユーザー決定）。リポジトリ外のファイル（requirements-draft.md等）は今後参照しない。
 READMEと要件書には旧Googleログイン・同期未実装等の記載が残る。最新ユーザー指示と第6段階以降の設計・コードを優先する。
 
 ### 教材
@@ -125,7 +126,7 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 | 20261005032051_allow_unset_goal_preferences.sql | 日・週目標のSQL NULL／JSON nullを未設定として許可 |
 
 - アプリはメール＋パスワードのログイン／ログアウト。新規登録・パスワード再設定画面なし。実DBで既存の認証identityがemailであること、許可表の有効行が存在すること、登録関数とemail対応を確認。
-- ユーザー報告・設計書はHook有効、メール確認OFF、パスワード12文字以上、Google未設定。Auth管理設定そのものの現在値は今回未確認。関数の存在をHookの有効化確認と混同しない。
+- ユーザー報告・設計書はHook有効、メール確認OFF、パスワード12文字以上、Google未設定。SupabaseのSite URLとRedirect URLsは公開URL `https://learningenglish2026-xi.vercel.app/` に設定済み（ユーザー確認済み）。他のAuth管理設定の現在値は今回未確認。関数の存在をHookの有効化確認と混同しない。
 - オフライン優先。まず本人の端末に保存しoutboxへ積み、ログイン・起動・復帰・通信回復・操作後に送信。
 - 回答ログと完了セッションは追記・同ID再送を重複させない。可変行は新しいupdated_atを採用し、古い／同時刻はDBトリガーで無視。
 - 差分カーソルはuser／テーブルごとのserver_updated_at。重なり幅は `config/sync-policy.json` のdeltaOverlapMs=600000（10分）。再同期は未送信を送って全件読み戻す。
@@ -179,25 +180,27 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 
 - 現在の全Nodeテストは失敗0。教材の既存警告4件は未収録語割合：麹、エウロパ、文化統計、小型粒子望遠鏡。詳細はdocs/stage7-material-validation.json。自動語彙判定だけでレベルを認定しない。
 - C1①はユニット・全10語がdraft。英日の選択肢が定義文的な旧形式で、簡潔な訳語への作り直しはまだ。B2は保留、C1／C2主軸は後日判断。
-- 13記事×5語の65語にusageがあり、65件ともunverified。本人のコロケーション／教材全件最終レビューは未確認。C1①の使い方追加は作り直し時。
+- 13記事×5語の65語にusageがあり、65件ともunverified。第8段階の試作では未確認（unverified）のものも出題してよく、その場合は画面に「確認中」と控えめに表示する。確認済みへの変更はユーザーが行う（勝手に変えない）。本人のコロケーション／教材全件最終レビューは未確認。C1①の使い方追加は作り直し時。
 - スマホとPCの実Supabase双方向同期、再ログイン自動統合、実Authの許可外拒否、実接続で照合GETの400不在は今回未確認。ユーザーは同期動作確認済みと報告しているが、後続修正の全項目の実機完了とは扱わない。
 - Hookの管理設定、プロバイダー有効／無効、メール確認・パスワードポリシーの現在値は未確認。SQLの関数・RLSを確認済みなのとは別。
 - パスワード管理ツールの保存・自動入力、非対応端末の透明度フォールバックは未確認。
 - 最新一覧とフェードの1280px／390pxでの実操作・明るい写真の見え方は未確認。ブラウザ接続エラー／URLポリシー拒否が記録されている。スクリーンショット不要の指示を守り、未確認を成功扱いしない。
 - 記録画面のrecords.jsに固定の日付・数値生成が残る。実測の学習履歴とは扱わない。時間計測・記録画面は次工程。
 - READMEと要件書の認証／実装状態に古い記述が残る。今回は指定の2ファイル以外を修正しない。
-- Vercel固定URLの404、正しいalias・保護設定と管理画面のブランチ設定は未確認。PagesはアプリのHTTP200、新版を確認。Vercel固有URLは匿名ではログイン画面へ転送され、アプリ配信内容は未確認。
+- 公開URLは `https://learningenglish2026-xi.vercel.app/` で確定（ユーザー確認済み）。Vercel管理画面のブランチ設定・保護設定は未確認。PagesはアプリのHTTP200、新版を確認。Vercel固有URLは匿名ではログイン画面へ転送され、アプリ配信内容は未確認。
 - PGliteの依存提供先／バージョン、Supabase CLI／wrangler／Vercel CLIの導入バージョンは未確認。隔離SQLテストの今回の再実行は保留。
 
 ## 7. 次にやること（優先順）
 
 1. 注目モザイクの文字表示修正：**完了**（abc51cc）。同じ修正を重複実装しない。残るのは必要に応じた実画面確認。
-2. 第8段階コロケーション中心の学習：**学習UI・組み合わせクイズは未着手**。既存の65語に未確認のusageデータはある。段階設計書はリポジトリに見当たらないため、詳細要件から合意する。
-3. 第9段階AI添削（Cloudflare Workers AI、GLM-4.7-Flash）：**未着手**。指定はユーザーの依頼予定として記録。Worker・wrangler設定・モデル接続実装はなく、モデル提供状況・利用枠は未確認。利用可能と推測しない。
+2. 第8段階コロケーション中心の学習：**学習UI・組み合わせクイズは未着手**。既存の65語に未確認のusageデータはある。仕様は `docs/stage8-spec.md` として受領後に保存する（未受領）。unverifiedも出題可、画面に「確認中」を控えめに表示、確認済みへの変更はユーザーが行う。
+3. 第9段階AI添削（Cloudflare Workers AI、GLM-4.7-Flash）：**未着手**。Worker・wrangler設定・モデル接続実装はない。仕様は `docs/stage9-spec.md` として受領後に保存する（未受領）。
+   - 確認済み（ユーザー側のClaudeがCloudflareコネクタと公式文書で確認）：`@cf/zai-org/glm-4.7-flash` は無料プランで利用可能。無料枠は1日10,000ニューロンで、超えるとエラー3036（HTTP 429）になり課金はされない。Workersのratelimit bindingの期間は10秒か60秒のみ。
+   - Cloudflareアカウントの既存Workerは `ba-own-analysis-gateway` のみ。**これには触れない**。
 4. 学習時間計測と記録画面：**自動計測は未着手、記録UIは旧実装あり**。固定値を実データに置き換える前に計測指標と同期形式を合意する。
 5. C1①の作り直し：**未着手・現行draft維持**。英日は簡潔な訳語、同レベル・同品詞の別語の訳／定義を誤答にし、反意語・正解類義語・不自然な選択肢を避ける。使い方追加はこの時に行う。
 
-上記に加え、実機の同期確認とVercel固定URLの設定確認を運用上の残件として把握する。依頼予定を実装承認済みと扱わない。
+上記に加え、実機の同期確認を運用上の残件として把握する。依頼予定を実装承認済みと扱わない。
 
 ## 8. 作業の進め方の約束
 
