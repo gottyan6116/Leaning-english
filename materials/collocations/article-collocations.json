@@ -24,7 +24,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "tall craftsmanship",
+        "noteJa": "「tall craftsmanship」とは言いません。ふつうは「traditional craftsmanship」・「fine craftsmanship」・「preserve craftsmanship」のように使います。"
+      }
     },
     {
       "id": "col-article-culture-koji-skills-2024-craftsmanship-fine-craftsmanship",
@@ -90,7 +93,10 @@
           "pillow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "a distinctive errand",
+        "noteJa": "「a distinctive errand」とは言いません。ふつうは「a distinctive feature」・「a distinctive flavour」・「a distinctive style」のように使います。"
+      }
     },
     {
       "id": "col-article-culture-koji-skills-2024-distinctive-a-distinctive-flavour",
@@ -156,7 +162,10 @@
           "pillow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "oversee a sneeze",
+        "noteJa": "「oversee a sneeze」とは言いません。ふつうは「oversee a process」・「oversee production」・「oversee the work of ～」のように使います。"
+      }
     },
     {
       "id": "col-article-culture-koji-skills-2024-oversee-oversee-production",
@@ -215,7 +224,10 @@
           "breakfast"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "transmit luggage",
+        "noteJa": "「transmit luggage」とは言いません。ふつうは「transmit knowledge」・「transmit skills to ～」・「be transmitted through ～」のように使います。"
+      }
     },
     {
       "id": "col-article-culture-koji-skills-2024-transmit-transmit-skills-to-x",
@@ -267,7 +279,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "hungry cohesion",
+        "noteJa": "「hungry cohesion」とは言いません。ふつうは「social cohesion」・「strengthen cohesion」・「cohesion within ～」のように使います。"
+      }
     },
     {
       "id": "col-article-culture-koji-skills-2024-cohesion-strengthen-cohesion",
@@ -319,7 +334,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "an abundance with ～",
+        "noteJa": "「an abundance with ～」とは言いません。ふつうは「an abundance of ～」・「relative abundance」・「in abundance」のように使います。"
+      }
     },
     {
       "id": "col-article-education-europa-carbon-2023-abundance-relative-abundance",
@@ -378,7 +396,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "hungry composition",
+        "noteJa": "「hungry composition」とは言いません。ふつうは「chemical composition」・「the composition of ～」・「analyse the composition」のように使います。"
+      }
     },
     {
       "id": "col-article-education-europa-carbon-2023-composition-the-composition-of-x",
@@ -437,7 +458,10 @@
           "breakfast"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "tentative breakfast",
+        "noteJa": "「tentative breakfast」とは言いません。ふつうは「tentative evidence」・「a tentative conclusion」・「a tentative plan」のように使います。"
+      }
     },
     {
       "id": "col-article-education-europa-carbon-2023-tentative-a-tentative-conclusion",
@@ -503,7 +527,10 @@
           "breakfast"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "definitive pillow",
+        "noteJa": "「definitive pillow」とは言いません。ふつうは「definitive evidence」・「a definitive answer」・「a definitive account」のように使います。"
+      }
     },
     {
       "id": "col-article-education-europa-carbon-2023-definitive-a-definitive-answer",
@@ -569,7 +596,10 @@
           "pillow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "constrain a sneeze",
+        "noteJa": "「constrain a sneeze」とは言いません。ふつうは「constrain the range」・「constrain a model」・「be constrained by ～」のように使います。"
+      }
     },
     {
       "id": "col-article-education-europa-carbon-2023-constrain-constrain-a-model",
@@ -628,7 +658,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "hungry framework",
+        "noteJa": "「hungry framework」とは言いません。ふつうは「statistical framework」・「policy framework」・「develop a framework」のように使います。"
+      }
     },
     {
       "id": "col-article-culture-statistics-2026-framework-policy-framework",
@@ -687,7 +720,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "tidal practitioners",
+        "noteJa": "「tidal practitioners」とは言いません。ふつうは「cultural practitioners」・「experienced practitioners」・「consult practitioners」のように使います。"
+      }
     },
     {
       "id": "col-article-culture-statistics-2026-practitioners-experienced-practitioners",
@@ -753,7 +789,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "velvet governance",
+        "noteJa": "「velvet governance」とは言いません。ふつうは「cultural governance」・「good governance」・「governance structure」のように使います。"
+      }
     },
     {
       "id": "col-article-culture-statistics-2026-governance-good-governance",
@@ -812,7 +851,10 @@
           "pillows"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "interchangeable breakfast",
+        "noteJa": "「interchangeable breakfast」とは言いません。ふつうは「interchangeable parts」・「interchangeable terms」・「largely interchangeable」のように使います。"
+      }
     },
     {
       "id": "col-article-culture-statistics-2026-interchangeable-interchangeable-terms",
@@ -871,7 +913,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "hungry coverage",
+        "noteJa": "「hungry coverage」とは言いません。ふつうは「statistical coverage」・「extend coverage」・「limited coverage」のように使います。"
+      }
     },
     {
       "id": "col-article-culture-statistics-2026-coverage-extend-coverage",
@@ -937,7 +982,10 @@
           "swallow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "swallow a competition",
+        "noteJa": "「swallow a competition」とは言いません。ふつうは「enter a competition」・「win a competition」・「a business competition」のように使います。"
+      }
     },
     {
       "id": "col-article-ethiopia-business-2026-competition-win-a-competition",
@@ -1003,7 +1051,10 @@
           "swallow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "swallow training",
+        "noteJa": "「swallow training」とは言いません。ふつうは「receive training」・「provide training」・「practical training」のように使います。"
+      }
     },
     {
       "id": "col-article-ethiopia-business-2026-training-provide-training",
@@ -1069,7 +1120,10 @@
           "sunrise"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "develop a sunrise",
+        "noteJa": "「develop a sunrise」とは言いません。ふつうは「develop an idea」・「develop a plan」・「develop skills」のように使います。"
+      }
     },
     {
       "id": "col-article-ethiopia-business-2026-develop-develop-a-plan",
@@ -1135,7 +1189,10 @@
           "swallow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "subtract support",
+        "noteJa": "「subtract support」とは言いません。ふつうは「offer support」・「financial support」・「support for a project」のように使います。"
+      }
     },
     {
       "id": "col-article-ethiopia-business-2026-support-financial-support",
@@ -1194,7 +1251,10 @@
           "whisper"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "local fraction",
+        "noteJa": "「local fraction」とは言いません。ふつうは「local people」・「a local business」・「the local community」のように使います。"
+      }
     },
     {
       "id": "col-article-ethiopia-business-2026-local-a-local-business",
@@ -1260,7 +1320,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "velvet representation",
+        "noteJa": "「velvet representation」とは言いません。ふつうは「political representation」・「worker representation」・「fair representation」のように使います。"
+      }
     },
     {
       "id": "col-article-informal-workers-2026-representation-worker-representation",
@@ -1312,7 +1375,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "tidal dialogue",
+        "noteJa": "「tidal dialogue」とは言いません。ふつうは「policy dialogue」・「social dialogue」・「open dialogue」のように使います。"
+      }
     },
     {
       "id": "col-article-informal-workers-2026-dialogue-social-dialogue",
@@ -1378,7 +1444,10 @@
           "swallow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "velvet livelihoods",
+        "noteJa": "「velvet livelihoods」とは言いません。ふつうは「protect livelihoods」・「rural livelihoods」・「sustainable livelihoods」のように使います。"
+      }
     },
     {
       "id": "col-article-informal-workers-2026-livelihoods-rural-livelihoods",
@@ -1437,7 +1506,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "affiliated by a union",
+        "noteJa": "「affiliated by a union」とは言いません。ふつうは「affiliated with a union」・「affiliated with a university」・「affiliated with a network」のように使います。"
+      }
     },
     {
       "id": "col-article-informal-workers-2026-affiliated-affiliated-with-a-university",
@@ -1489,7 +1561,10 @@
           "pillow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "inclusive pillow",
+        "noteJa": "「inclusive pillow」とは言いません。ふつうは「inclusive policy」・「inclusive discussion」・「inclusive workplace」のように使います。"
+      }
     },
     {
       "id": "col-article-informal-workers-2026-inclusive-inclusive-discussion",
@@ -1555,7 +1630,10 @@
           "pillows"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "recognise a sneeze",
+        "noteJa": "「recognise a sneeze」とは言いません。ふつうは「recognise skills」・「recognise experience」・「officially recognised」のように使います。"
+      }
     },
     {
       "id": "col-article-jordan-skills-2026-recognise-recognise-experience",
@@ -1614,7 +1692,10 @@
           "pillows"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "assess a sunrise",
+        "noteJa": "「assess a sunrise」とは言いません。ふつうは「assess skills」・「assess an applicant」・「assess the quality」のように使います。"
+      }
     },
     {
       "id": "col-article-jordan-skills-2026-assess-assess-an-applicant",
@@ -1680,7 +1761,10 @@
           "swallow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "swallow a qualification",
+        "noteJa": "「swallow a qualification」とは言いません。ふつうは「gain a qualification」・「a recognised qualification」・「a professional qualification」のように使います。"
+      }
     },
     {
       "id": "col-article-jordan-skills-2026-qualification-a-recognised-qualification",
@@ -1739,7 +1823,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "accessible with people",
+        "noteJa": "「accessible with people」とは言いません。ふつうは「accessible to people」・「accessible services」・「make something accessible」のように使います。"
+      }
     },
     {
       "id": "col-article-jordan-skills-2026-accessible-accessible-services",
@@ -1798,7 +1885,10 @@
           "swallow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "velvet foundation",
+        "noteJa": "「velvet foundation」とは言いません。ふつうは「lay a foundation」・「a foundation for growth」・「a strong foundation」のように使います。"
+      }
     },
     {
       "id": "col-article-jordan-skills-2026-foundation-a-foundation-for-growth",
@@ -1857,7 +1947,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "velvet networks",
+        "noteJa": "「velvet networks」とは言いません。ふつうは「local networks」・「research networks」・「support networks」のように使います。"
+      }
     },
     {
       "id": "col-article-mexico-tourism-2026-networks-research-networks",
@@ -1902,7 +1995,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "tidal cooperatives",
+        "noteJa": "「tidal cooperatives」とは言いません。ふつうは「farming cooperatives」・「worker cooperatives」・「join cooperatives」のように使います。"
+      }
     },
     {
       "id": "col-article-mexico-tourism-2026-cooperatives-worker-cooperatives",
@@ -1961,7 +2057,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "hungry indicators",
+        "noteJa": "「hungry indicators」とは言いません。ふつうは「economic indicators」・「performance indicators」・「develop indicators」のように使います。"
+      }
     },
     {
       "id": "col-article-mexico-tourism-2026-indicators-performance-indicators",
@@ -2020,7 +2119,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "velvet heritage",
+        "noteJa": "「velvet heritage」とは言いません。ふつうは「cultural heritage」・「preserve heritage」・「shared heritage」のように使います。"
+      }
     },
     {
       "id": "col-article-mexico-tourism-2026-heritage-preserve-heritage",
@@ -2086,7 +2188,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "hungry evaluation",
+        "noteJa": "「hungry evaluation」とは言いません。ふつうは「independent evaluation」・「conduct an evaluation」・「evaluation criteria」のように使います。"
+      }
     },
     {
       "id": "col-article-mexico-tourism-2026-evaluation-conduct-an-evaluation",
@@ -2138,7 +2243,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "incorporated on a design",
+        "noteJa": "「incorporated on a design」とは言いません。ふつうは「incorporated into a design」・「incorporated in a system」・「incorporated into a plan」のように使います。"
+      }
     },
     {
       "id": "col-article-particle-telescope-2026-incorporated-incorporated-in-a-system",
@@ -2190,7 +2298,10 @@
           "pillow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "compact sunrise",
+        "noteJa": "「compact sunrise」とは言いません。ふつうは「compact design」・「compact device」・「compact camera」のように使います。"
+      }
     },
     {
       "id": "col-article-particle-telescope-2026-compact-compact-device",
@@ -2256,7 +2367,10 @@
           "pillow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "temporary fraction",
+        "noteJa": "「temporary fraction」とは言いません。ふつうは「temporary closure」・「temporary position」・「temporary shelter」のように使います。"
+      }
     },
     {
       "id": "col-article-particle-telescope-2026-temporary-temporary-position",
@@ -2322,7 +2436,10 @@
           "pillow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "resumed sneezes",
+        "noteJa": "「resumed sneezes」とは言いません。ふつうは「resumed work」・「resumed operations」・「resumed discussions」のように使います。"
+      }
     },
     {
       "id": "col-article-particle-telescope-2026-resumed-resumed-operations",
@@ -2388,7 +2505,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "a velvet perspective",
+        "noteJa": "「a velvet perspective」とは言いません。ふつうは「a different perspective」・「from a scientific perspective」・「gain perspective」のように使います。"
+      }
     },
     {
       "id": "col-article-particle-telescope-2026-perspective-from-a-scientific-perspective",
@@ -2447,7 +2567,10 @@
           "sleepy"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "a velvet community",
+        "noteJa": "「a velvet community」とは言いません。ふつうは「a coastal community」・「community members」・「support a community」のように使います。"
+      }
     },
     {
       "id": "col-article-samoa-tsunami-2026-community-community-members",
@@ -2506,7 +2629,10 @@
           "swallow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "subtract a warning",
+        "noteJa": "「subtract a warning」とは言いません。ふつうは「receive a warning」・「issue a warning」・「a warning system」のように使います。"
+      }
     },
     {
       "id": "col-article-samoa-tsunami-2026-warning-issue-a-warning",
@@ -2565,7 +2691,10 @@
           "pillow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "practise a sunrise",
+        "noteJa": "「practise a sunrise」とは言いません。ふつうは「practise a skill」・「practise doing ～」・「practise regularly」のように使います。"
+      }
     },
     {
       "id": "col-article-samoa-tsunami-2026-practise-practise-doing-x",
@@ -2617,7 +2746,10 @@
           "pillows"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "a clear sneeze",
+        "noteJa": "「a clear sneeze」とは言いません。ふつうは「clear instructions」・「make something clear」・「a clear message」のように使います。"
+      }
     },
     {
       "id": "col-article-samoa-tsunami-2026-clear-make-something-clear",
@@ -2669,7 +2801,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "swallow a route",
+        "noteJa": "「swallow a route」とは言いません。ふつうは「an evacuation route」・「plan a route」・「follow a route」のように使います。"
+      }
     },
     {
       "id": "col-article-samoa-tsunami-2026-route-plan-a-route",
@@ -2735,7 +2870,10 @@
           "pillow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "contribute a sneeze",
+        "noteJa": "「contribute a sneeze」とは言いません。ふつうは「contribute an idea」・「contribute to a project」・「contribute time」のように使います。"
+      }
     },
     {
       "id": "col-article-school-poetry-2026-contribute-contribute-to-a-project",
@@ -2794,7 +2932,10 @@
           "pillow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "perform a sunrise",
+        "noteJa": "「perform a sunrise」とは言いません。ふつうは「perform a poem」・「perform live」・「perform on stage」のように使います。"
+      }
     },
     {
       "id": "col-article-school-poetry-2026-perform-perform-live",
@@ -2839,7 +2980,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "subtract a response",
+        "noteJa": "「subtract a response」とは言いません。ふつうは「a response to ～」・「receive a response」・「a positive response」のように使います。"
+      }
     },
     {
       "id": "col-article-school-poetry-2026-response-receive-a-response",
@@ -2905,7 +3049,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "a velvet estimate",
+        "noteJa": "「a velvet estimate」とは言いません。ふつうは「a rough estimate」・「make an estimate」・「an estimate of ～」のように使います。"
+      }
     },
     {
       "id": "col-article-school-poetry-2026-estimate-make-an-estimate",
@@ -2957,7 +3104,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "subtract a collection",
+        "noteJa": "「subtract a collection」とは言いません。ふつうは「a poetry collection」・「a collection of stories」・「publish a collection」のように使います。"
+      }
     },
     {
       "id": "col-article-school-poetry-2026-collection-a-collection-of-stories",
@@ -3016,7 +3166,10 @@
           "pillow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "launch a sneeze",
+        "noteJa": "「launch a sneeze」とは言いません。ふつうは「launch a balloon」・「launch a mission」・「a launch site」のように使います。"
+      }
     },
     {
       "id": "col-article-science-balloon-2026-launch-launch-a-mission",
@@ -3075,7 +3228,10 @@
           "breakfast"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "experimental breakfast",
+        "noteJa": "「experimental breakfast」とは言いません。ふつうは「experimental technology」・「an experimental design」・「experimental equipment」のように使います。"
+      }
     },
     {
       "id": "col-article-science-balloon-2026-experimental-an-experimental-design",
@@ -3134,7 +3290,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "an equipment",
+        "noteJa": "「an equipment」とは言いません。ふつうは「test equipment」・「safety equipment」・「a piece of equipment」のように使います。"
+      }
     },
     {
       "id": "col-article-science-balloon-2026-equipment-safety-equipment",
@@ -3179,7 +3338,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "suitable at ～",
+        "noteJa": "「suitable at ～」とは言いません。ふつうは「suitable for ～」・「suitable conditions」・「a suitable time」のように使います。"
+      }
     },
     {
       "id": "col-article-science-balloon-2026-suitable-suitable-conditions",
@@ -3245,7 +3407,10 @@
           "swallow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "do an attempt",
+        "noteJa": "「do an attempt」とは言いません。ふつうは「make an attempt」・「an attempt to do ～」・「another attempt」のように使います。"
+      }
     },
     {
       "id": "col-article-science-balloon-2026-attempt-an-attempt-to-do-x",
@@ -3297,7 +3462,10 @@
           "fraction"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "maritime breakfast",
+        "noteJa": "「maritime breakfast」とは言いません。ふつうは「maritime safety」・「maritime trade」・「maritime transport」のように使います。"
+      }
     },
     {
       "id": "col-article-space-ports-2026-maritime-maritime-trade",
@@ -3363,7 +3531,10 @@
           "swallow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "hungry logistics",
+        "noteJa": "「hungry logistics」とは言いません。ふつうは「manage logistics」・「logistics network」・「logistics costs」のように使います。"
+      }
     },
     {
       "id": "col-article-space-ports-2026-logistics-logistics-network",
@@ -3415,7 +3586,10 @@
           "pillows"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "operational sneezes",
+        "noteJa": "「operational sneezes」とは言いません。ふつうは「operational needs」・「operational costs」・「operational efficiency」のように使います。"
+      }
     },
     {
       "id": "col-article-space-ports-2026-operational-operational-costs",
@@ -3481,7 +3655,10 @@
           "velvet"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "velvet monitoring",
+        "noteJa": "「velvet monitoring」とは言いません。ふつうは「environmental monitoring」・「continuous monitoring」・「monitoring system」のように使います。"
+      }
     },
     {
       "id": "col-article-space-ports-2026-monitoring-continuous-monitoring",
@@ -3533,7 +3710,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "tidal deployment",
+        "noteJa": "「tidal deployment」とは言いません。ふつうは「system deployment」・「deployment plan」・「large-scale deployment」のように使います。"
+      }
     },
     {
       "id": "col-article-space-ports-2026-deployment-deployment-plan",
@@ -3578,7 +3758,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "swallow retention",
+        "noteJa": "「swallow retention」とは言いません。ふつうは「employee retention」・「improve retention」・「retention rate」のように使います。"
+      }
     },
     {
       "id": "col-article-work-four-day-week-2022-retention-improve-retention",
@@ -3637,7 +3820,10 @@
           "pillow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "streamline a sneeze",
+        "noteJa": "「streamline a sneeze」とは言いません。ふつうは「streamline a process」・「streamline operations」・「streamline communication」のように使います。"
+      }
     },
     {
       "id": "col-article-work-four-day-week-2022-streamline-streamline-operations",
@@ -3696,7 +3882,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "undermine confidence on ～",
+        "noteJa": "「undermine confidence on ～」とは言いません。ふつうは「undermine confidence in ～」・「undermine efforts to ～」・「undermine authority」のように使います。"
+      }
     },
     {
       "id": "col-article-work-four-day-week-2022-undermine-undermine-efforts-to-x",
@@ -3748,7 +3937,10 @@
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
       "fill": null,
-      "misuse": null
+      "misuse": {
+        "form": "stagger a sunrise",
+        "noteJa": "「stagger a sunrise」とは言いません。ふつうは「stagger start times」・「stagger lunch breaks」・「stagger payments」のように使います。"
+      }
     },
     {
       "id": "col-article-work-four-day-week-2022-stagger-stagger-lunch-breaks",
@@ -3807,7 +3999,10 @@
           "pillow"
         ]
       },
-      "misuse": null
+      "misuse": {
+        "form": "a uniform sneeze",
+        "noteJa": "「a uniform sneeze」とは言いません。ふつうは「a uniform policy」・「uniform standards」・「uniform across ～」のように使います。"
+      }
     },
     {
       "id": "col-article-work-four-day-week-2022-uniform-uniform-standards",

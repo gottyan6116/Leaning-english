@@ -24,7 +24,7 @@ test('all 65 article words migrated to 195 collocations with stable IDs and unto
 test('migration never promotes status and every record follows the schema',()=>{
  assert.ok(all.every(c=>c.status==='unverified'));assert.ok(all.every(c=>Core.TYPES.some(([id])=>id===c.type)));
  for(const c of all)assert.deepEqual(Core.validateCollocation(c),[]);
- assert.ok(all.every(c=>c.misuse===null),'no misuse examples are registered until the owner adds them');
+ const registered=all.filter(c=>c.misuse);assert.equal(registered.length,65,'one draft misuse per word');assert.equal(new Set(registered.map(c=>c.wordId)).size,65);
  const result=spawnSync(process.execPath,['scripts/validate-collocations.cjs'],{cwd:path.join(__dirname,'..'),encoding:'utf8'});assert.equal(result.status,0,result.stdout+result.stderr);
 });
 test('fill-in question blanks the collocate, keeps four distinct choices, and scores by choice ID',()=>{
@@ -42,7 +42,9 @@ test('every fill-in distractor differs from its answer and the blank can be mask
  for(const c of all.filter(x=>x.fill)){const item=Core.fillItem(c);assert.ok(item,c.id);assert.ok(item.exampleMasked,c.id+' example cannot be masked');assert.equal(new Set(item.questions.en.choices.map(x=>x.toLowerCase())).size,4);}
 });
 test('misuse questions come only from combinations with a registered unnatural example',()=>{
- assert.equal(all.filter(c=>Core.misuseItem(c,all)).length,0,'no registered data, no misuse questions');
+ const asked=all.filter(c=>Core.misuseItem(c,all));assert.equal(asked.length,65);assert.deepEqual(asked.map(c=>c.id),all.filter(c=>c.misuse).map(c=>c.id),'only registered combinations produce misuse questions');
+ for(const c of all.filter(x=>!x.misuse))assert.equal(Core.misuseItem(c,all),null);
+ assert.equal(Core.misuseItem({...all.find(c=>!c.misuse),misuse:null},all),null);
  const c=siblings(withFill)[0],registered={...c,misuse:{form:'plan a coffee of '+c.form.split(' ').pop(),noteJa:'ふつう使わない組み合わせ'}},pool=all.map(x=>x.id===c.id?registered:x);
  const item=Core.misuseItem(registered,pool);assert.ok(item&&validateItem(item));assert.equal(item.format,'misuse');
  const q=item.questions.en;assert.equal(q.choices[q.answerIndex],registered.misuse.form);assert.equal(new Set(q.choices).size,4);
