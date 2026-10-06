@@ -1,0 +1,8 @@
+// Writes docs/stage8-collocation-list.md: one review sheet of every collocation (read-only view of the JSON source).
+const fs=require('node:fs'),path=require('node:path'),Core=require('../collocation-core.js');
+const root=path.join(__dirname,'..'),material=JSON.parse(fs.readFileSync(path.join(root,'materials/collocations/article-collocations.json'),'utf8')),heads={};
+for(const file of fs.readdirSync(path.join(root,'materials/articles')).filter(x=>x.endsWith('.json')&&x!=='index.json'))for(const w of JSON.parse(fs.readFileSync(path.join(root,'materials/articles',file),'utf8')).vocabulary)heads[w.id]=w.headword;
+const cell=text=>String(text??'').replace(/\|/g,'\|').replace(/\n/g,' ');
+const rows=material.items.map(c=>`| ${cell(heads[c.wordId])} | ${cell(c.form)} | ${cell(Core.typeLabel(c.type))} | ${cell(c.meaningJa)} | ${cell(c.example)} | ${c.misuse?cell(c.misuse.form):'（未登録）'} | ${c.fill?cell(c.fill.blank)+' / '+c.fill.distractors.map(cell).join(', '):'（出題なし）'} | ${c.status==='verified'?'確認済み':'確認中'} |`);
+const text=`# 第8段階 コロケーション一覧（確認用）\n\n元データ：materials/collocations/article-collocations.json（${material.items.length}件、${new Set(material.items.map(c=>c.wordId)).size}語）。この一覧は自動生成です。直接編集せず、元データを直してから再生成します。\n\n- 「使わない組み合わせ」が（未登録）の項目では、誤用の見分けは出題されません。\n- 「穴埋め」は 正解の語 / 誤答3つ。誤答は組み合わせの下書きで、確認中です。\n- 状態の verified への変更はユーザーが元データで行います。\n\n| 語 | 組み合わせ | 型 | 意味 | 例文 | 使わない組み合わせ | 穴埋め（正解 / 誤答） | 状態 |\n|---|---|---|---|---|---|---|---|\n${rows.join('\n')}\n`;
+fs.writeFileSync(path.join(root,'docs/stage8-collocation-list.md'),text);console.log('wrote docs/stage8-collocation-list.md',rows.length);

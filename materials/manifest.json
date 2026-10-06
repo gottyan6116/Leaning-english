@@ -206,6 +206,12 @@
       "sha256": "ac0796b9d56eace5b2432a75229d121221cc87459f27ee565ae4245d173f15c0"
     }
   ],
+  "collocations": {
+    "id": "article-collocations",
+    "version": 1,
+    "path": "materials/collocations/article-collocations.json",
+    "sha256": "51913caced02e289cd9280b6e0454018c74945ff9121de1d73fed22d73df2637"
+  },
   "wordIndex": {
     "article-culture-koji-skills-2024-craftsmanship": {
       "articleId": "article-culture-koji-skills-2024"

@@ -1,0 +1,3850 @@
+{
+  "id": "article-collocations",
+  "version": 1,
+  "kind": "collocations",
+  "publishedAt": "2026-10-06T00:00:00+09:00",
+  "items": [
+    {
+      "id": "col-article-culture-koji-skills-2024-craftsmanship-traditional-craftsmanship",
+      "wordId": "article-culture-koji-skills-2024-craftsmanship",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "traditional craftsmanship",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "伝統的な職人技",
+      "nuanceJa": "受け継がれてきた製作技能を示す。",
+      "example": "The workshop teaches traditional craftsmanship to new apprentices.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "traditional",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-craftsmanship-fine-craftsmanship",
+      "wordId": "article-culture-koji-skills-2024-craftsmanship",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "fine craftsmanship",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "優れた職人技",
+      "nuanceJa": "製品に表れる技能や丁寧な仕上げを評価する。",
+      "example": "The cabinet shows fine craftsmanship in every joint.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "fine",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-craftsmanship-preserve-craftsmanship",
+      "wordId": "article-culture-koji-skills-2024-craftsmanship",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "preserve craftsmanship",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "職人技を守る",
+      "nuanceJa": "技能を失わないよう維持することを示す。",
+      "example": "The association works to preserve craftsmanship through training.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "preserve",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-distinctive-a-distinctive-feature",
+      "wordId": "article-culture-koji-skills-2024-distinctive",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "a distinctive feature",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "特徴的な点",
+      "nuanceJa": "他と見分ける手がかりとなる特徴を示す。",
+      "example": "The curved roof is a distinctive feature of this building.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "feature",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-distinctive-a-distinctive-flavour",
+      "wordId": "article-culture-koji-skills-2024-distinctive",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "a distinctive flavour",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "独特の風味",
+      "nuanceJa": "他と区別できる味や香りを示す。",
+      "example": "The herbs give the soup a distinctive flavour.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "flavour",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-distinctive-a-distinctive-style",
+      "wordId": "article-culture-koji-skills-2024-distinctive",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "a distinctive style",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "特徴のある様式",
+      "nuanceJa": "人や地域などの見分けやすい表現様式を示す。",
+      "example": "Each craftsperson developed a distinctive style.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "style",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-oversee-oversee-a-process",
+      "wordId": "article-culture-koji-skills-2024-oversee",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "oversee a process",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "工程を監督する",
+      "nuanceJa": "工程全体が適切に進むよう管理する。",
+      "example": "The supervisor oversees the drying process.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "process",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-oversee-oversee-production",
+      "wordId": "article-culture-koji-skills-2024-oversee",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "oversee production",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "製造を監督する",
+      "nuanceJa": "製造活動全体の管理責任を示す。",
+      "example": "An experienced engineer oversees production at the workshop.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "production",
+        "distractors": [
+          "luggage",
+          "furniture",
+          "breakfast"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-oversee-oversee-the-work-of-x",
+      "wordId": "article-culture-koji-skills-2024-oversee",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "oversee the work of ～",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～の仕事を監督する",
+      "nuanceJa": "ofの後ろに監督対象の人や集団を示す。",
+      "example": "The coordinator oversees the work of three volunteer teams.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-transmit-transmit-knowledge",
+      "wordId": "article-culture-koji-skills-2024-transmit",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "transmit knowledge",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "知識を伝える",
+      "nuanceJa": "知識を別の人や集団へ渡すことを表す。",
+      "example": "Mentors transmit knowledge through practical demonstrations.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "knowledge",
+        "distractors": [
+          "luggage",
+          "furniture",
+          "breakfast"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-transmit-transmit-skills-to-x",
+      "wordId": "article-culture-koji-skills-2024-transmit",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "transmit skills to ～",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～に技能を伝える",
+      "nuanceJa": "toの後ろに技能を受け取る人を示す。",
+      "example": "The artisan transmitted skills to a younger generation.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-transmit-be-transmitted-through-x",
+      "wordId": "article-culture-koji-skills-2024-transmit",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "be transmitted through ～",
+      "type": "other",
+      "patternDetail": "受動態＋前置詞",
+      "meaningJa": "～を通じて伝えられる",
+      "nuanceJa": "throughは伝達手段や経路を示す。",
+      "example": "These techniques are transmitted through supervised practice.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-cohesion-social-cohesion",
+      "wordId": "article-culture-koji-skills-2024-cohesion",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "social cohesion",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "社会的な結びつき",
+      "nuanceJa": "地域などの人々がつながり支え合う関係を示す。",
+      "example": "The neighbourhood project encouraged social cohesion.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "social",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-cohesion-strengthen-cohesion",
+      "wordId": "article-culture-koji-skills-2024-cohesion",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "strengthen cohesion",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "結びつきを強める",
+      "nuanceJa": "集団内の関係をより強くする変化を示す。",
+      "example": "Working towards a common goal can strengthen cohesion.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "strengthen",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-koji-skills-2024-cohesion-cohesion-within-x",
+      "wordId": "article-culture-koji-skills-2024-cohesion",
+      "articleId": "article-culture-koji-skills-2024",
+      "form": "cohesion within ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の内部の結びつき",
+      "nuanceJa": "withinは結びつきが成立する集団の範囲を示す。",
+      "example": "The team discussed how to improve cohesion within the department.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-abundance-an-abundance-of-x",
+      "wordId": "article-education-europa-carbon-2023-abundance",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "an abundance of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "豊富な～",
+      "nuanceJa": "ofの後ろに豊富にあるものを示す。",
+      "example": "The region has an abundance of freshwater lakes.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-abundance-relative-abundance",
+      "wordId": "article-education-europa-carbon-2023-abundance",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "relative abundance",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "相対的な存在量",
+      "nuanceJa": "全体や他の成分と比較した量を示す。",
+      "example": "The report compared the relative abundance of three minerals.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "relative",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-abundance-in-abundance",
+      "wordId": "article-education-europa-carbon-2023-abundance",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "in abundance",
+      "type": "other",
+      "patternDetail": "前置詞＋名詞",
+      "meaningJa": "豊富に",
+      "nuanceJa": "多量に存在する様子を示す。",
+      "example": "Wildflowers grow in abundance along the river.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-composition-chemical-composition",
+      "wordId": "article-education-europa-carbon-2023-composition",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "chemical composition",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "化学組成",
+      "nuanceJa": "どの化学成分からできているかを示す。",
+      "example": "We compared the chemical composition of two samples.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "chemical",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-composition-the-composition-of-x",
+      "wordId": "article-education-europa-carbon-2023-composition",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "the composition of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の構成",
+      "nuanceJa": "ofの後ろに調べる物質や集団を置く。",
+      "example": "The composition of the atmosphere changed over time.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-composition-analyse-the-composition",
+      "wordId": "article-education-europa-carbon-2023-composition",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "analyse the composition",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "構成を分析する",
+      "nuanceJa": "成分や構成要素を調べる動作を表す。",
+      "example": "The team used a sensor to analyse the composition.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "analyse",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-tentative-tentative-evidence",
+      "wordId": "article-education-europa-carbon-2023-tentative",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "tentative evidence",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "暫定的な証拠",
+      "nuanceJa": "証拠の確実さがまだ十分でないことを示す。",
+      "example": "The observations provided tentative evidence of a seasonal change.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "evidence",
+        "distractors": [
+          "luggage",
+          "furniture",
+          "breakfast"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-tentative-a-tentative-conclusion",
+      "wordId": "article-education-europa-carbon-2023-tentative",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "a tentative conclusion",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "暫定的な結論",
+      "nuanceJa": "追加の確認によって変わり得る結論を示す。",
+      "example": "Our tentative conclusion needs further testing.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "conclusion",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-tentative-a-tentative-plan",
+      "wordId": "article-education-europa-carbon-2023-tentative",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "a tentative plan",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "仮の計画",
+      "nuanceJa": "まだ決定・確定していない計画を示す。",
+      "example": "We agreed on a tentative plan for the next workshop.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "plan",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-definitive-definitive-evidence",
+      "wordId": "article-education-europa-carbon-2023-definitive",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "definitive evidence",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "決定的な証拠",
+      "nuanceJa": "疑問を解消するだけの確実さを持つ証拠を示す。",
+      "example": "The investigators are still seeking definitive evidence.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "evidence",
+        "distractors": [
+          "luggage",
+          "furniture",
+          "breakfast"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-definitive-a-definitive-answer",
+      "wordId": "article-education-europa-carbon-2023-definitive",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "a definitive answer",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "確定的な答え",
+      "nuanceJa": "問いに決着を付ける答えを示す。",
+      "example": "One short interview cannot provide a definitive answer.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "answer",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-definitive-a-definitive-account",
+      "wordId": "article-education-europa-carbon-2023-definitive",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "a definitive account",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "決定版となる記述",
+      "nuanceJa": "ある題材について基準となる詳しい記述を表す。",
+      "example": "The historian wrote a definitive account of the expedition.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "account",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-constrain-constrain-the-range",
+      "wordId": "article-education-europa-carbon-2023-constrain",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "constrain the range",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "範囲を絞る",
+      "nuanceJa": "可能な値や説明の範囲を制限する。",
+      "example": "The results constrain the range of possible ages.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "range",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-constrain-constrain-a-model",
+      "wordId": "article-education-europa-carbon-2023-constrain",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "constrain a model",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "モデルに制約を与える",
+      "nuanceJa": "データなどによりモデルの条件を絞る。",
+      "example": "Additional observations may constrain the model.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "model",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-education-europa-carbon-2023-constrain-be-constrained-by-x",
+      "wordId": "article-education-europa-carbon-2023-constrain",
+      "articleId": "article-education-europa-carbon-2023",
+      "form": "be constrained by ～",
+      "type": "other",
+      "patternDetail": "受動態＋前置詞",
+      "meaningJa": "～によって制約される",
+      "nuanceJa": "制限をもたらす要因をbyで示す。",
+      "example": "The survey was constrained by the available funding.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-framework-statistical-framework",
+      "wordId": "article-culture-statistics-2026-framework",
+      "articleId": "article-culture-statistics-2026",
+      "form": "statistical framework",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "統計の枠組み",
+      "nuanceJa": "「統計の枠組み」という場面で用いる組み合わせ。",
+      "example": "The team tested the statistical framework.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "statistical",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-framework-policy-framework",
+      "wordId": "article-culture-statistics-2026-framework",
+      "articleId": "article-culture-statistics-2026",
+      "form": "policy framework",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "政策の枠組み",
+      "nuanceJa": "「政策の枠組み」という場面で用いる組み合わせ。",
+      "example": "The council reviewed its policy framework.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-framework-develop-a-framework",
+      "wordId": "article-culture-statistics-2026-framework",
+      "articleId": "article-culture-statistics-2026",
+      "form": "develop a framework",
+      "type": "verb_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "枠組みを作る",
+      "nuanceJa": "「枠組みを作る」という場面で用いる組み合わせ。",
+      "example": "Researchers will develop a framework for comparison.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "develop",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-practitioners-cultural-practitioners",
+      "wordId": "article-culture-statistics-2026-practitioners",
+      "articleId": "article-culture-statistics-2026",
+      "form": "cultural practitioners",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "文化分野の実務家",
+      "nuanceJa": "「文化分野の実務家」という場面で用いる組み合わせ。",
+      "example": "Cultural practitioners joined the workshop.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "cultural",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-practitioners-experienced-practitioners",
+      "wordId": "article-culture-statistics-2026-practitioners",
+      "articleId": "article-culture-statistics-2026",
+      "form": "experienced practitioners",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "経験豊富な実務家",
+      "nuanceJa": "「経験豊富な実務家」という場面で用いる組み合わせ。",
+      "example": "Experienced practitioners advised the students.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "experienced",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-practitioners-consult-practitioners",
+      "wordId": "article-culture-statistics-2026-practitioners",
+      "articleId": "article-culture-statistics-2026",
+      "form": "consult practitioners",
+      "type": "verb_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "実務家に意見を聞く",
+      "nuanceJa": "「実務家に意見を聞く」という場面で用いる組み合わせ。",
+      "example": "The research team will consult practitioners.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "consult",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-governance-cultural-governance",
+      "wordId": "article-culture-statistics-2026-governance",
+      "articleId": "article-culture-statistics-2026",
+      "form": "cultural governance",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "文化分野の運営の仕組み",
+      "nuanceJa": "「文化分野の運営の仕組み」という場面で用いる組み合わせ。",
+      "example": "The study examines cultural governance.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "cultural",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-governance-good-governance",
+      "wordId": "article-culture-statistics-2026-governance",
+      "articleId": "article-culture-statistics-2026",
+      "form": "good governance",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "適切な統治",
+      "nuanceJa": "「適切な統治」という場面で用いる組み合わせ。",
+      "example": "Clear responsibilities support good governance.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "good",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-governance-governance-structure",
+      "wordId": "article-culture-statistics-2026-governance",
+      "articleId": "article-culture-statistics-2026",
+      "form": "governance structure",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "統治の構造",
+      "nuanceJa": "「統治の構造」という場面で用いる組み合わせ。",
+      "example": "Members reviewed the governance structure.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-interchangeable-interchangeable-parts",
+      "wordId": "article-culture-statistics-2026-interchangeable",
+      "articleId": "article-culture-statistics-2026",
+      "form": "interchangeable parts",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "交換可能な部品",
+      "nuanceJa": "「交換可能な部品」という場面で用いる組み合わせ。",
+      "example": "The devices use interchangeable parts.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "parts",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-interchangeable-interchangeable-terms",
+      "wordId": "article-culture-statistics-2026-interchangeable",
+      "articleId": "article-culture-statistics-2026",
+      "form": "interchangeable terms",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "置き換えて使える用語",
+      "nuanceJa": "「置き換えて使える用語」という場面で用いる組み合わせ。",
+      "example": "These terms are not interchangeable.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "terms",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-interchangeable-largely-interchangeable",
+      "wordId": "article-culture-statistics-2026-interchangeable",
+      "articleId": "article-culture-statistics-2026",
+      "form": "largely interchangeable",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "おおむね交換可能な",
+      "nuanceJa": "「おおむね交換可能な」という場面で用いる組み合わせ。",
+      "example": "The two connectors are largely interchangeable.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-coverage-statistical-coverage",
+      "wordId": "article-culture-statistics-2026-coverage",
+      "articleId": "article-culture-statistics-2026",
+      "form": "statistical coverage",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "統計の対象範囲",
+      "nuanceJa": "「統計の対象範囲」という場面で用いる組み合わせ。",
+      "example": "The report explains its statistical coverage.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "statistical",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-coverage-extend-coverage",
+      "wordId": "article-culture-statistics-2026-coverage",
+      "articleId": "article-culture-statistics-2026",
+      "form": "extend coverage",
+      "type": "verb_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "対象を広げる",
+      "nuanceJa": "「対象を広げる」という場面で用いる組み合わせ。",
+      "example": "The survey will extend coverage to smaller towns.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "extend",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-culture-statistics-2026-coverage-limited-coverage",
+      "wordId": "article-culture-statistics-2026-coverage",
+      "articleId": "article-culture-statistics-2026",
+      "form": "limited coverage",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "限られた対象範囲",
+      "nuanceJa": "「限られた対象範囲」という場面で用いる組み合わせ。",
+      "example": "Limited coverage makes comparison difficult.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "limited",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-competition-enter-a-competition",
+      "wordId": "article-ethiopia-business-2026-competition",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "enter a competition",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "コンテストに参加する",
+      "nuanceJa": "応募して参加者になる。",
+      "example": "My sister entered a competition for young cooks.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "enter",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-competition-win-a-competition",
+      "wordId": "article-ethiopia-business-2026-competition",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "win a competition",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "コンテストで優勝する",
+      "nuanceJa": "参加だけでなく勝者になる。",
+      "example": "Their team won a competition for useful inventions.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "win",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-competition-a-business-competition",
+      "wordId": "article-ethiopia-business-2026-competition",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "a business competition",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "事業コンテスト",
+      "nuanceJa": "事業のアイデアなどを競う催し。",
+      "example": "The business competition attracted local shop owners.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "business",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-training-receive-training",
+      "wordId": "article-ethiopia-business-2026-training",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "receive training",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "研修を受ける",
+      "nuanceJa": "教えられる側を主語にする。",
+      "example": "All new staff receive training before using the machine.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "receive",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-training-provide-training",
+      "wordId": "article-ethiopia-business-2026-training",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "provide training",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "研修を提供する",
+      "nuanceJa": "教える側の行動を表す。",
+      "example": "The library provides training for its volunteers.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "provide",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-training-practical-training",
+      "wordId": "article-ethiopia-business-2026-training",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "practical training",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "実践的な研修",
+      "nuanceJa": "実際の作業を通じた学習を指す。",
+      "example": "Practical training helped me use the new tools.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "practical",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-develop-develop-an-idea",
+      "wordId": "article-ethiopia-business-2026-develop",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "develop an idea",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "アイデアを具体化する",
+      "nuanceJa": "細部を考えて形にする。",
+      "example": "Our group developed an idea for a reading club.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "idea",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "sunrise"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-develop-develop-a-plan",
+      "wordId": "article-ethiopia-business-2026-develop",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "develop a plan",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "計画を練る",
+      "nuanceJa": "手順や内容を詳しくする。",
+      "example": "We developed a plan for selling our handmade bags.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "plan",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "sunrise"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-develop-develop-skills",
+      "wordId": "article-ethiopia-business-2026-develop",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "develop skills",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "技能を伸ばす",
+      "nuanceJa": "能力の成長を表す別の組み合わせ。",
+      "example": "The course helps learners develop writing skills.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "skills",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-support-offer-support",
+      "wordId": "article-ethiopia-business-2026-support",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "offer support",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "支援を申し出る",
+      "nuanceJa": "支援を提供できると伝える。",
+      "example": "Our neighbours offered support after the storm.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "offer",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-support-financial-support",
+      "wordId": "article-ethiopia-business-2026-support",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "financial support",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "資金面の支援",
+      "nuanceJa": "お金に関係する支援に限定する。",
+      "example": "The project received financial support from local shops.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "financial",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-support-support-for-a-project",
+      "wordId": "article-ethiopia-business-2026-support",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "support for a project",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "事業への支援",
+      "nuanceJa": "支援の対象をforで示す。",
+      "example": "Support for the project came from several community groups.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-local-local-people",
+      "wordId": "article-ethiopia-business-2026-local",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "local people",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "地域の人々",
+      "nuanceJa": "その土地に住む人を指す。",
+      "example": "Local people helped clean the park.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "people",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "whisper"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-local-a-local-business",
+      "wordId": "article-ethiopia-business-2026-local",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "a local business",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "地元の事業者",
+      "nuanceJa": "活動の拠点が近隣にある事業者。",
+      "example": "A local business supplied chairs for the event.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "business",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "whisper"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-ethiopia-business-2026-local-the-local-community",
+      "wordId": "article-ethiopia-business-2026-local",
+      "articleId": "article-ethiopia-business-2026",
+      "form": "the local community",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "地域社会",
+      "nuanceJa": "その地域の人々全体を指す。",
+      "example": "The local community welcomed the new library.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "community",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "whisper"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-representation-political-representation",
+      "wordId": "article-informal-workers-2026-representation",
+      "articleId": "article-informal-workers-2026",
+      "form": "political representation",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "政治への代表参加",
+      "nuanceJa": "「政治への代表参加」という場面で用いる組み合わせ。",
+      "example": "The proposal seeks broader political representation.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "political",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-representation-worker-representation",
+      "wordId": "article-informal-workers-2026-representation",
+      "articleId": "article-informal-workers-2026",
+      "form": "worker representation",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "労働者の代表参加",
+      "nuanceJa": "「労働者の代表参加」という場面で用いる組み合わせ。",
+      "example": "The agreement strengthens worker representation.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-representation-fair-representation",
+      "wordId": "article-informal-workers-2026-representation",
+      "articleId": "article-informal-workers-2026",
+      "form": "fair representation",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "公正な代表参加",
+      "nuanceJa": "「公正な代表参加」という場面で用いる組み合わせ。",
+      "example": "Members asked for fair representation on the board.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "fair",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-dialogue-policy-dialogue",
+      "wordId": "article-informal-workers-2026-dialogue",
+      "articleId": "article-informal-workers-2026",
+      "form": "policy dialogue",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "政策対話",
+      "nuanceJa": "「政策対話」という場面で用いる組み合わせ。",
+      "example": "The workshop opened a policy dialogue.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-dialogue-social-dialogue",
+      "wordId": "article-informal-workers-2026-dialogue",
+      "articleId": "article-informal-workers-2026",
+      "form": "social dialogue",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "社会的対話",
+      "nuanceJa": "「社会的対話」という場面で用いる組み合わせ。",
+      "example": "Social dialogue brought different groups together.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "social",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-dialogue-open-dialogue",
+      "wordId": "article-informal-workers-2026-dialogue",
+      "articleId": "article-informal-workers-2026",
+      "form": "open dialogue",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "率直な対話",
+      "nuanceJa": "「率直な対話」という場面で用いる組み合わせ。",
+      "example": "Open dialogue helped identify shared concerns.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "open",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-livelihoods-protect-livelihoods",
+      "wordId": "article-informal-workers-2026-livelihoods",
+      "articleId": "article-informal-workers-2026",
+      "form": "protect livelihoods",
+      "type": "verb_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "生計を守る",
+      "nuanceJa": "「生計を守る」という場面で用いる組み合わせ。",
+      "example": "The plan aims to protect livelihoods during repairs.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "protect",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-livelihoods-rural-livelihoods",
+      "wordId": "article-informal-workers-2026-livelihoods",
+      "articleId": "article-informal-workers-2026",
+      "form": "rural livelihoods",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "農村の生計",
+      "nuanceJa": "「農村の生計」という場面で用いる組み合わせ。",
+      "example": "Researchers studied rural livelihoods in the region.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "rural",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-livelihoods-sustainable-livelihoods",
+      "wordId": "article-informal-workers-2026-livelihoods",
+      "articleId": "article-informal-workers-2026",
+      "form": "sustainable livelihoods",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "持続可能な生計",
+      "nuanceJa": "「持続可能な生計」という場面で用いる組み合わせ。",
+      "example": "The cooperative supports sustainable livelihoods.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "sustainable",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-affiliated-affiliated-with-a-union",
+      "wordId": "article-informal-workers-2026-affiliated",
+      "articleId": "article-informal-workers-2026",
+      "form": "affiliated with a union",
+      "type": "other",
+      "patternDetail": "動詞を含む句",
+      "meaningJa": "組合と提携した",
+      "nuanceJa": "「組合と提携した」という場面で用いる組み合わせ。",
+      "example": "The association is affiliated with a union.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-affiliated-affiliated-with-a-university",
+      "wordId": "article-informal-workers-2026-affiliated",
+      "articleId": "article-informal-workers-2026",
+      "form": "affiliated with a university",
+      "type": "other",
+      "patternDetail": "動詞を含む句",
+      "meaningJa": "大学と提携した",
+      "nuanceJa": "「大学と提携した」という場面で用いる組み合わせ。",
+      "example": "The centre is affiliated with a university.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-affiliated-affiliated-with-a-network",
+      "wordId": "article-informal-workers-2026-affiliated",
+      "articleId": "article-informal-workers-2026",
+      "form": "affiliated with a network",
+      "type": "other",
+      "patternDetail": "動詞を含む句",
+      "meaningJa": "ネットワークに所属した",
+      "nuanceJa": "「ネットワークに所属した」という場面で用いる組み合わせ。",
+      "example": "The group is affiliated with a regional network.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-inclusive-inclusive-policy",
+      "wordId": "article-informal-workers-2026-inclusive",
+      "articleId": "article-informal-workers-2026",
+      "form": "inclusive policy",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "包摂的な政策",
+      "nuanceJa": "「包摂的な政策」という場面で用いる組み合わせ。",
+      "example": "The council developed an inclusive policy.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "policy",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-inclusive-inclusive-discussion",
+      "wordId": "article-informal-workers-2026-inclusive",
+      "articleId": "article-informal-workers-2026",
+      "form": "inclusive discussion",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "多様な人が参加できる議論",
+      "nuanceJa": "「多様な人が参加できる議論」という場面で用いる組み合わせ。",
+      "example": "The facilitator encouraged an inclusive discussion.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "discussion",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-informal-workers-2026-inclusive-inclusive-workplace",
+      "wordId": "article-informal-workers-2026-inclusive",
+      "articleId": "article-informal-workers-2026",
+      "form": "inclusive workplace",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "多様な人を受け入れる職場",
+      "nuanceJa": "「多様な人を受け入れる職場」という場面で用いる組み合わせ。",
+      "example": "The company reviewed its inclusive workplace practices.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "workplace",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-recognise-recognise-skills",
+      "wordId": "article-jordan-skills-2026-recognise",
+      "articleId": "article-jordan-skills-2026",
+      "form": "recognise skills",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "技能を認定する",
+      "nuanceJa": "既存の技能を正式に認める。",
+      "example": "The programme recognises skills gained at work.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "skills",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-recognise-recognise-experience",
+      "wordId": "article-jordan-skills-2026-recognise",
+      "articleId": "article-jordan-skills-2026",
+      "form": "recognise experience",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "経験を認める",
+      "nuanceJa": "学習や仕事の経験を評価に含める。",
+      "example": "The school recognises experience from volunteer work.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "experience",
+        "distractors": [
+          "luggage",
+          "furniture",
+          "breakfast"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-recognise-officially-recognised",
+      "wordId": "article-jordan-skills-2026-recognise",
+      "articleId": "article-jordan-skills-2026",
+      "form": "officially recognised",
+      "type": "other",
+      "patternDetail": "副詞＋過去分詞",
+      "meaningJa": "正式に認定された",
+      "nuanceJa": "公的な承認があることを表す。",
+      "example": "The certificate is officially recognised by the association.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-assess-assess-skills",
+      "wordId": "article-jordan-skills-2026-assess",
+      "articleId": "article-jordan-skills-2026",
+      "form": "assess skills",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "技能を評価する",
+      "nuanceJa": "現在できることを判断する。",
+      "example": "The instructor assessed my cooking skills.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "skills",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-assess-assess-an-applicant",
+      "wordId": "article-jordan-skills-2026-assess",
+      "articleId": "article-jordan-skills-2026",
+      "form": "assess an applicant",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "申請者を評価する",
+      "nuanceJa": "人の適性などを審査する。",
+      "example": "Two tutors assessed each applicant.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "applicant",
+        "distractors": [
+          "pillow",
+          "sneeze",
+          "breakfast"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-assess-assess-the-quality",
+      "wordId": "article-jordan-skills-2026-assess",
+      "articleId": "article-jordan-skills-2026",
+      "form": "assess the quality",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "質を評価する",
+      "nuanceJa": "対象の出来栄えを判断する。",
+      "example": "We assessed the quality of the repaired chairs.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "quality",
+        "distractors": [
+          "pillow",
+          "sneeze",
+          "breakfast"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-qualification-gain-a-qualification",
+      "wordId": "article-jordan-skills-2026-qualification",
+      "articleId": "article-jordan-skills-2026",
+      "form": "gain a qualification",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "資格を取得する",
+      "nuanceJa": "学習や評価を経て取得する。",
+      "example": "He gained a qualification after the evening course.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "gain",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-qualification-a-recognised-qualification",
+      "wordId": "article-jordan-skills-2026-qualification",
+      "articleId": "article-jordan-skills-2026",
+      "form": "a recognised qualification",
+      "type": "adj_noun",
+      "patternDetail": "過去分詞＋名詞",
+      "meaningJa": "認められた資格",
+      "nuanceJa": "資格に正式な認知があること。",
+      "example": "The job requires a recognised qualification.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "recognised",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-qualification-a-professional-qualification",
+      "wordId": "article-jordan-skills-2026-qualification",
+      "articleId": "article-jordan-skills-2026",
+      "form": "a professional qualification",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "専門資格",
+      "nuanceJa": "特定の職業に関係する資格。",
+      "example": "She is studying for a professional qualification.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "professional",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-accessible-accessible-to-people",
+      "wordId": "article-jordan-skills-2026-accessible",
+      "articleId": "article-jordan-skills-2026",
+      "form": "accessible to people",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "人々が利用しやすい",
+      "nuanceJa": "利用可能な対象をtoで示す。",
+      "example": "The reading room is accessible to all residents.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-accessible-accessible-services",
+      "wordId": "article-jordan-skills-2026-accessible",
+      "articleId": "article-jordan-skills-2026",
+      "form": "accessible services",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "利用しやすいサービス",
+      "nuanceJa": "サービスの使いやすさを述べる。",
+      "example": "Accessible services help people complete applications.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "services",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-accessible-make-something-accessible",
+      "wordId": "article-jordan-skills-2026-accessible",
+      "articleId": "article-jordan-skills-2026",
+      "form": "make something accessible",
+      "type": "other",
+      "patternDetail": "動詞＋目的語＋形容詞",
+      "meaningJa": "何かを利用しやすくする",
+      "nuanceJa": "利用の障壁を下げる動作。",
+      "example": "Clear signs make the building accessible.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-foundation-lay-a-foundation",
+      "wordId": "article-jordan-skills-2026-foundation",
+      "articleId": "article-jordan-skills-2026",
+      "form": "lay a foundation",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "土台を築く",
+      "nuanceJa": "後の発展のために基礎を作る。",
+      "example": "The first lessons laid a foundation for speaking practice.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "lay",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-foundation-a-foundation-for-growth",
+      "wordId": "article-jordan-skills-2026-foundation",
+      "articleId": "article-jordan-skills-2026",
+      "form": "a foundation for growth",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "成長の土台",
+      "nuanceJa": "成長を支えるものを表す。",
+      "example": "Good records provide a foundation for growth.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-jordan-skills-2026-foundation-a-strong-foundation",
+      "wordId": "article-jordan-skills-2026-foundation",
+      "articleId": "article-jordan-skills-2026",
+      "form": "a strong foundation",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "しっかりした土台",
+      "nuanceJa": "基礎の強さを述べる。",
+      "example": "The team built a strong foundation through regular meetings.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "strong",
+        "distractors": [
+          "hungry",
+          "sudden",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-networks-local-networks",
+      "wordId": "article-mexico-tourism-2026-networks",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "local networks",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "地域のつながり",
+      "nuanceJa": "「地域のつながり」という場面で用いる組み合わせ。",
+      "example": "Local networks helped new residents find support.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "local",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-networks-research-networks",
+      "wordId": "article-mexico-tourism-2026-networks",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "research networks",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "研究者のネットワーク",
+      "nuanceJa": "「研究者のネットワーク」という場面で用いる組み合わせ。",
+      "example": "Research networks connect teams across borders.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-networks-support-networks",
+      "wordId": "article-mexico-tourism-2026-networks",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "support networks",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "支援のつながり",
+      "nuanceJa": "「支援のつながり」という場面で用いる組み合わせ。",
+      "example": "Strong support networks helped the volunteers.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-cooperatives-farming-cooperatives",
+      "wordId": "article-mexico-tourism-2026-cooperatives",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "farming cooperatives",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "農業協同組合",
+      "nuanceJa": "「農業協同組合」という場面で用いる組み合わせ。",
+      "example": "Farming cooperatives share equipment among members.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-cooperatives-worker-cooperatives",
+      "wordId": "article-mexico-tourism-2026-cooperatives",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "worker cooperatives",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "労働者協同組合",
+      "nuanceJa": "「労働者協同組合」という場面で用いる組み合わせ。",
+      "example": "Worker cooperatives make decisions through their members.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-cooperatives-join-cooperatives",
+      "wordId": "article-mexico-tourism-2026-cooperatives",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "join cooperatives",
+      "type": "verb_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "協同組合に参加する",
+      "nuanceJa": "「協同組合に参加する」という場面で用いる組み合わせ。",
+      "example": "Local producers decided to join cooperatives.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "join",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-indicators-economic-indicators",
+      "wordId": "article-mexico-tourism-2026-indicators",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "economic indicators",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "経済指標",
+      "nuanceJa": "「経済指標」という場面で用いる組み合わせ。",
+      "example": "The team compared several economic indicators.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "economic",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-indicators-performance-indicators",
+      "wordId": "article-mexico-tourism-2026-indicators",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "performance indicators",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "実績の指標",
+      "nuanceJa": "「実績の指標」という場面で用いる組み合わせ。",
+      "example": "We selected performance indicators before the project.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-indicators-develop-indicators",
+      "wordId": "article-mexico-tourism-2026-indicators",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "develop indicators",
+      "type": "verb_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "指標を作る",
+      "nuanceJa": "「指標を作る」という場面で用いる組み合わせ。",
+      "example": "Researchers will develop indicators for community access.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "develop",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-heritage-cultural-heritage",
+      "wordId": "article-mexico-tourism-2026-heritage",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "cultural heritage",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "文化遺産",
+      "nuanceJa": "「文化遺産」という場面で用いる組み合わせ。",
+      "example": "The festival celebrates local cultural heritage.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "cultural",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-heritage-preserve-heritage",
+      "wordId": "article-mexico-tourism-2026-heritage",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "preserve heritage",
+      "type": "verb_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "文化を守る",
+      "nuanceJa": "「文化を守る」という場面で用いる組み合わせ。",
+      "example": "Residents formed a group to preserve heritage.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "preserve",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-heritage-shared-heritage",
+      "wordId": "article-mexico-tourism-2026-heritage",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "shared heritage",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "共有する文化",
+      "nuanceJa": "「共有する文化」という場面で用いる組み合わせ。",
+      "example": "The exhibition explores the communities' shared heritage.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "shared",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-evaluation-independent-evaluation",
+      "wordId": "article-mexico-tourism-2026-evaluation",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "independent evaluation",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "独立した評価",
+      "nuanceJa": "「独立した評価」という場面で用いる組み合わせ。",
+      "example": "An independent evaluation reviewed the programme.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "independent",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-evaluation-conduct-an-evaluation",
+      "wordId": "article-mexico-tourism-2026-evaluation",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "conduct an evaluation",
+      "type": "verb_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "評価を行う",
+      "nuanceJa": "「評価を行う」という場面で用いる組み合わせ。",
+      "example": "The university will conduct an evaluation.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "conduct",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-mexico-tourism-2026-evaluation-evaluation-criteria",
+      "wordId": "article-mexico-tourism-2026-evaluation",
+      "articleId": "article-mexico-tourism-2026",
+      "form": "evaluation criteria",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "評価基準",
+      "nuanceJa": "「評価基準」という場面で用いる組み合わせ。",
+      "example": "We agreed on evaluation criteria before starting.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-incorporated-incorporated-into-a-design",
+      "wordId": "article-particle-telescope-2026-incorporated",
+      "articleId": "article-particle-telescope-2026",
+      "form": "incorporated into a design",
+      "type": "other",
+      "patternDetail": "動詞を含む句",
+      "meaningJa": "設計に組み込まれた",
+      "nuanceJa": "「設計に組み込まれた」という場面で用いる組み合わせ。",
+      "example": "The new sensor was incorporated into the design.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-incorporated-incorporated-in-a-system",
+      "wordId": "article-particle-telescope-2026-incorporated",
+      "articleId": "article-particle-telescope-2026",
+      "form": "incorporated in a system",
+      "type": "other",
+      "patternDetail": "動詞を含む句",
+      "meaningJa": "システムに組み込まれた",
+      "nuanceJa": "「システムに組み込まれた」という場面で用いる組み合わせ。",
+      "example": "Several checks were incorporated in the system.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-incorporated-incorporated-into-a-plan",
+      "wordId": "article-particle-telescope-2026-incorporated",
+      "articleId": "article-particle-telescope-2026",
+      "form": "incorporated into a plan",
+      "type": "other",
+      "patternDetail": "動詞を含む句",
+      "meaningJa": "計画に取り入れられた",
+      "nuanceJa": "「計画に取り入れられた」という場面で用いる組み合わせ。",
+      "example": "Their suggestions were incorporated into the plan.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-compact-compact-design",
+      "wordId": "article-particle-telescope-2026-compact",
+      "articleId": "article-particle-telescope-2026",
+      "form": "compact design",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "小型の設計",
+      "nuanceJa": "「小型の設計」という場面で用いる組み合わせ。",
+      "example": "A compact design saves space on the desk.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "design",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-compact-compact-device",
+      "wordId": "article-particle-telescope-2026-compact",
+      "articleId": "article-particle-telescope-2026",
+      "form": "compact device",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "小型装置",
+      "nuanceJa": "「小型装置」という場面で用いる組み合わせ。",
+      "example": "They developed a compact device for field work.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "device",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-compact-compact-camera",
+      "wordId": "article-particle-telescope-2026-compact",
+      "articleId": "article-particle-telescope-2026",
+      "form": "compact camera",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "小型カメラ",
+      "nuanceJa": "「小型カメラ」という場面で用いる組み合わせ。",
+      "example": "I packed a compact camera for the trip.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "camera",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-temporary-temporary-closure",
+      "wordId": "article-particle-telescope-2026-temporary",
+      "articleId": "article-particle-telescope-2026",
+      "form": "temporary closure",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "一時閉鎖",
+      "nuanceJa": "「一時閉鎖」という場面で用いる組み合わせ。",
+      "example": "The station announced a temporary closure.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "closure",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-temporary-temporary-position",
+      "wordId": "article-particle-telescope-2026-temporary",
+      "articleId": "article-particle-telescope-2026",
+      "form": "temporary position",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "臨時の職",
+      "nuanceJa": "「臨時の職」という場面で用いる組み合わせ。",
+      "example": "She accepted a temporary position at the library.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "position",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-temporary-temporary-shelter",
+      "wordId": "article-particle-telescope-2026-temporary",
+      "articleId": "article-particle-telescope-2026",
+      "form": "temporary shelter",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "一時的な避難所",
+      "nuanceJa": "「一時的な避難所」という場面で用いる組み合わせ。",
+      "example": "The school provided temporary shelter during repairs.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "shelter",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-resumed-resumed-work",
+      "wordId": "article-particle-telescope-2026-resumed",
+      "articleId": "article-particle-telescope-2026",
+      "form": "resumed work",
+      "type": "adj_noun",
+      "patternDetail": "動詞を含む句",
+      "meaningJa": "仕事を再開した",
+      "nuanceJa": "「仕事を再開した」という場面で用いる組み合わせ。",
+      "example": "The team resumed work after lunch.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "work",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-resumed-resumed-operations",
+      "wordId": "article-particle-telescope-2026-resumed",
+      "articleId": "article-particle-telescope-2026",
+      "form": "resumed operations",
+      "type": "adj_noun",
+      "patternDetail": "動詞を含む句",
+      "meaningJa": "運転を再開した",
+      "nuanceJa": "「運転を再開した」という場面で用いる組み合わせ。",
+      "example": "The factory resumed operations on Monday.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "operations",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-resumed-resumed-discussions",
+      "wordId": "article-particle-telescope-2026-resumed",
+      "articleId": "article-particle-telescope-2026",
+      "form": "resumed discussions",
+      "type": "adj_noun",
+      "patternDetail": "動詞を含む句",
+      "meaningJa": "議論を再開した",
+      "nuanceJa": "「議論を再開した」という場面で用いる組み合わせ。",
+      "example": "They resumed discussions after the break.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "discussions",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-perspective-a-different-perspective",
+      "wordId": "article-particle-telescope-2026-perspective",
+      "articleId": "article-particle-telescope-2026",
+      "form": "a different perspective",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "異なる観点",
+      "nuanceJa": "「異なる観点」という場面で用いる組み合わせ。",
+      "example": "The interview offered a different perspective.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "different",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-perspective-from-a-scientific-perspective",
+      "wordId": "article-particle-telescope-2026-perspective",
+      "articleId": "article-particle-telescope-2026",
+      "form": "from a scientific perspective",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "科学的な観点から",
+      "nuanceJa": "「科学的な観点から」という場面で用いる組み合わせ。",
+      "example": "They examined the issue from a scientific perspective.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-particle-telescope-2026-perspective-gain-perspective",
+      "wordId": "article-particle-telescope-2026-perspective",
+      "articleId": "article-particle-telescope-2026",
+      "form": "gain perspective",
+      "type": "verb_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "見方を広げる",
+      "nuanceJa": "「見方を広げる」という場面で用いる組み合わせ。",
+      "example": "The visit helped me gain perspective on the debate.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "gain",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-community-a-coastal-community",
+      "wordId": "article-samoa-tsunami-2026-community",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "a coastal community",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "沿岸の地域社会",
+      "nuanceJa": "海岸付近に暮らす人々。",
+      "example": "The coastal community discussed new walking routes.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "coastal",
+        "distractors": [
+          "hungry",
+          "velvet",
+          "sleepy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-community-community-members",
+      "wordId": "article-samoa-tsunami-2026-community",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "community members",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "地域の住民",
+      "nuanceJa": "その地域社会を構成する人。",
+      "example": "Community members met at the school.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-community-support-a-community",
+      "wordId": "article-samoa-tsunami-2026-community",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "support a community",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "地域社会を支援する",
+      "nuanceJa": "地域全体への援助を表す。",
+      "example": "The new bus service supports a small community.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "support",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-warning-receive-a-warning",
+      "wordId": "article-samoa-tsunami-2026-warning",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "receive a warning",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "警報を受け取る",
+      "nuanceJa": "情報を受け取る側の動作。",
+      "example": "Residents received a warning on their phones.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "receive",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-warning-issue-a-warning",
+      "wordId": "article-samoa-tsunami-2026-warning",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "issue a warning",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "警報を出す",
+      "nuanceJa": "知らせを発する側の動作。",
+      "example": "The town issued a warning about the flooded road.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "issue",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "sharpen"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-warning-a-warning-system",
+      "wordId": "article-samoa-tsunami-2026-warning",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "a warning system",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "警報システム",
+      "nuanceJa": "危険情報を知らせる仕組み。",
+      "example": "The school tested its warning system.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-practise-practise-a-skill",
+      "wordId": "article-samoa-tsunami-2026-practise",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "practise a skill",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "技能を練習する",
+      "nuanceJa": "反復して技能を高める。",
+      "example": "I practise a new cooking skill every weekend.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "skill",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-practise-practise-doing-x",
+      "wordId": "article-samoa-tsunami-2026-practise",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "practise doing ～",
+      "type": "other",
+      "patternDetail": "動詞＋動名詞",
+      "meaningJa": "～する練習をする",
+      "nuanceJa": "後ろには動名詞を使う。",
+      "example": "The class practised finding the emergency exit.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-practise-practise-regularly",
+      "wordId": "article-samoa-tsunami-2026-practise",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "practise regularly",
+      "type": "other",
+      "patternDetail": "動詞＋副詞",
+      "meaningJa": "定期的に練習する",
+      "nuanceJa": "継続する頻度を表す。",
+      "example": "The volunteers practise regularly before public events.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-clear-clear-instructions",
+      "wordId": "article-samoa-tsunami-2026-clear",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "clear instructions",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "分かりやすい指示",
+      "nuanceJa": "理解しやすさを述べる。",
+      "example": "Clear instructions helped visitors find the entrance.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "instructions",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-clear-make-something-clear",
+      "wordId": "article-samoa-tsunami-2026-clear",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "make something clear",
+      "type": "other",
+      "patternDetail": "動詞＋目的語＋形容詞",
+      "meaningJa": "何かを明確にする",
+      "nuanceJa": "内容を理解しやすくする動作。",
+      "example": "The diagram made the process clear.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-clear-a-clear-message",
+      "wordId": "article-samoa-tsunami-2026-clear",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "a clear message",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "分かりやすい知らせ",
+      "nuanceJa": "受け手が意味を捉えやすい情報。",
+      "example": "The poster gave a clear message about opening hours.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "message",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-route-an-evacuation-route",
+      "wordId": "article-samoa-tsunami-2026-route",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "an evacuation route",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "避難経路",
+      "nuanceJa": "危険な場所から移動するための経路。",
+      "example": "The map shows an evacuation route to higher ground.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-route-plan-a-route",
+      "wordId": "article-samoa-tsunami-2026-route",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "plan a route",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "経路を計画する",
+      "nuanceJa": "通る道をあらかじめ決める。",
+      "example": "We planned a route that avoided the busy road.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "plan",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-samoa-tsunami-2026-route-follow-a-route",
+      "wordId": "article-samoa-tsunami-2026-route",
+      "articleId": "article-samoa-tsunami-2026",
+      "form": "follow a route",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "経路に沿って進む",
+      "nuanceJa": "指定された道をたどる。",
+      "example": "Visitors followed a route around the garden.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "follow",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-contribute-contribute-an-idea",
+      "wordId": "article-school-poetry-2026-contribute",
+      "articleId": "article-school-poetry-2026",
+      "form": "contribute an idea",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "アイデアを提供する",
+      "nuanceJa": "自分の考えを共同作業に出す。",
+      "example": "Each pupil contributed an idea for the story.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "idea",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-contribute-contribute-to-a-project",
+      "wordId": "article-school-poetry-2026-contribute",
+      "articleId": "article-school-poetry-2026",
+      "form": "contribute to a project",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "事業に参加して力を貸す",
+      "nuanceJa": "貢献する対象をtoで示す。",
+      "example": "Several volunteers contributed to the garden project.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-contribute-contribute-time",
+      "wordId": "article-school-poetry-2026-contribute",
+      "articleId": "article-school-poetry-2026",
+      "form": "contribute time",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "時間を提供する",
+      "nuanceJa": "作業に時間を割く。",
+      "example": "Our neighbours contributed time to clean the hall.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "time",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-perform-perform-a-poem",
+      "wordId": "article-school-poetry-2026-perform",
+      "articleId": "article-school-poetry-2026",
+      "form": "perform a poem",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "詩を朗読する",
+      "nuanceJa": "観客に向けて作品を読む。",
+      "example": "The student performed a poem at the school concert.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "poem",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-perform-perform-live",
+      "wordId": "article-school-poetry-2026-perform",
+      "articleId": "article-school-poetry-2026",
+      "form": "perform live",
+      "type": "other",
+      "patternDetail": "動詞＋副詞",
+      "meaningJa": "生で上演する",
+      "nuanceJa": "録画ではなくその場で演じる。",
+      "example": "The band will perform live in the library.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-perform-perform-on-stage",
+      "wordId": "article-school-poetry-2026-perform",
+      "articleId": "article-school-poetry-2026",
+      "form": "perform on stage",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "舞台で演じる",
+      "nuanceJa": "上演する場所を示す。",
+      "example": "Our group performed on stage for the first time.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-response-a-response-to-x",
+      "wordId": "article-school-poetry-2026-response",
+      "articleId": "article-school-poetry-2026",
+      "form": "a response to ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～への返答",
+      "nuanceJa": "何に対する反応かをtoで示す。",
+      "example": "Her response to the letter arrived yesterday.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-response-receive-a-response",
+      "wordId": "article-school-poetry-2026-response",
+      "articleId": "article-school-poetry-2026",
+      "form": "receive a response",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "返答を受け取る",
+      "nuanceJa": "受信する側の動作を表す。",
+      "example": "We received a response from the organiser.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "receive",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-response-a-positive-response",
+      "wordId": "article-school-poetry-2026-response",
+      "articleId": "article-school-poetry-2026",
+      "form": "a positive response",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "好意的な反応",
+      "nuanceJa": "返答の内容や態度を述べる。",
+      "example": "The proposal received a positive response.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "positive",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-estimate-a-rough-estimate",
+      "wordId": "article-school-poetry-2026-estimate",
+      "articleId": "article-school-poetry-2026",
+      "form": "a rough estimate",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "おおまかな見積もり",
+      "nuanceJa": "精密さを求めない概算。",
+      "example": "We made a rough estimate of the travel costs.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "rough",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-estimate-make-an-estimate",
+      "wordId": "article-school-poetry-2026-estimate",
+      "articleId": "article-school-poetry-2026",
+      "form": "make an estimate",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "見積もりを出す",
+      "nuanceJa": "金額や人数などを概算する。",
+      "example": "The builder made an estimate for the repair.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "make",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-estimate-an-estimate-of-x",
+      "wordId": "article-school-poetry-2026-estimate",
+      "articleId": "article-school-poetry-2026",
+      "form": "an estimate of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の概算",
+      "nuanceJa": "何を見積もるかをofで示す。",
+      "example": "We need an estimate of the number of visitors.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-collection-a-poetry-collection",
+      "wordId": "article-school-poetry-2026-collection",
+      "articleId": "article-school-poetry-2026",
+      "form": "a poetry collection",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "詩集",
+      "nuanceJa": "複数の詩をまとめたもの。",
+      "example": "She borrowed a poetry collection from the library.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-collection-a-collection-of-stories",
+      "wordId": "article-school-poetry-2026-collection",
+      "articleId": "article-school-poetry-2026",
+      "form": "a collection of stories",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "物語集",
+      "nuanceJa": "ofで収められた内容を示す。",
+      "example": "We read a collection of stories about the sea.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-school-poetry-2026-collection-publish-a-collection",
+      "wordId": "article-school-poetry-2026-collection",
+      "articleId": "article-school-poetry-2026",
+      "form": "publish a collection",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "作品集を出版する",
+      "nuanceJa": "まとめた作品を世に出す。",
+      "example": "The club published a collection of student essays.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "publish",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-launch-launch-a-balloon",
+      "wordId": "article-science-balloon-2026-launch",
+      "articleId": "article-science-balloon-2026",
+      "form": "launch a balloon",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "気球を打ち上げる",
+      "nuanceJa": "飛行の開始を表す。",
+      "example": "They launched a balloon to test a sensor.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "balloon",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-launch-launch-a-mission",
+      "wordId": "article-science-balloon-2026-launch",
+      "articleId": "article-science-balloon-2026",
+      "form": "launch a mission",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "ミッションを開始する",
+      "nuanceJa": "計画を実際に始動させる。",
+      "example": "The agency launched a mission to study clouds.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "mission",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-launch-a-launch-site",
+      "wordId": "article-science-balloon-2026-launch",
+      "articleId": "article-science-balloon-2026",
+      "form": "a launch site",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "発射地点",
+      "nuanceJa": "打ち上げを行う場所。",
+      "example": "The truck arrived at the launch site early.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-experimental-experimental-technology",
+      "wordId": "article-science-balloon-2026-experimental",
+      "articleId": "article-science-balloon-2026",
+      "form": "experimental technology",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "実験段階の技術",
+      "nuanceJa": "性能などを試している技術。",
+      "example": "The boat uses experimental technology to save energy.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "technology",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "breakfast"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-experimental-an-experimental-design",
+      "wordId": "article-science-balloon-2026-experimental",
+      "articleId": "article-science-balloon-2026",
+      "form": "an experimental design",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "試験的な設計",
+      "nuanceJa": "評価のために試す設計。",
+      "example": "We tested an experimental design before choosing the final model.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "design",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-experimental-experimental-equipment",
+      "wordId": "article-science-balloon-2026-experimental",
+      "articleId": "article-science-balloon-2026",
+      "form": "experimental equipment",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "実験用の装置",
+      "nuanceJa": "新しい手法を試す装置。",
+      "example": "The students borrowed experimental equipment.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "equipment",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "breakfast"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-equipment-test-equipment",
+      "wordId": "article-science-balloon-2026-equipment",
+      "articleId": "article-science-balloon-2026",
+      "form": "test equipment",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "機器を試験する",
+      "nuanceJa": "作動などを試す。",
+      "example": "We tested the equipment before the trip.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-equipment-safety-equipment",
+      "wordId": "article-science-balloon-2026-equipment",
+      "articleId": "article-science-balloon-2026",
+      "form": "safety equipment",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "安全装備",
+      "nuanceJa": "安全のために使う道具。",
+      "example": "The instructor checked our safety equipment.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-equipment-a-piece-of-equipment",
+      "wordId": "article-science-balloon-2026-equipment",
+      "articleId": "article-science-balloon-2026",
+      "form": "a piece of equipment",
+      "type": "other",
+      "patternDetail": "数量表現＋名詞",
+      "meaningJa": "一つの機器",
+      "nuanceJa": "equipmentは不可算名詞なのでpieceを使う。",
+      "example": "Each student cleaned one piece of equipment.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-suitable-suitable-for-x",
+      "wordId": "article-science-balloon-2026-suitable",
+      "articleId": "article-science-balloon-2026",
+      "form": "suitable for ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～に適した",
+      "nuanceJa": "適している対象をforで示す。",
+      "example": "This box is suitable for carrying books.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-suitable-suitable-conditions",
+      "wordId": "article-science-balloon-2026-suitable",
+      "articleId": "article-science-balloon-2026",
+      "form": "suitable conditions",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "適した条件",
+      "nuanceJa": "目的に合う環境や状況。",
+      "example": "We waited for suitable conditions to paint the fence.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "conditions",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-suitable-a-suitable-time",
+      "wordId": "article-science-balloon-2026-suitable",
+      "articleId": "article-science-balloon-2026",
+      "form": "a suitable time",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "適切な時間",
+      "nuanceJa": "活動に都合のよい時刻。",
+      "example": "They agreed on a suitable time for the call.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "time",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-attempt-make-an-attempt",
+      "wordId": "article-science-balloon-2026-attempt",
+      "articleId": "article-science-balloon-2026",
+      "form": "make an attempt",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "試みる",
+      "nuanceJa": "試しに取り組む行為を表す。",
+      "example": "We made an attempt to repair the old radio.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "make",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-attempt-an-attempt-to-do-x",
+      "wordId": "article-science-balloon-2026-attempt",
+      "articleId": "article-science-balloon-2026",
+      "form": "an attempt to do ～",
+      "type": "other",
+      "patternDetail": "名詞＋不定詞",
+      "meaningJa": "～しようとする試み",
+      "nuanceJa": "何を試すかを不定詞で示す。",
+      "example": "Their attempt to cross the river was unsuccessful.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-science-balloon-2026-attempt-another-attempt",
+      "wordId": "article-science-balloon-2026-attempt",
+      "articleId": "article-science-balloon-2026",
+      "form": "another attempt",
+      "type": "other",
+      "patternDetail": "限定詞＋名詞",
+      "meaningJa": "再度の試み",
+      "nuanceJa": "以前の試みに続く挑戦。",
+      "example": "She made another attempt after changing the design.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-maritime-maritime-safety",
+      "wordId": "article-space-ports-2026-maritime",
+      "articleId": "article-space-ports-2026",
+      "form": "maritime safety",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "海上の安全",
+      "nuanceJa": "「海上の安全」という場面で用いる組み合わせ。",
+      "example": "The course covers maritime safety.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "safety",
+        "distractors": [
+          "breakfast",
+          "sunrise",
+          "fraction"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-maritime-maritime-trade",
+      "wordId": "article-space-ports-2026-maritime",
+      "articleId": "article-space-ports-2026",
+      "form": "maritime trade",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "海上貿易",
+      "nuanceJa": "「海上貿易」という場面で用いる組み合わせ。",
+      "example": "The museum explains the history of maritime trade.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "trade",
+        "distractors": [
+          "breakfast",
+          "sunrise",
+          "fraction"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-maritime-maritime-transport",
+      "wordId": "article-space-ports-2026-maritime",
+      "articleId": "article-space-ports-2026",
+      "form": "maritime transport",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "海上輸送",
+      "nuanceJa": "「海上輸送」という場面で用いる組み合わせ。",
+      "example": "The report compares maritime transport with rail services.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "transport",
+        "distractors": [
+          "breakfast",
+          "sunrise",
+          "fraction"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-logistics-manage-logistics",
+      "wordId": "article-space-ports-2026-logistics",
+      "articleId": "article-space-ports-2026",
+      "form": "manage logistics",
+      "type": "verb_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "物流を管理する",
+      "nuanceJa": "「物流を管理する」という場面で用いる組み合わせ。",
+      "example": "A small team manages logistics for the exhibition.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "manage",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-logistics-logistics-network",
+      "wordId": "article-space-ports-2026-logistics",
+      "articleId": "article-space-ports-2026",
+      "form": "logistics network",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "物流網",
+      "nuanceJa": "「物流網」という場面で用いる組み合わせ。",
+      "example": "The company expanded its logistics network.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-logistics-logistics-costs",
+      "wordId": "article-space-ports-2026-logistics",
+      "articleId": "article-space-ports-2026",
+      "form": "logistics costs",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "物流費用",
+      "nuanceJa": "「物流費用」という場面で用いる組み合わせ。",
+      "example": "Better planning reduced our logistics costs.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-operational-operational-needs",
+      "wordId": "article-space-ports-2026-operational",
+      "articleId": "article-space-ports-2026",
+      "form": "operational needs",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "業務上の必要性",
+      "nuanceJa": "「業務上の必要性」という場面で用いる組み合わせ。",
+      "example": "The design team asked users about operational needs.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "needs",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-operational-operational-costs",
+      "wordId": "article-space-ports-2026-operational",
+      "articleId": "article-space-ports-2026",
+      "form": "operational costs",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "運営費用",
+      "nuanceJa": "「運営費用」という場面で用いる組み合わせ。",
+      "example": "The new office has lower operational costs.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "costs",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-operational-operational-efficiency",
+      "wordId": "article-space-ports-2026-operational",
+      "articleId": "article-space-ports-2026",
+      "form": "operational efficiency",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "業務効率",
+      "nuanceJa": "「業務効率」という場面で用いる組み合わせ。",
+      "example": "A clearer schedule improved operational efficiency.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "efficiency",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-monitoring-environmental-monitoring",
+      "wordId": "article-space-ports-2026-monitoring",
+      "articleId": "article-space-ports-2026",
+      "form": "environmental monitoring",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "環境の監視",
+      "nuanceJa": "「環境の監視」という場面で用いる組み合わせ。",
+      "example": "Environmental monitoring continued after the repairs.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "environmental",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-monitoring-continuous-monitoring",
+      "wordId": "article-space-ports-2026-monitoring",
+      "articleId": "article-space-ports-2026",
+      "form": "continuous monitoring",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "継続的な監視",
+      "nuanceJa": "「継続的な監視」という場面で用いる組み合わせ。",
+      "example": "The equipment requires continuous monitoring.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "continuous",
+        "distractors": [
+          "hungry",
+          "tidal",
+          "velvet"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-monitoring-monitoring-system",
+      "wordId": "article-space-ports-2026-monitoring",
+      "articleId": "article-space-ports-2026",
+      "form": "monitoring system",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "監視システム",
+      "nuanceJa": "「監視システム」という場面で用いる組み合わせ。",
+      "example": "Engineers tested the monitoring system overnight.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-deployment-system-deployment",
+      "wordId": "article-space-ports-2026-deployment",
+      "articleId": "article-space-ports-2026",
+      "form": "system deployment",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "システムの導入",
+      "nuanceJa": "「システムの導入」という場面で用いる組み合わせ。",
+      "example": "System deployment will begin next month.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-deployment-deployment-plan",
+      "wordId": "article-space-ports-2026-deployment",
+      "articleId": "article-space-ports-2026",
+      "form": "deployment plan",
+      "type": "other",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "導入計画",
+      "nuanceJa": "「導入計画」という場面で用いる組み合わせ。",
+      "example": "The team revised its deployment plan.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-space-ports-2026-deployment-large-scale-deployment",
+      "wordId": "article-space-ports-2026-deployment",
+      "articleId": "article-space-ports-2026",
+      "form": "large-scale deployment",
+      "type": "adj_noun",
+      "patternDetail": "名詞を含む句",
+      "meaningJa": "大規模な導入",
+      "nuanceJa": "「大規模な導入」という場面で用いる組み合わせ。",
+      "example": "Testing must precede large-scale deployment.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-retention-employee-retention",
+      "wordId": "article-work-four-day-week-2022-retention",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "employee retention",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "従業員の定着・維持",
+      "nuanceJa": "在籍している人材が辞めずに働き続けること。新規採用とは分ける。",
+      "example": "Employee retention improved after the team introduced regular mentoring.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-retention-improve-retention",
+      "wordId": "article-work-four-day-week-2022-retention",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "improve retention",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "定着率を改善する",
+      "nuanceJa": "人材が残りやすくなる方向への変化を表す。",
+      "example": "The manager reviewed whether flexible shifts could improve retention.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "improve",
+        "distractors": [
+          "subtract",
+          "unplug",
+          "swallow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-retention-retention-rate",
+      "wordId": "article-work-four-day-week-2022-retention",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "retention rate",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "定着率",
+      "nuanceJa": "定着を測定する割合。対象期間と人数の定義が必要。",
+      "example": "We measured the retention rate over the first twelve months.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-streamline-streamline-a-process",
+      "wordId": "article-work-four-day-week-2022-streamline",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "streamline a process",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "工程を効率化する",
+      "nuanceJa": "工程の重複や無駄を減らす。自動化するとは限らない。",
+      "example": "The team streamlined the process by combining two approval steps.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "process",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-streamline-streamline-operations",
+      "wordId": "article-work-four-day-week-2022-streamline",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "streamline operations",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "業務運営を効率化する",
+      "nuanceJa": "個別工程より広い日常業務全体を対象にする。",
+      "example": "A shared booking system helped the clinic streamline operations.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "operations",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-streamline-streamline-communication",
+      "wordId": "article-work-four-day-week-2022-streamline",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "streamline communication",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "連絡の流れを簡素化する",
+      "nuanceJa": "連絡経路や手順を整理する。会話を減らすこと自体ではない。",
+      "example": "We streamlined communication by choosing one channel for urgent requests.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "communication",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-undermine-undermine-confidence-in-x",
+      "wordId": "article-work-four-day-week-2022-undermine",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "undermine confidence in ～",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～への信頼を損なう",
+      "nuanceJa": "confidenceの対象はinで続ける。信頼を弱める。",
+      "example": "Unexplained delays undermined confidence in the delivery plan.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-undermine-undermine-efforts-to-x",
+      "wordId": "article-work-four-day-week-2022-undermine",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "undermine efforts to ～",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞＋不定詞",
+      "meaningJa": "～するための努力を損なう",
+      "nuanceJa": "努力の効果を弱める。努力そのものがなくなるとは限らない。",
+      "example": "Conflicting instructions undermined efforts to reduce errors.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-undermine-undermine-authority",
+      "wordId": "article-work-four-day-week-2022-undermine",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "undermine authority",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "権威を損なう",
+      "nuanceJa": "人や組織の指示が受け入れられる力を弱める。",
+      "example": "Publicly reversing every decision undermined the supervisor's authority.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "authority",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-stagger-stagger-start-times",
+      "wordId": "article-work-four-day-week-2022-stagger",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "stagger start times",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "開始時刻をずらす",
+      "nuanceJa": "全員が同時に開始しないようにする。",
+      "example": "The organiser staggered start times to avoid a queue at the entrance.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-stagger-stagger-lunch-breaks",
+      "wordId": "article-work-four-day-week-2022-stagger",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "stagger lunch breaks",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "昼休憩の時間をずらす",
+      "nuanceJa": "休憩を分散し、人員配置を維持する。",
+      "example": "We stagger lunch breaks so that someone can answer customer calls.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-stagger-stagger-payments",
+      "wordId": "article-work-four-day-week-2022-stagger",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "stagger payments",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "支払い時期を分散する",
+      "nuanceJa": "支払いを別々の時期に配置する。単なる期日の延期とは異なる。",
+      "example": "The buyer asked to stagger payments across three months.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "payments",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-uniform-a-uniform-policy",
+      "wordId": "article-work-four-day-week-2022-uniform",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "a uniform policy",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "一律の方針",
+      "nuanceJa": "対象ごとに別方針を使わず、共通の方針を適用する。",
+      "example": "The company adopted a uniform policy for refund requests.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "policy",
+        "distractors": [
+          "sneeze",
+          "fraction",
+          "pillow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-uniform-uniform-standards",
+      "wordId": "article-work-four-day-week-2022-uniform",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "uniform standards",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "統一された基準",
+      "nuanceJa": "複数の場所や対象に同じ基準を使う。厳しさとは別。",
+      "example": "Uniform standards made it easier to compare inspection results.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "standards",
+        "distractors": [
+          "sneezes",
+          "fractions",
+          "pillows"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-work-four-day-week-2022-uniform-uniform-across-x",
+      "wordId": "article-work-four-day-week-2022-uniform",
+      "articleId": "article-work-four-day-week-2022",
+      "form": "uniform across ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～全体で一様な",
+      "nuanceJa": "何の範囲で同じなのかをacrossで示す。",
+      "example": "The reporting format is uniform across all regional offices.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": null,
+      "misuse": null
+    }
+  ]
+}

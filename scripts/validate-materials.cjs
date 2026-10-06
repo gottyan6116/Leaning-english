@@ -25,10 +25,14 @@ for(const folder of ['vocabulary','articles'])for(const file of fs.readdirSync(p
   }
  }
 }
+const collocations=require('./validate-collocations.cjs').validateCollocations(new Set(Object.keys(wordIndex)));
+errors.push(...collocations.errors);collocations.warnings.forEach(w=>console.warn('warning: '+w));
+{const rawFile=require('./validate-collocations.cjs').file,raw=fs.readFileSync(rawFile,'utf8');if(raw!==collocations.text){if(process.argv.includes('--write'))fs.writeFileSync(rawFile,collocations.text);else errors.push('Collocation material uses CRLF. Regenerate with --write before importing.');}}
+const collocationRef={id:collocations.material.id,version:collocations.material.version,path:'materials/collocations/article-collocations.json',sha256:hash(collocations.text)};
 if(errors.length){errors.forEach(e=>console.error(e));process.exit(1);}
 articles.sort((a,b)=>Date.parse(b.sourcePublishedAt)-Date.parse(a.sourcePublishedAt)||Date.parse(b.publishedAt)-Date.parse(a.publishedAt)||a.id.localeCompare(b.id));
 const articleIndex=artifact('materials/articles/index.json',json({id:'article-index',version:1,articles}));
 const articleSearch=artifact('materials/search/article-index.json',json({id:'article-search',version:1,articles:searchRows.sort((a,b)=>a.id.localeCompare(b.id))}));
-const content=json({version:2,articleSearch:{id:'article-search',version:1,...articleSearch},materials:entries.sort((a,b)=>a.id.localeCompare(b.id)),articleIndex:{id:'article-index',version:1,...articleIndex},articleVocabulary:vocabularyRefs.sort((a,b)=>a.id.localeCompare(b.id)),wordIndex});generated.push(['materials/manifest.json',content]);
+const content=json({version:2,articleSearch:{id:'article-search',version:1,...articleSearch},materials:entries.sort((a,b)=>a.id.localeCompare(b.id)),articleIndex:{id:'article-index',version:1,...articleIndex},articleVocabulary:vocabularyRefs.sort((a,b)=>a.id.localeCompare(b.id)),collocations:collocationRef,wordIndex});generated.push(['materials/manifest.json',content]);
 for(const [relative,text] of generated){const destination=path.join(root,relative);if(process.argv.includes('--write')){fs.mkdirSync(path.dirname(destination),{recursive:true});fs.writeFileSync(destination,text);}else if(!fs.existsSync(destination)||fs.readFileSync(destination,'utf8')!==text){console.error(`Generated catalog missing or stale: ${relative}. Validate and regenerate before importing.`);process.exit(1);}}
 console.log(`Material import validation: ${entries.length} materials / 0 errors; metadata and vocabulary ${process.argv.includes('--write')?'generated':'match verified JSON'}`);
