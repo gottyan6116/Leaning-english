@@ -13,7 +13,7 @@ try {
  insert into auth.users values('${A}'),('${B}');`);
  const files=(await fs.readdir('supabase/migrations')).filter(f=>f.endsWith('.sql')).sort();
  for(const file of files)await db.exec(await fs.readFile('supabase/migrations/'+file,'utf8'));
- ok(files.length===4,'four ordered migrations applied');
+ ok(files.length===5,'five ordered migrations applied');
  const tables=['answer_logs','saved_words','preferences','unit_sessions','article_states','opinion_drafts'];
  const rows=await db.query(`select relname,relrowsecurity from pg_class join pg_namespace n on n.oid=relnamespace where n.nspname in ('public','private') and relkind='r'`);
  ok(rows.rows.length===7&&rows.rows.every(r=>r.relrowsecurity),'all seven tables have RLS');
@@ -45,8 +45,11 @@ try {
  await db.exec(`insert into public.preferences(user_id,setting_key,value,updated_at,server_updated_at) values('${A}','mode','"en"','2026-01-03','1900-01-01') on conflict(user_id,setting_key) do update set value=excluded.value,updated_at=excluded.updated_at,server_updated_at=excluded.server_updated_at`);
  const newer=(await db.query(`select value,server_updated_at::text s from public.preferences where setting_key='mode'`)).rows[0];ok(newer.value==='en'&&!newer.s.startsWith('1900'),'newer upsert accepted with server timestamp');
  for(const table of ['saved_words','article_states','opinion_drafts']){await db.exec(`update public.${table} set updated_at='2026-01-01',server_updated_at='1900-01-01'`);ok((await db.query(`select updated_at::text u,server_updated_at::text s from public.${table}`)).rows.every(r=>r.u.startsWith('2026-01-02')&&!r.s.startsWith('1900')),'other mutable table rejects old changes');}
+ for(const kind of ['vocabulary','comprehension','collocation'])await db.exec(`insert into public.answer_logs(user_id,event_id,session_id,question_id,kind,mode,correct,answered_at) values('${A}',gen_random_uuid(),'session','q-${kind}','${kind}','en',true,now())`);
+ ok((await db.query(`select count(distinct kind)::int n from public.answer_logs where question_id like 'q-%'`)).rows[0].n===3,'collocation answer kind accepted alongside existing kinds');
+ await assert.rejects(db.exec(`insert into public.answer_logs(user_id,event_id,session_id,question_id,kind,mode,correct,answered_at) values('${A}',gen_random_uuid(),'session','q-bad','grammar','en',true,now())`));checks++;
  await db.exec(`insert into public.answer_logs ${fixture.answer_logs} on conflict(user_id,event_id) do nothing;insert into public.unit_sessions ${fixture.unit_sessions} on conflict(user_id,session_id) do nothing;`);
- ok((await db.query('select count(*)::int n from public.answer_logs')).rows[0].n===1,'answer resend deduplicated');
+ ok((await db.query("select count(*)::int n from public.answer_logs where question_id='word-ja'")).rows[0].n===1,'answer resend deduplicated');
  ok((await db.query('select max(correct)::int n from public.unit_sessions')).rows[0].n===8,'session resend deduplicated; best read from sessions');
  await assert.rejects(db.exec(`update public.preferences set user_id='${B}',updated_at='2026-01-04'`));checks++;
  await db.exec(`select set_config('request.jwt.claim.sub','${B}',false)`);
