@@ -159,7 +159,7 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 | 第5 | 完了：一次出典の記事3本、語彙・設問・保存・読了・出典開閉 | docs/stage5-implementation-report.md、docs/stage5-polish-report.md、docs/stage5-material-import-design.md |
 | 第6 | 一部完了：SQL適用と同期実装・自動検証済み。実機の追加検証は未確認 | docs/stage6-sync-design.md、docs/stage6-supabase-setup.md、docs/stage6-sync-report.md |
 | 第6.5 | 完了：ログイン独立・目アイコン・アカウント／設定／データ管理。自動入力等の実機確認は未確認 | docs/stage65-ui-report.md |
-| 第8 | 実装完了・公開済み：コロケーション中心の学習。SQLはSupabase適用済み（ユーザー報告）、実機の同期確認は未確認。誤用の見分けは使わない組み合わせの登録がゼロのため実データでは出題されない | docs/stage8-spec.md、docs/stage8-collocation-list.md |
+| 第8 | 実装完了・公開済み：コロケーション中心の学習。SQLはSupabase適用済み（ユーザー報告）、実機の同期確認は未確認。誤用の見分けは65語の各1件（語の最初の組み合わせ）に私（AI）の下書きを登録済みで出題される。下書きはユーザーの確認待ち | docs/stage8-spec.md、docs/stage8-collocation-list.md |
 | 同期仕上げ | 実装完了：未設定目標、恒久拒否隔離、自動統合、UUID照合。本人の再ログイン実機検証は未確認 | docs/sync-import-fix-report.md、docs/automatic-guest-merge-report.md |
 | 第7 | 完了：10本追加→13本、全段落訳、遅延取得、検索・モザイク・棚。教材の本人レビューと最新UI実画面確認は未確認 | docs/stage7-article-plan.md、docs/stage7-implementation-report.md、docs/article-browse-report.md |
 | モザイク仕上げ | 完了：帯削除、下部45%のフェードと影、日付・時間の除外 | docs/mosaic-text-fix-report.md |
@@ -198,7 +198,7 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 ## 7. 次にやること（優先順）
 
 1. 注目モザイクの文字表示修正：**完了**（abc51cc）。同じ修正を重複実装しない。残るのは必要に応じた実画面確認。
-2. 第8段階コロケーション中心の学習：**実装完了**（`docs/stage8-spec.md`）。残り：(a) 適用済みSQL（20261006050119）の実機同期確認（スマホ／PCで組み合わせクイズの回答が同期されるか）、(b) `docs/stage8-collocation-list.md` のユーザー確認（verifiedへの変更はユーザー）、(c) 誤用の見分け用の「使わない組み合わせ」登録（元データの `misuse` に form と noteJa を追記）。適用前に端末へ残った回答は、適用後の最初の同期（再同期は必ず、通常同期もセッション初回）で自動的に再送される。
+2. 第8段階コロケーション中心の学習：**実装完了**（`docs/stage8-spec.md`）。残り：(a) 適用済みSQL（20261006050119）の実機同期確認（スマホ／PCで組み合わせクイズの回答が同期されるか）、(b) `docs/stage8-collocation-list.md` のユーザー確認（verifiedへの変更はユーザー）、(c) 誤用の見分け用の下書き65件（`misuse`）の確認・修正。追加・修正は元データの `misuse` に form と noteJa を記す（一覧は `node scripts/export-collocation-list.cjs` で再生成）。適用前に端末へ残った回答は、適用後の最初の同期（再同期は必ず、通常同期もセッション初回）で自動的に再送される。
 3. 第9段階AI添削（Cloudflare Workers AI、GLM-4.7-Flash）：**未着手**。Worker・wrangler設定・モデル接続実装はない。仕様は `docs/stage9-spec.md` として受領後に保存する（未受領）。
    - 確認済み（ユーザー側のClaudeがCloudflareコネクタと公式文書で確認）：`@cf/zai-org/glm-4.7-flash` は無料プランで利用可能。無料枠は1日10,000ニューロンで、超えるとエラー3036（HTTP 429）になり課金はされない。Workersのratelimit bindingの期間は10秒か60秒のみ。
    - Cloudflareアカウントの既存Workerは `ba-own-analysis-gateway` のみ。**これには触れない**。
