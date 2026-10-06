@@ -27,6 +27,10 @@
  --login-gradient:linear-gradient(145deg,var(--color-bg) 0%,var(--color-primary-soft) 52%,var(--login-color-complement) 100%);
  --color-clear:transparent;
  --color-photo-text:#FFFFFF;
+ --color-photo-fade-bottom:rgba(0,0,0,.6);
+ --color-photo-fade-top:rgba(0,0,0,0);
+ --photo-bottom-fade:linear-gradient(to top,var(--color-photo-fade-bottom),var(--color-photo-fade-top));
+ --shadow-photo-text:0 1px 3px var(--color-photo-fade-bottom);
  --color-photo-scrim:rgba(15,20,30,.82);
  --color-photo-label-border:rgba(255,255,255,.65);
  --color-shadow-edge:rgba(20,30,50,.06);

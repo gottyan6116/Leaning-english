@@ -28,3 +28,11 @@ test('mosaic is exclusive to unfiltered top and shelves are limited to three',()
  const top=Browse.render(catalog,{},{});assert.match(top,/class="ab-mosaic"/);assert.equal((top.match(/ab-card ab-shelf/g)||[]).length,3);assert.doesNotMatch(top,/class="ab-past"/);
  const result=Browse.render(catalog,{level:'B1'},{});assert.doesNotMatch(result,/class="ab-mosaic"|class="ab-shelves"/);assert.match(result,/B1の記事 8件/);
 });
+
+test('mosaic omits dates and reading times while shelves and result cards retain them',()=>{
+ const catalog=Array.from({length:5},(_,i)=>({...rows[0],id:String(i),readingMinutes:3}));
+ const top=Browse.render(catalog,{},{}),mosaic=top.match(/<section class="ab-mosaic"[\s\S]*?<\/section>/)[0];
+ assert.doesNotMatch(mosaic,/元記事|約3分|ab-tile-date/);assert.match(mosaic,/ab-tile-level/);assert.match(mosaic,/ab-category-tag/);
+ assert.match(top.slice(top.indexOf('class="ab-shelves"')),/元記事/);assert.match(top.slice(top.indexOf('class="ab-shelves"')),/約3分/);
+ const result=Browse.render(catalog,{level:'B1'},{});assert.match(result,/元記事/);assert.match(result,/約3分/);
+});

@@ -27,15 +27,16 @@ body[data-view="articles"] .ab-title h1{margin:0;font-size:var(--font-size-page-
 .ab-mosaic .ab-photo img,.ab-mosaic .ab-photo-fallback{height:100%;aspect-ratio:auto}
 .ab-copy{padding:16px}
 .ab-card h2{font-size:var(--font-size-section-title);line-height:1.45;font-weight:var(--font-weight-bold);margin:0 0 12px;overflow-wrap:break-word}
-.ab-mosaic .ab-copy{position:absolute;bottom:0;left:0;right:0;background:var(--color-photo-scrim);padding:18px}
+.ab-mosaic .ab-card::after{content:"";position:absolute;bottom:0;left:0;right:0;height:45%;background:var(--photo-bottom-fade);pointer-events:none;z-index:1}
+.ab-mosaic .ab-copy{position:absolute;bottom:0;left:0;right:0;background:none;padding:18px;z-index:2}
+.ab-mosaic h2,.ab-mosaic .ab-tile-meta{text-shadow:var(--shadow-photo-text)}
 .ab-mosaic .ab-lead h2{font-size:26px}
 .ab-mosaic .ab-tile h2{font-size:18px}
-.ab-new{position:absolute;top:14px;left:14px;border:1px solid var(--color-photo-text);color:var(--color-photo-text);background:var(--color-photo-scrim);padding:3px 7px;font-size:var(--font-size-caption);font-weight:var(--font-weight-bold)}
+.ab-new{position:absolute;top:14px;left:14px;border:1px solid var(--color-photo-text);color:var(--color-photo-text);background:none;text-shadow:var(--shadow-photo-text);z-index:2;padding:3px 7px;font-size:var(--font-size-caption);font-weight:var(--font-weight-bold)}
 .ab-tile-meta{display:flex;justify-content:space-between;align-items:center;gap:6px;font-size:var(--font-size-caption)}
 .ab-tile-level{display:flex;align-items:center;gap:6px;white-space:nowrap}
 .ab-level{display:inline-block;border:1px solid var(--color-border);border-radius:0;padding:1px 5px;line-height:1.5;font-size:var(--font-size-caption);background:var(--color-surface);color:var(--color-text)}
 .ab-category-tag{color:var(--color-text);background:var(--color-surface);padding:2px 5px;white-space:nowrap;font-size:11px}
-.ab-tile-date{display:block;font-size:11px;margin-top:9px}
 .ab-read{font-size:var(--font-size-caption);white-space:nowrap;color:inherit}
 .ab-all-link{text-align:right;max-width:1080px;margin:8px auto 20px}
 .ab-lower{max-width:1080px;margin:auto;display:grid;gap:28px}
