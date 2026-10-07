@@ -1,0 +1,1155 @@
+{
+  "id": "super-05",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "超アドバンス単語 ⑤",
+  "genre": "super",
+  "setNumber": 5,
+  "level": "C1〜C2",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000281",
+      "headword": "irony",
+      "partOfSpeech": "noun",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 5,
+      "meaning": "皮肉",
+      "definition": "a situation that is the opposite of what you expect",
+      "example": "It was an irony that the fire station burned down.",
+      "exampleSurface": "irony",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "皮肉（a situation that is the opposite of what you expect）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "irony",
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "順応",
+            "利他主義",
+            "皮肉",
+            "スタミナ"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000281-ja-option-1",
+            "vocab-000281-ja-option-2",
+            "vocab-000281-ja-option-3",
+            "vocab-000281-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000281-ja-option-3",
+          "distractorHeadwords": [
+            "conformity",
+            "altruism",
+            null,
+            "stamina"
+          ]
+        },
+        "en": {
+          "choices": [
+            "behaviour that follows the usual rules of a group",
+            "caring about the needs of others before your own",
+            "a situation that is the opposite of what you expect",
+            "the strength to keep going for a long time"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000281-en-option-1",
+            "vocab-000281-en-option-2",
+            "vocab-000281-en-option-3",
+            "vocab-000281-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000281-en-option-3",
+          "distractorHeadwords": [
+            "conformity",
+            "altruism",
+            null,
+            "stamina"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "conformity",
+            "altruism",
+            "irony",
+            "stamina"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000281-ja_en-option-1",
+            "vocab-000281-ja_en-option-2",
+            "vocab-000281-ja_en-option-3",
+            "vocab-000281-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000281-ja_en-option-3",
+          "distractorHeadwords": [
+            "conformity",
+            "altruism",
+            null,
+            "stamina"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "conformity",
+            "altruism",
+            "irony",
+            "stamina"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000281-def_en-option-1",
+            "vocab-000281-def_en-option-2",
+            "vocab-000281-def_en-option-3",
+            "vocab-000281-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000281-def_en-option-3",
+          "distractorHeadwords": [
+            "conformity",
+            "altruism",
+            null,
+            "stamina"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000282",
+      "headword": "altruism",
+      "partOfSpeech": "noun",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 5,
+      "meaning": "利他主義",
+      "definition": "caring about the needs of others before your own",
+      "example": "Her altruism inspired the whole team.",
+      "exampleSurface": "altruism",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "利他主義（caring about the needs of others before your own）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "altruism",
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "信頼関係",
+            "皮肉",
+            "順応",
+            "利他主義"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000282-ja-option-1",
+            "vocab-000282-ja-option-2",
+            "vocab-000282-ja-option-3",
+            "vocab-000282-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000282-ja-option-4",
+          "distractorHeadwords": [
+            "rapport",
+            "irony",
+            "conformity",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "a close and friendly understanding between people",
+            "a situation that is the opposite of what you expect",
+            "behaviour that follows the usual rules of a group",
+            "caring about the needs of others before your own"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000282-en-option-1",
+            "vocab-000282-en-option-2",
+            "vocab-000282-en-option-3",
+            "vocab-000282-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000282-en-option-4",
+          "distractorHeadwords": [
+            "rapport",
+            "irony",
+            "conformity",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "rapport",
+            "irony",
+            "conformity",
+            "altruism"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000282-ja_en-option-1",
+            "vocab-000282-ja_en-option-2",
+            "vocab-000282-ja_en-option-3",
+            "vocab-000282-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000282-ja_en-option-4",
+          "distractorHeadwords": [
+            "rapport",
+            "irony",
+            "conformity",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "rapport",
+            "irony",
+            "conformity",
+            "altruism"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000282-def_en-option-1",
+            "vocab-000282-def_en-option-2",
+            "vocab-000282-def_en-option-3",
+            "vocab-000282-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000282-def_en-option-4",
+          "distractorHeadwords": [
+            "rapport",
+            "irony",
+            "conformity",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000283",
+      "headword": "predecessor",
+      "partOfSpeech": "noun",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 5,
+      "meaning": "前任者",
+      "definition": "the person who had a job before you",
+      "example": "My predecessor left detailed notes.",
+      "exampleSurface": "predecessor",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "前任者（the person who had a job before you）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "predecessor",
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "前任者",
+            "混乱",
+            "利他主義",
+            "順応"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000283-ja-option-1",
+            "vocab-000283-ja-option-2",
+            "vocab-000283-ja-option-3",
+            "vocab-000283-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000283-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "turmoil",
+            "altruism",
+            "conformity"
+          ]
+        },
+        "en": {
+          "choices": [
+            "the person who had a job before you",
+            "a situation of great confusion and worry",
+            "caring about the needs of others before your own",
+            "behaviour that follows the usual rules of a group"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000283-en-option-1",
+            "vocab-000283-en-option-2",
+            "vocab-000283-en-option-3",
+            "vocab-000283-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000283-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "turmoil",
+            "altruism",
+            "conformity"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "predecessor",
+            "turmoil",
+            "altruism",
+            "conformity"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000283-ja_en-option-1",
+            "vocab-000283-ja_en-option-2",
+            "vocab-000283-ja_en-option-3",
+            "vocab-000283-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000283-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "turmoil",
+            "altruism",
+            "conformity"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "predecessor",
+            "turmoil",
+            "altruism",
+            "conformity"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000283-def_en-option-1",
+            "vocab-000283-def_en-option-2",
+            "vocab-000283-def_en-option-3",
+            "vocab-000283-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000283-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "turmoil",
+            "altruism",
+            "conformity"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000284",
+      "headword": "harass",
+      "partOfSpeech": "verb",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 5,
+      "meaning": "悩ます",
+      "definition": "to trouble someone again and again",
+      "example": "Reporters harassed the family for weeks.",
+      "exampleSurface": "harassed",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "悩ます（to trouble someone again and again）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "harass",
+        "partOfSpeech": "verb",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "遺贈する",
+            "悩ます",
+            "共鳴する",
+            "迂回する"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000284-ja-option-1",
+            "vocab-000284-ja-option-2",
+            "vocab-000284-ja-option-3",
+            "vocab-000284-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000284-ja-option-2",
+          "distractorHeadwords": [
+            "bequeath",
+            null,
+            "resonate",
+            "bypass"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to leave money or things to someone when you die",
+            "to trouble someone again and again",
+            "to have a strong meaning for someone",
+            "to avoid something by going around it"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000284-en-option-1",
+            "vocab-000284-en-option-2",
+            "vocab-000284-en-option-3",
+            "vocab-000284-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000284-en-option-2",
+          "distractorHeadwords": [
+            "bequeath",
+            null,
+            "resonate",
+            "bypass"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "bequeath",
+            "harass",
+            "resonate",
+            "bypass"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000284-ja_en-option-1",
+            "vocab-000284-ja_en-option-2",
+            "vocab-000284-ja_en-option-3",
+            "vocab-000284-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000284-ja_en-option-2",
+          "distractorHeadwords": [
+            "bequeath",
+            null,
+            "resonate",
+            "bypass"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "bequeath",
+            "harass",
+            "resonate",
+            "bypass"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000284-def_en-option-1",
+            "vocab-000284-def_en-option-2",
+            "vocab-000284-def_en-option-3",
+            "vocab-000284-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000284-def_en-option-2",
+          "distractorHeadwords": [
+            "bequeath",
+            null,
+            "resonate",
+            "bypass"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000285",
+      "headword": "speculate",
+      "partOfSpeech": "verb",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 5,
+      "meaning": "推測する",
+      "definition": "to form an opinion without enough facts",
+      "example": "People speculate about the cause of the delay.",
+      "exampleSurface": "speculate",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "推測する（to form an opinion without enough facts）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "speculate",
+        "partOfSpeech": "verb",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "収集する",
+            "手放す",
+            "推測する",
+            "促進する"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000285-ja-option-1",
+            "vocab-000285-ja-option-2",
+            "vocab-000285-ja-option-3",
+            "vocab-000285-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000285-ja-option-3",
+          "distractorHeadwords": [
+            "glean",
+            "relinquish",
+            null,
+            "expedite"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to gather facts a little at a time",
+            "to give up something such as power",
+            "to form an opinion without enough facts",
+            "to make a process happen faster"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000285-en-option-1",
+            "vocab-000285-en-option-2",
+            "vocab-000285-en-option-3",
+            "vocab-000285-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000285-en-option-3",
+          "distractorHeadwords": [
+            "glean",
+            "relinquish",
+            null,
+            "expedite"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "glean",
+            "relinquish",
+            "speculate",
+            "expedite"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000285-ja_en-option-1",
+            "vocab-000285-ja_en-option-2",
+            "vocab-000285-ja_en-option-3",
+            "vocab-000285-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000285-ja_en-option-3",
+          "distractorHeadwords": [
+            "glean",
+            "relinquish",
+            null,
+            "expedite"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "glean",
+            "relinquish",
+            "speculate",
+            "expedite"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000285-def_en-option-1",
+            "vocab-000285-def_en-option-2",
+            "vocab-000285-def_en-option-3",
+            "vocab-000285-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000285-def_en-option-3",
+          "distractorHeadwords": [
+            "glean",
+            "relinquish",
+            null,
+            "expedite"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000286",
+      "headword": "glean",
+      "partOfSpeech": "verb",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 5,
+      "meaning": "収集する",
+      "definition": "to gather facts a little at a time",
+      "example": "We gleaned the facts from old letters.",
+      "exampleSurface": "gleaned",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "収集する（to gather facts a little at a time）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "glean",
+        "partOfSpeech": "verb",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "及ぼす",
+            "助長する",
+            "促進する",
+            "収集する"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000286-ja-option-1",
+            "vocab-000286-ja-option-2",
+            "vocab-000286-ja-option-3",
+            "vocab-000286-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000286-ja-option-4",
+          "distractorHeadwords": [
+            "exert",
+            "perpetuate",
+            "expedite",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "to use power or influence on something",
+            "to make a bad situation continue",
+            "to make a process happen faster",
+            "to gather facts a little at a time"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000286-en-option-1",
+            "vocab-000286-en-option-2",
+            "vocab-000286-en-option-3",
+            "vocab-000286-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000286-en-option-4",
+          "distractorHeadwords": [
+            "exert",
+            "perpetuate",
+            "expedite",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "exert",
+            "perpetuate",
+            "expedite",
+            "glean"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000286-ja_en-option-1",
+            "vocab-000286-ja_en-option-2",
+            "vocab-000286-ja_en-option-3",
+            "vocab-000286-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000286-ja_en-option-4",
+          "distractorHeadwords": [
+            "exert",
+            "perpetuate",
+            "expedite",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "exert",
+            "perpetuate",
+            "expedite",
+            "glean"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000286-def_en-option-1",
+            "vocab-000286-def_en-option-2",
+            "vocab-000286-def_en-option-3",
+            "vocab-000286-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000286-def_en-option-4",
+          "distractorHeadwords": [
+            "exert",
+            "perpetuate",
+            "expedite",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000287",
+      "headword": "negligible",
+      "partOfSpeech": "adjective",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 5,
+      "meaning": "わずかな",
+      "definition": "too small to matter",
+      "example": "The cost of repairs was negligible.",
+      "exampleSurface": "negligible",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "わずかな（too small to matter）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "negligible",
+        "partOfSpeech": "adjective",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "わずかな",
+            "粘り強い",
+            "率直な",
+            "細心の"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000287-ja-option-1",
+            "vocab-000287-ja-option-2",
+            "vocab-000287-ja-option-3",
+            "vocab-000287-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000287-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "tenacious",
+            "candid",
+            "meticulous"
+          ]
+        },
+        "en": {
+          "choices": [
+            "too small to matter",
+            "very determined and unwilling to give up",
+            "honest and direct in what you say",
+            "very careful about small details"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000287-en-option-1",
+            "vocab-000287-en-option-2",
+            "vocab-000287-en-option-3",
+            "vocab-000287-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000287-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "tenacious",
+            "candid",
+            "meticulous"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "negligible",
+            "tenacious",
+            "candid",
+            "meticulous"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000287-ja_en-option-1",
+            "vocab-000287-ja_en-option-2",
+            "vocab-000287-ja_en-option-3",
+            "vocab-000287-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000287-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "tenacious",
+            "candid",
+            "meticulous"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "negligible",
+            "tenacious",
+            "candid",
+            "meticulous"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000287-def_en-option-1",
+            "vocab-000287-def_en-option-2",
+            "vocab-000287-def_en-option-3",
+            "vocab-000287-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000287-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "tenacious",
+            "candid",
+            "meticulous"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000288",
+      "headword": "prolific",
+      "partOfSpeech": "adjective",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 5,
+      "meaning": "多作な",
+      "definition": "producing a large number of works",
+      "example": "She is a prolific author with forty books.",
+      "exampleSurface": "prolific",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "多作な（producing a large number of works）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "prolific",
+        "partOfSpeech": "adjective",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "厳格な",
+            "多作な",
+            "用途の広い",
+            "率直な"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000288-ja-option-1",
+            "vocab-000288-ja-option-2",
+            "vocab-000288-ja-option-3",
+            "vocab-000288-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000288-ja-option-2",
+          "distractorHeadwords": [
+            "stringent",
+            null,
+            "versatile",
+            "candid"
+          ]
+        },
+        "en": {
+          "choices": [
+            "very strict and difficult to meet",
+            "producing a large number of works",
+            "able to be used in many different ways",
+            "honest and direct in what you say"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000288-en-option-1",
+            "vocab-000288-en-option-2",
+            "vocab-000288-en-option-3",
+            "vocab-000288-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000288-en-option-2",
+          "distractorHeadwords": [
+            "stringent",
+            null,
+            "versatile",
+            "candid"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "stringent",
+            "prolific",
+            "versatile",
+            "candid"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000288-ja_en-option-1",
+            "vocab-000288-ja_en-option-2",
+            "vocab-000288-ja_en-option-3",
+            "vocab-000288-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000288-ja_en-option-2",
+          "distractorHeadwords": [
+            "stringent",
+            null,
+            "versatile",
+            "candid"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "stringent",
+            "prolific",
+            "versatile",
+            "candid"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000288-def_en-option-1",
+            "vocab-000288-def_en-option-2",
+            "vocab-000288-def_en-option-3",
+            "vocab-000288-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000288-def_en-option-2",
+          "distractorHeadwords": [
+            "stringent",
+            null,
+            "versatile",
+            "candid"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000289",
+      "headword": "inexplicably",
+      "partOfSpeech": "adverb",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 5,
+      "meaning": "不可解にも",
+      "definition": "for a reason that nobody can understand",
+      "example": "The train inexplicably stopped in the field.",
+      "exampleSurface": "inexplicably",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "不可解にも（for a reason that nobody can understand）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "inexplicably",
+        "partOfSpeech": "adverb",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "世間知らずに",
+            "しぶしぶ",
+            "不可解にも",
+            "非常に"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000289-ja-option-1",
+            "vocab-000289-ja-option-2",
+            "vocab-000289-ja-option-3",
+            "vocab-000289-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000289-ja-option-3",
+          "distractorHeadwords": [
+            "naively",
+            "reluctantly",
+            null,
+            "immensely"
+          ]
+        },
+        "en": {
+          "choices": [
+            "in a way that shows little experience",
+            "in a way that shows you do not want to",
+            "for a reason that nobody can understand",
+            "to a very large degree"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000289-en-option-1",
+            "vocab-000289-en-option-2",
+            "vocab-000289-en-option-3",
+            "vocab-000289-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000289-en-option-3",
+          "distractorHeadwords": [
+            "naively",
+            "reluctantly",
+            null,
+            "immensely"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "naively",
+            "reluctantly",
+            "inexplicably",
+            "immensely"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000289-ja_en-option-1",
+            "vocab-000289-ja_en-option-2",
+            "vocab-000289-ja_en-option-3",
+            "vocab-000289-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000289-ja_en-option-3",
+          "distractorHeadwords": [
+            "naively",
+            "reluctantly",
+            null,
+            "immensely"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "naively",
+            "reluctantly",
+            "inexplicably",
+            "immensely"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000289-def_en-option-1",
+            "vocab-000289-def_en-option-2",
+            "vocab-000289-def_en-option-3",
+            "vocab-000289-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000289-def_en-option-3",
+          "distractorHeadwords": [
+            "naively",
+            "reluctantly",
+            null,
+            "immensely"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000290",
+      "headword": "persuasively",
+      "partOfSpeech": "adverb",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 5,
+      "meaning": "説得力をもって",
+      "definition": "in a way that makes people agree",
+      "example": "She argued persuasively for a change.",
+      "exampleSurface": "persuasively",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "説得力をもって（in a way that makes people agree）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "persuasively",
+        "partOfSpeech": "adverb",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "しぶしぶ",
+            "不可解にも",
+            "世間知らずに",
+            "説得力をもって"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000290-ja-option-1",
+            "vocab-000290-ja-option-2",
+            "vocab-000290-ja-option-3",
+            "vocab-000290-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000290-ja-option-4",
+          "distractorHeadwords": [
+            "reluctantly",
+            "inexplicably",
+            "naively",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "in a way that shows you do not want to",
+            "for a reason that nobody can understand",
+            "in a way that shows little experience",
+            "in a way that makes people agree"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000290-en-option-1",
+            "vocab-000290-en-option-2",
+            "vocab-000290-en-option-3",
+            "vocab-000290-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000290-en-option-4",
+          "distractorHeadwords": [
+            "reluctantly",
+            "inexplicably",
+            "naively",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "reluctantly",
+            "inexplicably",
+            "naively",
+            "persuasively"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000290-ja_en-option-1",
+            "vocab-000290-ja_en-option-2",
+            "vocab-000290-ja_en-option-3",
+            "vocab-000290-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000290-ja_en-option-4",
+          "distractorHeadwords": [
+            "reluctantly",
+            "inexplicably",
+            "naively",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "reluctantly",
+            "inexplicably",
+            "naively",
+            "persuasively"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000290-def_en-option-1",
+            "vocab-000290-def_en-option-2",
+            "vocab-000290-def_en-option-3",
+            "vocab-000290-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000290-def_en-option-4",
+          "distractorHeadwords": [
+            "reluctantly",
+            "inexplicably",
+            "naively",
+            null
+          ]
+        }
+      }
+    }
+  ]
+}

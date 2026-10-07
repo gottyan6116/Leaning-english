@@ -10,13 +10,13 @@ const sets=fs.readdirSync(dir).filter(f=>f.endsWith('.json')&&f!=='genres.json')
 const memory=()=>{const m=new Map();return {getItem:k=>m.get(k)??null,setItem:(k,v)=>m.set(k,String(v)),removeItem:k=>m.delete(k)};};
 const basic=sets.find(s=>s.id==='basic-01');
 
-test('5 genres x 3 sets = 15 sets and 150 unique words pass the word-set validation',()=>{
+test('5 genres x 6 sets = 30 sets and 300 unique words pass the word-set validation',()=>{
  assert.deepEqual(genres.map(g=>g.id),['basic','daily','business','advanced','super']);
- assert.equal(sets.length,15);assert.equal(sets.reduce((n,s)=>n+s.items.length,0),150);
- for(const g of genres)assert.deepEqual(sets.filter(s=>s.genre===g.id).map(s=>s.setNumber).sort(),[1,2,3]);
- assert.equal(new Set(sets.flatMap(s=>s.items.map(w=>w.id))).size,150);assert.equal(new Set(sets.flatMap(s=>s.items.map(w=>w.headword))).size,150);
+ assert.equal(sets.length,30);assert.equal(sets.reduce((n,s)=>n+s.items.length,0),300);
+ for(const g of genres)assert.deepEqual(sets.filter(s=>s.genre===g.id).map(s=>s.setNumber).sort(),[1,2,3,4,5,6]);
+ assert.equal(new Set(sets.flatMap(s=>s.items.map(w=>w.id))).size,300);assert.equal(new Set(sets.flatMap(s=>s.items.map(w=>w.headword.toLowerCase()))).size,300,'no headword is repeated within or across genres');
  const result=spawnSync(process.execPath,['scripts/validate-wordbook.cjs'],{cwd:path.join(__dirname,'..'),encoding:'utf8'});assert.equal(result.status,0,result.stdout+result.stderr);
- assert.match(result.stdout,/15 sets, 150 words, 0 errors/);
+ assert.match(result.stdout,/30 sets, 300 words, 0 errors/);
 });
 test('every word offers all four question formats with valid choices and unverified status',()=>{
  for(const set of sets)for(const w of set.items){
@@ -35,7 +35,7 @@ test('genres and sets are organised from data alone, so a new genre or set needs
  const extraGenre={id:'travel',name:'旅行単語',order:6,levelRange:'A2〜B1',bands:['A2','B1']},extraSet={id:'travel-01',genre:'travel',setNumber:1,items:[]};
  const organised=Core.organise([...genres,extraGenre],[...sets,extraSet]);
  assert.equal(organised.length,6);assert.deepEqual(organised.map(g=>g.id),['basic','daily','business','advanced','super','travel']);assert.deepEqual(organised[5].sets.map(s=>s.id),['travel-01']);
- assert.deepEqual(organised[3].sets.map(s=>s.setNumber),[1,2,3]);
+ assert.deepEqual(organised[3].sets.map(s=>s.setNumber),[1,2,3,4,5,6]);
 });
 test('ranges: counts per current format, wrong/skipped/timed-out first, 0 count disables a range',()=>{
  const ev=(w,mode,correct,extra={})=>({wordId:w.id,mode,correct,skipped:false,...extra});
@@ -161,4 +161,14 @@ test('settings, sessions and preferences accept the definition format and reject
  state.savePreferences(store,{daily:null,weekly:null},{mode:'def_en',autoAdvance:true});assert.equal(new QuizStore(storage).settings.mode,'def_en');
  const session=new QuizSession(basic.items,'def_en',store,()=>Date.now(),()=>0.3);for(let i=0;i<10;i++){session.answerChoice(session.correctId);session.next();}
  assert.equal(state.completeUnit(session,basic),true);assert.equal(state.best('def_en',basic),10);assert.equal(state.best('ja_en',basic),null);
+});
+
+test('sets 4-6 balance the parts of speech and give every word all four formats',()=>{
+ for(const set of sets.filter(x=>x.setNumber>=4)){
+  const count=Object.fromEntries(['noun','verb','adjective','adverb'].map(p=>[p,set.items.filter(w=>w.partOfSpeech===p).length]));
+  assert.deepEqual(count,{noun:3,verb:3,adjective:2,adverb:2},set.id);
+  for(const w of set.items){for(const mode of Quiz.MODES)assert.ok(Quiz.modeSupported(w,mode),w.id+'/'+mode);assert.equal(w.status,'unverified');}
+ }
+ assert.deepEqual(sets.filter(x=>x.setNumber>=4).flatMap(x=>x.items.map(w=>w.id)).sort()[0],'vocab-000151');
+ assert.equal(sets.filter(x=>x.setNumber>=4).flatMap(x=>x.items).every(w=>/^vocab-000(1[5-9]\d|[23]\d\d)$/.test(w.id)),true);
 });

@@ -24,6 +24,30 @@
       "sha256": "aba1179989ed048d0e5810dba68012b74f65ee0d511c79ddaddef52332eee64e"
     },
     {
+      "id": "advanced-04",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/advanced-04.json",
+      "sha256": "8a165eb8c8a0033eb23d61f5bb69e3079604ba9a202dfd33699cf604f7f3fd01"
+    },
+    {
+      "id": "advanced-05",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/advanced-05.json",
+      "sha256": "f53cdf8a93be419ff50ff8be1a4e7fafeb4ffda141bed8e587538fa6253bfc4f"
+    },
+    {
+      "id": "advanced-06",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/advanced-06.json",
+      "sha256": "ebe8c8962025514fc96a413d6710e53e4206c4b342733c03b620eb9110ccf560"
+    },
+    {
       "id": "advanced-vocabulary-c1-01",
       "kind": "vocabulary",
       "version": 3,
@@ -160,6 +184,30 @@
       "sha256": "7fe18199fcaf48e43d14fac7871cc0ad4761f19e078282e69f1734c36c298c51"
     },
     {
+      "id": "basic-04",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/basic-04.json",
+      "sha256": "a47b73689ed7da9eef63890f9f7aeff47e82f33f301a5ac126820355b8d13dc0"
+    },
+    {
+      "id": "basic-05",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/basic-05.json",
+      "sha256": "3fdc3c77554e70507a956c098746de1ae7194429f9d2e359998ec232a04fa1e5"
+    },
+    {
+      "id": "basic-06",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/basic-06.json",
+      "sha256": "65ba3edcfb3da03448a610e2c18b348b5e042790ec6cbb7787bae95810ec2ab9"
+    },
+    {
       "id": "business-01",
       "kind": "vocabulary",
       "version": 2,
@@ -182,6 +230,30 @@
       "publishedAt": "2026-10-07T00:00:00+09:00",
       "path": "materials/vocabulary/business-03.json",
       "sha256": "d5f9b4467020eac92b085eee7e92bf9e2c97af9ec9ef0fe106d42a57a5f565fd"
+    },
+    {
+      "id": "business-04",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/business-04.json",
+      "sha256": "981f9652ef3e611ca64282d1a747a5acff7e8f6fbbfa9713d083654679883f93"
+    },
+    {
+      "id": "business-05",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/business-05.json",
+      "sha256": "af8789b6e962d8f9a1f16a73ee7cdc851f729ca5c0a2edf90a4ca98bd812c610"
+    },
+    {
+      "id": "business-06",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/business-06.json",
+      "sha256": "e52b36d9afd69e4a44bb2d429918579bfa84b3d1961598e770c4b4280d84666d"
     },
     {
       "id": "daily-01",
@@ -208,6 +280,30 @@
       "sha256": "621e6c5a3e206f5bc345d34b579e261ea2d2f292035db703c7545987518f95d8"
     },
     {
+      "id": "daily-04",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/daily-04.json",
+      "sha256": "80bc2eb086affb8a2355bb516df9d80b805f53754a63bff65290e9019c783417"
+    },
+    {
+      "id": "daily-05",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/daily-05.json",
+      "sha256": "97477bf2d1034d2f26bc08539c931b3cedc483abfacc916ce9d6c80558b765fd"
+    },
+    {
+      "id": "daily-06",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/daily-06.json",
+      "sha256": "4aa3049a93bbcf7e1db33ff5000aedbe3684e5e976778d380fdd866c2a6a990a"
+    },
+    {
       "id": "super-01",
       "kind": "vocabulary",
       "version": 2,
@@ -230,6 +326,30 @@
       "publishedAt": "2026-10-07T00:00:00+09:00",
       "path": "materials/vocabulary/super-03.json",
       "sha256": "9508abf0bcdeb255be5e58a251e02e6e03b6103e9e9555cfb1180b3bc0bc9818"
+    },
+    {
+      "id": "super-04",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/super-04.json",
+      "sha256": "e1e6bb42404bdc22f53070dc925b374440d495f93e4beb6d5a93b8e8c6d476fe"
+    },
+    {
+      "id": "super-05",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/super-05.json",
+      "sha256": "d5b70d3eaa24933b98d2c032ee5f2b93af050d321f0f65731be5cb012c2fcebe"
+    },
+    {
+      "id": "super-06",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/super-06.json",
+      "sha256": "4f64b7de4ff5b245352e2ec7d4698f99ab8337fe8f96bbe72c5ecd5c4fe784ed"
     }
   ],
   "articleIndex": {

@@ -1,0 +1,1155 @@
+{
+  "id": "daily-05",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "日常単語 ⑤",
+  "genre": "daily",
+  "setNumber": 5,
+  "level": "A2〜B1",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000191",
+      "headword": "pillow",
+      "partOfSpeech": "noun",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 5,
+      "meaning": "枕",
+      "definition": "a soft bag for your head in bed",
+      "example": "She put a pillow under her head.",
+      "exampleSurface": "pillow",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "枕（a soft bag for your head in bed）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "pillow",
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "枕",
+            "列",
+            "歯科医",
+            "割引"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000191-ja-option-1",
+            "vocab-000191-ja-option-2",
+            "vocab-000191-ja-option-3",
+            "vocab-000191-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000191-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "queue",
+            "dentist",
+            "discount"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a soft bag for your head in bed",
+            "a line of people waiting for something",
+            "a doctor who looks after your teeth",
+            "a lower price than usual"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000191-en-option-1",
+            "vocab-000191-en-option-2",
+            "vocab-000191-en-option-3",
+            "vocab-000191-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000191-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "queue",
+            "dentist",
+            "discount"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "pillow",
+            "queue",
+            "dentist",
+            "discount"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000191-ja_en-option-1",
+            "vocab-000191-ja_en-option-2",
+            "vocab-000191-ja_en-option-3",
+            "vocab-000191-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000191-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "queue",
+            "dentist",
+            "discount"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "pillow",
+            "queue",
+            "dentist",
+            "discount"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000191-def_en-option-1",
+            "vocab-000191-def_en-option-2",
+            "vocab-000191-def_en-option-3",
+            "vocab-000191-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000191-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "queue",
+            "dentist",
+            "discount"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000192",
+      "headword": "customer",
+      "partOfSpeech": "noun",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 5,
+      "meaning": "客",
+      "definition": "a person who buys things from a shop",
+      "example": "The customer asked for a smaller size.",
+      "exampleSurface": "customer",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "客（a person who buys things from a shop）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "customer",
+        "partOfSpeech": "noun",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "予定表",
+            "客",
+            "招待",
+            "割引"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000192-ja-option-1",
+            "vocab-000192-ja-option-2",
+            "vocab-000192-ja-option-3",
+            "vocab-000192-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000192-ja-option-2",
+          "distractorHeadwords": [
+            "schedule",
+            null,
+            "invitation",
+            "discount"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a plan of what will happen and when",
+            "a person who buys things from a shop",
+            "a request to come to an event",
+            "a lower price than usual"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000192-en-option-1",
+            "vocab-000192-en-option-2",
+            "vocab-000192-en-option-3",
+            "vocab-000192-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000192-en-option-2",
+          "distractorHeadwords": [
+            "schedule",
+            null,
+            "invitation",
+            "discount"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "schedule",
+            "customer",
+            "invitation",
+            "discount"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000192-ja_en-option-1",
+            "vocab-000192-ja_en-option-2",
+            "vocab-000192-ja_en-option-3",
+            "vocab-000192-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000192-ja_en-option-2",
+          "distractorHeadwords": [
+            "schedule",
+            null,
+            "invitation",
+            "discount"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "schedule",
+            "customer",
+            "invitation",
+            "discount"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000192-def_en-option-1",
+            "vocab-000192-def_en-option-2",
+            "vocab-000192-def_en-option-3",
+            "vocab-000192-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000192-def_en-option-2",
+          "distractorHeadwords": [
+            "schedule",
+            null,
+            "invitation",
+            "discount"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000193",
+      "headword": "discount",
+      "partOfSpeech": "noun",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 5,
+      "meaning": "割引",
+      "definition": "a lower price than usual",
+      "example": "Students get a discount at the museum.",
+      "exampleSurface": "discount",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "割引（a lower price than usual）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "discount",
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "薬局",
+            "アパート",
+            "割引",
+            "歯科医"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000193-ja-option-1",
+            "vocab-000193-ja-option-2",
+            "vocab-000193-ja-option-3",
+            "vocab-000193-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000193-ja-option-3",
+          "distractorHeadwords": [
+            "pharmacy",
+            "apartment",
+            null,
+            "dentist"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a shop where medicines are sold",
+            "a set of rooms for living in one building",
+            "a lower price than usual",
+            "a doctor who looks after your teeth"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000193-en-option-1",
+            "vocab-000193-en-option-2",
+            "vocab-000193-en-option-3",
+            "vocab-000193-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000193-en-option-3",
+          "distractorHeadwords": [
+            "pharmacy",
+            "apartment",
+            null,
+            "dentist"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "pharmacy",
+            "apartment",
+            "discount",
+            "dentist"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000193-ja_en-option-1",
+            "vocab-000193-ja_en-option-2",
+            "vocab-000193-ja_en-option-3",
+            "vocab-000193-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000193-ja_en-option-3",
+          "distractorHeadwords": [
+            "pharmacy",
+            "apartment",
+            null,
+            "dentist"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "pharmacy",
+            "apartment",
+            "discount",
+            "dentist"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000193-def_en-option-1",
+            "vocab-000193-def_en-option-2",
+            "vocab-000193-def_en-option-3",
+            "vocab-000193-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000193-def_en-option-3",
+          "distractorHeadwords": [
+            "pharmacy",
+            "apartment",
+            null,
+            "dentist"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000194",
+      "headword": "explain",
+      "partOfSpeech": "verb",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 5,
+      "meaning": "説明する",
+      "definition": "to make something clear to someone",
+      "example": "Can you explain the rules to me?",
+      "exampleSurface": "explain",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "説明する（to make something clear to someone）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "explain",
+        "partOfSpeech": "verb",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "再利用する",
+            "準備する",
+            "勧める",
+            "説明する"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000194-ja-option-1",
+            "vocab-000194-ja-option-2",
+            "vocab-000194-ja-option-3",
+            "vocab-000194-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000194-ja-option-4",
+          "distractorHeadwords": [
+            "recycle",
+            "prepare",
+            "recommend",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "to use waste again to make new things",
+            "to make something ready",
+            "to say that something is good to try",
+            "to make something clear to someone"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000194-en-option-1",
+            "vocab-000194-en-option-2",
+            "vocab-000194-en-option-3",
+            "vocab-000194-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000194-en-option-4",
+          "distractorHeadwords": [
+            "recycle",
+            "prepare",
+            "recommend",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "recycle",
+            "prepare",
+            "recommend",
+            "explain"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000194-ja_en-option-1",
+            "vocab-000194-ja_en-option-2",
+            "vocab-000194-ja_en-option-3",
+            "vocab-000194-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000194-ja_en-option-4",
+          "distractorHeadwords": [
+            "recycle",
+            "prepare",
+            "recommend",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "recycle",
+            "prepare",
+            "recommend",
+            "explain"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000194-def_en-option-1",
+            "vocab-000194-def_en-option-2",
+            "vocab-000194-def_en-option-3",
+            "vocab-000194-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000194-def_en-option-4",
+          "distractorHeadwords": [
+            "recycle",
+            "prepare",
+            "recommend",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000195",
+      "headword": "improve",
+      "partOfSpeech": "verb",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 5,
+      "meaning": "上達する",
+      "definition": "to become or make something better",
+      "example": "She wants to improve her English.",
+      "exampleSurface": "improve",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "上達する（to become or make something better）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "improve",
+        "partOfSpeech": "verb",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "上達する",
+            "注文する",
+            "留める",
+            "鍵をかける"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000195-ja-option-1",
+            "vocab-000195-ja-option-2",
+            "vocab-000195-ja-option-3",
+            "vocab-000195-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000195-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "order",
+            "fasten",
+            "lock"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to become or make something better",
+            "to ask for food or goods to be brought",
+            "to close or join things firmly",
+            "to close with a key"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000195-en-option-1",
+            "vocab-000195-en-option-2",
+            "vocab-000195-en-option-3",
+            "vocab-000195-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000195-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "order",
+            "fasten",
+            "lock"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "improve",
+            "order",
+            "fasten",
+            "lock"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000195-ja_en-option-1",
+            "vocab-000195-ja_en-option-2",
+            "vocab-000195-ja_en-option-3",
+            "vocab-000195-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000195-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "order",
+            "fasten",
+            "lock"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "improve",
+            "order",
+            "fasten",
+            "lock"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000195-def_en-option-1",
+            "vocab-000195-def_en-option-2",
+            "vocab-000195-def_en-option-3",
+            "vocab-000195-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000195-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "order",
+            "fasten",
+            "lock"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000196",
+      "headword": "fasten",
+      "partOfSpeech": "verb",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 5,
+      "meaning": "留める",
+      "definition": "to close or join things firmly",
+      "example": "Please fasten your seat belt.",
+      "exampleSurface": "fasten",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "留める（to close or join things firmly）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "fasten",
+        "partOfSpeech": "verb",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "こぼす",
+            "留める",
+            "注文する",
+            "勧める"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000196-ja-option-1",
+            "vocab-000196-ja-option-2",
+            "vocab-000196-ja-option-3",
+            "vocab-000196-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000196-ja-option-2",
+          "distractorHeadwords": [
+            "spill",
+            null,
+            "order",
+            "recommend"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to let liquid fall out by accident",
+            "to close or join things firmly",
+            "to ask for food or goods to be brought",
+            "to say that something is good to try"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000196-en-option-1",
+            "vocab-000196-en-option-2",
+            "vocab-000196-en-option-3",
+            "vocab-000196-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000196-en-option-2",
+          "distractorHeadwords": [
+            "spill",
+            null,
+            "order",
+            "recommend"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "spill",
+            "fasten",
+            "order",
+            "recommend"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000196-ja_en-option-1",
+            "vocab-000196-ja_en-option-2",
+            "vocab-000196-ja_en-option-3",
+            "vocab-000196-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000196-ja_en-option-2",
+          "distractorHeadwords": [
+            "spill",
+            null,
+            "order",
+            "recommend"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "spill",
+            "fasten",
+            "order",
+            "recommend"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000196-def_en-option-1",
+            "vocab-000196-def_en-option-2",
+            "vocab-000196-def_en-option-3",
+            "vocab-000196-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000196-def_en-option-2",
+          "distractorHeadwords": [
+            "spill",
+            null,
+            "order",
+            "recommend"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000197",
+      "headword": "ordinary",
+      "partOfSpeech": "adjective",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 5,
+      "meaning": "普通の",
+      "definition": "not special in any way",
+      "example": "It was an ordinary day at school.",
+      "exampleSurface": "ordinary",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "普通の（not special in any way）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "ordinary",
+        "partOfSpeech": "adjective",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "新鮮な",
+            "陽気な",
+            "普通の",
+            "気前のよい"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000197-ja-option-1",
+            "vocab-000197-ja-option-2",
+            "vocab-000197-ja-option-3",
+            "vocab-000197-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000197-ja-option-3",
+          "distractorHeadwords": [
+            "fresh",
+            "cheerful",
+            null,
+            "generous"
+          ]
+        },
+        "en": {
+          "choices": [
+            "recently made, picked or caught",
+            "happy and full of good spirits",
+            "not special in any way",
+            "happy to give more than is expected"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000197-en-option-1",
+            "vocab-000197-en-option-2",
+            "vocab-000197-en-option-3",
+            "vocab-000197-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000197-en-option-3",
+          "distractorHeadwords": [
+            "fresh",
+            "cheerful",
+            null,
+            "generous"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "fresh",
+            "cheerful",
+            "ordinary",
+            "generous"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000197-ja_en-option-1",
+            "vocab-000197-ja_en-option-2",
+            "vocab-000197-ja_en-option-3",
+            "vocab-000197-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000197-ja_en-option-3",
+          "distractorHeadwords": [
+            "fresh",
+            "cheerful",
+            null,
+            "generous"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "fresh",
+            "cheerful",
+            "ordinary",
+            "generous"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000197-def_en-option-1",
+            "vocab-000197-def_en-option-2",
+            "vocab-000197-def_en-option-3",
+            "vocab-000197-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000197-def_en-option-3",
+          "distractorHeadwords": [
+            "fresh",
+            "cheerful",
+            null,
+            "generous"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000198",
+      "headword": "rough",
+      "partOfSpeech": "adjective",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 5,
+      "meaning": "粗い",
+      "definition": "having an uneven surface",
+      "example": "The path was rough and full of stones.",
+      "exampleSurface": "rough",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "粗い（having an uneven surface）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "rough",
+        "partOfSpeech": "adjective",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "礼儀正しい",
+            "現代的な",
+            "陽気な",
+            "粗い"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000198-ja-option-1",
+            "vocab-000198-ja-option-2",
+            "vocab-000198-ja-option-3",
+            "vocab-000198-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000198-ja-option-4",
+          "distractorHeadwords": [
+            "polite",
+            "modern",
+            "cheerful",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "showing good manners to other people",
+            "of the present time, not old",
+            "happy and full of good spirits",
+            "having an uneven surface"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000198-en-option-1",
+            "vocab-000198-en-option-2",
+            "vocab-000198-en-option-3",
+            "vocab-000198-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000198-en-option-4",
+          "distractorHeadwords": [
+            "polite",
+            "modern",
+            "cheerful",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "polite",
+            "modern",
+            "cheerful",
+            "rough"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000198-ja_en-option-1",
+            "vocab-000198-ja_en-option-2",
+            "vocab-000198-ja_en-option-3",
+            "vocab-000198-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000198-ja_en-option-4",
+          "distractorHeadwords": [
+            "polite",
+            "modern",
+            "cheerful",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "polite",
+            "modern",
+            "cheerful",
+            "rough"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000198-def_en-option-1",
+            "vocab-000198-def_en-option-2",
+            "vocab-000198-def_en-option-3",
+            "vocab-000198-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000198-def_en-option-4",
+          "distractorHeadwords": [
+            "polite",
+            "modern",
+            "cheerful",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000199",
+      "headword": "downstairs",
+      "partOfSpeech": "adverb",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 5,
+      "meaning": "階下で",
+      "definition": "on a lower floor of a building",
+      "example": "The kitchen is downstairs.",
+      "exampleSurface": "downstairs",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "階下で（on a lower floor of a building）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "downstairs",
+        "partOfSpeech": "adverb",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "階下で",
+            "その後",
+            "突然",
+            "たぶん"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000199-ja-option-1",
+            "vocab-000199-ja-option-2",
+            "vocab-000199-ja-option-3",
+            "vocab-000199-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000199-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "afterwards",
+            "suddenly",
+            "probably"
+          ]
+        },
+        "en": {
+          "choices": [
+            "on a lower floor of a building",
+            "at a later time",
+            "quickly and without warning",
+            "very likely to be true"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000199-en-option-1",
+            "vocab-000199-en-option-2",
+            "vocab-000199-en-option-3",
+            "vocab-000199-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000199-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "afterwards",
+            "suddenly",
+            "probably"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "downstairs",
+            "afterwards",
+            "suddenly",
+            "probably"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000199-ja_en-option-1",
+            "vocab-000199-ja_en-option-2",
+            "vocab-000199-ja_en-option-3",
+            "vocab-000199-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000199-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "afterwards",
+            "suddenly",
+            "probably"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "downstairs",
+            "afterwards",
+            "suddenly",
+            "probably"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000199-def_en-option-1",
+            "vocab-000199-def_en-option-2",
+            "vocab-000199-def_en-option-3",
+            "vocab-000199-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000199-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "afterwards",
+            "suddenly",
+            "probably"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000200",
+      "headword": "probably",
+      "partOfSpeech": "adverb",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 5,
+      "meaning": "たぶん",
+      "definition": "very likely to be true",
+      "example": "It will probably rain tomorrow.",
+      "exampleSurface": "probably",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "たぶん（very likely to be true）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "probably",
+        "partOfSpeech": "adverb",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "その後",
+            "たぶん",
+            "海外で",
+            "階下で"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000200-ja-option-1",
+            "vocab-000200-ja-option-2",
+            "vocab-000200-ja-option-3",
+            "vocab-000200-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000200-ja-option-2",
+          "distractorHeadwords": [
+            "afterwards",
+            null,
+            "abroad",
+            "downstairs"
+          ]
+        },
+        "en": {
+          "choices": [
+            "at a later time",
+            "very likely to be true",
+            "in or to another country",
+            "on a lower floor of a building"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000200-en-option-1",
+            "vocab-000200-en-option-2",
+            "vocab-000200-en-option-3",
+            "vocab-000200-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000200-en-option-2",
+          "distractorHeadwords": [
+            "afterwards",
+            null,
+            "abroad",
+            "downstairs"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "afterwards",
+            "probably",
+            "abroad",
+            "downstairs"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000200-ja_en-option-1",
+            "vocab-000200-ja_en-option-2",
+            "vocab-000200-ja_en-option-3",
+            "vocab-000200-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000200-ja_en-option-2",
+          "distractorHeadwords": [
+            "afterwards",
+            null,
+            "abroad",
+            "downstairs"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "afterwards",
+            "probably",
+            "abroad",
+            "downstairs"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000200-def_en-option-1",
+            "vocab-000200-def_en-option-2",
+            "vocab-000200-def_en-option-3",
+            "vocab-000200-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000200-def_en-option-2",
+          "distractorHeadwords": [
+            "afterwards",
+            null,
+            "abroad",
+            "downstairs"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1155 @@
+{
+  "id": "basic-04",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "基礎単語 ④",
+  "genre": "basic",
+  "setNumber": 4,
+  "level": "A1〜A2",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000151",
+      "headword": "window",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 4,
+      "meaning": "窓",
+      "definition": "an opening in a wall that lets in light",
+      "example": "She opened the window to let in some air.",
+      "exampleSurface": "window",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "窓（an opening in a wall that lets in light）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "window",
+        "partOfSpeech": "noun",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "窓",
+            "台所",
+            "傘",
+            "切符"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000151-ja-option-1",
+            "vocab-000151-ja-option-2",
+            "vocab-000151-ja-option-3",
+            "vocab-000151-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000151-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "kitchen",
+            "umbrella",
+            "ticket"
+          ]
+        },
+        "en": {
+          "choices": [
+            "an opening in a wall that lets in light",
+            "a room where people cook food",
+            "a thing that keeps rain off your head",
+            "a piece of paper that lets you travel"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000151-en-option-1",
+            "vocab-000151-en-option-2",
+            "vocab-000151-en-option-3",
+            "vocab-000151-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000151-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "kitchen",
+            "umbrella",
+            "ticket"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "window",
+            "kitchen",
+            "umbrella",
+            "ticket"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000151-ja_en-option-1",
+            "vocab-000151-ja_en-option-2",
+            "vocab-000151-ja_en-option-3",
+            "vocab-000151-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000151-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "kitchen",
+            "umbrella",
+            "ticket"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "window",
+            "kitchen",
+            "umbrella",
+            "ticket"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000151-def_en-option-1",
+            "vocab-000151-def_en-option-2",
+            "vocab-000151-def_en-option-3",
+            "vocab-000151-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000151-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "kitchen",
+            "umbrella",
+            "ticket"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000152",
+      "headword": "garden",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 4,
+      "meaning": "庭",
+      "definition": "a piece of land with plants near a house",
+      "example": "We have lunch in the garden on sunny days.",
+      "exampleSurface": "garden",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "庭（a piece of land with plants near a house）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "garden",
+        "partOfSpeech": "noun",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "台所",
+            "庭",
+            "図書館",
+            "山"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000152-ja-option-1",
+            "vocab-000152-ja-option-2",
+            "vocab-000152-ja-option-3",
+            "vocab-000152-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000152-ja-option-2",
+          "distractorHeadwords": [
+            "kitchen",
+            null,
+            "library",
+            "mountain"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a room where people cook food",
+            "a piece of land with plants near a house",
+            "a place where you can borrow books",
+            "a very high hill"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000152-en-option-1",
+            "vocab-000152-en-option-2",
+            "vocab-000152-en-option-3",
+            "vocab-000152-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000152-en-option-2",
+          "distractorHeadwords": [
+            "kitchen",
+            null,
+            "library",
+            "mountain"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "kitchen",
+            "garden",
+            "library",
+            "mountain"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000152-ja_en-option-1",
+            "vocab-000152-ja_en-option-2",
+            "vocab-000152-ja_en-option-3",
+            "vocab-000152-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000152-ja_en-option-2",
+          "distractorHeadwords": [
+            "kitchen",
+            null,
+            "library",
+            "mountain"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "kitchen",
+            "garden",
+            "library",
+            "mountain"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000152-def_en-option-1",
+            "vocab-000152-def_en-option-2",
+            "vocab-000152-def_en-option-3",
+            "vocab-000152-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000152-def_en-option-2",
+          "distractorHeadwords": [
+            "kitchen",
+            null,
+            "library",
+            "mountain"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000153",
+      "headword": "library",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 4,
+      "meaning": "図書館",
+      "definition": "a place where you can borrow books",
+      "example": "I returned my books to the library.",
+      "exampleSurface": "library",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "図書館（a place where you can borrow books）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "library",
+        "partOfSpeech": "noun",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "休暇",
+            "鉛筆",
+            "図書館",
+            "ポケット"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000153-ja-option-1",
+            "vocab-000153-ja-option-2",
+            "vocab-000153-ja-option-3",
+            "vocab-000153-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000153-ja-option-3",
+          "distractorHeadwords": [
+            "holiday",
+            "pencil",
+            null,
+            "pocket"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a time when you do not work",
+            "a thin stick used for writing",
+            "a place where you can borrow books",
+            "a small part of clothes where you keep things"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000153-en-option-1",
+            "vocab-000153-en-option-2",
+            "vocab-000153-en-option-3",
+            "vocab-000153-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000153-en-option-3",
+          "distractorHeadwords": [
+            "holiday",
+            "pencil",
+            null,
+            "pocket"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "holiday",
+            "pencil",
+            "library",
+            "pocket"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000153-ja_en-option-1",
+            "vocab-000153-ja_en-option-2",
+            "vocab-000153-ja_en-option-3",
+            "vocab-000153-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000153-ja_en-option-3",
+          "distractorHeadwords": [
+            "holiday",
+            "pencil",
+            null,
+            "pocket"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "holiday",
+            "pencil",
+            "library",
+            "pocket"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000153-def_en-option-1",
+            "vocab-000153-def_en-option-2",
+            "vocab-000153-def_en-option-3",
+            "vocab-000153-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000153-def_en-option-3",
+          "distractorHeadwords": [
+            "holiday",
+            "pencil",
+            null,
+            "pocket"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000154",
+      "headword": "cook",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 4,
+      "meaning": "料理する",
+      "definition": "to make food hot so that it can be eaten",
+      "example": "My father cooks dinner every night.",
+      "exampleSurface": "cooks",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "料理する（to make food hot so that it can be eaten）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "cook",
+        "partOfSpeech": "verb",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "落とす",
+            "押す",
+            "掃除する",
+            "料理する"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000154-ja-option-1",
+            "vocab-000154-ja-option-2",
+            "vocab-000154-ja-option-3",
+            "vocab-000154-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000154-ja-option-4",
+          "distractorHeadwords": [
+            "drop",
+            "push",
+            "clean",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "to let something fall by accident",
+            "to use force to move something away",
+            "to take dirt off something",
+            "to make food hot so that it can be eaten"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000154-en-option-1",
+            "vocab-000154-en-option-2",
+            "vocab-000154-en-option-3",
+            "vocab-000154-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000154-en-option-4",
+          "distractorHeadwords": [
+            "drop",
+            "push",
+            "clean",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "drop",
+            "push",
+            "clean",
+            "cook"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000154-ja_en-option-1",
+            "vocab-000154-ja_en-option-2",
+            "vocab-000154-ja_en-option-3",
+            "vocab-000154-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000154-ja_en-option-4",
+          "distractorHeadwords": [
+            "drop",
+            "push",
+            "clean",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "drop",
+            "push",
+            "clean",
+            "cook"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000154-def_en-option-1",
+            "vocab-000154-def_en-option-2",
+            "vocab-000154-def_en-option-3",
+            "vocab-000154-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000154-def_en-option-4",
+          "distractorHeadwords": [
+            "drop",
+            "push",
+            "clean",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000155",
+      "headword": "climb",
+      "partOfSpeech": "verb",
+      "level": "A2",
+      "genre": "basic",
+      "setNumber": 4,
+      "meaning": "登る",
+      "definition": "to go up something high",
+      "example": "The children climbed the tree.",
+      "exampleSurface": "climbed",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "登る（to go up something high）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "climb",
+        "partOfSpeech": "verb",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "登る",
+            "洗う",
+            "落とす",
+            "訪ねる"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000155-ja-option-1",
+            "vocab-000155-ja-option-2",
+            "vocab-000155-ja-option-3",
+            "vocab-000155-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000155-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "wash",
+            "drop",
+            "visit"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to go up something high",
+            "to clean something with water",
+            "to let something fall by accident",
+            "to go and spend time at a place"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000155-en-option-1",
+            "vocab-000155-en-option-2",
+            "vocab-000155-en-option-3",
+            "vocab-000155-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000155-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "wash",
+            "drop",
+            "visit"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "climb",
+            "wash",
+            "drop",
+            "visit"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000155-ja_en-option-1",
+            "vocab-000155-ja_en-option-2",
+            "vocab-000155-ja_en-option-3",
+            "vocab-000155-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000155-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "wash",
+            "drop",
+            "visit"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "climb",
+            "wash",
+            "drop",
+            "visit"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000155-def_en-option-1",
+            "vocab-000155-def_en-option-2",
+            "vocab-000155-def_en-option-3",
+            "vocab-000155-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000155-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "wash",
+            "drop",
+            "visit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000156",
+      "headword": "fill",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 4,
+      "meaning": "満たす",
+      "definition": "to put things in until a space is full",
+      "example": "She filled the glass with milk.",
+      "exampleSurface": "filled",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "満たす（to put things in until a space is full）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "fill",
+        "partOfSpeech": "verb",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "運ぶ",
+            "満たす",
+            "訪ねる",
+            "料理する"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000156-ja-option-1",
+            "vocab-000156-ja-option-2",
+            "vocab-000156-ja-option-3",
+            "vocab-000156-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000156-ja-option-2",
+          "distractorHeadwords": [
+            "carry",
+            null,
+            "visit",
+            "cook"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to hold something and take it to a place",
+            "to put things in until a space is full",
+            "to go and spend time at a place",
+            "to make food hot so that it can be eaten"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000156-en-option-1",
+            "vocab-000156-en-option-2",
+            "vocab-000156-en-option-3",
+            "vocab-000156-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000156-en-option-2",
+          "distractorHeadwords": [
+            "carry",
+            null,
+            "visit",
+            "cook"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "carry",
+            "fill",
+            "visit",
+            "cook"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000156-ja_en-option-1",
+            "vocab-000156-ja_en-option-2",
+            "vocab-000156-ja_en-option-3",
+            "vocab-000156-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000156-ja_en-option-2",
+          "distractorHeadwords": [
+            "carry",
+            null,
+            "visit",
+            "cook"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "carry",
+            "fill",
+            "visit",
+            "cook"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000156-def_en-option-1",
+            "vocab-000156-def_en-option-2",
+            "vocab-000156-def_en-option-3",
+            "vocab-000156-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000156-def_en-option-2",
+          "distractorHeadwords": [
+            "carry",
+            null,
+            "visit",
+            "cook"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000157",
+      "headword": "hungry",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 4,
+      "meaning": "空腹の",
+      "definition": "wanting to eat food",
+      "example": "I am very hungry after the game.",
+      "exampleSurface": "hungry",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "空腹の（wanting to eat food）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "hungry",
+        "partOfSpeech": "adjective",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "静かな",
+            "背が高い",
+            "空腹の",
+            "眠い"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000157-ja-option-1",
+            "vocab-000157-ja-option-2",
+            "vocab-000157-ja-option-3",
+            "vocab-000157-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000157-ja-option-3",
+          "distractorHeadwords": [
+            "quiet",
+            "tall",
+            null,
+            "sleepy"
+          ]
+        },
+        "en": {
+          "choices": [
+            "making very little sound",
+            "having a great height",
+            "wanting to eat food",
+            "ready to go to bed"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000157-en-option-1",
+            "vocab-000157-en-option-2",
+            "vocab-000157-en-option-3",
+            "vocab-000157-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000157-en-option-3",
+          "distractorHeadwords": [
+            "quiet",
+            "tall",
+            null,
+            "sleepy"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "quiet",
+            "tall",
+            "hungry",
+            "sleepy"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000157-ja_en-option-1",
+            "vocab-000157-ja_en-option-2",
+            "vocab-000157-ja_en-option-3",
+            "vocab-000157-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000157-ja_en-option-3",
+          "distractorHeadwords": [
+            "quiet",
+            "tall",
+            null,
+            "sleepy"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "quiet",
+            "tall",
+            "hungry",
+            "sleepy"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000157-def_en-option-1",
+            "vocab-000157-def_en-option-2",
+            "vocab-000157-def_en-option-3",
+            "vocab-000157-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000157-def_en-option-3",
+          "distractorHeadwords": [
+            "quiet",
+            "tall",
+            null,
+            "sleepy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000158",
+      "headword": "dirty",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 4,
+      "meaning": "汚れた",
+      "definition": "not clean",
+      "example": "Your shoes are dirty.",
+      "exampleSurface": "dirty",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "汚れた（not clean）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "dirty",
+        "partOfSpeech": "adjective",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "空の",
+            "ぬれた",
+            "背が高い",
+            "汚れた"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000158-ja-option-1",
+            "vocab-000158-ja-option-2",
+            "vocab-000158-ja-option-3",
+            "vocab-000158-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000158-ja-option-4",
+          "distractorHeadwords": [
+            "empty",
+            "wet",
+            "tall",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "having nothing inside",
+            "covered with water",
+            "having a great height",
+            "not clean"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000158-en-option-1",
+            "vocab-000158-en-option-2",
+            "vocab-000158-en-option-3",
+            "vocab-000158-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000158-en-option-4",
+          "distractorHeadwords": [
+            "empty",
+            "wet",
+            "tall",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "empty",
+            "wet",
+            "tall",
+            "dirty"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000158-ja_en-option-1",
+            "vocab-000158-ja_en-option-2",
+            "vocab-000158-ja_en-option-3",
+            "vocab-000158-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000158-ja_en-option-4",
+          "distractorHeadwords": [
+            "empty",
+            "wet",
+            "tall",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "empty",
+            "wet",
+            "tall",
+            "dirty"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000158-def_en-option-1",
+            "vocab-000158-def_en-option-2",
+            "vocab-000158-def_en-option-3",
+            "vocab-000158-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000158-def_en-option-4",
+          "distractorHeadwords": [
+            "empty",
+            "wet",
+            "tall",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000159",
+      "headword": "always",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 4,
+      "meaning": "いつも",
+      "definition": "at all times",
+      "example": "He always walks to school.",
+      "exampleSurface": "always",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "いつも（at all times）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "always",
+        "partOfSpeech": "adverb",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "いつも",
+            "ゆっくり",
+            "早く",
+            "慎重に"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000159-ja-option-1",
+            "vocab-000159-ja-option-2",
+            "vocab-000159-ja-option-3",
+            "vocab-000159-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000159-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "slowly",
+            "early",
+            "carefully"
+          ]
+        },
+        "en": {
+          "choices": [
+            "at all times",
+            "at a low speed",
+            "near the start of a period",
+            "so as not to make mistakes"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000159-en-option-1",
+            "vocab-000159-en-option-2",
+            "vocab-000159-en-option-3",
+            "vocab-000159-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000159-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "slowly",
+            "early",
+            "carefully"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "always",
+            "slowly",
+            "early",
+            "carefully"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000159-ja_en-option-1",
+            "vocab-000159-ja_en-option-2",
+            "vocab-000159-ja_en-option-3",
+            "vocab-000159-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000159-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "slowly",
+            "early",
+            "carefully"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "always",
+            "slowly",
+            "early",
+            "carefully"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000159-def_en-option-1",
+            "vocab-000159-def_en-option-2",
+            "vocab-000159-def_en-option-3",
+            "vocab-000159-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000159-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "slowly",
+            "early",
+            "carefully"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000160",
+      "headword": "quickly",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 4,
+      "meaning": "速く",
+      "definition": "in a short time",
+      "example": "She quickly finished her homework.",
+      "exampleSurface": "quickly",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "速く（in a short time）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "quickly",
+        "partOfSpeech": "adverb",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "一緒に",
+            "速く",
+            "たいてい",
+            "すでに"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000160-ja-option-1",
+            "vocab-000160-ja-option-2",
+            "vocab-000160-ja-option-3",
+            "vocab-000160-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000160-ja-option-2",
+          "distractorHeadwords": [
+            "together",
+            null,
+            "usually",
+            "already"
+          ]
+        },
+        "en": {
+          "choices": [
+            "with each other",
+            "in a short time",
+            "most of the time",
+            "before now"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000160-en-option-1",
+            "vocab-000160-en-option-2",
+            "vocab-000160-en-option-3",
+            "vocab-000160-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000160-en-option-2",
+          "distractorHeadwords": [
+            "together",
+            null,
+            "usually",
+            "already"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "together",
+            "quickly",
+            "usually",
+            "already"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000160-ja_en-option-1",
+            "vocab-000160-ja_en-option-2",
+            "vocab-000160-ja_en-option-3",
+            "vocab-000160-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000160-ja_en-option-2",
+          "distractorHeadwords": [
+            "together",
+            null,
+            "usually",
+            "already"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "together",
+            "quickly",
+            "usually",
+            "already"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000160-def_en-option-1",
+            "vocab-000160-def_en-option-2",
+            "vocab-000160-def_en-option-3",
+            "vocab-000160-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000160-def_en-option-2",
+          "distractorHeadwords": [
+            "together",
+            null,
+            "usually",
+            "already"
+          ]
+        }
+      }
+    }
+  ]
+}

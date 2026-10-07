@@ -1,0 +1,1155 @@
+{
+  "id": "advanced-04",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "アドバンス単語 ④",
+  "genre": "advanced",
+  "setNumber": 4,
+  "level": "B2〜C1",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000241",
+      "headword": "incentive",
+      "partOfSpeech": "noun",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 4,
+      "meaning": "動機づけ",
+      "definition": "something that encourages you to act",
+      "example": "A bonus is a strong incentive to work harder.",
+      "exampleSurface": "incentive",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "動機づけ（something that encourages you to act）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "incentive",
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "見通し",
+            "紛争",
+            "動機づけ",
+            "固定観念"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000241-ja-option-1",
+            "vocab-000241-ja-option-2",
+            "vocab-000241-ja-option-3",
+            "vocab-000241-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000241-ja-option-3",
+          "distractorHeadwords": [
+            "outlook",
+            "dispute",
+            null,
+            "stereotype"
+          ]
+        },
+        "en": {
+          "choices": [
+            "what is likely to happen in the future",
+            "a serious disagreement between two sides",
+            "something that encourages you to act",
+            "a fixed idea about a type of person"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000241-en-option-1",
+            "vocab-000241-en-option-2",
+            "vocab-000241-en-option-3",
+            "vocab-000241-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000241-en-option-3",
+          "distractorHeadwords": [
+            "outlook",
+            "dispute",
+            null,
+            "stereotype"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "outlook",
+            "dispute",
+            "incentive",
+            "stereotype"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000241-ja_en-option-1",
+            "vocab-000241-ja_en-option-2",
+            "vocab-000241-ja_en-option-3",
+            "vocab-000241-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000241-ja_en-option-3",
+          "distractorHeadwords": [
+            "outlook",
+            "dispute",
+            null,
+            "stereotype"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "outlook",
+            "dispute",
+            "incentive",
+            "stereotype"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000241-def_en-option-1",
+            "vocab-000241-def_en-option-2",
+            "vocab-000241-def_en-option-3",
+            "vocab-000241-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000241-def_en-option-3",
+          "distractorHeadwords": [
+            "outlook",
+            "dispute",
+            null,
+            "stereotype"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000242",
+      "headword": "stereotype",
+      "partOfSpeech": "noun",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 4,
+      "meaning": "固定観念",
+      "definition": "a fixed idea about a type of person",
+      "example": "The film challenges the stereotype of the lazy teenager.",
+      "exampleSurface": "stereotype",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "固定観念（a fixed idea about a type of person）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "stereotype",
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "合意",
+            "板挟み",
+            "動機づけ",
+            "固定観念"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000242-ja-option-1",
+            "vocab-000242-ja-option-2",
+            "vocab-000242-ja-option-3",
+            "vocab-000242-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000242-ja-option-4",
+          "distractorHeadwords": [
+            "consensus",
+            "dilemma",
+            "incentive",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "an agreement shared by most people",
+            "a hard choice between two options",
+            "something that encourages you to act",
+            "a fixed idea about a type of person"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000242-en-option-1",
+            "vocab-000242-en-option-2",
+            "vocab-000242-en-option-3",
+            "vocab-000242-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000242-en-option-4",
+          "distractorHeadwords": [
+            "consensus",
+            "dilemma",
+            "incentive",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "consensus",
+            "dilemma",
+            "incentive",
+            "stereotype"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000242-ja_en-option-1",
+            "vocab-000242-ja_en-option-2",
+            "vocab-000242-ja_en-option-3",
+            "vocab-000242-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000242-ja_en-option-4",
+          "distractorHeadwords": [
+            "consensus",
+            "dilemma",
+            "incentive",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "consensus",
+            "dilemma",
+            "incentive",
+            "stereotype"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000242-def_en-option-1",
+            "vocab-000242-def_en-option-2",
+            "vocab-000242-def_en-option-3",
+            "vocab-000242-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000242-def_en-option-4",
+          "distractorHeadwords": [
+            "consensus",
+            "dilemma",
+            "incentive",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000243",
+      "headword": "initiative",
+      "partOfSpeech": "noun",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 4,
+      "meaning": "主導権",
+      "definition": "the power to act first and take charge",
+      "example": "She took the initiative and called the client.",
+      "exampleSurface": "initiative",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "主導権（the power to act first and take charge）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "initiative",
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "主導権",
+            "同意",
+            "見通し",
+            "制約"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000243-ja-option-1",
+            "vocab-000243-ja-option-2",
+            "vocab-000243-ja-option-3",
+            "vocab-000243-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000243-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "consent",
+            "outlook",
+            "constraint"
+          ]
+        },
+        "en": {
+          "choices": [
+            "the power to act first and take charge",
+            "permission to do something",
+            "what is likely to happen in the future",
+            "a limit on what you can do"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000243-en-option-1",
+            "vocab-000243-en-option-2",
+            "vocab-000243-en-option-3",
+            "vocab-000243-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000243-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "consent",
+            "outlook",
+            "constraint"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "initiative",
+            "consent",
+            "outlook",
+            "constraint"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000243-ja_en-option-1",
+            "vocab-000243-ja_en-option-2",
+            "vocab-000243-ja_en-option-3",
+            "vocab-000243-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000243-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "consent",
+            "outlook",
+            "constraint"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "initiative",
+            "consent",
+            "outlook",
+            "constraint"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000243-def_en-option-1",
+            "vocab-000243-def_en-option-2",
+            "vocab-000243-def_en-option-3",
+            "vocab-000243-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000243-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "consent",
+            "outlook",
+            "constraint"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000244",
+      "headword": "exploit",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 4,
+      "meaning": "利用する",
+      "definition": "to use something to gain an advantage",
+      "example": "Smart investors exploit small changes in price.",
+      "exampleSurface": "exploit",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "利用する（to use something to gain an advantage）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "exploit",
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "抑え込む",
+            "利用する",
+            "認める",
+            "和らげる"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000244-ja-option-1",
+            "vocab-000244-ja-option-2",
+            "vocab-000244-ja-option-3",
+            "vocab-000244-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000244-ja-option-2",
+          "distractorHeadwords": [
+            "suppress",
+            null,
+            "concede",
+            "alleviate"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to stop something from being seen or heard",
+            "to use something to gain an advantage",
+            "to admit that something is true or right",
+            "to make pain or trouble less severe"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000244-en-option-1",
+            "vocab-000244-en-option-2",
+            "vocab-000244-en-option-3",
+            "vocab-000244-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000244-en-option-2",
+          "distractorHeadwords": [
+            "suppress",
+            null,
+            "concede",
+            "alleviate"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "suppress",
+            "exploit",
+            "concede",
+            "alleviate"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000244-ja_en-option-1",
+            "vocab-000244-ja_en-option-2",
+            "vocab-000244-ja_en-option-3",
+            "vocab-000244-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000244-ja_en-option-2",
+          "distractorHeadwords": [
+            "suppress",
+            null,
+            "concede",
+            "alleviate"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "suppress",
+            "exploit",
+            "concede",
+            "alleviate"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000244-def_en-option-1",
+            "vocab-000244-def_en-option-2",
+            "vocab-000244-def_en-option-3",
+            "vocab-000244-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000244-def_en-option-2",
+          "distractorHeadwords": [
+            "suppress",
+            null,
+            "concede",
+            "alleviate"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000245",
+      "headword": "interfere",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 4,
+      "meaning": "干渉する",
+      "definition": "to get involved in a way that is not wanted",
+      "example": "Please do not interfere in my decision.",
+      "exampleSurface": "interfere",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "干渉する（to get involved in a way that is not wanted）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "interfere",
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "認める",
+            "対処する",
+            "干渉する",
+            "和らげる"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000245-ja-option-1",
+            "vocab-000245-ja-option-2",
+            "vocab-000245-ja-option-3",
+            "vocab-000245-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000245-ja-option-3",
+          "distractorHeadwords": [
+            "concede",
+            "cope",
+            null,
+            "alleviate"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to admit that something is true or right",
+            "to deal with a hard situation",
+            "to get involved in a way that is not wanted",
+            "to make pain or trouble less severe"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000245-en-option-1",
+            "vocab-000245-en-option-2",
+            "vocab-000245-en-option-3",
+            "vocab-000245-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000245-en-option-3",
+          "distractorHeadwords": [
+            "concede",
+            "cope",
+            null,
+            "alleviate"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "concede",
+            "cope",
+            "interfere",
+            "alleviate"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000245-ja_en-option-1",
+            "vocab-000245-ja_en-option-2",
+            "vocab-000245-ja_en-option-3",
+            "vocab-000245-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000245-ja_en-option-3",
+          "distractorHeadwords": [
+            "concede",
+            "cope",
+            null,
+            "alleviate"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "concede",
+            "cope",
+            "interfere",
+            "alleviate"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000245-def_en-option-1",
+            "vocab-000245-def_en-option-2",
+            "vocab-000245-def_en-option-3",
+            "vocab-000245-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000245-def_en-option-3",
+          "distractorHeadwords": [
+            "concede",
+            "cope",
+            null,
+            "alleviate"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000246",
+      "headword": "withdraw",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 4,
+      "meaning": "撤回する",
+      "definition": "to take something back or away",
+      "example": "She withdrew her application after the interview.",
+      "exampleSurface": "withdrew",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "撤回する（to take something back or away）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "withdraw",
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "矛盾する",
+            "評価する",
+            "対処する",
+            "撤回する"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000246-ja-option-1",
+            "vocab-000246-ja-option-2",
+            "vocab-000246-ja-option-3",
+            "vocab-000246-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000246-ja-option-4",
+          "distractorHeadwords": [
+            "contradict",
+            "assess",
+            "cope",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "to say or show the opposite of something",
+            "to judge the quality or value of something",
+            "to deal with a hard situation",
+            "to take something back or away"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000246-en-option-1",
+            "vocab-000246-en-option-2",
+            "vocab-000246-en-option-3",
+            "vocab-000246-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000246-en-option-4",
+          "distractorHeadwords": [
+            "contradict",
+            "assess",
+            "cope",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "contradict",
+            "assess",
+            "cope",
+            "withdraw"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000246-ja_en-option-1",
+            "vocab-000246-ja_en-option-2",
+            "vocab-000246-ja_en-option-3",
+            "vocab-000246-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000246-ja_en-option-4",
+          "distractorHeadwords": [
+            "contradict",
+            "assess",
+            "cope",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "contradict",
+            "assess",
+            "cope",
+            "withdraw"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000246-def_en-option-1",
+            "vocab-000246-def_en-option-2",
+            "vocab-000246-def_en-option-3",
+            "vocab-000246-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000246-def_en-option-4",
+          "distractorHeadwords": [
+            "contradict",
+            "assess",
+            "cope",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000247",
+      "headword": "ambiguous",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 4,
+      "meaning": "あいまいな",
+      "definition": "having more than one possible meaning",
+      "example": "The instructions were ambiguous, so we asked for help.",
+      "exampleSurface": "ambiguous",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "あいまいな（having more than one possible meaning）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "ambiguous",
+        "partOfSpeech": "adjective",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "あいまいな",
+            "客観的な",
+            "不利な",
+            "ありそうな"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000247-ja-option-1",
+            "vocab-000247-ja-option-2",
+            "vocab-000247-ja-option-3",
+            "vocab-000247-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000247-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "objective",
+            "adverse",
+            "plausible"
+          ]
+        },
+        "en": {
+          "choices": [
+            "having more than one possible meaning",
+            "based on facts rather than feelings",
+            "harmful or likely to cause problems",
+            "seeming likely to be true"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000247-en-option-1",
+            "vocab-000247-en-option-2",
+            "vocab-000247-en-option-3",
+            "vocab-000247-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000247-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "objective",
+            "adverse",
+            "plausible"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "ambiguous",
+            "objective",
+            "adverse",
+            "plausible"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000247-ja_en-option-1",
+            "vocab-000247-ja_en-option-2",
+            "vocab-000247-ja_en-option-3",
+            "vocab-000247-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000247-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "objective",
+            "adverse",
+            "plausible"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "ambiguous",
+            "objective",
+            "adverse",
+            "plausible"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000247-def_en-option-1",
+            "vocab-000247-def_en-option-2",
+            "vocab-000247-def_en-option-3",
+            "vocab-000247-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000247-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "objective",
+            "adverse",
+            "plausible"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000248",
+      "headword": "comprehensive",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 4,
+      "meaning": "包括的な",
+      "definition": "including all the important parts",
+      "example": "The report gives a comprehensive review of the market.",
+      "exampleSurface": "comprehensive",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "包括的な（including all the important parts）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "comprehensive",
+        "partOfSpeech": "adjective",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "一貫した",
+            "包括的な",
+            "不利な",
+            "自発的な"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000248-ja-option-1",
+            "vocab-000248-ja-option-2",
+            "vocab-000248-ja-option-3",
+            "vocab-000248-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000248-ja-option-2",
+          "distractorHeadwords": [
+            "coherent",
+            null,
+            "adverse",
+            "spontaneous"
+          ]
+        },
+        "en": {
+          "choices": [
+            "logical and easy to follow",
+            "including all the important parts",
+            "harmful or likely to cause problems",
+            "done naturally without being planned"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000248-en-option-1",
+            "vocab-000248-en-option-2",
+            "vocab-000248-en-option-3",
+            "vocab-000248-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000248-en-option-2",
+          "distractorHeadwords": [
+            "coherent",
+            null,
+            "adverse",
+            "spontaneous"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "coherent",
+            "comprehensive",
+            "adverse",
+            "spontaneous"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000248-ja_en-option-1",
+            "vocab-000248-ja_en-option-2",
+            "vocab-000248-ja_en-option-3",
+            "vocab-000248-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000248-ja_en-option-2",
+          "distractorHeadwords": [
+            "coherent",
+            null,
+            "adverse",
+            "spontaneous"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "coherent",
+            "comprehensive",
+            "adverse",
+            "spontaneous"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000248-def_en-option-1",
+            "vocab-000248-def_en-option-2",
+            "vocab-000248-def_en-option-3",
+            "vocab-000248-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000248-def_en-option-2",
+          "distractorHeadwords": [
+            "coherent",
+            null,
+            "adverse",
+            "spontaneous"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000249",
+      "headword": "remarkably",
+      "partOfSpeech": "adverb",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 4,
+      "meaning": "驚くほど",
+      "definition": "in a way that is surprising and worth noticing",
+      "example": "The team performed remarkably well under pressure.",
+      "exampleSurface": "remarkably",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "驚くほど（in a way that is surprising and worth noticing）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "remarkably",
+        "partOfSpeech": "adverb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "疑いなく",
+            "それによって",
+            "驚くほど",
+            "動的に"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000249-ja-option-1",
+            "vocab-000249-ja-option-2",
+            "vocab-000249-ja-option-3",
+            "vocab-000249-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000249-ja-option-3",
+          "distractorHeadwords": [
+            "undoubtedly",
+            "thereby",
+            null,
+            "dynamically"
+          ]
+        },
+        "en": {
+          "choices": [
+            "certainly, with no question",
+            "as a result of the action mentioned",
+            "in a way that is surprising and worth noticing",
+            "in a way that is full of energy and change"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000249-en-option-1",
+            "vocab-000249-en-option-2",
+            "vocab-000249-en-option-3",
+            "vocab-000249-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000249-en-option-3",
+          "distractorHeadwords": [
+            "undoubtedly",
+            "thereby",
+            null,
+            "dynamically"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "undoubtedly",
+            "thereby",
+            "remarkably",
+            "dynamically"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000249-ja_en-option-1",
+            "vocab-000249-ja_en-option-2",
+            "vocab-000249-ja_en-option-3",
+            "vocab-000249-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000249-ja_en-option-3",
+          "distractorHeadwords": [
+            "undoubtedly",
+            "thereby",
+            null,
+            "dynamically"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "undoubtedly",
+            "thereby",
+            "remarkably",
+            "dynamically"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000249-def_en-option-1",
+            "vocab-000249-def_en-option-2",
+            "vocab-000249-def_en-option-3",
+            "vocab-000249-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000249-def_en-option-3",
+          "distractorHeadwords": [
+            "undoubtedly",
+            "thereby",
+            null,
+            "dynamically"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000250",
+      "headword": "deliberately",
+      "partOfSpeech": "adverb",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 4,
+      "meaning": "わざと",
+      "definition": "on purpose and not by accident",
+      "example": "He deliberately chose a quiet seat.",
+      "exampleSurface": "deliberately",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "わざと（on purpose and not by accident）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "deliberately",
+        "partOfSpeech": "adverb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "事前に",
+            "逆に",
+            "大幅に",
+            "わざと"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000250-ja-option-1",
+            "vocab-000250-ja-option-2",
+            "vocab-000250-ja-option-3",
+            "vocab-000250-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000250-ja-option-4",
+          "distractorHeadwords": [
+            "beforehand",
+            "conversely",
+            "substantially",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "at a time before something happens",
+            "in the opposite way",
+            "to a large degree",
+            "on purpose and not by accident"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000250-en-option-1",
+            "vocab-000250-en-option-2",
+            "vocab-000250-en-option-3",
+            "vocab-000250-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000250-en-option-4",
+          "distractorHeadwords": [
+            "beforehand",
+            "conversely",
+            "substantially",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "beforehand",
+            "conversely",
+            "substantially",
+            "deliberately"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000250-ja_en-option-1",
+            "vocab-000250-ja_en-option-2",
+            "vocab-000250-ja_en-option-3",
+            "vocab-000250-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000250-ja_en-option-4",
+          "distractorHeadwords": [
+            "beforehand",
+            "conversely",
+            "substantially",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "beforehand",
+            "conversely",
+            "substantially",
+            "deliberately"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000250-def_en-option-1",
+            "vocab-000250-def_en-option-2",
+            "vocab-000250-def_en-option-3",
+            "vocab-000250-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000250-def_en-option-4",
+          "distractorHeadwords": [
+            "beforehand",
+            "conversely",
+            "substantially",
+            null
+          ]
+        }
+      }
+    }
+  ]
+}

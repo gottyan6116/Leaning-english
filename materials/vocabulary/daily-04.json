@@ -1,0 +1,1155 @@
+{
+  "id": "daily-04",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "日常単語 ④",
+  "genre": "daily",
+  "setNumber": 4,
+  "level": "A2〜B1",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000181",
+      "headword": "tourist",
+      "partOfSpeech": "noun",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 4,
+      "meaning": "観光客",
+      "definition": "a person who travels for pleasure",
+      "example": "A tourist asked me the way to the museum.",
+      "exampleSurface": "tourist",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "観光客（a person who travels for pleasure）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "tourist",
+        "partOfSpeech": "noun",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "絵はがき",
+            "荷物",
+            "観光客",
+            "予定表"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000181-ja-option-1",
+            "vocab-000181-ja-option-2",
+            "vocab-000181-ja-option-3",
+            "vocab-000181-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000181-ja-option-3",
+          "distractorHeadwords": [
+            "postcard",
+            "luggage",
+            null,
+            "schedule"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a card with a picture that you mail to a friend",
+            "the bags that you take on a trip",
+            "a person who travels for pleasure",
+            "a plan of what will happen and when"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000181-en-option-1",
+            "vocab-000181-en-option-2",
+            "vocab-000181-en-option-3",
+            "vocab-000181-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000181-en-option-3",
+          "distractorHeadwords": [
+            "postcard",
+            "luggage",
+            null,
+            "schedule"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "postcard",
+            "luggage",
+            "tourist",
+            "schedule"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000181-ja_en-option-1",
+            "vocab-000181-ja_en-option-2",
+            "vocab-000181-ja_en-option-3",
+            "vocab-000181-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000181-ja_en-option-3",
+          "distractorHeadwords": [
+            "postcard",
+            "luggage",
+            null,
+            "schedule"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "postcard",
+            "luggage",
+            "tourist",
+            "schedule"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000181-def_en-option-1",
+            "vocab-000181-def_en-option-2",
+            "vocab-000181-def_en-option-3",
+            "vocab-000181-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000181-def_en-option-3",
+          "distractorHeadwords": [
+            "postcard",
+            "luggage",
+            null,
+            "schedule"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000182",
+      "headword": "souvenir",
+      "partOfSpeech": "noun",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 4,
+      "meaning": "お土産",
+      "definition": "something you buy to remember a trip",
+      "example": "I bought a small souvenir for my sister.",
+      "exampleSurface": "souvenir",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "お土産（something you buy to remember a trip）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "souvenir",
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "レシート",
+            "予定表",
+            "観光客",
+            "お土産"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000182-ja-option-1",
+            "vocab-000182-ja-option-2",
+            "vocab-000182-ja-option-3",
+            "vocab-000182-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000182-ja-option-4",
+          "distractorHeadwords": [
+            "receipt",
+            "schedule",
+            "tourist",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "a paper that shows what you paid for",
+            "a plan of what will happen and when",
+            "a person who travels for pleasure",
+            "something you buy to remember a trip"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000182-en-option-1",
+            "vocab-000182-en-option-2",
+            "vocab-000182-en-option-3",
+            "vocab-000182-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000182-en-option-4",
+          "distractorHeadwords": [
+            "receipt",
+            "schedule",
+            "tourist",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "receipt",
+            "schedule",
+            "tourist",
+            "souvenir"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000182-ja_en-option-1",
+            "vocab-000182-ja_en-option-2",
+            "vocab-000182-ja_en-option-3",
+            "vocab-000182-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000182-ja_en-option-4",
+          "distractorHeadwords": [
+            "receipt",
+            "schedule",
+            "tourist",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "receipt",
+            "schedule",
+            "tourist",
+            "souvenir"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000182-def_en-option-1",
+            "vocab-000182-def_en-option-2",
+            "vocab-000182-def_en-option-3",
+            "vocab-000182-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000182-def_en-option-4",
+          "distractorHeadwords": [
+            "receipt",
+            "schedule",
+            "tourist",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000183",
+      "headword": "postcard",
+      "partOfSpeech": "noun",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 4,
+      "meaning": "絵はがき",
+      "definition": "a card with a picture that you mail to a friend",
+      "example": "She sent us a postcard from Italy.",
+      "exampleSurface": "postcard",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "絵はがき（a card with a picture that you mail to a friend）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "postcard",
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "絵はがき",
+            "冷蔵庫",
+            "予約",
+            "アパート"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000183-ja-option-1",
+            "vocab-000183-ja-option-2",
+            "vocab-000183-ja-option-3",
+            "vocab-000183-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000183-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "fridge",
+            "appointment",
+            "apartment"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a card with a picture that you mail to a friend",
+            "a machine that keeps food cold",
+            "a time that you arrange to see someone",
+            "a set of rooms for living in one building"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000183-en-option-1",
+            "vocab-000183-en-option-2",
+            "vocab-000183-en-option-3",
+            "vocab-000183-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000183-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "fridge",
+            "appointment",
+            "apartment"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "postcard",
+            "fridge",
+            "appointment",
+            "apartment"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000183-ja_en-option-1",
+            "vocab-000183-ja_en-option-2",
+            "vocab-000183-ja_en-option-3",
+            "vocab-000183-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000183-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "fridge",
+            "appointment",
+            "apartment"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "postcard",
+            "fridge",
+            "appointment",
+            "apartment"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000183-def_en-option-1",
+            "vocab-000183-def_en-option-2",
+            "vocab-000183-def_en-option-3",
+            "vocab-000183-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000183-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "fridge",
+            "appointment",
+            "apartment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000184",
+      "headword": "order",
+      "partOfSpeech": "verb",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 4,
+      "meaning": "注文する",
+      "definition": "to ask for food or goods to be brought",
+      "example": "We ordered two pizzas for dinner.",
+      "exampleSurface": "ordered",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "注文する（to ask for food or goods to be brought）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "order",
+        "partOfSpeech": "verb",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "鍵をかける",
+            "注文する",
+            "説明する",
+            "再利用する"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000184-ja-option-1",
+            "vocab-000184-ja-option-2",
+            "vocab-000184-ja-option-3",
+            "vocab-000184-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000184-ja-option-2",
+          "distractorHeadwords": [
+            "lock",
+            null,
+            "explain",
+            "recycle"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to close with a key",
+            "to ask for food or goods to be brought",
+            "to make something clear to someone",
+            "to use waste again to make new things"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000184-en-option-1",
+            "vocab-000184-en-option-2",
+            "vocab-000184-en-option-3",
+            "vocab-000184-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000184-en-option-2",
+          "distractorHeadwords": [
+            "lock",
+            null,
+            "explain",
+            "recycle"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "lock",
+            "order",
+            "explain",
+            "recycle"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000184-ja_en-option-1",
+            "vocab-000184-ja_en-option-2",
+            "vocab-000184-ja_en-option-3",
+            "vocab-000184-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000184-ja_en-option-2",
+          "distractorHeadwords": [
+            "lock",
+            null,
+            "explain",
+            "recycle"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "lock",
+            "order",
+            "explain",
+            "recycle"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000184-def_en-option-1",
+            "vocab-000184-def_en-option-2",
+            "vocab-000184-def_en-option-3",
+            "vocab-000184-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000184-def_en-option-2",
+          "distractorHeadwords": [
+            "lock",
+            null,
+            "explain",
+            "recycle"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000185",
+      "headword": "arrange",
+      "partOfSpeech": "verb",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 4,
+      "meaning": "手配する",
+      "definition": "to plan something in advance",
+      "example": "She arranged a meeting with the teacher.",
+      "exampleSurface": "arranged",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "手配する（to plan something in advance）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "arrange",
+        "partOfSpeech": "verb",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "修理する",
+            "注文する",
+            "手配する",
+            "鍵をかける"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000185-ja-option-1",
+            "vocab-000185-ja-option-2",
+            "vocab-000185-ja-option-3",
+            "vocab-000185-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000185-ja-option-3",
+          "distractorHeadwords": [
+            "repair",
+            "order",
+            null,
+            "lock"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to make something broken work again",
+            "to ask for food or goods to be brought",
+            "to plan something in advance",
+            "to close with a key"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000185-en-option-1",
+            "vocab-000185-en-option-2",
+            "vocab-000185-en-option-3",
+            "vocab-000185-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000185-en-option-3",
+          "distractorHeadwords": [
+            "repair",
+            "order",
+            null,
+            "lock"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "repair",
+            "order",
+            "arrange",
+            "lock"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000185-ja_en-option-1",
+            "vocab-000185-ja_en-option-2",
+            "vocab-000185-ja_en-option-3",
+            "vocab-000185-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000185-ja_en-option-3",
+          "distractorHeadwords": [
+            "repair",
+            "order",
+            null,
+            "lock"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "repair",
+            "order",
+            "arrange",
+            "lock"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000185-def_en-option-1",
+            "vocab-000185-def_en-option-2",
+            "vocab-000185-def_en-option-3",
+            "vocab-000185-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000185-def_en-option-3",
+          "distractorHeadwords": [
+            "repair",
+            "order",
+            null,
+            "lock"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000186",
+      "headword": "prepare",
+      "partOfSpeech": "verb",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 4,
+      "meaning": "準備する",
+      "definition": "to make something ready",
+      "example": "He is preparing breakfast for the family.",
+      "exampleSurface": "preparing",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "準備する（to make something ready）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "prepare",
+        "partOfSpeech": "verb",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "鍵をかける",
+            "焼く",
+            "説明する",
+            "準備する"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000186-ja-option-1",
+            "vocab-000186-ja-option-2",
+            "vocab-000186-ja-option-3",
+            "vocab-000186-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000186-ja-option-4",
+          "distractorHeadwords": [
+            "lock",
+            "bake",
+            "explain",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "to close with a key",
+            "to cook food in an oven",
+            "to make something clear to someone",
+            "to make something ready"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000186-en-option-1",
+            "vocab-000186-en-option-2",
+            "vocab-000186-en-option-3",
+            "vocab-000186-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000186-en-option-4",
+          "distractorHeadwords": [
+            "lock",
+            "bake",
+            "explain",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "lock",
+            "bake",
+            "explain",
+            "prepare"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000186-ja_en-option-1",
+            "vocab-000186-ja_en-option-2",
+            "vocab-000186-ja_en-option-3",
+            "vocab-000186-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000186-ja_en-option-4",
+          "distractorHeadwords": [
+            "lock",
+            "bake",
+            "explain",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "lock",
+            "bake",
+            "explain",
+            "prepare"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000186-def_en-option-1",
+            "vocab-000186-def_en-option-2",
+            "vocab-000186-def_en-option-3",
+            "vocab-000186-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000186-def_en-option-4",
+          "distractorHeadwords": [
+            "lock",
+            "bake",
+            "explain",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000187",
+      "headword": "exhausted",
+      "partOfSpeech": "adjective",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 4,
+      "meaning": "消耗した",
+      "definition": "very tired after hard work",
+      "example": "The runners were exhausted at the end of the race.",
+      "exampleSurface": "exhausted",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "消耗した（very tired after hard work）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "exhausted",
+        "partOfSpeech": "adjective",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "消耗した",
+            "現代的な",
+            "便利な",
+            "陽気な"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000187-ja-option-1",
+            "vocab-000187-ja-option-2",
+            "vocab-000187-ja-option-3",
+            "vocab-000187-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000187-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "modern",
+            "convenient",
+            "cheerful"
+          ]
+        },
+        "en": {
+          "choices": [
+            "very tired after hard work",
+            "of the present time, not old",
+            "easy to use or to reach",
+            "happy and full of good spirits"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000187-en-option-1",
+            "vocab-000187-en-option-2",
+            "vocab-000187-en-option-3",
+            "vocab-000187-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000187-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "modern",
+            "convenient",
+            "cheerful"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "exhausted",
+            "modern",
+            "convenient",
+            "cheerful"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000187-ja_en-option-1",
+            "vocab-000187-ja_en-option-2",
+            "vocab-000187-ja_en-option-3",
+            "vocab-000187-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000187-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "modern",
+            "convenient",
+            "cheerful"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "exhausted",
+            "modern",
+            "convenient",
+            "cheerful"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000187-def_en-option-1",
+            "vocab-000187-def_en-option-2",
+            "vocab-000187-def_en-option-3",
+            "vocab-000187-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000187-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "modern",
+            "convenient",
+            "cheerful"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000188",
+      "headword": "generous",
+      "partOfSpeech": "adjective",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 4,
+      "meaning": "気前のよい",
+      "definition": "happy to give more than is expected",
+      "example": "He is generous with his time.",
+      "exampleSurface": "generous",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "気前のよい（happy to give more than is expected）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "generous",
+        "partOfSpeech": "adjective",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "粗い",
+            "気前のよい",
+            "普通の",
+            "礼儀正しい"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000188-ja-option-1",
+            "vocab-000188-ja-option-2",
+            "vocab-000188-ja-option-3",
+            "vocab-000188-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000188-ja-option-2",
+          "distractorHeadwords": [
+            "rough",
+            null,
+            "ordinary",
+            "polite"
+          ]
+        },
+        "en": {
+          "choices": [
+            "having an uneven surface",
+            "happy to give more than is expected",
+            "not special in any way",
+            "showing good manners to other people"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000188-en-option-1",
+            "vocab-000188-en-option-2",
+            "vocab-000188-en-option-3",
+            "vocab-000188-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000188-en-option-2",
+          "distractorHeadwords": [
+            "rough",
+            null,
+            "ordinary",
+            "polite"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "rough",
+            "generous",
+            "ordinary",
+            "polite"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000188-ja_en-option-1",
+            "vocab-000188-ja_en-option-2",
+            "vocab-000188-ja_en-option-3",
+            "vocab-000188-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000188-ja_en-option-2",
+          "distractorHeadwords": [
+            "rough",
+            null,
+            "ordinary",
+            "polite"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "rough",
+            "generous",
+            "ordinary",
+            "polite"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000188-def_en-option-1",
+            "vocab-000188-def_en-option-2",
+            "vocab-000188-def_en-option-3",
+            "vocab-000188-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000188-def_en-option-2",
+          "distractorHeadwords": [
+            "rough",
+            null,
+            "ordinary",
+            "polite"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000189",
+      "headword": "suddenly",
+      "partOfSpeech": "adverb",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 4,
+      "meaning": "突然",
+      "definition": "quickly and without warning",
+      "example": "The lights suddenly went out.",
+      "exampleSurface": "suddenly",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "突然（quickly and without warning）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "suddenly",
+        "partOfSpeech": "adverb",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "階下で",
+            "海外で",
+            "突然",
+            "たぶん"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000189-ja-option-1",
+            "vocab-000189-ja-option-2",
+            "vocab-000189-ja-option-3",
+            "vocab-000189-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000189-ja-option-3",
+          "distractorHeadwords": [
+            "downstairs",
+            "abroad",
+            null,
+            "probably"
+          ]
+        },
+        "en": {
+          "choices": [
+            "on a lower floor of a building",
+            "in or to another country",
+            "quickly and without warning",
+            "very likely to be true"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000189-en-option-1",
+            "vocab-000189-en-option-2",
+            "vocab-000189-en-option-3",
+            "vocab-000189-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000189-en-option-3",
+          "distractorHeadwords": [
+            "downstairs",
+            "abroad",
+            null,
+            "probably"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "downstairs",
+            "abroad",
+            "suddenly",
+            "probably"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000189-ja_en-option-1",
+            "vocab-000189-ja_en-option-2",
+            "vocab-000189-ja_en-option-3",
+            "vocab-000189-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000189-ja_en-option-3",
+          "distractorHeadwords": [
+            "downstairs",
+            "abroad",
+            null,
+            "probably"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "downstairs",
+            "abroad",
+            "suddenly",
+            "probably"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000189-def_en-option-1",
+            "vocab-000189-def_en-option-2",
+            "vocab-000189-def_en-option-3",
+            "vocab-000189-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000189-def_en-option-3",
+          "distractorHeadwords": [
+            "downstairs",
+            "abroad",
+            null,
+            "probably"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000190",
+      "headword": "recently",
+      "partOfSpeech": "adverb",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 4,
+      "meaning": "最近",
+      "definition": "not long ago",
+      "example": "I recently moved to a new flat.",
+      "exampleSurface": "recently",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "最近（not long ago）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "recently",
+        "partOfSpeech": "adverb",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "海外で",
+            "たぶん",
+            "階下で",
+            "最近"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000190-ja-option-1",
+            "vocab-000190-ja-option-2",
+            "vocab-000190-ja-option-3",
+            "vocab-000190-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000190-ja-option-4",
+          "distractorHeadwords": [
+            "abroad",
+            "probably",
+            "downstairs",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "in or to another country",
+            "very likely to be true",
+            "on a lower floor of a building",
+            "not long ago"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000190-en-option-1",
+            "vocab-000190-en-option-2",
+            "vocab-000190-en-option-3",
+            "vocab-000190-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000190-en-option-4",
+          "distractorHeadwords": [
+            "abroad",
+            "probably",
+            "downstairs",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "abroad",
+            "probably",
+            "downstairs",
+            "recently"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000190-ja_en-option-1",
+            "vocab-000190-ja_en-option-2",
+            "vocab-000190-ja_en-option-3",
+            "vocab-000190-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000190-ja_en-option-4",
+          "distractorHeadwords": [
+            "abroad",
+            "probably",
+            "downstairs",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "abroad",
+            "probably",
+            "downstairs",
+            "recently"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000190-def_en-option-1",
+            "vocab-000190-def_en-option-2",
+            "vocab-000190-def_en-option-3",
+            "vocab-000190-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000190-def_en-option-4",
+          "distractorHeadwords": [
+            "abroad",
+            "probably",
+            "downstairs",
+            null
+          ]
+        }
+      }
+    }
+  ]
+}

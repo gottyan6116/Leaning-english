@@ -1,0 +1,1215 @@
+{
+  "id": "business-06",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "ビジネス単語 ⑥",
+  "genre": "business",
+  "setNumber": 6,
+  "level": "B1〜B2",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000231",
+      "headword": "allowance",
+      "partOfSpeech": "noun",
+      "level": "B1",
+      "genre": "business",
+      "setNumber": 6,
+      "meaning": "手当",
+      "definition": "extra money given for a special purpose",
+      "example": "He receives a travel allowance every month.",
+      "exampleSurface": "allowance",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "手当（extra money given for a special purpose）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "allowance",
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "手当",
+            "返金",
+            "起業家",
+            "署名"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000231-ja-option-1",
+            "vocab-000231-ja-option-2",
+            "vocab-000231-ja-option-3",
+            "vocab-000231-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000231-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "refund",
+            "entrepreneur",
+            "signature"
+          ]
+        },
+        "en": {
+          "choices": [
+            "extra money given for a special purpose",
+            "money that is paid back to a customer",
+            "a person who starts a new business",
+            "your name written in your own way"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000231-en-option-1",
+            "vocab-000231-en-option-2",
+            "vocab-000231-en-option-3",
+            "vocab-000231-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000231-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "refund",
+            "entrepreneur",
+            "signature"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "allowance",
+            "refund",
+            "entrepreneur",
+            "signature"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000231-ja_en-option-1",
+            "vocab-000231-ja_en-option-2",
+            "vocab-000231-ja_en-option-3",
+            "vocab-000231-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000231-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "refund",
+            "entrepreneur",
+            "signature"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "allowance",
+            "refund",
+            "entrepreneur",
+            "signature"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000231-def_en-option-1",
+            "vocab-000231-def_en-option-2",
+            "vocab-000231-def_en-option-3",
+            "vocab-000231-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000231-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "refund",
+            "entrepreneur",
+            "signature"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000232",
+      "headword": "replacement",
+      "partOfSpeech": "noun",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 6,
+      "meaning": "代替品",
+      "definition": "something that takes the place of another",
+      "example": "We ordered a replacement for the broken part.",
+      "exampleSurface": "replacement",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "代替品（something that takes the place of another）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "replacement",
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "署名",
+            "代替品",
+            "辞職",
+            "締め切り"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000232-ja-option-1",
+            "vocab-000232-ja-option-2",
+            "vocab-000232-ja-option-3",
+            "vocab-000232-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000232-ja-option-2",
+          "distractorHeadwords": [
+            "signature",
+            null,
+            "resignation",
+            "deadline"
+          ]
+        },
+        "en": {
+          "choices": [
+            "your name written in your own way",
+            "something that takes the place of another",
+            "the act of leaving a job by choice",
+            "the time by which a task must be finished"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000232-en-option-1",
+            "vocab-000232-en-option-2",
+            "vocab-000232-en-option-3",
+            "vocab-000232-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000232-en-option-2",
+          "distractorHeadwords": [
+            "signature",
+            null,
+            "resignation",
+            "deadline"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "signature",
+            "replacement",
+            "resignation",
+            "deadline"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000232-ja_en-option-1",
+            "vocab-000232-ja_en-option-2",
+            "vocab-000232-ja_en-option-3",
+            "vocab-000232-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000232-ja_en-option-2",
+          "distractorHeadwords": [
+            "signature",
+            null,
+            "resignation",
+            "deadline"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "signature",
+            "replacement",
+            "resignation",
+            "deadline"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000232-def_en-option-1",
+            "vocab-000232-def_en-option-2",
+            "vocab-000232-def_en-option-3",
+            "vocab-000232-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000232-def_en-option-2",
+          "distractorHeadwords": [
+            "signature",
+            null,
+            "resignation",
+            "deadline"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000233",
+      "headword": "seminar",
+      "partOfSpeech": "noun",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 6,
+      "meaning": "セミナー",
+      "definition": "a small class where people discuss a subject",
+      "example": "She gave a seminar on marketing.",
+      "exampleSurface": "seminar",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "セミナー（a small class where people discuss a subject）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "seminar",
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "残業",
+            "監査",
+            "セミナー",
+            "小売業者"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000233-ja-option-1",
+            "vocab-000233-ja-option-2",
+            "vocab-000233-ja-option-3",
+            "vocab-000233-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000233-ja-option-3",
+          "distractorHeadwords": [
+            "overtime",
+            "audit",
+            null,
+            "retailer"
+          ]
+        },
+        "en": {
+          "choices": [
+            "work done after normal hours",
+            "an official check of a company's accounts",
+            "a small class where people discuss a subject",
+            "a business that sells goods to the public"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000233-en-option-1",
+            "vocab-000233-en-option-2",
+            "vocab-000233-en-option-3",
+            "vocab-000233-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000233-en-option-3",
+          "distractorHeadwords": [
+            "overtime",
+            "audit",
+            null,
+            "retailer"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "overtime",
+            "audit",
+            "seminar",
+            "retailer"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000233-ja_en-option-1",
+            "vocab-000233-ja_en-option-2",
+            "vocab-000233-ja_en-option-3",
+            "vocab-000233-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000233-ja_en-option-3",
+          "distractorHeadwords": [
+            "overtime",
+            "audit",
+            null,
+            "retailer"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "overtime",
+            "audit",
+            "seminar",
+            "retailer"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000233-def_en-option-1",
+            "vocab-000233-def_en-option-2",
+            "vocab-000233-def_en-option-3",
+            "vocab-000233-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000233-def_en-option-3",
+          "distractorHeadwords": [
+            "overtime",
+            "audit",
+            null,
+            "retailer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000234",
+      "headword": "conceal",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 6,
+      "meaning": "隠す",
+      "definition": "to hide something so that it is not seen",
+      "example": "He tried to conceal his mistake.",
+      "exampleSurface": "conceal",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "隠す（to hide something so that it is not seen）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "conceal",
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "簡素化する",
+            "支持する",
+            "まとめる",
+            "隠す"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000234-ja-option-1",
+            "vocab-000234-ja-option-2",
+            "vocab-000234-ja-option-3",
+            "vocab-000234-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000234-ja-option-4",
+          "distractorHeadwords": [
+            "simplify",
+            "endorse",
+            "compile",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "to make something easier to do",
+            "to say publicly that you support something",
+            "to collect information and put it together",
+            "to hide something so that it is not seen"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000234-en-option-1",
+            "vocab-000234-en-option-2",
+            "vocab-000234-en-option-3",
+            "vocab-000234-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000234-en-option-4",
+          "distractorHeadwords": [
+            "simplify",
+            "endorse",
+            "compile",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "simplify",
+            "endorse",
+            "compile",
+            "conceal"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000234-ja_en-option-1",
+            "vocab-000234-ja_en-option-2",
+            "vocab-000234-ja_en-option-3",
+            "vocab-000234-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000234-ja_en-option-4",
+          "distractorHeadwords": [
+            "simplify",
+            "endorse",
+            "compile",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "simplify",
+            "endorse",
+            "compile",
+            "conceal"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000234-def_en-option-1",
+            "vocab-000234-def_en-option-2",
+            "vocab-000234-def_en-option-3",
+            "vocab-000234-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000234-def_en-option-4",
+          "distractorHeadwords": [
+            "simplify",
+            "endorse",
+            "compile",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000235",
+      "headword": "bargain",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 6,
+      "meaning": "値切る",
+      "definition": "to discuss a price to get a lower one",
+      "example": "They bargained with the seller for an hour.",
+      "exampleSurface": "bargained",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "値切る（to discuss a price to get a lower one）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "bargain",
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "値切る",
+            "格上げする",
+            "まとめる",
+            "明確にする"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000235-ja-option-1",
+            "vocab-000235-ja-option-2",
+            "vocab-000235-ja-option-3",
+            "vocab-000235-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000235-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "upgrade",
+            "compile",
+            "clarify"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to discuss a price to get a lower one",
+            "to change something to a better version",
+            "to collect information and put it together",
+            "to make something easier to understand"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000235-en-option-1",
+            "vocab-000235-en-option-2",
+            "vocab-000235-en-option-3",
+            "vocab-000235-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000235-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "upgrade",
+            "compile",
+            "clarify"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "bargain",
+            "upgrade",
+            "compile",
+            "clarify"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000235-ja_en-option-1",
+            "vocab-000235-ja_en-option-2",
+            "vocab-000235-ja_en-option-3",
+            "vocab-000235-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000235-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "upgrade",
+            "compile",
+            "clarify"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "bargain",
+            "upgrade",
+            "compile",
+            "clarify"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000235-def_en-option-1",
+            "vocab-000235-def_en-option-2",
+            "vocab-000235-def_en-option-3",
+            "vocab-000235-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000235-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "upgrade",
+            "compile",
+            "clarify"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000236",
+      "headword": "retrieve",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 6,
+      "meaning": "取り戻す",
+      "definition": "to get something back from a place",
+      "example": "She retrieved her bag from the lost-property office.",
+      "exampleSurface": "retrieved",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "取り戻す（to get something back from a place）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "retrieve",
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "格上げする",
+            "取り戻す",
+            "蓄積する",
+            "合併する"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000236-ja-option-1",
+            "vocab-000236-ja-option-2",
+            "vocab-000236-ja-option-3",
+            "vocab-000236-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000236-ja-option-2",
+          "distractorHeadwords": [
+            "upgrade",
+            null,
+            "accumulate",
+            "merge"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to change something to a better version",
+            "to get something back from a place",
+            "to collect a growing amount over time",
+            "to join with another to form one"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000236-en-option-1",
+            "vocab-000236-en-option-2",
+            "vocab-000236-en-option-3",
+            "vocab-000236-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000236-en-option-2",
+          "distractorHeadwords": [
+            "upgrade",
+            null,
+            "accumulate",
+            "merge"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "upgrade",
+            "retrieve",
+            "accumulate",
+            "merge"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000236-ja_en-option-1",
+            "vocab-000236-ja_en-option-2",
+            "vocab-000236-ja_en-option-3",
+            "vocab-000236-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000236-ja_en-option-2",
+          "distractorHeadwords": [
+            "upgrade",
+            null,
+            "accumulate",
+            "merge"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "upgrade",
+            "retrieve",
+            "accumulate",
+            "merge"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000236-def_en-option-1",
+            "vocab-000236-def_en-option-2",
+            "vocab-000236-def_en-option-3",
+            "vocab-000236-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000236-def_en-option-2",
+          "distractorHeadwords": [
+            "upgrade",
+            null,
+            "accumulate",
+            "merge"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000237",
+      "headword": "seasonal",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 6,
+      "meaning": "季節の",
+      "definition": "happening at a particular time of year",
+      "example": "Seasonal workers pick the fruit in autumn.",
+      "exampleSurface": "Seasonal",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "季節の（happening at a particular time of year）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "seasonal",
+        "partOfSpeech": "adjective",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "徹底的な",
+            "緊急の",
+            "季節の",
+            "手頃な価格の"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000237-ja-option-1",
+            "vocab-000237-ja-option-2",
+            "vocab-000237-ja-option-3",
+            "vocab-000237-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000237-ja-option-3",
+          "distractorHeadwords": [
+            "thorough",
+            "urgent",
+            null,
+            "affordable"
+          ]
+        },
+        "en": {
+          "choices": [
+            "done with great care and attention to detail",
+            "needing action or attention at once",
+            "happening at a particular time of year",
+            "not too expensive for most people"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000237-en-option-1",
+            "vocab-000237-en-option-2",
+            "vocab-000237-en-option-3",
+            "vocab-000237-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000237-en-option-3",
+          "distractorHeadwords": [
+            "thorough",
+            "urgent",
+            null,
+            "affordable"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "thorough",
+            "urgent",
+            "seasonal",
+            "affordable"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000237-ja_en-option-1",
+            "vocab-000237-ja_en-option-2",
+            "vocab-000237-ja_en-option-3",
+            "vocab-000237-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000237-ja_en-option-3",
+          "distractorHeadwords": [
+            "thorough",
+            "urgent",
+            null,
+            "affordable"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "thorough",
+            "urgent",
+            "seasonal",
+            "affordable"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000237-def_en-option-1",
+            "vocab-000237-def_en-option-2",
+            "vocab-000237-def_en-option-3",
+            "vocab-000237-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000237-def_en-option-3",
+          "distractorHeadwords": [
+            "thorough",
+            "urgent",
+            null,
+            "affordable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000238",
+      "headword": "transparent",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 6,
+      "meaning": "透明な",
+      "definition": "clear enough to see through",
+      "example": "The box has a transparent lid.",
+      "exampleSurface": "transparent",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "透明な（clear enough to see through）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "transparent",
+        "partOfSpeech": "adjective",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "有能な",
+            "利益の出る",
+            "緊急の",
+            "透明な"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000238-ja-option-1",
+            "vocab-000238-ja-option-2",
+            "vocab-000238-ja-option-3",
+            "vocab-000238-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000238-ja-option-4",
+          "distractorHeadwords": [
+            "competent",
+            "profitable",
+            "urgent",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "able to do a job well",
+            "making more money than it costs",
+            "needing action or attention at once",
+            "clear enough to see through"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000238-en-option-1",
+            "vocab-000238-en-option-2",
+            "vocab-000238-en-option-3",
+            "vocab-000238-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000238-en-option-4",
+          "distractorHeadwords": [
+            "competent",
+            "profitable",
+            "urgent",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "competent",
+            "profitable",
+            "urgent",
+            "transparent"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000238-ja_en-option-1",
+            "vocab-000238-ja_en-option-2",
+            "vocab-000238-ja_en-option-3",
+            "vocab-000238-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000238-ja_en-option-4",
+          "distractorHeadwords": [
+            "competent",
+            "profitable",
+            "urgent",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "competent",
+            "profitable",
+            "urgent",
+            "transparent"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000238-def_en-option-1",
+            "vocab-000238-def_en-option-2",
+            "vocab-000238-def_en-option-3",
+            "vocab-000238-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000238-def_en-option-4",
+          "distractorHeadwords": [
+            "competent",
+            "profitable",
+            "urgent",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000239",
+      "headword": "steadily",
+      "partOfSpeech": "adverb",
+      "level": "B1",
+      "genre": "business",
+      "setNumber": 6,
+      "meaning": "着実に",
+      "definition": "at an even, continuing rate",
+      "example": "Sales rose steadily over the year.",
+      "exampleSurface": "steadily",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "着実に（at an even, continuing rate）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "steadily",
+        "partOfSpeech": "adverb",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "着実に",
+            "一時的に",
+            "正式に",
+            "財政的に"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000239-ja-option-1",
+            "vocab-000239-ja-option-2",
+            "vocab-000239-ja-option-3",
+            "vocab-000239-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000239-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "temporarily",
+            "formally",
+            "financially"
+          ]
+        },
+        "en": {
+          "choices": [
+            "at an even, continuing rate",
+            "for a short time only",
+            "in an official way",
+            "in a way that relates to money"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000239-en-option-1",
+            "vocab-000239-en-option-2",
+            "vocab-000239-en-option-3",
+            "vocab-000239-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000239-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "temporarily",
+            "formally",
+            "financially"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "steadily",
+            "temporarily",
+            "formally",
+            "financially"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000239-ja_en-option-1",
+            "vocab-000239-ja_en-option-2",
+            "vocab-000239-ja_en-option-3",
+            "vocab-000239-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000239-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "temporarily",
+            "formally",
+            "financially"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "steadily",
+            "temporarily",
+            "formally",
+            "financially"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000239-def_en-option-1",
+            "vocab-000239-def_en-option-2",
+            "vocab-000239-def_en-option-3",
+            "vocab-000239-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000239-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "temporarily",
+            "formally",
+            "financially"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000240",
+      "headword": "temporarily",
+      "partOfSpeech": "adverb",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 6,
+      "meaning": "一時的に",
+      "definition": "for a short time only",
+      "example": "The shop is temporarily closed.",
+      "exampleSurface": "temporarily",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "一時的に（for a short time only）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "temporarily",
+        "partOfSpeech": "adverb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "正式に",
+            "一時的に",
+            "財政的に",
+            "迅速に"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000240-ja-option-1",
+            "vocab-000240-ja-option-2",
+            "vocab-000240-ja-option-3",
+            "vocab-000240-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000240-ja-option-2",
+          "distractorHeadwords": [
+            "formally",
+            null,
+            "financially",
+            "promptly"
+          ]
+        },
+        "en": {
+          "choices": [
+            "in an official way",
+            "for a short time only",
+            "in a way that relates to money",
+            "without any delay"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000240-en-option-1",
+            "vocab-000240-en-option-2",
+            "vocab-000240-en-option-3",
+            "vocab-000240-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000240-en-option-2",
+          "distractorHeadwords": [
+            "formally",
+            null,
+            "financially",
+            "promptly"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "formally",
+            "temporarily",
+            "financially",
+            "promptly"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000240-ja_en-option-1",
+            "vocab-000240-ja_en-option-2",
+            "vocab-000240-ja_en-option-3",
+            "vocab-000240-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000240-ja_en-option-2",
+          "distractorHeadwords": [
+            "formally",
+            null,
+            "financially",
+            "promptly"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "formally",
+            "temporarily",
+            "financially",
+            "promptly"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000240-def_en-option-1",
+            "vocab-000240-def_en-option-2",
+            "vocab-000240-def_en-option-3",
+            "vocab-000240-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000240-def_en-option-2",
+          "distractorHeadwords": [
+            "formally",
+            null,
+            "financially",
+            "promptly"
+          ]
+        }
+      }
+    }
+  ]
+}
