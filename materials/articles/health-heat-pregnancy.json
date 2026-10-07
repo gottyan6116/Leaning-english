@@ -1,0 +1,730 @@
+{
+  "id": "article-health-heat-pregnancy-2026",
+  "version": 1,
+  "kind": "article",
+  "status": "checked",
+  "createdAt": "2026-10-07",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "sourcePublishedAt": "2026-10-05",
+  "title": "Extreme Heat and Pregnancy",
+  "summaryJa": "猛暑が妊娠と出産に与える危険と、求められる備え",
+  "category": "健康・ライフスタイル",
+  "level": "B1",
+  "readingMinutes": 3,
+  "readingEstimateWordsPerMinute": 100,
+  "editorialNotice": "出典に基づく学習用編集版",
+  "textOrigin": "original-for-this-app; factual adaptation",
+  "sources": [
+    {
+      "id": "un-heat-pregnancy",
+      "title": "Extreme heat making pregnancy a 'new fault line' in climate crisis",
+      "publisher": "UN News",
+      "publishedAt": "2026-10-05",
+      "url": "https://news.un.org/en/story/2026/10/1168522",
+      "checkedAt": "2026-10-07",
+      "paragraphIds": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "usage": "事実を独自の文で整理。原文・発言の直接引用なし",
+      "author": null
+    }
+  ],
+  "photo": {
+    "pageUrl": "https://unsplash.com/photos/pregnant-woman-in-sunlit-field-adP0SsdMtMA",
+    "photoId": "adP0SsdMtMA",
+    "photographer": "Devon Divine",
+    "service": "Unsplash",
+    "licenseUrl": "https://unsplash.com/license",
+    "checkedAt": "2026-10-07",
+    "credit": "Photo by Devon Divine on Unsplash",
+    "alt": "日差しの中の野原に立つ妊婦",
+    "context": "暑さと妊娠に関連する素材写真。調査の対象者や実際の被害の写真ではない。"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-heat-pregnancy"
+      ],
+      "text": "On 5 October 2026, UN News reported a warning about extreme heat and pregnancy. Simon Stiell, the head of the UN climate change body (UNFCCC), said that pregnancy and childbirth are becoming a new fault line in the climate crisis. The warning came before the COP31 climate conference.",
+      "translationJa": "2026年10月5日、UN Newsは猛暑と妊娠に関する警告を伝えました。国連の気候変動の機関であるUNFCCCのトップ、Simon Stiell氏は、妊娠と出産が気候危機の新たな断層線になりつつあると述べました。この警告は、気候会議COP31の前に出されました。"
+    },
+    {
+      "id": "p2",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-heat-pregnancy"
+      ],
+      "text": "Higher temperatures make pregnancy more dangerous. They can raise the risk of premature birth, stillbirth, low birth weight and health problems for the mother. A safe birth already depends too much on where a person lives, how much money they have and whether they can reach good care. Extreme heat could make this unfair situation worse.",
+      "translationJa": "気温の上昇は、妊娠をより危険なものにします。早産、死産、低出生体重、母親の健康問題のリスクを高めることがあります。安全な出産は、すでに住む場所、収入、質の高い医療を受けられるかどうかに左右されすぎています。猛暑はこの不公平な状況を悪化させるおそれがあります。"
+    },
+    {
+      "id": "p3",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-heat-pregnancy"
+      ],
+      "text": "New research supports this warning. The Wellcome Foundation asked for research among health workers who care for mothers and babies in five countries. Of the workers, 73% said that they had seen more heat-related problems over five years. Another 81% worried that extreme heat will harm mothers and babies if nothing changes. Almost all had cared for a mother or baby affected by heat.",
+      "translationJa": "新しい研究もこの警告を裏づけています。Wellcome Foundationは、5か国で母親と赤ちゃんをケアする保健医療従事者への調査を依頼しました。従事者の73%が、5年間に暑さに関連する問題が増えたのを見たと答えました。さらに81%は、何も変わらなければ猛暑が母親と赤ちゃんに害を及ぼすと心配していました。ほぼ全員が、暑さの影響を受けた母親や赤ちゃんをケアしたことがありました。"
+    },
+    {
+      "id": "p4",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-heat-pregnancy"
+      ],
+      "text": "Some people face greater danger than others. Outdoor workers, people in poor housing, women who must travel to a clinic, and clinics without water, power or cooling are all at higher risk.",
+      "translationJa": "他の人より大きな危険にさらされる人々もいます。屋外で働く人、質の悪い住宅に住む人、診療所まで移動しなければならない女性、そして水や電気、冷房のない診療所は、いずれもリスクが高くなります。"
+    },
+    {
+      "id": "p5",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-heat-pregnancy"
+      ],
+      "text": "Stiell asked for action in three areas. First, pregnancy and newborn care should be part of plans to adapt to climate change. Second, evidence should become protection, for example through guidance, training, heat alerts and safer clinics. Third, countries need better data on where the risks are. Stiell also asked governments to triple the adaptation finance agreed at COP30 in Belém.",
+      "translationJa": "Stiellは3つの分野での行動を求めました。第一に、妊娠と新生児のケアを、気候変動に適応するための計画の一部にすること。第二に、証拠を保護につなげること。たとえば手引き、研修、暑さの警報、より安全な診療所です。第三に、危険がどこにあるかを示すより良いデータが必要です。Stiellはまた、COP30（ベレン）で合意された適応資金を各国政府が3倍にするよう求めました。"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "article-health-heat-pregnancy-2026-premature",
+      "headword": "premature",
+      "partOfSpeech": "adjective",
+      "meaning": "早すぎる",
+      "definition": "happening before the usual or expected time",
+      "contextParagraphId": "p2",
+      "context": "They can raise the risk of premature birth, stillbirth, low birth weight and health problems for the mother.",
+      "example": "The premature baby stayed in hospital for a month.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "早すぎる（happening before the usual or expected time）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "永久的な",
+            "早すぎる",
+            "頻繁な",
+            "ふつうの"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-premature-ja-option-1",
+            "article-health-heat-pregnancy-2026-premature-ja-option-2",
+            "article-health-heat-pregnancy-2026-premature-ja-option-3",
+            "article-health-heat-pregnancy-2026-premature-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-premature-ja-option-2",
+          "distractorHeadwords": [
+            "permanent",
+            null,
+            "frequent",
+            "ordinary"
+          ],
+          "explanation": "本文では「早すぎる」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "lasting for a very long time or forever",
+            "happening before the usual or expected time",
+            "happening many times in a short period",
+            "not special or different from others"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-premature-en-option-1",
+            "article-health-heat-pregnancy-2026-premature-en-option-2",
+            "article-health-heat-pregnancy-2026-premature-en-option-3",
+            "article-health-heat-pregnancy-2026-premature-en-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-premature-en-option-2",
+          "distractorHeadwords": [
+            "permanent",
+            null,
+            "frequent",
+            "ordinary"
+          ],
+          "explanation": "本文では「早すぎる」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "premature birth",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "早産",
+            "nuanceJa": "premature birth は報道や一般向けの文章で標準的な言い方。preterm birth は医療の専門文書で好まれ、一般向けの記事では premature が自然。",
+            "example": "Premature birth can cause health problems for a baby.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "premature death",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "早すぎる死",
+            "nuanceJa": "premature death は統計で、期待される寿命より早く亡くなることを指す。early death は日常的な言い方で、統計上の定義までは含まない。",
+            "example": "Smoking is linked to premature death.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "born prematurely",
+            "pattern": "過去分詞＋副詞",
+            "meaningJa": "早産で生まれた",
+            "nuanceJa": "副詞の prematurely は born の様子を述べ、出生のときの出来事を言う。premature baby は赤ちゃんの状態を名詞として言うので、文の作り方が違う。",
+            "example": "Many babies are born prematurely each year.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "premature"
+    },
+    {
+      "id": "article-health-heat-pregnancy-2026-adapt",
+      "headword": "adapt",
+      "partOfSpeech": "verb",
+      "meaning": "適応する",
+      "definition": "change to fit a new situation",
+      "contextParagraphId": "p5",
+      "context": "First, pregnancy and newborn care should be part of plans to adapt to climate change.",
+      "example": "Young plants adapt to colder weather slowly.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "適応する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "取り付ける",
+            "分ける",
+            "知らせる",
+            "適応する"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-adapt-ja-option-1",
+            "article-health-heat-pregnancy-2026-adapt-ja-option-2",
+            "article-health-heat-pregnancy-2026-adapt-ja-option-3",
+            "article-health-heat-pregnancy-2026-adapt-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-adapt-ja-option-4",
+          "distractorHeadwords": [
+            "attach",
+            "divide",
+            "inform",
+            null
+          ],
+          "explanation": "本文では「適応する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "fix one thing to another",
+            "separate something into parts",
+            "give someone facts about something",
+            "change to fit a new situation"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-adapt-en-option-1",
+            "article-health-heat-pregnancy-2026-adapt-en-option-2",
+            "article-health-heat-pregnancy-2026-adapt-en-option-3",
+            "article-health-heat-pregnancy-2026-adapt-en-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-adapt-en-option-4",
+          "distractorHeadwords": [
+            "attach",
+            "divide",
+            "inform",
+            null
+          ],
+          "explanation": "本文では「適応する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "adapt to ～",
+            "pattern": "動詞＋前置詞",
+            "meaningJa": "～に適応する",
+            "nuanceJa": "to の後ろに環境や変化を置いて適応先を示す。adapt ～ for は物を別の用途に作り変える意味（adapt a book for film）なので、to か for かで意味が変わる。",
+            "example": "Farmers must adapt to hotter summers.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "adapt quickly",
+            "pattern": "動詞＋副詞",
+            "meaningJa": "すばやく適応する",
+            "nuanceJa": "quickly は適応の速さを言う。successfully は結果の成功を言うので、速度か成果かで副詞が変わる。",
+            "example": "Young children adapt quickly to new schools.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "adapt a plan",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "計画を調整する",
+            "nuanceJa": "adapt は状況に合わせて目的に沿うよう作り直す意味を含む。change は単に変えること、revise は文書の見直しによく使う。",
+            "example": "The school adapted its plan after the storm.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "adapt"
+    },
+    {
+      "id": "article-health-heat-pregnancy-2026-evidence",
+      "headword": "evidence",
+      "partOfSpeech": "noun",
+      "meaning": "証拠",
+      "definition": "facts that show that something is true",
+      "contextParagraphId": "p5",
+      "context": "Second, evidence should become protection, for example through guidance, training, heat alerts and safer clinics.",
+      "example": "The doctor asked for more evidence before choosing a treatment.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "証拠",
+      "questions": {
+        "ja": {
+          "choices": [
+            "証拠",
+            "うわさ",
+            "予算",
+            "苦情"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-evidence-ja-option-1",
+            "article-health-heat-pregnancy-2026-evidence-ja-option-2",
+            "article-health-heat-pregnancy-2026-evidence-ja-option-3",
+            "article-health-heat-pregnancy-2026-evidence-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-evidence-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "rumour",
+            "budget",
+            "complaint"
+          ],
+          "explanation": "本文では「証拠」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "facts that show that something is true",
+            "a story that may not be true",
+            "a plan for how money will be spent",
+            "a statement that you are unhappy"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-evidence-en-option-1",
+            "article-health-heat-pregnancy-2026-evidence-en-option-2",
+            "article-health-heat-pregnancy-2026-evidence-en-option-3",
+            "article-health-heat-pregnancy-2026-evidence-en-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-evidence-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "rumour",
+            "budget",
+            "complaint"
+          ],
+          "explanation": "本文では「証拠」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "strong evidence",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "有力な証拠",
+            "nuanceJa": "strong は研究結果などの裏づけの確かさを言う。clear evidence は誰が見ても明らかな点を強調し、strong evidence は確かさの程度を示す。",
+            "example": "There is strong evidence that exercise improves sleep.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "evidence of ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～の証拠",
+            "nuanceJa": "of の後ろに存在が示される事柄を置く（evidence of damage）。for は主張を支える証拠（evidence for a theory）に使うので、事実なら of、主張なら for が合う。",
+            "example": "The doctors found evidence of heat stress.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "collect evidence",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "証拠を集める",
+            "nuanceJa": "collect は調査やデータなどを体系的に集める印象がある。gather は人や物を集めることに重点があり、collect よりくだけて使える。",
+            "example": "Researchers collect evidence from several clinics.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "evidence"
+    },
+    {
+      "id": "article-health-heat-pregnancy-2026-housing",
+      "headword": "housing",
+      "partOfSpeech": "noun",
+      "meaning": "住宅",
+      "definition": "buildings where people live",
+      "contextParagraphId": "p4",
+      "context": "Outdoor workers, people in poor housing, women who must travel to a clinic, and clinics without water, power or cooling are all at higher risk.",
+      "example": "The city plans to improve housing near the river.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "住宅",
+      "questions": {
+        "ja": {
+          "choices": [
+            "家具",
+            "衣類",
+            "住宅",
+            "荷物"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-housing-ja-option-1",
+            "article-health-heat-pregnancy-2026-housing-ja-option-2",
+            "article-health-heat-pregnancy-2026-housing-ja-option-3",
+            "article-health-heat-pregnancy-2026-housing-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-housing-ja-option-3",
+          "distractorHeadwords": [
+            "furniture",
+            "clothing",
+            null,
+            "luggage"
+          ],
+          "explanation": "本文では「住宅」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "things like tables and beds",
+            "things that people wear",
+            "buildings where people live",
+            "bags that you take on a trip"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-housing-en-option-1",
+            "article-health-heat-pregnancy-2026-housing-en-option-2",
+            "article-health-heat-pregnancy-2026-housing-en-option-3",
+            "article-health-heat-pregnancy-2026-housing-en-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-housing-en-option-3",
+          "distractorHeadwords": [
+            "furniture",
+            "clothing",
+            null,
+            "luggage"
+          ],
+          "explanation": "本文では「住宅」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "poor housing",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "質の悪い住宅",
+            "nuanceJa": "poor は質や条件の悪さを示す。bad housing より硬く、報告書や統計で使う。housing は数えない名詞なので a は付けない。",
+            "example": "Poor housing can make hot weather more dangerous.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "housing costs",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "住居費",
+            "nuanceJa": "housing costs は家賃やローンなど住まいにかかる費用全体を指す。rent は家賃だけを言うので、全体を言うときは housing costs を使う。",
+            "example": "Housing costs are a large part of monthly spending.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "affordable housing",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "手頃な価格の住宅",
+            "nuanceJa": "affordable は収入に見合う価格を表す。cheap は安いが質も低い印象を持つので、政策文書では affordable を使う。",
+            "example": "The city plans to build more affordable housing.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "housing"
+    },
+    {
+      "id": "article-health-heat-pregnancy-2026-affect",
+      "headword": "affect",
+      "partOfSpeech": "verb",
+      "meaning": "影響する",
+      "definition": "cause a change in someone or something",
+      "contextParagraphId": "p3",
+      "context": "Almost all had cared for a mother or baby affected by heat.",
+      "example": "Hot weather can affect how well people sleep.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "影響する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "許す",
+            "影響する",
+            "測る",
+            "取り替える"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-affect-ja-option-1",
+            "article-health-heat-pregnancy-2026-affect-ja-option-2",
+            "article-health-heat-pregnancy-2026-affect-ja-option-3",
+            "article-health-heat-pregnancy-2026-affect-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-affect-ja-option-2",
+          "distractorHeadwords": [
+            "allow",
+            null,
+            "measure",
+            "replace"
+          ],
+          "explanation": "本文では「影響する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "give someone permission to act",
+            "cause a change in someone or something",
+            "find the size or amount of something",
+            "put something new in place of something"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-affect-en-option-1",
+            "article-health-heat-pregnancy-2026-affect-en-option-2",
+            "article-health-heat-pregnancy-2026-affect-en-option-3",
+            "article-health-heat-pregnancy-2026-affect-en-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-affect-en-option-2",
+          "distractorHeadwords": [
+            "allow",
+            null,
+            "measure",
+            "replace"
+          ],
+          "explanation": "本文では「影響する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "be affected by ～",
+            "pattern": "受け身＋前置詞",
+            "meaningJa": "～の影響を受ける",
+            "nuanceJa": "by の後ろに原因を置く。suffer from ～ は病気や苦しみを受ける意味で、affected by はより広い影響に使える。",
+            "example": "Many crops were affected by the heat.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "seriously affect",
+            "pattern": "副詞＋動詞",
+            "meaningJa": "深刻な影響を与える",
+            "nuanceJa": "seriously は影響の大きさを強める。badly affected は悪い影響を口語的に言うときに使うが、seriously は公的な文書でも使える。",
+            "example": "Heat can seriously affect sleep.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "affect health",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "健康に影響する",
+            "nuanceJa": "affect は動詞で「影響を与える」。effect は名詞なので、health を目的語にとるのは affect で、have an effect on health とも言い換えられる。",
+            "example": "Hot weather can affect health in many ways.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "affected"
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "article-health-heat-pregnancy-2026-q1",
+      "question": "What did the research find about the health workers?",
+      "choices": [
+        "73% had stopped working because of the heat.",
+        "81% had never cared for a pregnant woman.",
+        "73% had seen more heat-related problems in five years.",
+        "Almost none had seen any heat-related problems."
+      ],
+      "answerIndex": 2,
+      "choiceIds": [
+        "article-health-heat-pregnancy-2026-q1-option-1",
+        "article-health-heat-pregnancy-2026-q1-option-2",
+        "article-health-heat-pregnancy-2026-q1-option-3",
+        "article-health-heat-pregnancy-2026-q1-option-4"
+      ],
+      "correctChoiceId": "article-health-heat-pregnancy-2026-q1-option-3",
+      "evidenceParagraphIds": [
+        "p3"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p3",
+          "text": "Of the workers, 73% said that they had seen more heat-related problems over five years.",
+          "highlights": [
+            "73%",
+            "more heat-related problems"
+          ]
+        }
+      ],
+      "explanationJa": "73%が5年間に暑さに関連する問題が増えたと答えた。",
+      "type": "literal"
+    },
+    {
+      "id": "article-health-heat-pregnancy-2026-q2",
+      "question": "Which people are at higher risk from extreme heat?",
+      "choices": [
+        "Outdoor workers and people in poor housing.",
+        "People who work in air-conditioned offices.",
+        "Students who travel by school bus.",
+        "Doctors who work in large hospitals."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-health-heat-pregnancy-2026-q2-option-1",
+        "article-health-heat-pregnancy-2026-q2-option-2",
+        "article-health-heat-pregnancy-2026-q2-option-3",
+        "article-health-heat-pregnancy-2026-q2-option-4"
+      ],
+      "correctChoiceId": "article-health-heat-pregnancy-2026-q2-option-1",
+      "evidenceParagraphIds": [
+        "p4"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p4",
+          "text": "Outdoor workers, people in poor housing, women who must travel to a clinic, and clinics without water, power or cooling are all at higher risk.",
+          "highlights": [
+            "Outdoor workers",
+            "poor housing"
+          ]
+        }
+      ],
+      "explanationJa": "屋外で働く人や質の悪い住宅に住む人などが挙げられている。",
+      "type": "literal"
+    },
+    {
+      "id": "article-health-heat-pregnancy-2026-q3",
+      "question": "What is the main message of the article?",
+      "choices": [
+        "Hot weather is a problem only for people who work in large cities.",
+        "Most governments have already solved the problem of heat and birth.",
+        "Heat is dangerous for pregnancy, but only in countries without clinics.",
+        "Extreme heat is a new danger for pregnancy, and some people are more exposed."
+      ],
+      "answerIndex": 3,
+      "choiceIds": [
+        "article-health-heat-pregnancy-2026-q3-option-1",
+        "article-health-heat-pregnancy-2026-q3-option-2",
+        "article-health-heat-pregnancy-2026-q3-option-3",
+        "article-health-heat-pregnancy-2026-q3-option-4"
+      ],
+      "correctChoiceId": "article-health-heat-pregnancy-2026-q3-option-4",
+      "evidenceParagraphIds": [
+        "p2",
+        "p4"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p2",
+          "text": "Higher temperatures make pregnancy more dangerous.",
+          "highlights": [
+            "more dangerous"
+          ]
+        },
+        {
+          "paragraphId": "p4",
+          "text": "Some people face greater danger than others.",
+          "highlights": [
+            "greater danger than others"
+          ]
+        }
+      ],
+      "explanationJa": "猛暑は妊娠の新たな危険であり、立場によって影響の大きさが違う。",
+      "type": "inference"
+    }
+  ],
+  "opinion": {
+    "id": "opinion-1",
+    "prompt": "What could a city do to protect pregnant women and workers on very hot days?",
+    "optional": true,
+    "saveScope": "device"
+  },
+  "properNouns": [
+    "UN News",
+    "UN",
+    "Simon Stiell",
+    "Stiell",
+    "UNFCCC",
+    "COP31",
+    "COP30",
+    "Wellcome Foundation",
+    "Belém",
+    "October"
+  ],
+  "review": {
+    "factsCheckedAt": "2026-10-07",
+    "editorialParagraphIds": [],
+    "contentApproval": "editorial-reviewed",
+    "notes": "本文の事実・訳・設問根拠を出典と照合。使い方はすべて未確認。"
+  },
+  "reviewNotes": [
+    "出典の事実と数値を区別。選択肢は同品詞の別の語から作成。"
+  ],
+  "validationProperNouns": [
+    "UN News",
+    "UN",
+    "Simon Stiell",
+    "Stiell",
+    "UNFCCC",
+    "COP31",
+    "COP30",
+    "Wellcome Foundation",
+    "Belém",
+    "October"
+  ],
+  "validationEntityAliases": {
+    "UN News": "UN News",
+    "UN": "国連",
+    "Simon Stiell": "Simon Stiell",
+    "Stiell": "Stiell",
+    "UNFCCC": "UNFCCC",
+    "COP31": "COP31",
+    "COP30": "COP30",
+    "Wellcome Foundation": "Wellcome Foundation",
+    "Belém": "ベレン",
+    "October": "10月"
+  },
+  "validationNumberAliases": {},
+  "vocabularyReview": {
+    "status": "reviewed",
+    "reason": "5つの重要語を本文の用例と対応させ、同品詞の別語による誤答と比較。73%と81%、危険にさらされやすい人々、求められた3つの行動を出典と照合して区別。未収録語は固有名詞と語形を個別に確認。"
+  }
+}

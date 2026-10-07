@@ -1,0 +1,493 @@
+{
+  "id": "article-health-heat-pregnancy-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-health-heat-pregnancy-2026-premature",
+      "headword": "premature",
+      "partOfSpeech": "adjective",
+      "meaning": "早すぎる",
+      "definition": "happening before the usual or expected time",
+      "contextParagraphId": "p2",
+      "context": "They can raise the risk of premature birth, stillbirth, low birth weight and health problems for the mother.",
+      "example": "The premature baby stayed in hospital for a month.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "早すぎる（happening before the usual or expected time）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "永久的な",
+            "早すぎる",
+            "頻繁な",
+            "ふつうの"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-premature-ja-option-1",
+            "article-health-heat-pregnancy-2026-premature-ja-option-2",
+            "article-health-heat-pregnancy-2026-premature-ja-option-3",
+            "article-health-heat-pregnancy-2026-premature-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-premature-ja-option-2",
+          "distractorHeadwords": [
+            "permanent",
+            null,
+            "frequent",
+            "ordinary"
+          ],
+          "explanation": "本文では「早すぎる」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "lasting for a very long time or forever",
+            "happening before the usual or expected time",
+            "happening many times in a short period",
+            "not special or different from others"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-premature-en-option-1",
+            "article-health-heat-pregnancy-2026-premature-en-option-2",
+            "article-health-heat-pregnancy-2026-premature-en-option-3",
+            "article-health-heat-pregnancy-2026-premature-en-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-premature-en-option-2",
+          "distractorHeadwords": [
+            "permanent",
+            null,
+            "frequent",
+            "ordinary"
+          ],
+          "explanation": "本文では「早すぎる」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "premature birth",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "早産",
+            "nuanceJa": "premature birth は報道や一般向けの文章で標準的な言い方。preterm birth は医療の専門文書で好まれ、一般向けの記事では premature が自然。",
+            "example": "Premature birth can cause health problems for a baby.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "premature death",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "早すぎる死",
+            "nuanceJa": "premature death は統計で、期待される寿命より早く亡くなることを指す。early death は日常的な言い方で、統計上の定義までは含まない。",
+            "example": "Smoking is linked to premature death.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "born prematurely",
+            "pattern": "過去分詞＋副詞",
+            "meaningJa": "早産で生まれた",
+            "nuanceJa": "副詞の prematurely は born の様子を述べ、出生のときの出来事を言う。premature baby は赤ちゃんの状態を名詞として言うので、文の作り方が違う。",
+            "example": "Many babies are born prematurely each year.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "premature",
+      "sourceKind": "article",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-heat-pregnancy-2026-adapt",
+      "headword": "adapt",
+      "partOfSpeech": "verb",
+      "meaning": "適応する",
+      "definition": "change to fit a new situation",
+      "contextParagraphId": "p5",
+      "context": "First, pregnancy and newborn care should be part of plans to adapt to climate change.",
+      "example": "Young plants adapt to colder weather slowly.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "適応する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "取り付ける",
+            "分ける",
+            "知らせる",
+            "適応する"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-adapt-ja-option-1",
+            "article-health-heat-pregnancy-2026-adapt-ja-option-2",
+            "article-health-heat-pregnancy-2026-adapt-ja-option-3",
+            "article-health-heat-pregnancy-2026-adapt-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-adapt-ja-option-4",
+          "distractorHeadwords": [
+            "attach",
+            "divide",
+            "inform",
+            null
+          ],
+          "explanation": "本文では「適応する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "fix one thing to another",
+            "separate something into parts",
+            "give someone facts about something",
+            "change to fit a new situation"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-adapt-en-option-1",
+            "article-health-heat-pregnancy-2026-adapt-en-option-2",
+            "article-health-heat-pregnancy-2026-adapt-en-option-3",
+            "article-health-heat-pregnancy-2026-adapt-en-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-adapt-en-option-4",
+          "distractorHeadwords": [
+            "attach",
+            "divide",
+            "inform",
+            null
+          ],
+          "explanation": "本文では「適応する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "adapt to ～",
+            "pattern": "動詞＋前置詞",
+            "meaningJa": "～に適応する",
+            "nuanceJa": "to の後ろに環境や変化を置いて適応先を示す。adapt ～ for は物を別の用途に作り変える意味（adapt a book for film）なので、to か for かで意味が変わる。",
+            "example": "Farmers must adapt to hotter summers.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "adapt quickly",
+            "pattern": "動詞＋副詞",
+            "meaningJa": "すばやく適応する",
+            "nuanceJa": "quickly は適応の速さを言う。successfully は結果の成功を言うので、速度か成果かで副詞が変わる。",
+            "example": "Young children adapt quickly to new schools.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "adapt a plan",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "計画を調整する",
+            "nuanceJa": "adapt は状況に合わせて目的に沿うよう作り直す意味を含む。change は単に変えること、revise は文書の見直しによく使う。",
+            "example": "The school adapted its plan after the storm.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "adapt",
+      "sourceKind": "article",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-heat-pregnancy-2026-evidence",
+      "headword": "evidence",
+      "partOfSpeech": "noun",
+      "meaning": "証拠",
+      "definition": "facts that show that something is true",
+      "contextParagraphId": "p5",
+      "context": "Second, evidence should become protection, for example through guidance, training, heat alerts and safer clinics.",
+      "example": "The doctor asked for more evidence before choosing a treatment.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "証拠",
+      "questions": {
+        "ja": {
+          "choices": [
+            "証拠",
+            "うわさ",
+            "予算",
+            "苦情"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-evidence-ja-option-1",
+            "article-health-heat-pregnancy-2026-evidence-ja-option-2",
+            "article-health-heat-pregnancy-2026-evidence-ja-option-3",
+            "article-health-heat-pregnancy-2026-evidence-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-evidence-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "rumour",
+            "budget",
+            "complaint"
+          ],
+          "explanation": "本文では「証拠」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "facts that show that something is true",
+            "a story that may not be true",
+            "a plan for how money will be spent",
+            "a statement that you are unhappy"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-evidence-en-option-1",
+            "article-health-heat-pregnancy-2026-evidence-en-option-2",
+            "article-health-heat-pregnancy-2026-evidence-en-option-3",
+            "article-health-heat-pregnancy-2026-evidence-en-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-evidence-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "rumour",
+            "budget",
+            "complaint"
+          ],
+          "explanation": "本文では「証拠」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "strong evidence",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "有力な証拠",
+            "nuanceJa": "strong は研究結果などの裏づけの確かさを言う。clear evidence は誰が見ても明らかな点を強調し、strong evidence は確かさの程度を示す。",
+            "example": "There is strong evidence that exercise improves sleep.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "evidence of ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～の証拠",
+            "nuanceJa": "of の後ろに存在が示される事柄を置く（evidence of damage）。for は主張を支える証拠（evidence for a theory）に使うので、事実なら of、主張なら for が合う。",
+            "example": "The doctors found evidence of heat stress.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "collect evidence",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "証拠を集める",
+            "nuanceJa": "collect は調査やデータなどを体系的に集める印象がある。gather は人や物を集めることに重点があり、collect よりくだけて使える。",
+            "example": "Researchers collect evidence from several clinics.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "evidence",
+      "sourceKind": "article",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-heat-pregnancy-2026-housing",
+      "headword": "housing",
+      "partOfSpeech": "noun",
+      "meaning": "住宅",
+      "definition": "buildings where people live",
+      "contextParagraphId": "p4",
+      "context": "Outdoor workers, people in poor housing, women who must travel to a clinic, and clinics without water, power or cooling are all at higher risk.",
+      "example": "The city plans to improve housing near the river.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "住宅",
+      "questions": {
+        "ja": {
+          "choices": [
+            "家具",
+            "衣類",
+            "住宅",
+            "荷物"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-housing-ja-option-1",
+            "article-health-heat-pregnancy-2026-housing-ja-option-2",
+            "article-health-heat-pregnancy-2026-housing-ja-option-3",
+            "article-health-heat-pregnancy-2026-housing-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-housing-ja-option-3",
+          "distractorHeadwords": [
+            "furniture",
+            "clothing",
+            null,
+            "luggage"
+          ],
+          "explanation": "本文では「住宅」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "things like tables and beds",
+            "things that people wear",
+            "buildings where people live",
+            "bags that you take on a trip"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-housing-en-option-1",
+            "article-health-heat-pregnancy-2026-housing-en-option-2",
+            "article-health-heat-pregnancy-2026-housing-en-option-3",
+            "article-health-heat-pregnancy-2026-housing-en-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-housing-en-option-3",
+          "distractorHeadwords": [
+            "furniture",
+            "clothing",
+            null,
+            "luggage"
+          ],
+          "explanation": "本文では「住宅」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "poor housing",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "質の悪い住宅",
+            "nuanceJa": "poor は質や条件の悪さを示す。bad housing より硬く、報告書や統計で使う。housing は数えない名詞なので a は付けない。",
+            "example": "Poor housing can make hot weather more dangerous.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "housing costs",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "住居費",
+            "nuanceJa": "housing costs は家賃やローンなど住まいにかかる費用全体を指す。rent は家賃だけを言うので、全体を言うときは housing costs を使う。",
+            "example": "Housing costs are a large part of monthly spending.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "affordable housing",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "手頃な価格の住宅",
+            "nuanceJa": "affordable は収入に見合う価格を表す。cheap は安いが質も低い印象を持つので、政策文書では affordable を使う。",
+            "example": "The city plans to build more affordable housing.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "housing",
+      "sourceKind": "article",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-heat-pregnancy-2026-affect",
+      "headword": "affect",
+      "partOfSpeech": "verb",
+      "meaning": "影響する",
+      "definition": "cause a change in someone or something",
+      "contextParagraphId": "p3",
+      "context": "Almost all had cared for a mother or baby affected by heat.",
+      "example": "Hot weather can affect how well people sleep.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "影響する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "許す",
+            "影響する",
+            "測る",
+            "取り替える"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-affect-ja-option-1",
+            "article-health-heat-pregnancy-2026-affect-ja-option-2",
+            "article-health-heat-pregnancy-2026-affect-ja-option-3",
+            "article-health-heat-pregnancy-2026-affect-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-affect-ja-option-2",
+          "distractorHeadwords": [
+            "allow",
+            null,
+            "measure",
+            "replace"
+          ],
+          "explanation": "本文では「影響する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "give someone permission to act",
+            "cause a change in someone or something",
+            "find the size or amount of something",
+            "put something new in place of something"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-heat-pregnancy-2026-affect-en-option-1",
+            "article-health-heat-pregnancy-2026-affect-en-option-2",
+            "article-health-heat-pregnancy-2026-affect-en-option-3",
+            "article-health-heat-pregnancy-2026-affect-en-option-4"
+          ],
+          "correctChoiceId": "article-health-heat-pregnancy-2026-affect-en-option-2",
+          "distractorHeadwords": [
+            "allow",
+            null,
+            "measure",
+            "replace"
+          ],
+          "explanation": "本文では「影響する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "be affected by ～",
+            "pattern": "受け身＋前置詞",
+            "meaningJa": "～の影響を受ける",
+            "nuanceJa": "by の後ろに原因を置く。suffer from ～ は病気や苦しみを受ける意味で、affected by はより広い影響に使える。",
+            "example": "Many crops were affected by the heat.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "seriously affect",
+            "pattern": "副詞＋動詞",
+            "meaningJa": "深刻な影響を与える",
+            "nuanceJa": "seriously は影響の大きさを強める。badly affected は悪い影響を口語的に言うときに使うが、seriously は公的な文書でも使える。",
+            "example": "Heat can seriously affect sleep.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "affect health",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "健康に影響する",
+            "nuanceJa": "affect は動詞で「影響を与える」。effect は名詞なので、health を目的語にとるのは affect で、have an effect on health とも言い換えられる。",
+            "example": "Hot weather can affect health in many ways.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "affected",
+      "sourceKind": "article",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "materialVersion": 1
+    }
+  ]
+}

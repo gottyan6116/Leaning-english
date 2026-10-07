@@ -8,7 +8,7 @@
 
 - Bridge：実在の出典に基づく記事と、単語・表現の4択復習を行う英語学習Webアプリ。
 - 本人（B2〜C1）中心。将来の一般公開を視野に記事をA2〜C1へ拡張。
-- 現在は記事13本、C1①の下書き10語、保存語・復習・記事読了・意見下書きの機能を実装。
+- 現在は記事21本（ジャンル「健康・ライフスタイル」8本を含む）、C1①の下書き10語、保存語・復習・記事読了・意見下書きの機能を実装。
 - メール＋パスワード認証とオフライン優先のSupabase同期を実装。実機確認の未確認項目は後述。
 - 第8段階（コロケーション学習：195組み合わせの表示・保存・穴埋め・誤用の見分け）と第10段階（単語帳の拡充とクイズ設定）、第11段階（「定義→英」形式と各ジャンル④〜⑥）を実装済み。単語帳は5ジャンル×6セット＝300語、出題形式は4つ（英→日／英→英／日→英／定義→英）、制限時間とコンボあり。学習時間の自動計測、AI添削は未実装。
 
@@ -114,7 +114,7 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 
 ### 教材
 
-- 本番の正：`materials/articles/*.json`（index以外の13本）と `materials/vocabulary/c1-unit-01.json`（下書き10語）。
+- 本番の正：`materials/articles/*.json`（index以外の21本）と `materials/vocabulary/c1-unit-01.json`（下書き10語）。
 - 単語帳の正：`materials/vocabulary/genres.json`（5ジャンル）と、`materials/vocabulary/*.json` の15セット（1セット10語、語ID `vocab-000001〜000300`、5ジャンル×①〜⑥）。セットの追加はJSONファイルの追加だけ（ジャンル追加は genres.json に1件）。検証は `node scripts/validate-wordbook.cjs`（`validate-materials.cjs` から自動実行）、確認用一覧は `node scripts/export-wordbook-list.cjs` で `docs/stage10-wordlist.md` を再生成。`scripts/build-wordbook-sets.cjs`（①〜③）と `build-wordbook-sets-4-6.cjs`（④〜⑥）、`add-def-en-questions.cjs`（①〜③に定義→英を追加）は初回生成用で、以後はJSONを直接直す。各語の `exampleSurface` は例文中の見出し語の表記で、空欄（___）の位置を決める。`definitionLeaks`（scripts/validate-wordbook.cjs）が定義への見出し語・派生語の混入をエラーにする。確認用の一覧は `node scripts/export-stage11-review.cjs` で `docs/stage11-review.md`（全300語、★＝他の選択肢を空欄に入れても文として読める語）を再生成。語のレベル・品詞は `materials/validation/` の CEFR-J／Octanove、ビジネス単語は BSL 1.2（固定コピー `bsl-1.2-lemmatized-for-teaching.csv`）と機械照合する。
 - リスニング教材の正：`materials/listening/listening-items.json`（原稿2段落＋内容確認1問の5本、すべてunverified・オリジナル）。検証は `scripts/validate-listening.cjs`（`validate-materials.cjs` から自動実行）、manifestに登録。従来の3本は learning.js の lessons（旧形式）のまま。
 - コロケーションの正：`materials/collocations/article-collocations.json`（195件、manifestにハッシュ登録）。記事JSONの `usage` は移行元として残すが画面は読まない。IDは不変（`col-<語ID>-<組み合わせslug>`）。検証は `scripts/validate-collocations.cjs`、確認用一覧は `node scripts/export-collocation-list.cjs` で `docs/stage8-collocation-list.md` を再生成。
@@ -172,6 +172,8 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 | 第6.5 | 完了：ログイン独立・目アイコン・アカウント／設定／データ管理。自動入力等の実機確認は未確認 | docs/stage65-ui-report.md |
 | 第8 | 実装完了・公開済み：コロケーション中心の学習。SQLはSupabase適用済み（ユーザー報告）、実機の同期確認は未確認。誤用の見分けは65語の各1件（語の最初の組み合わせ）に私（AI）の下書きを登録済みで出題される。下書きはユーザーの確認待ち | docs/stage8-spec.md、docs/stage8-collocation-list.md |
 | 第13 | 実装完了・確認待ち：アプリ名を Bridge に変更（表示上の名前のみ。内部キー `english-notes.*`・テーブル名・教材ID・リポジトリ名は不変）、ニックネーム（Supabase Auth の user_metadata.nickname、`PUT /auth/v1/user` で更新、DB変更なし、未設定ならログイン後に全画面で入力、アカウント画面で変更、ナビと挨拶に表示、オフラインは保存済みセッションの値）、`?view` とアドレスの不一致の修正、manifest・OGP（画像なし）を新規追加 | docs/stage13-spec.md |
+| 健康・ライフスタイル | 実装完了・確認待ち：新ジャンル「健康・ライフスタイル」（`article-browse.js` の `health`）と記事8本（A2・B1・B2・C1 各2本）。出典はWHO・PAHO・UN News（2026-09-23〜10-07）。語の組み合わせ120件（8記事×5語×3）も `article-collocations.json` に追加（ニュアンスは第14段階の基準で記述）。写真は Unsplash の出典情報のみ登録し、画像ファイル（`assets/articles/`）は未取得のためアイコン表示（取得はユーザーの許可待ち）。`config/material-validation-policy.json` の新規記事の分布を A2:4／B1:5／B2:5／C1:4 に、`validate-articles.cjs` の総数を21に更新 | materials/articles/health-*.json |
+| 第14 | 仕様を保存済み・手順1（不具合の原因、全形式の点検、表示位置と登録の仕組み、DB変更の要否、言い換えニュアンスの検出方法の報告）の承認待ち | docs/stage14-spec.md |
 | 第12 | 実装完了・確認待ち：ホーム画面の刷新（今日の学習／最近の学習／週のカレンダー／学習の進捗／継続記録／新着の記事）。表示はすべて実データから算出。旧ホームの「続きから」「表現ノート」は廃止（単語タブから利用）。DB変更なし | docs/stage12-spec.md |
 | 第11 | 実装完了・公開済み：定義→英（mode `def_en`）、各ジャンル④〜⑥（150語）。SQLはSupabase適用済み（ユーザー報告）。語の内容はすべて unverified、`docs/stage11-review.md` のユーザー確認と公開前（push未実施） | docs/stage11-spec.md、docs/stage11-review.md |
 | 第10 | 実装完了・公開済み：単語帳の拡充（150語・15セット）、出題の設定、時間制限、コンボ。SQL（mode に ja_en、answer_logs.timed_out）はSupabase適用済み（ユーザー報告）。語の内容はすべて unverified で、実機の同期確認は未確認 | docs/stage10-spec.md、docs/stage10-wordlist.md |

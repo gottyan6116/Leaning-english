@@ -1,0 +1,493 @@
+{
+  "id": "article-health-child-obesity-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-health-child-obesity-2026-guideline",
+      "headword": "guideline",
+      "partOfSpeech": "noun",
+      "meaning": "指針",
+      "definition": "advice on how something should be done",
+      "contextParagraphId": "p1",
+      "context": "On 7 October 2026, the World Health Organization (WHO) published its first global guidelines on obesity in children.",
+      "example": "The school has simple guidelines for using computers.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "指針",
+      "questions": {
+        "ja": {
+          "choices": [
+            "契約",
+            "広告",
+            "指針",
+            "税金"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-child-obesity-2026-guideline-ja-option-1",
+            "article-health-child-obesity-2026-guideline-ja-option-2",
+            "article-health-child-obesity-2026-guideline-ja-option-3",
+            "article-health-child-obesity-2026-guideline-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-child-obesity-2026-guideline-ja-option-3",
+          "distractorHeadwords": [
+            "contract",
+            "advertisement",
+            null,
+            "tax"
+          ],
+          "explanation": "本文では「指針」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a legal paper that two sides sign",
+            "a message that tries to sell something",
+            "advice on how something should be done",
+            "money that people pay to the government"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-child-obesity-2026-guideline-en-option-1",
+            "article-health-child-obesity-2026-guideline-en-option-2",
+            "article-health-child-obesity-2026-guideline-en-option-3",
+            "article-health-child-obesity-2026-guideline-en-option-4"
+          ],
+          "correctChoiceId": "article-health-child-obesity-2026-guideline-en-option-3",
+          "distractorHeadwords": [
+            "contract",
+            "advertisement",
+            null,
+            "tax"
+          ],
+          "explanation": "本文では「指針」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "global guidelines",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "世界的な指針",
+            "nuanceJa": "global は世界全体を対象にした指針に付く。international guidelines は国どうしの合意や共同作成を示し、global より取り決めの色が強い。",
+            "example": "Many countries use global guidelines for food safety.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "follow the guidelines",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "指針に従う",
+            "nuanceJa": "follow は指示どおりに行うという日常的な言い方。comply with は法律や規則に従うという硬い表現で、罰則のない guidelines には follow が自然。",
+            "example": "Please follow the guidelines when you use the room.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "guidelines on ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～に関する指針",
+            "nuanceJa": "on の後ろに扱う話題を置く（guidelines on safety）。for は対象となる人（guidelines for teachers）を置くので、話題か対象者かで前置詞が変わる。",
+            "example": "The group wrote guidelines on online safety.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "guidelines",
+      "sourceKind": "article",
+      "articleId": "article-health-child-obesity-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-child-obesity-2026-obesity",
+      "headword": "obesity",
+      "partOfSpeech": "noun",
+      "meaning": "肥満",
+      "definition": "a condition of having too much body fat",
+      "contextParagraphId": "p1",
+      "context": "Obesity means having so much body fat that it can harm health.",
+      "example": "The doctor talked about obesity and sleep.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "肥満",
+      "questions": {
+        "ja": {
+          "choices": [
+            "肥満",
+            "アレルギー",
+            "風邪",
+            "感染"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-child-obesity-2026-obesity-ja-option-1",
+            "article-health-child-obesity-2026-obesity-ja-option-2",
+            "article-health-child-obesity-2026-obesity-ja-option-3",
+            "article-health-child-obesity-2026-obesity-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-child-obesity-2026-obesity-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "allergy",
+            "cold",
+            "infection"
+          ],
+          "explanation": "本文では「肥満」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a condition of having too much body fat",
+            "a strong reaction of the body to a food",
+            "a mild illness that makes the nose run",
+            "a disease that is caused by germs"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-child-obesity-2026-obesity-en-option-1",
+            "article-health-child-obesity-2026-obesity-en-option-2",
+            "article-health-child-obesity-2026-obesity-en-option-3",
+            "article-health-child-obesity-2026-obesity-en-option-4"
+          ],
+          "correctChoiceId": "article-health-child-obesity-2026-obesity-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "allergy",
+            "cold",
+            "infection"
+          ],
+          "explanation": "本文では「肥満」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "childhood obesity",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "子どもの肥満",
+            "nuanceJa": "childhood obesity は子ども期の肥満をまとめて指す医療・報道の用語。child obesity も使えるが、WHOの文書やニュースでは childhood が定番。",
+            "example": "Childhood obesity has become a public health issue.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "prevent obesity",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "肥満を予防する",
+            "nuanceJa": "prevent は起こる前に防ぐ。reduce obesity は既にある肥満の割合を減らす意味で、予防か削減かで動詞が変わる。",
+            "example": "Healthy school meals can help prevent obesity.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "obesity in ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～における肥満",
+            "nuanceJa": "in の後ろに対象の集団を置く（obesity in children）。among は集団の内部での広がりを言うときに使い、in より統計的な文脈に向く。",
+            "example": "The study looked at obesity in teenagers.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "Obesity",
+      "sourceKind": "article",
+      "articleId": "article-health-child-obesity-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-child-obesity-2026-recommend",
+      "headword": "recommend",
+      "partOfSpeech": "verb",
+      "meaning": "勧める",
+      "definition": "say that something is a good idea",
+      "contextParagraphId": "p3",
+      "context": "WHO does not recommend medicines, surgery or special devices for children in this age group.",
+      "example": "The nurse recommends a short walk after meals.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "勧める",
+      "questions": {
+        "ja": {
+          "choices": [
+            "禁止する",
+            "勧める",
+            "延期する",
+            "避ける"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-child-obesity-2026-recommend-ja-option-1",
+            "article-health-child-obesity-2026-recommend-ja-option-2",
+            "article-health-child-obesity-2026-recommend-ja-option-3",
+            "article-health-child-obesity-2026-recommend-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-child-obesity-2026-recommend-ja-option-2",
+          "distractorHeadwords": [
+            "ban",
+            null,
+            "delay",
+            "avoid"
+          ],
+          "explanation": "本文では「勧める」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "say that something is not allowed",
+            "say that something is a good idea",
+            "do something later than planned",
+            "stay away from something unpleasant"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-child-obesity-2026-recommend-en-option-1",
+            "article-health-child-obesity-2026-recommend-en-option-2",
+            "article-health-child-obesity-2026-recommend-en-option-3",
+            "article-health-child-obesity-2026-recommend-en-option-4"
+          ],
+          "correctChoiceId": "article-health-child-obesity-2026-recommend-en-option-2",
+          "distractorHeadwords": [
+            "ban",
+            null,
+            "delay",
+            "avoid"
+          ],
+          "explanation": "本文では「勧める」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "strongly recommend",
+            "pattern": "副詞＋動詞",
+            "meaningJa": "強く勧める",
+            "nuanceJa": "strongly は勧める根拠や確信の強さを示す。highly recommend は店や商品を人に薦める日常的な言い方で、公的機関の文書には strongly の方が合う。",
+            "example": "Doctors strongly recommend regular sleep for children.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "recommend that ～",
+            "pattern": "動詞＋that節",
+            "meaningJa": "～するよう勧める",
+            "nuanceJa": "that の後ろに「主語＋動詞の原形」を置く形が公的な勧告の文でよく使われる。suggest と近いが、recommend の方が専門家の判断という重みがある。",
+            "example": "Doctors recommend that children sleep enough.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "recommend an approach",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "進め方を勧める",
+            "nuanceJa": "approach は問題への取り組み方全体を指し、method（具体的な手順）より広い。報告書ではまとまった方針を勧めるときに使う。",
+            "example": "The team recommends a simple approach for schools.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "recommend",
+      "sourceKind": "article",
+      "articleId": "article-health-child-obesity-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-child-obesity-2026-habit",
+      "headword": "habit",
+      "partOfSpeech": "noun",
+      "meaning": "習慣",
+      "definition": "something you do often without thinking",
+      "contextParagraphId": "p3",
+      "context": "They should eat healthier food, move more and get support to change daily habits.",
+      "example": "Reading before bed is a good habit.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "習慣",
+      "questions": {
+        "ja": {
+          "choices": [
+            "流行",
+            "記憶",
+            "予定",
+            "習慣"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-child-obesity-2026-habit-ja-option-1",
+            "article-health-child-obesity-2026-habit-ja-option-2",
+            "article-health-child-obesity-2026-habit-ja-option-3",
+            "article-health-child-obesity-2026-habit-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-child-obesity-2026-habit-ja-option-4",
+          "distractorHeadwords": [
+            "fashion",
+            "memory",
+            "schedule",
+            null
+          ],
+          "explanation": "本文では「習慣」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a style that is popular at one time",
+            "something you remember from the past",
+            "a plan that lists when things happen",
+            "something you do often without thinking"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-child-obesity-2026-habit-en-option-1",
+            "article-health-child-obesity-2026-habit-en-option-2",
+            "article-health-child-obesity-2026-habit-en-option-3",
+            "article-health-child-obesity-2026-habit-en-option-4"
+          ],
+          "correctChoiceId": "article-health-child-obesity-2026-habit-en-option-4",
+          "distractorHeadwords": [
+            "fashion",
+            "memory",
+            "schedule",
+            null
+          ],
+          "explanation": "本文では「習慣」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "daily habits",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "毎日の習慣",
+            "nuanceJa": "daily は毎日繰り返すことを強調する。regular habits は規則正しさに重点があり、good habits と並べて「生活習慣」を言うときに使う。",
+            "example": "Small daily habits can improve sleep.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "change a habit",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "習慣を変える",
+            "nuanceJa": "change は今ある習慣を別のものに変える。break a habit は悪い習慣をやめる意味で、change は良い習慣・悪い習慣のどちらにも使える。",
+            "example": "It is hard to change a habit quickly.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a habit of ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～する習慣",
+            "nuanceJa": "of の後ろに動名詞を置いて習慣の内容を示す（a habit of walking）。get into the habit of ～ は習慣が身につく過程を言うときの決まった言い方。",
+            "example": "Ken has a habit of walking to work.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "habits",
+      "sourceKind": "article",
+      "articleId": "article-health-child-obesity-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-child-obesity-2026-surgery",
+      "headword": "surgery",
+      "partOfSpeech": "noun",
+      "meaning": "手術",
+      "definition": "treatment that cuts open the body",
+      "contextParagraphId": "p3",
+      "context": "WHO does not recommend medicines, surgery or special devices for children in this age group.",
+      "example": "The surgery took about two hours.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "手術",
+      "questions": {
+        "ja": {
+          "choices": [
+            "ワクチン",
+            "救急車",
+            "手術",
+            "運動"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-child-obesity-2026-surgery-ja-option-1",
+            "article-health-child-obesity-2026-surgery-ja-option-2",
+            "article-health-child-obesity-2026-surgery-ja-option-3",
+            "article-health-child-obesity-2026-surgery-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-child-obesity-2026-surgery-ja-option-3",
+          "distractorHeadwords": [
+            "vaccine",
+            "ambulance",
+            null,
+            "exercise"
+          ],
+          "explanation": "本文では「手術」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a medicine that protects people from disease",
+            "a vehicle that carries sick people to hospital",
+            "treatment that cuts open the body",
+            "physical activity that keeps the body strong"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-child-obesity-2026-surgery-en-option-1",
+            "article-health-child-obesity-2026-surgery-en-option-2",
+            "article-health-child-obesity-2026-surgery-en-option-3",
+            "article-health-child-obesity-2026-surgery-en-option-4"
+          ],
+          "correctChoiceId": "article-health-child-obesity-2026-surgery-en-option-3",
+          "distractorHeadwords": [
+            "vaccine",
+            "ambulance",
+            null,
+            "exercise"
+          ],
+          "explanation": "本文では「手術」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "have surgery",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "手術を受ける",
+            "nuanceJa": "have surgery は日常的な言い方。undergo surgery はニュースや報告書で使う改まった表現で、計画された重い手術という印象が強い。",
+            "example": "She will have surgery on her knee next week.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "heart surgery",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "心臓の手術",
+            "nuanceJa": "部位を前に置いて手術の種類を示す。surgery は体を切って行う治療全般を指し、operation と近いが、病院の外の会話では operation もよく使う。",
+            "example": "Heart surgery takes several hours.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "surgery for ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～のための手術",
+            "nuanceJa": "for の後ろに病気や状態を置く（surgery for cancer）。on は体の部位（surgery on the knee）に使うので、病名なら for、部位なら on になる。",
+            "example": "Tom needed surgery for a broken leg.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "surgery",
+      "sourceKind": "article",
+      "articleId": "article-health-child-obesity-2026",
+      "materialVersion": 1
+    }
+  ]
+}

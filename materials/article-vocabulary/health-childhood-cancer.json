@@ -1,0 +1,493 @@
+{
+  "id": "article-health-childhood-cancer-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-health-childhood-cancer-2026-diagnosis",
+      "headword": "diagnosis",
+      "partOfSpeech": "noun",
+      "meaning": "診断",
+      "definition": "the process of finding out what illness a person has",
+      "contextParagraphId": "p2",
+      "context": "In high-income countries, between 80% and 90% of young patients are still alive five years after diagnosis.",
+      "example": "The diagnosis was made after a blood test.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "診断",
+      "questions": {
+        "ja": {
+          "choices": [
+            "症状",
+            "診断",
+            "予防接種",
+            "回復"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-childhood-cancer-2026-diagnosis-ja-option-1",
+            "article-health-childhood-cancer-2026-diagnosis-ja-option-2",
+            "article-health-childhood-cancer-2026-diagnosis-ja-option-3",
+            "article-health-childhood-cancer-2026-diagnosis-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-childhood-cancer-2026-diagnosis-ja-option-2",
+          "distractorHeadwords": [
+            "symptom",
+            null,
+            "vaccination",
+            "recovery"
+          ],
+          "explanation": "本文では「診断」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a sign in the body that shows an illness",
+            "the process of finding out what illness a person has",
+            "an injection that protects a person from disease",
+            "the process of becoming well again after illness"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-childhood-cancer-2026-diagnosis-en-option-1",
+            "article-health-childhood-cancer-2026-diagnosis-en-option-2",
+            "article-health-childhood-cancer-2026-diagnosis-en-option-3",
+            "article-health-childhood-cancer-2026-diagnosis-en-option-4"
+          ],
+          "correctChoiceId": "article-health-childhood-cancer-2026-diagnosis-en-option-2",
+          "distractorHeadwords": [
+            "symptom",
+            null,
+            "vaccination",
+            "recovery"
+          ],
+          "explanation": "本文では「診断」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "early diagnosis",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "早期診断",
+            "nuanceJa": "early は病気が進む前に見つけることを示す。late diagnosis と対比され、がんの記事では生存率の改善とセットで語られることが多い。",
+            "example": "Early diagnosis gives patients more treatment choices.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "receive a diagnosis",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "診断を受ける",
+            "nuanceJa": "receive は結果を受け取る改まった言い方で、医療の記事に多い。get a diagnosis は日常的な言い方で、会話ではこちらが自然。",
+            "example": "She received a diagnosis after several tests.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a diagnosis of ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～という診断",
+            "nuanceJa": "of の後ろに病名を置く（a diagnosis of cancer）。for は診断を求める目的を言うときに現れるので、病名を示すなら of を使う。",
+            "example": "Mina's life changed after a diagnosis of asthma.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "diagnosis",
+      "sourceKind": "article",
+      "articleId": "article-health-childhood-cancer-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-childhood-cancer-2026-survival",
+      "headword": "survival",
+      "partOfSpeech": "noun",
+      "meaning": "生存",
+      "definition": "the state of continuing to live after an illness",
+      "contextParagraphId": "p3",
+      "context": "For children aged 14 or younger, the median survival rate was 66.7%.",
+      "example": "Her survival depended on quick treatment.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "生存（the state of continuing to live after an illness）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "生存",
+            "調査",
+            "供給",
+            "治療"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-childhood-cancer-2026-survival-ja-option-1",
+            "article-health-childhood-cancer-2026-survival-ja-option-2",
+            "article-health-childhood-cancer-2026-survival-ja-option-3",
+            "article-health-childhood-cancer-2026-survival-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-childhood-cancer-2026-survival-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "survey",
+            "supply",
+            "treatment"
+          ],
+          "explanation": "本文では「生存」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "the state of continuing to live after an illness",
+            "a set of questions asked to find opinions",
+            "an amount of something that is available",
+            "medical care given to a person who is ill"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-childhood-cancer-2026-survival-en-option-1",
+            "article-health-childhood-cancer-2026-survival-en-option-2",
+            "article-health-childhood-cancer-2026-survival-en-option-3",
+            "article-health-childhood-cancer-2026-survival-en-option-4"
+          ],
+          "correctChoiceId": "article-health-childhood-cancer-2026-survival-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "survey",
+            "supply",
+            "treatment"
+          ],
+          "explanation": "本文では「生存」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "survival rate",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "生存率",
+            "nuanceJa": "survival rate は一定期間後に生存している人の割合を示す統計用語で、five-year survival rate のように期間を前に付けるのが定型。日常では chances of survival とも言う。",
+            "example": "The survival rate rose after the new programme began.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "improve survival",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "生存率を高める",
+            "nuanceJa": "improve は良い方向への変化を評価して言う。increase は数値を上げることだけを言うので、医療の成果には improve が自然。",
+            "example": "Early treatment can improve survival.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "survival from ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～からの生存",
+            "nuanceJa": "from の後ろに病気や事故を置く（survival from cancer）。of は生き残る主体（the survival of the species）を置くので、from と of で置く語が逆になる。",
+            "example": "Survival from this cancer has improved in some regions.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "survival",
+      "sourceKind": "article",
+      "articleId": "article-health-childhood-cancer-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-childhood-cancer-2026-inequity",
+      "headword": "inequity",
+      "partOfSpeech": "noun",
+      "meaning": "不公平",
+      "definition": "a lack of fairness in how people are treated",
+      "contextParagraphId": "p2",
+      "context": "WHO described this difference as one of the greatest health inequities of our time.",
+      "example": "The report shows inequity between rich and poor areas.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "不公平",
+      "questions": {
+        "ja": {
+          "choices": [
+            "優先事項",
+            "頻度",
+            "設備",
+            "不公平"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-childhood-cancer-2026-inequity-ja-option-1",
+            "article-health-childhood-cancer-2026-inequity-ja-option-2",
+            "article-health-childhood-cancer-2026-inequity-ja-option-3",
+            "article-health-childhood-cancer-2026-inequity-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-childhood-cancer-2026-inequity-ja-option-4",
+          "distractorHeadwords": [
+            "priority",
+            "frequency",
+            "equipment",
+            null
+          ],
+          "explanation": "本文では「不公平」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "something that is treated as most important",
+            "the number of times something happens",
+            "tools or machines used for a job",
+            "a lack of fairness in how people are treated"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-childhood-cancer-2026-inequity-en-option-1",
+            "article-health-childhood-cancer-2026-inequity-en-option-2",
+            "article-health-childhood-cancer-2026-inequity-en-option-3",
+            "article-health-childhood-cancer-2026-inequity-en-option-4"
+          ],
+          "correctChoiceId": "article-health-childhood-cancer-2026-inequity-en-option-4",
+          "distractorHeadwords": [
+            "priority",
+            "frequency",
+            "equipment",
+            null
+          ],
+          "explanation": "本文では「不公平」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "health inequity",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "健康の不公平",
+            "nuanceJa": "inequity は不当で是正すべき差を言う評価的な語。inequality は単に差があることを示す中立的な語で、inequity には「不当だ」という判断が含まれる。",
+            "example": "Health inequity is easy to see in these figures.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "address inequity",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "不公平に対処する",
+            "nuanceJa": "address は問題に正面から取り組む硬い動詞。solve は解決したことを示すので、長く続く課題には address が自然。",
+            "example": "The new fund will address inequity in school lunches.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "inequity in ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～における不公平",
+            "nuanceJa": "in の後ろに不公平が見られる分野を置く（inequity in access to care）。between は比べる二者の間（between regions）を示すので、分野か比較対象かで前置詞が変わる。",
+            "example": "The study shows inequity in access to care.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "inequities",
+      "sourceKind": "article",
+      "articleId": "article-health-childhood-cancer-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-childhood-cancer-2026-adolescent",
+      "headword": "adolescent",
+      "partOfSpeech": "noun",
+      "meaning": "青少年",
+      "definition": "a young person who is growing from child to adult",
+      "contextParagraphId": "p3",
+      "context": "For adolescents aged 15 to 19, it was only about 39%.",
+      "example": "Many adolescents need more sleep than adults.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "青少年（a young person who is growing from child to adult）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "乳幼児",
+            "退役軍人",
+            "青少年",
+            "観光客"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-childhood-cancer-2026-adolescent-ja-option-1",
+            "article-health-childhood-cancer-2026-adolescent-ja-option-2",
+            "article-health-childhood-cancer-2026-adolescent-ja-option-3",
+            "article-health-childhood-cancer-2026-adolescent-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-childhood-cancer-2026-adolescent-ja-option-3",
+          "distractorHeadwords": [
+            "infant",
+            "veteran",
+            null,
+            "tourist"
+          ],
+          "explanation": "本文では「青少年」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a baby or very young child who cannot walk yet",
+            "a person who served for many years in the army",
+            "a young person who is growing from child to adult",
+            "a person who visits a place for fun or rest"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-childhood-cancer-2026-adolescent-en-option-1",
+            "article-health-childhood-cancer-2026-adolescent-en-option-2",
+            "article-health-childhood-cancer-2026-adolescent-en-option-3",
+            "article-health-childhood-cancer-2026-adolescent-en-option-4"
+          ],
+          "correctChoiceId": "article-health-childhood-cancer-2026-adolescent-en-option-3",
+          "distractorHeadwords": [
+            "infant",
+            "veteran",
+            null,
+            "tourist"
+          ],
+          "explanation": "本文では「青少年」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "adolescent girls",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "思春期の少女",
+            "nuanceJa": "adolescent は医学・公衆衛生で 10〜19 歳を指す語。teenager は 13〜19 歳を指す日常語で、年齢の範囲と使う場面が少し違う。",
+            "example": "Adolescent girls need health services that fit their needs.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "young adolescents",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "思春期前半の若者",
+            "nuanceJa": "young は 10〜14 歳ごろの前半を指すときに加える。older adolescents（15〜19 歳）と対比して使うのが定型。",
+            "example": "Young adolescents often need help to talk about worries.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "treat adolescents",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "思春期の若者を治療する",
+            "nuanceJa": "treat は治療という医療行為を行うこと。care for は世話や支援まで含むので、生活ごと支えるなら care for adolescents が自然。",
+            "example": "Few hospitals treat adolescents and adults together.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "adolescents",
+      "sourceKind": "article",
+      "articleId": "article-health-childhood-cancer-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-childhood-cancer-2026-essential",
+      "headword": "essential",
+      "partOfSpeech": "adjective",
+      "meaning": "必須の",
+      "definition": "needed in order to live or work well",
+      "contextParagraphId": "p4",
+      "context": "In weaker systems, delays in diagnosis and limited access to essential medicines and good-quality care add to the problem.",
+      "example": "Water is essential for every living thing.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "必須の（needed in order to live or work well）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "任意の",
+            "必須の",
+            "高価な",
+            "最近の"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-childhood-cancer-2026-essential-ja-option-1",
+            "article-health-childhood-cancer-2026-essential-ja-option-2",
+            "article-health-childhood-cancer-2026-essential-ja-option-3",
+            "article-health-childhood-cancer-2026-essential-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-childhood-cancer-2026-essential-ja-option-2",
+          "distractorHeadwords": [
+            "optional",
+            null,
+            "expensive",
+            "recent"
+          ],
+          "explanation": "本文では「必須の」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "left to a person's own choice",
+            "needed in order to live or work well",
+            "costing a lot of money to buy",
+            "having happened a short time ago"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-childhood-cancer-2026-essential-en-option-1",
+            "article-health-childhood-cancer-2026-essential-en-option-2",
+            "article-health-childhood-cancer-2026-essential-en-option-3",
+            "article-health-childhood-cancer-2026-essential-en-option-4"
+          ],
+          "correctChoiceId": "article-health-childhood-cancer-2026-essential-en-option-2",
+          "distractorHeadwords": [
+            "optional",
+            null,
+            "expensive",
+            "recent"
+          ],
+          "explanation": "本文では「必須の」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "essential medicines",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "必須医薬品",
+            "nuanceJa": "essential medicines は保健制度が備えるべき薬を指す制度上の用語。important medicines は重要度を言うだけで、リストに載った薬という意味は含まない。",
+            "example": "Clinics need a steady supply of essential medicines.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "essential for ～",
+            "pattern": "形容詞＋前置詞",
+            "meaningJa": "～に欠かせない",
+            "nuanceJa": "for の後ろに目的や必要とする対象を置く（essential for survival）。to は計画など関係する対象を示す（essential to the plan）ことがあり、目的なら for を使う。",
+            "example": "Clean water is essential for health.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "absolutely essential",
+            "pattern": "副詞＋形容詞",
+            "meaningJa": "絶対に欠かせない",
+            "nuanceJa": "essential は程度を表す語と一緒に使いにくく、very essential は不自然とされる。強調するときは absolutely や quite を使う。",
+            "example": "Early treatment is absolutely essential.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "essential",
+      "sourceKind": "article",
+      "articleId": "article-health-childhood-cancer-2026",
+      "materialVersion": 1
+    }
+  ]
+}

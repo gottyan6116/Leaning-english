@@ -1,0 +1,737 @@
+{
+  "id": "article-health-mental-health-week-2026",
+  "version": 1,
+  "kind": "article",
+  "status": "checked",
+  "createdAt": "2026-10-07",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "sourcePublishedAt": "2026-10-06",
+  "title": "Mental Health Week in the Americas",
+  "summaryJa": "分野を超えた協力で心の健康を守る、米州の取り組み",
+  "category": "健康・ライフスタイル",
+  "level": "B1",
+  "readingMinutes": 3,
+  "readingEstimateWordsPerMinute": 100,
+  "editorialNotice": "出典に基づく学習用編集版",
+  "textOrigin": "original-for-this-app; factual adaptation",
+  "sources": [
+    {
+      "id": "paho-mental-health-week",
+      "title": "Inter-American Mental Health Week calls for intersectoral action to improve mental health in the Americas",
+      "publisher": "Pan American Health Organization",
+      "publishedAt": "2026-10-06",
+      "url": "https://www.paho.org/en/news/6-10-2026-inter-american-mental-health-week-calls-intersectoral-action-improve-mental-health",
+      "checkedAt": "2026-10-07",
+      "paragraphIds": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "usage": "事実を独自の文で整理。原文・発言の直接引用なし",
+      "author": null
+    }
+  ],
+  "photo": {
+    "pageUrl": "https://unsplash.com/photos/a-couple-of-women-sitting-at-a-table-BziLss04mXY",
+    "photoId": "BziLss04mXY",
+    "photographer": "Daiga Ellaby",
+    "service": "Unsplash",
+    "licenseUrl": "https://unsplash.com/license",
+    "checkedAt": "2026-10-07",
+    "credit": "Photo by Daiga Ellaby on Unsplash",
+    "alt": "テーブルで話す二人の女性",
+    "context": "対話や支え合いに関連する素材写真。PAHOの会合や参加者の写真ではない。"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "kind": "source-based",
+      "sourceIds": [
+        "paho-mental-health-week"
+      ],
+      "text": "From 5 to 9 October 2026, the Americas are marking Inter-American Mental Health Week. The week is organised by the Pan American Health Organization (PAHO) and the Organization of American States (OAS). Its aim is to bring together governments, international organisations, civil society and people with lived experience of mental health problems.",
+      "translationJa": "2026年10月5日から9日まで、米州では米州メンタルヘルス週間が開かれています。この週間を主催するのは、汎米保健機構（PAHO）と米州機構（OAS）です。目的は、各国政府、国際機関、市民社会、そしてメンタルヘルスの問題を実際に経験した人々を結びつけることです。"
+    },
+    {
+      "id": "p2",
+      "kind": "source-based",
+      "sourceIds": [
+        "paho-mental-health-week"
+      ],
+      "text": "PAHO says that more than 185 million people in the Americas live with a mental health condition. Most of them do not receive the care they need. The Director of PAHO, Dr Jarbas Barbosa, said that everyone has the right to the best health that a person can reach, including mental health.",
+      "translationJa": "PAHOによれば、米州では1億8500万人以上が精神面の不調を抱えて暮らしています。その大半は、必要なケアを受けられていません。PAHOのDr Jarbas Barbosa所長は、メンタルヘルスを含め、すべての人が到達可能な最高水準の健康を得る権利を持つと述べました。"
+    },
+    {
+      "id": "p3",
+      "kind": "source-based",
+      "sourceIds": [
+        "paho-mental-health-week"
+      ],
+      "text": "The week also points to the causes of poor mental health. Poverty, inequality, discrimination, violence and social exclusion all play a part. So does a lack of access to education and jobs. Dr Barbosa said that the health sector cannot deal with this challenge alone.",
+      "translationJa": "この週間は、心の健康を損なう原因にも目を向けます。貧困、不平等、差別、暴力、社会からの排除は、どれも影響します。教育や仕事に手が届かないことも同じです。Dr Barbosaは、保健分野だけではこの課題に対応できないと述べました。"
+    },
+    {
+      "id": "p4",
+      "kind": "source-based",
+      "sourceIds": [
+        "paho-mental-health-week"
+      ],
+      "text": "For this reason, PAHO promotes an approach called mental health in all policies. Many sectors should work together: health, education, finance, labour, justice, social protection and the environment. This is called intersectoral action. Whole-of-government action means that the whole government works on the problem, not only the health ministry. In June 2026, the OAS General Assembly adopted a declaration that supports this kind of action.",
+      "translationJa": "このためPAHOは、あらゆる政策にメンタルヘルスの視点を入れるという考え方を進めています。保健、教育、財政、労働、司法、社会保護、環境など、多くの分野が協力すべきだとされ、これを分野横断の行動と呼びます。政府全体での行動とは、保健省だけでなく政府全体がこの問題に取り組むことを意味します。2026年6月には、OAS総会が、そうした行動を支える宣言を採択しました。"
+    },
+    {
+      "id": "p5",
+      "kind": "source-based",
+      "sourceIds": [
+        "paho-mental-health-week"
+      ],
+      "text": "People with lived experience should also have a voice. PAHO wants them to help plan, carry out and review mental health policies. On 8 October, a regional webinar will bring together country representatives, OAS officials and people with lived experience to talk about how to turn promises into action.",
+      "translationJa": "実際に経験した人々も、発言できるべきです。PAHOは、そうした人々がメンタルヘルス政策の計画、実施、見直しに関わることを望んでいます。10月8日には、各国の代表、OASの職員、経験を持つ人々が集まり、約束を行動に変える方法を話し合う地域ウェビナーが開かれます。"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "article-health-mental-health-week-2026-discrimination",
+      "headword": "discrimination",
+      "partOfSpeech": "noun",
+      "meaning": "差別",
+      "definition": "unfair treatment of a group of people",
+      "contextParagraphId": "p3",
+      "context": "Poverty, inequality, discrimination, violence and social exclusion all play a part.",
+      "example": "The company has rules against discrimination at work.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "差別",
+      "questions": {
+        "ja": {
+          "choices": [
+            "競争",
+            "差別",
+            "移住",
+            "物価上昇"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-discrimination-ja-option-1",
+            "article-health-mental-health-week-2026-discrimination-ja-option-2",
+            "article-health-mental-health-week-2026-discrimination-ja-option-3",
+            "article-health-mental-health-week-2026-discrimination-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-discrimination-ja-option-2",
+          "distractorHeadwords": [
+            "competition",
+            null,
+            "migration",
+            "inflation"
+          ],
+          "explanation": "本文では「差別」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a contest in which people try to win a prize",
+            "unfair treatment of a group of people",
+            "the movement of people to live in another place",
+            "a general rise in prices over a period of time"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-discrimination-en-option-1",
+            "article-health-mental-health-week-2026-discrimination-en-option-2",
+            "article-health-mental-health-week-2026-discrimination-en-option-3",
+            "article-health-mental-health-week-2026-discrimination-en-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-discrimination-en-option-2",
+          "distractorHeadwords": [
+            "competition",
+            null,
+            "migration",
+            "inflation"
+          ],
+          "explanation": "本文では「差別」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "face discrimination",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "差別を受ける",
+            "nuanceJa": "face は避けにくい不利益に向き合い続ける状況を表す。experience discrimination は経験した事実を報告するときの中立的な言い方。",
+            "example": "People with disabilities may face discrimination at work.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "discrimination against ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～に対する差別",
+            "nuanceJa": "against の後ろに差別を受ける集団を置く（discrimination against women）。差別の理由を言うときは on the basis of ～ を使うので、対象と理由で表現が分かれる。",
+            "example": "The law bans discrimination against older workers.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "age discrimination",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "年齢による差別",
+            "nuanceJa": "理由を前に置いて差別の種類を示す（gender discrimination）。法律文書やニュースの語で、日常では unfair treatment because of age のように言い換えることも多い。",
+            "example": "Age discrimination is illegal in many countries.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "discrimination"
+    },
+    {
+      "id": "article-health-mental-health-week-2026-exclusion",
+      "headword": "exclusion",
+      "partOfSpeech": "noun",
+      "meaning": "排除",
+      "definition": "the act of keeping people out of a group",
+      "contextParagraphId": "p3",
+      "context": "Poverty, inequality, discrimination, violence and social exclusion all play a part.",
+      "example": "Exclusion from the group made her feel alone.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "排除",
+      "questions": {
+        "ja": {
+          "choices": [
+            "参加",
+            "輸送",
+            "年金",
+            "排除"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-exclusion-ja-option-1",
+            "article-health-mental-health-week-2026-exclusion-ja-option-2",
+            "article-health-mental-health-week-2026-exclusion-ja-option-3",
+            "article-health-mental-health-week-2026-exclusion-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-exclusion-ja-option-4",
+          "distractorHeadwords": [
+            "participation",
+            "transport",
+            "pension",
+            null
+          ],
+          "explanation": "本文では「排除」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "the act of taking part in an event",
+            "the system of moving goods by road or rail",
+            "money paid to someone after they retire",
+            "the act of keeping people out of a group"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-exclusion-en-option-1",
+            "article-health-mental-health-week-2026-exclusion-en-option-2",
+            "article-health-mental-health-week-2026-exclusion-en-option-3",
+            "article-health-mental-health-week-2026-exclusion-en-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-exclusion-en-option-4",
+          "distractorHeadwords": [
+            "participation",
+            "transport",
+            "pension",
+            null
+          ],
+          "explanation": "本文では「排除」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "social exclusion",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "社会的排除",
+            "nuanceJa": "social は社会生活の場から外されることを示す専門的な語。isolation（孤立）は個人の状態、exclusion は仕組みや周囲によって外される点を強調する。",
+            "example": "Social exclusion can harm mental health.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "exclusion from ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～からの排除",
+            "nuanceJa": "from の後ろに外される場所を置く（exclusion from school）。of は外された対象（the exclusion of women）を示すので、from と置く語が逆になる。",
+            "example": "Exclusion from the team made Ken feel alone.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "reduce exclusion",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "排除を減らす",
+            "nuanceJa": "reduce は程度を減らす現実的な目標を表す。end exclusion は完全になくすという強い目標なので、対策の報告では reduce の方がよく使われる。",
+            "example": "The programme aims to reduce exclusion in schools.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "exclusion"
+    },
+    {
+      "id": "article-health-mental-health-week-2026-adopt",
+      "headword": "adopt",
+      "partOfSpeech": "verb",
+      "meaning": "採択する",
+      "definition": "formally accept and start to use something",
+      "contextParagraphId": "p4",
+      "context": "In June 2026, the OAS General Assembly adopted a declaration that supports this kind of action.",
+      "example": "The class adopted a new rule for using phones.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "採択する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "採択する",
+            "否決する",
+            "延期する",
+            "翻訳する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-adopt-ja-option-1",
+            "article-health-mental-health-week-2026-adopt-ja-option-2",
+            "article-health-mental-health-week-2026-adopt-ja-option-3",
+            "article-health-mental-health-week-2026-adopt-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-adopt-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "reject",
+            "postpone",
+            "translate"
+          ],
+          "explanation": "本文では「採択する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "formally accept and start to use something",
+            "refuse to accept an idea or offer",
+            "decide that something will happen later",
+            "change words into another language"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-adopt-en-option-1",
+            "article-health-mental-health-week-2026-adopt-en-option-2",
+            "article-health-mental-health-week-2026-adopt-en-option-3",
+            "article-health-mental-health-week-2026-adopt-en-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-adopt-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "reject",
+            "postpone",
+            "translate"
+          ],
+          "explanation": "本文では「採択する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "adopt a policy",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "政策を採用する",
+            "nuanceJa": "adopt は正式な決定で取り入れる段階に重点がある。introduce は新しく導入すること、implement は実行に移すことを指す。",
+            "example": "The council adopted a new policy on recycling.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "formally adopt",
+            "pattern": "副詞＋動詞",
+            "meaningJa": "正式に採択する",
+            "nuanceJa": "formally は手続きを経て決めたことを示す。officially は公的な立場から認められたことを強調し、formally は形式や手順の面を強調する。",
+            "example": "The assembly formally adopted the plan.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "be adopted by ～",
+            "pattern": "受け身＋前置詞",
+            "meaningJa": "～に採択される",
+            "nuanceJa": "by の後ろに決定を行う機関を置く（adopted by the committee）。法案には passed を使うことが多いが、adopt は宣言や基準にも使える。",
+            "example": "The rules were adopted by the whole class.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "adopted"
+    },
+    {
+      "id": "article-health-mental-health-week-2026-declaration",
+      "headword": "declaration",
+      "partOfSpeech": "noun",
+      "meaning": "宣言",
+      "definition": "an official public statement about a decision",
+      "contextParagraphId": "p4",
+      "context": "In June 2026, the OAS General Assembly adopted a declaration that supports this kind of action.",
+      "example": "The leaders read the declaration to the press.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "宣言",
+      "questions": {
+        "ja": {
+          "choices": [
+            "領収書",
+            "展覧会",
+            "宣言",
+            "予報"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-declaration-ja-option-1",
+            "article-health-mental-health-week-2026-declaration-ja-option-2",
+            "article-health-mental-health-week-2026-declaration-ja-option-3",
+            "article-health-mental-health-week-2026-declaration-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-declaration-ja-option-3",
+          "distractorHeadwords": [
+            "receipt",
+            "exhibition",
+            null,
+            "forecast"
+          ],
+          "explanation": "本文では「宣言」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a paper that shows you have paid for something",
+            "a public show of art or other objects",
+            "an official public statement about a decision",
+            "a statement about what will happen in the future"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-declaration-en-option-1",
+            "article-health-mental-health-week-2026-declaration-en-option-2",
+            "article-health-mental-health-week-2026-declaration-en-option-3",
+            "article-health-mental-health-week-2026-declaration-en-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-declaration-en-option-3",
+          "distractorHeadwords": [
+            "receipt",
+            "exhibition",
+            null,
+            "forecast"
+          ],
+          "explanation": "本文では「宣言」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "sign a declaration",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "宣言に署名する",
+            "nuanceJa": "sign は文書に署名して賛同を示す。adopt は会議が採択することで、署名するのは各国や個人であることが多い。",
+            "example": "Leaders signed a declaration on climate change.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a joint declaration",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "共同宣言",
+            "nuanceJa": "joint は複数の主体が一緒に出すことを示す。公的な文書では joint が定型で、common declaration とは言わない。",
+            "example": "The two countries issued a joint declaration.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a declaration on ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～に関する宣言",
+            "nuanceJa": "on の後ろに扱う分野を置く（a declaration on human rights）。of は宣言の内容そのもの（the Declaration of Independence）を示し、国際文書の題名では on が多い。",
+            "example": "The group made a declaration on water safety.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "declaration"
+    },
+    {
+      "id": "article-health-mental-health-week-2026-voice",
+      "headword": "voice",
+      "partOfSpeech": "noun",
+      "meaning": "発言権",
+      "definition": "the chance to say what you think and be heard",
+      "contextParagraphId": "p5",
+      "context": "People with lived experience should also have a voice.",
+      "example": "Students want a voice in school decisions.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "発言権（the chance to say what you think and be heard）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "社会的地位",
+            "発言権",
+            "責任感",
+            "予算計画"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-voice-ja-option-1",
+            "article-health-mental-health-week-2026-voice-ja-option-2",
+            "article-health-mental-health-week-2026-voice-ja-option-3",
+            "article-health-mental-health-week-2026-voice-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-voice-ja-option-2",
+          "distractorHeadwords": [
+            "status",
+            null,
+            "responsibility",
+            "budget"
+          ],
+          "explanation": "本文では「発言権」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a person's position in society or a group",
+            "the chance to say what you think and be heard",
+            "a duty to take care of something or someone",
+            "a plan for how money will be spent"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-voice-en-option-1",
+            "article-health-mental-health-week-2026-voice-en-option-2",
+            "article-health-mental-health-week-2026-voice-en-option-3",
+            "article-health-mental-health-week-2026-voice-en-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-voice-en-option-2",
+          "distractorHeadwords": [
+            "status",
+            null,
+            "responsibility",
+            "budget"
+          ],
+          "explanation": "本文では「発言権」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "have a voice",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "発言権を持つ",
+            "nuanceJa": "have a voice は意見を聞いてもらえる立場にあること。have a say は決定に影響できることを日常的に言う表現で、voice の方がやや改まって聞こえる。",
+            "example": "Every member should have a voice in the group.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a strong voice",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "強い発言力",
+            "nuanceJa": "strong は影響力の大きさを示す。loud は声の大きさそのものを言うので、比喩として発言力を言うときは strong が自然。",
+            "example": "The union gives workers a strong voice.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a voice in ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～における発言権",
+            "nuanceJa": "in の後ろに意思決定の場を置く（a voice in decisions）。on は話題（a voice on the issue）にも使えるが、決定の場を言うなら in が定番。",
+            "example": "Students want a voice in school rules.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "voice"
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "article-health-mental-health-week-2026-q1",
+      "question": "Who organises Inter-American Mental Health Week?",
+      "choices": [
+        "PAHO and the OAS together.",
+        "The OAS and nobody else.",
+        "The schools in each country.",
+        "The leaders of every hospital."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-health-mental-health-week-2026-q1-option-1",
+        "article-health-mental-health-week-2026-q1-option-2",
+        "article-health-mental-health-week-2026-q1-option-3",
+        "article-health-mental-health-week-2026-q1-option-4"
+      ],
+      "correctChoiceId": "article-health-mental-health-week-2026-q1-option-1",
+      "evidenceParagraphIds": [
+        "p1"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p1",
+          "text": "The week is organised by the Pan American Health Organization (PAHO) and the Organization of American States (OAS).",
+          "highlights": [
+            "Pan American Health Organization (PAHO)",
+            "Organization of American States (OAS)"
+          ]
+        }
+      ],
+      "explanationJa": "PAHOとOASが共同で主催している。",
+      "type": "literal"
+    },
+    {
+      "id": "article-health-mental-health-week-2026-q2",
+      "question": "What does PAHO say about people with a mental health condition in the Americas?",
+      "choices": [
+        "Most of them receive free care at school.",
+        "Only a few thousand people are affected.",
+        "Most of them do not receive the care they need.",
+        "They all live in the biggest cities."
+      ],
+      "answerIndex": 2,
+      "choiceIds": [
+        "article-health-mental-health-week-2026-q2-option-1",
+        "article-health-mental-health-week-2026-q2-option-2",
+        "article-health-mental-health-week-2026-q2-option-3",
+        "article-health-mental-health-week-2026-q2-option-4"
+      ],
+      "correctChoiceId": "article-health-mental-health-week-2026-q2-option-3",
+      "evidenceParagraphIds": [
+        "p2"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p2",
+          "text": "Most of them do not receive the care they need.",
+          "highlights": [
+            "do not receive the care they need"
+          ]
+        }
+      ],
+      "explanationJa": "1億8500万人以上のうち、大半は必要なケアを受けていない。",
+      "type": "literal"
+    },
+    {
+      "id": "article-health-mental-health-week-2026-q3",
+      "question": "Why does PAHO ask many sectors to work together?",
+      "choices": [
+        "Because most hospitals in the Americas have now closed down.",
+        "Because poor mental health has causes beyond health care.",
+        "Because only governments can write policies.",
+        "Because people with lived experience refuse to take part."
+      ],
+      "answerIndex": 1,
+      "choiceIds": [
+        "article-health-mental-health-week-2026-q3-option-1",
+        "article-health-mental-health-week-2026-q3-option-2",
+        "article-health-mental-health-week-2026-q3-option-3",
+        "article-health-mental-health-week-2026-q3-option-4"
+      ],
+      "correctChoiceId": "article-health-mental-health-week-2026-q3-option-2",
+      "evidenceParagraphIds": [
+        "p3"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p3",
+          "text": "Poverty, inequality, discrimination, violence and social exclusion all play a part.",
+          "highlights": [
+            "Poverty",
+            "social exclusion"
+          ]
+        },
+        {
+          "paragraphId": "p3",
+          "text": "Dr Barbosa said that the health sector cannot deal with this challenge alone.",
+          "highlights": [
+            "cannot deal with this challenge alone"
+          ]
+        }
+      ],
+      "explanationJa": "貧困や差別など医療の外にも原因があり、保健分野だけでは対応できない。",
+      "type": "inference"
+    }
+  ],
+  "opinion": {
+    "id": "opinion-1",
+    "prompt": "Besides doctors, who could help to protect people's mental health in your town or school?",
+    "optional": true,
+    "saveScope": "device"
+  },
+  "properNouns": [
+    "Inter-American Mental Health Week",
+    "Pan American Health Organization",
+    "Organization of American States",
+    "PAHO",
+    "OAS",
+    "Americas",
+    "Dr",
+    "Jarbas Barbosa",
+    "Barbosa",
+    "General Assembly",
+    "October",
+    "June"
+  ],
+  "review": {
+    "factsCheckedAt": "2026-10-07",
+    "editorialParagraphIds": [],
+    "contentApproval": "editorial-reviewed",
+    "notes": "本文の事実・訳・設問根拠を出典と照合。使い方はすべて未確認。"
+  },
+  "reviewNotes": [
+    "出典の事実と数値を区別。選択肢は同品詞の別の語から作成。"
+  ],
+  "validationProperNouns": [
+    "Inter-American Mental Health Week",
+    "Pan American Health Organization",
+    "Organization of American States",
+    "PAHO",
+    "OAS",
+    "Americas",
+    "Dr",
+    "Jarbas Barbosa",
+    "Barbosa",
+    "General Assembly",
+    "October",
+    "June"
+  ],
+  "validationEntityAliases": {
+    "Inter-American Mental Health Week": "米州メンタルヘルス週間",
+    "Pan American Health Organization": "汎米保健機構",
+    "Organization of American States": "米州機構",
+    "PAHO": "PAHO",
+    "OAS": "OAS",
+    "Americas": "米州",
+    "Dr": "Dr",
+    "Jarbas Barbosa": "Jarbas Barbosa",
+    "Barbosa": "Barbosa",
+    "General Assembly": "総会",
+    "October": "10月",
+    "June": "6月"
+  },
+  "validationNumberAliases": {
+    "185": "1億8500万"
+  },
+  "vocabularyReview": {
+    "status": "reviewed",
+    "reason": "5つの重要語を本文の用例と対応させ、同品詞の別語による誤答と比較。数値（1億8500万人以上）、主催者、宣言の採択時期、ウェビナーの日付を出典と照合し、原因と対策を区別して設問化。未収録語は固有名詞と語形を個別に確認。"
+  }
+}

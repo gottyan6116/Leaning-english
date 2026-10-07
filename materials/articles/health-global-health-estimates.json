@@ -1,0 +1,735 @@
+{
+  "id": "article-health-global-health-estimates-2026",
+  "version": 1,
+  "kind": "article",
+  "status": "checked",
+  "createdAt": "2026-10-07",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "sourcePublishedAt": "2026-10-02",
+  "title": "Longer Lives, But Not Always Healthier Ones",
+  "summaryJa": "世界保健推計が示す、慢性疾患・認知症・心の不調の広がり",
+  "category": "健康・ライフスタイル",
+  "level": "C1",
+  "readingMinutes": 5,
+  "readingEstimateWordsPerMinute": 100,
+  "editorialNotice": "出典に基づく学習用編集版",
+  "textOrigin": "original-for-this-app; factual adaptation",
+  "sources": [
+    {
+      "id": "un-global-health-estimates",
+      "title": "Global life expectancy bounces back to near pre-pandemic levels, WHO says",
+      "publisher": "UN News",
+      "publishedAt": "2026-10-02",
+      "url": "https://news.un.org/en/story/2026/10/1168515",
+      "checkedAt": "2026-10-07",
+      "paragraphIds": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ],
+      "usage": "事実を独自の文で整理。原文・発言の直接引用なし",
+      "author": null
+    }
+  ],
+  "photo": {
+    "pageUrl": "https://unsplash.com/photos/a-stethoscope-and-a-heart-on-a-table-Q3J1wmn7_8w",
+    "photoId": "Q3J1wmn7_8w",
+    "photographer": "Marek Studzinski",
+    "service": "Unsplash",
+    "licenseUrl": "https://unsplash.com/license",
+    "checkedAt": "2026-10-07",
+    "credit": "Photo by Marek Studzinski on Unsplash",
+    "alt": "机の上の聴診器とハートの飾り",
+    "context": "心臓の健康に関連する素材写真。WHOの推計や調査の対象とは関係がない。"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-global-health-estimates"
+      ],
+      "text": "On 2 October 2026, WHO released its Global Health Estimates for 2000 to 2023, and UN News summarised the findings. The headline is reassuring. Global life expectancy recovered to 73.3 years in 2023, almost exactly the 73.4 years recorded in 2019, before the pandemic disrupted health systems and daily life. Yet the second number tells a more cautious story. Healthy life expectancy, the number of years a person can expect to live in good health, stood at 62.8 years, still 0.4 years below its 2019 level.",
+      "translationJa": "2026年10月2日、WHOは2000年から2023年までの世界保健推計（Global Health Estimates）を公表し、UN Newsがその内容を伝えました。見出しとなる数字は安心できるものです。世界の平均寿命は2023年に73.3年まで回復し、パンデミックが保健システムと日常生活を混乱させる前の2019年に記録された73.4年とほぼ同じになりました。しかし、2つ目の数字はもっと慎重な話を伝えています。健康に過ごせる年数を表す健康寿命は62.8年で、2019年の水準をまだ0.4年下回っています。"
+    },
+    {
+      "id": "p2",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-global-health-estimates"
+      ],
+      "text": "The estimates also show how the pattern of disease has changed. Noncommunicable diseases, such as heart disease, caused 74% of all deaths in 2023, compared with 58% in 2000, and eight of the world's ten leading causes of death now belong to this group. Cardiovascular disease remains the leading killer. Ischaemic heart disease alone caused about 9.5 million deaths and 210 million years of healthy life lost in 2023.",
+      "translationJa": "推計は、病気の構図がどう変わったかも示しています。心臓病などの非感染性疾患は、2023年の全死亡の74%を占め、2000年の58%から上昇しました。世界の死因の上位10のうち8つが、いまやこの分類に入ります。心血管疾患は引き続き最大の死因です。虚血性心疾患だけで、2023年に約950万人が亡くなり、失われた健康な年数は2億1000万年に上りました。"
+    },
+    {
+      "id": "p3",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-global-health-estimates"
+      ],
+      "text": "The shift is visible even in the poorest countries. In 2023, communicable diseases accounted for less than half of all deaths in low-income countries for the first time. This is part of what is called a global epidemiological transition, in which chronic conditions replace infections as the main threat.",
+      "translationJa": "この変化は、最も貧しい国々でも見られます。2023年には、低所得国で感染症が全死亡の半分未満になったのは初めてのことでした。これは世界的な疫学的移行と呼ばれる流れの一部で、慢性の病気が感染症に代わって主な脅威になっていきます。"
+    },
+    {
+      "id": "p4",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-global-health-estimates"
+      ],
+      "text": "Some trends are especially worrying. Dementia has climbed from the 19th leading cause of death in 2000 to the fifth in 2023, and the number of deaths has tripled. Between 2019 and 2023, the healthy life lost to depressive disorders rose by about 20% after adjusting for age, and for anxiety disorders by nearly 45%. Together, these figures suggest that longer lives bring new demands on health systems.",
+      "translationJa": "特に心配な傾向もあります。認知症は、2000年には死因の19位でしたが、2023年には5位に上がり、死亡数は3倍になりました。2019年から2023年にかけて、うつ病によって失われた健康な年数は年齢を調整したうえで約20%増え、不安障害では45%近く増えました。これらの数字は、長寿が保健システムに新たな負担を求めていることを示しています。"
+    },
+    {
+      "id": "p5",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-global-health-estimates"
+      ],
+      "text": "Regional differences complicate the picture. The risk of cardiovascular disease has fallen in many regions since 2000 but has risen in the Western Pacific and South-East Asia. Drug use disorders have increased most in the Americas, while the Western Pacific has seen substantial declines, and the risk of diabetes has risen sharply in South-East Asia.",
+      "translationJa": "地域ごとの違いが、全体像を複雑にしています。心血管疾患のリスクは2000年以降、多くの地域で下がりましたが、西太平洋と東南アジアでは上がりました。薬物使用障害は米州で最も増えた一方、西太平洋では大幅に減り、糖尿病のリスクは東南アジアで急激に高まりました。"
+    },
+    {
+      "id": "p6",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-global-health-estimates"
+      ],
+      "text": "Dr Alain Labrique, director of the WHO department for data, digital health, analytics and AI, called longer lives a great achievement and said that the next task is to make sure the added years are healthy. Such estimates show how causes of death and disease burden are changing, which allows countries to design policies based on evidence. Because the estimates cover every region and country from 2000 to 2023, they also let governments compare their own progress with that of others.",
+      "translationJa": "WHOのデータ・デジタルヘルス・分析・AI部門の責任者であるDr Alain Labriqueは、長寿は大きな成果だとしたうえで、次の課題は増えた年月を健康なものにすることだと述べました。こうした推計は、死因と疾病の負担がどう変わっているかを示し、各国が証拠に基づく政策を設計することを可能にします。推計は2000年から2023年まですべての地域と国を対象にしているため、各国政府は自国の進み具合を他国と比べることもできます。"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "article-health-global-health-estimates-2026-disrupt",
+      "headword": "disrupt",
+      "partOfSpeech": "verb",
+      "meaning": "妨げる",
+      "definition": "interrupt the normal way something works",
+      "contextParagraphId": "p1",
+      "context": "Global life expectancy recovered to 73.3 years in 2023, almost exactly the 73.4 years recorded in 2019, before the pandemic disrupted health systems and daily life.",
+      "example": "Heavy snow disrupted trains across the region.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "妨げる（interrupt the normal way something works）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "隠す",
+            "予測する",
+            "妨げる",
+            "要約する"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-disrupt-ja-option-1",
+            "article-health-global-health-estimates-2026-disrupt-ja-option-2",
+            "article-health-global-health-estimates-2026-disrupt-ja-option-3",
+            "article-health-global-health-estimates-2026-disrupt-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-disrupt-ja-option-3",
+          "distractorHeadwords": [
+            "conceal",
+            "predict",
+            null,
+            "summarise"
+          ],
+          "explanation": "本文では「妨げる」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "hide something so that it is not seen",
+            "say what will happen in the future",
+            "interrupt the normal way something works",
+            "give the main points of something briefly"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-disrupt-en-option-1",
+            "article-health-global-health-estimates-2026-disrupt-en-option-2",
+            "article-health-global-health-estimates-2026-disrupt-en-option-3",
+            "article-health-global-health-estimates-2026-disrupt-en-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-disrupt-en-option-3",
+          "distractorHeadwords": [
+            "conceal",
+            "predict",
+            null,
+            "summarise"
+          ],
+          "explanation": "本文では「妨げる」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "disrupt services",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "サービスを混乱させる",
+            "nuanceJa": "disrupt は通常の流れを乱す。interrupt は一時的に止めることで、disrupt は混乱が広く続く含みがある。",
+            "example": "Floods often disrupt health services.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "seriously disrupted",
+            "pattern": "副詞＋過去分詞",
+            "meaningJa": "深刻に混乱した",
+            "nuanceJa": "seriously は混乱の大きさを強める。severely も近いが被害の重さを言うときに多く、seriously は影響の大きさ全般に使える。",
+            "example": "Supply chains were seriously disrupted.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "disrupted by ～",
+            "pattern": "過去分詞＋前置詞",
+            "meaningJa": "～で混乱した",
+            "nuanceJa": "by の後ろに混乱を起こした原因を置く（disrupted by war）。due to は原因を一般的に示し、受け身では by が原因や行為者を直接示す。",
+            "example": "Classes were disrupted by the storm.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "disrupted"
+    },
+    {
+      "id": "article-health-global-health-estimates-2026-burden",
+      "headword": "burden",
+      "partOfSpeech": "noun",
+      "meaning": "負担",
+      "definition": "something heavy that a person or system must carry",
+      "contextParagraphId": "p6",
+      "context": "Such estimates show how causes of death and disease burden are changing, which allows countries to design policies based on evidence. Because the estimates cover every region and country from 2000 to 2023, they also let governments compare their own progress with that of others.",
+      "example": "The new rule is a burden for small shops.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "負担（something heavy that a person or system must carry）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "負担",
+            "恩恵",
+            "障壁",
+            "余剰"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-burden-ja-option-1",
+            "article-health-global-health-estimates-2026-burden-ja-option-2",
+            "article-health-global-health-estimates-2026-burden-ja-option-3",
+            "article-health-global-health-estimates-2026-burden-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-burden-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "benefit",
+            "barrier",
+            "surplus"
+          ],
+          "explanation": "本文では「負担」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "something heavy that a person or system must carry",
+            "something good that a person gets from an action",
+            "something that stops people from doing something",
+            "an amount that is more than what is needed"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-burden-en-option-1",
+            "article-health-global-health-estimates-2026-burden-en-option-2",
+            "article-health-global-health-estimates-2026-burden-en-option-3",
+            "article-health-global-health-estimates-2026-burden-en-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-burden-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "benefit",
+            "barrier",
+            "surplus"
+          ],
+          "explanation": "本文では「負担」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "disease burden",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "疾病負担",
+            "nuanceJa": "disease burden は病気が社会に与える負担を、失われた健康年数などで測る公衆衛生の用語。cost は金銭に限らず使えるが、burden は背負う重さの感じが強い。",
+            "example": "The disease burden is heavier in older groups.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "reduce the burden",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "負担を減らす",
+            "nuanceJa": "reduce は程度を下げる。lift the burden は重さを取り去る比喩的で日常的な言い方で、報告書では reduce the burden of ～ が定型。",
+            "example": "Vaccines reduce the burden on hospitals.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a burden on ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～への負担",
+            "nuanceJa": "on の後ろに負担を受ける側を置く（a burden on families）。of は負担の中身（the burden of disease）を示すので、受ける側か内容かで前置詞が変わる。",
+            "example": "Rising costs are a burden on families.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "burden"
+    },
+    {
+      "id": "article-health-global-health-estimates-2026-transition",
+      "headword": "transition",
+      "partOfSpeech": "noun",
+      "meaning": "移行",
+      "definition": "a change from one state or system to another",
+      "contextParagraphId": "p3",
+      "context": "This is part of what is called a global epidemiological transition, in which chronic conditions replace infections as the main threat.",
+      "example": "The transition to a new system took two years.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "移行（a change from one state or system to another）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "取引",
+            "伝統",
+            "翻訳",
+            "移行"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-transition-ja-option-1",
+            "article-health-global-health-estimates-2026-transition-ja-option-2",
+            "article-health-global-health-estimates-2026-transition-ja-option-3",
+            "article-health-global-health-estimates-2026-transition-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-transition-ja-option-4",
+          "distractorHeadwords": [
+            "transaction",
+            "tradition",
+            "translation",
+            null
+          ],
+          "explanation": "本文では「移行」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "an act of buying or selling something",
+            "a custom that has passed down over many years",
+            "a version of a text in another language",
+            "a change from one state or system to another"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-transition-en-option-1",
+            "article-health-global-health-estimates-2026-transition-en-option-2",
+            "article-health-global-health-estimates-2026-transition-en-option-3",
+            "article-health-global-health-estimates-2026-transition-en-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-transition-en-option-4",
+          "distractorHeadwords": [
+            "transaction",
+            "tradition",
+            "translation",
+            null
+          ],
+          "explanation": "本文では「移行」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "make the transition",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "移行する",
+            "nuanceJa": "make the transition は一定の期間をかけて移ることを言う。switch は短時間で切り替える感じで、transition には移行の過程が含まれる。",
+            "example": "Many patients make the transition to adult care at eighteen.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a smooth transition",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "円滑な移行",
+            "nuanceJa": "smooth は手順に滞りなく進む移行を言う。easy は難しくないという意味で、smooth は途中で問題が起きない点を強調する。",
+            "example": "The hospital planned a smooth transition between teams.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "transition from ～ to ～",
+            "pattern": "名詞＋前置詞＋前置詞",
+            "meaningJa": "～から～への移行",
+            "nuanceJa": "from A to B で移行の前後を示す。transition to ～ だけなら移行先だけを言うので、元の状態も述べたいときに from を加える。",
+            "example": "The transition from paper to digital records took years.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "transition"
+    },
+    {
+      "id": "article-health-global-health-estimates-2026-substantial",
+      "headword": "substantial",
+      "partOfSpeech": "adjective",
+      "meaning": "大幅な",
+      "definition": "large in amount or importance",
+      "contextParagraphId": "p5",
+      "context": "Drug use disorders have increased most in the Americas, while the Western Pacific has seen substantial declines, and the risk of diabetes has risen sharply in South-East Asia.",
+      "example": "The city saw a substantial rise in rents.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "大幅な（large in amount or importance）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "わずかな",
+            "大幅な",
+            "暫定的な",
+            "時代遅れの"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-substantial-ja-option-1",
+            "article-health-global-health-estimates-2026-substantial-ja-option-2",
+            "article-health-global-health-estimates-2026-substantial-ja-option-3",
+            "article-health-global-health-estimates-2026-substantial-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-substantial-ja-option-2",
+          "distractorHeadwords": [
+            "marginal",
+            null,
+            "tentative",
+            "obsolete"
+          ],
+          "explanation": "本文では「大幅な」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "very small and not important",
+            "large in amount or importance",
+            "not certain and open to change",
+            "no longer in use or useful"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-substantial-en-option-1",
+            "article-health-global-health-estimates-2026-substantial-en-option-2",
+            "article-health-global-health-estimates-2026-substantial-en-option-3",
+            "article-health-global-health-estimates-2026-substantial-en-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-substantial-en-option-2",
+          "distractorHeadwords": [
+            "marginal",
+            null,
+            "tentative",
+            "obsolete"
+          ],
+          "explanation": "本文では「大幅な」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "a substantial increase",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "大幅な増加",
+            "nuanceJa": "substantial は量や重要性の大きさを客観的に言う。significant は統計的に意味のある差を含むことがあり、両者は焦点が違う。",
+            "example": "There was a substantial increase in the number of cases.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "substantially higher",
+            "pattern": "副詞＋形容詞",
+            "meaningJa": "大幅に高い",
+            "nuanceJa": "substantially は「大幅に」という程度を示し、slightly（わずかに）と対になる。much よりも硬い語で、報告書に向く。",
+            "example": "Rates are substantially higher in older groups.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a substantial part of ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～のかなりの部分",
+            "nuanceJa": "part of の前に置いて割合が大きいことを示す。large part より書き言葉で、全体の中の大きな一部を客観的に述べるときに使う。",
+            "example": "A substantial part of the budget goes to staff.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "substantial"
+    },
+    {
+      "id": "article-health-global-health-estimates-2026-adjust",
+      "headword": "adjust",
+      "partOfSpeech": "verb",
+      "meaning": "補正する",
+      "definition": "change something slightly to fit or correct it",
+      "contextParagraphId": "p4",
+      "context": "Between 2019 and 2023, the healthy life lost to depressive disorders rose by about 20% after adjusting for age, and for anxiety disorders by nearly 45%.",
+      "example": "The nurse adjusted the bed to a better height.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "補正する（change something slightly to fit or correct it）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "検査する",
+            "解決する",
+            "補正する",
+            "撤回する"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-adjust-ja-option-1",
+            "article-health-global-health-estimates-2026-adjust-ja-option-2",
+            "article-health-global-health-estimates-2026-adjust-ja-option-3",
+            "article-health-global-health-estimates-2026-adjust-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-adjust-ja-option-3",
+          "distractorHeadwords": [
+            "inspect",
+            "resolve",
+            null,
+            "withdraw"
+          ],
+          "explanation": "本文では「補正する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "look at something carefully to check it",
+            "find a solution to a difficult problem",
+            "change something slightly to fit or correct it",
+            "take something back or remove it from use"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-adjust-en-option-1",
+            "article-health-global-health-estimates-2026-adjust-en-option-2",
+            "article-health-global-health-estimates-2026-adjust-en-option-3",
+            "article-health-global-health-estimates-2026-adjust-en-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-adjust-en-option-3",
+          "distractorHeadwords": [
+            "inspect",
+            "resolve",
+            null,
+            "withdraw"
+          ],
+          "explanation": "本文では「補正する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "adjust for ～",
+            "pattern": "動詞＋前置詞",
+            "meaningJa": "～の影響を補正する",
+            "nuanceJa": "adjust for age は年齢の違いの影響を取り除いて比べる統計の言い方。control for は研究で要因を統制する、より厳密な分析の語になる。",
+            "example": "The researchers adjust for age and income.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "adjust the dose",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "用量を調整する",
+            "nuanceJa": "adjust は少し変えて適切にする微調整の語。change は大きく変える場合も含むので、薬の量を様子を見て整えるなら adjust が自然。",
+            "example": "The doctor adjusted the dose after a week.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "adjust to ～",
+            "pattern": "動詞＋前置詞",
+            "meaningJa": "～に慣れる",
+            "nuanceJa": "adjust to は環境に慣れる意味で、小さな調整を重ねる含みがある。adapt to は大きな変化に適応する意味で、規模の違いで使い分ける。",
+            "example": "It takes time to adjust to a new routine.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "adjusting"
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "article-health-global-health-estimates-2026-q1",
+      "question": "What happened to dementia as a cause of death between 2000 and 2023?",
+      "choices": [
+        "It dropped from fifth to nineteenth place as deaths fell.",
+        "It moved from 19th to fifth place, and deaths tripled.",
+        "It stayed in about the same place throughout the period.",
+        "It became the leading cause of death in the whole world."
+      ],
+      "answerIndex": 1,
+      "choiceIds": [
+        "article-health-global-health-estimates-2026-q1-option-1",
+        "article-health-global-health-estimates-2026-q1-option-2",
+        "article-health-global-health-estimates-2026-q1-option-3",
+        "article-health-global-health-estimates-2026-q1-option-4"
+      ],
+      "correctChoiceId": "article-health-global-health-estimates-2026-q1-option-2",
+      "evidenceParagraphIds": [
+        "p4"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p4",
+          "text": "Dementia has climbed from the 19th leading cause of death in 2000 to the fifth in 2023, and the number of deaths has tripled.",
+          "highlights": [
+            "19th",
+            "fifth",
+            "tripled"
+          ]
+        }
+      ],
+      "explanationJa": "2000年の19位から2023年の5位へ上がり、死亡数は3倍になった。",
+      "type": "literal"
+    },
+    {
+      "id": "article-health-global-health-estimates-2026-q2",
+      "question": "What does the gap between the two life expectancy figures suggest?",
+      "choices": [
+        "People now live fewer years than in 2019 overall.",
+        "Healthy years have grown faster than total years.",
+        "Many of the extra years are not lived in good health.",
+        "The pandemic had no effect on health at all."
+      ],
+      "answerIndex": 2,
+      "choiceIds": [
+        "article-health-global-health-estimates-2026-q2-option-1",
+        "article-health-global-health-estimates-2026-q2-option-2",
+        "article-health-global-health-estimates-2026-q2-option-3",
+        "article-health-global-health-estimates-2026-q2-option-4"
+      ],
+      "correctChoiceId": "article-health-global-health-estimates-2026-q2-option-3",
+      "evidenceParagraphIds": [
+        "p1"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p1",
+          "text": "Healthy life expectancy, the number of years a person can expect to live in good health, stood at 62.8 years, still 0.4 years below its 2019 level.",
+          "highlights": [
+            "still 0.4 years below its 2019 level"
+          ]
+        }
+      ],
+      "explanationJa": "平均寿命はほぼ戻ったが、健康寿命は2019年を下回る。延びた年が必ずしも健康とは限らない。",
+      "type": "inference"
+    },
+    {
+      "id": "article-health-global-health-estimates-2026-q3",
+      "question": "Where has the risk of cardiovascular disease risen since 2000?",
+      "choices": [
+        "In the Western Pacific and South-East Asia.",
+        "In the Americas and in the whole of Europe.",
+        "In every region of the world without exception.",
+        "Only in the low-income countries of Africa."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-health-global-health-estimates-2026-q3-option-1",
+        "article-health-global-health-estimates-2026-q3-option-2",
+        "article-health-global-health-estimates-2026-q3-option-3",
+        "article-health-global-health-estimates-2026-q3-option-4"
+      ],
+      "correctChoiceId": "article-health-global-health-estimates-2026-q3-option-1",
+      "evidenceParagraphIds": [
+        "p5"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p5",
+          "text": "The risk of cardiovascular disease has fallen in many regions since 2000 but has risen in the Western Pacific and South-East Asia.",
+          "highlights": [
+            "risen in the Western Pacific and South-East Asia"
+          ]
+        }
+      ],
+      "explanationJa": "多くの地域で下がったが、西太平洋と東南アジアでは上がった。",
+      "type": "literal"
+    }
+  ],
+  "opinion": {
+    "id": "opinion-1",
+    "prompt": "What could a country do now to help people spend their extra years of life in good health?",
+    "optional": true,
+    "saveScope": "device"
+  },
+  "properNouns": [
+    "UN News",
+    "WHO",
+    "Global Health Estimates",
+    "Western Pacific",
+    "South-East Asia",
+    "Americas",
+    "Dr",
+    "Alain Labrique",
+    "AI",
+    "October"
+  ],
+  "review": {
+    "factsCheckedAt": "2026-10-07",
+    "editorialParagraphIds": [],
+    "contentApproval": "editorial-reviewed",
+    "notes": "本文の事実・訳・設問根拠を出典と照合。使い方はすべて未確認。"
+  },
+  "reviewNotes": [
+    "出典の事実と数値を区別。選択肢は同品詞の別の語から作成。"
+  ],
+  "validationProperNouns": [
+    "UN News",
+    "WHO",
+    "Global Health Estimates",
+    "Western Pacific",
+    "South-East Asia",
+    "Americas",
+    "Dr",
+    "Alain Labrique",
+    "AI",
+    "October"
+  ],
+  "validationEntityAliases": {
+    "UN News": "UN News",
+    "WHO": "WHO",
+    "Global Health Estimates": "Global Health Estimates",
+    "Western Pacific": "西太平洋",
+    "South-East Asia": "東南アジア",
+    "Americas": "米州",
+    "Dr": "Dr",
+    "Alain Labrique": "Alain Labrique",
+    "AI": "AI",
+    "October": "10月"
+  },
+  "validationNumberAliases": {
+    "210": "2億1000万",
+    "9.5": "950万"
+  },
+  "vocabularyReview": {
+    "status": "reviewed",
+    "reason": "5つの重要語を本文の用例と対応させ、同品詞の別語による誤答と比較。平均寿命と健康寿命、非感染性疾患の割合、認知症の順位、心血管疾患の地域差を出典と照合して区別。未収録語は固有名詞と語形を個別に確認。"
+  }
+}

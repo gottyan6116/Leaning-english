@@ -1,6 +1,6 @@
 (function(root){
  'use strict';
- const categories={work:'仕事',knowledge:'教養',culture:'日常・文化'},levels=['A2','B1','B2','C1'],names={A2:'初級',B1:'中級',B2:'中上級',C1:'上級'};
+ const categories={work:'仕事',knowledge:'教養',culture:'日常・文化',health:'健康・ライフスタイル'},levels=['A2','B1','B2','C1'],names={A2:'初級',B1:'中級',B2:'中上級',C1:'上級'};
  const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  function route(href){const p=new URL(href).searchParams;return {category:categories[p.get('category')]?p.get('category'):'',level:levels.includes(p.get('level'))?p.get('level'):'',q:(p.get('q')||'').trim(),list:p.get('view')==='list'};}
  function url(href,value={}){const u=new URL(href);for(const key of ['category','level','q','view'])u.searchParams.delete(key);if(categories[value.category])u.searchParams.set('category',value.category);if(levels.includes(value.level))u.searchParams.set('level',value.level);if(value.q?.trim())u.searchParams.set('q',value.q.trim());u.searchParams.set('view',value.list?'list':'articles');return u.href;}

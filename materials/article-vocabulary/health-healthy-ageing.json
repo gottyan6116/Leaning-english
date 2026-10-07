@@ -1,0 +1,493 @@
+{
+  "id": "article-health-healthy-ageing-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-health-healthy-ageing-2026-ageism",
+      "headword": "ageism",
+      "partOfSpeech": "noun",
+      "meaning": "年齢差別",
+      "definition": "unfair treatment of people because of their age",
+      "contextParagraphId": "p1",
+      "context": "The review looks at progress in four areas: fighting ageism, creating age-friendly environments, providing integrated care and ensuring access to long-term care.",
+      "example": "The film challenges ageism by showing active older people.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "年齢差別",
+      "questions": {
+        "ja": {
+          "choices": [
+            "楽観主義",
+            "観光業",
+            "年齢差別",
+            "資本主義"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-healthy-ageing-2026-ageism-ja-option-1",
+            "article-health-healthy-ageing-2026-ageism-ja-option-2",
+            "article-health-healthy-ageing-2026-ageism-ja-option-3",
+            "article-health-healthy-ageing-2026-ageism-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-healthy-ageing-2026-ageism-ja-option-3",
+          "distractorHeadwords": [
+            "optimism",
+            "tourism",
+            null,
+            "capitalism"
+          ],
+          "explanation": "本文では「年齢差別」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "the belief that good things will happen",
+            "the business of serving visitors to a place",
+            "unfair treatment of people because of their age",
+            "an economic system based on private business"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-healthy-ageing-2026-ageism-en-option-1",
+            "article-health-healthy-ageing-2026-ageism-en-option-2",
+            "article-health-healthy-ageing-2026-ageism-en-option-3",
+            "article-health-healthy-ageing-2026-ageism-en-option-4"
+          ],
+          "correctChoiceId": "article-health-healthy-ageing-2026-ageism-en-option-3",
+          "distractorHeadwords": [
+            "optimism",
+            "tourism",
+            null,
+            "capitalism"
+          ],
+          "explanation": "本文では「年齢差別」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "combat ageism",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "年齢差別と闘う",
+            "nuanceJa": "combat は問題に積極的に立ち向かう硬い動詞で、報道や政策文書に多い。fight より改まり、tackle は具体策に取り組むときに使うという違いがある。",
+            "example": "The campaign aims to combat ageism in the workplace.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "ageism in ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～における年齢差別",
+            "nuanceJa": "in の後ろに差別が起きる場や分野を置く（ageism in healthcare）。against は差別を受ける対象（ageism against older workers）を置くので、場か対象かで前置詞が変わる。",
+            "example": "Ageism in hiring keeps skilled workers out of jobs.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "measure ageism",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "年齢差別の程度を測る",
+            "nuanceJa": "measure は程度を数値で捉える。address は問題に対処する意味で、報告書では「測り（measure）、対処する（address）」とセットで語られることが多い。",
+            "example": "Few countries measure ageism in a regular way.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "ageism",
+      "sourceKind": "article",
+      "articleId": "article-health-healthy-ageing-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-healthy-ageing-2026-integrated",
+      "headword": "integrated",
+      "partOfSpeech": "adjective",
+      "meaning": "統合的な",
+      "definition": "combined so that the parts work well together",
+      "contextParagraphId": "p1",
+      "context": "The review looks at progress in four areas: fighting ageism, creating age-friendly environments, providing integrated care and ensuring access to long-term care.",
+      "example": "The city has an integrated system for buses and trains.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "統合的な（combined so that the parts work well together）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "統合的な",
+            "孤立した",
+            "一時的な",
+            "自発的な"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-healthy-ageing-2026-integrated-ja-option-1",
+            "article-health-healthy-ageing-2026-integrated-ja-option-2",
+            "article-health-healthy-ageing-2026-integrated-ja-option-3",
+            "article-health-healthy-ageing-2026-integrated-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-healthy-ageing-2026-integrated-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "isolated",
+            "temporary",
+            "voluntary"
+          ],
+          "explanation": "本文では「統合的な」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "combined so that the parts work well together",
+            "separate from other people or things",
+            "lasting for only a short period of time",
+            "done by choice and not because you must"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-healthy-ageing-2026-integrated-en-option-1",
+            "article-health-healthy-ageing-2026-integrated-en-option-2",
+            "article-health-healthy-ageing-2026-integrated-en-option-3",
+            "article-health-healthy-ageing-2026-integrated-en-option-4"
+          ],
+          "correctChoiceId": "article-health-healthy-ageing-2026-integrated-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "isolated",
+            "temporary",
+            "voluntary"
+          ],
+          "explanation": "本文では「統合的な」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "integrated care",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "統合的なケア",
+            "nuanceJa": "integrated は医療・介護・福祉などが一体で提供されることを示す専門的な語。coordinated care は連絡調整に重点があり、integrated はより一体化した仕組みを指す。",
+            "example": "Integrated care brings doctors and social workers together.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "fully integrated",
+            "pattern": "副詞＋形容詞",
+            "meaningJa": "完全に統合された",
+            "nuanceJa": "fully は統合の程度が高いことを示す。partly integrated と対比して、制度の一体化の度合いを説明するときに使う。",
+            "example": "The two services are not yet fully integrated.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "integrated into ～",
+            "pattern": "過去分詞＋前置詞",
+            "meaningJa": "～に組み込まれた",
+            "nuanceJa": "into の後ろに組み込み先を置く（integrated into primary care）。with は二つのものを連携させる意味（integrated with other services）なので、組み込みか連携かで前置詞が違う。",
+            "example": "The programme was integrated into adult day centres.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "integrated",
+      "sourceKind": "article",
+      "articleId": "article-health-healthy-ageing-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-healthy-ageing-2026-monitor",
+      "headword": "monitor",
+      "partOfSpeech": "verb",
+      "meaning": "追跡する",
+      "definition": "check something regularly to see how it changes",
+      "contextParagraphId": "p4",
+      "context": "Only five countries said that they have enough resources for age-friendly environments, and just four monitor these programmes.",
+      "example": "Nurses monitor the patient's temperature every hour.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "追跡する（check something regularly to see how it changes）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "施行する",
+            "配分する",
+            "廃止する",
+            "追跡する"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-healthy-ageing-2026-monitor-ja-option-1",
+            "article-health-healthy-ageing-2026-monitor-ja-option-2",
+            "article-health-healthy-ageing-2026-monitor-ja-option-3",
+            "article-health-healthy-ageing-2026-monitor-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-healthy-ageing-2026-monitor-ja-option-4",
+          "distractorHeadwords": [
+            "enforce",
+            "allocate",
+            "abolish",
+            null
+          ],
+          "explanation": "本文では「追跡する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "make sure that people follow a rule or law",
+            "give an amount of something to a purpose",
+            "officially end a law, rule or system",
+            "check something regularly to see how it changes"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-healthy-ageing-2026-monitor-en-option-1",
+            "article-health-healthy-ageing-2026-monitor-en-option-2",
+            "article-health-healthy-ageing-2026-monitor-en-option-3",
+            "article-health-healthy-ageing-2026-monitor-en-option-4"
+          ],
+          "correctChoiceId": "article-health-healthy-ageing-2026-monitor-en-option-4",
+          "distractorHeadwords": [
+            "enforce",
+            "allocate",
+            "abolish",
+            null
+          ],
+          "explanation": "本文では「追跡する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "monitor progress",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "進み具合を追う",
+            "nuanceJa": "monitor は継続的に確認して記録する。check は一度確かめる行為で、monitor は定期的で長期にわたる追跡を含む。",
+            "example": "The ministry will monitor progress every year.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "closely monitor",
+            "pattern": "副詞＋動詞",
+            "meaningJa": "注意深く見守る",
+            "nuanceJa": "closely は対象から目を離さず細かく追跡する様子を示す。carefully は慎重さを表すので、closely は見守る密度の高さを強調する。",
+            "example": "Doctors closely monitor patients after surgery.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a monitoring system",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "監視・追跡の仕組み",
+            "nuanceJa": "system は恒常的な制度や仕組みを指す。monitoring programme は期間を決めた取り組みを言うことが多く、system は継続的に動く体制というニュアンスがある。",
+            "example": "The city has a monitoring system for air quality.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "monitor",
+      "sourceKind": "article",
+      "articleId": "article-health-healthy-ageing-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-healthy-ageing-2026-gap",
+      "headword": "gap",
+      "partOfSpeech": "noun",
+      "meaning": "隔たり",
+      "definition": "a difference between two things or groups",
+      "contextParagraphId": "p2",
+      "context": "This gap of seven years is the widest of any WHO region, compared with a global average of 5.5 years.",
+      "example": "There is a gap between what people say and do.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "隔たり",
+      "questions": {
+        "ja": {
+          "choices": [
+            "不足",
+            "隔たり",
+            "基準値",
+            "見本"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-healthy-ageing-2026-gap-ja-option-1",
+            "article-health-healthy-ageing-2026-gap-ja-option-2",
+            "article-health-healthy-ageing-2026-gap-ja-option-3",
+            "article-health-healthy-ageing-2026-gap-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-healthy-ageing-2026-gap-ja-option-2",
+          "distractorHeadwords": [
+            "shortage",
+            null,
+            "threshold",
+            "sample"
+          ],
+          "explanation": "本文では「隔たり」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a situation in which there is not enough of something",
+            "a difference between two things or groups",
+            "the level at which something starts to happen",
+            "a small amount that shows what the whole is like"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-healthy-ageing-2026-gap-en-option-1",
+            "article-health-healthy-ageing-2026-gap-en-option-2",
+            "article-health-healthy-ageing-2026-gap-en-option-3",
+            "article-health-healthy-ageing-2026-gap-en-option-4"
+          ],
+          "correctChoiceId": "article-health-healthy-ageing-2026-gap-en-option-2",
+          "distractorHeadwords": [
+            "shortage",
+            null,
+            "threshold",
+            "sample"
+          ],
+          "explanation": "本文では「隔たり」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "close the gap",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "差を縮める",
+            "nuanceJa": "close は差をなくす方向に縮める。narrow は少し縮めること、bridge は離れた両者をつなぐことで、close には差を解消するという含みがある。",
+            "example": "The programme aims to close the gap between rich and poor areas.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a wide gap",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "大きな差",
+            "nuanceJa": "wide は差の広がりを表す。big gap より書き言葉で、統計や報告書で定番。large gap も使えるが、wide は開きが大きい感じが強い。",
+            "example": "There is a wide gap between policy and practice.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a gap between ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～の間の差",
+            "nuanceJa": "between A and B の形で比べる二者を示す。gap in ～ は欠けている部分（a gap in knowledge）を言うので、二者の差か欠落かで前置詞が変わる。",
+            "example": "The gap between law and practice is large.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "gap",
+      "sourceKind": "article",
+      "articleId": "article-health-healthy-ageing-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-healthy-ageing-2026-carer",
+      "headword": "carer",
+      "partOfSpeech": "noun",
+      "meaning": "介護者",
+      "definition": "a person who looks after someone who is ill or old",
+      "contextParagraphId": "p4",
+      "context": "Integrated Care for Older People, known as ICOPE, is used in primary care in only four countries, and seven countries have laws that support unpaid family carers.",
+      "example": "The carer helps her uncle with meals and medicine.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "介護者",
+      "questions": {
+        "ja": {
+          "choices": [
+            "借家人",
+            "監査人",
+            "介護者",
+            "家庭教師"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-healthy-ageing-2026-carer-ja-option-1",
+            "article-health-healthy-ageing-2026-carer-ja-option-2",
+            "article-health-healthy-ageing-2026-carer-ja-option-3",
+            "article-health-healthy-ageing-2026-carer-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-healthy-ageing-2026-carer-ja-option-3",
+          "distractorHeadwords": [
+            "tenant",
+            "auditor",
+            null,
+            "tutor"
+          ],
+          "explanation": "本文では「介護者」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a person who pays rent to live in a place",
+            "a person who checks company accounts",
+            "a person who looks after someone who is ill or old",
+            "a person who teaches one student or a small group"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-healthy-ageing-2026-carer-en-option-1",
+            "article-health-healthy-ageing-2026-carer-en-option-2",
+            "article-health-healthy-ageing-2026-carer-en-option-3",
+            "article-health-healthy-ageing-2026-carer-en-option-4"
+          ],
+          "correctChoiceId": "article-health-healthy-ageing-2026-carer-en-option-3",
+          "distractorHeadwords": [
+            "tenant",
+            "auditor",
+            null,
+            "tutor"
+          ],
+          "explanation": "本文では「介護者」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "unpaid carer",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "無償の介護者",
+            "nuanceJa": "unpaid は家族など報酬を受けずに介護する人を指す。paid carer と対比して、仕事としての介護者との違いを示すときによく使う。",
+            "example": "Ana is an unpaid carer for her mother.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "family carer",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "家族の介護者",
+            "nuanceJa": "family carer は家族が担う介護者を指す。caregiver は米国英語で一般的な語で、英国英語や報告書では carer を使うことが多い。",
+            "example": "Many family carers need rest and training.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "become a carer",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "介護者になる",
+            "nuanceJa": "become は役割に就く過程を表し、家族など自然に役割を担う場合にも使える。work as a carer は仕事として介護者になる意味に限られる。",
+            "example": "Many people become a carer without planning to.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "carers",
+      "sourceKind": "article",
+      "articleId": "article-health-healthy-ageing-2026",
+      "materialVersion": 1
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "id": "article-health-adolescent-obesity-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-health-adolescent-obesity-2026-stigma",
+      "headword": "stigma",
+      "partOfSpeech": "noun",
+      "meaning": "偏見",
+      "definition": "strong disapproval of a person or a group",
+      "contextParagraphId": "p2",
+      "context": "It also exposes young people to stigma, discrimination and bullying, which can damage their mental health.",
+      "example": "There is still stigma around talking about mental health.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "偏見（strong disapproval of a person or a group）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "治療法",
+            "偏見",
+            "口論",
+            "報酬"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-stigma-ja-option-1",
+            "article-health-adolescent-obesity-2026-stigma-ja-option-2",
+            "article-health-adolescent-obesity-2026-stigma-ja-option-3",
+            "article-health-adolescent-obesity-2026-stigma-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-stigma-ja-option-2",
+          "distractorHeadwords": [
+            "remedy",
+            null,
+            "quarrel",
+            "reward"
+          ],
+          "explanation": "本文では「偏見」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a way of curing an illness or solving a problem",
+            "strong disapproval of a person or a group",
+            "an angry argument between two or more people",
+            "something given to thank a person for effort"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-stigma-en-option-1",
+            "article-health-adolescent-obesity-2026-stigma-en-option-2",
+            "article-health-adolescent-obesity-2026-stigma-en-option-3",
+            "article-health-adolescent-obesity-2026-stigma-en-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-stigma-en-option-2",
+          "distractorHeadwords": [
+            "remedy",
+            null,
+            "quarrel",
+            "reward"
+          ],
+          "explanation": "本文では「偏見」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "weight stigma",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "体重に対する偏見",
+            "nuanceJa": "weight stigma は体型や体重を理由とする偏見を指す公衆衛生の用語で、医療現場や制度での扱いまで含む。body shaming は個人への中傷を指すので範囲が狭い。",
+            "example": "Weight stigma can stop young people from seeking care.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "reduce stigma",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "偏見を減らす",
+            "nuanceJa": "reduce は程度を下げる現実的な目標を示す。eliminate は完全になくすことで、政策文書では reduce stigma のように達成可能な目標として書くことが多い。",
+            "example": "Open discussion can reduce stigma around mental health.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "the stigma attached to ～",
+            "pattern": "名詞＋過去分詞＋前置詞",
+            "meaningJa": "～に付きまとう偏見",
+            "nuanceJa": "attached to の後ろに偏見を貼られる対象を置く。stigma around ～ は話題の周辺に広がる偏見を言い、attached to は特定の対象に付いたレッテルを言う。",
+            "example": "The stigma attached to mental illness keeps many people silent.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "stigma",
+      "sourceKind": "article",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-adolescent-obesity-2026-intervention",
+      "headword": "intervention",
+      "partOfSpeech": "noun",
+      "meaning": "介入",
+      "definition": "action taken to change a situation",
+      "contextParagraphId": "p3",
+      "context": "The guideline covers seven areas of intervention.",
+      "example": "Early intervention helped the family manage the problem.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "介入（action taken to change a situation）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "介入",
+            "発明",
+            "免除",
+            "出発"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-intervention-ja-option-1",
+            "article-health-adolescent-obesity-2026-intervention-ja-option-2",
+            "article-health-adolescent-obesity-2026-intervention-ja-option-3",
+            "article-health-adolescent-obesity-2026-intervention-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-intervention-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "invention",
+            "exemption",
+            "departure"
+          ],
+          "explanation": "本文では「介入」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "action taken to change a situation",
+            "a new thing that a person has made",
+            "freedom from a rule that others must follow",
+            "the act of leaving to go somewhere else"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-intervention-en-option-1",
+            "article-health-adolescent-obesity-2026-intervention-en-option-2",
+            "article-health-adolescent-obesity-2026-intervention-en-option-3",
+            "article-health-adolescent-obesity-2026-intervention-en-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-intervention-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "invention",
+            "exemption",
+            "departure"
+          ],
+          "explanation": "本文では「介入」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "early intervention",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "早期の介入",
+            "nuanceJa": "early は問題が重くなる前の介入を示す。preventive intervention は発症自体を防ぐ点が違い、early intervention は兆しが出た段階での対応を指す。",
+            "example": "Early intervention can stop problems from growing.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "intervention programme",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "介入プログラム",
+            "nuanceJa": "intervention programme は期間と目標を決めた組織的な取り組みを指す。intervention だけだと単発の行為も含むので、取り組み全体を言うときは programme を付ける。",
+            "example": "The school ran an intervention programme on sleep.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "implement an intervention",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "介入を実施する",
+            "nuanceJa": "implement は決まった内容を実際に動かす硬い動詞。carry out は日常的に使えるのに対し、implement は計画や制度を実行に移す場面で使う。",
+            "example": "Schools must implement the intervention carefully.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "intervention",
+      "sourceKind": "article",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-adolescent-obesity-2026-sedentary",
+      "headword": "sedentary",
+      "partOfSpeech": "adjective",
+      "meaning": "座りがち",
+      "definition": "spending much time sitting and not moving",
+      "contextParagraphId": "p3",
+      "context": "These are dietary changes and physical activity, sedentary behaviour and sleep, behavioural support, digital health tools, medicines, bariatric surgery and combinations of these approaches.",
+      "example": "A sedentary lifestyle can raise the risk of illness.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "座りがち（spending much time sitting and not moving）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "散発的な",
+            "夜行性の",
+            "遺伝性の",
+            "座りがち"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-sedentary-ja-option-1",
+            "article-health-adolescent-obesity-2026-sedentary-ja-option-2",
+            "article-health-adolescent-obesity-2026-sedentary-ja-option-3",
+            "article-health-adolescent-obesity-2026-sedentary-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-sedentary-ja-option-4",
+          "distractorHeadwords": [
+            "sporadic",
+            "nocturnal",
+            "hereditary",
+            null
+          ],
+          "explanation": "本文では「座りがち」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "happening only now and then, not regularly",
+            "active during the night and not the day",
+            "passed from parents to their children",
+            "spending much time sitting and not moving"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-sedentary-en-option-1",
+            "article-health-adolescent-obesity-2026-sedentary-en-option-2",
+            "article-health-adolescent-obesity-2026-sedentary-en-option-3",
+            "article-health-adolescent-obesity-2026-sedentary-en-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-sedentary-en-option-4",
+          "distractorHeadwords": [
+            "sporadic",
+            "nocturnal",
+            "hereditary",
+            null
+          ],
+          "explanation": "本文では「座りがち」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "a sedentary lifestyle",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "座りがちな生活",
+            "nuanceJa": "sedentary は座って過ごす時間が長いことを示す医学用語。lazy は怠けているという評価を含むので、健康の文脈では sedentary を使う。",
+            "example": "A sedentary lifestyle is common among office workers.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "sedentary time",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "座って過ごす時間",
+            "nuanceJa": "sedentary time は一日のうち座って過ごした合計時間を測る語。screen time は画面を見る時間で、座る時間と重なっても同じではない。",
+            "example": "Sedentary time rises when students study online for hours.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "largely sedentary",
+            "pattern": "副詞＋形容詞",
+            "meaningJa": "ほとんど座って過ごす",
+            "nuanceJa": "largely は「ほとんどが」という程度を示す。mostly より書き言葉で、統計や報告書で使うのに向く。",
+            "example": "Their jobs are largely sedentary.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "sedentary",
+      "sourceKind": "article",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-adolescent-obesity-2026-comprehensive",
+      "headword": "comprehensive",
+      "partOfSpeech": "adjective",
+      "meaning": "包括的な",
+      "definition": "including everything that is needed",
+      "contextParagraphId": "p6",
+      "context": "Dr Luz María De Regil, Director of WHO's Department of Nutrition and Food Safety, said that good care starts with comprehensive support rather than with medicine or surgery.",
+      "example": "The school offers comprehensive advice on sleep and food.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "包括的な（including everything that is needed）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "選択的な",
+            "表面的な",
+            "包括的な",
+            "物議を醸す"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-comprehensive-ja-option-1",
+            "article-health-adolescent-obesity-2026-comprehensive-ja-option-2",
+            "article-health-adolescent-obesity-2026-comprehensive-ja-option-3",
+            "article-health-adolescent-obesity-2026-comprehensive-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-comprehensive-ja-option-3",
+          "distractorHeadwords": [
+            "selective",
+            "superficial",
+            null,
+            "controversial"
+          ],
+          "explanation": "本文では「包括的な」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "choosing only some things from a larger group",
+            "not deep or thorough in any way",
+            "including everything that is needed",
+            "causing strong public disagreement"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-comprehensive-en-option-1",
+            "article-health-adolescent-obesity-2026-comprehensive-en-option-2",
+            "article-health-adolescent-obesity-2026-comprehensive-en-option-3",
+            "article-health-adolescent-obesity-2026-comprehensive-en-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-comprehensive-en-option-3",
+          "distractorHeadwords": [
+            "selective",
+            "superficial",
+            null,
+            "controversial"
+          ],
+          "explanation": "本文では「包括的な」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "comprehensive support",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "包括的な支援",
+            "nuanceJa": "comprehensive は必要なものを漏れなく含む範囲の広さを示す。complete は欠けがないこと、full は量が満ちていることを言い、焦点が違う。",
+            "example": "The programme offers comprehensive support to families.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "provide comprehensive care",
+            "pattern": "動詞＋形容詞＋名詞",
+            "meaningJa": "包括的なケアを提供する",
+            "nuanceJa": "provide は必要なものを用意して与える硬い動詞で、サービスや支援には定番。give はより日常的で、公的な文書では provide が好まれる。",
+            "example": "Clinics provide comprehensive care for adolescents.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "comprehensive in scope",
+            "pattern": "形容詞＋前置詞＋名詞",
+            "meaningJa": "範囲が網羅的な",
+            "nuanceJa": "in scope は範囲を示す。comprehensive in scope は「範囲が広く網羅的」と評価する報告書の定型で、wide-ranging より公式な評価の語になる。",
+            "example": "The new guideline is comprehensive in scope.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "comprehensive",
+      "sourceKind": "article",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-adolescent-obesity-2026-fiscal",
+      "headword": "fiscal",
+      "partOfSpeech": "adjective",
+      "meaning": "財政の",
+      "definition": "relating to government money, taxes and spending",
+      "contextParagraphId": "p6",
+      "context": "It calls for regulatory and fiscal measures, and for action in education, urban planning, transport and social protection, so that healthy diets and physical activity become easier to choose.",
+      "example": "The government announced new fiscal rules for next year.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "財政の（relating to government money, taxes and spending）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "田舎の",
+            "財政の",
+            "道徳的な",
+            "言葉による"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-fiscal-ja-option-1",
+            "article-health-adolescent-obesity-2026-fiscal-ja-option-2",
+            "article-health-adolescent-obesity-2026-fiscal-ja-option-3",
+            "article-health-adolescent-obesity-2026-fiscal-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-fiscal-ja-option-2",
+          "distractorHeadwords": [
+            "rural",
+            null,
+            "moral",
+            "verbal"
+          ],
+          "explanation": "本文では「財政の」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "relating to the countryside and farming",
+            "relating to government money, taxes and spending",
+            "relating to ideas of right and wrong",
+            "expressed in spoken words and not writing"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-fiscal-en-option-1",
+            "article-health-adolescent-obesity-2026-fiscal-en-option-2",
+            "article-health-adolescent-obesity-2026-fiscal-en-option-3",
+            "article-health-adolescent-obesity-2026-fiscal-en-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-fiscal-en-option-2",
+          "distractorHeadwords": [
+            "rural",
+            null,
+            "moral",
+            "verbal"
+          ],
+          "explanation": "本文では「財政の」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "fiscal measures",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "財政上の措置",
+            "nuanceJa": "fiscal は政府の税や支出に関わることを示す。financial は個人や企業を含む広い「お金の」意味で、政策文書で税や補助金を指すときは fiscal を使う。",
+            "example": "Fiscal measures include taxes on sugary drinks.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "fiscal policy",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "財政政策",
+            "nuanceJa": "fiscal policy は政府の税と支出による経済運営で、monetary policy（金融政策、中央銀行が金利などで行う）と対になる語。",
+            "example": "Fiscal policy shapes how much a government can spend.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "fiscal year",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "会計年度",
+            "nuanceJa": "fiscal year は国や組織の会計の一年間で、calendar year（暦年）とは始まりが異なることが多い。日本では4月始まりが一般的。",
+            "example": "The fiscal year ends in March in many organisations.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "fiscal",
+      "sourceKind": "article",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "materialVersion": 1
+    }
+  ]
+}

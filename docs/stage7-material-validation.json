@@ -85,6 +85,234 @@
       }
     },
     {
+      "id": "article-health-adolescent-obesity-2026",
+      "level": "C1",
+      "wordCount": 412,
+      "sourceAgeDays": 0,
+      "eligibleTokens": 370,
+      "upperPercent": 0.2702702702702703,
+      "unknownPercent": 7.5675675675675675,
+      "upperWords": {
+        "regulatory": 1
+      },
+      "unknownWords": {
+        "obesity": 8,
+        "adolescents": 5,
+        "longer": 1,
+        "urgency": 1,
+        "quadrupled": 1,
+        "chronic": 1,
+        "diabetes": 1,
+        "cardiovascular": 1,
+        "stigma": 1,
+        "intervention": 1,
+        "dietary": 1,
+        "behavioural": 1,
+        "bariatric": 2,
+        "caregivers": 1,
+        "esteem": 1,
+        "easier": 1
+      },
+      "review": {
+        "status": "reviewed",
+        "reason": "5つの重要語を本文の用例と対応させ、同品詞の別語による誤答と比較。肥満の割合と人数、7つの介入分野、医薬品と手術を検討する条件、政策面の提案を出典と照合して区別。未収録語は固有名詞と語形を個別に確認。"
+      }
+    },
+    {
+      "id": "article-health-child-obesity-2026",
+      "level": "A2",
+      "wordCount": 162,
+      "sourceAgeDays": 0,
+      "eligibleTokens": 134,
+      "upperPercent": 6.7164179104477615,
+      "unknownPercent": 5.970149253731344,
+      "upperWords": {
+        "global": 1,
+        "guidelines": 2,
+        "recommend": 1,
+        "surgery": 2,
+        "devices": 1,
+        "access": 1,
+        "active": 1
+      },
+      "unknownWords": {
+        "obesity": 4,
+        "grown": 1,
+        "adolescents": 1,
+        "healthier": 1,
+        "easier": 1
+      },
+      "review": {
+        "status": "reviewed",
+        "reason": "5つの重要語を本文の用例と対応させ、同品詞の別語による誤答と比較。対象年齢、肥満の割合、推奨される支援と推奨されない治療を出典と照合して区別。未収録語は固有名詞と語形を個別に確認。"
+      }
+    },
+    {
+      "id": "article-health-childhood-cancer-2026",
+      "level": "B2",
+      "wordCount": 307,
+      "sourceAgeDays": 14,
+      "eligibleTokens": 265,
+      "upperPercent": 0,
+      "unknownPercent": 6.415094339622642,
+      "upperWords": {},
+      "unknownWords": {
+        "adolescents": 3,
+        "younger": 2,
+        "diagnosis": 2,
+        "weaker": 2,
+        "inequities": 1,
+        "lymphoid": 1,
+        "leukaemia": 1,
+        "median": 1,
+        "highest": 1,
+        "diagnosed": 1,
+        "older": 1,
+        "infrastructure": 1
+      },
+      "review": {
+        "status": "reviewed",
+        "reason": "5つの重要語を本文の用例と対応させ、同品詞の別語による誤答と比較。生存率（高所得国と保健システムが弱い国、子どもと思春期の若者）と報告書の対象を出典と照合して区別。未収録語は固有名詞と語形を個別に確認。"
+      }
+    },
+    {
+      "id": "article-health-global-health-estimates-2026",
+      "level": "C1",
+      "wordCount": 408,
+      "sourceAgeDays": 5,
+      "eligibleTokens": 360,
+      "upperPercent": 0.2777777777777778,
+      "unknownPercent": 5.277777777777778,
+      "upperWords": {
+        "depressive": 1
+      },
+      "unknownWords": {
+        "expectancy": 2,
+        "stood": 1,
+        "noncommunicable": 1,
+        "cardiovascular": 2,
+        "ischaemic": 1,
+        "poorest": 1,
+        "communicable": 1,
+        "epidemiological": 1,
+        "chronic": 1,
+        "dementia": 1,
+        "th": 1,
+        "longer": 2,
+        "risen": 2,
+        "diabetes": 1,
+        "analytics": 1
+      },
+      "review": {
+        "status": "reviewed",
+        "reason": "5つの重要語を本文の用例と対応させ、同品詞の別語による誤答と比較。平均寿命と健康寿命、非感染性疾患の割合、認知症の順位、心血管疾患の地域差を出典と照合して区別。未収録語は固有名詞と語形を個別に確認。"
+      }
+    },
+    {
+      "id": "article-health-healthy-ageing-2026",
+      "level": "B2",
+      "wordCount": 360,
+      "sourceAgeDays": 1,
+      "eligibleTokens": 311,
+      "upperPercent": 0.3215434083601286,
+      "unknownPercent": 3.215434083601286,
+      "upperWords": {
+        "demographic": 1
+      },
+      "unknownWords": {
+        "midterm": 1,
+        "ageism": 3,
+        "widest": 1,
+        "became": 1,
+        "older": 2,
+        "unpaid": 1,
+        "webinar": 1
+      },
+      "review": {
+        "status": "reviewed",
+        "reason": "5つの重要語を本文の用例と対応させ、同品詞の別語による誤答と比較。余命と健康に過ごせる年数、7年の差、政策の広がりと実施体制の不足を出典と照合して区別。未収録語は固有名詞と語形を個別に確認。"
+      }
+    },
+    {
+      "id": "article-health-heat-pregnancy-2026",
+      "level": "B1",
+      "wordCount": 262,
+      "sourceAgeDays": 2,
+      "eligibleTokens": 244,
+      "upperPercent": 1.2295081967213115,
+      "unknownPercent": 5.327868852459017,
+      "upperWords": {
+        "conference": 1,
+        "alerts": 1,
+        "data": 1
+      },
+      "unknownWords": {
+        "pregnancy": 4,
+        "childbirth": 1,
+        "higher": 2,
+        "premature": 1,
+        "stillbirth": 1,
+        "greater": 1,
+        "safer": 1,
+        "triple": 1,
+        "adaptation": 1
+      },
+      "review": {
+        "status": "reviewed",
+        "reason": "5つの重要語を本文の用例と対応させ、同品詞の別語による誤答と比較。73%と81%、危険にさらされやすい人々、求められた3つの行動を出典と照合して区別。未収録語は固有名詞と語形を個別に確認。"
+      }
+    },
+    {
+      "id": "article-health-life-expectancy-2026",
+      "level": "A2",
+      "wordCount": 169,
+      "sourceAgeDays": 5,
+      "eligibleTokens": 140,
+      "upperPercent": 3.5714285714285716,
+      "unknownPercent": 4.285714285714286,
+      "upperWords": {
+        "lower": 1,
+        "main": 1,
+        "diseases": 1,
+        "disease": 1,
+        "achievement": 1
+      },
+      "unknownWords": {
+        "longer": 3,
+        "expectancy": 2,
+        "biggest": 1
+      },
+      "review": {
+        "status": "reviewed",
+        "reason": "5つの重要語を本文の用例と対応させ、同品詞の別語による誤答と比較。平均寿命と健康寿命、2000年と2023年の割合を区別して設問化。数値は出典の報道と照合。未収録語は固有名詞と語形を個別に確認。"
+      }
+    },
+    {
+      "id": "article-health-mental-health-week-2026",
+      "level": "B1",
+      "wordCount": 263,
+      "sourceAgeDays": 1,
+      "eligibleTokens": 227,
+      "upperPercent": 1.7621145374449338,
+      "unknownPercent": 1.7621145374449338,
+      "upperWords": {
+        "exclusion": 1,
+        "sector": 1,
+        "sectors": 1,
+        "environment": 1
+      },
+      "unknownWords": {
+        "inequality": 1,
+        "intersectoral": 1,
+        "ministry": 1,
+        "webinar": 1
+      },
+      "review": {
+        "status": "reviewed",
+        "reason": "5つの重要語を本文の用例と対応させ、同品詞の別語による誤答と比較。数値（1億8500万人以上）、主催者、宣言の採択時期、ウェビナーの日付を出典と照合し、原因と対策を区別して設問化。未収録語は固有名詞と語形を個別に確認。"
+      }
+    },
+    {
       "id": "article-culture-statistics-2026",
       "level": "C1",
       "wordCount": 408,
@@ -364,6 +592,14 @@
   "warnings": [
     "article-culture-koji-skills-2024: unlisted words 10.3% > 3%: {\"koji\":6,\"japan\":1,\"unesco's\":1,\"intangible\":1,\"tokura\":1,\"shunichi\":1,\"commissioner\":1,\"distinctive\":1,\"nihonshu\":1,\"shochu\":1,\"awamori\":1,\"mirin\":1,\"craftsmanship\":1,\"unesco\":2,\"craftspeople\":2,\"starch\":2,\"humidity\":1,\"toji\":1,\"kurabito\":1,\"fermentation\":1,\"moromi\":1,\"yeast\":2,\"brewers\":1,\"brewing\":2,\"cohesion\":1,\"noto\":1,\"ishikawa\":1}",
     "article-education-europa-carbon-2023: unlisted words 6.8% > 3%: {\"europa\":2,\"jupiter's\":1,\"webb\":2,\"tara\":1,\"regio\":1,\"trumbo\":1,\"distinct\":1,\"meteorites\":1,\"europa's\":1,\"webb's\":1,\"infrared\":1,\"spectrograph\":1,\"vapour\":1,\"hubble\":1,\"tentative\":1,\"detections\":1,\"definitive\":1,\"constrain\":1,\"ejected\":1,\"detection\":1,\"sensitivity\":1}",
+    "article-health-adolescent-obesity-2026: unlisted words 7.6% > 3%: {\"obesity\":8,\"adolescents\":5,\"longer\":1,\"urgency\":1,\"quadrupled\":1,\"chronic\":1,\"diabetes\":1,\"cardiovascular\":1,\"stigma\":1,\"intervention\":1,\"dietary\":1,\"behavioural\":1,\"bariatric\":2,\"caregivers\":1,\"esteem\":1,\"easier\":1}",
+    "article-health-child-obesity-2026: higher-level words 6.7% > 5%: {\"global\":1,\"guidelines\":2,\"recommend\":1,\"surgery\":2,\"devices\":1,\"access\":1,\"active\":1}",
+    "article-health-child-obesity-2026: unlisted words 6.0% > 3%: {\"obesity\":4,\"grown\":1,\"adolescents\":1,\"healthier\":1,\"easier\":1}",
+    "article-health-childhood-cancer-2026: unlisted words 6.4% > 3%: {\"adolescents\":3,\"younger\":2,\"diagnosis\":2,\"weaker\":2,\"inequities\":1,\"lymphoid\":1,\"leukaemia\":1,\"median\":1,\"highest\":1,\"diagnosed\":1,\"older\":1,\"infrastructure\":1}",
+    "article-health-global-health-estimates-2026: unlisted words 5.3% > 3%: {\"expectancy\":2,\"stood\":1,\"noncommunicable\":1,\"cardiovascular\":2,\"ischaemic\":1,\"poorest\":1,\"communicable\":1,\"epidemiological\":1,\"chronic\":1,\"dementia\":1,\"th\":1,\"longer\":2,\"risen\":2,\"diabetes\":1,\"analytics\":1}",
+    "article-health-healthy-ageing-2026: unlisted words 3.2% > 3%: {\"midterm\":1,\"ageism\":3,\"widest\":1,\"became\":1,\"older\":2,\"unpaid\":1,\"webinar\":1}",
+    "article-health-heat-pregnancy-2026: unlisted words 5.3% > 3%: {\"pregnancy\":4,\"childbirth\":1,\"higher\":2,\"premature\":1,\"stillbirth\":1,\"greater\":1,\"safer\":1,\"triple\":1,\"adaptation\":1}",
+    "article-health-life-expectancy-2026: unlisted words 4.3% > 3%: {\"longer\":3,\"expectancy\":2,\"biggest\":1}",
     "article-culture-statistics-2026: unlisted words 4.0% > 3%: {\"framework\":4,\"rulebook\":1,\"statistical\":2,\"ministries\":1,\"ministry\":1,\"refine\":1,\"indicators\":2,\"governance\":1,\"interchangeable\":1,\"statistic\":1,\"implementation\":1}",
     "article-particle-telescope-2026: unlisted words 4.2% > 3%: {\"detector\":3,\"incorporated\":1,\"asteroid\":2,\"shoebox\":1,\"protons\":2,\"compact\":1,\"spacecraft\":1,\"sensor\":1}"
   ]

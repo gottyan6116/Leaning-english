@@ -10,7 +10,7 @@ const memory=()=>{const values=new Map();return {getItem:k=>values.get(k)??null,
 const all=material.items,byId=Object.fromEntries(all.map(c=>[c.id,c]));
 const withFill=all.find(c=>c.fill),siblings=c=>all.filter(x=>x.wordId===c.wordId);
 
-test('all 65 article words migrated to 195 collocations with stable IDs and untouched content',()=>{
+test('every article word (65 original, 40 health) has three collocations with stable IDs and untouched content',()=>{
  let usageCount=0;
  for(const article of articles)for(const word of article.vocabulary)for(const u of word.usage.combinations){
   usageCount++;const id=`col-${word.id}-${Core.slug(u.form)}`,c=byId[id];
@@ -18,13 +18,14 @@ test('all 65 article words migrated to 195 collocations with stable IDs and unto
   for(const [a,b] of [['form','form'],['meaningJa','meaningJa'],['nuanceJa','nuanceJa'],['example','example'],['status','status'],['exampleOrigin','exampleOrigin']])assert.equal(c[a],u[b],`${id}.${a}`);
   assert.equal(c.patternDetail,u.pattern);
  }
- assert.equal(usageCount,195);assert.equal(all.length,195);assert.equal(new Set(all.map(c=>c.wordId)).size,65);
- assert.equal(crypto.createHash('sha256').update(all.map(c=>c.id).sort().join('\n')).digest('hex'),'250c70f1f8c3d3aa77c7bb01f15e1774ff8f6553bb32c19984d72ba43f98ad64','IDs are immutable; never rename or remove a collocation ID');
+ const original=all.filter(c=>!c.articleId.startsWith('article-health-'));
+ assert.equal(usageCount,315);assert.equal(all.length,315);assert.equal(new Set(all.map(c=>c.wordId)).size,105);assert.equal(original.length,195);assert.equal(new Set(original.map(c=>c.wordId)).size,65);
+ assert.equal(crypto.createHash('sha256').update(original.map(c=>c.id).sort().join('\n')).digest('hex'),'250c70f1f8c3d3aa77c7bb01f15e1774ff8f6553bb32c19984d72ba43f98ad64','IDs are immutable; never rename or remove a collocation ID');
 });
 test('migration never promotes status and every record follows the schema',()=>{
  assert.ok(all.every(c=>c.status==='unverified'));assert.ok(all.every(c=>Core.TYPES.some(([id])=>id===c.type)));
  for(const c of all)assert.deepEqual(Core.validateCollocation(c),[]);
- const registered=all.filter(c=>c.misuse);assert.equal(registered.length,65,'one draft misuse per word');assert.equal(new Set(registered.map(c=>c.wordId)).size,65);
+ const registered=all.filter(c=>c.misuse);assert.equal(registered.length,105,'one draft misuse per word');assert.equal(new Set(registered.map(c=>c.wordId)).size,105);
  const result=spawnSync(process.execPath,['scripts/validate-collocations.cjs'],{cwd:path.join(__dirname,'..'),encoding:'utf8'});assert.equal(result.status,0,result.stdout+result.stderr);
 });
 test('fill-in question blanks the collocate, keeps four distinct choices, and scores by choice ID',()=>{
@@ -42,7 +43,7 @@ test('every fill-in distractor differs from its answer and the blank can be mask
  for(const c of all.filter(x=>x.fill)){const item=Core.fillItem(c);assert.ok(item,c.id);assert.ok(item.exampleMasked,c.id+' example cannot be masked');assert.equal(new Set(item.questions.en.choices.map(x=>x.toLowerCase())).size,4);}
 });
 test('misuse questions come only from combinations with a registered unnatural example',()=>{
- const asked=all.filter(c=>Core.misuseItem(c,all));assert.equal(asked.length,65);assert.deepEqual(asked.map(c=>c.id),all.filter(c=>c.misuse).map(c=>c.id),'only registered combinations produce misuse questions');
+ const asked=all.filter(c=>Core.misuseItem(c,all));assert.equal(asked.length,105);assert.deepEqual(asked.map(c=>c.id),all.filter(c=>c.misuse).map(c=>c.id),'only registered combinations produce misuse questions');
  for(const c of all.filter(x=>!x.misuse))assert.equal(Core.misuseItem(c,all),null);
  assert.equal(Core.misuseItem({...all.find(c=>!c.misuse),misuse:null},all),null);
  const c=siblings(withFill)[0],registered={...c,misuse:{form:'plan a coffee of '+c.form.split(' ').pop(),noteJa:'ふつう使わない組み合わせ'}},pool=all.map(x=>x.id===c.id?registered:x);

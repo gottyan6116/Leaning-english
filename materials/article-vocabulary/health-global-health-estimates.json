@@ -1,0 +1,493 @@
+{
+  "id": "article-health-global-health-estimates-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-health-global-health-estimates-2026-disrupt",
+      "headword": "disrupt",
+      "partOfSpeech": "verb",
+      "meaning": "妨げる",
+      "definition": "interrupt the normal way something works",
+      "contextParagraphId": "p1",
+      "context": "Global life expectancy recovered to 73.3 years in 2023, almost exactly the 73.4 years recorded in 2019, before the pandemic disrupted health systems and daily life.",
+      "example": "Heavy snow disrupted trains across the region.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "妨げる（interrupt the normal way something works）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "隠す",
+            "予測する",
+            "妨げる",
+            "要約する"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-disrupt-ja-option-1",
+            "article-health-global-health-estimates-2026-disrupt-ja-option-2",
+            "article-health-global-health-estimates-2026-disrupt-ja-option-3",
+            "article-health-global-health-estimates-2026-disrupt-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-disrupt-ja-option-3",
+          "distractorHeadwords": [
+            "conceal",
+            "predict",
+            null,
+            "summarise"
+          ],
+          "explanation": "本文では「妨げる」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "hide something so that it is not seen",
+            "say what will happen in the future",
+            "interrupt the normal way something works",
+            "give the main points of something briefly"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-disrupt-en-option-1",
+            "article-health-global-health-estimates-2026-disrupt-en-option-2",
+            "article-health-global-health-estimates-2026-disrupt-en-option-3",
+            "article-health-global-health-estimates-2026-disrupt-en-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-disrupt-en-option-3",
+          "distractorHeadwords": [
+            "conceal",
+            "predict",
+            null,
+            "summarise"
+          ],
+          "explanation": "本文では「妨げる」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "disrupt services",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "サービスを混乱させる",
+            "nuanceJa": "disrupt は通常の流れを乱す。interrupt は一時的に止めることで、disrupt は混乱が広く続く含みがある。",
+            "example": "Floods often disrupt health services.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "seriously disrupted",
+            "pattern": "副詞＋過去分詞",
+            "meaningJa": "深刻に混乱した",
+            "nuanceJa": "seriously は混乱の大きさを強める。severely も近いが被害の重さを言うときに多く、seriously は影響の大きさ全般に使える。",
+            "example": "Supply chains were seriously disrupted.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "disrupted by ～",
+            "pattern": "過去分詞＋前置詞",
+            "meaningJa": "～で混乱した",
+            "nuanceJa": "by の後ろに混乱を起こした原因を置く（disrupted by war）。due to は原因を一般的に示し、受け身では by が原因や行為者を直接示す。",
+            "example": "Classes were disrupted by the storm.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "disrupted",
+      "sourceKind": "article",
+      "articleId": "article-health-global-health-estimates-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-global-health-estimates-2026-burden",
+      "headword": "burden",
+      "partOfSpeech": "noun",
+      "meaning": "負担",
+      "definition": "something heavy that a person or system must carry",
+      "contextParagraphId": "p6",
+      "context": "Such estimates show how causes of death and disease burden are changing, which allows countries to design policies based on evidence. Because the estimates cover every region and country from 2000 to 2023, they also let governments compare their own progress with that of others.",
+      "example": "The new rule is a burden for small shops.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "負担（something heavy that a person or system must carry）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "負担",
+            "恩恵",
+            "障壁",
+            "余剰"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-burden-ja-option-1",
+            "article-health-global-health-estimates-2026-burden-ja-option-2",
+            "article-health-global-health-estimates-2026-burden-ja-option-3",
+            "article-health-global-health-estimates-2026-burden-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-burden-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "benefit",
+            "barrier",
+            "surplus"
+          ],
+          "explanation": "本文では「負担」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "something heavy that a person or system must carry",
+            "something good that a person gets from an action",
+            "something that stops people from doing something",
+            "an amount that is more than what is needed"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-burden-en-option-1",
+            "article-health-global-health-estimates-2026-burden-en-option-2",
+            "article-health-global-health-estimates-2026-burden-en-option-3",
+            "article-health-global-health-estimates-2026-burden-en-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-burden-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "benefit",
+            "barrier",
+            "surplus"
+          ],
+          "explanation": "本文では「負担」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "disease burden",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "疾病負担",
+            "nuanceJa": "disease burden は病気が社会に与える負担を、失われた健康年数などで測る公衆衛生の用語。cost は金銭に限らず使えるが、burden は背負う重さの感じが強い。",
+            "example": "The disease burden is heavier in older groups.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "reduce the burden",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "負担を減らす",
+            "nuanceJa": "reduce は程度を下げる。lift the burden は重さを取り去る比喩的で日常的な言い方で、報告書では reduce the burden of ～ が定型。",
+            "example": "Vaccines reduce the burden on hospitals.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a burden on ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～への負担",
+            "nuanceJa": "on の後ろに負担を受ける側を置く（a burden on families）。of は負担の中身（the burden of disease）を示すので、受ける側か内容かで前置詞が変わる。",
+            "example": "Rising costs are a burden on families.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "burden",
+      "sourceKind": "article",
+      "articleId": "article-health-global-health-estimates-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-global-health-estimates-2026-transition",
+      "headword": "transition",
+      "partOfSpeech": "noun",
+      "meaning": "移行",
+      "definition": "a change from one state or system to another",
+      "contextParagraphId": "p3",
+      "context": "This is part of what is called a global epidemiological transition, in which chronic conditions replace infections as the main threat.",
+      "example": "The transition to a new system took two years.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "移行（a change from one state or system to another）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "取引",
+            "伝統",
+            "翻訳",
+            "移行"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-transition-ja-option-1",
+            "article-health-global-health-estimates-2026-transition-ja-option-2",
+            "article-health-global-health-estimates-2026-transition-ja-option-3",
+            "article-health-global-health-estimates-2026-transition-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-transition-ja-option-4",
+          "distractorHeadwords": [
+            "transaction",
+            "tradition",
+            "translation",
+            null
+          ],
+          "explanation": "本文では「移行」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "an act of buying or selling something",
+            "a custom that has passed down over many years",
+            "a version of a text in another language",
+            "a change from one state or system to another"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-transition-en-option-1",
+            "article-health-global-health-estimates-2026-transition-en-option-2",
+            "article-health-global-health-estimates-2026-transition-en-option-3",
+            "article-health-global-health-estimates-2026-transition-en-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-transition-en-option-4",
+          "distractorHeadwords": [
+            "transaction",
+            "tradition",
+            "translation",
+            null
+          ],
+          "explanation": "本文では「移行」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "make the transition",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "移行する",
+            "nuanceJa": "make the transition は一定の期間をかけて移ることを言う。switch は短時間で切り替える感じで、transition には移行の過程が含まれる。",
+            "example": "Many patients make the transition to adult care at eighteen.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a smooth transition",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "円滑な移行",
+            "nuanceJa": "smooth は手順に滞りなく進む移行を言う。easy は難しくないという意味で、smooth は途中で問題が起きない点を強調する。",
+            "example": "The hospital planned a smooth transition between teams.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "transition from ～ to ～",
+            "pattern": "名詞＋前置詞＋前置詞",
+            "meaningJa": "～から～への移行",
+            "nuanceJa": "from A to B で移行の前後を示す。transition to ～ だけなら移行先だけを言うので、元の状態も述べたいときに from を加える。",
+            "example": "The transition from paper to digital records took years.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "transition",
+      "sourceKind": "article",
+      "articleId": "article-health-global-health-estimates-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-global-health-estimates-2026-substantial",
+      "headword": "substantial",
+      "partOfSpeech": "adjective",
+      "meaning": "大幅な",
+      "definition": "large in amount or importance",
+      "contextParagraphId": "p5",
+      "context": "Drug use disorders have increased most in the Americas, while the Western Pacific has seen substantial declines, and the risk of diabetes has risen sharply in South-East Asia.",
+      "example": "The city saw a substantial rise in rents.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "大幅な（large in amount or importance）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "わずかな",
+            "大幅な",
+            "暫定的な",
+            "時代遅れの"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-substantial-ja-option-1",
+            "article-health-global-health-estimates-2026-substantial-ja-option-2",
+            "article-health-global-health-estimates-2026-substantial-ja-option-3",
+            "article-health-global-health-estimates-2026-substantial-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-substantial-ja-option-2",
+          "distractorHeadwords": [
+            "marginal",
+            null,
+            "tentative",
+            "obsolete"
+          ],
+          "explanation": "本文では「大幅な」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "very small and not important",
+            "large in amount or importance",
+            "not certain and open to change",
+            "no longer in use or useful"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-substantial-en-option-1",
+            "article-health-global-health-estimates-2026-substantial-en-option-2",
+            "article-health-global-health-estimates-2026-substantial-en-option-3",
+            "article-health-global-health-estimates-2026-substantial-en-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-substantial-en-option-2",
+          "distractorHeadwords": [
+            "marginal",
+            null,
+            "tentative",
+            "obsolete"
+          ],
+          "explanation": "本文では「大幅な」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "a substantial increase",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "大幅な増加",
+            "nuanceJa": "substantial は量や重要性の大きさを客観的に言う。significant は統計的に意味のある差を含むことがあり、両者は焦点が違う。",
+            "example": "There was a substantial increase in the number of cases.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "substantially higher",
+            "pattern": "副詞＋形容詞",
+            "meaningJa": "大幅に高い",
+            "nuanceJa": "substantially は「大幅に」という程度を示し、slightly（わずかに）と対になる。much よりも硬い語で、報告書に向く。",
+            "example": "Rates are substantially higher in older groups.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a substantial part of ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～のかなりの部分",
+            "nuanceJa": "part of の前に置いて割合が大きいことを示す。large part より書き言葉で、全体の中の大きな一部を客観的に述べるときに使う。",
+            "example": "A substantial part of the budget goes to staff.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "substantial",
+      "sourceKind": "article",
+      "articleId": "article-health-global-health-estimates-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-global-health-estimates-2026-adjust",
+      "headword": "adjust",
+      "partOfSpeech": "verb",
+      "meaning": "補正する",
+      "definition": "change something slightly to fit or correct it",
+      "contextParagraphId": "p4",
+      "context": "Between 2019 and 2023, the healthy life lost to depressive disorders rose by about 20% after adjusting for age, and for anxiety disorders by nearly 45%.",
+      "example": "The nurse adjusted the bed to a better height.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "補正する（change something slightly to fit or correct it）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "検査する",
+            "解決する",
+            "補正する",
+            "撤回する"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-adjust-ja-option-1",
+            "article-health-global-health-estimates-2026-adjust-ja-option-2",
+            "article-health-global-health-estimates-2026-adjust-ja-option-3",
+            "article-health-global-health-estimates-2026-adjust-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-adjust-ja-option-3",
+          "distractorHeadwords": [
+            "inspect",
+            "resolve",
+            null,
+            "withdraw"
+          ],
+          "explanation": "本文では「補正する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "look at something carefully to check it",
+            "find a solution to a difficult problem",
+            "change something slightly to fit or correct it",
+            "take something back or remove it from use"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-global-health-estimates-2026-adjust-en-option-1",
+            "article-health-global-health-estimates-2026-adjust-en-option-2",
+            "article-health-global-health-estimates-2026-adjust-en-option-3",
+            "article-health-global-health-estimates-2026-adjust-en-option-4"
+          ],
+          "correctChoiceId": "article-health-global-health-estimates-2026-adjust-en-option-3",
+          "distractorHeadwords": [
+            "inspect",
+            "resolve",
+            null,
+            "withdraw"
+          ],
+          "explanation": "本文では「補正する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "adjust for ～",
+            "pattern": "動詞＋前置詞",
+            "meaningJa": "～の影響を補正する",
+            "nuanceJa": "adjust for age は年齢の違いの影響を取り除いて比べる統計の言い方。control for は研究で要因を統制する、より厳密な分析の語になる。",
+            "example": "The researchers adjust for age and income.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "adjust the dose",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "用量を調整する",
+            "nuanceJa": "adjust は少し変えて適切にする微調整の語。change は大きく変える場合も含むので、薬の量を様子を見て整えるなら adjust が自然。",
+            "example": "The doctor adjusted the dose after a week.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "adjust to ～",
+            "pattern": "動詞＋前置詞",
+            "meaningJa": "～に慣れる",
+            "nuanceJa": "adjust to は環境に慣れる意味で、小さな調整を重ねる含みがある。adapt to は大きな変化に適応する意味で、規模の違いで使い分ける。",
+            "example": "It takes time to adjust to a new routine.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "adjusting",
+      "sourceKind": "article",
+      "articleId": "article-health-global-health-estimates-2026",
+      "materialVersion": 1
+    }
+  ]
+}

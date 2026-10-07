@@ -1,0 +1,766 @@
+{
+  "id": "article-health-adolescent-obesity-2026",
+  "version": 1,
+  "kind": "article",
+  "status": "checked",
+  "createdAt": "2026-10-07",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "sourcePublishedAt": "2026-10-07",
+  "title": "WHO Sets Out How to Treat Obesity in Adolescents",
+  "summaryJa": "生活面の支援を先に、医薬品と手術は条件つきとした初の世界的指針",
+  "category": "健康・ライフスタイル",
+  "level": "C1",
+  "readingMinutes": 5,
+  "readingEstimateWordsPerMinute": 100,
+  "editorialNotice": "出典に基づく学習用編集版",
+  "textOrigin": "original-for-this-app; factual adaptation",
+  "sources": [
+    {
+      "id": "who-adolescent-obesity",
+      "title": "WHO guidelines on the integrated management of obesity in adolescents",
+      "publisher": "World Health Organization",
+      "publishedAt": "2026-10-07",
+      "url": "https://www.who.int/publications/i/item/9789240123878",
+      "checkedAt": "2026-10-07",
+      "paragraphIds": [
+        "p1",
+        "p3"
+      ],
+      "usage": "事実を独自の文で整理。原文・発言の直接引用なし",
+      "author": null
+    },
+    {
+      "id": "un-adolescent-obesity",
+      "title": "WHO releases first global guidelines on child obesity as cases surge",
+      "publisher": "UN News",
+      "publishedAt": "2026-10-07",
+      "url": "https://news.un.org/en/story/2026/10/1168536",
+      "checkedAt": "2026-10-07",
+      "paragraphIds": [
+        "p1",
+        "p2",
+        "p4",
+        "p5",
+        "p6"
+      ],
+      "usage": "事実を独自の文で整理。原文・発言の直接引用なし",
+      "author": null
+    },
+    {
+      "id": "who-child-obesity",
+      "title": "WHO guidelines on the integrated management of obesity in children",
+      "publisher": "World Health Organization",
+      "publishedAt": "2026-10-07",
+      "url": "https://www.who.int/publications/i/item/9789240123397",
+      "checkedAt": "2026-10-07",
+      "paragraphIds": [
+        "p1",
+        "p2"
+      ],
+      "usage": "事実を独自の文で整理。原文・発言の直接引用なし",
+      "author": null
+    }
+  ],
+  "photo": {
+    "pageUrl": "https://unsplash.com/photos/group-of-people-playing-basketball-BWRyS1-KKrs",
+    "photoId": "BWRyS1-KKrs",
+    "photographer": "Nik Shuliahin",
+    "service": "Unsplash",
+    "licenseUrl": "https://unsplash.com/license",
+    "checkedAt": "2026-10-07",
+    "credit": "Photo by Nik Shuliahin on Unsplash",
+    "alt": "バスケットボールをする若者たち",
+    "context": "運動に関連する素材写真。WHOの指針の対象者や調査の写真ではない。"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "kind": "source-based",
+      "sourceIds": [
+        "who-adolescent-obesity",
+        "un-adolescent-obesity",
+        "who-child-obesity"
+      ],
+      "text": "On 7 October 2026, the World Health Organization (WHO) published its guidelines on the integrated management of obesity in adolescents aged 10 to 19. They sit beside a separate set of guidelines for children, which cover ages from 29 days to under 10 years and are written for policy-makers, programme managers, health workers and others involved in planning and delivering obesity care. Together, the two documents are described as WHO's first global guidelines on obesity in young people. They arrive at a time when the scale of the problem can no longer be ignored.",
+      "translationJa": "2026年10月7日、世界保健機関（WHO）は、10歳から19歳の思春期の若者の肥満の統合的な管理に関する指針を発表しました。これとは別に、生後29日から10歳未満の子どもを対象にした指針があり、政策立案者、事業の運営者、医療従事者など、肥満ケアの計画と提供に関わる人々向けに書かれています。この2つの文書は合わせて、WHOが若者の肥満について出した初めての世界的な指針とされています。問題の大きさがもはや無視できない時期に出されたものです。"
+    },
+    {
+      "id": "p2",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-adolescent-obesity",
+        "who-child-obesity"
+      ],
+      "text": "The figures explain the urgency. Among people aged 5 to 19, obesity has quadrupled since 1990, rising from 2% to roughly 8%. In 2024, about 170 million children and adolescents were living with obesity, including some 100 million adolescents and around 70 million children aged 5 to 9. WHO treats obesity as a chronic, relapsing disease that raises the risk of type 2 diabetes and cardiovascular disease. It also exposes young people to stigma, discrimination and bullying, which can damage their mental health.",
+      "translationJa": "数字を見ると、緊急性が分かります。5歳から19歳では、肥満は1990年以降に4倍になり、2%からおよそ8%へと上昇しました。2024年には、約1億7000万人の子どもと思春期の若者が肥満とともに生活しており、その内訳は思春期の若者が約1億人、5歳から9歳の子どもが約7000万人でした。WHOは肥満を、2型糖尿病や心血管疾患のリスクを高める、慢性で再発しやすい病気として扱っています。肥満はまた、若者を偏見、差別、いじめにさらし、心の健康を損なうことがあります。"
+    },
+    {
+      "id": "p3",
+      "kind": "source-based",
+      "sourceIds": [
+        "who-adolescent-obesity"
+      ],
+      "text": "The guideline covers seven areas of intervention. These are dietary changes and physical activity, sedentary behaviour and sleep, behavioural support, digital health tools, medicines, bariatric surgery and combinations of these approaches. It rests on what WHO calls a people-centred approach, which takes into account the views, values and preferences of adolescents and their caregivers, and on principles of equity, gender equality and human rights. The 133-page document was developed through the Guidelines Review Committee process of WHO, with its nutrition and food safety team.",
+      "translationJa": "この指針は、7つの介入分野を扱っています。食事の変更と身体活動、座りがちな行動と睡眠、行動面の支援、デジタルヘルスの手段、医薬品、肥満手術、そしてこれらを組み合わせた取り組みです。指針の土台には、WHOが「人を中心にした」アプローチと呼ぶ考え方があり、思春期の若者とその養育者の意見、価値観、希望を考慮に入れ、公平性、ジェンダー平等、人権の原則に基づいています。133ページのこの文書は、WHOのGuidelines Review Committee（ガイドライン審査委員会）の手続きを経て、栄養・食品安全の担当チームとともに作られました。"
+    },
+    {
+      "id": "p4",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-adolescent-obesity"
+      ],
+      "text": "The order of the recommendations matters. Lifestyle support comes first: changes to diet, more physical activity, better sleep and help with behaviour. Approved weight-loss medicines, such as GLP-1 therapies, are considered only for adolescents for whom a supervised lifestyle programme has not worked. Bariatric surgery may be considered for severe obesity, but only under strict conditions.",
+      "translationJa": "推奨事項の順序は重要です。最初に来るのは生活面の支援で、食事の見直し、身体活動の増加、睡眠の改善、行動面の手助けです。GLP-1療法のような承認済みの減量薬は、監督のもとでの生活改善プログラムがうまくいかなかった思春期の若者に限って検討されます。肥満手術は、重い肥満の場合に検討されることがありますが、厳しい条件のもとに限られます。"
+    },
+    {
+      "id": "p5",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-adolescent-obesity"
+      ],
+      "text": "Mental health runs through the guideline. WHO notes that anxiety, depression and low self-esteem can contribute to unhealthy behaviours, so mental health should be addressed alongside obesity care, not after it.",
+      "translationJa": "この指針には、心の健康という視点が一貫しています。WHOは、不安、抑うつ、低い自己肯定感が不健康な行動の一因になりうると指摘しており、心の健康は肥満のケアの後ではなく、並行して扱うべきだとしています。"
+    },
+    {
+      "id": "p6",
+      "kind": "source-based",
+      "sourceIds": [
+        "un-adolescent-obesity"
+      ],
+      "text": "Dr Luz María De Regil, Director of WHO's Department of Nutrition and Food Safety, said that good care starts with comprehensive support rather than with medicine or surgery. WHO also looks beyond individual treatment. It calls for regulatory and fiscal measures, and for action in education, urban planning, transport and social protection, so that healthy diets and physical activity become easier to choose.",
+      "translationJa": "WHOの栄養・食品安全部長であるDr Luz María De Regilは、よいケアは薬や手術からではなく、包括的な支援から始まると述べました。WHOは、個人の治療を超えたところにも目を向けています。健康的な食事や身体活動を選びやすくするため、規制や財政の措置に加え、教育、都市計画、交通、社会保護の分野での行動を求めています。"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "article-health-adolescent-obesity-2026-stigma",
+      "headword": "stigma",
+      "partOfSpeech": "noun",
+      "meaning": "偏見",
+      "definition": "strong disapproval of a person or a group",
+      "contextParagraphId": "p2",
+      "context": "It also exposes young people to stigma, discrimination and bullying, which can damage their mental health.",
+      "example": "There is still stigma around talking about mental health.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "偏見（strong disapproval of a person or a group）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "治療法",
+            "偏見",
+            "口論",
+            "報酬"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-stigma-ja-option-1",
+            "article-health-adolescent-obesity-2026-stigma-ja-option-2",
+            "article-health-adolescent-obesity-2026-stigma-ja-option-3",
+            "article-health-adolescent-obesity-2026-stigma-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-stigma-ja-option-2",
+          "distractorHeadwords": [
+            "remedy",
+            null,
+            "quarrel",
+            "reward"
+          ],
+          "explanation": "本文では「偏見」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a way of curing an illness or solving a problem",
+            "strong disapproval of a person or a group",
+            "an angry argument between two or more people",
+            "something given to thank a person for effort"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-stigma-en-option-1",
+            "article-health-adolescent-obesity-2026-stigma-en-option-2",
+            "article-health-adolescent-obesity-2026-stigma-en-option-3",
+            "article-health-adolescent-obesity-2026-stigma-en-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-stigma-en-option-2",
+          "distractorHeadwords": [
+            "remedy",
+            null,
+            "quarrel",
+            "reward"
+          ],
+          "explanation": "本文では「偏見」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "weight stigma",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "体重に対する偏見",
+            "nuanceJa": "weight stigma は体型や体重を理由とする偏見を指す公衆衛生の用語で、医療現場や制度での扱いまで含む。body shaming は個人への中傷を指すので範囲が狭い。",
+            "example": "Weight stigma can stop young people from seeking care.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "reduce stigma",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "偏見を減らす",
+            "nuanceJa": "reduce は程度を下げる現実的な目標を示す。eliminate は完全になくすことで、政策文書では reduce stigma のように達成可能な目標として書くことが多い。",
+            "example": "Open discussion can reduce stigma around mental health.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "the stigma attached to ～",
+            "pattern": "名詞＋過去分詞＋前置詞",
+            "meaningJa": "～に付きまとう偏見",
+            "nuanceJa": "attached to の後ろに偏見を貼られる対象を置く。stigma around ～ は話題の周辺に広がる偏見を言い、attached to は特定の対象に付いたレッテルを言う。",
+            "example": "The stigma attached to mental illness keeps many people silent.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "stigma"
+    },
+    {
+      "id": "article-health-adolescent-obesity-2026-intervention",
+      "headword": "intervention",
+      "partOfSpeech": "noun",
+      "meaning": "介入",
+      "definition": "action taken to change a situation",
+      "contextParagraphId": "p3",
+      "context": "The guideline covers seven areas of intervention.",
+      "example": "Early intervention helped the family manage the problem.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "介入（action taken to change a situation）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "介入",
+            "発明",
+            "免除",
+            "出発"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-intervention-ja-option-1",
+            "article-health-adolescent-obesity-2026-intervention-ja-option-2",
+            "article-health-adolescent-obesity-2026-intervention-ja-option-3",
+            "article-health-adolescent-obesity-2026-intervention-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-intervention-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "invention",
+            "exemption",
+            "departure"
+          ],
+          "explanation": "本文では「介入」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "action taken to change a situation",
+            "a new thing that a person has made",
+            "freedom from a rule that others must follow",
+            "the act of leaving to go somewhere else"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-intervention-en-option-1",
+            "article-health-adolescent-obesity-2026-intervention-en-option-2",
+            "article-health-adolescent-obesity-2026-intervention-en-option-3",
+            "article-health-adolescent-obesity-2026-intervention-en-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-intervention-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "invention",
+            "exemption",
+            "departure"
+          ],
+          "explanation": "本文では「介入」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "early intervention",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "早期の介入",
+            "nuanceJa": "early は問題が重くなる前の介入を示す。preventive intervention は発症自体を防ぐ点が違い、early intervention は兆しが出た段階での対応を指す。",
+            "example": "Early intervention can stop problems from growing.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "intervention programme",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "介入プログラム",
+            "nuanceJa": "intervention programme は期間と目標を決めた組織的な取り組みを指す。intervention だけだと単発の行為も含むので、取り組み全体を言うときは programme を付ける。",
+            "example": "The school ran an intervention programme on sleep.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "implement an intervention",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "介入を実施する",
+            "nuanceJa": "implement は決まった内容を実際に動かす硬い動詞。carry out は日常的に使えるのに対し、implement は計画や制度を実行に移す場面で使う。",
+            "example": "Schools must implement the intervention carefully.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "intervention"
+    },
+    {
+      "id": "article-health-adolescent-obesity-2026-sedentary",
+      "headword": "sedentary",
+      "partOfSpeech": "adjective",
+      "meaning": "座りがち",
+      "definition": "spending much time sitting and not moving",
+      "contextParagraphId": "p3",
+      "context": "These are dietary changes and physical activity, sedentary behaviour and sleep, behavioural support, digital health tools, medicines, bariatric surgery and combinations of these approaches.",
+      "example": "A sedentary lifestyle can raise the risk of illness.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "座りがち（spending much time sitting and not moving）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "散発的な",
+            "夜行性の",
+            "遺伝性の",
+            "座りがち"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-sedentary-ja-option-1",
+            "article-health-adolescent-obesity-2026-sedentary-ja-option-2",
+            "article-health-adolescent-obesity-2026-sedentary-ja-option-3",
+            "article-health-adolescent-obesity-2026-sedentary-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-sedentary-ja-option-4",
+          "distractorHeadwords": [
+            "sporadic",
+            "nocturnal",
+            "hereditary",
+            null
+          ],
+          "explanation": "本文では「座りがち」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "happening only now and then, not regularly",
+            "active during the night and not the day",
+            "passed from parents to their children",
+            "spending much time sitting and not moving"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-sedentary-en-option-1",
+            "article-health-adolescent-obesity-2026-sedentary-en-option-2",
+            "article-health-adolescent-obesity-2026-sedentary-en-option-3",
+            "article-health-adolescent-obesity-2026-sedentary-en-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-sedentary-en-option-4",
+          "distractorHeadwords": [
+            "sporadic",
+            "nocturnal",
+            "hereditary",
+            null
+          ],
+          "explanation": "本文では「座りがち」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "a sedentary lifestyle",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "座りがちな生活",
+            "nuanceJa": "sedentary は座って過ごす時間が長いことを示す医学用語。lazy は怠けているという評価を含むので、健康の文脈では sedentary を使う。",
+            "example": "A sedentary lifestyle is common among office workers.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "sedentary time",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "座って過ごす時間",
+            "nuanceJa": "sedentary time は一日のうち座って過ごした合計時間を測る語。screen time は画面を見る時間で、座る時間と重なっても同じではない。",
+            "example": "Sedentary time rises when students study online for hours.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "largely sedentary",
+            "pattern": "副詞＋形容詞",
+            "meaningJa": "ほとんど座って過ごす",
+            "nuanceJa": "largely は「ほとんどが」という程度を示す。mostly より書き言葉で、統計や報告書で使うのに向く。",
+            "example": "Their jobs are largely sedentary.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "sedentary"
+    },
+    {
+      "id": "article-health-adolescent-obesity-2026-comprehensive",
+      "headword": "comprehensive",
+      "partOfSpeech": "adjective",
+      "meaning": "包括的な",
+      "definition": "including everything that is needed",
+      "contextParagraphId": "p6",
+      "context": "Dr Luz María De Regil, Director of WHO's Department of Nutrition and Food Safety, said that good care starts with comprehensive support rather than with medicine or surgery.",
+      "example": "The school offers comprehensive advice on sleep and food.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "包括的な（including everything that is needed）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "選択的な",
+            "表面的な",
+            "包括的な",
+            "物議を醸す"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-comprehensive-ja-option-1",
+            "article-health-adolescent-obesity-2026-comprehensive-ja-option-2",
+            "article-health-adolescent-obesity-2026-comprehensive-ja-option-3",
+            "article-health-adolescent-obesity-2026-comprehensive-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-comprehensive-ja-option-3",
+          "distractorHeadwords": [
+            "selective",
+            "superficial",
+            null,
+            "controversial"
+          ],
+          "explanation": "本文では「包括的な」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "choosing only some things from a larger group",
+            "not deep or thorough in any way",
+            "including everything that is needed",
+            "causing strong public disagreement"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-comprehensive-en-option-1",
+            "article-health-adolescent-obesity-2026-comprehensive-en-option-2",
+            "article-health-adolescent-obesity-2026-comprehensive-en-option-3",
+            "article-health-adolescent-obesity-2026-comprehensive-en-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-comprehensive-en-option-3",
+          "distractorHeadwords": [
+            "selective",
+            "superficial",
+            null,
+            "controversial"
+          ],
+          "explanation": "本文では「包括的な」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "comprehensive support",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "包括的な支援",
+            "nuanceJa": "comprehensive は必要なものを漏れなく含む範囲の広さを示す。complete は欠けがないこと、full は量が満ちていることを言い、焦点が違う。",
+            "example": "The programme offers comprehensive support to families.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "provide comprehensive care",
+            "pattern": "動詞＋形容詞＋名詞",
+            "meaningJa": "包括的なケアを提供する",
+            "nuanceJa": "provide は必要なものを用意して与える硬い動詞で、サービスや支援には定番。give はより日常的で、公的な文書では provide が好まれる。",
+            "example": "Clinics provide comprehensive care for adolescents.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "comprehensive in scope",
+            "pattern": "形容詞＋前置詞＋名詞",
+            "meaningJa": "範囲が網羅的な",
+            "nuanceJa": "in scope は範囲を示す。comprehensive in scope は「範囲が広く網羅的」と評価する報告書の定型で、wide-ranging より公式な評価の語になる。",
+            "example": "The new guideline is comprehensive in scope.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "comprehensive"
+    },
+    {
+      "id": "article-health-adolescent-obesity-2026-fiscal",
+      "headword": "fiscal",
+      "partOfSpeech": "adjective",
+      "meaning": "財政の",
+      "definition": "relating to government money, taxes and spending",
+      "contextParagraphId": "p6",
+      "context": "It calls for regulatory and fiscal measures, and for action in education, urban planning, transport and social protection, so that healthy diets and physical activity become easier to choose.",
+      "example": "The government announced new fiscal rules for next year.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "財政の（relating to government money, taxes and spending）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "田舎の",
+            "財政の",
+            "道徳的な",
+            "言葉による"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-fiscal-ja-option-1",
+            "article-health-adolescent-obesity-2026-fiscal-ja-option-2",
+            "article-health-adolescent-obesity-2026-fiscal-ja-option-3",
+            "article-health-adolescent-obesity-2026-fiscal-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-fiscal-ja-option-2",
+          "distractorHeadwords": [
+            "rural",
+            null,
+            "moral",
+            "verbal"
+          ],
+          "explanation": "本文では「財政の」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "relating to the countryside and farming",
+            "relating to government money, taxes and spending",
+            "relating to ideas of right and wrong",
+            "expressed in spoken words and not writing"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-adolescent-obesity-2026-fiscal-en-option-1",
+            "article-health-adolescent-obesity-2026-fiscal-en-option-2",
+            "article-health-adolescent-obesity-2026-fiscal-en-option-3",
+            "article-health-adolescent-obesity-2026-fiscal-en-option-4"
+          ],
+          "correctChoiceId": "article-health-adolescent-obesity-2026-fiscal-en-option-2",
+          "distractorHeadwords": [
+            "rural",
+            null,
+            "moral",
+            "verbal"
+          ],
+          "explanation": "本文では「財政の」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "fiscal measures",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "財政上の措置",
+            "nuanceJa": "fiscal は政府の税や支出に関わることを示す。financial は個人や企業を含む広い「お金の」意味で、政策文書で税や補助金を指すときは fiscal を使う。",
+            "example": "Fiscal measures include taxes on sugary drinks.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "fiscal policy",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "財政政策",
+            "nuanceJa": "fiscal policy は政府の税と支出による経済運営で、monetary policy（金融政策、中央銀行が金利などで行う）と対になる語。",
+            "example": "Fiscal policy shapes how much a government can spend.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "fiscal year",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "会計年度",
+            "nuanceJa": "fiscal year は国や組織の会計の一年間で、calendar year（暦年）とは始まりが異なることが多い。日本では4月始まりが一般的。",
+            "example": "The fiscal year ends in March in many organisations.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "fiscal"
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "article-health-adolescent-obesity-2026-q1",
+      "question": "Under what condition does the guideline consider weight-loss medicines for adolescents?",
+      "choices": [
+        "As the first step, before any lifestyle advice is given.",
+        "Whenever a family asks for them, whatever the situation.",
+        "Only after a supervised lifestyle programme has not worked.",
+        "Only for adolescents who are younger than ten years old."
+      ],
+      "answerIndex": 2,
+      "choiceIds": [
+        "article-health-adolescent-obesity-2026-q1-option-1",
+        "article-health-adolescent-obesity-2026-q1-option-2",
+        "article-health-adolescent-obesity-2026-q1-option-3",
+        "article-health-adolescent-obesity-2026-q1-option-4"
+      ],
+      "correctChoiceId": "article-health-adolescent-obesity-2026-q1-option-3",
+      "evidenceParagraphIds": [
+        "p4"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p4",
+          "text": "Approved weight-loss medicines, such as GLP-1 therapies, are considered only for adolescents for whom a supervised lifestyle programme has not worked.",
+          "highlights": [
+            "only for adolescents",
+            "has not worked"
+          ]
+        }
+      ],
+      "explanationJa": "生活改善プログラムがうまくいかなかった場合に限って検討される。最初の手段ではない。",
+      "type": "literal"
+    },
+    {
+      "id": "article-health-adolescent-obesity-2026-q2",
+      "question": "How does WHO describe obesity?",
+      "choices": [
+        "As a chronic, relapsing disease with health and social effects.",
+        "As a temporary condition that disappears with age.",
+        "As a short-term problem caused only by poor willpower.",
+        "As a minor issue that rarely affects mental health."
+      ],
+      "answerIndex": 0,
+      "choiceIds": [
+        "article-health-adolescent-obesity-2026-q2-option-1",
+        "article-health-adolescent-obesity-2026-q2-option-2",
+        "article-health-adolescent-obesity-2026-q2-option-3",
+        "article-health-adolescent-obesity-2026-q2-option-4"
+      ],
+      "correctChoiceId": "article-health-adolescent-obesity-2026-q2-option-1",
+      "evidenceParagraphIds": [
+        "p2"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p2",
+          "text": "WHO treats obesity as a chronic, relapsing disease that raises the risk of type 2 diabetes and cardiovascular disease.",
+          "highlights": [
+            "chronic, relapsing disease"
+          ]
+        }
+      ],
+      "explanationJa": "慢性で再発しやすい病気で、糖尿病や心血管疾患のリスク、偏見やいじめによる心への影響がある。",
+      "type": "literal"
+    },
+    {
+      "id": "article-health-adolescent-obesity-2026-q3",
+      "question": "Why does WHO call for action beyond clinics?",
+      "choices": [
+        "Because clinics are no longer allowed to treat adolescents.",
+        "Because taxes and transport plans are cheaper than medicine.",
+        "Because obesity affects only adolescents who live in cities.",
+        "Because treating individuals alone cannot make healthy choices easy."
+      ],
+      "answerIndex": 3,
+      "choiceIds": [
+        "article-health-adolescent-obesity-2026-q3-option-1",
+        "article-health-adolescent-obesity-2026-q3-option-2",
+        "article-health-adolescent-obesity-2026-q3-option-3",
+        "article-health-adolescent-obesity-2026-q3-option-4"
+      ],
+      "correctChoiceId": "article-health-adolescent-obesity-2026-q3-option-4",
+      "evidenceParagraphIds": [
+        "p6"
+      ],
+      "evidence": [
+        {
+          "paragraphId": "p6",
+          "text": "WHO also looks beyond individual treatment.",
+          "highlights": [
+            "beyond individual treatment"
+          ]
+        },
+        {
+          "paragraphId": "p6",
+          "text": "It calls for regulatory and fiscal measures, and for action in education, urban planning, transport and social protection, so that healthy diets and physical activity become easier to choose.",
+          "highlights": [
+            "become easier to choose"
+          ]
+        }
+      ],
+      "explanationJa": "個人の治療だけでは健康的な選択はしやすくならない。そのため規制、財政、教育、都市計画なども求めている。",
+      "type": "inference"
+    }
+  ],
+  "opinion": {
+    "id": "opinion-1",
+    "prompt": "Which changes in schools, cities or shops would make healthy choices easier for young people where you live?",
+    "optional": true,
+    "saveScope": "device"
+  },
+  "properNouns": [
+    "World Health Organization",
+    "WHO",
+    "GLP-1",
+    "Dr",
+    "Luz María De Regil",
+    "Department of Nutrition and Food Safety",
+    "Guidelines Review Committee",
+    "October"
+  ],
+  "review": {
+    "factsCheckedAt": "2026-10-07",
+    "editorialParagraphIds": [],
+    "contentApproval": "editorial-reviewed",
+    "notes": "本文の事実・訳・設問根拠を出典と照合。使い方はすべて未確認。"
+  },
+  "reviewNotes": [
+    "出典の事実と数値を区別。選択肢は同品詞の別の語から作成。"
+  ],
+  "validationProperNouns": [
+    "World Health Organization",
+    "WHO",
+    "GLP-1",
+    "Dr",
+    "Luz María De Regil",
+    "Department of Nutrition and Food Safety",
+    "Guidelines Review Committee",
+    "October"
+  ],
+  "validationEntityAliases": {
+    "World Health Organization": "世界保健機関",
+    "WHO": "WHO",
+    "GLP-1": "GLP-1",
+    "Dr": "Dr",
+    "Luz María De Regil": "Luz María De Regil",
+    "Department of Nutrition and Food Safety": "栄養・食品安全部",
+    "Guidelines Review Committee": "Guidelines Review Committee",
+    "October": "10月"
+  },
+  "validationNumberAliases": {
+    "70": "7000万",
+    "100": "1億",
+    "170": "1億7000万"
+  },
+  "vocabularyReview": {
+    "status": "reviewed",
+    "reason": "5つの重要語を本文の用例と対応させ、同品詞の別語による誤答と比較。肥満の割合と人数、7つの介入分野、医薬品と手術を検討する条件、政策面の提案を出典と照合して区別。未収録語は固有名詞と語形を個別に確認。"
+  }
+}

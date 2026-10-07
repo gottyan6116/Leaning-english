@@ -4040,6 +4040,2766 @@
       "status": "unverified",
       "fill": null,
       "misuse": null
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-disease-heart-disease",
+      "wordId": "article-health-life-expectancy-2026-disease",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "heart disease",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "心臓病",
+      "nuanceJa": "病名として最も一般的な言い方で、日常会話から報道まで幅広く使う。cancer や diabetes など他の病名と並べて挙げられることが多い。",
+      "example": "Heart disease is common in many countries.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "heart",
+        "distractors": [
+          "summer",
+          "paper",
+          "window"
+        ]
+      },
+      "misuse": {
+        "form": "borrow a disease",
+        "noteJa": "「borrow a disease」とは言いません。ふつうは「heart disease」・「prevent disease」・「a serious disease」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-disease-prevent-disease",
+      "wordId": "article-health-life-expectancy-2026-disease",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "prevent disease",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "病気を予防する",
+      "nuanceJa": "prevent は起こる前に防ぐ意味で、cure や treat（かかった後に治す）とは時点が違う。冠詞なしの disease は病気一般を指す。",
+      "example": "Clean water helps prevent disease.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "prevent",
+        "distractors": [
+          "borrow",
+          "paint",
+          "wash"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-disease-a-serious-disease",
+      "wordId": "article-health-life-expectancy-2026-disease",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "a serious disease",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "重い病気",
+      "nuanceJa": "serious は「軽くない」という一般的な評価で、日常でも使える。severe は程度の強さを重ねて言うときに使い、やや硬い。",
+      "example": "She was treated for a serious disease.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "serious",
+        "distractors": [
+          "tidy",
+          "sweet",
+          "empty"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-cause-the-main-cause",
+      "wordId": "article-health-life-expectancy-2026-cause",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "the main cause",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "主な原因",
+      "nuanceJa": "main は複数ある原因のうち最も重要なものを指す。leading cause は順位をつける統計や報道で使い、より硬い言い方になる。",
+      "example": "Stress was the main cause of the problem.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "main",
+        "distractors": [
+          "quiet",
+          "cheap",
+          "round"
+        ]
+      },
+      "misuse": {
+        "form": "a tidy cause",
+        "noteJa": "「a tidy cause」とは言いません。ふつうは「the main cause」・「cause of death」・「find the cause」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-cause-cause-of-death",
+      "wordId": "article-health-life-expectancy-2026-cause",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "cause of death",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "死因",
+      "nuanceJa": "of の後ろに結果を置いて「～の原因」と言う。reason for ～ は人の判断や説明に使うのに対し、cause は出来事の原因に使う。",
+      "example": "The report lists the cause of death in each case.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "by",
+          "with",
+          "at"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-cause-find-the-cause",
+      "wordId": "article-health-life-expectancy-2026-cause",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "find the cause",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "原因を見つける",
+      "nuanceJa": "find は日常でも使える一般的な動詞。identify は専門家が原因を特定するという硬い場面で使い、find より調べた結果の確かさを含む。",
+      "example": "The doctors worked to find the cause of the fever.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "find",
+        "distractors": [
+          "bake",
+          "fold",
+          "borrow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-figure-official-figures",
+      "wordId": "article-health-life-expectancy-2026-figure",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "official figures",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "公式の数値",
+      "nuanceJa": "official は政府や公的機関が出した数値を示し、estimate（推定値）と区別される。ニュースで「公式発表の数字」と言うときの定番。",
+      "example": "Official figures will be published next week.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "official",
+        "distractors": [
+          "fluffy",
+          "sleepy",
+          "wooden"
+        ]
+      },
+      "misuse": {
+        "form": "a sleepy figure",
+        "noteJa": "「a sleepy figure」とは言いません。ふつうは「official figures」・「the latest figures」・「a figure of ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-figure-the-latest-figures",
+      "wordId": "article-health-life-expectancy-2026-figure",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "the latest figures",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "最新の数値",
+      "nuanceJa": "latest は「その時点で最も新しく出た」数値を指す。recent は「最近の」という幅のある言い方で、見出しでは latest が定番。",
+      "example": "The latest figures come from a survey in 2023.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "latest",
+        "distractors": [
+          "hollow",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-figure-a-figure-of-x",
+      "wordId": "article-health-life-expectancy-2026-figure",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "a figure of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～という数値",
+      "nuanceJa": "of の後ろに具体的な数値を置いて値そのものを示す。number of ～ は数える対象の数を表すので、a figure of 5%、a number of people のように使い分ける。",
+      "example": "The report gives a figure of 10%.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "to",
+          "by",
+          "with"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-achievement-a-great-achievement",
+      "wordId": "article-health-life-expectancy-2026-achievement",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "a great achievement",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "大きな成果",
+      "nuanceJa": "great は話し手の称賛を込める。major achievement は規模の大きさを客観的に言う表現で、報告書などに向く。",
+      "example": "Finishing the marathon was a great achievement.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "great",
+        "distractors": [
+          "damp",
+          "nearby",
+          "sticky"
+        ]
+      },
+      "misuse": {
+        "form": "a sticky achievement",
+        "noteJa": "「a sticky achievement」とは言いません。ふつうは「a great achievement」・「celebrate an achievement」・「an achievement in ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-achievement-celebrate-an-achievement",
+      "wordId": "article-health-life-expectancy-2026-achievement",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "celebrate an achievement",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "成果を祝う",
+      "nuanceJa": "celebrate は出来事そのものを祝うときに使う。congratulate は人に祝いの言葉を述べるときに使い、目的語が人になる点が違う。",
+      "example": "The school held a party to celebrate the team's achievement.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "celebrate",
+        "distractors": [
+          "unplug",
+          "fold",
+          "borrow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-achievement-an-achievement-in-x",
+      "wordId": "article-health-life-expectancy-2026-achievement",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "an achievement in ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～における成果",
+      "nuanceJa": "in の後ろに分野を置く（an achievement in science）。of の後ろは達成した内容（the achievement of a goal）で、in と of は置く語が違う。",
+      "example": "She won a prize for her achievement in music.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "into",
+          "onto",
+          "upon"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-challenge-face-a-challenge",
+      "wordId": "article-health-life-expectancy-2026-challenge",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "face a challenge",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "課題に直面する",
+      "nuanceJa": "face は避けられない課題と向き合う感じが強い。meet a challenge は「課題に応える・乗り越える」で、結果に重点がある点が違う。",
+      "example": "Many cities face the challenge of an older population.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "face",
+        "distractors": [
+          "pour",
+          "fold",
+          "bake"
+        ]
+      },
+      "misuse": {
+        "form": "a sandy challenge",
+        "noteJa": "「a sandy challenge」とは言いません。ふつうは「face a challenge」・「a big challenge」・「a challenge for ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-challenge-a-big-challenge",
+      "wordId": "article-health-life-expectancy-2026-challenge",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "a big challenge",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "大きな課題",
+      "nuanceJa": "big は日常的でくだけた言い方。major challenge はニュースや報告書で使う改まった表現で、客観的な重さを示す。",
+      "example": "Learning to swim was a big challenge for Mina.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "big",
+        "distractors": [
+          "soft",
+          "wooden",
+          "sleepy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-life-expectancy-2026-challenge-a-challenge-for-x",
+      "wordId": "article-health-life-expectancy-2026-challenge",
+      "articleId": "article-health-life-expectancy-2026",
+      "form": "a challenge for ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～にとっての課題",
+      "nuanceJa": "for の後ろに影響を受ける人や場所を置く（a challenge for schools）。a challenge to ～ は「～への異議・挑戦」の意味になり得るので、for と区別する。",
+      "example": "This is a challenge for many small shops.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "from",
+          "over",
+          "onto"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-guideline-global-guidelines",
+      "wordId": "article-health-child-obesity-2026-guideline",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "global guidelines",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "世界的な指針",
+      "nuanceJa": "global は世界全体を対象にした指針に付く。international guidelines は国どうしの合意や共同作成を示し、global より取り決めの色が強い。",
+      "example": "Many countries use global guidelines for food safety.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "global",
+        "distractors": [
+          "muddy",
+          "hollow",
+          "sticky"
+        ]
+      },
+      "misuse": {
+        "form": "a sticky guideline",
+        "noteJa": "「a sticky guideline」とは言いません。ふつうは「global guidelines」・「follow the guidelines」・「guidelines on ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-guideline-follow-the-guidelines",
+      "wordId": "article-health-child-obesity-2026-guideline",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "follow the guidelines",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "指針に従う",
+      "nuanceJa": "follow は指示どおりに行うという日常的な言い方。comply with は法律や規則に従うという硬い表現で、罰則のない guidelines には follow が自然。",
+      "example": "Please follow the guidelines when you use the room.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "follow",
+        "distractors": [
+          "bake",
+          "pour",
+          "unplug"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-guideline-guidelines-on-x",
+      "wordId": "article-health-child-obesity-2026-guideline",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "guidelines on ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～に関する指針",
+      "nuanceJa": "on の後ろに扱う話題を置く（guidelines on safety）。for は対象となる人（guidelines for teachers）を置くので、話題か対象者かで前置詞が変わる。",
+      "example": "The group wrote guidelines on online safety.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "on",
+        "distractors": [
+          "off",
+          "into",
+          "beside"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-obesity-childhood-obesity",
+      "wordId": "article-health-child-obesity-2026-obesity",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "childhood obesity",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "子どもの肥満",
+      "nuanceJa": "childhood obesity は子ども期の肥満をまとめて指す医療・報道の用語。child obesity も使えるが、WHOの文書やニュースでは childhood が定番。",
+      "example": "Childhood obesity has become a public health issue.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "childhood",
+        "distractors": [
+          "breakfast",
+          "sunrise",
+          "thunder"
+        ]
+      },
+      "misuse": {
+        "form": "a tidy obesity",
+        "noteJa": "「a tidy obesity」とは言いません。ふつうは「childhood obesity」・「prevent obesity」・「obesity in ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-obesity-prevent-obesity",
+      "wordId": "article-health-child-obesity-2026-obesity",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "prevent obesity",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "肥満を予防する",
+      "nuanceJa": "prevent は起こる前に防ぐ。reduce obesity は既にある肥満の割合を減らす意味で、予防か削減かで動詞が変わる。",
+      "example": "Healthy school meals can help prevent obesity.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "prevent",
+        "distractors": [
+          "wash",
+          "paint",
+          "borrow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-obesity-obesity-in-x",
+      "wordId": "article-health-child-obesity-2026-obesity",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "obesity in ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～における肥満",
+      "nuanceJa": "in の後ろに対象の集団を置く（obesity in children）。among は集団の内部での広がりを言うときに使い、in より統計的な文脈に向く。",
+      "example": "The study looked at obesity in teenagers.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "onto",
+          "upon",
+          "beneath"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-recommend-strongly-recommend",
+      "wordId": "article-health-child-obesity-2026-recommend",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "strongly recommend",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "強く勧める",
+      "nuanceJa": "strongly は勧める根拠や確信の強さを示す。highly recommend は店や商品を人に薦める日常的な言い方で、公的機関の文書には strongly の方が合う。",
+      "example": "Doctors strongly recommend regular sleep for children.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "strongly",
+        "distractors": [
+          "sleepily",
+          "tastily",
+          "woodenly"
+        ]
+      },
+      "misuse": {
+        "form": "recommend a sneeze",
+        "noteJa": "「recommend a sneeze」とは言いません。ふつうは「strongly recommend」・「recommend that ～」・「recommend an approach」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-recommend-recommend-that-x",
+      "wordId": "article-health-child-obesity-2026-recommend",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "recommend that ～",
+      "type": "other",
+      "patternDetail": "動詞＋that節",
+      "meaningJa": "～するよう勧める",
+      "nuanceJa": "that の後ろに「主語＋動詞の原形」を置く形が公的な勧告の文でよく使われる。suggest と近いが、recommend の方が専門家の判断という重みがある。",
+      "example": "Doctors recommend that children sleep enough.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "that",
+        "distractors": [
+          "whom",
+          "whose",
+          "whether"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-recommend-recommend-an-approach",
+      "wordId": "article-health-child-obesity-2026-recommend",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "recommend an approach",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "進め方を勧める",
+      "nuanceJa": "approach は問題への取り組み方全体を指し、method（具体的な手順）より広い。報告書ではまとまった方針を勧めるときに使う。",
+      "example": "The team recommends a simple approach for schools.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "approach",
+        "distractors": [
+          "sneeze",
+          "pillow",
+          "fraction"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-habit-daily-habits",
+      "wordId": "article-health-child-obesity-2026-habit",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "daily habits",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "毎日の習慣",
+      "nuanceJa": "daily は毎日繰り返すことを強調する。regular habits は規則正しさに重点があり、good habits と並べて「生活習慣」を言うときに使う。",
+      "example": "Small daily habits can improve sleep.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "daily",
+        "distractors": [
+          "salty",
+          "wooden",
+          "muddy"
+        ]
+      },
+      "misuse": {
+        "form": "a salty habit",
+        "noteJa": "「a salty habit」とは言いません。ふつうは「daily habits」・「change a habit」・「a habit of ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-habit-change-a-habit",
+      "wordId": "article-health-child-obesity-2026-habit",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "change a habit",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "習慣を変える",
+      "nuanceJa": "change は今ある習慣を別のものに変える。break a habit は悪い習慣をやめる意味で、change は良い習慣・悪い習慣のどちらにも使える。",
+      "example": "It is hard to change a habit quickly.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "change",
+        "distractors": [
+          "cook",
+          "fold",
+          "unplug"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-habit-a-habit-of-x",
+      "wordId": "article-health-child-obesity-2026-habit",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "a habit of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～する習慣",
+      "nuanceJa": "of の後ろに動名詞を置いて習慣の内容を示す（a habit of walking）。get into the habit of ～ は習慣が身につく過程を言うときの決まった言い方。",
+      "example": "Ken has a habit of walking to work.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "onto",
+          "upon",
+          "beneath"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-surgery-have-surgery",
+      "wordId": "article-health-child-obesity-2026-surgery",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "have surgery",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "手術を受ける",
+      "nuanceJa": "have surgery は日常的な言い方。undergo surgery はニュースや報告書で使う改まった表現で、計画された重い手術という印象が強い。",
+      "example": "She will have surgery on her knee next week.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "have",
+        "distractors": [
+          "bake",
+          "sneeze",
+          "borrow"
+        ]
+      },
+      "misuse": {
+        "form": "borrow surgery",
+        "noteJa": "「borrow surgery」とは言いません。ふつうは「have surgery」・「heart surgery」・「surgery for ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-surgery-heart-surgery",
+      "wordId": "article-health-child-obesity-2026-surgery",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "heart surgery",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "心臓の手術",
+      "nuanceJa": "部位を前に置いて手術の種類を示す。surgery は体を切って行う治療全般を指し、operation と近いが、病院の外の会話では operation もよく使う。",
+      "example": "Heart surgery takes several hours.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "heart",
+        "distractors": [
+          "summer",
+          "paper",
+          "window"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-child-obesity-2026-surgery-surgery-for-x",
+      "wordId": "article-health-child-obesity-2026-surgery",
+      "articleId": "article-health-child-obesity-2026",
+      "form": "surgery for ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～のための手術",
+      "nuanceJa": "for の後ろに病気や状態を置く（surgery for cancer）。on は体の部位（surgery on the knee）に使うので、病名なら for、部位なら on になる。",
+      "example": "Tom needed surgery for a broken leg.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "over",
+          "into",
+          "upon"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-discrimination-face-discrimination",
+      "wordId": "article-health-mental-health-week-2026-discrimination",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "face discrimination",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "差別を受ける",
+      "nuanceJa": "face は避けにくい不利益に向き合い続ける状況を表す。experience discrimination は経験した事実を報告するときの中立的な言い方。",
+      "example": "People with disabilities may face discrimination at work.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "face",
+        "distractors": [
+          "pour",
+          "fold",
+          "bake"
+        ]
+      },
+      "misuse": {
+        "form": "sweet discrimination",
+        "noteJa": "「sweet discrimination」とは言いません。ふつうは「face discrimination」・「discrimination against ～」・「age discrimination」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-discrimination-discrimination-against-x",
+      "wordId": "article-health-mental-health-week-2026-discrimination",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "discrimination against ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～に対する差別",
+      "nuanceJa": "against の後ろに差別を受ける集団を置く（discrimination against women）。差別の理由を言うときは on the basis of ～ を使うので、対象と理由で表現が分かれる。",
+      "example": "The law bans discrimination against older workers.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "against",
+        "distractors": [
+          "among",
+          "during",
+          "beside"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-discrimination-age-discrimination",
+      "wordId": "article-health-mental-health-week-2026-discrimination",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "age discrimination",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "年齢による差別",
+      "nuanceJa": "理由を前に置いて差別の種類を示す（gender discrimination）。法律文書やニュースの語で、日常では unfair treatment because of age のように言い換えることも多い。",
+      "example": "Age discrimination is illegal in many countries.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "age",
+        "distractors": [
+          "lunch",
+          "chair",
+          "season"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-exclusion-social-exclusion",
+      "wordId": "article-health-mental-health-week-2026-exclusion",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "social exclusion",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "社会的排除",
+      "nuanceJa": "social は社会生活の場から外されることを示す専門的な語。isolation（孤立）は個人の状態、exclusion は仕組みや周囲によって外される点を強調する。",
+      "example": "Social exclusion can harm mental health.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "social",
+        "distractors": [
+          "woolen",
+          "muddy",
+          "salty"
+        ]
+      },
+      "misuse": {
+        "form": "a tidy exclusion",
+        "noteJa": "「a tidy exclusion」とは言いません。ふつうは「social exclusion」・「exclusion from ～」・「reduce exclusion」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-exclusion-exclusion-from-x",
+      "wordId": "article-health-mental-health-week-2026-exclusion",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "exclusion from ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～からの排除",
+      "nuanceJa": "from の後ろに外される場所を置く（exclusion from school）。of は外された対象（the exclusion of women）を示すので、from と置く語が逆になる。",
+      "example": "Exclusion from the team made Ken feel alone.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "from",
+        "distractors": [
+          "into",
+          "onto",
+          "toward"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-exclusion-reduce-exclusion",
+      "wordId": "article-health-mental-health-week-2026-exclusion",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "reduce exclusion",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "排除を減らす",
+      "nuanceJa": "reduce は程度を減らす現実的な目標を表す。end exclusion は完全になくすという強い目標なので、対策の報告では reduce の方がよく使われる。",
+      "example": "The programme aims to reduce exclusion in schools.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "reduce",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "unplug"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-adopt-adopt-a-policy",
+      "wordId": "article-health-mental-health-week-2026-adopt",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "adopt a policy",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "政策を採用する",
+      "nuanceJa": "adopt は正式な決定で取り入れる段階に重点がある。introduce は新しく導入すること、implement は実行に移すことを指す。",
+      "example": "The council adopted a new policy on recycling.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "adopt",
+        "distractors": [
+          "unplug",
+          "swallow",
+          "stir"
+        ]
+      },
+      "misuse": {
+        "form": "adopt a sneeze",
+        "noteJa": "「adopt a sneeze」とは言いません。ふつうは「adopt a policy」・「formally adopt」・「be adopted by ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-adopt-formally-adopt",
+      "wordId": "article-health-mental-health-week-2026-adopt",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "formally adopt",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "正式に採択する",
+      "nuanceJa": "formally は手続きを経て決めたことを示す。officially は公的な立場から認められたことを強調し、formally は形式や手順の面を強調する。",
+      "example": "The assembly formally adopted the plan.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "formally",
+        "distractors": [
+          "softly",
+          "tastily",
+          "sleepily"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-adopt-be-adopted-by-x",
+      "wordId": "article-health-mental-health-week-2026-adopt",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "be adopted by ～",
+      "type": "other",
+      "patternDetail": "受け身＋前置詞",
+      "meaningJa": "～に採択される",
+      "nuanceJa": "by の後ろに決定を行う機関を置く（adopted by the committee）。法案には passed を使うことが多いが、adopt は宣言や基準にも使える。",
+      "example": "The rules were adopted by the whole class.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "by",
+        "distractors": [
+          "into",
+          "onto",
+          "upon"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-declaration-sign-a-declaration",
+      "wordId": "article-health-mental-health-week-2026-declaration",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "sign a declaration",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "宣言に署名する",
+      "nuanceJa": "sign は文書に署名して賛同を示す。adopt は会議が採択することで、署名するのは各国や個人であることが多い。",
+      "example": "Leaders signed a declaration on climate change.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "sign",
+        "distractors": [
+          "peel",
+          "pour",
+          "bake"
+        ]
+      },
+      "misuse": {
+        "form": "a sandy declaration",
+        "noteJa": "「a sandy declaration」とは言いません。ふつうは「sign a declaration」・「a joint declaration」・「a declaration on ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-declaration-a-joint-declaration",
+      "wordId": "article-health-mental-health-week-2026-declaration",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "a joint declaration",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "共同宣言",
+      "nuanceJa": "joint は複数の主体が一緒に出すことを示す。公的な文書では joint が定型で、common declaration とは言わない。",
+      "example": "The two countries issued a joint declaration.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "joint",
+        "distractors": [
+          "salty",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-declaration-a-declaration-on-x",
+      "wordId": "article-health-mental-health-week-2026-declaration",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "a declaration on ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～に関する宣言",
+      "nuanceJa": "on の後ろに扱う分野を置く（a declaration on human rights）。of は宣言の内容そのもの（the Declaration of Independence）を示し、国際文書の題名では on が多い。",
+      "example": "The group made a declaration on water safety.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "on",
+        "distractors": [
+          "off",
+          "onto",
+          "beside"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-voice-have-a-voice",
+      "wordId": "article-health-mental-health-week-2026-voice",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "have a voice",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "発言権を持つ",
+      "nuanceJa": "have a voice は意見を聞いてもらえる立場にあること。have a say は決定に影響できることを日常的に言う表現で、voice の方がやや改まって聞こえる。",
+      "example": "Every member should have a voice in the group.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "voice",
+        "distractors": [
+          "bucket",
+          "pillow",
+          "fraction"
+        ]
+      },
+      "misuse": {
+        "form": "a woolen voice",
+        "noteJa": "「a woolen voice」とは言いません。ふつうは「have a voice」・「a strong voice」・「a voice in ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-voice-a-strong-voice",
+      "wordId": "article-health-mental-health-week-2026-voice",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "a strong voice",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "強い発言力",
+      "nuanceJa": "strong は影響力の大きさを示す。loud は声の大きさそのものを言うので、比喩として発言力を言うときは strong が自然。",
+      "example": "The union gives workers a strong voice.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "strong",
+        "distractors": [
+          "wooden",
+          "damp",
+          "tidy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-mental-health-week-2026-voice-a-voice-in-x",
+      "wordId": "article-health-mental-health-week-2026-voice",
+      "articleId": "article-health-mental-health-week-2026",
+      "form": "a voice in ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～における発言権",
+      "nuanceJa": "in の後ろに意思決定の場を置く（a voice in decisions）。on は話題（a voice on the issue）にも使えるが、決定の場を言うなら in が定番。",
+      "example": "Students want a voice in school rules.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "onto",
+          "beneath",
+          "upon"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-premature-premature-birth",
+      "wordId": "article-health-heat-pregnancy-2026-premature",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "premature birth",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "早産",
+      "nuanceJa": "premature birth は報道や一般向けの文章で標準的な言い方。preterm birth は医療の専門文書で好まれ、一般向けの記事では premature が自然。",
+      "example": "Premature birth can cause health problems for a baby.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "premature",
+        "distractors": [
+          "salty",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": {
+        "form": "premature breakfast",
+        "noteJa": "「premature breakfast」とは言いません。ふつうは「premature birth」・「premature death」・「born prematurely」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-premature-premature-death",
+      "wordId": "article-health-heat-pregnancy-2026-premature",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "premature death",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "早すぎる死",
+      "nuanceJa": "premature death は統計で、期待される寿命より早く亡くなることを指す。early death は日常的な言い方で、統計上の定義までは含まない。",
+      "example": "Smoking is linked to premature death.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "premature",
+        "distractors": [
+          "tasty",
+          "fluffy",
+          "sandy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-premature-born-prematurely",
+      "wordId": "article-health-heat-pregnancy-2026-premature",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "born prematurely",
+      "type": "other",
+      "patternDetail": "過去分詞＋副詞",
+      "meaningJa": "早産で生まれた",
+      "nuanceJa": "副詞の prematurely は born の様子を述べ、出生のときの出来事を言う。premature baby は赤ちゃんの状態を名詞として言うので、文の作り方が違う。",
+      "example": "Many babies are born prematurely each year.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "prematurely",
+        "distractors": [
+          "sleepily",
+          "tastily",
+          "woodenly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-adapt-adapt-to-x",
+      "wordId": "article-health-heat-pregnancy-2026-adapt",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "adapt to ～",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "～に適応する",
+      "nuanceJa": "to の後ろに環境や変化を置いて適応先を示す。adapt ～ for は物を別の用途に作り変える意味（adapt a book for film）なので、to か for かで意味が変わる。",
+      "example": "Farmers must adapt to hotter summers.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "to",
+        "distractors": [
+          "on",
+          "over",
+          "beside"
+        ]
+      },
+      "misuse": {
+        "form": "adapt a sneeze",
+        "noteJa": "「adapt a sneeze」とは言いません。ふつうは「adapt to ～」・「adapt quickly」・「adapt a plan」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-adapt-adapt-quickly",
+      "wordId": "article-health-heat-pregnancy-2026-adapt",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "adapt quickly",
+      "type": "other",
+      "patternDetail": "動詞＋副詞",
+      "meaningJa": "すばやく適応する",
+      "nuanceJa": "quickly は適応の速さを言う。successfully は結果の成功を言うので、速度か成果かで副詞が変わる。",
+      "example": "Young children adapt quickly to new schools.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "quickly",
+        "distractors": [
+          "sandily",
+          "woodenly",
+          "tastily"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-adapt-adapt-a-plan",
+      "wordId": "article-health-heat-pregnancy-2026-adapt",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "adapt a plan",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "計画を調整する",
+      "nuanceJa": "adapt は状況に合わせて目的に沿うよう作り直す意味を含む。change は単に変えること、revise は文書の見直しによく使う。",
+      "example": "The school adapted its plan after the storm.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "adapt",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "unplug"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-evidence-strong-evidence",
+      "wordId": "article-health-heat-pregnancy-2026-evidence",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "strong evidence",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "有力な証拠",
+      "nuanceJa": "strong は研究結果などの裏づけの確かさを言う。clear evidence は誰が見ても明らかな点を強調し、strong evidence は確かさの程度を示す。",
+      "example": "There is strong evidence that exercise improves sleep.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "strong",
+        "distractors": [
+          "tidy",
+          "sleepy",
+          "damp"
+        ]
+      },
+      "misuse": {
+        "form": "hungry evidence",
+        "noteJa": "「hungry evidence」とは言いません。ふつうは「strong evidence」・「evidence of ～」・「collect evidence」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-evidence-evidence-of-x",
+      "wordId": "article-health-heat-pregnancy-2026-evidence",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "evidence of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の証拠",
+      "nuanceJa": "of の後ろに存在が示される事柄を置く（evidence of damage）。for は主張を支える証拠（evidence for a theory）に使うので、事実なら of、主張なら for が合う。",
+      "example": "The doctors found evidence of heat stress.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "onto",
+          "upon",
+          "beside"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-evidence-collect-evidence",
+      "wordId": "article-health-heat-pregnancy-2026-evidence",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "collect evidence",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "証拠を集める",
+      "nuanceJa": "collect は調査やデータなどを体系的に集める印象がある。gather は人や物を集めることに重点があり、collect よりくだけて使える。",
+      "example": "Researchers collect evidence from several clinics.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "collect",
+        "distractors": [
+          "bake",
+          "pour",
+          "fold"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-housing-poor-housing",
+      "wordId": "article-health-heat-pregnancy-2026-housing",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "poor housing",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "質の悪い住宅",
+      "nuanceJa": "poor は質や条件の悪さを示す。bad housing より硬く、報告書や統計で使う。housing は数えない名詞なので a は付けない。",
+      "example": "Poor housing can make hot weather more dangerous.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "poor",
+        "distractors": [
+          "fluffy",
+          "sandy",
+          "woolen"
+        ]
+      },
+      "misuse": {
+        "form": "a sleepy housing",
+        "noteJa": "「a sleepy housing」とは言いません。ふつうは「poor housing」・「housing costs」・「affordable housing」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-housing-housing-costs",
+      "wordId": "article-health-heat-pregnancy-2026-housing",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "housing costs",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "住居費",
+      "nuanceJa": "housing costs は家賃やローンなど住まいにかかる費用全体を指す。rent は家賃だけを言うので、全体を言うときは housing costs を使う。",
+      "example": "Housing costs are a large part of monthly spending.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "costs",
+        "distractors": [
+          "laughs",
+          "shadows",
+          "branches"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-housing-affordable-housing",
+      "wordId": "article-health-heat-pregnancy-2026-housing",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "affordable housing",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "手頃な価格の住宅",
+      "nuanceJa": "affordable は収入に見合う価格を表す。cheap は安いが質も低い印象を持つので、政策文書では affordable を使う。",
+      "example": "The city plans to build more affordable housing.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "affordable",
+        "distractors": [
+          "melted",
+          "painted",
+          "woolen"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-affect-be-affected-by-x",
+      "wordId": "article-health-heat-pregnancy-2026-affect",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "be affected by ～",
+      "type": "other",
+      "patternDetail": "受け身＋前置詞",
+      "meaningJa": "～の影響を受ける",
+      "nuanceJa": "by の後ろに原因を置く。suffer from ～ は病気や苦しみを受ける意味で、affected by はより広い影響に使える。",
+      "example": "Many crops were affected by the heat.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "by",
+        "distractors": [
+          "into",
+          "onto",
+          "upon"
+        ]
+      },
+      "misuse": {
+        "form": "affect a sneeze",
+        "noteJa": "「affect a sneeze」とは言いません。ふつうは「be affected by ～」・「seriously affect」・「affect health」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-affect-seriously-affect",
+      "wordId": "article-health-heat-pregnancy-2026-affect",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "seriously affect",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "深刻な影響を与える",
+      "nuanceJa": "seriously は影響の大きさを強める。badly affected は悪い影響を口語的に言うときに使うが、seriously は公的な文書でも使える。",
+      "example": "Heat can seriously affect sleep.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "seriously",
+        "distractors": [
+          "tastily",
+          "sleepily",
+          "woodenly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-heat-pregnancy-2026-affect-affect-health",
+      "wordId": "article-health-heat-pregnancy-2026-affect",
+      "articleId": "article-health-heat-pregnancy-2026",
+      "form": "affect health",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "健康に影響する",
+      "nuanceJa": "affect は動詞で「影響を与える」。effect は名詞なので、health を目的語にとるのは affect で、have an effect on health とも言い換えられる。",
+      "example": "Hot weather can affect health in many ways.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "affect",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "unplug"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-ageism-combat-ageism",
+      "wordId": "article-health-healthy-ageing-2026-ageism",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "combat ageism",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "年齢差別と闘う",
+      "nuanceJa": "combat は問題に積極的に立ち向かう硬い動詞で、報道や政策文書に多い。fight より改まり、tackle は具体策に取り組むときに使うという違いがある。",
+      "example": "The campaign aims to combat ageism in the workplace.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "combat",
+        "distractors": [
+          "unplug",
+          "sprinkle",
+          "fold"
+        ]
+      },
+      "misuse": {
+        "form": "a velvet ageism",
+        "noteJa": "「a velvet ageism」とは言いません。ふつうは「combat ageism」・「ageism in ～」・「measure ageism」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-ageism-ageism-in-x",
+      "wordId": "article-health-healthy-ageing-2026-ageism",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "ageism in ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～における年齢差別",
+      "nuanceJa": "in の後ろに差別が起きる場や分野を置く（ageism in healthcare）。against は差別を受ける対象（ageism against older workers）を置くので、場か対象かで前置詞が変わる。",
+      "example": "Ageism in hiring keeps skilled workers out of jobs.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "onto",
+          "beneath",
+          "upon"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-ageism-measure-ageism",
+      "wordId": "article-health-healthy-ageing-2026-ageism",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "measure ageism",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "年齢差別の程度を測る",
+      "nuanceJa": "measure は程度を数値で捉える。address は問題に対処する意味で、報告書では「測り（measure）、対処する（address）」とセットで語られることが多い。",
+      "example": "Few countries measure ageism in a regular way.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "measure",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "peel"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-integrated-integrated-care",
+      "wordId": "article-health-healthy-ageing-2026-integrated",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "integrated care",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "統合的なケア",
+      "nuanceJa": "integrated は医療・介護・福祉などが一体で提供されることを示す専門的な語。coordinated care は連絡調整に重点があり、integrated はより一体化した仕組みを指す。",
+      "example": "Integrated care brings doctors and social workers together.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "integrated",
+        "distractors": [
+          "salty",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": {
+        "form": "integrated breakfast",
+        "noteJa": "「integrated breakfast」とは言いません。ふつうは「integrated care」・「fully integrated」・「integrated into ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-integrated-fully-integrated",
+      "wordId": "article-health-healthy-ageing-2026-integrated",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "fully integrated",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "完全に統合された",
+      "nuanceJa": "fully は統合の程度が高いことを示す。partly integrated と対比して、制度の一体化の度合いを説明するときに使う。",
+      "example": "The two services are not yet fully integrated.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "fully",
+        "distractors": [
+          "sleepily",
+          "tastily",
+          "woodenly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-integrated-integrated-into-x",
+      "wordId": "article-health-healthy-ageing-2026-integrated",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "integrated into ～",
+      "type": "other",
+      "patternDetail": "過去分詞＋前置詞",
+      "meaningJa": "～に組み込まれた",
+      "nuanceJa": "into の後ろに組み込み先を置く（integrated into primary care）。with は二つのものを連携させる意味（integrated with other services）なので、組み込みか連携かで前置詞が違う。",
+      "example": "The programme was integrated into adult day centres.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "into",
+        "distractors": [
+          "beside",
+          "beneath",
+          "upon"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-monitor-monitor-progress",
+      "wordId": "article-health-healthy-ageing-2026-monitor",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "monitor progress",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "進み具合を追う",
+      "nuanceJa": "monitor は継続的に確認して記録する。check は一度確かめる行為で、monitor は定期的で長期にわたる追跡を含む。",
+      "example": "The ministry will monitor progress every year.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "monitor",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "unplug"
+        ]
+      },
+      "misuse": {
+        "form": "monitor a sneeze",
+        "noteJa": "「monitor a sneeze」とは言いません。ふつうは「monitor progress」・「closely monitor」・「a monitoring system」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-monitor-closely-monitor",
+      "wordId": "article-health-healthy-ageing-2026-monitor",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "closely monitor",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "注意深く見守る",
+      "nuanceJa": "closely は対象から目を離さず細かく追跡する様子を示す。carefully は慎重さを表すので、closely は見守る密度の高さを強調する。",
+      "example": "Doctors closely monitor patients after surgery.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "closely",
+        "distractors": [
+          "tastily",
+          "sleepily",
+          "woodenly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-monitor-a-monitoring-system",
+      "wordId": "article-health-healthy-ageing-2026-monitor",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "a monitoring system",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "監視・追跡の仕組み",
+      "nuanceJa": "system は恒常的な制度や仕組みを指す。monitoring programme は期間を決めた取り組みを言うことが多く、system は継続的に動く体制というニュアンスがある。",
+      "example": "The city has a monitoring system for air quality.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "monitoring",
+        "distractors": [
+          "laughing",
+          "melting",
+          "baking"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-gap-close-the-gap",
+      "wordId": "article-health-healthy-ageing-2026-gap",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "close the gap",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "差を縮める",
+      "nuanceJa": "close は差をなくす方向に縮める。narrow は少し縮めること、bridge は離れた両者をつなぐことで、close には差を解消するという含みがある。",
+      "example": "The programme aims to close the gap between rich and poor areas.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "close",
+        "distractors": [
+          "pour",
+          "bake",
+          "knit"
+        ]
+      },
+      "misuse": {
+        "form": "a velvet gap",
+        "noteJa": "「a velvet gap」とは言いません。ふつうは「close the gap」・「a wide gap」・「a gap between ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-gap-a-wide-gap",
+      "wordId": "article-health-healthy-ageing-2026-gap",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "a wide gap",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "大きな差",
+      "nuanceJa": "wide は差の広がりを表す。big gap より書き言葉で、統計や報告書で定番。large gap も使えるが、wide は開きが大きい感じが強い。",
+      "example": "There is a wide gap between policy and practice.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "wide",
+        "distractors": [
+          "salty",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-gap-a-gap-between-x",
+      "wordId": "article-health-healthy-ageing-2026-gap",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "a gap between ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の間の差",
+      "nuanceJa": "between A and B の形で比べる二者を示す。gap in ～ は欠けている部分（a gap in knowledge）を言うので、二者の差か欠落かで前置詞が変わる。",
+      "example": "The gap between law and practice is large.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "between",
+        "distractors": [
+          "during",
+          "toward",
+          "beneath"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-carer-unpaid-carer",
+      "wordId": "article-health-healthy-ageing-2026-carer",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "unpaid carer",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "無償の介護者",
+      "nuanceJa": "unpaid は家族など報酬を受けずに介護する人を指す。paid carer と対比して、仕事としての介護者との違いを示すときによく使う。",
+      "example": "Ana is an unpaid carer for her mother.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "unpaid",
+        "distractors": [
+          "sandy",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": {
+        "form": "a velvet carer",
+        "noteJa": "「a velvet carer」とは言いません。ふつうは「unpaid carer」・「family carer」・「become a carer」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-carer-family-carer",
+      "wordId": "article-health-healthy-ageing-2026-carer",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "family carer",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "家族の介護者",
+      "nuanceJa": "family carer は家族が担う介護者を指す。caregiver は米国英語で一般的な語で、英国英語や報告書では carer を使うことが多い。",
+      "example": "Many family carers need rest and training.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "family",
+        "distractors": [
+          "laughing",
+          "wooden",
+          "tidy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-healthy-ageing-2026-carer-become-a-carer",
+      "wordId": "article-health-healthy-ageing-2026-carer",
+      "articleId": "article-health-healthy-ageing-2026",
+      "form": "become a carer",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "介護者になる",
+      "nuanceJa": "become は役割に就く過程を表し、家族など自然に役割を担う場合にも使える。work as a carer は仕事として介護者になる意味に限られる。",
+      "example": "Many people become a carer without planning to.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "become",
+        "distractors": [
+          "unplug",
+          "fold",
+          "peel"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-diagnosis-early-diagnosis",
+      "wordId": "article-health-childhood-cancer-2026-diagnosis",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "early diagnosis",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "早期診断",
+      "nuanceJa": "early は病気が進む前に見つけることを示す。late diagnosis と対比され、がんの記事では生存率の改善とセットで語られることが多い。",
+      "example": "Early diagnosis gives patients more treatment choices.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "early",
+        "distractors": [
+          "salty",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": {
+        "form": "a velvet diagnosis",
+        "noteJa": "「a velvet diagnosis」とは言いません。ふつうは「early diagnosis」・「receive a diagnosis」・「a diagnosis of ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-diagnosis-receive-a-diagnosis",
+      "wordId": "article-health-childhood-cancer-2026-diagnosis",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "receive a diagnosis",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "診断を受ける",
+      "nuanceJa": "receive は結果を受け取る改まった言い方で、医療の記事に多い。get a diagnosis は日常的な言い方で、会話ではこちらが自然。",
+      "example": "She received a diagnosis after several tests.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "receive",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "unplug"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-diagnosis-a-diagnosis-of-x",
+      "wordId": "article-health-childhood-cancer-2026-diagnosis",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "a diagnosis of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～という診断",
+      "nuanceJa": "of の後ろに病名を置く（a diagnosis of cancer）。for は診断を求める目的を言うときに現れるので、病名を示すなら of を使う。",
+      "example": "Mina's life changed after a diagnosis of asthma.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "onto",
+          "upon",
+          "beneath"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-survival-survival-rate",
+      "wordId": "article-health-childhood-cancer-2026-survival",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "survival rate",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "生存率",
+      "nuanceJa": "survival rate は一定期間後に生存している人の割合を示す統計用語で、five-year survival rate のように期間を前に付けるのが定型。日常では chances of survival とも言う。",
+      "example": "The survival rate rose after the new programme began.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "survival",
+        "distractors": [
+          "laughter",
+          "umbrella",
+          "sunrise"
+        ]
+      },
+      "misuse": {
+        "form": "a sticky survival",
+        "noteJa": "「a sticky survival」とは言いません。ふつうは「survival rate」・「improve survival」・「survival from ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-survival-improve-survival",
+      "wordId": "article-health-childhood-cancer-2026-survival",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "improve survival",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "生存率を高める",
+      "nuanceJa": "improve は良い方向への変化を評価して言う。increase は数値を上げることだけを言うので、医療の成果には improve が自然。",
+      "example": "Early treatment can improve survival.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "improve",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "unplug"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-survival-survival-from-x",
+      "wordId": "article-health-childhood-cancer-2026-survival",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "survival from ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～からの生存",
+      "nuanceJa": "from の後ろに病気や事故を置く（survival from cancer）。of は生き残る主体（the survival of the species）を置くので、from と of で置く語が逆になる。",
+      "example": "Survival from this cancer has improved in some regions.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "from",
+        "distractors": [
+          "onto",
+          "upon",
+          "beside"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-inequity-health-inequity",
+      "wordId": "article-health-childhood-cancer-2026-inequity",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "health inequity",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "健康の不公平",
+      "nuanceJa": "inequity は不当で是正すべき差を言う評価的な語。inequality は単に差があることを示す中立的な語で、inequity には「不当だ」という判断が含まれる。",
+      "example": "Health inequity is easy to see in these figures.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "health",
+        "distractors": [
+          "cloud",
+          "branch",
+          "pocket"
+        ]
+      },
+      "misuse": {
+        "form": "a sandy inequity",
+        "noteJa": "「a sandy inequity」とは言いません。ふつうは「health inequity」・「address inequity」・「inequity in ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-inequity-address-inequity",
+      "wordId": "article-health-childhood-cancer-2026-inequity",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "address inequity",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "不公平に対処する",
+      "nuanceJa": "address は問題に正面から取り組む硬い動詞。solve は解決したことを示すので、長く続く課題には address が自然。",
+      "example": "The new fund will address inequity in school lunches.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "address",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "unplug"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-inequity-inequity-in-x",
+      "wordId": "article-health-childhood-cancer-2026-inequity",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "inequity in ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～における不公平",
+      "nuanceJa": "in の後ろに不公平が見られる分野を置く（inequity in access to care）。between は比べる二者の間（between regions）を示すので、分野か比較対象かで前置詞が変わる。",
+      "example": "The study shows inequity in access to care.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "onto",
+          "beneath",
+          "upon"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-adolescent-adolescent-girls",
+      "wordId": "article-health-childhood-cancer-2026-adolescent",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "adolescent girls",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "思春期の少女",
+      "nuanceJa": "adolescent は医学・公衆衛生で 10〜19 歳を指す語。teenager は 13〜19 歳を指す日常語で、年齢の範囲と使う場面が少し違う。",
+      "example": "Adolescent girls need health services that fit their needs.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "adolescent",
+        "distractors": [
+          "mushroom",
+          "tablet",
+          "carpet"
+        ]
+      },
+      "misuse": {
+        "form": "a tidy adolescent",
+        "noteJa": "「a tidy adolescent」とは言いません。ふつうは「adolescent girls」・「young adolescents」・「treat adolescents」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-adolescent-young-adolescents",
+      "wordId": "article-health-childhood-cancer-2026-adolescent",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "young adolescents",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "思春期前半の若者",
+      "nuanceJa": "young は 10〜14 歳ごろの前半を指すときに加える。older adolescents（15〜19 歳）と対比して使うのが定型。",
+      "example": "Young adolescents often need help to talk about worries.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "young",
+        "distractors": [
+          "salty",
+          "wooden",
+          "muddy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-adolescent-treat-adolescents",
+      "wordId": "article-health-childhood-cancer-2026-adolescent",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "treat adolescents",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "思春期の若者を治療する",
+      "nuanceJa": "treat は治療という医療行為を行うこと。care for は世話や支援まで含むので、生活ごと支えるなら care for adolescents が自然。",
+      "example": "Few hospitals treat adolescents and adults together.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "treat",
+        "distractors": [
+          "bake",
+          "pour",
+          "fold"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-essential-essential-medicines",
+      "wordId": "article-health-childhood-cancer-2026-essential",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "essential medicines",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "必須医薬品",
+      "nuanceJa": "essential medicines は保健制度が備えるべき薬を指す制度上の用語。important medicines は重要度を言うだけで、リストに載った薬という意味は含まない。",
+      "example": "Clinics need a steady supply of essential medicines.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "essential",
+        "distractors": [
+          "salty",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": {
+        "form": "essential breakfast",
+        "noteJa": "「essential breakfast」とは言いません。ふつうは「essential medicines」・「essential for ～」・「absolutely essential」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-essential-essential-for-x",
+      "wordId": "article-health-childhood-cancer-2026-essential",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "essential for ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～に欠かせない",
+      "nuanceJa": "for の後ろに目的や必要とする対象を置く（essential for survival）。to は計画など関係する対象を示す（essential to the plan）ことがあり、目的なら for を使う。",
+      "example": "Clean water is essential for health.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "onto",
+          "upon",
+          "beside"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-childhood-cancer-2026-essential-absolutely-essential",
+      "wordId": "article-health-childhood-cancer-2026-essential",
+      "articleId": "article-health-childhood-cancer-2026",
+      "form": "absolutely essential",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "絶対に欠かせない",
+      "nuanceJa": "essential は程度を表す語と一緒に使いにくく、very essential は不自然とされる。強調するときは absolutely や quite を使う。",
+      "example": "Early treatment is absolutely essential.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "absolutely",
+        "distractors": [
+          "tastily",
+          "sleepily",
+          "woodenly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-stigma-weight-stigma",
+      "wordId": "article-health-adolescent-obesity-2026-stigma",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "weight stigma",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "体重に対する偏見",
+      "nuanceJa": "weight stigma は体型や体重を理由とする偏見を指す公衆衛生の用語で、医療現場や制度での扱いまで含む。body shaming は個人への中傷を指すので範囲が狭い。",
+      "example": "Weight stigma can stop young people from seeking care.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "weight",
+        "distractors": [
+          "lantern",
+          "helmet",
+          "kettle"
+        ]
+      },
+      "misuse": {
+        "form": "a woolen stigma",
+        "noteJa": "「a woolen stigma」とは言いません。ふつうは「weight stigma」・「reduce stigma」・「the stigma attached to ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-stigma-reduce-stigma",
+      "wordId": "article-health-adolescent-obesity-2026-stigma",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "reduce stigma",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "偏見を減らす",
+      "nuanceJa": "reduce は程度を下げる現実的な目標を示す。eliminate は完全になくすことで、政策文書では reduce stigma のように達成可能な目標として書くことが多い。",
+      "example": "Open discussion can reduce stigma around mental health.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "reduce",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "peel"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-stigma-the-stigma-attached-to-x",
+      "wordId": "article-health-adolescent-obesity-2026-stigma",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "the stigma attached to ～",
+      "type": "other",
+      "patternDetail": "名詞＋過去分詞＋前置詞",
+      "meaningJa": "～に付きまとう偏見",
+      "nuanceJa": "attached to の後ろに偏見を貼られる対象を置く。stigma around ～ は話題の周辺に広がる偏見を言い、attached to は特定の対象に付いたレッテルを言う。",
+      "example": "The stigma attached to mental illness keeps many people silent.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "attached",
+        "distractors": [
+          "painted",
+          "stirred",
+          "poured"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-intervention-early-intervention",
+      "wordId": "article-health-adolescent-obesity-2026-intervention",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "early intervention",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "早期の介入",
+      "nuanceJa": "early は問題が重くなる前の介入を示す。preventive intervention は発症自体を防ぐ点が違い、early intervention は兆しが出た段階での対応を指す。",
+      "example": "Early intervention can stop problems from growing.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "early",
+        "distractors": [
+          "salty",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": {
+        "form": "a sandy intervention",
+        "noteJa": "「a sandy intervention」とは言いません。ふつうは「early intervention」・「intervention programme」・「implement an intervention」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-intervention-intervention-programme",
+      "wordId": "article-health-adolescent-obesity-2026-intervention",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "intervention programme",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "介入プログラム",
+      "nuanceJa": "intervention programme は期間と目標を決めた組織的な取り組みを指す。intervention だけだと単発の行為も含むので、取り組み全体を言うときは programme を付ける。",
+      "example": "The school ran an intervention programme on sleep.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "programme",
+        "distractors": [
+          "umbrella",
+          "shoelace",
+          "teacup"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-intervention-implement-an-intervention",
+      "wordId": "article-health-adolescent-obesity-2026-intervention",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "implement an intervention",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "介入を実施する",
+      "nuanceJa": "implement は決まった内容を実際に動かす硬い動詞。carry out は日常的に使えるのに対し、implement は計画や制度を実行に移す場面で使う。",
+      "example": "Schools must implement the intervention carefully.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "implement",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "peel"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-sedentary-a-sedentary-lifestyle",
+      "wordId": "article-health-adolescent-obesity-2026-sedentary",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "a sedentary lifestyle",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "座りがちな生活",
+      "nuanceJa": "sedentary は座って過ごす時間が長いことを示す医学用語。lazy は怠けているという評価を含むので、健康の文脈では sedentary を使う。",
+      "example": "A sedentary lifestyle is common among office workers.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "sedentary",
+        "distractors": [
+          "salty",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": {
+        "form": "a sedentary breakfast",
+        "noteJa": "「a sedentary breakfast」とは言いません。ふつうは「a sedentary lifestyle」・「sedentary time」・「largely sedentary」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-sedentary-sedentary-time",
+      "wordId": "article-health-adolescent-obesity-2026-sedentary",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "sedentary time",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "座って過ごす時間",
+      "nuanceJa": "sedentary time は一日のうち座って過ごした合計時間を測る語。screen time は画面を見る時間で、座る時間と重なっても同じではない。",
+      "example": "Sedentary time rises when students study online for hours.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "time",
+        "distractors": [
+          "bucket",
+          "pillow",
+          "fraction"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-sedentary-largely-sedentary",
+      "wordId": "article-health-adolescent-obesity-2026-sedentary",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "largely sedentary",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "ほとんど座って過ごす",
+      "nuanceJa": "largely は「ほとんどが」という程度を示す。mostly より書き言葉で、統計や報告書で使うのに向く。",
+      "example": "Their jobs are largely sedentary.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "largely",
+        "distractors": [
+          "tastily",
+          "sleepily",
+          "woodenly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-comprehensive-comprehensive-support",
+      "wordId": "article-health-adolescent-obesity-2026-comprehensive",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "comprehensive support",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "包括的な支援",
+      "nuanceJa": "comprehensive は必要なものを漏れなく含む範囲の広さを示す。complete は欠けがないこと、full は量が満ちていることを言い、焦点が違う。",
+      "example": "The programme offers comprehensive support to families.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "comprehensive",
+        "distractors": [
+          "salty",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": {
+        "form": "comprehensive breakfast",
+        "noteJa": "「comprehensive breakfast」とは言いません。ふつうは「comprehensive support」・「provide comprehensive care」・「comprehensive in scope」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-comprehensive-provide-comprehensive-care",
+      "wordId": "article-health-adolescent-obesity-2026-comprehensive",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "provide comprehensive care",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋形容詞＋名詞",
+      "meaningJa": "包括的なケアを提供する",
+      "nuanceJa": "provide は必要なものを用意して与える硬い動詞で、サービスや支援には定番。give はより日常的で、公的な文書では provide が好まれる。",
+      "example": "Clinics provide comprehensive care for adolescents.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "provide",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "peel"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-comprehensive-comprehensive-in-scope",
+      "wordId": "article-health-adolescent-obesity-2026-comprehensive",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "comprehensive in scope",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞＋名詞",
+      "meaningJa": "範囲が網羅的な",
+      "nuanceJa": "in scope は範囲を示す。comprehensive in scope は「範囲が広く網羅的」と評価する報告書の定型で、wide-ranging より公式な評価の語になる。",
+      "example": "The new guideline is comprehensive in scope.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "scope",
+        "distractors": [
+          "laughter",
+          "umbrella",
+          "sunrise"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-fiscal-fiscal-measures",
+      "wordId": "article-health-adolescent-obesity-2026-fiscal",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "fiscal measures",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "財政上の措置",
+      "nuanceJa": "fiscal は政府の税や支出に関わることを示す。financial は個人や企業を含む広い「お金の」意味で、政策文書で税や補助金を指すときは fiscal を使う。",
+      "example": "Fiscal measures include taxes on sugary drinks.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "fiscal",
+        "distractors": [
+          "woolen",
+          "muddy",
+          "salty"
+        ]
+      },
+      "misuse": {
+        "form": "a fiscal sneeze",
+        "noteJa": "「a fiscal sneeze」とは言いません。ふつうは「fiscal measures」・「fiscal policy」・「fiscal year」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-fiscal-fiscal-policy",
+      "wordId": "article-health-adolescent-obesity-2026-fiscal",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "fiscal policy",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "財政政策",
+      "nuanceJa": "fiscal policy は政府の税と支出による経済運営で、monetary policy（金融政策、中央銀行が金利などで行う）と対になる語。",
+      "example": "Fiscal policy shapes how much a government can spend.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "policy",
+        "distractors": [
+          "bucket",
+          "pillow",
+          "fraction"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-adolescent-obesity-2026-fiscal-fiscal-year",
+      "wordId": "article-health-adolescent-obesity-2026-fiscal",
+      "articleId": "article-health-adolescent-obesity-2026",
+      "form": "fiscal year",
+      "type": "other",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "会計年度",
+      "nuanceJa": "fiscal year は国や組織の会計の一年間で、calendar year（暦年）とは始まりが異なることが多い。日本では4月始まりが一般的。",
+      "example": "The fiscal year ends in March in many organisations.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "year",
+        "distractors": [
+          "bucket",
+          "pillow",
+          "fraction"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-disrupt-disrupt-services",
+      "wordId": "article-health-global-health-estimates-2026-disrupt",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "disrupt services",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "サービスを混乱させる",
+      "nuanceJa": "disrupt は通常の流れを乱す。interrupt は一時的に止めることで、disrupt は混乱が広く続く含みがある。",
+      "example": "Floods often disrupt health services.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "disrupt",
+        "distractors": [
+          "sprinkle",
+          "fold",
+          "peel"
+        ]
+      },
+      "misuse": {
+        "form": "disrupt a sneeze",
+        "noteJa": "「disrupt a sneeze」とは言いません。ふつうは「disrupt services」・「seriously disrupted」・「disrupted by ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-disrupt-seriously-disrupted",
+      "wordId": "article-health-global-health-estimates-2026-disrupt",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "seriously disrupted",
+      "type": "other",
+      "patternDetail": "副詞＋過去分詞",
+      "meaningJa": "深刻に混乱した",
+      "nuanceJa": "seriously は混乱の大きさを強める。severely も近いが被害の重さを言うときに多く、seriously は影響の大きさ全般に使える。",
+      "example": "Supply chains were seriously disrupted.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "seriously",
+        "distractors": [
+          "tastily",
+          "sleepily",
+          "woodenly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-disrupt-disrupted-by-x",
+      "wordId": "article-health-global-health-estimates-2026-disrupt",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "disrupted by ～",
+      "type": "other",
+      "patternDetail": "過去分詞＋前置詞",
+      "meaningJa": "～で混乱した",
+      "nuanceJa": "by の後ろに混乱を起こした原因を置く（disrupted by war）。due to は原因を一般的に示し、受け身では by が原因や行為者を直接示す。",
+      "example": "Classes were disrupted by the storm.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "by",
+        "distractors": [
+          "into",
+          "onto",
+          "upon"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-burden-disease-burden",
+      "wordId": "article-health-global-health-estimates-2026-burden",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "disease burden",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "疾病負担",
+      "nuanceJa": "disease burden は病気が社会に与える負担を、失われた健康年数などで測る公衆衛生の用語。cost は金銭に限らず使えるが、burden は背負う重さの感じが強い。",
+      "example": "The disease burden is heavier in older groups.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "disease",
+        "distractors": [
+          "lantern",
+          "helmet",
+          "kettle"
+        ]
+      },
+      "misuse": {
+        "form": "a sticky burden",
+        "noteJa": "「a sticky burden」とは言いません。ふつうは「disease burden」・「reduce the burden」・「a burden on ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-burden-reduce-the-burden",
+      "wordId": "article-health-global-health-estimates-2026-burden",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "reduce the burden",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "負担を減らす",
+      "nuanceJa": "reduce は程度を下げる。lift the burden は重さを取り去る比喩的で日常的な言い方で、報告書では reduce the burden of ～ が定型。",
+      "example": "Vaccines reduce the burden on hospitals.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "reduce",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "peel"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-burden-a-burden-on-x",
+      "wordId": "article-health-global-health-estimates-2026-burden",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "a burden on ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～への負担",
+      "nuanceJa": "on の後ろに負担を受ける側を置く（a burden on families）。of は負担の中身（the burden of disease）を示すので、受ける側か内容かで前置詞が変わる。",
+      "example": "Rising costs are a burden on families.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "on",
+        "distractors": [
+          "into",
+          "through",
+          "toward"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-transition-make-the-transition",
+      "wordId": "article-health-global-health-estimates-2026-transition",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "make the transition",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "移行する",
+      "nuanceJa": "make the transition は一定の期間をかけて移ることを言う。switch は短時間で切り替える感じで、transition には移行の過程が含まれる。",
+      "example": "Many patients make the transition to adult care at eighteen.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "make",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "peel"
+        ]
+      },
+      "misuse": {
+        "form": "a woolen transition",
+        "noteJa": "「a woolen transition」とは言いません。ふつうは「make the transition」・「a smooth transition」・「transition from ～ to ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-transition-a-smooth-transition",
+      "wordId": "article-health-global-health-estimates-2026-transition",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "a smooth transition",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "円滑な移行",
+      "nuanceJa": "smooth は手順に滞りなく進む移行を言う。easy は難しくないという意味で、smooth は途中で問題が起きない点を強調する。",
+      "example": "The hospital planned a smooth transition between teams.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "smooth",
+        "distractors": [
+          "woolen",
+          "muddy",
+          "salty"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-transition-transition-from-x-to-x",
+      "wordId": "article-health-global-health-estimates-2026-transition",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "transition from ～ to ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞＋前置詞",
+      "meaningJa": "～から～への移行",
+      "nuanceJa": "from A to B で移行の前後を示す。transition to ～ だけなら移行先だけを言うので、元の状態も述べたいときに from を加える。",
+      "example": "The transition from paper to digital records took years.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "from",
+        "distractors": [
+          "onto",
+          "upon",
+          "beside"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-substantial-a-substantial-increase",
+      "wordId": "article-health-global-health-estimates-2026-substantial",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "a substantial increase",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "大幅な増加",
+      "nuanceJa": "substantial は量や重要性の大きさを客観的に言う。significant は統計的に意味のある差を含むことがあり、両者は焦点が違う。",
+      "example": "There was a substantial increase in the number of cases.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "substantial",
+        "distractors": [
+          "fluffy",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": {
+        "form": "a substantial sneeze",
+        "noteJa": "「a substantial sneeze」とは言いません。ふつうは「a substantial increase」・「substantially higher」・「a substantial part of ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-substantial-substantially-higher",
+      "wordId": "article-health-global-health-estimates-2026-substantial",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "substantially higher",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "大幅に高い",
+      "nuanceJa": "substantially は「大幅に」という程度を示し、slightly（わずかに）と対になる。much よりも硬い語で、報告書に向く。",
+      "example": "Rates are substantially higher in older groups.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "substantially",
+        "distractors": [
+          "tastily",
+          "sleepily",
+          "woodenly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-substantial-a-substantial-part-of-x",
+      "wordId": "article-health-global-health-estimates-2026-substantial",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "a substantial part of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～のかなりの部分",
+      "nuanceJa": "part of の前に置いて割合が大きいことを示す。large part より書き言葉で、全体の中の大きな一部を客観的に述べるときに使う。",
+      "example": "A substantial part of the budget goes to staff.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "part",
+        "distractors": [
+          "pebble",
+          "whisper",
+          "ribbon"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-adjust-adjust-for-x",
+      "wordId": "article-health-global-health-estimates-2026-adjust",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "adjust for ～",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "～の影響を補正する",
+      "nuanceJa": "adjust for age は年齢の違いの影響を取り除いて比べる統計の言い方。control for は研究で要因を統制する、より厳密な分析の語になる。",
+      "example": "The researchers adjust for age and income.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "onto",
+          "upon",
+          "beside"
+        ]
+      },
+      "misuse": {
+        "form": "adjust a sneeze",
+        "noteJa": "「adjust a sneeze」とは言いません。ふつうは「adjust for ～」・「adjust the dose」・「adjust to ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-adjust-adjust-the-dose",
+      "wordId": "article-health-global-health-estimates-2026-adjust",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "adjust the dose",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "用量を調整する",
+      "nuanceJa": "adjust は少し変えて適切にする微調整の語。change は大きく変える場合も含むので、薬の量を様子を見て整えるなら adjust が自然。",
+      "example": "The doctor adjusted the dose after a week.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "adjust",
+        "distractors": [
+          "sneeze",
+          "knit",
+          "peel"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-article-health-global-health-estimates-2026-adjust-adjust-to-x",
+      "wordId": "article-health-global-health-estimates-2026-adjust",
+      "articleId": "article-health-global-health-estimates-2026",
+      "form": "adjust to ～",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "～に慣れる",
+      "nuanceJa": "adjust to は環境に慣れる意味で、小さな調整を重ねる含みがある。adapt to は大きな変化に適応する意味で、規模の違いで使い分ける。",
+      "example": "It takes time to adjust to a new routine.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "to",
+        "distractors": [
+          "onto",
+          "upon",
+          "beside"
+        ]
+      },
+      "misuse": null
     }
   ]
 }

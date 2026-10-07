@@ -1,0 +1,493 @@
+{
+  "id": "article-health-mental-health-week-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-health-mental-health-week-2026-discrimination",
+      "headword": "discrimination",
+      "partOfSpeech": "noun",
+      "meaning": "差別",
+      "definition": "unfair treatment of a group of people",
+      "contextParagraphId": "p3",
+      "context": "Poverty, inequality, discrimination, violence and social exclusion all play a part.",
+      "example": "The company has rules against discrimination at work.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "差別",
+      "questions": {
+        "ja": {
+          "choices": [
+            "競争",
+            "差別",
+            "移住",
+            "物価上昇"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-discrimination-ja-option-1",
+            "article-health-mental-health-week-2026-discrimination-ja-option-2",
+            "article-health-mental-health-week-2026-discrimination-ja-option-3",
+            "article-health-mental-health-week-2026-discrimination-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-discrimination-ja-option-2",
+          "distractorHeadwords": [
+            "competition",
+            null,
+            "migration",
+            "inflation"
+          ],
+          "explanation": "本文では「差別」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a contest in which people try to win a prize",
+            "unfair treatment of a group of people",
+            "the movement of people to live in another place",
+            "a general rise in prices over a period of time"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-discrimination-en-option-1",
+            "article-health-mental-health-week-2026-discrimination-en-option-2",
+            "article-health-mental-health-week-2026-discrimination-en-option-3",
+            "article-health-mental-health-week-2026-discrimination-en-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-discrimination-en-option-2",
+          "distractorHeadwords": [
+            "competition",
+            null,
+            "migration",
+            "inflation"
+          ],
+          "explanation": "本文では「差別」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "face discrimination",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "差別を受ける",
+            "nuanceJa": "face は避けにくい不利益に向き合い続ける状況を表す。experience discrimination は経験した事実を報告するときの中立的な言い方。",
+            "example": "People with disabilities may face discrimination at work.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "discrimination against ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～に対する差別",
+            "nuanceJa": "against の後ろに差別を受ける集団を置く（discrimination against women）。差別の理由を言うときは on the basis of ～ を使うので、対象と理由で表現が分かれる。",
+            "example": "The law bans discrimination against older workers.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "age discrimination",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "年齢による差別",
+            "nuanceJa": "理由を前に置いて差別の種類を示す（gender discrimination）。法律文書やニュースの語で、日常では unfair treatment because of age のように言い換えることも多い。",
+            "example": "Age discrimination is illegal in many countries.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "discrimination",
+      "sourceKind": "article",
+      "articleId": "article-health-mental-health-week-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-mental-health-week-2026-exclusion",
+      "headword": "exclusion",
+      "partOfSpeech": "noun",
+      "meaning": "排除",
+      "definition": "the act of keeping people out of a group",
+      "contextParagraphId": "p3",
+      "context": "Poverty, inequality, discrimination, violence and social exclusion all play a part.",
+      "example": "Exclusion from the group made her feel alone.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "排除",
+      "questions": {
+        "ja": {
+          "choices": [
+            "参加",
+            "輸送",
+            "年金",
+            "排除"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-exclusion-ja-option-1",
+            "article-health-mental-health-week-2026-exclusion-ja-option-2",
+            "article-health-mental-health-week-2026-exclusion-ja-option-3",
+            "article-health-mental-health-week-2026-exclusion-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-exclusion-ja-option-4",
+          "distractorHeadwords": [
+            "participation",
+            "transport",
+            "pension",
+            null
+          ],
+          "explanation": "本文では「排除」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "the act of taking part in an event",
+            "the system of moving goods by road or rail",
+            "money paid to someone after they retire",
+            "the act of keeping people out of a group"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-exclusion-en-option-1",
+            "article-health-mental-health-week-2026-exclusion-en-option-2",
+            "article-health-mental-health-week-2026-exclusion-en-option-3",
+            "article-health-mental-health-week-2026-exclusion-en-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-exclusion-en-option-4",
+          "distractorHeadwords": [
+            "participation",
+            "transport",
+            "pension",
+            null
+          ],
+          "explanation": "本文では「排除」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "social exclusion",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "社会的排除",
+            "nuanceJa": "social は社会生活の場から外されることを示す専門的な語。isolation（孤立）は個人の状態、exclusion は仕組みや周囲によって外される点を強調する。",
+            "example": "Social exclusion can harm mental health.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "exclusion from ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～からの排除",
+            "nuanceJa": "from の後ろに外される場所を置く（exclusion from school）。of は外された対象（the exclusion of women）を示すので、from と置く語が逆になる。",
+            "example": "Exclusion from the team made Ken feel alone.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "reduce exclusion",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "排除を減らす",
+            "nuanceJa": "reduce は程度を減らす現実的な目標を表す。end exclusion は完全になくすという強い目標なので、対策の報告では reduce の方がよく使われる。",
+            "example": "The programme aims to reduce exclusion in schools.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "exclusion",
+      "sourceKind": "article",
+      "articleId": "article-health-mental-health-week-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-mental-health-week-2026-adopt",
+      "headword": "adopt",
+      "partOfSpeech": "verb",
+      "meaning": "採択する",
+      "definition": "formally accept and start to use something",
+      "contextParagraphId": "p4",
+      "context": "In June 2026, the OAS General Assembly adopted a declaration that supports this kind of action.",
+      "example": "The class adopted a new rule for using phones.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "採択する",
+      "questions": {
+        "ja": {
+          "choices": [
+            "採択する",
+            "否決する",
+            "延期する",
+            "翻訳する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-adopt-ja-option-1",
+            "article-health-mental-health-week-2026-adopt-ja-option-2",
+            "article-health-mental-health-week-2026-adopt-ja-option-3",
+            "article-health-mental-health-week-2026-adopt-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-adopt-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "reject",
+            "postpone",
+            "translate"
+          ],
+          "explanation": "本文では「採択する」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "formally accept and start to use something",
+            "refuse to accept an idea or offer",
+            "decide that something will happen later",
+            "change words into another language"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-adopt-en-option-1",
+            "article-health-mental-health-week-2026-adopt-en-option-2",
+            "article-health-mental-health-week-2026-adopt-en-option-3",
+            "article-health-mental-health-week-2026-adopt-en-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-adopt-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "reject",
+            "postpone",
+            "translate"
+          ],
+          "explanation": "本文では「採択する」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "adopt a policy",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "政策を採用する",
+            "nuanceJa": "adopt は正式な決定で取り入れる段階に重点がある。introduce は新しく導入すること、implement は実行に移すことを指す。",
+            "example": "The council adopted a new policy on recycling.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "formally adopt",
+            "pattern": "副詞＋動詞",
+            "meaningJa": "正式に採択する",
+            "nuanceJa": "formally は手続きを経て決めたことを示す。officially は公的な立場から認められたことを強調し、formally は形式や手順の面を強調する。",
+            "example": "The assembly formally adopted the plan.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "be adopted by ～",
+            "pattern": "受け身＋前置詞",
+            "meaningJa": "～に採択される",
+            "nuanceJa": "by の後ろに決定を行う機関を置く（adopted by the committee）。法案には passed を使うことが多いが、adopt は宣言や基準にも使える。",
+            "example": "The rules were adopted by the whole class.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "adopted",
+      "sourceKind": "article",
+      "articleId": "article-health-mental-health-week-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-mental-health-week-2026-declaration",
+      "headword": "declaration",
+      "partOfSpeech": "noun",
+      "meaning": "宣言",
+      "definition": "an official public statement about a decision",
+      "contextParagraphId": "p4",
+      "context": "In June 2026, the OAS General Assembly adopted a declaration that supports this kind of action.",
+      "example": "The leaders read the declaration to the press.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "宣言",
+      "questions": {
+        "ja": {
+          "choices": [
+            "領収書",
+            "展覧会",
+            "宣言",
+            "予報"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-declaration-ja-option-1",
+            "article-health-mental-health-week-2026-declaration-ja-option-2",
+            "article-health-mental-health-week-2026-declaration-ja-option-3",
+            "article-health-mental-health-week-2026-declaration-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-declaration-ja-option-3",
+          "distractorHeadwords": [
+            "receipt",
+            "exhibition",
+            null,
+            "forecast"
+          ],
+          "explanation": "本文では「宣言」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a paper that shows you have paid for something",
+            "a public show of art or other objects",
+            "an official public statement about a decision",
+            "a statement about what will happen in the future"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-declaration-en-option-1",
+            "article-health-mental-health-week-2026-declaration-en-option-2",
+            "article-health-mental-health-week-2026-declaration-en-option-3",
+            "article-health-mental-health-week-2026-declaration-en-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-declaration-en-option-3",
+          "distractorHeadwords": [
+            "receipt",
+            "exhibition",
+            null,
+            "forecast"
+          ],
+          "explanation": "本文では「宣言」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "sign a declaration",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "宣言に署名する",
+            "nuanceJa": "sign は文書に署名して賛同を示す。adopt は会議が採択することで、署名するのは各国や個人であることが多い。",
+            "example": "Leaders signed a declaration on climate change.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a joint declaration",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "共同宣言",
+            "nuanceJa": "joint は複数の主体が一緒に出すことを示す。公的な文書では joint が定型で、common declaration とは言わない。",
+            "example": "The two countries issued a joint declaration.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a declaration on ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～に関する宣言",
+            "nuanceJa": "on の後ろに扱う分野を置く（a declaration on human rights）。of は宣言の内容そのもの（the Declaration of Independence）を示し、国際文書の題名では on が多い。",
+            "example": "The group made a declaration on water safety.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "declaration",
+      "sourceKind": "article",
+      "articleId": "article-health-mental-health-week-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-mental-health-week-2026-voice",
+      "headword": "voice",
+      "partOfSpeech": "noun",
+      "meaning": "発言権",
+      "definition": "the chance to say what you think and be heard",
+      "contextParagraphId": "p5",
+      "context": "People with lived experience should also have a voice.",
+      "example": "Students want a voice in school decisions.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "発言権（the chance to say what you think and be heard）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "社会的地位",
+            "発言権",
+            "責任感",
+            "予算計画"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-voice-ja-option-1",
+            "article-health-mental-health-week-2026-voice-ja-option-2",
+            "article-health-mental-health-week-2026-voice-ja-option-3",
+            "article-health-mental-health-week-2026-voice-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-voice-ja-option-2",
+          "distractorHeadwords": [
+            "status",
+            null,
+            "responsibility",
+            "budget"
+          ],
+          "explanation": "本文では「発言権」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a person's position in society or a group",
+            "the chance to say what you think and be heard",
+            "a duty to take care of something or someone",
+            "a plan for how money will be spent"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-mental-health-week-2026-voice-en-option-1",
+            "article-health-mental-health-week-2026-voice-en-option-2",
+            "article-health-mental-health-week-2026-voice-en-option-3",
+            "article-health-mental-health-week-2026-voice-en-option-4"
+          ],
+          "correctChoiceId": "article-health-mental-health-week-2026-voice-en-option-2",
+          "distractorHeadwords": [
+            "status",
+            null,
+            "responsibility",
+            "budget"
+          ],
+          "explanation": "本文では「発言権」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "have a voice",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "発言権を持つ",
+            "nuanceJa": "have a voice は意見を聞いてもらえる立場にあること。have a say は決定に影響できることを日常的に言う表現で、voice の方がやや改まって聞こえる。",
+            "example": "Every member should have a voice in the group.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a strong voice",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "強い発言力",
+            "nuanceJa": "strong は影響力の大きさを示す。loud は声の大きさそのものを言うので、比喩として発言力を言うときは strong が自然。",
+            "example": "The union gives workers a strong voice.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a voice in ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～における発言権",
+            "nuanceJa": "in の後ろに意思決定の場を置く（a voice in decisions）。on は話題（a voice on the issue）にも使えるが、決定の場を言うなら in が定番。",
+            "example": "Students want a voice in school rules.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "voice",
+      "sourceKind": "article",
+      "articleId": "article-health-mental-health-week-2026",
+      "materialVersion": 1
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "id": "article-health-life-expectancy-2026",
+  "version": 1,
+  "kind": "article-vocabulary",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "items": [
+    {
+      "id": "article-health-life-expectancy-2026-disease",
+      "headword": "disease",
+      "partOfSpeech": "noun",
+      "meaning": "病気",
+      "definition": "an illness that harms the body",
+      "contextParagraphId": "p3",
+      "context": "Heart disease was the biggest cause.",
+      "example": "Heart disease can develop slowly over many years.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "病気",
+      "questions": {
+        "ja": {
+          "choices": [
+            "事故",
+            "病気",
+            "薬",
+            "怪我"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-life-expectancy-2026-disease-ja-option-1",
+            "article-health-life-expectancy-2026-disease-ja-option-2",
+            "article-health-life-expectancy-2026-disease-ja-option-3",
+            "article-health-life-expectancy-2026-disease-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-life-expectancy-2026-disease-ja-option-2",
+          "distractorHeadwords": [
+            "accident",
+            null,
+            "medicine",
+            "injury"
+          ],
+          "explanation": "本文では「病気」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "something bad that happens by chance",
+            "an illness that harms the body",
+            "something you take to treat an illness",
+            "damage to a part of the body"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "article-health-life-expectancy-2026-disease-en-option-1",
+            "article-health-life-expectancy-2026-disease-en-option-2",
+            "article-health-life-expectancy-2026-disease-en-option-3",
+            "article-health-life-expectancy-2026-disease-en-option-4"
+          ],
+          "correctChoiceId": "article-health-life-expectancy-2026-disease-en-option-2",
+          "distractorHeadwords": [
+            "accident",
+            null,
+            "medicine",
+            "injury"
+          ],
+          "explanation": "本文では「病気」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "heart disease",
+            "pattern": "名詞＋名詞",
+            "meaningJa": "心臓病",
+            "nuanceJa": "病名として最も一般的な言い方で、日常会話から報道まで幅広く使う。cancer や diabetes など他の病名と並べて挙げられることが多い。",
+            "example": "Heart disease is common in many countries.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "prevent disease",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "病気を予防する",
+            "nuanceJa": "prevent は起こる前に防ぐ意味で、cure や treat（かかった後に治す）とは時点が違う。冠詞なしの disease は病気一般を指す。",
+            "example": "Clean water helps prevent disease.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a serious disease",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "重い病気",
+            "nuanceJa": "serious は「軽くない」という一般的な評価で、日常でも使える。severe は程度の強さを重ねて言うときに使い、やや硬い。",
+            "example": "She was treated for a serious disease.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "disease",
+      "sourceKind": "article",
+      "articleId": "article-health-life-expectancy-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-life-expectancy-2026-cause",
+      "headword": "cause",
+      "partOfSpeech": "noun",
+      "meaning": "原因",
+      "definition": "the reason something happens or exists",
+      "contextParagraphId": "p3",
+      "context": "WHO also studied the main causes of death.",
+      "example": "Poor sleep is one cause of her tiredness.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "原因",
+      "questions": {
+        "ja": {
+          "choices": [
+            "結果",
+            "方法",
+            "原因",
+            "習慣"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-life-expectancy-2026-cause-ja-option-1",
+            "article-health-life-expectancy-2026-cause-ja-option-2",
+            "article-health-life-expectancy-2026-cause-ja-option-3",
+            "article-health-life-expectancy-2026-cause-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-life-expectancy-2026-cause-ja-option-3",
+          "distractorHeadwords": [
+            "result",
+            "method",
+            null,
+            "habit"
+          ],
+          "explanation": "本文では「原因」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "something that happens after an action",
+            "a particular way of doing something",
+            "the reason something happens or exists",
+            "something you often do without thinking"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-life-expectancy-2026-cause-en-option-1",
+            "article-health-life-expectancy-2026-cause-en-option-2",
+            "article-health-life-expectancy-2026-cause-en-option-3",
+            "article-health-life-expectancy-2026-cause-en-option-4"
+          ],
+          "correctChoiceId": "article-health-life-expectancy-2026-cause-en-option-3",
+          "distractorHeadwords": [
+            "result",
+            "method",
+            null,
+            "habit"
+          ],
+          "explanation": "本文では「原因」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "the main cause",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "主な原因",
+            "nuanceJa": "main は複数ある原因のうち最も重要なものを指す。leading cause は順位をつける統計や報道で使い、より硬い言い方になる。",
+            "example": "Stress was the main cause of the problem.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "cause of death",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "死因",
+            "nuanceJa": "of の後ろに結果を置いて「～の原因」と言う。reason for ～ は人の判断や説明に使うのに対し、cause は出来事の原因に使う。",
+            "example": "The report lists the cause of death in each case.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "find the cause",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "原因を見つける",
+            "nuanceJa": "find は日常でも使える一般的な動詞。identify は専門家が原因を特定するという硬い場面で使い、find より調べた結果の確かさを含む。",
+            "example": "The doctors worked to find the cause of the fever.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "causes",
+      "sourceKind": "article",
+      "articleId": "article-health-life-expectancy-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-life-expectancy-2026-figure",
+      "headword": "figure",
+      "partOfSpeech": "noun",
+      "meaning": "数値",
+      "definition": "a number that shows an amount",
+      "contextParagraphId": "p3",
+      "context": "In 2000, the figure was 58%.",
+      "example": "The figure shows how many people joined.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "数値（a number that shows an amount）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "数値",
+            "値段",
+            "規則",
+            "報告"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-life-expectancy-2026-figure-ja-option-1",
+            "article-health-life-expectancy-2026-figure-ja-option-2",
+            "article-health-life-expectancy-2026-figure-ja-option-3",
+            "article-health-life-expectancy-2026-figure-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-life-expectancy-2026-figure-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "price",
+            "rule",
+            "report"
+          ],
+          "explanation": "本文では「数値」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a number that shows an amount",
+            "money you pay for something",
+            "a sentence that tells you what to do",
+            "words that tell people about an event"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "article-health-life-expectancy-2026-figure-en-option-1",
+            "article-health-life-expectancy-2026-figure-en-option-2",
+            "article-health-life-expectancy-2026-figure-en-option-3",
+            "article-health-life-expectancy-2026-figure-en-option-4"
+          ],
+          "correctChoiceId": "article-health-life-expectancy-2026-figure-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "price",
+            "rule",
+            "report"
+          ],
+          "explanation": "本文では「数値」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "official figures",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "公式の数値",
+            "nuanceJa": "official は政府や公的機関が出した数値を示し、estimate（推定値）と区別される。ニュースで「公式発表の数字」と言うときの定番。",
+            "example": "Official figures will be published next week.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "the latest figures",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "最新の数値",
+            "nuanceJa": "latest は「その時点で最も新しく出た」数値を指す。recent は「最近の」という幅のある言い方で、見出しでは latest が定番。",
+            "example": "The latest figures come from a survey in 2023.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a figure of ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～という数値",
+            "nuanceJa": "of の後ろに具体的な数値を置いて値そのものを示す。number of ～ は数える対象の数を表すので、a figure of 5%、a number of people のように使い分ける。",
+            "example": "The report gives a figure of 10%.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "figure",
+      "sourceKind": "article",
+      "articleId": "article-health-life-expectancy-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-life-expectancy-2026-achievement",
+      "headword": "achievement",
+      "partOfSpeech": "noun",
+      "meaning": "成果",
+      "definition": "something good you reach with effort",
+      "contextParagraphId": "p4",
+      "context": "Dr Alain Labrique of WHO said that living longer is a great achievement.",
+      "example": "Finishing the course was a real achievement.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "成果（something good you reach with effort）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "授業",
+            "旅行",
+            "休暇",
+            "成果"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-life-expectancy-2026-achievement-ja-option-1",
+            "article-health-life-expectancy-2026-achievement-ja-option-2",
+            "article-health-life-expectancy-2026-achievement-ja-option-3",
+            "article-health-life-expectancy-2026-achievement-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-life-expectancy-2026-achievement-ja-option-4",
+          "distractorHeadwords": [
+            "lesson",
+            "journey",
+            "holiday",
+            null
+          ],
+          "explanation": "本文では「成果」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "a time when a teacher explains something",
+            "a trip from one place to another",
+            "a time away from work or school",
+            "something good you reach with effort"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "article-health-life-expectancy-2026-achievement-en-option-1",
+            "article-health-life-expectancy-2026-achievement-en-option-2",
+            "article-health-life-expectancy-2026-achievement-en-option-3",
+            "article-health-life-expectancy-2026-achievement-en-option-4"
+          ],
+          "correctChoiceId": "article-health-life-expectancy-2026-achievement-en-option-4",
+          "distractorHeadwords": [
+            "lesson",
+            "journey",
+            "holiday",
+            null
+          ],
+          "explanation": "本文では「成果」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "a great achievement",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "大きな成果",
+            "nuanceJa": "great は話し手の称賛を込める。major achievement は規模の大きさを客観的に言う表現で、報告書などに向く。",
+            "example": "Finishing the marathon was a great achievement.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "celebrate an achievement",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "成果を祝う",
+            "nuanceJa": "celebrate は出来事そのものを祝うときに使う。congratulate は人に祝いの言葉を述べるときに使い、目的語が人になる点が違う。",
+            "example": "The school held a party to celebrate the team's achievement.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "an achievement in ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～における成果",
+            "nuanceJa": "in の後ろに分野を置く（an achievement in science）。of の後ろは達成した内容（the achievement of a goal）で、in と of は置く語が違う。",
+            "example": "She won a prize for her achievement in music.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "achievement",
+      "sourceKind": "article",
+      "articleId": "article-health-life-expectancy-2026",
+      "materialVersion": 1
+    },
+    {
+      "id": "article-health-life-expectancy-2026-challenge",
+      "headword": "challenge",
+      "partOfSpeech": "noun",
+      "meaning": "課題",
+      "definition": "something difficult that needs effort",
+      "contextParagraphId": "p4",
+      "context": "The next challenge is to help people spend those extra years in good health.",
+      "example": "Learning a new language is a challenge.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "課題（something difficult that needs effort）",
+      "questions": {
+        "ja": {
+          "choices": [
+            "意見",
+            "休日",
+            "課題",
+            "市場"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-life-expectancy-2026-challenge-ja-option-1",
+            "article-health-life-expectancy-2026-challenge-ja-option-2",
+            "article-health-life-expectancy-2026-challenge-ja-option-3",
+            "article-health-life-expectancy-2026-challenge-ja-option-4"
+          ],
+          "correctChoiceId": "article-health-life-expectancy-2026-challenge-ja-option-3",
+          "distractorHeadwords": [
+            "opinion",
+            "holiday",
+            null,
+            "market"
+          ],
+          "explanation": "本文では「課題」という意味。ほかの選択肢は別の語の意味。"
+        },
+        "en": {
+          "choices": [
+            "what a person thinks about something",
+            "a day when people do not work",
+            "something difficult that needs effort",
+            "a place where people buy and sell things"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "article-health-life-expectancy-2026-challenge-en-option-1",
+            "article-health-life-expectancy-2026-challenge-en-option-2",
+            "article-health-life-expectancy-2026-challenge-en-option-3",
+            "article-health-life-expectancy-2026-challenge-en-option-4"
+          ],
+          "correctChoiceId": "article-health-life-expectancy-2026-challenge-en-option-3",
+          "distractorHeadwords": [
+            "opinion",
+            "holiday",
+            null,
+            "market"
+          ],
+          "explanation": "本文では「課題」という意味。ほかの選択肢は別の語の意味。"
+        }
+      },
+      "usage": {
+        "status": "unverified",
+        "combinations": [
+          {
+            "form": "face a challenge",
+            "pattern": "動詞＋名詞",
+            "meaningJa": "課題に直面する",
+            "nuanceJa": "face は避けられない課題と向き合う感じが強い。meet a challenge は「課題に応える・乗り越える」で、結果に重点がある点が違う。",
+            "example": "Many cities face the challenge of an older population.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a big challenge",
+            "pattern": "形容詞＋名詞",
+            "meaningJa": "大きな課題",
+            "nuanceJa": "big は日常的でくだけた言い方。major challenge はニュースや報告書で使う改まった表現で、客観的な重さを示す。",
+            "example": "Learning to swim was a big challenge for Mina.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          },
+          {
+            "form": "a challenge for ～",
+            "pattern": "名詞＋前置詞",
+            "meaningJa": "～にとっての課題",
+            "nuanceJa": "for の後ろに影響を受ける人や場所を置く（a challenge for schools）。a challenge to ～ は「～への異議・挑戦」の意味になり得るので、for と区別する。",
+            "example": "This is a challenge for many small shops.",
+            "exampleOrigin": "original-for-this-app",
+            "status": "unverified"
+          }
+        ],
+        "commonMisuse": null
+      },
+      "surfaceForm": "challenge",
+      "sourceKind": "article",
+      "articleId": "article-health-life-expectancy-2026",
+      "materialVersion": 1
+    }
+  ]
+}

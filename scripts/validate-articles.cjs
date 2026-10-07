@@ -48,7 +48,7 @@ for(const file of fs.readdirSync(directory).filter(x=>x.endsWith('.json')&&x!=='
  const wordCount=article.paragraphs.reduce((sum,p)=>sum+p.text.trim().split(/\s+/).length,0);
  console.log(`${file}: ${wordCount} words; 5 vocabulary items / 10 bilingual questions / 3 comprehension questions`);
 }
-check(reports.length===13,'Exactly 13 articles required');for(const [level,count] of Object.entries(policy.newLevelDistribution))check(distribution[level]===count,`${level}: expected ${count} new articles, found ${distribution[level]}`);
+check(reports.length===21,'Exactly 21 articles required');for(const [level,count] of Object.entries(policy.newLevelDistribution))check(distribution[level]===count,`${level}: expected ${count} new articles, found ${distribution[level]}`);
 if(process.argv.includes('--report'))fs.writeFileSync(path.join(__dirname,'../docs/stage7-material-validation.json'),JSON.stringify({articles:reports,errors,warnings},null,2)+'\n');
 for(const warning of warnings)console.log(`WARNING: ${warning}`);
 for(const error of errors)console.error(`ERROR: ${error}`);

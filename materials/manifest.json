@@ -4,7 +4,7 @@
     "id": "article-search",
     "version": 1,
     "path": "materials/search/article-index.json",
-    "sha256": "99286bdf13cb1c32d07b233757032bf456bbe0703ce354b778821a67e1dfb8b3"
+    "sha256": "42b716641ab5633ca0131c66be9de42ac47635c2455cff20f698fd21d302fe06"
   },
   "materials": [
     {
@@ -86,6 +86,70 @@
       "publishedAt": "2026-10-05T00:00:00+09:00",
       "path": "materials/articles/stage7-ethiopia-business.json",
       "sha256": "d2dc58bfec272d048a5a6235f4ddf197759f8a3170beff7cfb7d5293f7edd551"
+    },
+    {
+      "id": "article-health-adolescent-obesity-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/articles/health-adolescent-obesity.json",
+      "sha256": "8abf31b4c438db3500b4c64c1b1b20015b6e38a2a9aef00258c7d888790b7475"
+    },
+    {
+      "id": "article-health-child-obesity-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/articles/health-child-obesity.json",
+      "sha256": "195bd2108c3c56e3674847b4967fb8c7cf3038f8055efefe21403a10d5a4dd63"
+    },
+    {
+      "id": "article-health-childhood-cancer-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/articles/health-childhood-cancer.json",
+      "sha256": "55d0381f329e7a2540160a631a7a49d33fd017472700938f855a78a0c67a1006"
+    },
+    {
+      "id": "article-health-global-health-estimates-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/articles/health-global-health-estimates.json",
+      "sha256": "3a836b4f058f4ed73e119e3b0d0bd9b931d8fef9d6b0f89cd622531e160c789c"
+    },
+    {
+      "id": "article-health-healthy-ageing-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/articles/health-healthy-ageing.json",
+      "sha256": "cf36e10c4f674410801978fc85339f02f6ae7f49dbbe9ed7cfec35fed19a6850"
+    },
+    {
+      "id": "article-health-heat-pregnancy-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/articles/health-heat-pregnancy.json",
+      "sha256": "6bca789663d8d252ad6a39c4b175a4c5a444d288651a185952e6196722afc41f"
+    },
+    {
+      "id": "article-health-life-expectancy-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/articles/health-life-expectancy.json",
+      "sha256": "05bd0f5de70255bbb1f767ef4240f528c7b3d78d5639b960e5fff821a1c26e7f"
+    },
+    {
+      "id": "article-health-mental-health-week-2026",
+      "kind": "article",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/articles/health-mental-health-week.json",
+      "sha256": "5dfb78e11b29ec3b5770140ecee3b4d75c21c6d0955b5b8e09d3c5eaeb1a3d08"
     },
     {
       "id": "article-informal-workers-2026",
@@ -356,7 +420,7 @@
     "id": "article-index",
     "version": 1,
     "path": "materials/articles/index.json",
-    "sha256": "42e5b8c7c23415a6abc4cb42b101bcc08ade34502faff9cf8cb51b8033a04573"
+    "sha256": "411e3b6f3aa0332574f3f03be22624db22223084af8fb25d7ba4c9ec6f31327d"
   },
   "articleVocabulary": [
     {
@@ -382,6 +446,54 @@
       "version": 1,
       "path": "materials/article-vocabulary/stage7-ethiopia-business.json",
       "sha256": "f554d6359dc84ff84d012173e45f1b0751e88a77ec74e3f333069effbbee5864"
+    },
+    {
+      "id": "article-health-adolescent-obesity-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/health-adolescent-obesity.json",
+      "sha256": "615a84e4421d0272bb2a63cab485e450d7f6e1c1933407b9b884ee00f724028b"
+    },
+    {
+      "id": "article-health-child-obesity-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/health-child-obesity.json",
+      "sha256": "14d7b989dc5732a320dc9c7050adc2b6ede8b3888930325f670ae5fb488c16df"
+    },
+    {
+      "id": "article-health-childhood-cancer-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/health-childhood-cancer.json",
+      "sha256": "914c2325c33fe2bbc10eb2dea92c05eb9f44f4f5ccc3a6d868c48febb9114c84"
+    },
+    {
+      "id": "article-health-global-health-estimates-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/health-global-health-estimates.json",
+      "sha256": "4120de26d6c0c6b2934775cef91e53b2eea49782a992222998558e033b2c7a5b"
+    },
+    {
+      "id": "article-health-healthy-ageing-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/health-healthy-ageing.json",
+      "sha256": "afadb9134b52f757e0ae903f1d9c5ce2ad27c767a867c6e74858f665fd64db08"
+    },
+    {
+      "id": "article-health-heat-pregnancy-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/health-heat-pregnancy.json",
+      "sha256": "9217689828b6b216c2c65a64571ecebbec4b0025f1b82f6bdf98e6874039b688"
+    },
+    {
+      "id": "article-health-life-expectancy-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/health-life-expectancy.json",
+      "sha256": "0fb6e9e626f816bfc41bded06d6fb7e3b4fa10db862f6af1bc35adc58436bb0e"
+    },
+    {
+      "id": "article-health-mental-health-week-2026",
+      "version": 1,
+      "path": "materials/article-vocabulary/health-mental-health-week.json",
+      "sha256": "b4ecfe43857f4ac39795e4931344b48834cd5c87262fed07ac630b4330786d07"
     },
     {
       "id": "article-informal-workers-2026",
@@ -442,7 +554,7 @@
     "id": "article-collocations",
     "version": 1,
     "path": "materials/collocations/article-collocations.json",
-    "sha256": "0105f168845788faa551b5df9b32272fd59bf08d5002bfd8568d7b0f5feb61f9"
+    "sha256": "2c7e7ad36574650a9161438fe3fe138b90006b4d71779be1831ac992cf60674f"
   },
   "genres": {
     "id": "wordbook-genres",
@@ -486,6 +598,126 @@
     },
     "article-education-europa-carbon-2023-constrain": {
       "articleId": "article-education-europa-carbon-2023"
+    },
+    "article-health-adolescent-obesity-2026-stigma": {
+      "articleId": "article-health-adolescent-obesity-2026"
+    },
+    "article-health-adolescent-obesity-2026-intervention": {
+      "articleId": "article-health-adolescent-obesity-2026"
+    },
+    "article-health-adolescent-obesity-2026-sedentary": {
+      "articleId": "article-health-adolescent-obesity-2026"
+    },
+    "article-health-adolescent-obesity-2026-comprehensive": {
+      "articleId": "article-health-adolescent-obesity-2026"
+    },
+    "article-health-adolescent-obesity-2026-fiscal": {
+      "articleId": "article-health-adolescent-obesity-2026"
+    },
+    "article-health-child-obesity-2026-guideline": {
+      "articleId": "article-health-child-obesity-2026"
+    },
+    "article-health-child-obesity-2026-obesity": {
+      "articleId": "article-health-child-obesity-2026"
+    },
+    "article-health-child-obesity-2026-recommend": {
+      "articleId": "article-health-child-obesity-2026"
+    },
+    "article-health-child-obesity-2026-habit": {
+      "articleId": "article-health-child-obesity-2026"
+    },
+    "article-health-child-obesity-2026-surgery": {
+      "articleId": "article-health-child-obesity-2026"
+    },
+    "article-health-childhood-cancer-2026-diagnosis": {
+      "articleId": "article-health-childhood-cancer-2026"
+    },
+    "article-health-childhood-cancer-2026-survival": {
+      "articleId": "article-health-childhood-cancer-2026"
+    },
+    "article-health-childhood-cancer-2026-inequity": {
+      "articleId": "article-health-childhood-cancer-2026"
+    },
+    "article-health-childhood-cancer-2026-adolescent": {
+      "articleId": "article-health-childhood-cancer-2026"
+    },
+    "article-health-childhood-cancer-2026-essential": {
+      "articleId": "article-health-childhood-cancer-2026"
+    },
+    "article-health-global-health-estimates-2026-disrupt": {
+      "articleId": "article-health-global-health-estimates-2026"
+    },
+    "article-health-global-health-estimates-2026-burden": {
+      "articleId": "article-health-global-health-estimates-2026"
+    },
+    "article-health-global-health-estimates-2026-transition": {
+      "articleId": "article-health-global-health-estimates-2026"
+    },
+    "article-health-global-health-estimates-2026-substantial": {
+      "articleId": "article-health-global-health-estimates-2026"
+    },
+    "article-health-global-health-estimates-2026-adjust": {
+      "articleId": "article-health-global-health-estimates-2026"
+    },
+    "article-health-healthy-ageing-2026-ageism": {
+      "articleId": "article-health-healthy-ageing-2026"
+    },
+    "article-health-healthy-ageing-2026-integrated": {
+      "articleId": "article-health-healthy-ageing-2026"
+    },
+    "article-health-healthy-ageing-2026-monitor": {
+      "articleId": "article-health-healthy-ageing-2026"
+    },
+    "article-health-healthy-ageing-2026-gap": {
+      "articleId": "article-health-healthy-ageing-2026"
+    },
+    "article-health-healthy-ageing-2026-carer": {
+      "articleId": "article-health-healthy-ageing-2026"
+    },
+    "article-health-heat-pregnancy-2026-premature": {
+      "articleId": "article-health-heat-pregnancy-2026"
+    },
+    "article-health-heat-pregnancy-2026-adapt": {
+      "articleId": "article-health-heat-pregnancy-2026"
+    },
+    "article-health-heat-pregnancy-2026-evidence": {
+      "articleId": "article-health-heat-pregnancy-2026"
+    },
+    "article-health-heat-pregnancy-2026-housing": {
+      "articleId": "article-health-heat-pregnancy-2026"
+    },
+    "article-health-heat-pregnancy-2026-affect": {
+      "articleId": "article-health-heat-pregnancy-2026"
+    },
+    "article-health-life-expectancy-2026-disease": {
+      "articleId": "article-health-life-expectancy-2026"
+    },
+    "article-health-life-expectancy-2026-cause": {
+      "articleId": "article-health-life-expectancy-2026"
+    },
+    "article-health-life-expectancy-2026-figure": {
+      "articleId": "article-health-life-expectancy-2026"
+    },
+    "article-health-life-expectancy-2026-achievement": {
+      "articleId": "article-health-life-expectancy-2026"
+    },
+    "article-health-life-expectancy-2026-challenge": {
+      "articleId": "article-health-life-expectancy-2026"
+    },
+    "article-health-mental-health-week-2026-discrimination": {
+      "articleId": "article-health-mental-health-week-2026"
+    },
+    "article-health-mental-health-week-2026-exclusion": {
+      "articleId": "article-health-mental-health-week-2026"
+    },
+    "article-health-mental-health-week-2026-adopt": {
+      "articleId": "article-health-mental-health-week-2026"
+    },
+    "article-health-mental-health-week-2026-declaration": {
+      "articleId": "article-health-mental-health-week-2026"
+    },
+    "article-health-mental-health-week-2026-voice": {
+      "articleId": "article-health-mental-health-week-2026"
     },
     "article-culture-statistics-2026-framework": {
       "articleId": "article-culture-statistics-2026"
