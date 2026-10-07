@@ -5,12 +5,13 @@ const basic=JSON.parse(fs.readFileSync(path.join(root,'materials/vocabulary/basi
 const genres=JSON.parse(fs.readFileSync(path.join(root,'materials/vocabulary/genres.json'),'utf8')).genres;
 const articles=[{id:'a2',title:'Newest article',level:'B1',category:'仕事',readingMinutes:4,sourcePublishedAt:'2026-10-05T00:00:00Z',photo:{assetPath:'assets/x.jpg'}},{id:'a1',title:'Older article',level:'A2',category:'教養',readingMinutes:3,sourcePublishedAt:'2026-10-02T00:00:00Z'}];
 function build(values={},{name=''}={}){
- const memory=new Map(Object.entries(values)),local=new Map(name?[['english-notes.ui.display-name.v1',name]]:[]);
+ const memory=new Map(Object.entries(values)),local=new Map();
  const storage={getItem:k=>memory.has(k)?memory.get(k):null,setItem:(k,v)=>memory.set(k,String(v))};
  const elementStub=()=>({querySelector:()=>null,innerHTML:'',outerHTML:''});
  const ctx={HomeCore,esc:s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),document:{addEventListener(){},querySelector:()=>null,body:{classList:{contains:()=>false}}},view:'home',
   render(){},go(){},home(){return '';},
   window:{render(){},go(){},HomeCore,WordbookCore,EnglishQuiz:Quiz,AppStorage:storage,localStorage:{getItem:k=>local.has(k)?local.get(k):null,setItem:(k,v)=>local.set(k,String(v)),removeItem:k=>local.delete(k)},
+   SupabaseSync:{getState:()=>({user:name?{id:'u',nickname:name}:null}),subscribe(){}},
    QuizUI:{getStore:()=>({settings:{mode:'ja'}})},AppUI:{reviewItems:()=>[]},CollocationUI:{getStore:()=>({logs:[]}),reviewItems:()=>[]},
    MaterialCatalog:{genres:()=>genres,sets:()=>[basic],articles:()=>articles}}};
  ctx.window.window=ctx.window;vm.createContext(ctx);
@@ -28,10 +29,11 @@ test('a brand-new learner sees every block without holes, fake numbers or empty 
  assert.equal((page.match(/data-hm-article=/g)||[]).length,2);assert.ok(page.indexOf('Newest article')<page.indexOf('Older article'),'newest first');
  assert.doesNotMatch(page,/hm-name/,'no display name, no name in the greeting');
 });
-test('the greeting uses the stored display name',()=>{
+test('the greeting and nav name come from the account nickname; guests get a plain greeting',()=>{
  assert.match(build({}, {name:'Taka'}).html(),/hm-name"><span class="hm-comma">、<\/span>Takaさん/);
- const built=build();assert.equal(built.ctx.window.HomeUI.setDisplayName('  Mika  '),true);assert.equal(built.ctx.window.HomeUI.displayName(),'Mika');assert.match(built.html(),/Mikaさん/);
- built.ctx.window.HomeUI.setDisplayName('');assert.equal(built.ctx.window.HomeUI.displayName(),'');
+ assert.doesNotMatch(build().html(),/hm-name/,'a guest has no name');
+ assert.equal(build({}, {name:'  Mika '}).ctx.window.HomeUI.displayName(),'Mika');assert.equal(build().ctx.window.HomeUI.displayName(),'');
+ assert.equal(typeof build().ctx.window.HomeUI.setDisplayName,'undefined','the device-only display name is gone');
 });
 test('with records: counts, streak and the three tasks come from the stored answers',()=>{
  const now=Date.now(),stamp=back=>new Date(now-back*86400000).toISOString();

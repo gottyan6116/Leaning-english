@@ -97,3 +97,6 @@ body[data-view="home"] main#app{max-width:1280px;padding:24px 40px calc(88px + e
  .hm-task{gap:12px}
 }
 @media(prefers-reduced-motion:reduce){.hm *{transition:none!important;animation:none!important}}
+.nickname-note{margin:16px 0 0;font-size:var(--font-size-caption);line-height:1.6;color:var(--color-text-sub);text-wrap:balance}
+.nickname-form .login-error,.nickname-error{margin:8px 0 0}
+.account-screen .nickname-form{margin-top:8px}

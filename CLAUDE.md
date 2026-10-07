@@ -1,4 +1,4 @@
-# Claude Code 常設ルール — English Notes
+# Claude Code 常設ルール — Bridge
 
 実在の出典に基づく記事と単語・表現の4択復習を提供する静的Webアプリ。
 本人B2〜C1中心、将来の公開を視野に記事A2〜C1。学習記録は端末優先でSupabaseへ同期する。

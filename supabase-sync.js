@@ -25,6 +25,10 @@
     }
     function getState(){return {...state,user:state.user?{...state.user}:null};}
     function assertOwner(owner,epoch){if(current()!==owner||generation!==epoch){const error=new Error('Account changed');error.stale=true;throw error;}if(storage.getUser()!==owner)throw new Error('利用者別の端末保存を確認できませんでした。');}
+    // The nickname lives in Supabase Auth user_metadata. Rule shared with nickname.js: 1-20 characters after trimming, one line.
+    const nicknameOf=user=>typeof user?.user_metadata?.nickname==='string'?user.user_metadata.nickname.trim():'';
+    const userState=user=>({id:user.id,email:user.email,nickname:nicknameOf(user)});
+    function cleanNickname(value){const raw=String(value??'');if(/[\r\n]/.test(raw))throw new Error('改行は使えません');const text=raw.trim(),length=Array.from(text).length;if(length<1||length>20)throw new Error('ニックネームは1〜20文字で入力してください');return text;}
     function persistSession(value){if(value)authStorage?.setItem(AUTH_KEY,JSON.stringify(value));else authStorage?.removeItem(AUTH_KEY);}
     function cancelRequests(){for(const controller of controllers)controller.abort();controllers.clear();}
     async function raw(path,{method='GET',body,token,headers={}}={}){
@@ -44,7 +48,7 @@
         const old=session;
         refreshFlight=raw('/auth/v1/token?grant_type=refresh_token',{method:'POST',body:{refresh_token:old.refresh_token}}).then(value=>{
           assertOwner(owner,epoch);if(value.user.id!==owner)throw new Error('認証された利用者が一致しません。');
-          session={...value,expires_at:value.expires_at||now()/1000+value.expires_in};persistSession(session);
+          session={...value,expires_at:value.expires_at||now()/1000+value.expires_in};persistSession(session);if(state.user&&nicknameOf(value.user)!==state.user.nickname){state.user={...state.user,nickname:nicknameOf(value.user)};emit();}
         }).finally(()=>{refreshFlight=null;});
       }
       await refreshFlight;assertOwner(owner,epoch);
@@ -140,7 +144,7 @@
         const policyResponse=await fetcher('config/sync-policy.json',{cache:'no-store'});if(!policyResponse.ok)throw new Error('Sync policy is missing');policy=await policyResponse.json();if(!Number.isFinite(policy.deltaOverlapMs)||policy.deltaOverlapMs<0)throw new Error('Sync policy is invalid');
         state.enabled=true;state.status='guest';
         try{session=JSON.parse(authStorage?.getItem(AUTH_KEY)||'null');}catch(_){session=null;}
-        if(session?.user?.id&&session.access_token&&session.refresh_token){storage.setUser(session.user.id);state.user={id:session.user.id,email:session.user.email};state.lastSyncedAt=storage.getItem?.(LAST_KEY)||null;}else session=null;
+        if(session?.user?.id&&session.access_token&&session.refresh_token){storage.setUser(session.user.id);state.user=userState(session.user);state.lastSyncedAt=storage.getItem?.(LAST_KEY)||null;}else session=null;
         let pendingSignature=JSON.stringify(storage.pending().map(entry=>[entry.table,entry.key,entry.revision]));
         storage.subscribe?.(event=>{
           const signature=JSON.stringify(storage.pending().map(entry=>[entry.table,entry.key,entry.revision]));
@@ -163,7 +167,7 @@
         if(!value.user?.id||!value.access_token||!value.refresh_token)throw new Error('認証の応答を確認できませんでした。');
         const nextSession={...value,expires_at:value.expires_at||now()/1000+value.expires_in};
         storage.setUser(value.user.id);persistSession(nextSession);session=nextSession;
-        state.user={id:value.user.id,email:value.user.email};state.lastSyncedAt=storage.getItem?.(LAST_KEY)||null;state.error=null;state.migrationResult=null;emit();await sync();return getState();
+        state.user=userState(value.user);state.lastSyncedAt=storage.getItem?.(LAST_KEY)||null;state.error=null;state.migrationResult=null;emit();await sync();return getState();
       }catch(error){
         if(epoch!==generation)throw new Error('ログインが中断されました。');
         try{storage.setUser(previousUser);session=previousSession;state={...previousState};}
@@ -197,9 +201,18 @@
       }
       assertOwner(owner,epoch);recordImportResult({snapshotId:target.snapshotId,success:failureCount===0&&pendingCount===0,verified:failureCount===0&&pendingCount===0&&unverifiedCount===0,imported:true,targetCounts:counts,successCount,failureCount,pendingCount,unverifiedCount,tables});
     }
+    async function updateNickname(value){
+      const nickname=cleanNickname(value),owner=current();
+      if(!state.enabled||!owner||!session)throw new Error('ログインしてください。');
+      const epoch=generation,updated=await request('/auth/v1/user',{method:'PUT',body:{data:{nickname}}},owner,epoch);
+      assertOwner(owner,epoch);
+      if(updated?.id&&updated.id!==owner)throw new Error('認証された利用者が一致しません。');
+      session={...session,user:{...session.user,...(updated||{}),user_metadata:{...(session.user.user_metadata||{}),...(updated?.user_metadata||{}),nickname}}};persistSession(session);
+      state.user={...state.user,nickname};emit();return getState();
+    }
     // Kept as an internal compatibility entry point; the UI never asks to import.
     async function importGuest(){if(!current())throw new Error('ログインしてください。');await sync();return storage.snapshot?.().migration?.importResult||{imported:false};}
-    return {init,login,logout,sync,resync:()=>sync({full:true}),getState,subscribe(fn){listeners.add(fn);return()=>listeners.delete(fn);},importGuest,blockedData:()=>storage.blocked?.()||[],discardBlocked:(table,key,revision)=>{if(!current())throw new Error('ログインしてください。');assertOwner(current(),generation);const removed=storage.discardBlocked(table,key,revision);emit();return removed;},exportData:()=>storage.exportData()};
+    return {init,login,logout,updateNickname,sync,resync:()=>sync({full:true}),getState,subscribe(fn){listeners.add(fn);return()=>listeners.delete(fn);},importGuest,blockedData:()=>storage.blocked?.()||[],discardBlocked:(table,key,revision)=>{if(!current())throw new Error('ログインしてください。');assertOwner(current(),generation);const removed=storage.discardBlocked(table,key,revision);emit();return removed;},exportData:()=>storage.exportData()};
   }
   return {createSyncClient};
 });

@@ -1,14 +1,18 @@
 (function(){
  'use strict';
  const H=window.HomeCore;
- const KEYS={quiz:'english-notes.quiz.answers.v1',articleAnswers:'english-notes.article.answers.v1',reads:'english-notes.article.read.v1',sessions:'english-notes.app.unit-sessions.v1',done:'english-notes.home.completions.v1',name:'english-notes.ui.display-name.v1'};
+ const KEYS={quiz:'english-notes.quiz.answers.v1',articleAnswers:'english-notes.article.answers.v1',reads:'english-notes.article.read.v1',sessions:'english-notes.app.unit-sessions.v1',done:'english-notes.home.completions.v1'};
  let weekOffset=0;
  const store=()=>window.AppStorage||window.localStorage;
  const readJson=(key,fallback)=>{try{const raw=store().getItem(key);return raw===null?fallback:JSON.parse(raw);}catch(error){return fallback;}};
  const asArray=v=>Array.isArray(v)?v:[];
- // The display name belongs to this device (not to an account) and is never synced.
- const displayName=()=>{try{return (window.localStorage.getItem(KEYS.name)||'').trim();}catch(error){return '';}};
- function setDisplayName(value){const name=String(value||'').trim().slice(0,20);try{if(name)window.localStorage.setItem(KEYS.name,name);else window.localStorage.removeItem(KEYS.name);}catch(error){return false;}updateAccountLabel();if(typeof view!=='undefined'&&view==='home'&&!document.body.classList.contains('quiz-active'))window.render();return true;}
+ // The nickname lives in the account (Supabase Auth user_metadata). Guests have none; it is read from the last known sign-in state, so it also shows offline.
+ const displayName=()=>(window.SupabaseSync?.getState?.().user?.nickname||'').trim();
+ let subscribed=false,lastName=null;
+ function watchAccount(){
+  if(subscribed||!window.SupabaseSync?.subscribe)return;subscribed=true;
+  window.SupabaseSync.subscribe(()=>{const name=displayName();if(name===lastName)return;lastName=name;updateAccountLabel();if(typeof view!=='undefined'&&view==='home'&&!document.body.classList.contains('quiz-active'))window.render();});
+ }
  const quizStore=()=>window.QuizUI?.getStore?.();
  const catalog=()=>window.MaterialCatalog;
  const marks=n=>window.WordbookCore.setLabel(n);
@@ -101,6 +105,7 @@
   <ul class="hm-rows">${list.map(a=>`<li><button class="hm-article" data-hm-article="${esc(a.id)}"><span class="hm-thumb">${photo(a)}</span><span class="hm-article-text"><strong>${esc(a.title)}</strong><span class="hm-meta"><span class="a7-level">${esc(a.level)}</span><span>${esc(a.category)}</span><span>${esc(date(a))}</span></span></span></button></li>`).join('')}</ul></section>`;
  }
  function render_home(){
+  watchAccount();lastName=displayName();
   const now=Date.now(),today=H.jstDate(now),d=data(),days=H.learningDays(d),done=H.doneToday(d,today),ctx=context(),list=H.tasks(ctx,done),stats=H.weekStats(d,today),name=displayName();
   current={tasks:list,recent:H.recent(d,now,resolver()),articles:articleList()};
   const greet=H.greetingWord(now);
@@ -129,6 +134,6 @@
  window.go=function(destination){if(destination==='home')weekOffset=0;return previousGo.apply(this,arguments);};
  const previousRender=window.render;
  window.render=function(){previousRender();updateAccountLabel();};
- window.HomeUI={displayName,setDisplayName,recordCompletion,resetWeek:()=>{weekOffset=0;}};
+ window.HomeUI={displayName,recordCompletion,resetWeek:()=>{weekOffset=0;}};
  updateAccountLabel();
 })();

@@ -1,4 +1,4 @@
-# English Notes 引継書
+# Bridge 引継書
 
 確認日：2026-10-06（日本時間）。リポジトリ、GitHub API、公開HTTP応答、実Supabaseの読み取り結果を確認。コード変更なし。
 2026-10-06追記：ユーザー側で確認済みの事実（公開URL、Cloudflare Workers AI、要件定義書の正本、第8段階の方針）を反映。コードは未変更。
@@ -6,7 +6,7 @@
 
 ## 1. プロジェクトの概要
 
-- English Notes：実在の出典に基づく記事と、単語・表現の4択復習を行う英語学習Webアプリ。
+- Bridge：実在の出典に基づく記事と、単語・表現の4択復習を行う英語学習Webアプリ。
 - 本人（B2〜C1）中心。将来の一般公開を視野に記事をA2〜C1へ拡張。
 - 現在は記事13本、C1①の下書き10語、保存語・復習・記事読了・意見下書きの機能を実装。
 - メール＋パスワード認証とオフライン優先のSupabase同期を実装。実機確認の未確認項目は後述。
@@ -99,7 +99,9 @@ git diff --check
 | wordbook-core.js | 単語帳の出題範囲（おまかせ／苦手／未学習／保存済み）・件数・端末ごとの設定の記憶・ジャンルとセットの組み立て |
 | stage10.js／stage10.css | 単語タブの「単語練習」（ジャンル→セット→出題の設定）とタイムバー・コンボの見た目。単語タブの並びは 単語練習／組み合わせ／保存した単語（既定は単語練習） |
 | home-core.js | ホームの算出ロジック（日本時間の日付・週、学習した日、連続日数、今週の集計、今日のタスクと完了判定、最近の学習）。表示から分離しテスト済み。`PROGRESS_METRIC` で「今週の回答数」と将来の学習時間を切り替える（設定画面には出さない） |
-| stage12.js／stage12.css | 新ホーム画面（PC2列・スマホ1列）、ナビ下部の表示名、タスクの開始、完了の端末内記録（`english-notes.home.completions.v1`、同期しない）。表示名は端末の localStorage `english-notes.ui.display-name.v1`（同期しない、学習設定で入力） |
+| stage12.js／stage12.css | 新ホーム画面（PC2列・スマホ1列）、ナビ下部のニックネーム表示、タスクの開始、完了の端末内記録（`english-notes.home.completions.v1`、同期しない） |
+| nickname.js | ニックネームの規則（1〜20文字、前後の空白を除く、改行不可、文字数で数える）と入力欄の部品（ログイン後の入力画面・アカウント画面・将来の新規登録画面で共用）。旧「表示名」（端末の localStorage `english-notes.ui.display-name.v1`）は廃止し、初回の入力欄の初期値にだけ使って使用後に削除する |
+| router.js | 画面とアドレス（`?view=home|vocab|articles|listen|records`、記事は `?view=article&id=…`）の対応。`go()` ごとに履歴を積み、戻る・進むで画面を復元し、起動時とログイン後はアドレスを優先する。記事一覧の絞り込み（category/level/q）は記事の画面だけで保持 |
 | stage11.js／stage11.css | リスニング画面（従来の3本＋materials/listeningの新規5本を一覧から選んで再生・問題）。再生はブラウザの音声読み上げ |
 | collocation-core.js | コロケーションの検証・出題（穴埋め／誤用）・状態・復習・保存／回答の端末保存 |
 | stage8.js／stage8.css | 語の詳細の「よく一緒に使う表現」、記事ページの入口、単語一覧の「組み合わせ」タブ |
@@ -169,6 +171,7 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 | 第6 | 一部完了：SQL適用と同期実装・自動検証済み。実機の追加検証は未確認 | docs/stage6-sync-design.md、docs/stage6-supabase-setup.md、docs/stage6-sync-report.md |
 | 第6.5 | 完了：ログイン独立・目アイコン・アカウント／設定／データ管理。自動入力等の実機確認は未確認 | docs/stage65-ui-report.md |
 | 第8 | 実装完了・公開済み：コロケーション中心の学習。SQLはSupabase適用済み（ユーザー報告）、実機の同期確認は未確認。誤用の見分けは65語の各1件（語の最初の組み合わせ）に私（AI）の下書きを登録済みで出題される。下書きはユーザーの確認待ち | docs/stage8-spec.md、docs/stage8-collocation-list.md |
+| 第13 | 実装完了・確認待ち：アプリ名を Bridge に変更（表示上の名前のみ。内部キー `english-notes.*`・テーブル名・教材ID・リポジトリ名は不変）、ニックネーム（Supabase Auth の user_metadata.nickname、`PUT /auth/v1/user` で更新、DB変更なし、未設定ならログイン後に全画面で入力、アカウント画面で変更、ナビと挨拶に表示、オフラインは保存済みセッションの値）、`?view` とアドレスの不一致の修正、manifest・OGP（画像なし）を新規追加 | docs/stage13-spec.md |
 | 第12 | 実装完了・確認待ち：ホーム画面の刷新（今日の学習／最近の学習／週のカレンダー／学習の進捗／継続記録／新着の記事）。表示はすべて実データから算出。旧ホームの「続きから」「表現ノート」は廃止（単語タブから利用）。DB変更なし | docs/stage12-spec.md |
 | 第11 | 実装完了・公開済み：定義→英（mode `def_en`）、各ジャンル④〜⑥（150語）。SQLはSupabase適用済み（ユーザー報告）。語の内容はすべて unverified、`docs/stage11-review.md` のユーザー確認と公開前（push未実施） | docs/stage11-spec.md、docs/stage11-review.md |
 | 第10 | 実装完了・公開済み：単語帳の拡充（150語・15セット）、出題の設定、時間制限、コンボ。SQL（mode に ja_en、answer_logs.timed_out）はSupabase適用済み（ユーザー報告）。語の内容はすべて unverified で、実機の同期確認は未確認 | docs/stage10-spec.md、docs/stage10-wordlist.md |

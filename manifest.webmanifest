@@ -1,0 +1,11 @@
+{
+  "name": "Bridge",
+  "short_name": "Bridge",
+  "description": "実在の出典に基づく記事と、単語・表現の4択復習で、英語を学ぶアプリ",
+  "lang": "ja",
+  "start_url": "./?view=home",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F6F7F9",
+  "theme_color": "#F6F7F9"
+}
