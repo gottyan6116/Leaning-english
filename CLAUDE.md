@@ -73,6 +73,7 @@ git diff --check
 - 訳は段落IDに対応。語彙の例文はオリジナル。写真の利用条件とクレジットを維持。
 - 英日の選択肢は簡潔な訳語。誤答は同レベル・同品詞の別語の訳／定義から選ぶ。
   正解の類義語、反意語、不自然な選択肢を誤答にしない。正解は1つ。
+- 単語帳の正本は materials/vocabulary/genres.json と各セットのJSON。語ID（vocab-xxxxxx）は不変。セット追加はJSON追加だけ（コード変更を要しない）。語は CEFR-J／Octanove／BSL の語彙リストで品詞・レベルを照合し、市販単語帳の内容は使わない。status の verified への変更はユーザーが行う。
 - コロケーションの正本は materials/collocations/article-collocations.json。IDは不変（変更・削除しない）。
 - コロケーションのunverified／下書きを勝手に確認済みにしない。確認済みへの変更はユーザーが行う。
   第8段階の試作ではunverifiedも出題してよく、その場合は画面に「確認中」と控えめに表示する。

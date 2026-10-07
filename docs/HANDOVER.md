@@ -10,7 +10,7 @@
 - 本人（B2〜C1）中心。将来の一般公開を視野に記事をA2〜C1へ拡張。
 - 現在は記事13本、C1①の下書き10語、保存語・復習・記事読了・意見下書きの機能を実装。
 - メール＋パスワード認証とオフライン優先のSupabase同期を実装。実機確認の未確認項目は後述。
-- 第8段階（コロケーション学習）の実装済み：65語×3＝195組み合わせの表示・保存・穴埋めクイズ。マイグレーション未適用（後述）。学習時間の自動計測、AI添削は未実装。
+- 第8段階（コロケーション学習：195組み合わせの表示・保存・穴埋め・誤用の見分け）と第10段階（単語帳の拡充とクイズ設定：5ジャンル×3セット＝150語、出題の設定、3形式、制限時間、コンボ）を実装済み。学習時間の自動計測、AI添削は未実装。
 
 ## 2. 作業環境
 
@@ -96,6 +96,8 @@ git diff --check
 | account-sync.js／stage65.css | ログイン・アカウント・設定・データ管理 |
 | stage6.js | 保存・同期と既存の画面再描画の接続 |
 | records.js | 現状の記録画面。固定の表示用履歴が残る |
+| wordbook-core.js | 単語帳の出題範囲（おまかせ／苦手／未学習／保存済み）・件数・端末ごとの設定の記憶・ジャンルとセットの組み立て |
+| stage10.js／stage10.css | 単語タブの「単語帳」（ジャンル→セット→出題の設定）とタイムバー・コンボの見た目 |
 | collocation-core.js | コロケーションの検証・出題（穴埋め／誤用）・状態・復習・保存／回答の端末保存 |
 | stage8.js／stage8.css | 語の詳細の「よく一緒に使う表現」、記事ページの入口、単語一覧の「組み合わせ」タブ |
 | design-tokens.css／stage4.css | 配色・質感・文字などの共通トークンと適用 |
@@ -108,6 +110,7 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 ### 教材
 
 - 本番の正：`materials/articles/*.json`（index以外の13本）と `materials/vocabulary/c1-unit-01.json`（下書き10語）。
+- 単語帳の正：`materials/vocabulary/genres.json`（5ジャンル）と、`materials/vocabulary/*.json` の15セット（1セット10語、語ID `vocab-000001〜000150`）。セットの追加はJSONファイルの追加だけ（ジャンル追加は genres.json に1件）。検証は `node scripts/validate-wordbook.cjs`（`validate-materials.cjs` から自動実行）、確認用一覧は `node scripts/export-wordbook-list.cjs` で `docs/stage10-wordlist.md` を再生成。`scripts/build-wordbook-sets.cjs` は初回生成用で、以後はJSONを直接直す（`--force` は再生成のため通常使わない）。語のレベル・品詞は `materials/validation/` の CEFR-J／Octanove、ビジネス単語は BSL 1.2（固定コピー `bsl-1.2-lemmatized-for-teaching.csv`）と機械照合する。
 - コロケーションの正：`materials/collocations/article-collocations.json`（195件、manifestにハッシュ登録）。記事JSONの `usage` は移行元として残すが画面は読まない。IDは不変（`col-<語ID>-<組み合わせslug>`）。検証は `scripts/validate-collocations.cjs`、確認用一覧は `node scripts/export-collocation-list.cjs` で `docs/stage8-collocation-list.md` を再生成。
 - 自動生成：`materials/articles/index.json`（目次）、`materials/article-vocabulary/*.json`（記事語彙）、`materials/search/article-index.json`（一覧用検索索引）、`materials/manifest.json`（参照・SHA256）。
 - 一覧は目次と検索索引から取得し、本文・設問・訳は記事を開くと取得。検索索引はタイトル・要約・分野・重要語彙で、本文全体を取得しない。
@@ -128,6 +131,7 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 | 20261005012849_allow_email_password_signup.sql | 登録判定をemail／googleへ拡張 |
 | 20261005032051_allow_unset_goal_preferences.sql | 日・週目標のSQL NULL／JSON nullを未設定として許可 |
 | 20261006050119_allow_collocation_answers.sql | answer_logs.kind に collocation を追加（既存制約を張り替え）。ユーザー側で適用済み（採番20261006050119）。内容は適用前から不変 |
+| 20261007000000_add_ja_en_mode_and_timed_out.sql | answer_logs／unit_sessions の mode に ja_en（日→英）を追加、preferences の mode 設定にも "ja_en" を許可、answer_logs.timed_out（時間切れ）列を追加。ユーザーがSQL Editorで適用し履歴にも同番号で記録済み（改名不要）。確認はユーザーの問い合わせ（実DBの履歴は私は未確認） |
 
 - アプリはメール＋パスワードのログイン／ログアウト。新規登録・パスワード再設定画面なし。実DBで既存の認証identityがemailであること、許可表の有効行が存在すること、登録関数とemail対応を確認。
 - ユーザー報告・設計書はHook有効、メール確認OFF、パスワード12文字以上、Google未設定。SupabaseのSite URLとRedirect URLsは公開URL `https://learningenglish2026-xi.vercel.app/` に設定済み（ユーザー確認済み）。他のAuth管理設定の現在値は今回未確認。関数の存在をHookの有効化確認と混同しない。
@@ -160,6 +164,7 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 | 第6 | 一部完了：SQL適用と同期実装・自動検証済み。実機の追加検証は未確認 | docs/stage6-sync-design.md、docs/stage6-supabase-setup.md、docs/stage6-sync-report.md |
 | 第6.5 | 完了：ログイン独立・目アイコン・アカウント／設定／データ管理。自動入力等の実機確認は未確認 | docs/stage65-ui-report.md |
 | 第8 | 実装完了・公開済み：コロケーション中心の学習。SQLはSupabase適用済み（ユーザー報告）、実機の同期確認は未確認。誤用の見分けは65語の各1件（語の最初の組み合わせ）に私（AI）の下書きを登録済みで出題される。下書きはユーザーの確認待ち | docs/stage8-spec.md、docs/stage8-collocation-list.md |
+| 第10 | 実装完了・公開前：単語帳の拡充（150語・15セット）、出題の設定、時間制限、コンボ。SQL（mode に ja_en、answer_logs.timed_out）はSupabase適用済み（ユーザー報告）。語の内容はすべて unverified で、実機の同期確認は未確認 | docs/stage10-spec.md、docs/stage10-wordlist.md |
 | 同期仕上げ | 実装完了：未設定目標、恒久拒否隔離、自動統合、UUID照合。本人の再ログイン実機検証は未確認 | docs/sync-import-fix-report.md、docs/automatic-guest-merge-report.md |
 | 第7 | 完了：10本追加→13本、全段落訳、遅延取得、検索・モザイク・棚。教材の本人レビューと最新UI実画面確認は未確認 | docs/stage7-article-plan.md、docs/stage7-implementation-report.md、docs/article-browse-report.md |
 | モザイク仕上げ | 完了：帯削除、下部45%のフェードと影、日付・時間の除外 | docs/mosaic-text-fix-report.md |
@@ -179,6 +184,9 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 - 4択の表示順を毎回ランダム化し選択肢IDで採点。1〜4キーは表示順。位置で採点するとシャッフルでずれる。
 - ユニット進捗は現在モードの完了セッションのベストスコア、10/10でクリア。単発の偶然正解を積み上げない。
 - 自動計測前は日／週目標とホームの目標リング・週グラフを非表示。保存済みの値は残す。結果の経過時間を学習時間へ加算しない。
+- 単語帳の出題範囲（第10段階）：おまかせ＝そのセットの10語を、直近が誤答・SKIP・時間切れの語→未学習→その他の順に並べる（常に10語で0件にならない）。苦手＝同じ形式で直近が誤答・SKIP・時間切れ。未学習＝同じ形式で未回答。保存済み＝保存した語。件数は現在の出題形式で計算し、0件の範囲は選べない。
+- 時間切れは `correct=false`・`skipped=false`・選択なし・`timed_out=true` で記録（SKIPと区別）。`timed_out` は true のときだけ行に入れる。制限時間の計測はタブ非表示・ダイアログ表示中は止める。
+- 出題範囲と制限時間は端末ごとに保存（キー `english-notes.quiz.setup.v1`、同期しない）。出題形式は既存の `mode` 設定（同期）。ベストスコアの記録（unit_sessions）は10語すべてを出題した「おまかせ」のときだけ。
 - データ変更は追加を基本とし、既存ID・旧保存データを守る。本人改ざん対策より他利用者のデータ隔離を優先する。
 
 ## 6. 既知の問題と未解決事項
@@ -197,6 +205,7 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 
 ## 7. 次にやること（優先順）
 
+0. 第10段階の確認（ユーザー）：`docs/stage10-wordlist.md` の150語（訳・定義・例文・誤答）の内容レビュー、実機（スマホ／PC）での出題・時間切れ・コンボ・同期の確認。確認できた語の `status` を verified にするのはユーザー。
 1. 注目モザイクの文字表示修正：**完了**（abc51cc）。同じ修正を重複実装しない。残るのは必要に応じた実画面確認。
 2. 第8段階コロケーション中心の学習：**実装完了**（`docs/stage8-spec.md`）。残り：(a) 適用済みSQL（20261006050119）の実機同期確認（スマホ／PCで組み合わせクイズの回答が同期されるか）、(b) `docs/stage8-collocation-list.md` のユーザー確認（verifiedへの変更はユーザー）、(c) 誤用の見分け用の下書き65件（`misuse`）の確認・修正。追加・修正は元データの `misuse` に form と noteJa を記す（一覧は `node scripts/export-collocation-list.cjs` で再生成）。適用前に端末へ残った回答は、適用後の最初の同期（再同期は必ず、通常同期もセッション初回）で自動的に再送される。
 3. 第9段階AI添削（Cloudflare Workers AI、GLM-4.7-Flash）：**未着手**。Worker・wrangler設定・モデル接続実装はない。仕様は `docs/stage9-spec.md` として受領後に保存する（未受領）。
