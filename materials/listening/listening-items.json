@@ -1,0 +1,118 @@
+{
+  "id": "listening-items",
+  "version": 1,
+  "kind": "listening",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "items": [
+    {
+      "id": "listen-001",
+      "title": "Booking a table",
+      "titleJa": "電話でレストランを予約する",
+      "genre": "日常・文化",
+      "level": "B1",
+      "status": "unverified",
+      "origin": "original-for-this-app",
+      "text": [
+        "Maya wants to have dinner with her friends on Saturday. She calls a small restaurant near the station and asks for a table for four at seven o'clock. The staff member says the restaurant is almost full, but a table by the window is free.",
+        "Maya takes it and gives her name and phone number. Before she hangs up, the staff member reminds her that the table will be kept for only fifteen minutes. Maya writes the time in her calendar so that she will not forget."
+      ],
+      "question": {
+        "promptJa": "マヤが予約した席について正しいのはどれ？",
+        "choices": [
+          "窓際の4人席を7時に予約した",
+          "奥の個室を8時に予約した",
+          "席が空いておらず予約できなかった"
+        ],
+        "answerIndex": 0
+      }
+    },
+    {
+      "id": "listen-002",
+      "title": "A delayed train",
+      "titleJa": "電車の遅れを知らせる放送",
+      "genre": "日常・文化",
+      "level": "B1",
+      "status": "unverified",
+      "origin": "original-for-this-app",
+      "text": [
+        "Attention, passengers. The express train to the airport is delayed by about twenty minutes because of a signal problem. We are sorry for the inconvenience.",
+        "Passengers who need to arrive earlier can take the local train from platform two, which leaves in five minutes. Tickets will be accepted on both trains. Please listen for further announcements."
+      ],
+      "question": {
+        "promptJa": "空港へ急ぐ人に勧められている方法は？",
+        "choices": [
+          "20分待って急行に乗る",
+          "2番線の各駅停車に乗る",
+          "タクシーを使う"
+        ],
+        "answerIndex": 1
+      }
+    },
+    {
+      "id": "listen-003",
+      "title": "Why sleep matters",
+      "titleJa": "睡眠が大切な理由",
+      "genre": "教養",
+      "level": "B2",
+      "status": "unverified",
+      "origin": "original-for-this-app",
+      "text": [
+        "Scientists have long known that sleep is important, but new studies show how much it affects daily life. People who sleep for seven to nine hours usually concentrate better and remember more of what they learn.",
+        "Lack of sleep, on the other hand, can make a person irritable and slow to react. Experts suggest going to bed at the same time every night and avoiding bright screens for an hour before sleeping."
+      ],
+      "question": {
+        "promptJa": "専門家が勧めていることとして正しいのは？",
+        "choices": [
+          "睡眠を5時間に減らして勉強にあてる",
+          "昼寝を長めにとって夜は遅く寝る",
+          "毎晩同じ時刻に寝て、寝る前は画面を避ける"
+        ],
+        "answerIndex": 2
+      }
+    },
+    {
+      "id": "listen-004",
+      "title": "Working from home",
+      "titleJa": "在宅勤務を続けるコツ",
+      "genre": "仕事",
+      "level": "B2",
+      "status": "unverified",
+      "origin": "original-for-this-app",
+      "text": [
+        "Many people now work from home at least some days of the week. This can save time on the commute, but it also makes it harder to separate work from personal life.",
+        "One useful habit is to set a fixed start and finish time. Another is to use a separate space, even a small corner, only for work. These simple steps help people stay focused and finish on time."
+      ],
+      "question": {
+        "promptJa": "在宅勤務のコツとして述べられているのは？",
+        "choices": [
+          "始業と終業の時刻、仕事専用の場所を決める",
+          "一日中同じ服を着て、休まず作業を続ける",
+          "毎日違う場所で、気分に合わせて働く"
+        ],
+        "answerIndex": 0
+      }
+    },
+    {
+      "id": "listen-005",
+      "title": "A Sunday market",
+      "titleJa": "日曜の朝市",
+      "genre": "日常・文化",
+      "level": "B1",
+      "status": "unverified",
+      "origin": "original-for-this-app",
+      "text": [
+        "Every Sunday morning, farmers from nearby villages bring fresh vegetables, bread and flowers to the town square. The market opens at eight and most stalls sell out before noon.",
+        "Visitors often arrive early to get the best fruit. Many stalls let customers taste a small piece before they buy, and prices are usually lower than in the supermarket."
+      ],
+      "question": {
+        "promptJa": "朝市について正しいのはどれ？",
+        "choices": [
+          "毎日夜遅くまで開いていて、いつも混んでいる",
+          "日曜の朝に開き、昼までに売り切れる店が多い",
+          "スーパーより高く、品物の種類も少ない"
+        ],
+        "answerIndex": 1
+      }
+    }
+  ]
+}

@@ -97,7 +97,8 @@ git diff --check
 | stage6.js | 保存・同期と既存の画面再描画の接続 |
 | records.js | 現状の記録画面。固定の表示用履歴が残る |
 | wordbook-core.js | 単語帳の出題範囲（おまかせ／苦手／未学習／保存済み）・件数・端末ごとの設定の記憶・ジャンルとセットの組み立て |
-| stage10.js／stage10.css | 単語タブの「単語帳」（ジャンル→セット→出題の設定）とタイムバー・コンボの見た目 |
+| stage10.js／stage10.css | 単語タブの「単語練習」（ジャンル→セット→出題の設定）とタイムバー・コンボの見た目。単語タブの並びは 単語練習／組み合わせ／保存した単語（既定は単語練習） |
+| stage11.js／stage11.css | リスニング画面（従来の3本＋materials/listeningの新規5本を一覧から選んで再生・問題）。再生はブラウザの音声読み上げ |
 | collocation-core.js | コロケーションの検証・出題（穴埋め／誤用）・状態・復習・保存／回答の端末保存 |
 | stage8.js／stage8.css | 語の詳細の「よく一緒に使う表現」、記事ページの入口、単語一覧の「組み合わせ」タブ |
 | design-tokens.css／stage4.css | 配色・質感・文字などの共通トークンと適用 |
@@ -111,6 +112,7 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 
 - 本番の正：`materials/articles/*.json`（index以外の13本）と `materials/vocabulary/c1-unit-01.json`（下書き10語）。
 - 単語帳の正：`materials/vocabulary/genres.json`（5ジャンル）と、`materials/vocabulary/*.json` の15セット（1セット10語、語ID `vocab-000001〜000150`）。セットの追加はJSONファイルの追加だけ（ジャンル追加は genres.json に1件）。検証は `node scripts/validate-wordbook.cjs`（`validate-materials.cjs` から自動実行）、確認用一覧は `node scripts/export-wordbook-list.cjs` で `docs/stage10-wordlist.md` を再生成。`scripts/build-wordbook-sets.cjs` は初回生成用で、以後はJSONを直接直す（`--force` は再生成のため通常使わない）。語のレベル・品詞は `materials/validation/` の CEFR-J／Octanove、ビジネス単語は BSL 1.2（固定コピー `bsl-1.2-lemmatized-for-teaching.csv`）と機械照合する。
+- リスニング教材の正：`materials/listening/listening-items.json`（原稿2段落＋内容確認1問の5本、すべてunverified・オリジナル）。検証は `scripts/validate-listening.cjs`（`validate-materials.cjs` から自動実行）、manifestに登録。従来の3本は learning.js の lessons（旧形式）のまま。
 - コロケーションの正：`materials/collocations/article-collocations.json`（195件、manifestにハッシュ登録）。記事JSONの `usage` は移行元として残すが画面は読まない。IDは不変（`col-<語ID>-<組み合わせslug>`）。検証は `scripts/validate-collocations.cjs`、確認用一覧は `node scripts/export-collocation-list.cjs` で `docs/stage8-collocation-list.md` を再生成。
 - 自動生成：`materials/articles/index.json`（目次）、`materials/article-vocabulary/*.json`（記事語彙）、`materials/search/article-index.json`（一覧用検索索引）、`materials/manifest.json`（参照・SHA256）。
 - 一覧は目次と検索索引から取得し、本文・設問・訳は記事を開くと取得。検索索引はタイトル・要約・分野・重要語彙で、本文全体を取得しない。

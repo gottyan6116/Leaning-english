@@ -1,0 +1,3 @@
+.ls-list h2{font-size:var(--font-size-section-title);font-weight:var(--font-weight-bold);margin:0 0 10px}
+.ls-list .vocabulary-row[aria-current="true"] strong{font-weight:var(--font-weight-bold)}
+.ls-now{color:var(--color-text);font-weight:var(--font-weight-bold)}

@@ -330,6 +330,12 @@
     "path": "materials/vocabulary/genres.json",
     "sha256": "7f18704234f5e54dd66407093eaeb6f58270e3e0d91712203a38931927e7e1f4"
   },
+  "listening": {
+    "id": "listening-items",
+    "version": 1,
+    "path": "materials/listening/listening-items.json",
+    "sha256": "09459767c18f91fd153a35f96fef0f48d4189c5fd357e3baa57dd7aa47d3b698"
+  },
   "wordIndex": {
     "article-culture-koji-skills-2024-craftsmanship": {
       "articleId": "article-culture-koji-skills-2024"
