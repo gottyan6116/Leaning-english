@@ -1,0 +1,925 @@
+{
+  "id": "super-02",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "超アドバンス単語 ②",
+  "genre": "super",
+  "setNumber": 2,
+  "level": "C1〜C2",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000131",
+      "headword": "ingenuity",
+      "partOfSpeech": "noun",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 2,
+      "meaning": "工夫の才",
+      "definition": "skill in finding clever new ways to do things",
+      "example": "The engineer solved the problem with great ingenuity.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "工夫の才（skill in finding clever new ways to do things）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "ingenuity",
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "頂点",
+            "混乱",
+            "工夫の才",
+            "信頼関係"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000131-ja-option-1",
+            "vocab-000131-ja-option-2",
+            "vocab-000131-ja-option-3",
+            "vocab-000131-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000131-ja-option-3",
+          "distractorHeadwords": [
+            "pinnacle",
+            "turmoil",
+            null,
+            "rapport"
+          ]
+        },
+        "en": {
+          "choices": [
+            "the highest or most successful point",
+            "a situation of great confusion and worry",
+            "skill in finding clever new ways to do things",
+            "a close and friendly understanding between people"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000131-en-option-1",
+            "vocab-000131-en-option-2",
+            "vocab-000131-en-option-3",
+            "vocab-000131-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000131-en-option-3",
+          "distractorHeadwords": [
+            "pinnacle",
+            "turmoil",
+            null,
+            "rapport"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "pinnacle",
+            "turmoil",
+            "ingenuity",
+            "rapport"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000131-ja_en-option-1",
+            "vocab-000131-ja_en-option-2",
+            "vocab-000131-ja_en-option-3",
+            "vocab-000131-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000131-ja_en-option-3",
+          "distractorHeadwords": [
+            "pinnacle",
+            "turmoil",
+            null,
+            "rapport"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000132",
+      "headword": "rapport",
+      "partOfSpeech": "noun",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 2,
+      "meaning": "信頼関係",
+      "definition": "a close and friendly understanding between people",
+      "example": "The teacher quickly built a rapport with her class.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "信頼関係（a close and friendly understanding between people）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "rapport",
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "終焉",
+            "筋書き",
+            "工夫の才",
+            "信頼関係"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000132-ja-option-1",
+            "vocab-000132-ja-option-2",
+            "vocab-000132-ja-option-3",
+            "vocab-000132-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000132-ja-option-4",
+          "distractorHeadwords": [
+            "demise",
+            "scenario",
+            "ingenuity",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "the end of something that was once successful",
+            "an imagined series of events that might happen",
+            "skill in finding clever new ways to do things",
+            "a close and friendly understanding between people"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000132-en-option-1",
+            "vocab-000132-en-option-2",
+            "vocab-000132-en-option-3",
+            "vocab-000132-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000132-en-option-4",
+          "distractorHeadwords": [
+            "demise",
+            "scenario",
+            "ingenuity",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "demise",
+            "scenario",
+            "ingenuity",
+            "rapport"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000132-ja_en-option-1",
+            "vocab-000132-ja_en-option-2",
+            "vocab-000132-ja_en-option-3",
+            "vocab-000132-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000132-ja_en-option-4",
+          "distractorHeadwords": [
+            "demise",
+            "scenario",
+            "ingenuity",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000133",
+      "headword": "conformity",
+      "partOfSpeech": "noun",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 2,
+      "meaning": "順応",
+      "definition": "behaviour that follows the usual rules of a group",
+      "example": "The school values creativity more than conformity.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "順応（behaviour that follows the usual rules of a group）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "conformity",
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "順応",
+            "信頼関係",
+            "遺産",
+            "敵対者"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000133-ja-option-1",
+            "vocab-000133-ja-option-2",
+            "vocab-000133-ja-option-3",
+            "vocab-000133-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000133-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "rapport",
+            "legacy",
+            "adversary"
+          ]
+        },
+        "en": {
+          "choices": [
+            "behaviour that follows the usual rules of a group",
+            "a close and friendly understanding between people",
+            "something that a person leaves for the future",
+            "a person or group that you compete against"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000133-en-option-1",
+            "vocab-000133-en-option-2",
+            "vocab-000133-en-option-3",
+            "vocab-000133-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000133-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "rapport",
+            "legacy",
+            "adversary"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "conformity",
+            "rapport",
+            "legacy",
+            "adversary"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000133-ja_en-option-1",
+            "vocab-000133-ja_en-option-2",
+            "vocab-000133-ja_en-option-3",
+            "vocab-000133-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000133-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "rapport",
+            "legacy",
+            "adversary"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000134",
+      "headword": "discourse",
+      "partOfSpeech": "noun",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 2,
+      "meaning": "言説",
+      "definition": "serious talk or writing about a subject",
+      "example": "Public discourse about the issue has become angry.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "言説（serious talk or writing about a subject）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "discourse",
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "終焉",
+            "言説",
+            "偽善",
+            "筋書き"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000134-ja-option-1",
+            "vocab-000134-ja-option-2",
+            "vocab-000134-ja-option-3",
+            "vocab-000134-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000134-ja-option-2",
+          "distractorHeadwords": [
+            "demise",
+            null,
+            "hypocrisy",
+            "scenario"
+          ]
+        },
+        "en": {
+          "choices": [
+            "the end of something that was once successful",
+            "serious talk or writing about a subject",
+            "pretending to be better than you really are",
+            "an imagined series of events that might happen"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000134-en-option-1",
+            "vocab-000134-en-option-2",
+            "vocab-000134-en-option-3",
+            "vocab-000134-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000134-en-option-2",
+          "distractorHeadwords": [
+            "demise",
+            null,
+            "hypocrisy",
+            "scenario"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "demise",
+            "discourse",
+            "hypocrisy",
+            "scenario"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000134-ja_en-option-1",
+            "vocab-000134-ja_en-option-2",
+            "vocab-000134-ja_en-option-3",
+            "vocab-000134-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000134-ja_en-option-2",
+          "distractorHeadwords": [
+            "demise",
+            null,
+            "hypocrisy",
+            "scenario"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000135",
+      "headword": "perpetuate",
+      "partOfSpeech": "verb",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 2,
+      "meaning": "助長する",
+      "definition": "to make a bad situation continue",
+      "example": "Such stories perpetuate old stereotypes.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "助長する（to make a bad situation continue）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "perpetuate",
+        "partOfSpeech": "verb",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "遺贈する",
+            "共鳴する",
+            "助長する",
+            "変動する"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000135-ja-option-1",
+            "vocab-000135-ja-option-2",
+            "vocab-000135-ja-option-3",
+            "vocab-000135-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000135-ja-option-3",
+          "distractorHeadwords": [
+            "bequeath",
+            "resonate",
+            null,
+            "fluctuate"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to leave money or things to someone when you die",
+            "to have a strong meaning for someone",
+            "to make a bad situation continue",
+            "to change often between high and low"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000135-en-option-1",
+            "vocab-000135-en-option-2",
+            "vocab-000135-en-option-3",
+            "vocab-000135-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000135-en-option-3",
+          "distractorHeadwords": [
+            "bequeath",
+            "resonate",
+            null,
+            "fluctuate"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "bequeath",
+            "resonate",
+            "perpetuate",
+            "fluctuate"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000135-ja_en-option-1",
+            "vocab-000135-ja_en-option-2",
+            "vocab-000135-ja_en-option-3",
+            "vocab-000135-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000135-ja_en-option-3",
+          "distractorHeadwords": [
+            "bequeath",
+            "resonate",
+            null,
+            "fluctuate"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000136",
+      "headword": "exert",
+      "partOfSpeech": "verb",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 2,
+      "meaning": "及ぼす",
+      "definition": "to use power or influence on something",
+      "example": "The moon exerts a strong pull on the sea.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "及ぼす（to use power or influence on something）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "exert",
+        "partOfSpeech": "verb",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "喚起する",
+            "浪費する",
+            "変動する",
+            "及ぼす"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000136-ja-option-1",
+            "vocab-000136-ja-option-2",
+            "vocab-000136-ja-option-3",
+            "vocab-000136-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000136-ja-option-4",
+          "distractorHeadwords": [
+            "evoke",
+            "squander",
+            "fluctuate",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "to bring a feeling or memory to mind",
+            "to waste money, time or chances",
+            "to change often between high and low",
+            "to use power or influence on something"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000136-en-option-1",
+            "vocab-000136-en-option-2",
+            "vocab-000136-en-option-3",
+            "vocab-000136-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000136-en-option-4",
+          "distractorHeadwords": [
+            "evoke",
+            "squander",
+            "fluctuate",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "evoke",
+            "squander",
+            "fluctuate",
+            "exert"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000136-ja_en-option-1",
+            "vocab-000136-ja_en-option-2",
+            "vocab-000136-ja_en-option-3",
+            "vocab-000136-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000136-ja_en-option-4",
+          "distractorHeadwords": [
+            "evoke",
+            "squander",
+            "fluctuate",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000137",
+      "headword": "resonate",
+      "partOfSpeech": "verb",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 2,
+      "meaning": "共鳴する",
+      "definition": "to have a strong meaning for someone",
+      "example": "Her message resonated with many young voters.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "共鳴する（to have a strong meaning for someone）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "resonate",
+        "partOfSpeech": "verb",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "共鳴する",
+            "助長する",
+            "遺贈する",
+            "描写する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000137-ja-option-1",
+            "vocab-000137-ja-option-2",
+            "vocab-000137-ja-option-3",
+            "vocab-000137-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000137-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "perpetuate",
+            "bequeath",
+            "depict"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to have a strong meaning for someone",
+            "to make a bad situation continue",
+            "to leave money or things to someone when you die",
+            "to show something in a picture or in words"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000137-en-option-1",
+            "vocab-000137-en-option-2",
+            "vocab-000137-en-option-3",
+            "vocab-000137-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000137-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "perpetuate",
+            "bequeath",
+            "depict"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "resonate",
+            "perpetuate",
+            "bequeath",
+            "depict"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000137-ja_en-option-1",
+            "vocab-000137-ja_en-option-2",
+            "vocab-000137-ja_en-option-3",
+            "vocab-000137-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000137-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "perpetuate",
+            "bequeath",
+            "depict"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000138",
+      "headword": "robust",
+      "partOfSpeech": "adjective",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 2,
+      "meaning": "頑丈な",
+      "definition": "strong and unlikely to fail",
+      "example": "The company has a robust plan for growth.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "頑丈な（strong and unlikely to fail）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "robust",
+        "partOfSpeech": "adjective",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "鋭い",
+            "頑丈な",
+            "用途の広い",
+            "細心の"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000138-ja-option-1",
+            "vocab-000138-ja-option-2",
+            "vocab-000138-ja-option-3",
+            "vocab-000138-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000138-ja-option-2",
+          "distractorHeadwords": [
+            "insightful",
+            null,
+            "versatile",
+            "meticulous"
+          ]
+        },
+        "en": {
+          "choices": [
+            "showing a deep understanding",
+            "strong and unlikely to fail",
+            "able to be used in many different ways",
+            "very careful about small details"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000138-en-option-1",
+            "vocab-000138-en-option-2",
+            "vocab-000138-en-option-3",
+            "vocab-000138-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000138-en-option-2",
+          "distractorHeadwords": [
+            "insightful",
+            null,
+            "versatile",
+            "meticulous"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "insightful",
+            "robust",
+            "versatile",
+            "meticulous"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000138-ja_en-option-1",
+            "vocab-000138-ja_en-option-2",
+            "vocab-000138-ja_en-option-3",
+            "vocab-000138-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000138-ja_en-option-2",
+          "distractorHeadwords": [
+            "insightful",
+            null,
+            "versatile",
+            "meticulous"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000139",
+      "headword": "tenacious",
+      "partOfSpeech": "adjective",
+      "level": "C2",
+      "genre": "super",
+      "setNumber": 2,
+      "meaning": "粘り強い",
+      "definition": "very determined and unwilling to give up",
+      "example": "She is a tenacious reporter who never drops a story.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "粘り強い（very determined and unwilling to give up）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "tenacious",
+        "partOfSpeech": "adjective",
+        "level": "C2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "用途の広い",
+            "表面的な",
+            "粘り強い",
+            "厳格な"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000139-ja-option-1",
+            "vocab-000139-ja-option-2",
+            "vocab-000139-ja-option-3",
+            "vocab-000139-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000139-ja-option-3",
+          "distractorHeadwords": [
+            "versatile",
+            "superficial",
+            null,
+            "stringent"
+          ]
+        },
+        "en": {
+          "choices": [
+            "able to be used in many different ways",
+            "looking only at the surface",
+            "very determined and unwilling to give up",
+            "very strict and difficult to meet"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000139-en-option-1",
+            "vocab-000139-en-option-2",
+            "vocab-000139-en-option-3",
+            "vocab-000139-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000139-en-option-3",
+          "distractorHeadwords": [
+            "versatile",
+            "superficial",
+            null,
+            "stringent"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "versatile",
+            "superficial",
+            "tenacious",
+            "stringent"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000139-ja_en-option-1",
+            "vocab-000139-ja_en-option-2",
+            "vocab-000139-ja_en-option-3",
+            "vocab-000139-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000139-ja_en-option-3",
+          "distractorHeadwords": [
+            "versatile",
+            "superficial",
+            null,
+            "stringent"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000140",
+      "headword": "insightful",
+      "partOfSpeech": "adjective",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 2,
+      "meaning": "鋭い",
+      "definition": "showing a deep understanding",
+      "example": "His insightful comments changed the discussion.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "鋭い（showing a deep understanding）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "insightful",
+        "partOfSpeech": "adjective",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "用途の広い",
+            "入り組んだ",
+            "率直な",
+            "鋭い"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000140-ja-option-1",
+            "vocab-000140-ja-option-2",
+            "vocab-000140-ja-option-3",
+            "vocab-000140-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000140-ja-option-4",
+          "distractorHeadwords": [
+            "versatile",
+            "convoluted",
+            "candid",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "able to be used in many different ways",
+            "very complicated and hard to follow",
+            "honest and direct in what you say",
+            "showing a deep understanding"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000140-en-option-1",
+            "vocab-000140-en-option-2",
+            "vocab-000140-en-option-3",
+            "vocab-000140-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000140-en-option-4",
+          "distractorHeadwords": [
+            "versatile",
+            "convoluted",
+            "candid",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "versatile",
+            "convoluted",
+            "candid",
+            "insightful"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000140-ja_en-option-1",
+            "vocab-000140-ja_en-option-2",
+            "vocab-000140-ja_en-option-3",
+            "vocab-000140-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000140-ja_en-option-4",
+          "distractorHeadwords": [
+            "versatile",
+            "convoluted",
+            "candid",
+            null
+          ]
+        }
+      }
+    }
+  ]
+}

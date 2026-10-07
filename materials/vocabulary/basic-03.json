@@ -1,0 +1,925 @@
+{
+  "id": "basic-03",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "基礎単語 ③",
+  "genre": "basic",
+  "setNumber": 3,
+  "level": "A1〜A2",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000031",
+      "headword": "mountain",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 3,
+      "meaning": "山",
+      "definition": "a very high hill",
+      "example": "We climbed the mountain on Sunday.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "山（a very high hill）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "mountain",
+        "partOfSpeech": "noun",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "山",
+            "休暇",
+            "空港",
+            "切符"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000031-ja-option-1",
+            "vocab-000031-ja-option-2",
+            "vocab-000031-ja-option-3",
+            "vocab-000031-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000031-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "holiday",
+            "airport",
+            "ticket"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a very high hill",
+            "a time when you do not work",
+            "a place where planes arrive and leave",
+            "a piece of paper that lets you travel"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000031-en-option-1",
+            "vocab-000031-en-option-2",
+            "vocab-000031-en-option-3",
+            "vocab-000031-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000031-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "holiday",
+            "airport",
+            "ticket"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "mountain",
+            "holiday",
+            "airport",
+            "ticket"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000031-ja_en-option-1",
+            "vocab-000031-ja_en-option-2",
+            "vocab-000031-ja_en-option-3",
+            "vocab-000031-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000031-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "holiday",
+            "airport",
+            "ticket"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000032",
+      "headword": "bottle",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 3,
+      "meaning": "瓶",
+      "definition": "a container with a narrow neck",
+      "example": "She filled the bottle with water.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "瓶（a container with a narrow neck）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "bottle",
+        "partOfSpeech": "noun",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "傘",
+            "瓶",
+            "切符",
+            "肩"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000032-ja-option-1",
+            "vocab-000032-ja-option-2",
+            "vocab-000032-ja-option-3",
+            "vocab-000032-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000032-ja-option-2",
+          "distractorHeadwords": [
+            "umbrella",
+            null,
+            "ticket",
+            "shoulder"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a thing that keeps rain off your head",
+            "a container with a narrow neck",
+            "a piece of paper that lets you travel",
+            "the part of the body next to the neck"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000032-en-option-1",
+            "vocab-000032-en-option-2",
+            "vocab-000032-en-option-3",
+            "vocab-000032-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000032-en-option-2",
+          "distractorHeadwords": [
+            "umbrella",
+            null,
+            "ticket",
+            "shoulder"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "umbrella",
+            "bottle",
+            "ticket",
+            "shoulder"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000032-ja_en-option-1",
+            "vocab-000032-ja_en-option-2",
+            "vocab-000032-ja_en-option-3",
+            "vocab-000032-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000032-ja_en-option-2",
+          "distractorHeadwords": [
+            "umbrella",
+            null,
+            "ticket",
+            "shoulder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000033",
+      "headword": "holiday",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 3,
+      "meaning": "休暇",
+      "definition": "a time when you do not work",
+      "example": "We spent our holiday at the beach.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "休暇（a time when you do not work）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "holiday",
+        "partOfSpeech": "noun",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "ポケット",
+            "空港",
+            "休暇",
+            "地面"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000033-ja-option-1",
+            "vocab-000033-ja-option-2",
+            "vocab-000033-ja-option-3",
+            "vocab-000033-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000033-ja-option-3",
+          "distractorHeadwords": [
+            "pocket",
+            "airport",
+            null,
+            "ground"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a small part of clothes where you keep things",
+            "a place where planes arrive and leave",
+            "a time when you do not work",
+            "the surface that you walk on"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000033-en-option-1",
+            "vocab-000033-en-option-2",
+            "vocab-000033-en-option-3",
+            "vocab-000033-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000033-en-option-3",
+          "distractorHeadwords": [
+            "pocket",
+            "airport",
+            null,
+            "ground"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "pocket",
+            "airport",
+            "holiday",
+            "ground"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000033-ja_en-option-1",
+            "vocab-000033-ja_en-option-2",
+            "vocab-000033-ja_en-option-3",
+            "vocab-000033-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000033-ja_en-option-3",
+          "distractorHeadwords": [
+            "pocket",
+            "airport",
+            null,
+            "ground"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000034",
+      "headword": "ground",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 3,
+      "meaning": "地面",
+      "definition": "the surface that you walk on",
+      "example": "The ground was wet after the rain.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "地面（the surface that you walk on）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "ground",
+        "partOfSpeech": "noun",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "切符",
+            "山",
+            "瓶",
+            "地面"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000034-ja-option-1",
+            "vocab-000034-ja-option-2",
+            "vocab-000034-ja-option-3",
+            "vocab-000034-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000034-ja-option-4",
+          "distractorHeadwords": [
+            "ticket",
+            "mountain",
+            "bottle",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "a piece of paper that lets you travel",
+            "a very high hill",
+            "a container with a narrow neck",
+            "the surface that you walk on"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000034-en-option-1",
+            "vocab-000034-en-option-2",
+            "vocab-000034-en-option-3",
+            "vocab-000034-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000034-en-option-4",
+          "distractorHeadwords": [
+            "ticket",
+            "mountain",
+            "bottle",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "ticket",
+            "mountain",
+            "bottle",
+            "ground"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000034-ja_en-option-1",
+            "vocab-000034-ja_en-option-2",
+            "vocab-000034-ja_en-option-3",
+            "vocab-000034-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000034-ja_en-option-4",
+          "distractorHeadwords": [
+            "ticket",
+            "mountain",
+            "bottle",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000035",
+      "headword": "send",
+      "partOfSpeech": "verb",
+      "level": "A2",
+      "genre": "basic",
+      "setNumber": 3,
+      "meaning": "送る",
+      "definition": "to make something go to another place",
+      "example": "I will send you a message tonight.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "送る（to make something go to another place）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "send",
+        "partOfSpeech": "verb",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "送る",
+            "借りる",
+            "運ぶ",
+            "楽しむ"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000035-ja-option-1",
+            "vocab-000035-ja-option-2",
+            "vocab-000035-ja-option-3",
+            "vocab-000035-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000035-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "borrow",
+            "carry",
+            "enjoy"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to make something go to another place",
+            "to take something and give it back later",
+            "to hold something and take it to a place",
+            "to feel pleasure from something"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000035-en-option-1",
+            "vocab-000035-en-option-2",
+            "vocab-000035-en-option-3",
+            "vocab-000035-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000035-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "borrow",
+            "carry",
+            "enjoy"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "send",
+            "borrow",
+            "carry",
+            "enjoy"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000035-ja_en-option-1",
+            "vocab-000035-ja_en-option-2",
+            "vocab-000035-ja_en-option-3",
+            "vocab-000035-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000035-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "borrow",
+            "carry",
+            "enjoy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000036",
+      "headword": "enjoy",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 3,
+      "meaning": "楽しむ",
+      "definition": "to feel pleasure from something",
+      "example": "They enjoy walking in the park.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "楽しむ（to feel pleasure from something）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "enjoy",
+        "partOfSpeech": "verb",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "洗う",
+            "楽しむ",
+            "答える",
+            "借りる"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000036-ja-option-1",
+            "vocab-000036-ja-option-2",
+            "vocab-000036-ja-option-3",
+            "vocab-000036-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000036-ja-option-2",
+          "distractorHeadwords": [
+            "wash",
+            null,
+            "answer",
+            "borrow"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to clean something with water",
+            "to feel pleasure from something",
+            "to say something when someone asks",
+            "to take something and give it back later"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000036-en-option-1",
+            "vocab-000036-en-option-2",
+            "vocab-000036-en-option-3",
+            "vocab-000036-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000036-en-option-2",
+          "distractorHeadwords": [
+            "wash",
+            null,
+            "answer",
+            "borrow"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "wash",
+            "enjoy",
+            "answer",
+            "borrow"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000036-ja_en-option-1",
+            "vocab-000036-ja_en-option-2",
+            "vocab-000036-ja_en-option-3",
+            "vocab-000036-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000036-ja_en-option-2",
+          "distractorHeadwords": [
+            "wash",
+            null,
+            "answer",
+            "borrow"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000037",
+      "headword": "answer",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 3,
+      "meaning": "答える",
+      "definition": "to say something when someone asks",
+      "example": "He answered the question quickly.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "答える（to say something when someone asks）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "answer",
+        "partOfSpeech": "verb",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "借りる",
+            "楽しむ",
+            "答える",
+            "押す"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000037-ja-option-1",
+            "vocab-000037-ja-option-2",
+            "vocab-000037-ja-option-3",
+            "vocab-000037-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000037-ja-option-3",
+          "distractorHeadwords": [
+            "borrow",
+            "enjoy",
+            null,
+            "push"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to take something and give it back later",
+            "to feel pleasure from something",
+            "to say something when someone asks",
+            "to use force to move something away"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000037-en-option-1",
+            "vocab-000037-en-option-2",
+            "vocab-000037-en-option-3",
+            "vocab-000037-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000037-en-option-3",
+          "distractorHeadwords": [
+            "borrow",
+            "enjoy",
+            null,
+            "push"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "borrow",
+            "enjoy",
+            "answer",
+            "push"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000037-ja_en-option-1",
+            "vocab-000037-ja_en-option-2",
+            "vocab-000037-ja_en-option-3",
+            "vocab-000037-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000037-ja_en-option-3",
+          "distractorHeadwords": [
+            "borrow",
+            "enjoy",
+            null,
+            "push"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000038",
+      "headword": "quiet",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 3,
+      "meaning": "静かな",
+      "definition": "making very little sound",
+      "example": "The library is a quiet place.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "静かな（making very little sound）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "quiet",
+        "partOfSpeech": "adjective",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "暗い",
+            "背が高い",
+            "重い",
+            "静かな"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000038-ja-option-1",
+            "vocab-000038-ja-option-2",
+            "vocab-000038-ja-option-3",
+            "vocab-000038-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000038-ja-option-4",
+          "distractorHeadwords": [
+            "dark",
+            "tall",
+            "heavy",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "without much light",
+            "having a great height",
+            "weighing a lot",
+            "making very little sound"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000038-en-option-1",
+            "vocab-000038-en-option-2",
+            "vocab-000038-en-option-3",
+            "vocab-000038-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000038-en-option-4",
+          "distractorHeadwords": [
+            "dark",
+            "tall",
+            "heavy",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "dark",
+            "tall",
+            "heavy",
+            "quiet"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000038-ja_en-option-1",
+            "vocab-000038-ja_en-option-2",
+            "vocab-000038-ja_en-option-3",
+            "vocab-000038-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000038-ja_en-option-4",
+          "distractorHeadwords": [
+            "dark",
+            "tall",
+            "heavy",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000039",
+      "headword": "busy",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 3,
+      "meaning": "忙しい",
+      "definition": "having a lot of things to do",
+      "example": "My mother is busy on Mondays.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "忙しい（having a lot of things to do）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "busy",
+        "partOfSpeech": "adjective",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "忙しい",
+            "静かな",
+            "安い",
+            "暗い"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000039-ja-option-1",
+            "vocab-000039-ja-option-2",
+            "vocab-000039-ja-option-3",
+            "vocab-000039-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000039-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "quiet",
+            "cheap",
+            "dark"
+          ]
+        },
+        "en": {
+          "choices": [
+            "having a lot of things to do",
+            "making very little sound",
+            "costing very little money",
+            "without much light"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000039-en-option-1",
+            "vocab-000039-en-option-2",
+            "vocab-000039-en-option-3",
+            "vocab-000039-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000039-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "quiet",
+            "cheap",
+            "dark"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "busy",
+            "quiet",
+            "cheap",
+            "dark"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000039-ja_en-option-1",
+            "vocab-000039-ja_en-option-2",
+            "vocab-000039-ja_en-option-3",
+            "vocab-000039-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000039-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "quiet",
+            "cheap",
+            "dark"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000040",
+      "headword": "dark",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 3,
+      "meaning": "暗い",
+      "definition": "without much light",
+      "example": "It was dark when we got home.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "暗い（without much light）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "dark",
+        "partOfSpeech": "adjective",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "安い",
+            "暗い",
+            "うるさい",
+            "忙しい"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000040-ja-option-1",
+            "vocab-000040-ja-option-2",
+            "vocab-000040-ja-option-3",
+            "vocab-000040-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000040-ja-option-2",
+          "distractorHeadwords": [
+            "cheap",
+            null,
+            "noisy",
+            "busy"
+          ]
+        },
+        "en": {
+          "choices": [
+            "costing very little money",
+            "without much light",
+            "making a lot of sound",
+            "having a lot of things to do"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000040-en-option-1",
+            "vocab-000040-en-option-2",
+            "vocab-000040-en-option-3",
+            "vocab-000040-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000040-en-option-2",
+          "distractorHeadwords": [
+            "cheap",
+            null,
+            "noisy",
+            "busy"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "cheap",
+            "dark",
+            "noisy",
+            "busy"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000040-ja_en-option-1",
+            "vocab-000040-ja_en-option-2",
+            "vocab-000040-ja_en-option-3",
+            "vocab-000040-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000040-ja_en-option-2",
+          "distractorHeadwords": [
+            "cheap",
+            null,
+            "noisy",
+            "busy"
+          ]
+        }
+      }
+    }
+  ]
+}

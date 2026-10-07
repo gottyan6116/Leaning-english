@@ -1,0 +1,925 @@
+{
+  "id": "super-01",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "超アドバンス単語 ①",
+  "genre": "super",
+  "setNumber": 1,
+  "level": "C1〜C2",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000121",
+      "headword": "turmoil",
+      "partOfSpeech": "noun",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 1,
+      "meaning": "混乱",
+      "definition": "a situation of great confusion and worry",
+      "example": "The sudden news left the whole office in turmoil.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "混乱（a situation of great confusion and worry）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "turmoil",
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "混乱",
+            "司法権",
+            "奇癖",
+            "化石"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000121-ja-option-1",
+            "vocab-000121-ja-option-2",
+            "vocab-000121-ja-option-3",
+            "vocab-000121-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000121-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "jurisdiction",
+            "quirk",
+            "fossil"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a situation of great confusion and worry",
+            "the power to make legal decisions in an area",
+            "a habit that other people find strange",
+            "the remains of a plant kept in old rock"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000121-en-option-1",
+            "vocab-000121-en-option-2",
+            "vocab-000121-en-option-3",
+            "vocab-000121-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000121-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "jurisdiction",
+            "quirk",
+            "fossil"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "turmoil",
+            "jurisdiction",
+            "quirk",
+            "fossil"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000121-ja_en-option-1",
+            "vocab-000121-ja_en-option-2",
+            "vocab-000121-ja_en-option-3",
+            "vocab-000121-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000121-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "jurisdiction",
+            "quirk",
+            "fossil"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000122",
+      "headword": "legacy",
+      "partOfSpeech": "noun",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 1,
+      "meaning": "遺産",
+      "definition": "something that a person leaves for the future",
+      "example": "The mayor's main legacy is the new public library.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "遺産（something that a person leaves for the future）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "legacy",
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "如才なさ",
+            "遺産",
+            "標本",
+            "敵意"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000122-ja-option-1",
+            "vocab-000122-ja-option-2",
+            "vocab-000122-ja-option-3",
+            "vocab-000122-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000122-ja-option-2",
+          "distractorHeadwords": [
+            "tact",
+            null,
+            "specimen",
+            "hostility"
+          ]
+        },
+        "en": {
+          "choices": [
+            "the ability to speak without upsetting people",
+            "something that a person leaves for the future",
+            "a single example used to study a whole group",
+            "a strong feeling of anger toward someone"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000122-en-option-1",
+            "vocab-000122-en-option-2",
+            "vocab-000122-en-option-3",
+            "vocab-000122-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000122-en-option-2",
+          "distractorHeadwords": [
+            "tact",
+            null,
+            "specimen",
+            "hostility"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "tact",
+            "legacy",
+            "specimen",
+            "hostility"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000122-ja_en-option-1",
+            "vocab-000122-ja_en-option-2",
+            "vocab-000122-ja_en-option-3",
+            "vocab-000122-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000122-ja_en-option-2",
+          "distractorHeadwords": [
+            "tact",
+            null,
+            "specimen",
+            "hostility"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000123",
+      "headword": "hypocrisy",
+      "partOfSpeech": "noun",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 1,
+      "meaning": "偽善",
+      "definition": "pretending to be better than you really are",
+      "example": "Many people criticised the hypocrisy of the speech.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "偽善（pretending to be better than you really are）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "hypocrisy",
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "複雑さ",
+            "心の傷",
+            "偽善",
+            "後援"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000123-ja-option-1",
+            "vocab-000123-ja-option-2",
+            "vocab-000123-ja-option-3",
+            "vocab-000123-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000123-ja-option-3",
+          "distractorHeadwords": [
+            "complexity",
+            "trauma",
+            null,
+            "sponsorship"
+          ]
+        },
+        "en": {
+          "choices": [
+            "the state of having many connected parts",
+            "a deep shock after a terrible event",
+            "pretending to be better than you really are",
+            "money given to support an event or person"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000123-en-option-1",
+            "vocab-000123-en-option-2",
+            "vocab-000123-en-option-3",
+            "vocab-000123-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000123-en-option-3",
+          "distractorHeadwords": [
+            "complexity",
+            "trauma",
+            null,
+            "sponsorship"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "complexity",
+            "trauma",
+            "hypocrisy",
+            "sponsorship"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000123-ja_en-option-1",
+            "vocab-000123-ja_en-option-2",
+            "vocab-000123-ja_en-option-3",
+            "vocab-000123-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000123-ja_en-option-3",
+          "distractorHeadwords": [
+            "complexity",
+            "trauma",
+            null,
+            "sponsorship"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000124",
+      "headword": "scenario",
+      "partOfSpeech": "noun",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 1,
+      "meaning": "筋書き",
+      "definition": "an imagined series of events that might happen",
+      "example": "In the worst scenario, the match would be cancelled.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "筋書き（an imagined series of events that might happen）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "scenario",
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "断片",
+            "欠点",
+            "探検隊",
+            "筋書き"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000124-ja-option-1",
+            "vocab-000124-ja-option-2",
+            "vocab-000124-ja-option-3",
+            "vocab-000124-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000124-ja-option-4",
+          "distractorHeadwords": [
+            "fraction",
+            "drawback",
+            "expedition",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "a small part of a whole thing",
+            "a disadvantage that makes something less useful",
+            "a group sent on a long trip for a special purpose",
+            "an imagined series of events that might happen"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000124-en-option-1",
+            "vocab-000124-en-option-2",
+            "vocab-000124-en-option-3",
+            "vocab-000124-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000124-en-option-4",
+          "distractorHeadwords": [
+            "fraction",
+            "drawback",
+            "expedition",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "fraction",
+            "drawback",
+            "expedition",
+            "scenario"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000124-ja_en-option-1",
+            "vocab-000124-ja_en-option-2",
+            "vocab-000124-ja_en-option-3",
+            "vocab-000124-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000124-ja_en-option-4",
+          "distractorHeadwords": [
+            "fraction",
+            "drawback",
+            "expedition",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000125",
+      "headword": "evoke",
+      "partOfSpeech": "verb",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 1,
+      "meaning": "喚起する",
+      "definition": "to bring a feeling or memory to mind",
+      "example": "The smell of bread evoked memories of my childhood.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "喚起する（to bring a feeling or memory to mind）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "evoke",
+        "partOfSpeech": "verb",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "喚起する",
+            "足りる",
+            "構成する",
+            "同意する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000125-ja-option-1",
+            "vocab-000125-ja-option-2",
+            "vocab-000125-ja-option-3",
+            "vocab-000125-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000125-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "suffice",
+            "comprise",
+            "concur"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to bring a feeling or memory to mind",
+            "to be enough for a particular need",
+            "to be made up of particular parts",
+            "to have the same opinion as someone"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000125-en-option-1",
+            "vocab-000125-en-option-2",
+            "vocab-000125-en-option-3",
+            "vocab-000125-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000125-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "suffice",
+            "comprise",
+            "concur"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "evoke",
+            "suffice",
+            "comprise",
+            "concur"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000125-ja_en-option-1",
+            "vocab-000125-ja_en-option-2",
+            "vocab-000125-ja_en-option-3",
+            "vocab-000125-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000125-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "suffice",
+            "comprise",
+            "concur"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000126",
+      "headword": "comply",
+      "partOfSpeech": "verb",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 1,
+      "meaning": "従う",
+      "definition": "to do what a rule or request says",
+      "example": "All visitors must comply with the safety rules.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "従う（to do what a rule or request says）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "comply",
+        "partOfSpeech": "verb",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "驚嘆する",
+            "従う",
+            "集まる",
+            "考案する"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000126-ja-option-1",
+            "vocab-000126-ja-option-2",
+            "vocab-000126-ja-option-3",
+            "vocab-000126-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000126-ja-option-2",
+          "distractorHeadwords": [
+            "marvel",
+            null,
+            "congregate",
+            "formulate"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to feel great surprise and admiration",
+            "to do what a rule or request says",
+            "to come together in a large group",
+            "to prepare a plan or idea carefully"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000126-en-option-1",
+            "vocab-000126-en-option-2",
+            "vocab-000126-en-option-3",
+            "vocab-000126-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000126-en-option-2",
+          "distractorHeadwords": [
+            "marvel",
+            null,
+            "congregate",
+            "formulate"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "marvel",
+            "comply",
+            "congregate",
+            "formulate"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000126-ja_en-option-1",
+            "vocab-000126-ja_en-option-2",
+            "vocab-000126-ja_en-option-3",
+            "vocab-000126-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000126-ja_en-option-2",
+          "distractorHeadwords": [
+            "marvel",
+            null,
+            "congregate",
+            "formulate"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000127",
+      "headword": "depict",
+      "partOfSpeech": "verb",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 1,
+      "meaning": "描写する",
+      "definition": "to show something in a picture or in words",
+      "example": "The painting depicts a village in winter.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "描写する（to show something in a picture or in words）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "depict",
+        "partOfSpeech": "verb",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "期限が切れる",
+            "うろつく",
+            "描写する",
+            "推測する"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000127-ja-option-1",
+            "vocab-000127-ja-option-2",
+            "vocab-000127-ja-option-3",
+            "vocab-000127-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000127-ja-option-3",
+          "distractorHeadwords": [
+            "expire",
+            "prowl",
+            null,
+            "speculate"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to come to the end of a set time",
+            "to move quietly around a place",
+            "to show something in a picture or in words",
+            "to form an opinion without enough facts"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000127-en-option-1",
+            "vocab-000127-en-option-2",
+            "vocab-000127-en-option-3",
+            "vocab-000127-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000127-en-option-3",
+          "distractorHeadwords": [
+            "expire",
+            "prowl",
+            null,
+            "speculate"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "expire",
+            "prowl",
+            "depict",
+            "speculate"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000127-ja_en-option-1",
+            "vocab-000127-ja_en-option-2",
+            "vocab-000127-ja_en-option-3",
+            "vocab-000127-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000127-ja_en-option-3",
+          "distractorHeadwords": [
+            "expire",
+            "prowl",
+            null,
+            "speculate"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000128",
+      "headword": "candid",
+      "partOfSpeech": "adjective",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 1,
+      "meaning": "率直な",
+      "definition": "honest and direct in what you say",
+      "example": "She gave a candid answer about her mistakes.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "率直な（honest and direct in what you say）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "candid",
+        "partOfSpeech": "adjective",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "風変わりな",
+            "退屈な",
+            "持ち運べる",
+            "率直な"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000128-ja-option-1",
+            "vocab-000128-ja-option-2",
+            "vocab-000128-ja-option-3",
+            "vocab-000128-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000128-ja-option-4",
+          "distractorHeadwords": [
+            "eccentric",
+            "tedious",
+            "portable",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "unusual in a way that people find odd",
+            "boring because it lasts too long",
+            "easy to carry from place to place",
+            "honest and direct in what you say"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000128-en-option-1",
+            "vocab-000128-en-option-2",
+            "vocab-000128-en-option-3",
+            "vocab-000128-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000128-en-option-4",
+          "distractorHeadwords": [
+            "eccentric",
+            "tedious",
+            "portable",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "eccentric",
+            "tedious",
+            "portable",
+            "candid"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000128-ja_en-option-1",
+            "vocab-000128-ja_en-option-2",
+            "vocab-000128-ja_en-option-3",
+            "vocab-000128-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000128-ja_en-option-4",
+          "distractorHeadwords": [
+            "eccentric",
+            "tedious",
+            "portable",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000129",
+      "headword": "versatile",
+      "partOfSpeech": "adjective",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 1,
+      "meaning": "用途の広い",
+      "definition": "able to be used in many different ways",
+      "example": "A simple black coat is a versatile piece of clothing.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "用途の広い（able to be used in many different ways）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "versatile",
+        "partOfSpeech": "adjective",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "用途の広い",
+            "垂直の",
+            "悪質な",
+            "うぬぼれた"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000129-ja-option-1",
+            "vocab-000129-ja-option-2",
+            "vocab-000129-ja-option-3",
+            "vocab-000129-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000129-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "vertical",
+            "vicious",
+            "smug"
+          ]
+        },
+        "en": {
+          "choices": [
+            "able to be used in many different ways",
+            "going straight up from the ground",
+            "cruel and likely to cause harm",
+            "too pleased with oneself"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000129-en-option-1",
+            "vocab-000129-en-option-2",
+            "vocab-000129-en-option-3",
+            "vocab-000129-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000129-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "vertical",
+            "vicious",
+            "smug"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "versatile",
+            "vertical",
+            "vicious",
+            "smug"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000129-ja_en-option-1",
+            "vocab-000129-ja_en-option-2",
+            "vocab-000129-ja_en-option-3",
+            "vocab-000129-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000129-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "vertical",
+            "vicious",
+            "smug"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000130",
+      "headword": "superficial",
+      "partOfSpeech": "adjective",
+      "level": "C1",
+      "genre": "super",
+      "setNumber": 1,
+      "meaning": "表面的な",
+      "definition": "looking only at the surface",
+      "example": "His knowledge of the subject is rather superficial.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "表面的な（looking only at the surface）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "Octanove Vocabulary Profile C1/C2",
+        "version": "1.0",
+        "headword": "superficial",
+        "partOfSpeech": "adjective",
+        "level": "C1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
+        "license": "CC-BY-SA-4.0"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "穏やかな",
+            "表面的な",
+            "型破りな",
+            "獰猛な"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000130-ja-option-1",
+            "vocab-000130-ja-option-2",
+            "vocab-000130-ja-option-3",
+            "vocab-000130-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000130-ja-option-2",
+          "distractorHeadwords": [
+            "placid",
+            null,
+            "unconventional",
+            "ferocious"
+          ]
+        },
+        "en": {
+          "choices": [
+            "calm and not easily upset",
+            "looking only at the surface",
+            "different from what most people do",
+            "fierce and likely to attack"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000130-en-option-1",
+            "vocab-000130-en-option-2",
+            "vocab-000130-en-option-3",
+            "vocab-000130-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000130-en-option-2",
+          "distractorHeadwords": [
+            "placid",
+            null,
+            "unconventional",
+            "ferocious"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "placid",
+            "superficial",
+            "unconventional",
+            "ferocious"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000130-ja_en-option-1",
+            "vocab-000130-ja_en-option-2",
+            "vocab-000130-ja_en-option-3",
+            "vocab-000130-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000130-ja_en-option-2",
+          "distractorHeadwords": [
+            "placid",
+            null,
+            "unconventional",
+            "ferocious"
+          ]
+        }
+      }
+    }
+  ]
+}

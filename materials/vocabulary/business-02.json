@@ -1,0 +1,985 @@
+{
+  "id": "business-02",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "ビジネス単語 ②",
+  "genre": "business",
+  "setNumber": 2,
+  "level": "B1〜B2",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000081",
+      "headword": "merger",
+      "partOfSpeech": "noun",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 2,
+      "meaning": "合併",
+      "definition": "the joining of two companies into one",
+      "example": "The merger created the largest bank in the region.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "合併（the joining of two companies into one）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "merger",
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "保証",
+            "応募者",
+            "合併",
+            "意見"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000081-ja-option-1",
+            "vocab-000081-ja-option-2",
+            "vocab-000081-ja-option-3",
+            "vocab-000081-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000081-ja-option-3",
+          "distractorHeadwords": [
+            "warranty",
+            "applicant",
+            null,
+            "feedback"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a written promise to repair a product",
+            "a person who asks formally for a job",
+            "the joining of two companies into one",
+            "comments about how well someone has done"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000081-en-option-1",
+            "vocab-000081-en-option-2",
+            "vocab-000081-en-option-3",
+            "vocab-000081-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000081-en-option-3",
+          "distractorHeadwords": [
+            "warranty",
+            "applicant",
+            null,
+            "feedback"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "warranty",
+            "applicant",
+            "merger",
+            "feedback"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000081-ja_en-option-1",
+            "vocab-000081-ja_en-option-2",
+            "vocab-000081-ja_en-option-3",
+            "vocab-000081-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000081-ja_en-option-3",
+          "distractorHeadwords": [
+            "warranty",
+            "applicant",
+            null,
+            "feedback"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000082",
+      "headword": "brochure",
+      "partOfSpeech": "noun",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 2,
+      "meaning": "小冊子",
+      "definition": "a thin book with details about a product",
+      "example": "The hotel sent us a colour brochure.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "小冊子（a thin book with details about a product）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "brochure",
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "締め切り",
+            "顧客",
+            "意見",
+            "小冊子"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000082-ja-option-1",
+            "vocab-000082-ja-option-2",
+            "vocab-000082-ja-option-3",
+            "vocab-000082-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000082-ja-option-4",
+          "distractorHeadwords": [
+            "deadline",
+            "client",
+            "feedback",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "the time by which a task must be finished",
+            "a person who pays for a service",
+            "comments about how well someone has done",
+            "a thin book with details about a product"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000082-en-option-1",
+            "vocab-000082-en-option-2",
+            "vocab-000082-en-option-3",
+            "vocab-000082-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000082-en-option-4",
+          "distractorHeadwords": [
+            "deadline",
+            "client",
+            "feedback",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "deadline",
+            "client",
+            "feedback",
+            "brochure"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000082-ja_en-option-1",
+            "vocab-000082-ja_en-option-2",
+            "vocab-000082-ja_en-option-3",
+            "vocab-000082-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000082-ja_en-option-4",
+          "distractorHeadwords": [
+            "deadline",
+            "client",
+            "feedback",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000083",
+      "headword": "feedback",
+      "partOfSpeech": "noun",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 2,
+      "meaning": "意見",
+      "definition": "comments about how well someone has done",
+      "example": "We asked customers for feedback on the new app.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "意見（comments about how well someone has done）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "feedback",
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "意見",
+            "返金",
+            "顧客",
+            "景気後退"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000083-ja-option-1",
+            "vocab-000083-ja-option-2",
+            "vocab-000083-ja-option-3",
+            "vocab-000083-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000083-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "refund",
+            "client",
+            "recession"
+          ]
+        },
+        "en": {
+          "choices": [
+            "comments about how well someone has done",
+            "money that is paid back to a customer",
+            "a person who pays for a service",
+            "a period when the economy gets weaker"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000083-en-option-1",
+            "vocab-000083-en-option-2",
+            "vocab-000083-en-option-3",
+            "vocab-000083-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000083-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "refund",
+            "client",
+            "recession"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "feedback",
+            "refund",
+            "client",
+            "recession"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000083-ja_en-option-1",
+            "vocab-000083-ja_en-option-2",
+            "vocab-000083-ja_en-option-3",
+            "vocab-000083-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000083-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "refund",
+            "client",
+            "recession"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000084",
+      "headword": "warranty",
+      "partOfSpeech": "noun",
+      "level": "B1",
+      "genre": "business",
+      "setNumber": 2,
+      "meaning": "保証",
+      "definition": "a written promise to repair a product",
+      "example": "The laptop has a two-year warranty.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "保証（a written promise to repair a product）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "warranty",
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "締め切り",
+            "保証",
+            "監査",
+            "上司"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000084-ja-option-1",
+            "vocab-000084-ja-option-2",
+            "vocab-000084-ja-option-3",
+            "vocab-000084-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000084-ja-option-2",
+          "distractorHeadwords": [
+            "deadline",
+            null,
+            "audit",
+            "supervisor"
+          ]
+        },
+        "en": {
+          "choices": [
+            "the time by which a task must be finished",
+            "a written promise to repair a product",
+            "an official check of a company's accounts",
+            "a person who guides other workers"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000084-en-option-1",
+            "vocab-000084-en-option-2",
+            "vocab-000084-en-option-3",
+            "vocab-000084-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000084-en-option-2",
+          "distractorHeadwords": [
+            "deadline",
+            null,
+            "audit",
+            "supervisor"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "deadline",
+            "warranty",
+            "audit",
+            "supervisor"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000084-ja_en-option-1",
+            "vocab-000084-ja_en-option-2",
+            "vocab-000084-ja_en-option-3",
+            "vocab-000084-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000084-ja_en-option-2",
+          "distractorHeadwords": [
+            "deadline",
+            null,
+            "audit",
+            "supervisor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000085",
+      "headword": "clarify",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 2,
+      "meaning": "明確にする",
+      "definition": "to make something easier to understand",
+      "example": "Could you clarify what you mean?",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "明確にする（to make something easier to understand）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "clarify",
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "実施させる",
+            "入手する",
+            "明確にする",
+            "まとめる"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000085-ja-option-1",
+            "vocab-000085-ja-option-2",
+            "vocab-000085-ja-option-3",
+            "vocab-000085-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000085-ja-option-3",
+          "distractorHeadwords": [
+            "enforce",
+            "obtain",
+            null,
+            "compile"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to make people obey a rule or law",
+            "to get something by asking or trying",
+            "to make something easier to understand",
+            "to collect information and put it together"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000085-en-option-1",
+            "vocab-000085-en-option-2",
+            "vocab-000085-en-option-3",
+            "vocab-000085-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000085-en-option-3",
+          "distractorHeadwords": [
+            "enforce",
+            "obtain",
+            null,
+            "compile"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "enforce",
+            "obtain",
+            "clarify",
+            "compile"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000085-ja_en-option-1",
+            "vocab-000085-ja_en-option-2",
+            "vocab-000085-ja_en-option-3",
+            "vocab-000085-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000085-ja_en-option-3",
+          "distractorHeadwords": [
+            "enforce",
+            "obtain",
+            null,
+            "compile"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000086",
+      "headword": "simplify",
+      "partOfSpeech": "verb",
+      "level": "B1",
+      "genre": "business",
+      "setNumber": 2,
+      "meaning": "簡素化する",
+      "definition": "to make something easier to do",
+      "example": "The new form simplifies the process.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "簡素化する（to make something easier to do）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "simplify",
+        "partOfSpeech": "verb",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "入手する",
+            "格上げする",
+            "支持する",
+            "簡素化する"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000086-ja-option-1",
+            "vocab-000086-ja-option-2",
+            "vocab-000086-ja-option-3",
+            "vocab-000086-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000086-ja-option-4",
+          "distractorHeadwords": [
+            "obtain",
+            "upgrade",
+            "endorse",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "to get something by asking or trying",
+            "to change something to a better version",
+            "to say publicly that you support something",
+            "to make something easier to do"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000086-en-option-1",
+            "vocab-000086-en-option-2",
+            "vocab-000086-en-option-3",
+            "vocab-000086-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000086-en-option-4",
+          "distractorHeadwords": [
+            "obtain",
+            "upgrade",
+            "endorse",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "obtain",
+            "upgrade",
+            "endorse",
+            "simplify"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000086-ja_en-option-1",
+            "vocab-000086-ja_en-option-2",
+            "vocab-000086-ja_en-option-3",
+            "vocab-000086-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000086-ja_en-option-4",
+          "distractorHeadwords": [
+            "obtain",
+            "upgrade",
+            "endorse",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000087",
+      "headword": "upgrade",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 2,
+      "meaning": "格上げする",
+      "definition": "to change something to a better version",
+      "example": "We upgraded our computers last month.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "格上げする（to change something to a better version）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "upgrade",
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "格上げする",
+            "まとめる",
+            "支持する",
+            "明確にする"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000087-ja-option-1",
+            "vocab-000087-ja-option-2",
+            "vocab-000087-ja-option-3",
+            "vocab-000087-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000087-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "compile",
+            "endorse",
+            "clarify"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to change something to a better version",
+            "to collect information and put it together",
+            "to say publicly that you support something",
+            "to make something easier to understand"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000087-en-option-1",
+            "vocab-000087-en-option-2",
+            "vocab-000087-en-option-3",
+            "vocab-000087-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000087-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "compile",
+            "endorse",
+            "clarify"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "upgrade",
+            "compile",
+            "endorse",
+            "clarify"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000087-ja_en-option-1",
+            "vocab-000087-ja_en-option-2",
+            "vocab-000087-ja_en-option-3",
+            "vocab-000087-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000087-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "compile",
+            "endorse",
+            "clarify"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000088",
+      "headword": "competent",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 2,
+      "meaning": "有能な",
+      "definition": "able to do a job well",
+      "example": "She is a competent manager.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "有能な（able to do a job well）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "competent",
+        "partOfSpeech": "adjective",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "緊急の",
+            "有能な",
+            "手頃な価格の",
+            "利益の出る"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000088-ja-option-1",
+            "vocab-000088-ja-option-2",
+            "vocab-000088-ja-option-3",
+            "vocab-000088-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000088-ja-option-2",
+          "distractorHeadwords": [
+            "urgent",
+            null,
+            "affordable",
+            "profitable"
+          ]
+        },
+        "en": {
+          "choices": [
+            "needing action or attention at once",
+            "able to do a job well",
+            "not too expensive for most people",
+            "making more money than it costs"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000088-en-option-1",
+            "vocab-000088-en-option-2",
+            "vocab-000088-en-option-3",
+            "vocab-000088-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000088-en-option-2",
+          "distractorHeadwords": [
+            "urgent",
+            null,
+            "affordable",
+            "profitable"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "urgent",
+            "competent",
+            "affordable",
+            "profitable"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000088-ja_en-option-1",
+            "vocab-000088-ja_en-option-2",
+            "vocab-000088-ja_en-option-3",
+            "vocab-000088-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000088-ja_en-option-2",
+          "distractorHeadwords": [
+            "urgent",
+            null,
+            "affordable",
+            "profitable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000089",
+      "headword": "affordable",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 2,
+      "meaning": "手頃な価格の",
+      "definition": "not too expensive for most people",
+      "example": "The company sells affordable laptops.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "手頃な価格の（not too expensive for most people）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "affordable",
+        "partOfSpeech": "adjective",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "気が進まない",
+            "有能な",
+            "手頃な価格の",
+            "有効な"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000089-ja-option-1",
+            "vocab-000089-ja-option-2",
+            "vocab-000089-ja-option-3",
+            "vocab-000089-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000089-ja-option-3",
+          "distractorHeadwords": [
+            "reluctant",
+            "competent",
+            null,
+            "valid"
+          ]
+        },
+        "en": {
+          "choices": [
+            "not willing to do something",
+            "able to do a job well",
+            "not too expensive for most people",
+            "officially acceptable for a period of time"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000089-en-option-1",
+            "vocab-000089-en-option-2",
+            "vocab-000089-en-option-3",
+            "vocab-000089-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000089-en-option-3",
+          "distractorHeadwords": [
+            "reluctant",
+            "competent",
+            null,
+            "valid"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "reluctant",
+            "competent",
+            "affordable",
+            "valid"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000089-ja_en-option-1",
+            "vocab-000089-ja_en-option-2",
+            "vocab-000089-ja_en-option-3",
+            "vocab-000089-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000089-ja_en-option-3",
+          "distractorHeadwords": [
+            "reluctant",
+            "competent",
+            null,
+            "valid"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000090",
+      "headword": "valid",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "genre": "business",
+      "setNumber": 2,
+      "meaning": "有効な",
+      "definition": "officially acceptable for a period of time",
+      "example": "Your ticket is valid for three days.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "有効な（officially acceptable for a period of time）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "valid",
+        "partOfSpeech": "adjective",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)",
+        "businessList": {
+          "listName": "Business Service List",
+          "version": "1.2",
+          "url": "https://www.newgeneralservicelist.com/business-service-list",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "有能な",
+            "徹底的な",
+            "気が進まない",
+            "有効な"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000090-ja-option-1",
+            "vocab-000090-ja-option-2",
+            "vocab-000090-ja-option-3",
+            "vocab-000090-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000090-ja-option-4",
+          "distractorHeadwords": [
+            "competent",
+            "thorough",
+            "reluctant",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "able to do a job well",
+            "done with great care and attention to detail",
+            "not willing to do something",
+            "officially acceptable for a period of time"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000090-en-option-1",
+            "vocab-000090-en-option-2",
+            "vocab-000090-en-option-3",
+            "vocab-000090-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000090-en-option-4",
+          "distractorHeadwords": [
+            "competent",
+            "thorough",
+            "reluctant",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "competent",
+            "thorough",
+            "reluctant",
+            "valid"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000090-ja_en-option-1",
+            "vocab-000090-ja_en-option-2",
+            "vocab-000090-ja_en-option-3",
+            "vocab-000090-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000090-ja_en-option-4",
+          "distractorHeadwords": [
+            "competent",
+            "thorough",
+            "reluctant",
+            null
+          ]
+        }
+      }
+    }
+  ]
+}

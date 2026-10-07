@@ -1,0 +1,925 @@
+{
+  "id": "daily-02",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "日常単語 ②",
+  "genre": "daily",
+  "setNumber": 2,
+  "level": "A2〜B1",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000051",
+      "headword": "receipt",
+      "partOfSpeech": "noun",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 2,
+      "meaning": "レシート",
+      "definition": "a paper that shows what you paid for",
+      "example": "Keep the receipt in case you want to return it.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "レシート（a paper that shows what you paid for）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "receipt",
+        "partOfSpeech": "noun",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "レシート",
+            "冷蔵庫",
+            "歯科医",
+            "アパート"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000051-ja-option-1",
+            "vocab-000051-ja-option-2",
+            "vocab-000051-ja-option-3",
+            "vocab-000051-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000051-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "fridge",
+            "dentist",
+            "apartment"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a paper that shows what you paid for",
+            "a machine that keeps food cold",
+            "a doctor who looks after your teeth",
+            "a set of rooms for living in one building"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000051-en-option-1",
+            "vocab-000051-en-option-2",
+            "vocab-000051-en-option-3",
+            "vocab-000051-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000051-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "fridge",
+            "dentist",
+            "apartment"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "receipt",
+            "fridge",
+            "dentist",
+            "apartment"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000051-ja_en-option-1",
+            "vocab-000051-ja_en-option-2",
+            "vocab-000051-ja_en-option-3",
+            "vocab-000051-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000051-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "fridge",
+            "dentist",
+            "apartment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000052",
+      "headword": "schedule",
+      "partOfSpeech": "noun",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 2,
+      "meaning": "予定表",
+      "definition": "a plan of what will happen and when",
+      "example": "My schedule for Monday is full.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "予定表（a plan of what will happen and when）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "schedule",
+        "partOfSpeech": "noun",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "レシート",
+            "予定表",
+            "ジム",
+            "薬局"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000052-ja-option-1",
+            "vocab-000052-ja-option-2",
+            "vocab-000052-ja-option-3",
+            "vocab-000052-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000052-ja-option-2",
+          "distractorHeadwords": [
+            "receipt",
+            null,
+            "gym",
+            "pharmacy"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a paper that shows what you paid for",
+            "a plan of what will happen and when",
+            "a place where people exercise",
+            "a shop where medicines are sold"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000052-en-option-1",
+            "vocab-000052-en-option-2",
+            "vocab-000052-en-option-3",
+            "vocab-000052-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000052-en-option-2",
+          "distractorHeadwords": [
+            "receipt",
+            null,
+            "gym",
+            "pharmacy"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "receipt",
+            "schedule",
+            "gym",
+            "pharmacy"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000052-ja_en-option-1",
+            "vocab-000052-ja_en-option-2",
+            "vocab-000052-ja_en-option-3",
+            "vocab-000052-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000052-ja_en-option-2",
+          "distractorHeadwords": [
+            "receipt",
+            null,
+            "gym",
+            "pharmacy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000053",
+      "headword": "apartment",
+      "partOfSpeech": "noun",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 2,
+      "meaning": "アパート",
+      "definition": "a set of rooms for living in one building",
+      "example": "They rent a small apartment near the park.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "アパート（a set of rooms for living in one building）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "apartment",
+        "partOfSpeech": "noun",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "歯科医",
+            "予約",
+            "アパート",
+            "レシート"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000053-ja-option-1",
+            "vocab-000053-ja-option-2",
+            "vocab-000053-ja-option-3",
+            "vocab-000053-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000053-ja-option-3",
+          "distractorHeadwords": [
+            "dentist",
+            "appointment",
+            null,
+            "receipt"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a doctor who looks after your teeth",
+            "a time that you arrange to see someone",
+            "a set of rooms for living in one building",
+            "a paper that shows what you paid for"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000053-en-option-1",
+            "vocab-000053-en-option-2",
+            "vocab-000053-en-option-3",
+            "vocab-000053-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000053-en-option-3",
+          "distractorHeadwords": [
+            "dentist",
+            "appointment",
+            null,
+            "receipt"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "dentist",
+            "appointment",
+            "apartment",
+            "receipt"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000053-ja_en-option-1",
+            "vocab-000053-ja_en-option-2",
+            "vocab-000053-ja_en-option-3",
+            "vocab-000053-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000053-ja_en-option-3",
+          "distractorHeadwords": [
+            "dentist",
+            "appointment",
+            null,
+            "receipt"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000054",
+      "headword": "invitation",
+      "partOfSpeech": "noun",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 2,
+      "meaning": "招待",
+      "definition": "a request to come to an event",
+      "example": "I got an invitation to her party.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "招待（a request to come to an event）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "invitation",
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "予定表",
+            "歯科医",
+            "アパート",
+            "招待"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000054-ja-option-1",
+            "vocab-000054-ja-option-2",
+            "vocab-000054-ja-option-3",
+            "vocab-000054-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000054-ja-option-4",
+          "distractorHeadwords": [
+            "schedule",
+            "dentist",
+            "apartment",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "a plan of what will happen and when",
+            "a doctor who looks after your teeth",
+            "a set of rooms for living in one building",
+            "a request to come to an event"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000054-en-option-1",
+            "vocab-000054-en-option-2",
+            "vocab-000054-en-option-3",
+            "vocab-000054-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000054-en-option-4",
+          "distractorHeadwords": [
+            "schedule",
+            "dentist",
+            "apartment",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "schedule",
+            "dentist",
+            "apartment",
+            "invitation"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000054-ja_en-option-1",
+            "vocab-000054-ja_en-option-2",
+            "vocab-000054-ja_en-option-3",
+            "vocab-000054-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000054-ja_en-option-4",
+          "distractorHeadwords": [
+            "schedule",
+            "dentist",
+            "apartment",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000055",
+      "headword": "deliver",
+      "partOfSpeech": "verb",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 2,
+      "meaning": "配達する",
+      "definition": "to take something to a person or place",
+      "example": "The shop delivers food to your door.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "配達する（to take something to a person or place）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "deliver",
+        "partOfSpeech": "verb",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "配達する",
+            "賃借りする",
+            "焼く",
+            "修理する"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000055-ja-option-1",
+            "vocab-000055-ja-option-2",
+            "vocab-000055-ja-option-3",
+            "vocab-000055-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000055-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "rent",
+            "bake",
+            "repair"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to take something to a person or place",
+            "to pay money to use a place or thing",
+            "to cook food in an oven",
+            "to make something broken work again"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000055-en-option-1",
+            "vocab-000055-en-option-2",
+            "vocab-000055-en-option-3",
+            "vocab-000055-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000055-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "rent",
+            "bake",
+            "repair"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "deliver",
+            "rent",
+            "bake",
+            "repair"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000055-ja_en-option-1",
+            "vocab-000055-ja_en-option-2",
+            "vocab-000055-ja_en-option-3",
+            "vocab-000055-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000055-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "rent",
+            "bake",
+            "repair"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000056",
+      "headword": "recommend",
+      "partOfSpeech": "verb",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 2,
+      "meaning": "勧める",
+      "definition": "to say that something is good to try",
+      "example": "Can you recommend a good restaurant?",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "勧める（to say that something is good to try）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "recommend",
+        "partOfSpeech": "verb",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "配達する",
+            "勧める",
+            "発見する",
+            "準備する"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000056-ja-option-1",
+            "vocab-000056-ja-option-2",
+            "vocab-000056-ja-option-3",
+            "vocab-000056-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000056-ja-option-2",
+          "distractorHeadwords": [
+            "deliver",
+            null,
+            "discover",
+            "prepare"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to take something to a person or place",
+            "to say that something is good to try",
+            "to find something for the first time",
+            "to make something ready"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000056-en-option-1",
+            "vocab-000056-en-option-2",
+            "vocab-000056-en-option-3",
+            "vocab-000056-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000056-en-option-2",
+          "distractorHeadwords": [
+            "deliver",
+            null,
+            "discover",
+            "prepare"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "deliver",
+            "recommend",
+            "discover",
+            "prepare"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000056-ja_en-option-1",
+            "vocab-000056-ja_en-option-2",
+            "vocab-000056-ja_en-option-3",
+            "vocab-000056-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000056-ja_en-option-2",
+          "distractorHeadwords": [
+            "deliver",
+            null,
+            "discover",
+            "prepare"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000057",
+      "headword": "rent",
+      "partOfSpeech": "verb",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 2,
+      "meaning": "賃借りする",
+      "definition": "to pay money to use a place or thing",
+      "example": "We rent a car when we travel.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "賃借りする（to pay money to use a place or thing）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "rent",
+        "partOfSpeech": "verb",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "配達する",
+            "勧める",
+            "賃借りする",
+            "再利用する"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000057-ja-option-1",
+            "vocab-000057-ja-option-2",
+            "vocab-000057-ja-option-3",
+            "vocab-000057-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000057-ja-option-3",
+          "distractorHeadwords": [
+            "deliver",
+            "recommend",
+            null,
+            "recycle"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to take something to a person or place",
+            "to say that something is good to try",
+            "to pay money to use a place or thing",
+            "to use waste again to make new things"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000057-en-option-1",
+            "vocab-000057-en-option-2",
+            "vocab-000057-en-option-3",
+            "vocab-000057-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000057-en-option-3",
+          "distractorHeadwords": [
+            "deliver",
+            "recommend",
+            null,
+            "recycle"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "deliver",
+            "recommend",
+            "rent",
+            "recycle"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000057-ja_en-option-1",
+            "vocab-000057-ja_en-option-2",
+            "vocab-000057-ja_en-option-3",
+            "vocab-000057-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000057-ja_en-option-3",
+          "distractorHeadwords": [
+            "deliver",
+            "recommend",
+            null,
+            "recycle"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000058",
+      "headword": "polite",
+      "partOfSpeech": "adjective",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 2,
+      "meaning": "礼儀正しい",
+      "definition": "showing good manners to other people",
+      "example": "The waiter was very polite.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "礼儀正しい（showing good manners to other people）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "polite",
+        "partOfSpeech": "adjective",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "便利な",
+            "見慣れた",
+            "くつろいだ",
+            "礼儀正しい"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000058-ja-option-1",
+            "vocab-000058-ja-option-2",
+            "vocab-000058-ja-option-3",
+            "vocab-000058-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000058-ja-option-4",
+          "distractorHeadwords": [
+            "convenient",
+            "familiar",
+            "relaxed",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "easy to use or to reach",
+            "seen or heard many times before",
+            "feeling calm and not worried",
+            "showing good manners to other people"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000058-en-option-1",
+            "vocab-000058-en-option-2",
+            "vocab-000058-en-option-3",
+            "vocab-000058-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000058-en-option-4",
+          "distractorHeadwords": [
+            "convenient",
+            "familiar",
+            "relaxed",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "convenient",
+            "familiar",
+            "relaxed",
+            "polite"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000058-ja_en-option-1",
+            "vocab-000058-ja_en-option-2",
+            "vocab-000058-ja_en-option-3",
+            "vocab-000058-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000058-ja_en-option-4",
+          "distractorHeadwords": [
+            "convenient",
+            "familiar",
+            "relaxed",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000059",
+      "headword": "crowded",
+      "partOfSpeech": "adjective",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 2,
+      "meaning": "混雑した",
+      "definition": "full of many people",
+      "example": "The train was crowded this morning.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "混雑した（full of many people）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "crowded",
+        "partOfSpeech": "adjective",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "混雑した",
+            "緊張した",
+            "陽気な",
+            "快適な"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000059-ja-option-1",
+            "vocab-000059-ja-option-2",
+            "vocab-000059-ja-option-3",
+            "vocab-000059-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000059-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "nervous",
+            "cheerful",
+            "comfortable"
+          ]
+        },
+        "en": {
+          "choices": [
+            "full of many people",
+            "worried and unable to relax",
+            "happy and full of good spirits",
+            "giving you a pleasant and relaxed feeling"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000059-en-option-1",
+            "vocab-000059-en-option-2",
+            "vocab-000059-en-option-3",
+            "vocab-000059-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000059-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "nervous",
+            "cheerful",
+            "comfortable"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "crowded",
+            "nervous",
+            "cheerful",
+            "comfortable"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000059-ja_en-option-1",
+            "vocab-000059-ja_en-option-2",
+            "vocab-000059-ja_en-option-3",
+            "vocab-000059-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000059-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "nervous",
+            "cheerful",
+            "comfortable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000060",
+      "headword": "familiar",
+      "partOfSpeech": "adjective",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 2,
+      "meaning": "見慣れた",
+      "definition": "seen or heard many times before",
+      "example": "The song sounded familiar to me.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "見慣れた（seen or heard many times before）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "familiar",
+        "partOfSpeech": "adjective",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "便利な",
+            "見慣れた",
+            "緊張した",
+            "辛抱強い"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000060-ja-option-1",
+            "vocab-000060-ja-option-2",
+            "vocab-000060-ja-option-3",
+            "vocab-000060-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000060-ja-option-2",
+          "distractorHeadwords": [
+            "convenient",
+            null,
+            "nervous",
+            "patient"
+          ]
+        },
+        "en": {
+          "choices": [
+            "easy to use or to reach",
+            "seen or heard many times before",
+            "worried and unable to relax",
+            "able to wait without getting angry"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000060-en-option-1",
+            "vocab-000060-en-option-2",
+            "vocab-000060-en-option-3",
+            "vocab-000060-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000060-en-option-2",
+          "distractorHeadwords": [
+            "convenient",
+            null,
+            "nervous",
+            "patient"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "convenient",
+            "familiar",
+            "nervous",
+            "patient"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000060-ja_en-option-1",
+            "vocab-000060-ja_en-option-2",
+            "vocab-000060-ja_en-option-3",
+            "vocab-000060-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000060-ja_en-option-2",
+          "distractorHeadwords": [
+            "convenient",
+            null,
+            "nervous",
+            "patient"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "wordbook-genres",
+  "version": 1,
+  "kind": "genres",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "genres": [
+    {
+      "id": "basic",
+      "name": "基礎単語",
+      "order": 1,
+      "levelRange": "A1〜A2",
+      "bands": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "daily",
+      "name": "日常単語",
+      "order": 2,
+      "levelRange": "A2〜B1",
+      "bands": [
+        "A2",
+        "B1"
+      ]
+    },
+    {
+      "id": "business",
+      "name": "ビジネス単語",
+      "order": 3,
+      "levelRange": "B1〜B2",
+      "bands": [
+        "B1",
+        "B2"
+      ]
+    },
+    {
+      "id": "advanced",
+      "name": "アドバンス単語",
+      "order": 4,
+      "levelRange": "B2〜C1",
+      "bands": [
+        "B2",
+        "C1"
+      ]
+    },
+    {
+      "id": "super",
+      "name": "超アドバンス単語",
+      "order": 5,
+      "levelRange": "C1〜C2",
+      "bands": [
+        "C1",
+        "C2"
+      ]
+    }
+  ]
+}

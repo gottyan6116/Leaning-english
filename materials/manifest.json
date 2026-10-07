@@ -8,12 +8,28 @@
   },
   "materials": [
     {
-      "id": "advanced-vocabulary-c1-01",
+      "id": "advanced-01",
       "kind": "vocabulary",
       "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/advanced-01.json",
+      "sha256": "e777a024fac585bad0fffc9a2a6b63dd2ca99a8d3de2a25ac7f3fbc02f2db735"
+    },
+    {
+      "id": "advanced-02",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/advanced-02.json",
+      "sha256": "8238e9baea3d05dfa1e0a4766b116ec19bd1a786f215671d97354c8febaec207"
+    },
+    {
+      "id": "advanced-vocabulary-c1-01",
+      "kind": "vocabulary",
+      "version": 2,
       "publishedAt": "2026-10-04T00:00:00+09:00",
       "path": "materials/vocabulary/c1-unit-01.json",
-      "sha256": "1d241d2fb609c78dad6c06f50235e841be0bc49557dfaad75f4c622bba776fbd"
+      "sha256": "72da02a15bf3a8748b9df00a36fb8f7aa3b55d40871131afe2e6314bbb6fee8f"
     },
     {
       "id": "article-culture-koji-skills-2024",
@@ -118,6 +134,102 @@
       "publishedAt": "2026-10-04T00:00:00+09:00",
       "path": "materials/articles/work-four-day-week.json",
       "sha256": "6bdb6ca13c83fb7a049ef7fccd16eee00a2b660735b569b9e56869d6bd86095b"
+    },
+    {
+      "id": "basic-01",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/basic-01.json",
+      "sha256": "be08c52c99584201cf7a7821c69e39e9d5a1ad9e0b0c1b6ee379b3787c95e08f"
+    },
+    {
+      "id": "basic-02",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/basic-02.json",
+      "sha256": "1ff94b96f90d4728cbb8317cf516a0cf4eaffb2896f477b163226a8db7d5ff58"
+    },
+    {
+      "id": "basic-03",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/basic-03.json",
+      "sha256": "a6ceb1d3c24a3ceff144e305c5cd15466198adc1e284c098278c19de6e903554"
+    },
+    {
+      "id": "business-01",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/business-01.json",
+      "sha256": "683c9c20070ba99672dde6f0fdeda53c97a24694dd64c20970d233125e30b9ff"
+    },
+    {
+      "id": "business-02",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/business-02.json",
+      "sha256": "bea153003de4ac539428f1afd1aeeb366fca10edebcfe41221edc8e58ed2f765"
+    },
+    {
+      "id": "business-03",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/business-03.json",
+      "sha256": "e2aa03d67388306dad80be54941a9cd05d0aba751f9335e9a3b661e0473174c1"
+    },
+    {
+      "id": "daily-01",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/daily-01.json",
+      "sha256": "d7fb0c1d2fa11760ed8540671a86ded53baf4ec0a992534acd516423c9415ee7"
+    },
+    {
+      "id": "daily-02",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/daily-02.json",
+      "sha256": "4154122cdb974372fd64942cb20f56de2c3c36455e55c433c0b34813779c1f5d"
+    },
+    {
+      "id": "daily-03",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/daily-03.json",
+      "sha256": "61b9109290c01d06f247b5e9a75175f728c401f5a9b6efac6528fbfeee2d634b"
+    },
+    {
+      "id": "super-01",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/super-01.json",
+      "sha256": "23575e76d5c2b1417a96432e98f2d4908b5b491a0e915ce31bb9c5f5c167e042"
+    },
+    {
+      "id": "super-02",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/super-02.json",
+      "sha256": "cadba8c3c9f4bf3c0e19931b2938f422a57b5f2693c92cfa757dfae397132013"
+    },
+    {
+      "id": "super-03",
+      "kind": "vocabulary",
+      "version": 1,
+      "publishedAt": "2026-10-07T00:00:00+09:00",
+      "path": "materials/vocabulary/super-03.json",
+      "sha256": "4d4a36e99b737362d89f43be85b526f8e4e68c31351e4642f27e4c304bb81828"
     }
   ],
   "articleIndex": {
@@ -211,6 +323,12 @@
     "version": 1,
     "path": "materials/collocations/article-collocations.json",
     "sha256": "0105f168845788faa551b5df9b32272fd59bf08d5002bfd8568d7b0f5feb61f9"
+  },
+  "genres": {
+    "id": "wordbook-genres",
+    "version": 1,
+    "path": "materials/vocabulary/genres.json",
+    "sha256": "7f18704234f5e54dd66407093eaeb6f58270e3e0d91712203a38931927e7e1f4"
   },
   "wordIndex": {
     "article-culture-koji-skills-2024-craftsmanship": {

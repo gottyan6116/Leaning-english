@@ -15,5 +15,19 @@
       "name": "README.md",
       "sha256": "8b69f7366fa3c7be328cb9ba02ceb7b3725697f36125bb75b85131d664b5e359"
     }
+  ],
+  "additionalSources": [
+    {
+      "name": "bsl-1.2-lemmatized-for-teaching.csv",
+      "list": "Business Service List 1.2 (lemmatized for teaching)",
+      "creators": "Browne, C. and Culligan, B. (New General Service List Project)",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://www.newgeneralservicelist.com/business-service-list",
+      "download": "http://www.newgeneralservicelist.com/s/BSL_120_lemmatized_for_teaching.csv",
+      "retrievedAt": "2026-10-07",
+      "sha256": "0073a91b4186dc0bba0960f2ed9486bd117177403f4e0ac9f3738474f2b2a3c9",
+      "note": "Unmodified fixed copy. Used only to confirm that a business word belongs to the list; level and part of speech come from CEFR-J."
+    }
   ]
 }

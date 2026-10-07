@@ -1,0 +1,925 @@
+{
+  "id": "advanced-01",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "アドバンス単語 ①",
+  "genre": "advanced",
+  "setNumber": 1,
+  "level": "B2〜C1",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000101",
+      "headword": "consensus",
+      "partOfSpeech": "noun",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 1,
+      "meaning": "合意",
+      "definition": "an agreement shared by most people",
+      "example": "The group reached a consensus after a long talk.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "合意（an agreement shared by most people）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "consensus",
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "見通し",
+            "疑惑",
+            "合意",
+            "官僚制"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000101-ja-option-1",
+            "vocab-000101-ja-option-2",
+            "vocab-000101-ja-option-3",
+            "vocab-000101-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000101-ja-option-3",
+          "distractorHeadwords": [
+            "outlook",
+            "allegation",
+            null,
+            "bureaucracy"
+          ]
+        },
+        "en": {
+          "choices": [
+            "what is likely to happen in the future",
+            "a claim that has not been proved",
+            "an agreement shared by most people",
+            "a system with many official rules and steps"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000101-en-option-1",
+            "vocab-000101-en-option-2",
+            "vocab-000101-en-option-3",
+            "vocab-000101-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000101-en-option-3",
+          "distractorHeadwords": [
+            "outlook",
+            "allegation",
+            null,
+            "bureaucracy"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "outlook",
+            "allegation",
+            "consensus",
+            "bureaucracy"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000101-ja_en-option-1",
+            "vocab-000101-ja_en-option-2",
+            "vocab-000101-ja_en-option-3",
+            "vocab-000101-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000101-ja_en-option-3",
+          "distractorHeadwords": [
+            "outlook",
+            "allegation",
+            null,
+            "bureaucracy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000102",
+      "headword": "dilemma",
+      "partOfSpeech": "noun",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 1,
+      "meaning": "板挟み",
+      "definition": "a hard choice between two options",
+      "example": "She faced a dilemma between family and work.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "板挟み（a hard choice between two options）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "dilemma",
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "精査",
+            "論争",
+            "見通し",
+            "板挟み"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000102-ja-option-1",
+            "vocab-000102-ja-option-2",
+            "vocab-000102-ja-option-3",
+            "vocab-000102-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000102-ja-option-4",
+          "distractorHeadwords": [
+            "scrutiny",
+            "controversy",
+            "outlook",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "careful and close examination",
+            "a public argument about something",
+            "what is likely to happen in the future",
+            "a hard choice between two options"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000102-en-option-1",
+            "vocab-000102-en-option-2",
+            "vocab-000102-en-option-3",
+            "vocab-000102-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000102-en-option-4",
+          "distractorHeadwords": [
+            "scrutiny",
+            "controversy",
+            "outlook",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "scrutiny",
+            "controversy",
+            "outlook",
+            "dilemma"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000102-ja_en-option-1",
+            "vocab-000102-ja_en-option-2",
+            "vocab-000102-ja_en-option-3",
+            "vocab-000102-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000102-ja_en-option-4",
+          "distractorHeadwords": [
+            "scrutiny",
+            "controversy",
+            "outlook",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000103",
+      "headword": "bureaucracy",
+      "partOfSpeech": "noun",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 1,
+      "meaning": "官僚制",
+      "definition": "a system with many official rules and steps",
+      "example": "The bureaucracy delayed the building project.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "官僚制（a system with many official rules and steps）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "bureaucracy",
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "官僚制",
+            "欠陥",
+            "見通し",
+            "制約"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000103-ja-option-1",
+            "vocab-000103-ja-option-2",
+            "vocab-000103-ja-option-3",
+            "vocab-000103-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000103-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "flaw",
+            "outlook",
+            "constraint"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a system with many official rules and steps",
+            "a mistake or weakness in something",
+            "what is likely to happen in the future",
+            "a limit on what you can do"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000103-en-option-1",
+            "vocab-000103-en-option-2",
+            "vocab-000103-en-option-3",
+            "vocab-000103-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000103-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "flaw",
+            "outlook",
+            "constraint"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "bureaucracy",
+            "flaw",
+            "outlook",
+            "constraint"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000103-ja_en-option-1",
+            "vocab-000103-ja_en-option-2",
+            "vocab-000103-ja_en-option-3",
+            "vocab-000103-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000103-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "flaw",
+            "outlook",
+            "constraint"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000104",
+      "headword": "controversy",
+      "partOfSpeech": "noun",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 1,
+      "meaning": "論争",
+      "definition": "a public argument about something",
+      "example": "The new law caused great controversy.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "論争（a public argument about something）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "controversy",
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "板挟み",
+            "論争",
+            "見通し",
+            "疑惑"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000104-ja-option-1",
+            "vocab-000104-ja-option-2",
+            "vocab-000104-ja-option-3",
+            "vocab-000104-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000104-ja-option-2",
+          "distractorHeadwords": [
+            "dilemma",
+            null,
+            "outlook",
+            "allegation"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a hard choice between two options",
+            "a public argument about something",
+            "what is likely to happen in the future",
+            "a claim that has not been proved"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000104-en-option-1",
+            "vocab-000104-en-option-2",
+            "vocab-000104-en-option-3",
+            "vocab-000104-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000104-en-option-2",
+          "distractorHeadwords": [
+            "dilemma",
+            null,
+            "outlook",
+            "allegation"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "dilemma",
+            "controversy",
+            "outlook",
+            "allegation"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000104-ja_en-option-1",
+            "vocab-000104-ja_en-option-2",
+            "vocab-000104-ja_en-option-3",
+            "vocab-000104-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000104-ja_en-option-2",
+          "distractorHeadwords": [
+            "dilemma",
+            null,
+            "outlook",
+            "allegation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000105",
+      "headword": "concede",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 1,
+      "meaning": "認める",
+      "definition": "to admit that something is true or right",
+      "example": "He conceded that the plan had some weaknesses.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "認める（to admit that something is true or right）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "concede",
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "妨げる",
+            "補強する",
+            "認める",
+            "粘る"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000105-ja-option-1",
+            "vocab-000105-ja-option-2",
+            "vocab-000105-ja-option-3",
+            "vocab-000105-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000105-ja-option-3",
+          "distractorHeadwords": [
+            "impede",
+            "reinforce",
+            null,
+            "persist"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to make progress slow or difficult",
+            "to make something stronger",
+            "to admit that something is true or right",
+            "to keep going in spite of problems"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000105-en-option-1",
+            "vocab-000105-en-option-2",
+            "vocab-000105-en-option-3",
+            "vocab-000105-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000105-en-option-3",
+          "distractorHeadwords": [
+            "impede",
+            "reinforce",
+            null,
+            "persist"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "impede",
+            "reinforce",
+            "concede",
+            "persist"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000105-ja_en-option-1",
+            "vocab-000105-ja_en-option-2",
+            "vocab-000105-ja_en-option-3",
+            "vocab-000105-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000105-ja_en-option-3",
+          "distractorHeadwords": [
+            "impede",
+            "reinforce",
+            null,
+            "persist"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000106",
+      "headword": "confront",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 1,
+      "meaning": "直面する",
+      "definition": "to face a difficult person or problem",
+      "example": "The manager confronted the issue directly.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "直面する（to face a difficult person or problem）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "confront",
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "受け継ぐ",
+            "強いる",
+            "補強する",
+            "直面する"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000106-ja-option-1",
+            "vocab-000106-ja-option-2",
+            "vocab-000106-ja-option-3",
+            "vocab-000106-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000106-ja-option-4",
+          "distractorHeadwords": [
+            "inherit",
+            "compel",
+            "reinforce",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "to get things when someone dies",
+            "to force someone to do something",
+            "to make something stronger",
+            "to face a difficult person or problem"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000106-en-option-1",
+            "vocab-000106-en-option-2",
+            "vocab-000106-en-option-3",
+            "vocab-000106-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000106-en-option-4",
+          "distractorHeadwords": [
+            "inherit",
+            "compel",
+            "reinforce",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "inherit",
+            "compel",
+            "reinforce",
+            "confront"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000106-ja_en-option-1",
+            "vocab-000106-ja_en-option-2",
+            "vocab-000106-ja_en-option-3",
+            "vocab-000106-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000106-ja_en-option-4",
+          "distractorHeadwords": [
+            "inherit",
+            "compel",
+            "reinforce",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000107",
+      "headword": "persist",
+      "partOfSpeech": "verb",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 1,
+      "meaning": "粘る",
+      "definition": "to keep going in spite of problems",
+      "example": "She persisted with her studies despite many problems.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "粘る（to keep going in spite of problems）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "persist",
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "粘る",
+            "受け継ぐ",
+            "強いる",
+            "和らげる"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000107-ja-option-1",
+            "vocab-000107-ja-option-2",
+            "vocab-000107-ja-option-3",
+            "vocab-000107-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000107-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "inherit",
+            "compel",
+            "alleviate"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to keep going in spite of problems",
+            "to get things when someone dies",
+            "to force someone to do something",
+            "to make pain or trouble less severe"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000107-en-option-1",
+            "vocab-000107-en-option-2",
+            "vocab-000107-en-option-3",
+            "vocab-000107-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000107-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "inherit",
+            "compel",
+            "alleviate"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "persist",
+            "inherit",
+            "compel",
+            "alleviate"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000107-ja_en-option-1",
+            "vocab-000107-ja_en-option-2",
+            "vocab-000107-ja_en-option-3",
+            "vocab-000107-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000107-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "inherit",
+            "compel",
+            "alleviate"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000108",
+      "headword": "coherent",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 1,
+      "meaning": "一貫した",
+      "definition": "logical and easy to follow",
+      "example": "The report gave a coherent account of events.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "一貫した（logical and easy to follow）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "coherent",
+        "partOfSpeech": "adjective",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "固有の",
+            "一貫した",
+            "雄弁な",
+            "控えめな"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000108-ja-option-1",
+            "vocab-000108-ja-option-2",
+            "vocab-000108-ja-option-3",
+            "vocab-000108-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000108-ja-option-2",
+          "distractorHeadwords": [
+            "inherent",
+            null,
+            "eloquent",
+            "modest"
+          ]
+        },
+        "en": {
+          "choices": [
+            "forming a basic part of something",
+            "logical and easy to follow",
+            "able to speak clearly and with force",
+            "not large and not too proud of yourself"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000108-en-option-1",
+            "vocab-000108-en-option-2",
+            "vocab-000108-en-option-3",
+            "vocab-000108-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000108-en-option-2",
+          "distractorHeadwords": [
+            "inherent",
+            null,
+            "eloquent",
+            "modest"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "inherent",
+            "coherent",
+            "eloquent",
+            "modest"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000108-ja_en-option-1",
+            "vocab-000108-ja_en-option-2",
+            "vocab-000108-ja_en-option-3",
+            "vocab-000108-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000108-ja_en-option-2",
+          "distractorHeadwords": [
+            "inherent",
+            null,
+            "eloquent",
+            "modest"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000109",
+      "headword": "eloquent",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 1,
+      "meaning": "雄弁な",
+      "definition": "able to speak clearly and with force",
+      "example": "She gave an eloquent speech at the meeting.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "雄弁な（able to speak clearly and with force）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "eloquent",
+        "partOfSpeech": "adjective",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "控えめな",
+            "微妙な",
+            "雄弁な",
+            "固有の"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000109-ja-option-1",
+            "vocab-000109-ja-option-2",
+            "vocab-000109-ja-option-3",
+            "vocab-000109-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000109-ja-option-3",
+          "distractorHeadwords": [
+            "modest",
+            "subtle",
+            null,
+            "inherent"
+          ]
+        },
+        "en": {
+          "choices": [
+            "not large and not too proud of yourself",
+            "not obvious and hard to notice",
+            "able to speak clearly and with force",
+            "forming a basic part of something"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000109-en-option-1",
+            "vocab-000109-en-option-2",
+            "vocab-000109-en-option-3",
+            "vocab-000109-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000109-en-option-3",
+          "distractorHeadwords": [
+            "modest",
+            "subtle",
+            null,
+            "inherent"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "modest",
+            "subtle",
+            "eloquent",
+            "inherent"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000109-ja_en-option-1",
+            "vocab-000109-ja_en-option-2",
+            "vocab-000109-ja_en-option-3",
+            "vocab-000109-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000109-ja_en-option-3",
+          "distractorHeadwords": [
+            "modest",
+            "subtle",
+            null,
+            "inherent"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000110",
+      "headword": "subtle",
+      "partOfSpeech": "adjective",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 1,
+      "meaning": "微妙な",
+      "definition": "not obvious and hard to notice",
+      "example": "There is a subtle difference between the two words.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "微妙な（not obvious and hard to notice）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "subtle",
+        "partOfSpeech": "adjective",
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "不利な",
+            "控えめな",
+            "固有の",
+            "微妙な"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000110-ja-option-1",
+            "vocab-000110-ja-option-2",
+            "vocab-000110-ja-option-3",
+            "vocab-000110-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000110-ja-option-4",
+          "distractorHeadwords": [
+            "adverse",
+            "modest",
+            "inherent",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "harmful or likely to cause problems",
+            "not large and not too proud of yourself",
+            "forming a basic part of something",
+            "not obvious and hard to notice"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000110-en-option-1",
+            "vocab-000110-en-option-2",
+            "vocab-000110-en-option-3",
+            "vocab-000110-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000110-en-option-4",
+          "distractorHeadwords": [
+            "adverse",
+            "modest",
+            "inherent",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "adverse",
+            "modest",
+            "inherent",
+            "subtle"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000110-ja_en-option-1",
+            "vocab-000110-ja_en-option-2",
+            "vocab-000110-ja_en-option-3",
+            "vocab-000110-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000110-ja_en-option-4",
+          "distractorHeadwords": [
+            "adverse",
+            "modest",
+            "inherent",
+            null
+          ]
+        }
+      }
+    }
+  ]
+}

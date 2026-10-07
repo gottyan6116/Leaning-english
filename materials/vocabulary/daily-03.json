@@ -1,0 +1,925 @@
+{
+  "id": "daily-03",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "日常単語 ③",
+  "genre": "daily",
+  "setNumber": 3,
+  "level": "A2〜B1",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000061",
+      "headword": "fridge",
+      "partOfSpeech": "noun",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 3,
+      "meaning": "冷蔵庫",
+      "definition": "a machine that keeps food cold",
+      "example": "Put the milk in the fridge.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "冷蔵庫（a machine that keeps food cold）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "fridge",
+        "partOfSpeech": "noun",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "予約",
+            "薬局",
+            "冷蔵庫",
+            "歯科医"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000061-ja-option-1",
+            "vocab-000061-ja-option-2",
+            "vocab-000061-ja-option-3",
+            "vocab-000061-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000061-ja-option-3",
+          "distractorHeadwords": [
+            "appointment",
+            "pharmacy",
+            null,
+            "dentist"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a time that you arrange to see someone",
+            "a shop where medicines are sold",
+            "a machine that keeps food cold",
+            "a doctor who looks after your teeth"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000061-en-option-1",
+            "vocab-000061-en-option-2",
+            "vocab-000061-en-option-3",
+            "vocab-000061-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000061-en-option-3",
+          "distractorHeadwords": [
+            "appointment",
+            "pharmacy",
+            null,
+            "dentist"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "appointment",
+            "pharmacy",
+            "fridge",
+            "dentist"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000061-ja_en-option-1",
+            "vocab-000061-ja_en-option-2",
+            "vocab-000061-ja_en-option-3",
+            "vocab-000061-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000061-ja_en-option-3",
+          "distractorHeadwords": [
+            "appointment",
+            "pharmacy",
+            null,
+            "dentist"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000062",
+      "headword": "pharmacy",
+      "partOfSpeech": "noun",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 3,
+      "meaning": "薬局",
+      "definition": "a shop where medicines are sold",
+      "example": "The pharmacy closes at nine.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "薬局（a shop where medicines are sold）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "pharmacy",
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "予約",
+            "ごみ",
+            "レシート",
+            "薬局"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000062-ja-option-1",
+            "vocab-000062-ja-option-2",
+            "vocab-000062-ja-option-3",
+            "vocab-000062-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000062-ja-option-4",
+          "distractorHeadwords": [
+            "appointment",
+            "rubbish",
+            "receipt",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "a time that you arrange to see someone",
+            "things that you throw away",
+            "a paper that shows what you paid for",
+            "a shop where medicines are sold"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000062-en-option-1",
+            "vocab-000062-en-option-2",
+            "vocab-000062-en-option-3",
+            "vocab-000062-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000062-en-option-4",
+          "distractorHeadwords": [
+            "appointment",
+            "rubbish",
+            "receipt",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "appointment",
+            "rubbish",
+            "receipt",
+            "pharmacy"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000062-ja_en-option-1",
+            "vocab-000062-ja_en-option-2",
+            "vocab-000062-ja_en-option-3",
+            "vocab-000062-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000062-ja_en-option-4",
+          "distractorHeadwords": [
+            "appointment",
+            "rubbish",
+            "receipt",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000063",
+      "headword": "rubbish",
+      "partOfSpeech": "noun",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 3,
+      "meaning": "ごみ",
+      "definition": "things that you throw away",
+      "example": "Put the rubbish in the bin.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "ごみ（things that you throw away）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "rubbish",
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "ごみ",
+            "歯科医",
+            "交通",
+            "予約"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000063-ja-option-1",
+            "vocab-000063-ja-option-2",
+            "vocab-000063-ja-option-3",
+            "vocab-000063-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000063-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "dentist",
+            "traffic",
+            "appointment"
+          ]
+        },
+        "en": {
+          "choices": [
+            "things that you throw away",
+            "a doctor who looks after your teeth",
+            "the cars and trucks on a road",
+            "a time that you arrange to see someone"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000063-en-option-1",
+            "vocab-000063-en-option-2",
+            "vocab-000063-en-option-3",
+            "vocab-000063-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000063-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "dentist",
+            "traffic",
+            "appointment"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "rubbish",
+            "dentist",
+            "traffic",
+            "appointment"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000063-ja_en-option-1",
+            "vocab-000063-ja_en-option-2",
+            "vocab-000063-ja_en-option-3",
+            "vocab-000063-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000063-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "dentist",
+            "traffic",
+            "appointment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000064",
+      "headword": "gym",
+      "partOfSpeech": "noun",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 3,
+      "meaning": "ジム",
+      "definition": "a place where people exercise",
+      "example": "He goes to the gym after work.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "ジム（a place where people exercise）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "gym",
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "冷蔵庫",
+            "ジム",
+            "ごみ",
+            "予定表"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000064-ja-option-1",
+            "vocab-000064-ja-option-2",
+            "vocab-000064-ja-option-3",
+            "vocab-000064-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000064-ja-option-2",
+          "distractorHeadwords": [
+            "fridge",
+            null,
+            "rubbish",
+            "schedule"
+          ]
+        },
+        "en": {
+          "choices": [
+            "a machine that keeps food cold",
+            "a place where people exercise",
+            "things that you throw away",
+            "a plan of what will happen and when"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000064-en-option-1",
+            "vocab-000064-en-option-2",
+            "vocab-000064-en-option-3",
+            "vocab-000064-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000064-en-option-2",
+          "distractorHeadwords": [
+            "fridge",
+            null,
+            "rubbish",
+            "schedule"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "fridge",
+            "gym",
+            "rubbish",
+            "schedule"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000064-ja_en-option-1",
+            "vocab-000064-ja_en-option-2",
+            "vocab-000064-ja_en-option-3",
+            "vocab-000064-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000064-ja_en-option-2",
+          "distractorHeadwords": [
+            "fridge",
+            null,
+            "rubbish",
+            "schedule"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000065",
+      "headword": "pack",
+      "partOfSpeech": "verb",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 3,
+      "meaning": "荷造りする",
+      "definition": "to put things into a bag or box",
+      "example": "I packed my bag the night before.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "荷造りする（to put things into a bag or box）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "pack",
+        "partOfSpeech": "verb",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "修理する",
+            "取り消す",
+            "荷造りする",
+            "賃借りする"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000065-ja-option-1",
+            "vocab-000065-ja-option-2",
+            "vocab-000065-ja-option-3",
+            "vocab-000065-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000065-ja-option-3",
+          "distractorHeadwords": [
+            "repair",
+            "cancel",
+            null,
+            "rent"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to make something broken work again",
+            "to say that something will not happen",
+            "to put things into a bag or box",
+            "to pay money to use a place or thing"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000065-en-option-1",
+            "vocab-000065-en-option-2",
+            "vocab-000065-en-option-3",
+            "vocab-000065-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000065-en-option-3",
+          "distractorHeadwords": [
+            "repair",
+            "cancel",
+            null,
+            "rent"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "repair",
+            "cancel",
+            "pack",
+            "rent"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000065-ja_en-option-1",
+            "vocab-000065-ja_en-option-2",
+            "vocab-000065-ja_en-option-3",
+            "vocab-000065-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000065-ja_en-option-3",
+          "distractorHeadwords": [
+            "repair",
+            "cancel",
+            null,
+            "rent"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000066",
+      "headword": "recycle",
+      "partOfSpeech": "verb",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 3,
+      "meaning": "再利用する",
+      "definition": "to use waste again to make new things",
+      "example": "We recycle bottles and paper.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "再利用する（to use waste again to make new things）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "recycle",
+        "partOfSpeech": "verb",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "荷造りする",
+            "配達する",
+            "焼く",
+            "再利用する"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000066-ja-option-1",
+            "vocab-000066-ja-option-2",
+            "vocab-000066-ja-option-3",
+            "vocab-000066-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000066-ja-option-4",
+          "distractorHeadwords": [
+            "pack",
+            "deliver",
+            "bake",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "to put things into a bag or box",
+            "to take something to a person or place",
+            "to cook food in an oven",
+            "to use waste again to make new things"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000066-en-option-1",
+            "vocab-000066-en-option-2",
+            "vocab-000066-en-option-3",
+            "vocab-000066-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000066-en-option-4",
+          "distractorHeadwords": [
+            "pack",
+            "deliver",
+            "bake",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "pack",
+            "deliver",
+            "bake",
+            "recycle"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000066-ja_en-option-1",
+            "vocab-000066-ja_en-option-2",
+            "vocab-000066-ja_en-option-3",
+            "vocab-000066-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000066-ja_en-option-4",
+          "distractorHeadwords": [
+            "pack",
+            "deliver",
+            "bake",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000067",
+      "headword": "bake",
+      "partOfSpeech": "verb",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 3,
+      "meaning": "焼く",
+      "definition": "to cook food in an oven",
+      "example": "She bakes bread every Sunday.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "焼く（to cook food in an oven）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "bake",
+        "partOfSpeech": "verb",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "焼く",
+            "勧める",
+            "予約する",
+            "荷造りする"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000067-ja-option-1",
+            "vocab-000067-ja-option-2",
+            "vocab-000067-ja-option-3",
+            "vocab-000067-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000067-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "recommend",
+            "reserve",
+            "pack"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to cook food in an oven",
+            "to say that something is good to try",
+            "to ask for something to be kept for you",
+            "to put things into a bag or box"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000067-en-option-1",
+            "vocab-000067-en-option-2",
+            "vocab-000067-en-option-3",
+            "vocab-000067-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000067-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "recommend",
+            "reserve",
+            "pack"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "bake",
+            "recommend",
+            "reserve",
+            "pack"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000067-ja_en-option-1",
+            "vocab-000067-ja_en-option-2",
+            "vocab-000067-ja_en-option-3",
+            "vocab-000067-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000067-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "recommend",
+            "reserve",
+            "pack"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000068",
+      "headword": "patient",
+      "partOfSpeech": "adjective",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 3,
+      "meaning": "辛抱強い",
+      "definition": "able to wait without getting angry",
+      "example": "Be patient; the bus will come soon.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "辛抱強い（able to wait without getting angry）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "patient",
+        "partOfSpeech": "adjective",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "便利な",
+            "辛抱強い",
+            "緊張した",
+            "陽気な"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000068-ja-option-1",
+            "vocab-000068-ja-option-2",
+            "vocab-000068-ja-option-3",
+            "vocab-000068-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000068-ja-option-2",
+          "distractorHeadwords": [
+            "convenient",
+            null,
+            "nervous",
+            "cheerful"
+          ]
+        },
+        "en": {
+          "choices": [
+            "easy to use or to reach",
+            "able to wait without getting angry",
+            "worried and unable to relax",
+            "happy and full of good spirits"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000068-en-option-1",
+            "vocab-000068-en-option-2",
+            "vocab-000068-en-option-3",
+            "vocab-000068-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000068-en-option-2",
+          "distractorHeadwords": [
+            "convenient",
+            null,
+            "nervous",
+            "cheerful"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "convenient",
+            "patient",
+            "nervous",
+            "cheerful"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000068-ja_en-option-1",
+            "vocab-000068-ja_en-option-2",
+            "vocab-000068-ja_en-option-3",
+            "vocab-000068-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000068-ja_en-option-2",
+          "distractorHeadwords": [
+            "convenient",
+            null,
+            "nervous",
+            "cheerful"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000069",
+      "headword": "relaxed",
+      "partOfSpeech": "adjective",
+      "level": "A2",
+      "genre": "daily",
+      "setNumber": 3,
+      "meaning": "くつろいだ",
+      "definition": "feeling calm and not worried",
+      "example": "He felt relaxed on the beach.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "くつろいだ（feeling calm and not worried）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "relaxed",
+        "partOfSpeech": "adjective",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "陽気な",
+            "混雑した",
+            "くつろいだ",
+            "礼儀正しい"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000069-ja-option-1",
+            "vocab-000069-ja-option-2",
+            "vocab-000069-ja-option-3",
+            "vocab-000069-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000069-ja-option-3",
+          "distractorHeadwords": [
+            "cheerful",
+            "crowded",
+            null,
+            "polite"
+          ]
+        },
+        "en": {
+          "choices": [
+            "happy and full of good spirits",
+            "full of many people",
+            "feeling calm and not worried",
+            "showing good manners to other people"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000069-en-option-1",
+            "vocab-000069-en-option-2",
+            "vocab-000069-en-option-3",
+            "vocab-000069-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000069-en-option-3",
+          "distractorHeadwords": [
+            "cheerful",
+            "crowded",
+            null,
+            "polite"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "cheerful",
+            "crowded",
+            "relaxed",
+            "polite"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000069-ja_en-option-1",
+            "vocab-000069-ja_en-option-2",
+            "vocab-000069-ja_en-option-3",
+            "vocab-000069-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000069-ja_en-option-3",
+          "distractorHeadwords": [
+            "cheerful",
+            "crowded",
+            null,
+            "polite"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000070",
+      "headword": "cheerful",
+      "partOfSpeech": "adjective",
+      "level": "B1",
+      "genre": "daily",
+      "setNumber": 3,
+      "meaning": "陽気な",
+      "definition": "happy and full of good spirits",
+      "example": "The shop owner is always cheerful.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "陽気な（happy and full of good spirits）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "cheerful",
+        "partOfSpeech": "adjective",
+        "level": "B1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "辛抱強い",
+            "快適な",
+            "混雑した",
+            "陽気な"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000070-ja-option-1",
+            "vocab-000070-ja-option-2",
+            "vocab-000070-ja-option-3",
+            "vocab-000070-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000070-ja-option-4",
+          "distractorHeadwords": [
+            "patient",
+            "comfortable",
+            "crowded",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "able to wait without getting angry",
+            "giving you a pleasant and relaxed feeling",
+            "full of many people",
+            "happy and full of good spirits"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000070-en-option-1",
+            "vocab-000070-en-option-2",
+            "vocab-000070-en-option-3",
+            "vocab-000070-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000070-en-option-4",
+          "distractorHeadwords": [
+            "patient",
+            "comfortable",
+            "crowded",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "patient",
+            "comfortable",
+            "crowded",
+            "cheerful"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000070-ja_en-option-1",
+            "vocab-000070-ja_en-option-2",
+            "vocab-000070-ja_en-option-3",
+            "vocab-000070-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000070-ja_en-option-4",
+          "distractorHeadwords": [
+            "patient",
+            "comfortable",
+            "crowded",
+            null
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,925 @@
+{
+  "id": "basic-02",
+  "version": 1,
+  "kind": "vocabulary",
+  "title": "基礎単語 ②",
+  "genre": "basic",
+  "setNumber": 2,
+  "level": "A1〜A2",
+  "status": "draft",
+  "publishedAt": "2026-10-07T00:00:00+09:00",
+  "license": "CC-BY-SA-4.0",
+  "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
+  "items": [
+    {
+      "id": "vocab-000021",
+      "headword": "airport",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 2,
+      "meaning": "空港",
+      "definition": "a place where planes arrive and leave",
+      "example": "We waited at the airport for two hours.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "空港（a place where planes arrive and leave）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "airport",
+        "partOfSpeech": "noun",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "角",
+            "休暇",
+            "空港",
+            "切符"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000021-ja-option-1",
+            "vocab-000021-ja-option-2",
+            "vocab-000021-ja-option-3",
+            "vocab-000021-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000021-ja-option-3",
+          "distractorHeadwords": [
+            "corner",
+            "holiday",
+            null,
+            "ticket"
+          ]
+        },
+        "en": {
+          "choices": [
+            "the place where two streets meet",
+            "a time when you do not work",
+            "a place where planes arrive and leave",
+            "a piece of paper that lets you travel"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000021-en-option-1",
+            "vocab-000021-en-option-2",
+            "vocab-000021-en-option-3",
+            "vocab-000021-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000021-en-option-3",
+          "distractorHeadwords": [
+            "corner",
+            "holiday",
+            null,
+            "ticket"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "corner",
+            "holiday",
+            "airport",
+            "ticket"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000021-ja_en-option-1",
+            "vocab-000021-ja_en-option-2",
+            "vocab-000021-ja_en-option-3",
+            "vocab-000021-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000021-ja_en-option-3",
+          "distractorHeadwords": [
+            "corner",
+            "holiday",
+            null,
+            "ticket"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000022",
+      "headword": "umbrella",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 2,
+      "meaning": "傘",
+      "definition": "a thing that keeps rain off your head",
+      "example": "Take an umbrella because it may rain.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "傘（a thing that keeps rain off your head）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "umbrella",
+        "partOfSpeech": "noun",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "橋",
+            "地面",
+            "肩",
+            "傘"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000022-ja-option-1",
+            "vocab-000022-ja-option-2",
+            "vocab-000022-ja-option-3",
+            "vocab-000022-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000022-ja-option-4",
+          "distractorHeadwords": [
+            "bridge",
+            "ground",
+            "shoulder",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "a structure that lets people cross a river",
+            "the surface that you walk on",
+            "the part of the body next to the neck",
+            "a thing that keeps rain off your head"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000022-en-option-1",
+            "vocab-000022-en-option-2",
+            "vocab-000022-en-option-3",
+            "vocab-000022-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000022-en-option-4",
+          "distractorHeadwords": [
+            "bridge",
+            "ground",
+            "shoulder",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "bridge",
+            "ground",
+            "shoulder",
+            "umbrella"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000022-ja_en-option-1",
+            "vocab-000022-ja_en-option-2",
+            "vocab-000022-ja_en-option-3",
+            "vocab-000022-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000022-ja_en-option-4",
+          "distractorHeadwords": [
+            "bridge",
+            "ground",
+            "shoulder",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000023",
+      "headword": "corner",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 2,
+      "meaning": "角",
+      "definition": "the place where two streets meet",
+      "example": "The shop is on the corner of the street.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "角（the place where two streets meet）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "corner",
+        "partOfSpeech": "noun",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "角",
+            "橋",
+            "瓶",
+            "切符"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000023-ja-option-1",
+            "vocab-000023-ja-option-2",
+            "vocab-000023-ja-option-3",
+            "vocab-000023-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000023-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "bridge",
+            "bottle",
+            "ticket"
+          ]
+        },
+        "en": {
+          "choices": [
+            "the place where two streets meet",
+            "a structure that lets people cross a river",
+            "a container with a narrow neck",
+            "a piece of paper that lets you travel"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000023-en-option-1",
+            "vocab-000023-en-option-2",
+            "vocab-000023-en-option-3",
+            "vocab-000023-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000023-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "bridge",
+            "bottle",
+            "ticket"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "corner",
+            "bridge",
+            "bottle",
+            "ticket"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000023-ja_en-option-1",
+            "vocab-000023-ja_en-option-2",
+            "vocab-000023-ja_en-option-3",
+            "vocab-000023-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000023-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "bridge",
+            "bottle",
+            "ticket"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000024",
+      "headword": "shoulder",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 2,
+      "meaning": "肩",
+      "definition": "the part of the body next to the neck",
+      "example": "He carried the bag on his shoulder.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "肩（the part of the body next to the neck）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "shoulder",
+        "partOfSpeech": "noun",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "角",
+            "肩",
+            "休暇",
+            "傘"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000024-ja-option-1",
+            "vocab-000024-ja-option-2",
+            "vocab-000024-ja-option-3",
+            "vocab-000024-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000024-ja-option-2",
+          "distractorHeadwords": [
+            "corner",
+            null,
+            "holiday",
+            "umbrella"
+          ]
+        },
+        "en": {
+          "choices": [
+            "the place where two streets meet",
+            "the part of the body next to the neck",
+            "a time when you do not work",
+            "a thing that keeps rain off your head"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000024-en-option-1",
+            "vocab-000024-en-option-2",
+            "vocab-000024-en-option-3",
+            "vocab-000024-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000024-en-option-2",
+          "distractorHeadwords": [
+            "corner",
+            null,
+            "holiday",
+            "umbrella"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "corner",
+            "shoulder",
+            "holiday",
+            "umbrella"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000024-ja_en-option-1",
+            "vocab-000024-ja_en-option-2",
+            "vocab-000024-ja_en-option-3",
+            "vocab-000024-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000024-ja_en-option-2",
+          "distractorHeadwords": [
+            "corner",
+            null,
+            "holiday",
+            "umbrella"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000025",
+      "headword": "wash",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 2,
+      "meaning": "洗う",
+      "definition": "to clean something with water",
+      "example": "I wash my hands before dinner.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "洗う（to clean something with water）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "wash",
+        "partOfSpeech": "verb",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "楽しむ",
+            "借りる",
+            "洗う",
+            "答える"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000025-ja-option-1",
+            "vocab-000025-ja-option-2",
+            "vocab-000025-ja-option-3",
+            "vocab-000025-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000025-ja-option-3",
+          "distractorHeadwords": [
+            "enjoy",
+            "borrow",
+            null,
+            "answer"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to feel pleasure from something",
+            "to take something and give it back later",
+            "to clean something with water",
+            "to say something when someone asks"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000025-en-option-1",
+            "vocab-000025-en-option-2",
+            "vocab-000025-en-option-3",
+            "vocab-000025-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000025-en-option-3",
+          "distractorHeadwords": [
+            "enjoy",
+            "borrow",
+            null,
+            "answer"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "enjoy",
+            "borrow",
+            "wash",
+            "answer"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000025-ja_en-option-1",
+            "vocab-000025-ja_en-option-2",
+            "vocab-000025-ja_en-option-3",
+            "vocab-000025-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000025-ja_en-option-3",
+          "distractorHeadwords": [
+            "enjoy",
+            "borrow",
+            null,
+            "answer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000026",
+      "headword": "catch",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 2,
+      "meaning": "捕まえる",
+      "definition": "to take hold of something that moves",
+      "example": "She can catch the ball with one hand.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "捕まえる（to take hold of something that moves）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "catch",
+        "partOfSpeech": "verb",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "掃除する",
+            "楽しむ",
+            "答える",
+            "捕まえる"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000026-ja-option-1",
+            "vocab-000026-ja-option-2",
+            "vocab-000026-ja-option-3",
+            "vocab-000026-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000026-ja-option-4",
+          "distractorHeadwords": [
+            "clean",
+            "enjoy",
+            "answer",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "to take dirt off something",
+            "to feel pleasure from something",
+            "to say something when someone asks",
+            "to take hold of something that moves"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000026-en-option-1",
+            "vocab-000026-en-option-2",
+            "vocab-000026-en-option-3",
+            "vocab-000026-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000026-en-option-4",
+          "distractorHeadwords": [
+            "clean",
+            "enjoy",
+            "answer",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "clean",
+            "enjoy",
+            "answer",
+            "catch"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000026-ja_en-option-1",
+            "vocab-000026-ja_en-option-2",
+            "vocab-000026-ja_en-option-3",
+            "vocab-000026-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000026-ja_en-option-4",
+          "distractorHeadwords": [
+            "clean",
+            "enjoy",
+            "answer",
+            null
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000027",
+      "headword": "push",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 2,
+      "meaning": "押す",
+      "definition": "to use force to move something away",
+      "example": "Please push the door to open it.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "押す（to use force to move something away）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "push",
+        "partOfSpeech": "verb",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "押す",
+            "借りる",
+            "捕まえる",
+            "運ぶ"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000027-ja-option-1",
+            "vocab-000027-ja-option-2",
+            "vocab-000027-ja-option-3",
+            "vocab-000027-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000027-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "borrow",
+            "catch",
+            "carry"
+          ]
+        },
+        "en": {
+          "choices": [
+            "to use force to move something away",
+            "to take something and give it back later",
+            "to take hold of something that moves",
+            "to hold something and take it to a place"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000027-en-option-1",
+            "vocab-000027-en-option-2",
+            "vocab-000027-en-option-3",
+            "vocab-000027-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000027-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "borrow",
+            "catch",
+            "carry"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "push",
+            "borrow",
+            "catch",
+            "carry"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000027-ja_en-option-1",
+            "vocab-000027-ja_en-option-2",
+            "vocab-000027-ja_en-option-3",
+            "vocab-000027-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000027-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "borrow",
+            "catch",
+            "carry"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000028",
+      "headword": "tired",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 2,
+      "meaning": "疲れた",
+      "definition": "needing to rest or sleep",
+      "example": "I was tired after the long walk.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "疲れた（needing to rest or sleep）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "tired",
+        "partOfSpeech": "adjective",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "安い",
+            "疲れた",
+            "重い",
+            "背が高い"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000028-ja-option-1",
+            "vocab-000028-ja-option-2",
+            "vocab-000028-ja-option-3",
+            "vocab-000028-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000028-ja-option-2",
+          "distractorHeadwords": [
+            "cheap",
+            null,
+            "heavy",
+            "tall"
+          ]
+        },
+        "en": {
+          "choices": [
+            "costing very little money",
+            "needing to rest or sleep",
+            "weighing a lot",
+            "having a great height"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000028-en-option-1",
+            "vocab-000028-en-option-2",
+            "vocab-000028-en-option-3",
+            "vocab-000028-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000028-en-option-2",
+          "distractorHeadwords": [
+            "cheap",
+            null,
+            "heavy",
+            "tall"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "cheap",
+            "tired",
+            "heavy",
+            "tall"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000028-ja_en-option-1",
+            "vocab-000028-ja_en-option-2",
+            "vocab-000028-ja_en-option-3",
+            "vocab-000028-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000028-ja_en-option-2",
+          "distractorHeadwords": [
+            "cheap",
+            null,
+            "heavy",
+            "tall"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000029",
+      "headword": "cheap",
+      "partOfSpeech": "adjective",
+      "level": "A2",
+      "genre": "basic",
+      "setNumber": 2,
+      "meaning": "安い",
+      "definition": "costing very little money",
+      "example": "These shoes were cheap.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "安い（costing very little money）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "cheap",
+        "partOfSpeech": "adjective",
+        "level": "A2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "重い",
+            "忙しい",
+            "安い",
+            "背が高い"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000029-ja-option-1",
+            "vocab-000029-ja-option-2",
+            "vocab-000029-ja-option-3",
+            "vocab-000029-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000029-ja-option-3",
+          "distractorHeadwords": [
+            "heavy",
+            "busy",
+            null,
+            "tall"
+          ]
+        },
+        "en": {
+          "choices": [
+            "weighing a lot",
+            "having a lot of things to do",
+            "costing very little money",
+            "having a great height"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000029-en-option-1",
+            "vocab-000029-en-option-2",
+            "vocab-000029-en-option-3",
+            "vocab-000029-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000029-en-option-3",
+          "distractorHeadwords": [
+            "heavy",
+            "busy",
+            null,
+            "tall"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "heavy",
+            "busy",
+            "cheap",
+            "tall"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000029-ja_en-option-1",
+            "vocab-000029-ja_en-option-2",
+            "vocab-000029-ja_en-option-3",
+            "vocab-000029-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000029-ja_en-option-3",
+          "distractorHeadwords": [
+            "heavy",
+            "busy",
+            null,
+            "tall"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vocab-000030",
+      "headword": "tall",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "genre": "basic",
+      "setNumber": 2,
+      "meaning": "背が高い",
+      "definition": "having a great height",
+      "example": "My brother is very tall.",
+      "exampleOrigin": "original-for-this-app",
+      "testedSense": "背が高い（having a great height）",
+      "status": "unverified",
+      "selectionSource": {
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
+        "headword": "tall",
+        "partOfSpeech": "adjective",
+        "level": "A1",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
+      },
+      "questions": {
+        "ja": {
+          "choices": [
+            "うるさい",
+            "忙しい",
+            "空腹の",
+            "背が高い"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000030-ja-option-1",
+            "vocab-000030-ja-option-2",
+            "vocab-000030-ja-option-3",
+            "vocab-000030-ja-option-4"
+          ],
+          "correctChoiceId": "vocab-000030-ja-option-4",
+          "distractorHeadwords": [
+            "noisy",
+            "busy",
+            "hungry",
+            null
+          ]
+        },
+        "en": {
+          "choices": [
+            "making a lot of sound",
+            "having a lot of things to do",
+            "wanting to eat food",
+            "having a great height"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000030-en-option-1",
+            "vocab-000030-en-option-2",
+            "vocab-000030-en-option-3",
+            "vocab-000030-en-option-4"
+          ],
+          "correctChoiceId": "vocab-000030-en-option-4",
+          "distractorHeadwords": [
+            "noisy",
+            "busy",
+            "hungry",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "noisy",
+            "busy",
+            "hungry",
+            "tall"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000030-ja_en-option-1",
+            "vocab-000030-ja_en-option-2",
+            "vocab-000030-ja_en-option-3",
+            "vocab-000030-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000030-ja_en-option-4",
+          "distractorHeadwords": [
+            "noisy",
+            "busy",
+            "hungry",
+            null
+          ]
+        }
+      }
+    }
+  ]
+}

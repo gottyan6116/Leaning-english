@@ -1,37 +1,29 @@
 {
   "id": "advanced-vocabulary-c1-01",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
-  "title": "C1①",
-  "level": "C1",
-  "unitNumber": 1,
+  "title": "アドバンス単語 ③",
+  "genre": "advanced",
+  "setNumber": 3,
+  "level": "B2〜C1",
   "status": "draft",
   "publishedAt": "2026-10-04T00:00:00+09:00",
   "license": "CC-BY-SA-4.0",
   "levelNotice": "CEFR-J／Octanove Vocabulary Profileのレベル付けに基づく目安",
-  "credits": {
-    "creator": "Octanove Labs",
-    "listName": "Octanove Vocabulary Profile C1/C2",
-    "version": "1.0",
-    "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "modifications": "語の抽出・独自配列。日本語の意味、英英定義、例文、選択肢、解説は本アプリ向けに作成。",
-    "checkedAt": "2026-10-03"
-  },
   "items": [
     {
       "id": "vocab-000001",
-      "level": "C1",
-      "unitNumber": 1,
       "headword": "constraint",
       "partOfSpeech": "noun",
-      "meaning": "行動・計画の自由を制限する条件",
-      "definition": "a condition that limits what can be done",
+      "level": "C1",
+      "genre": "advanced",
+      "setNumber": 3,
+      "meaning": "制約",
+      "definition": "a limit on what you can do",
       "example": "Budget constraints forced us to reduce the scope of the pilot.",
       "exampleOrigin": "original-for-this-app",
-      "testedSense": "計画を制限する条件",
-      "selectionReason": "予算・時間の制約を述べる仕事の文脈で使える意味を選定。",
-      "status": "draft",
+      "testedSense": "制約（a limit on what you can do）",
+      "status": "unverified",
       "selectionSource": {
         "listName": "Octanove Vocabulary Profile C1/C2",
         "version": "1.0",
@@ -44,53 +36,85 @@
       "questions": {
         "ja": {
           "choices": [
-            "承認に必要な条件",
-            "行動を制限する条件",
-            "評価に使用する条件",
-            "達成を目指す条件"
+            "官僚制",
+            "板挟み",
+            "制約",
+            "精査"
           ],
-          "answerIndex": 1,
-          "explanation": "constraintは自由や選択を制限する条件。承認条件・評価基準・達成目標とは区別する。",
+          "answerIndex": 2,
           "choiceIds": [
             "vocab-000001-ja-option-1",
             "vocab-000001-ja-option-2",
             "vocab-000001-ja-option-3",
             "vocab-000001-ja-option-4"
           ],
-          "correctChoiceId": "vocab-000001-ja-option-2"
+          "correctChoiceId": "vocab-000001-ja-option-3",
+          "distractorHeadwords": [
+            "bureaucracy",
+            "dilemma",
+            null,
+            "scrutiny"
+          ]
         },
         "en": {
           "choices": [
-            "a condition used to approve a plan",
-            "a condition used to assess a plan",
-            "a condition that limits possible action",
-            "a condition that defines a desired result"
+            "a system with many official rules and steps",
+            "a hard choice between two options",
+            "a limit on what you can do",
+            "careful and close examination"
           ],
           "answerIndex": 2,
-          "explanation": "constraintは自由や選択を制限する条件。承認条件・評価基準・達成目標とは区別する。",
           "choiceIds": [
             "vocab-000001-en-option-1",
             "vocab-000001-en-option-2",
             "vocab-000001-en-option-3",
             "vocab-000001-en-option-4"
           ],
-          "correctChoiceId": "vocab-000001-en-option-3"
+          "correctChoiceId": "vocab-000001-en-option-3",
+          "distractorHeadwords": [
+            "bureaucracy",
+            "dilemma",
+            null,
+            "scrutiny"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "bureaucracy",
+            "dilemma",
+            "constraint",
+            "scrutiny"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000001-ja_en-option-1",
+            "vocab-000001-ja_en-option-2",
+            "vocab-000001-ja_en-option-3",
+            "vocab-000001-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000001-ja_en-option-3",
+          "distractorHeadwords": [
+            "bureaucracy",
+            "dilemma",
+            null,
+            "scrutiny"
+          ]
         }
       }
     },
     {
       "id": "vocab-000002",
-      "level": "C1",
-      "unitNumber": 1,
       "headword": "scrutiny",
       "partOfSpeech": "noun",
-      "meaning": "細部まで注意を払う厳密な調査",
-      "definition": "a close and careful examination of something",
+      "level": "C1",
+      "genre": "advanced",
+      "setNumber": 3,
+      "meaning": "精査",
+      "definition": "careful and close examination",
       "example": "The company's sustainability claims came under scrutiny after the report was published.",
       "exampleOrigin": "original-for-this-app",
-      "testedSense": "主張や活動への厳密な調査",
-      "selectionReason": "企業・政策の主張を検証するニュース読解で使える意味を選定。",
-      "status": "draft",
+      "testedSense": "精査（careful and close examination）",
+      "status": "unverified",
       "selectionSource": {
         "listName": "Octanove Vocabulary Profile C1/C2",
         "version": "1.0",
@@ -103,53 +127,85 @@
       "questions": {
         "ja": {
           "choices": [
-            "概要をつかむ確認",
-            "定期的な情報収集",
-            "結果を知らせる報告",
-            "細部までの厳密な調査"
+            "見通し",
+            "合意",
+            "欠陥",
+            "精査"
           ],
           "answerIndex": 3,
-          "explanation": "scrutinyの核は細かく注意深く調べること。概要確認・情報収集・結果報告だけではない。",
           "choiceIds": [
             "vocab-000002-ja-option-1",
             "vocab-000002-ja-option-2",
             "vocab-000002-ja-option-3",
             "vocab-000002-ja-option-4"
           ],
-          "correctChoiceId": "vocab-000002-ja-option-4"
+          "correctChoiceId": "vocab-000002-ja-option-4",
+          "distractorHeadwords": [
+            "outlook",
+            "consensus",
+            "flaw",
+            null
+          ]
         },
         "en": {
           "choices": [
-            "a close examination of the details",
-            "a brief overview of the main points",
-            "a routine collection of fresh information",
-            "a public announcement of the final results"
+            "what is likely to happen in the future",
+            "an agreement shared by most people",
+            "a mistake or weakness in something",
+            "careful and close examination"
           ],
-          "answerIndex": 0,
-          "explanation": "scrutinyの核は細かく注意深く調べること。概要確認・情報収集・結果報告だけではない。",
+          "answerIndex": 3,
           "choiceIds": [
             "vocab-000002-en-option-1",
             "vocab-000002-en-option-2",
             "vocab-000002-en-option-3",
             "vocab-000002-en-option-4"
           ],
-          "correctChoiceId": "vocab-000002-en-option-1"
+          "correctChoiceId": "vocab-000002-en-option-4",
+          "distractorHeadwords": [
+            "outlook",
+            "consensus",
+            "flaw",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "outlook",
+            "consensus",
+            "flaw",
+            "scrutiny"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000002-ja_en-option-1",
+            "vocab-000002-ja_en-option-2",
+            "vocab-000002-ja_en-option-3",
+            "vocab-000002-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000002-ja_en-option-4",
+          "distractorHeadwords": [
+            "outlook",
+            "consensus",
+            "flaw",
+            null
+          ]
         }
       }
     },
     {
       "id": "vocab-000003",
-      "level": "C1",
-      "unitNumber": 1,
       "headword": "premise",
       "partOfSpeech": "noun",
-      "meaning": "議論・判断の出発点となる前提",
-      "definition": "an assumption used as the starting point of an argument",
+      "level": "C1",
+      "genre": "advanced",
+      "setNumber": 3,
+      "meaning": "前提",
+      "definition": "an idea that an argument is based on",
       "example": "The proposal rests on the premise that customers value reliability more than speed.",
       "exampleOrigin": "original-for-this-app",
-      "testedSense": "議論の出発点となる前提",
-      "selectionReason": "premisesの建物・敷地の意味ではなく、提案の論理を読む意味を選定。",
-      "status": "draft",
+      "testedSense": "前提（an idea that an argument is based on）",
+      "status": "unverified",
       "selectionSource": {
         "listName": "Octanove Vocabulary Profile C1/C2",
         "version": "1.0",
@@ -162,112 +218,176 @@
       "questions": {
         "ja": {
           "choices": [
-            "議論の出発点となる前提",
-            "議論の到達点となる結論",
-            "議論を裏付ける具体例",
-            "議論で達成したい目標"
+            "前提",
+            "疑惑",
+            "官僚制",
+            "同盟"
           ],
           "answerIndex": 0,
-          "explanation": "premiseは議論が依拠する出発点。そこから導く結論、裏付けの例、達成目標とは異なる。",
           "choiceIds": [
             "vocab-000003-ja-option-1",
             "vocab-000003-ja-option-2",
             "vocab-000003-ja-option-3",
             "vocab-000003-ja-option-4"
           ],
-          "correctChoiceId": "vocab-000003-ja-option-1"
+          "correctChoiceId": "vocab-000003-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "allegation",
+            "bureaucracy",
+            "alliance"
+          ]
         },
         "en": {
           "choices": [
-            "a conclusion reached at the end of an argument",
-            "an example offered in support of an argument",
-            "an objective pursued through the course of an argument",
-            "an assumption used at the start of an argument"
+            "an idea that an argument is based on",
+            "a claim that has not been proved",
+            "a system with many official rules and steps",
+            "an agreement between groups to work together"
           ],
-          "answerIndex": 3,
-          "explanation": "premiseは議論が依拠する出発点。そこから導く結論、裏付けの例、達成目標とは異なる。",
+          "answerIndex": 0,
           "choiceIds": [
             "vocab-000003-en-option-1",
             "vocab-000003-en-option-2",
             "vocab-000003-en-option-3",
             "vocab-000003-en-option-4"
           ],
-          "correctChoiceId": "vocab-000003-en-option-4"
+          "correctChoiceId": "vocab-000003-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "allegation",
+            "bureaucracy",
+            "alliance"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "premise",
+            "allegation",
+            "bureaucracy",
+            "alliance"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000003-ja_en-option-1",
+            "vocab-000003-ja_en-option-2",
+            "vocab-000003-ja_en-option-3",
+            "vocab-000003-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000003-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "allegation",
+            "bureaucracy",
+            "alliance"
+          ]
         }
       }
     },
     {
       "id": "vocab-000004",
-      "level": "C1",
-      "unitNumber": 1,
       "headword": "allegation",
       "partOfSpeech": "noun",
-      "meaning": "まだ証明されていない不正の申し立て",
-      "definition": "a claim that someone has done wrong which has not yet been proved",
+      "level": "B2",
+      "genre": "advanced",
+      "setNumber": 3,
+      "meaning": "疑惑",
+      "definition": "a claim that has not been proved",
       "example": "The newspaper reported an allegation of favoritism, but no evidence had yet been presented.",
       "exampleOrigin": "original-for-this-app",
-      "testedSense": "未証明の不正の申し立て",
-      "selectionReason": "報道で疑惑と確定した事実を区別するための意味を選定。",
-      "status": "draft",
+      "testedSense": "疑惑（a claim that has not been proved）",
+      "status": "unverified",
       "selectionSource": {
-        "listName": "Octanove Vocabulary Profile C1/C2",
-        "version": "1.0",
+        "listName": "CEFR-J Wordlist",
+        "version": "1.5",
         "headword": "allegation",
         "partOfSpeech": "noun",
-        "level": "C1",
-        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/octanove-vocabulary-profile-c1c2-1.0.csv",
-        "license": "CC-BY-SA-4.0"
+        "level": "B2",
+        "url": "https://github.com/openlanguageprofiles/olp-en-cefrj/blob/master/cefrj-vocabulary-profile-1.5.csv",
+        "license": "CEFR-J (free with citation)"
       },
       "questions": {
         "ja": {
           "choices": [
-            "証拠で裏付けた不正の認定",
-            "当事者が示す不正の否定",
-            "未証明の不正の申し立て",
-            "裁判所が下す不正の判決"
+            "板挟み",
+            "疑惑",
+            "前提",
+            "官僚制"
           ],
-          "answerIndex": 2,
-          "explanation": "allegationは未証明の不正の主張。事実認定・本人の否定・裁判所の判決とは区別する。",
+          "answerIndex": 1,
           "choiceIds": [
             "vocab-000004-ja-option-1",
             "vocab-000004-ja-option-2",
             "vocab-000004-ja-option-3",
             "vocab-000004-ja-option-4"
           ],
-          "correctChoiceId": "vocab-000004-ja-option-3"
+          "correctChoiceId": "vocab-000004-ja-option-2",
+          "distractorHeadwords": [
+            "dilemma",
+            null,
+            "premise",
+            "bureaucracy"
+          ]
         },
         "en": {
           "choices": [
-            "a finding of wrongdoing supported by evidence",
-            "a claim of wrongdoing not yet supported by proof",
-            "a denial of wrongdoing issued by the accused",
-            "a judgment of wrongdoing delivered by a court"
+            "a hard choice between two options",
+            "a claim that has not been proved",
+            "an idea that an argument is based on",
+            "a system with many official rules and steps"
           ],
           "answerIndex": 1,
-          "explanation": "allegationは未証明の不正の主張。事実認定・本人の否定・裁判所の判決とは区別する。",
           "choiceIds": [
             "vocab-000004-en-option-1",
             "vocab-000004-en-option-2",
             "vocab-000004-en-option-3",
             "vocab-000004-en-option-4"
           ],
-          "correctChoiceId": "vocab-000004-en-option-2"
+          "correctChoiceId": "vocab-000004-en-option-2",
+          "distractorHeadwords": [
+            "dilemma",
+            null,
+            "premise",
+            "bureaucracy"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "dilemma",
+            "allegation",
+            "premise",
+            "bureaucracy"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000004-ja_en-option-1",
+            "vocab-000004-ja_en-option-2",
+            "vocab-000004-ja_en-option-3",
+            "vocab-000004-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000004-ja_en-option-2",
+          "distractorHeadwords": [
+            "dilemma",
+            null,
+            "premise",
+            "bureaucracy"
+          ]
         }
       }
     },
     {
       "id": "vocab-000005",
-      "level": "C1",
-      "unitNumber": 1,
       "headword": "alleviate",
       "partOfSpeech": "verb",
-      "meaning": "苦痛・負担の程度を和らげる",
-      "definition": "to make pain or difficulty less severe",
+      "level": "C1",
+      "genre": "advanced",
+      "setNumber": 3,
+      "meaning": "和らげる",
+      "definition": "to make pain or trouble less severe",
       "example": "A flexible start time may alleviate the stress of a crowded morning commute.",
       "exampleOrigin": "original-for-this-app",
-      "testedSense": "苦痛や負担を軽減する",
-      "selectionReason": "通勤・働き方など日常と仕事の両方に応用できる意味を選定。",
-      "status": "draft",
+      "testedSense": "和らげる（to make pain or trouble less severe）",
+      "status": "unverified",
       "selectionSource": {
         "listName": "Octanove Vocabulary Profile C1/C2",
         "version": "1.0",
@@ -280,53 +400,85 @@
       "questions": {
         "ja": {
           "choices": [
-            "苦痛や負担を軽減する",
-            "苦痛や負担を測定する",
-            "苦痛や負担を隠蔽する",
-            "苦痛や負担を特定する"
+            "強いる",
+            "粘る",
+            "和らげる",
+            "直面する"
           ],
-          "answerIndex": 0,
-          "explanation": "alleviateはつらさを軽くすること。完全に取り除くとは限らず、測定・隠蔽・特定とも異なる。",
+          "answerIndex": 2,
           "choiceIds": [
             "vocab-000005-ja-option-1",
             "vocab-000005-ja-option-2",
             "vocab-000005-ja-option-3",
             "vocab-000005-ja-option-4"
           ],
-          "correctChoiceId": "vocab-000005-ja-option-1"
+          "correctChoiceId": "vocab-000005-ja-option-3",
+          "distractorHeadwords": [
+            "compel",
+            "persist",
+            null,
+            "confront"
+          ]
         },
         "en": {
           "choices": [
-            "to measure the duration of pain or difficulty",
-            "to conceal the presence of pain or difficulty",
-            "to lessen the severity of pain or difficulty",
-            "to identify the source of pain or difficulty"
+            "to force someone to do something",
+            "to keep going in spite of problems",
+            "to make pain or trouble less severe",
+            "to face a difficult person or problem"
           ],
           "answerIndex": 2,
-          "explanation": "alleviateはつらさを軽くすること。完全に取り除くとは限らず、測定・隠蔽・特定とも異なる。",
           "choiceIds": [
             "vocab-000005-en-option-1",
             "vocab-000005-en-option-2",
             "vocab-000005-en-option-3",
             "vocab-000005-en-option-4"
           ],
-          "correctChoiceId": "vocab-000005-en-option-3"
+          "correctChoiceId": "vocab-000005-en-option-3",
+          "distractorHeadwords": [
+            "compel",
+            "persist",
+            null,
+            "confront"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "compel",
+            "persist",
+            "alleviate",
+            "confront"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000005-ja_en-option-1",
+            "vocab-000005-ja_en-option-2",
+            "vocab-000005-ja_en-option-3",
+            "vocab-000005-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000005-ja_en-option-3",
+          "distractorHeadwords": [
+            "compel",
+            "persist",
+            null,
+            "confront"
+          ]
         }
       }
     },
     {
       "id": "vocab-000006",
-      "level": "C1",
-      "unitNumber": 1,
       "headword": "compel",
       "partOfSpeech": "verb",
-      "meaning": "強い圧力や義務によって行動を強いる",
+      "level": "C1",
+      "genre": "advanced",
+      "setNumber": 3,
+      "meaning": "強いる",
       "definition": "to force someone to do something",
       "example": "The revised contract may compel suppliers to disclose additional costs.",
       "exampleOrigin": "original-for-this-app",
-      "testedSense": "圧力・義務によって行動を強制する",
-      "selectionReason": "単なる勧めや許可と区別し、契約・制度の拘束力を読む意味を選定。",
-      "status": "draft",
+      "testedSense": "強いる（to force someone to do something）",
+      "status": "unverified",
       "selectionSource": {
         "listName": "Octanove Vocabulary Profile C1/C2",
         "version": "1.0",
@@ -339,53 +491,85 @@
       "questions": {
         "ja": {
           "choices": [
-            "行動を提案する",
-            "行動を許可する",
-            "行動を禁止する",
-            "行動を強制する"
+            "補強する",
+            "受け継ぐ",
+            "和らげる",
+            "強いる"
           ],
           "answerIndex": 3,
-          "explanation": "compelは相手に行動を強いること。招待・許可は強制ではなく、禁止は行動をさせないこと。",
           "choiceIds": [
             "vocab-000006-ja-option-1",
             "vocab-000006-ja-option-2",
             "vocab-000006-ja-option-3",
             "vocab-000006-ja-option-4"
           ],
-          "correctChoiceId": "vocab-000006-ja-option-4"
+          "correctChoiceId": "vocab-000006-ja-option-4",
+          "distractorHeadwords": [
+            "reinforce",
+            "inherit",
+            "alleviate",
+            null
+          ]
         },
         "en": {
           "choices": [
-            "to force someone to take an action",
-            "to invite someone to take an action",
-            "to allow someone to take an action",
-            "to forbid someone to take an action"
+            "to make something stronger",
+            "to get things when someone dies",
+            "to make pain or trouble less severe",
+            "to force someone to do something"
           ],
-          "answerIndex": 0,
-          "explanation": "compelは相手に行動を強いること。招待・許可は強制ではなく、禁止は行動をさせないこと。",
+          "answerIndex": 3,
           "choiceIds": [
             "vocab-000006-en-option-1",
             "vocab-000006-en-option-2",
             "vocab-000006-en-option-3",
             "vocab-000006-en-option-4"
           ],
-          "correctChoiceId": "vocab-000006-en-option-1"
+          "correctChoiceId": "vocab-000006-en-option-4",
+          "distractorHeadwords": [
+            "reinforce",
+            "inherit",
+            "alleviate",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "reinforce",
+            "inherit",
+            "alleviate",
+            "compel"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000006-ja_en-option-1",
+            "vocab-000006-ja_en-option-2",
+            "vocab-000006-ja_en-option-3",
+            "vocab-000006-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000006-ja_en-option-4",
+          "distractorHeadwords": [
+            "reinforce",
+            "inherit",
+            "alleviate",
+            null
+          ]
         }
       }
     },
     {
       "id": "vocab-000007",
-      "level": "C1",
-      "unitNumber": 1,
       "headword": "impede",
       "partOfSpeech": "verb",
-      "meaning": "進行・発展を妨げる",
-      "definition": "to slow or obstruct progress",
+      "level": "C1",
+      "genre": "advanced",
+      "setNumber": 3,
+      "meaning": "妨げる",
+      "definition": "to make progress slow or difficult",
       "example": "Repeated changes to the brief can impede progress on a small project.",
       "exampleOrigin": "original-for-this-app",
-      "testedSense": "進捗・発展を妨げる",
-      "selectionReason": "プロジェクトや制度の進展を阻害する要因を述べる意味を選定。",
-      "status": "draft",
+      "testedSense": "妨げる（to make progress slow or difficult）",
+      "status": "unverified",
       "selectionSource": {
         "listName": "Octanove Vocabulary Profile C1/C2",
         "version": "1.0",
@@ -398,53 +582,85 @@
       "questions": {
         "ja": {
           "choices": [
-            "進行を加速させる",
-            "進行を妨げる",
-            "進行を観察する",
-            "進行を予測する"
+            "妨げる",
+            "強いる",
+            "補強する",
+            "直面する"
           ],
-          "answerIndex": 1,
-          "explanation": "impedeは進行を遅らせたり妨げたりすること。加速・観察・予測は進行の妨害を意味しない。",
+          "answerIndex": 0,
           "choiceIds": [
             "vocab-000007-ja-option-1",
             "vocab-000007-ja-option-2",
             "vocab-000007-ja-option-3",
             "vocab-000007-ja-option-4"
           ],
-          "correctChoiceId": "vocab-000007-ja-option-2"
+          "correctChoiceId": "vocab-000007-ja-option-1",
+          "distractorHeadwords": [
+            null,
+            "compel",
+            "reinforce",
+            "confront"
+          ]
         },
         "en": {
           "choices": [
-            "to accelerate the pace of progress",
-            "to monitor the pace of progress",
-            "to predict the course of progress",
-            "to obstruct the course of progress"
+            "to make progress slow or difficult",
+            "to force someone to do something",
+            "to make something stronger",
+            "to face a difficult person or problem"
           ],
-          "answerIndex": 3,
-          "explanation": "impedeは進行を遅らせたり妨げたりすること。加速・観察・予測は進行の妨害を意味しない。",
+          "answerIndex": 0,
           "choiceIds": [
             "vocab-000007-en-option-1",
             "vocab-000007-en-option-2",
             "vocab-000007-en-option-3",
             "vocab-000007-en-option-4"
           ],
-          "correctChoiceId": "vocab-000007-en-option-4"
+          "correctChoiceId": "vocab-000007-en-option-1",
+          "distractorHeadwords": [
+            null,
+            "compel",
+            "reinforce",
+            "confront"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "impede",
+            "compel",
+            "reinforce",
+            "confront"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000007-ja_en-option-1",
+            "vocab-000007-ja_en-option-2",
+            "vocab-000007-ja_en-option-3",
+            "vocab-000007-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000007-ja_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "compel",
+            "reinforce",
+            "confront"
+          ]
         }
       }
     },
     {
       "id": "vocab-000008",
-      "level": "C1",
-      "unitNumber": 1,
       "headword": "plausible",
       "partOfSpeech": "adjective",
-      "meaning": "説明・主張がもっともらしく信じられる",
-      "definition": "seeming reasonable and possibly true, though not necessarily proved",
+      "level": "C1",
+      "genre": "advanced",
+      "setNumber": 3,
+      "meaning": "ありそうな",
+      "definition": "seeming likely to be true",
       "example": "Her explanation for the delay sounded plausible, although we still needed to check the dates.",
       "exampleOrigin": "original-for-this-app",
-      "testedSense": "真実らしく思えるが、証明済みとは限らない",
-      "selectionReason": "説明の信じやすさと事実確認済みであることを分けて読む意味を選定。",
-      "status": "draft",
+      "testedSense": "ありそうな（seeming likely to be true）",
+      "status": "unverified",
       "selectionSource": {
         "listName": "Octanove Vocabulary Profile C1/C2",
         "version": "1.0",
@@ -457,53 +673,85 @@
       "questions": {
         "ja": {
           "choices": [
-            "曖昧で修正が必要な",
-            "矛盾して受け入れ難い",
-            "もっともらしく信じられる",
-            "明確で解釈の余地がない"
+            "不利な",
+            "ありそうな",
+            "雄弁な",
+            "手頃な価格の"
           ],
-          "answerIndex": 2,
-          "explanation": "plausibleはもっともらしいという評価であり、証明済みとは限らない。曖昧さ・矛盾・解釈の一意性とは異なる。",
+          "answerIndex": 1,
           "choiceIds": [
             "vocab-000008-ja-option-1",
             "vocab-000008-ja-option-2",
             "vocab-000008-ja-option-3",
             "vocab-000008-ja-option-4"
           ],
-          "correctChoiceId": "vocab-000008-ja-option-3"
+          "correctChoiceId": "vocab-000008-ja-option-2",
+          "distractorHeadwords": [
+            "adverse",
+            null,
+            "eloquent",
+            "affordable"
+          ]
         },
         "en": {
           "choices": [
-            "unclear enough to require revision",
-            "reasonable enough to seem true",
-            "contradictory enough to be rejected",
-            "precise enough to leave no ambiguity"
+            "harmful or likely to cause problems",
+            "seeming likely to be true",
+            "able to speak clearly and with force",
+            "not too expensive for most people"
           ],
           "answerIndex": 1,
-          "explanation": "plausibleはもっともらしいという評価であり、証明済みとは限らない。曖昧さ・矛盾・解釈の一意性とは異なる。",
           "choiceIds": [
             "vocab-000008-en-option-1",
             "vocab-000008-en-option-2",
             "vocab-000008-en-option-3",
             "vocab-000008-en-option-4"
           ],
-          "correctChoiceId": "vocab-000008-en-option-2"
+          "correctChoiceId": "vocab-000008-en-option-2",
+          "distractorHeadwords": [
+            "adverse",
+            null,
+            "eloquent",
+            "affordable"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "adverse",
+            "plausible",
+            "eloquent",
+            "affordable"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000008-ja_en-option-1",
+            "vocab-000008-ja_en-option-2",
+            "vocab-000008-ja_en-option-3",
+            "vocab-000008-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000008-ja_en-option-2",
+          "distractorHeadwords": [
+            "adverse",
+            null,
+            "eloquent",
+            "affordable"
+          ]
         }
       }
     },
     {
       "id": "vocab-000009",
-      "level": "C1",
-      "unitNumber": 1,
       "headword": "inherent",
       "partOfSpeech": "adjective",
-      "meaning": "対象の本質に元から備わっている",
-      "definition": "existing as part of the basic nature of something",
+      "level": "C1",
+      "genre": "advanced",
+      "setNumber": 3,
+      "meaning": "固有の",
+      "definition": "forming a basic part of something",
       "example": "Some uncertainty is inherent in forecasting demand for a new product.",
       "exampleOrigin": "original-for-this-app",
-      "testedSense": "本質的・内在的に備わる",
-      "selectionReason": "リスクや不確実性が対象そのものに含まれると述べる意味を選定。",
-      "status": "draft",
+      "testedSense": "固有の（forming a basic part of something）",
+      "status": "unverified",
       "selectionSource": {
         "listName": "Octanove Vocabulary Profile C1/C2",
         "version": "1.0",
@@ -516,53 +764,85 @@
       "questions": {
         "ja": {
           "choices": [
-            "本質に元から備わる",
-            "一時的な状況で生じる",
-            "外部の要求で加わる",
-            "意図的な訓練で身につく"
+            "正当な",
+            "微妙な",
+            "固有の",
+            "控えめな"
           ],
-          "answerIndex": 0,
-          "explanation": "inherentは対象の本質に含まれる性質。一時的な事情、外からの要求、訓練で後から加わる性質とは区別する。",
+          "answerIndex": 2,
           "choiceIds": [
             "vocab-000009-ja-option-1",
             "vocab-000009-ja-option-2",
             "vocab-000009-ja-option-3",
             "vocab-000009-ja-option-4"
           ],
-          "correctChoiceId": "vocab-000009-ja-option-1"
+          "correctChoiceId": "vocab-000009-ja-option-3",
+          "distractorHeadwords": [
+            "legitimate",
+            "subtle",
+            null,
+            "modest"
+          ]
         },
         "en": {
           "choices": [
-            "present as a result of a temporary situation",
-            "present as a result of an external requirement",
-            "present as part of something's basic nature",
-            "present as a result of deliberate training"
+            "fair and allowed by the law",
+            "not obvious and hard to notice",
+            "forming a basic part of something",
+            "not large and not too proud of yourself"
           ],
           "answerIndex": 2,
-          "explanation": "inherentは対象の本質に含まれる性質。一時的な事情、外からの要求、訓練で後から加わる性質とは区別する。",
           "choiceIds": [
             "vocab-000009-en-option-1",
             "vocab-000009-en-option-2",
             "vocab-000009-en-option-3",
             "vocab-000009-en-option-4"
           ],
-          "correctChoiceId": "vocab-000009-en-option-3"
+          "correctChoiceId": "vocab-000009-en-option-3",
+          "distractorHeadwords": [
+            "legitimate",
+            "subtle",
+            null,
+            "modest"
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "legitimate",
+            "subtle",
+            "inherent",
+            "modest"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000009-ja_en-option-1",
+            "vocab-000009-ja_en-option-2",
+            "vocab-000009-ja_en-option-3",
+            "vocab-000009-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000009-ja_en-option-3",
+          "distractorHeadwords": [
+            "legitimate",
+            "subtle",
+            null,
+            "modest"
+          ]
         }
       }
     },
     {
       "id": "vocab-000010",
-      "level": "C1",
-      "unitNumber": 1,
       "headword": "thereby",
       "partOfSpeech": "adverb",
-      "meaning": "その行動によって・その結果として",
-      "definition": "as a result of the action just mentioned",
+      "level": "C1",
+      "genre": "advanced",
+      "setNumber": 3,
+      "meaning": "それによって",
+      "definition": "as a result of the action mentioned",
       "example": "We moved the workshop online, thereby allowing colleagues in other cities to take part.",
       "exampleOrigin": "original-for-this-app",
-      "testedSense": "直前の行動を原因とする結果",
-      "selectionReason": "説明文の因果関係を読み取る接続的用法を選定。単純な-ly派生語ではない。",
-      "status": "draft",
+      "testedSense": "それによって（as a result of the action mentioned）",
+      "status": "unverified",
       "selectionSource": {
         "listName": "Octanove Vocabulary Profile C1/C2",
         "version": "1.0",
@@ -575,40 +855,71 @@
       "questions": {
         "ja": {
           "choices": [
-            "その行動よりも前に",
-            "その行動の結果として",
-            "その行動と同じ時に",
-            "その行動にもかかわらず"
+            "事前に",
+            "通常は",
+            "とてつもなく",
+            "それによって"
           ],
-          "answerIndex": 1,
-          "explanation": "therebyは直前の行動によって生じる結果を示す。時間の前後・同時性・逆接を示す表現とは異なる。",
+          "answerIndex": 3,
           "choiceIds": [
             "vocab-000010-ja-option-1",
             "vocab-000010-ja-option-2",
             "vocab-000010-ja-option-3",
             "vocab-000010-ja-option-4"
           ],
-          "correctChoiceId": "vocab-000010-ja-option-2"
+          "correctChoiceId": "vocab-000010-ja-option-4",
+          "distractorHeadwords": [
+            "beforehand",
+            "ordinarily",
+            "enormously",
+            null
+          ]
         },
         "en": {
           "choices": [
-            "at a time before the action just mentioned",
-            "at the same time as the action just mentioned",
-            "in spite of the action just mentioned",
-            "as a result of the action just mentioned"
+            "at a time before something happens",
+            "most of the time",
+            "to a very great degree",
+            "as a result of the action mentioned"
           ],
           "answerIndex": 3,
-          "explanation": "therebyは直前の行動によって生じる結果を示す。時間の前後・同時性・逆接を示す表現とは異なる。",
           "choiceIds": [
             "vocab-000010-en-option-1",
             "vocab-000010-en-option-2",
             "vocab-000010-en-option-3",
             "vocab-000010-en-option-4"
           ],
-          "correctChoiceId": "vocab-000010-en-option-4"
+          "correctChoiceId": "vocab-000010-en-option-4",
+          "distractorHeadwords": [
+            "beforehand",
+            "ordinarily",
+            "enormously",
+            null
+          ]
+        },
+        "ja_en": {
+          "choices": [
+            "beforehand",
+            "ordinarily",
+            "enormously",
+            "thereby"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000010-ja_en-option-1",
+            "vocab-000010-ja_en-option-2",
+            "vocab-000010-ja_en-option-3",
+            "vocab-000010-ja_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000010-ja_en-option-4",
+          "distractorHeadwords": [
+            "beforehand",
+            "ordinarily",
+            "enormously",
+            null
+          ]
         }
       }
     }
-  ],
-  "publicationNote": "C1①はユーザーが下書きのまま利用を許可。本文の作り直しは別段階。"
+  ]
 }
