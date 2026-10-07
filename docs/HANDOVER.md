@@ -10,7 +10,7 @@
 - 本人（B2〜C1）中心。将来の一般公開を視野に記事をA2〜C1へ拡張。
 - 現在は記事13本、C1①の下書き10語、保存語・復習・記事読了・意見下書きの機能を実装。
 - メール＋パスワード認証とオフライン優先のSupabase同期を実装。実機確認の未確認項目は後述。
-- 第8段階（コロケーション学習：195組み合わせの表示・保存・穴埋め・誤用の見分け）と第10段階（単語帳の拡充とクイズ設定：5ジャンル×3セット＝150語、出題の設定、3形式、制限時間、コンボ）を実装済み。学習時間の自動計測、AI添削は未実装。
+- 第8段階（コロケーション学習：195組み合わせの表示・保存・穴埋め・誤用の見分け）と第10段階（単語帳の拡充とクイズ設定）、第11段階（「定義→英」形式と各ジャンル④〜⑥）を実装済み。単語帳は5ジャンル×6セット＝300語、出題形式は4つ（英→日／英→英／日→英／定義→英）、制限時間とコンボあり。学習時間の自動計測、AI添削は未実装。
 
 ## 2. 作業環境
 
@@ -111,7 +111,7 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 ### 教材
 
 - 本番の正：`materials/articles/*.json`（index以外の13本）と `materials/vocabulary/c1-unit-01.json`（下書き10語）。
-- 単語帳の正：`materials/vocabulary/genres.json`（5ジャンル）と、`materials/vocabulary/*.json` の15セット（1セット10語、語ID `vocab-000001〜000150`）。セットの追加はJSONファイルの追加だけ（ジャンル追加は genres.json に1件）。検証は `node scripts/validate-wordbook.cjs`（`validate-materials.cjs` から自動実行）、確認用一覧は `node scripts/export-wordbook-list.cjs` で `docs/stage10-wordlist.md` を再生成。`scripts/build-wordbook-sets.cjs` は初回生成用で、以後はJSONを直接直す（`--force` は再生成のため通常使わない）。語のレベル・品詞は `materials/validation/` の CEFR-J／Octanove、ビジネス単語は BSL 1.2（固定コピー `bsl-1.2-lemmatized-for-teaching.csv`）と機械照合する。
+- 単語帳の正：`materials/vocabulary/genres.json`（5ジャンル）と、`materials/vocabulary/*.json` の15セット（1セット10語、語ID `vocab-000001〜000300`、5ジャンル×①〜⑥）。セットの追加はJSONファイルの追加だけ（ジャンル追加は genres.json に1件）。検証は `node scripts/validate-wordbook.cjs`（`validate-materials.cjs` から自動実行）、確認用一覧は `node scripts/export-wordbook-list.cjs` で `docs/stage10-wordlist.md` を再生成。`scripts/build-wordbook-sets.cjs`（①〜③）と `build-wordbook-sets-4-6.cjs`（④〜⑥）、`add-def-en-questions.cjs`（①〜③に定義→英を追加）は初回生成用で、以後はJSONを直接直す。各語の `exampleSurface` は例文中の見出し語の表記で、空欄（___）の位置を決める。`definitionLeaks`（scripts/validate-wordbook.cjs）が定義への見出し語・派生語の混入をエラーにする。確認用の一覧は `node scripts/export-stage11-review.cjs` で `docs/stage11-review.md`（全300語、★＝他の選択肢を空欄に入れても文として読める語）を再生成。語のレベル・品詞は `materials/validation/` の CEFR-J／Octanove、ビジネス単語は BSL 1.2（固定コピー `bsl-1.2-lemmatized-for-teaching.csv`）と機械照合する。
 - リスニング教材の正：`materials/listening/listening-items.json`（原稿2段落＋内容確認1問の5本、すべてunverified・オリジナル）。検証は `scripts/validate-listening.cjs`（`validate-materials.cjs` から自動実行）、manifestに登録。従来の3本は learning.js の lessons（旧形式）のまま。
 - コロケーションの正：`materials/collocations/article-collocations.json`（195件、manifestにハッシュ登録）。記事JSONの `usage` は移行元として残すが画面は読まない。IDは不変（`col-<語ID>-<組み合わせslug>`）。検証は `scripts/validate-collocations.cjs`、確認用一覧は `node scripts/export-collocation-list.cjs` で `docs/stage8-collocation-list.md` を再生成。
 - 自動生成：`materials/articles/index.json`（目次）、`materials/article-vocabulary/*.json`（記事語彙）、`materials/search/article-index.json`（一覧用検索索引）、`materials/manifest.json`（参照・SHA256）。
@@ -134,6 +134,7 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 | 20261005032051_allow_unset_goal_preferences.sql | 日・週目標のSQL NULL／JSON nullを未設定として許可 |
 | 20261006050119_allow_collocation_answers.sql | answer_logs.kind に collocation を追加（既存制約を張り替え）。ユーザー側で適用済み（採番20261006050119）。内容は適用前から不変 |
 | 20261007000000_add_ja_en_mode_and_timed_out.sql | answer_logs／unit_sessions の mode に ja_en（日→英）を追加、preferences の mode 設定にも "ja_en" を許可、answer_logs.timed_out（時間切れ）列を追加。ユーザーがSQL Editorで適用し履歴にも同番号で記録済み（改名不要）。確認はユーザーの問い合わせ（実DBの履歴は私は未確認） |
+| 20261007121240_add_def_en_mode.sql | answer_logs／unit_sessions の mode と preferences の mode 設定に def_en（定義→英）を追加。ユーザーがSupabaseで適用済み（採番20261007121240、制約と既存行の維持をユーザーが確認）。内容は適用前から不変 |
 
 - アプリはメール＋パスワードのログイン／ログアウト。新規登録・パスワード再設定画面なし。実DBで既存の認証identityがemailであること、許可表の有効行が存在すること、登録関数とemail対応を確認。
 - ユーザー報告・設計書はHook有効、メール確認OFF、パスワード12文字以上、Google未設定。SupabaseのSite URLとRedirect URLsは公開URL `https://learningenglish2026-xi.vercel.app/` に設定済み（ユーザー確認済み）。他のAuth管理設定の現在値は今回未確認。関数の存在をHookの有効化確認と混同しない。
@@ -166,7 +167,8 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 | 第6 | 一部完了：SQL適用と同期実装・自動検証済み。実機の追加検証は未確認 | docs/stage6-sync-design.md、docs/stage6-supabase-setup.md、docs/stage6-sync-report.md |
 | 第6.5 | 完了：ログイン独立・目アイコン・アカウント／設定／データ管理。自動入力等の実機確認は未確認 | docs/stage65-ui-report.md |
 | 第8 | 実装完了・公開済み：コロケーション中心の学習。SQLはSupabase適用済み（ユーザー報告）、実機の同期確認は未確認。誤用の見分けは65語の各1件（語の最初の組み合わせ）に私（AI）の下書きを登録済みで出題される。下書きはユーザーの確認待ち | docs/stage8-spec.md、docs/stage8-collocation-list.md |
-| 第10 | 実装完了・公開前：単語帳の拡充（150語・15セット）、出題の設定、時間制限、コンボ。SQL（mode に ja_en、answer_logs.timed_out）はSupabase適用済み（ユーザー報告）。語の内容はすべて unverified で、実機の同期確認は未確認 | docs/stage10-spec.md、docs/stage10-wordlist.md |
+| 第11 | 実装完了・確認待ち：定義→英（mode `def_en`）、各ジャンル④〜⑥（150語）。SQLはSupabase適用済み（ユーザー報告）。語の内容はすべて unverified、`docs/stage11-review.md` のユーザー確認と公開前（push未実施） | docs/stage11-spec.md、docs/stage11-review.md |
+| 第10 | 実装完了・公開済み：単語帳の拡充（150語・15セット）、出題の設定、時間制限、コンボ。SQL（mode に ja_en、answer_logs.timed_out）はSupabase適用済み（ユーザー報告）。語の内容はすべて unverified で、実機の同期確認は未確認 | docs/stage10-spec.md、docs/stage10-wordlist.md |
 | 同期仕上げ | 実装完了：未設定目標、恒久拒否隔離、自動統合、UUID照合。本人の再ログイン実機検証は未確認 | docs/sync-import-fix-report.md、docs/automatic-guest-merge-report.md |
 | 第7 | 完了：10本追加→13本、全段落訳、遅延取得、検索・モザイク・棚。教材の本人レビューと最新UI実画面確認は未確認 | docs/stage7-article-plan.md、docs/stage7-implementation-report.md、docs/article-browse-report.md |
 | モザイク仕上げ | 完了：帯削除、下部45%のフェードと影、日付・時間の除外 | docs/mosaic-text-fix-report.md |
