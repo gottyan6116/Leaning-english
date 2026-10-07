@@ -2,8 +2,12 @@
   'use strict';
   const KEYS={logs:'english-notes.quiz.answers.v1',settings:'english-notes.quiz.settings.v1',bookmarks:'english-notes.quiz.bookmarks.v1'};
   const normalize=s=>String(s).trim().toLocaleLowerCase();
-  const MODES=['ja','en','ja_en'],MODE_NAMES={ja:'英語 → 日本語',en:'英語 → 英語',ja_en:'日本語 → 英語'};
-  const modeSupported=(item,mode)=>{if(item?.kind==='collocation')return mode==='en';const q=item?.questions?.[mode];return !!q&&Array.isArray(q.choices)&&q.choices.length===4&&q.choices.every(s=>typeof s==='string'&&s.trim())&&new Set(q.choices.map(normalize)).size===4&&Number.isInteger(q.answerIndex)&&q.answerIndex>=0&&q.answerIndex<4;};
+  const MODES=['ja','en','ja_en','def_en'],MODE_NAMES={ja:'英語 → 日本語',en:'英語 → 英語',ja_en:'日本語 → 英語',def_en:'定義→英'};
+  const BLANK='___';
+  const escapeRegExp=s=>String(s).replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  // Example sentence with the headword's surface form blanked; null unless the surface form occurs exactly once.
+  function maskExample(item){const surface=item?.exampleSurface;if(typeof surface!=='string'||!surface||typeof item.example!=='string')return null;const pattern=new RegExp('\\b'+escapeRegExp(surface)+'\\b','gi'),found=item.example.match(pattern);return found&&found.length===1?item.example.replace(pattern,BLANK):null;}
+  const modeSupported=(item,mode)=>{if(item?.kind==='collocation')return mode==='en';if(mode==='def_en'&&(!item?.definition||maskExample(item)===null))return false;const q=item?.questions?.[mode];return !!q&&Array.isArray(q.choices)&&q.choices.length===4&&q.choices.every(s=>typeof s==='string'&&s.trim())&&new Set(q.choices.map(normalize)).size===4&&Number.isInteger(q.answerIndex)&&q.answerIndex>=0&&q.answerIndex<4;};
   function questionChoices(q,questionId='question'){return q.choices.map((text,i)=>({id:q.choiceIds?.[i]||`${questionId}-option-${i+1}`,text}));}
   function correctChoiceId(q,questionId='question'){return q.correctChoiceId||questionChoices(q,questionId)[q.answerIndex]?.id;}
   function shuffleChoices(q,random=Math.random,questionId='question'){const choices=questionChoices(q,questionId);for(let i=choices.length-1;i>0;i--){const j=Math.min(i,Math.max(0,Math.floor(random()*(i+1))));[choices[i],choices[j]]=[choices[j],choices[i]];}return choices;}
@@ -44,5 +48,5 @@
     next(){if(!['correct','wrong'].includes(this.state))return false;if(this.index+1>=this.items.length){this.state='result';this.endedAt=this.now();return false;}this.index++;this.state='question';if(this.timer)this.timer.reset();return true;}
     result(){const answered=new Set(this.answers.filter(x=>!x.correct).map(x=>x.collocationId||x.wordId));return {total:this.items.length,answered:this.answers.length,correct:this.answers.filter(x=>x.correct).length,wrongItems:this.items.filter(x=>answered.has(x.id)),durationMs:Math.max(0,(this.endedAt??this.now())-this.startedAt),mode:this.mode,maxCombo:this.maxCombo};}
   }
-  const api={MODES,MODE_NAMES,modeSupported,QuestionTimer,QuizStore,QuizSession,chooseReview,chooseNextSet,scoreForMode,validateItem,questionChoices,correctChoiceId,shuffleChoices,KEYS};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.EnglishQuiz=api;
+  const api={MODES,MODE_NAMES,BLANK,maskExample,modeSupported,QuestionTimer,QuizStore,QuizSession,chooseReview,chooseNextSet,scoreForMode,validateItem,questionChoices,correctChoiceId,shuffleChoices,KEYS};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.EnglishQuiz=api;
 })(typeof window!=='undefined'?window:globalThis);

@@ -1,6 +1,6 @@
 {
   "id": "business-02",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
   "title": "ビジネス単語 ②",
   "genre": "business",
@@ -21,6 +21,7 @@
       "meaning": "合併",
       "definition": "the joining of two companies into one",
       "example": "The merger created the largest bank in the region.",
+      "exampleSurface": "merger",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "合併（the joining of two companies into one）",
       "status": "unverified",
@@ -105,6 +106,28 @@
             null,
             "feedback"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "warranty",
+            "applicant",
+            "merger",
+            "feedback"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000081-def_en-option-1",
+            "vocab-000081-def_en-option-2",
+            "vocab-000081-def_en-option-3",
+            "vocab-000081-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000081-def_en-option-3",
+          "distractorHeadwords": [
+            "warranty",
+            "applicant",
+            null,
+            "feedback"
+          ]
         }
       }
     },
@@ -118,6 +141,7 @@
       "meaning": "小冊子",
       "definition": "a thin book with details about a product",
       "example": "The hotel sent us a colour brochure.",
+      "exampleSurface": "brochure",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "小冊子（a thin book with details about a product）",
       "status": "unverified",
@@ -202,6 +226,28 @@
             "feedback",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "deadline",
+            "client",
+            "feedback",
+            "brochure"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000082-def_en-option-1",
+            "vocab-000082-def_en-option-2",
+            "vocab-000082-def_en-option-3",
+            "vocab-000082-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000082-def_en-option-4",
+          "distractorHeadwords": [
+            "deadline",
+            "client",
+            "feedback",
+            null
+          ]
         }
       }
     },
@@ -215,6 +261,7 @@
       "meaning": "意見",
       "definition": "comments about how well someone has done",
       "example": "We asked customers for feedback on the new app.",
+      "exampleSurface": "feedback",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "意見（comments about how well someone has done）",
       "status": "unverified",
@@ -299,6 +346,28 @@
             "client",
             "recession"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "feedback",
+            "refund",
+            "client",
+            "recession"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000083-def_en-option-1",
+            "vocab-000083-def_en-option-2",
+            "vocab-000083-def_en-option-3",
+            "vocab-000083-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000083-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "refund",
+            "client",
+            "recession"
+          ]
         }
       }
     },
@@ -312,6 +381,7 @@
       "meaning": "保証",
       "definition": "a written promise to repair a product",
       "example": "The laptop has a two-year warranty.",
+      "exampleSurface": "warranty",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "保証（a written promise to repair a product）",
       "status": "unverified",
@@ -396,6 +466,28 @@
             "audit",
             "supervisor"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "deadline",
+            "warranty",
+            "audit",
+            "supervisor"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000084-def_en-option-1",
+            "vocab-000084-def_en-option-2",
+            "vocab-000084-def_en-option-3",
+            "vocab-000084-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000084-def_en-option-2",
+          "distractorHeadwords": [
+            "deadline",
+            null,
+            "audit",
+            "supervisor"
+          ]
         }
       }
     },
@@ -409,6 +501,7 @@
       "meaning": "明確にする",
       "definition": "to make something easier to understand",
       "example": "Could you clarify what you mean?",
+      "exampleSurface": "clarify",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "明確にする（to make something easier to understand）",
       "status": "unverified",
@@ -493,6 +586,28 @@
             null,
             "compile"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "enforce",
+            "obtain",
+            "clarify",
+            "compile"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000085-def_en-option-1",
+            "vocab-000085-def_en-option-2",
+            "vocab-000085-def_en-option-3",
+            "vocab-000085-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000085-def_en-option-3",
+          "distractorHeadwords": [
+            "enforce",
+            "obtain",
+            null,
+            "compile"
+          ]
         }
       }
     },
@@ -506,6 +621,7 @@
       "meaning": "簡素化する",
       "definition": "to make something easier to do",
       "example": "The new form simplifies the process.",
+      "exampleSurface": "simplifies",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "簡素化する（to make something easier to do）",
       "status": "unverified",
@@ -590,6 +706,28 @@
             "endorse",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "obtain",
+            "upgrade",
+            "endorse",
+            "simplify"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000086-def_en-option-1",
+            "vocab-000086-def_en-option-2",
+            "vocab-000086-def_en-option-3",
+            "vocab-000086-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000086-def_en-option-4",
+          "distractorHeadwords": [
+            "obtain",
+            "upgrade",
+            "endorse",
+            null
+          ]
         }
       }
     },
@@ -603,6 +741,7 @@
       "meaning": "格上げする",
       "definition": "to change something to a better version",
       "example": "We upgraded our computers last month.",
+      "exampleSurface": "upgraded",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "格上げする（to change something to a better version）",
       "status": "unverified",
@@ -687,6 +826,28 @@
             "endorse",
             "clarify"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "upgrade",
+            "compile",
+            "endorse",
+            "clarify"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000087-def_en-option-1",
+            "vocab-000087-def_en-option-2",
+            "vocab-000087-def_en-option-3",
+            "vocab-000087-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000087-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "compile",
+            "endorse",
+            "clarify"
+          ]
         }
       }
     },
@@ -700,6 +861,7 @@
       "meaning": "有能な",
       "definition": "able to do a job well",
       "example": "She is a competent manager.",
+      "exampleSurface": "competent",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "有能な（able to do a job well）",
       "status": "unverified",
@@ -784,6 +946,28 @@
             "affordable",
             "profitable"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "urgent",
+            "competent",
+            "affordable",
+            "profitable"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000088-def_en-option-1",
+            "vocab-000088-def_en-option-2",
+            "vocab-000088-def_en-option-3",
+            "vocab-000088-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000088-def_en-option-2",
+          "distractorHeadwords": [
+            "urgent",
+            null,
+            "affordable",
+            "profitable"
+          ]
         }
       }
     },
@@ -797,6 +981,7 @@
       "meaning": "手頃な価格の",
       "definition": "not too expensive for most people",
       "example": "The company sells affordable laptops.",
+      "exampleSurface": "affordable",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "手頃な価格の（not too expensive for most people）",
       "status": "unverified",
@@ -881,6 +1066,28 @@
             null,
             "valid"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "reluctant",
+            "competent",
+            "affordable",
+            "valid"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000089-def_en-option-1",
+            "vocab-000089-def_en-option-2",
+            "vocab-000089-def_en-option-3",
+            "vocab-000089-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000089-def_en-option-3",
+          "distractorHeadwords": [
+            "reluctant",
+            "competent",
+            null,
+            "valid"
+          ]
         }
       }
     },
@@ -894,6 +1101,7 @@
       "meaning": "有効な",
       "definition": "officially acceptable for a period of time",
       "example": "Your ticket is valid for three days.",
+      "exampleSurface": "valid",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "有効な（officially acceptable for a period of time）",
       "status": "unverified",
@@ -972,6 +1180,28 @@
             "vocab-000090-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000090-ja_en-option-4",
+          "distractorHeadwords": [
+            "competent",
+            "thorough",
+            "reluctant",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "competent",
+            "thorough",
+            "reluctant",
+            "valid"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000090-def_en-option-1",
+            "vocab-000090-def_en-option-2",
+            "vocab-000090-def_en-option-3",
+            "vocab-000090-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000090-def_en-option-4",
           "distractorHeadwords": [
             "competent",
             "thorough",

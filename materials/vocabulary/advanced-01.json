@@ -1,6 +1,6 @@
 {
   "id": "advanced-01",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
   "title": "アドバンス単語 ①",
   "genre": "advanced",
@@ -21,6 +21,7 @@
       "meaning": "合意",
       "definition": "an agreement shared by most people",
       "example": "The group reached a consensus after a long talk.",
+      "exampleSurface": "consensus",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "合意（an agreement shared by most people）",
       "status": "unverified",
@@ -99,6 +100,28 @@
             null,
             "bureaucracy"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "outlook",
+            "allegation",
+            "consensus",
+            "bureaucracy"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000101-def_en-option-1",
+            "vocab-000101-def_en-option-2",
+            "vocab-000101-def_en-option-3",
+            "vocab-000101-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000101-def_en-option-3",
+          "distractorHeadwords": [
+            "outlook",
+            "allegation",
+            null,
+            "bureaucracy"
+          ]
         }
       }
     },
@@ -112,6 +135,7 @@
       "meaning": "板挟み",
       "definition": "a hard choice between two options",
       "example": "She faced a dilemma between family and work.",
+      "exampleSurface": "dilemma",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "板挟み（a hard choice between two options）",
       "status": "unverified",
@@ -190,6 +214,28 @@
             "outlook",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "scrutiny",
+            "controversy",
+            "outlook",
+            "dilemma"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000102-def_en-option-1",
+            "vocab-000102-def_en-option-2",
+            "vocab-000102-def_en-option-3",
+            "vocab-000102-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000102-def_en-option-4",
+          "distractorHeadwords": [
+            "scrutiny",
+            "controversy",
+            "outlook",
+            null
+          ]
         }
       }
     },
@@ -203,6 +249,7 @@
       "meaning": "官僚制",
       "definition": "a system with many official rules and steps",
       "example": "The bureaucracy delayed the building project.",
+      "exampleSurface": "bureaucracy",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "官僚制（a system with many official rules and steps）",
       "status": "unverified",
@@ -281,6 +328,28 @@
             "outlook",
             "constraint"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "bureaucracy",
+            "flaw",
+            "outlook",
+            "constraint"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000103-def_en-option-1",
+            "vocab-000103-def_en-option-2",
+            "vocab-000103-def_en-option-3",
+            "vocab-000103-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000103-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "flaw",
+            "outlook",
+            "constraint"
+          ]
         }
       }
     },
@@ -294,6 +363,7 @@
       "meaning": "論争",
       "definition": "a public argument about something",
       "example": "The new law caused great controversy.",
+      "exampleSurface": "controversy",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "論争（a public argument about something）",
       "status": "unverified",
@@ -372,6 +442,28 @@
             "outlook",
             "allegation"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "dilemma",
+            "controversy",
+            "outlook",
+            "allegation"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000104-def_en-option-1",
+            "vocab-000104-def_en-option-2",
+            "vocab-000104-def_en-option-3",
+            "vocab-000104-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000104-def_en-option-2",
+          "distractorHeadwords": [
+            "dilemma",
+            null,
+            "outlook",
+            "allegation"
+          ]
         }
       }
     },
@@ -385,6 +477,7 @@
       "meaning": "認める",
       "definition": "to admit that something is true or right",
       "example": "He conceded that the plan had some weaknesses.",
+      "exampleSurface": "conceded",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "認める（to admit that something is true or right）",
       "status": "unverified",
@@ -463,6 +556,28 @@
             null,
             "persist"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "impede",
+            "reinforce",
+            "concede",
+            "persist"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000105-def_en-option-1",
+            "vocab-000105-def_en-option-2",
+            "vocab-000105-def_en-option-3",
+            "vocab-000105-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000105-def_en-option-3",
+          "distractorHeadwords": [
+            "impede",
+            "reinforce",
+            null,
+            "persist"
+          ]
         }
       }
     },
@@ -476,6 +591,7 @@
       "meaning": "直面する",
       "definition": "to face a difficult person or problem",
       "example": "The manager confronted the issue directly.",
+      "exampleSurface": "confronted",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "直面する（to face a difficult person or problem）",
       "status": "unverified",
@@ -554,6 +670,28 @@
             "reinforce",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "inherit",
+            "compel",
+            "reinforce",
+            "confront"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000106-def_en-option-1",
+            "vocab-000106-def_en-option-2",
+            "vocab-000106-def_en-option-3",
+            "vocab-000106-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000106-def_en-option-4",
+          "distractorHeadwords": [
+            "inherit",
+            "compel",
+            "reinforce",
+            null
+          ]
         }
       }
     },
@@ -567,6 +705,7 @@
       "meaning": "粘る",
       "definition": "to keep going in spite of problems",
       "example": "She persisted with her studies despite many problems.",
+      "exampleSurface": "persisted",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "粘る（to keep going in spite of problems）",
       "status": "unverified",
@@ -645,6 +784,28 @@
             "compel",
             "alleviate"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "persist",
+            "inherit",
+            "compel",
+            "alleviate"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000107-def_en-option-1",
+            "vocab-000107-def_en-option-2",
+            "vocab-000107-def_en-option-3",
+            "vocab-000107-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000107-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "inherit",
+            "compel",
+            "alleviate"
+          ]
         }
       }
     },
@@ -658,6 +819,7 @@
       "meaning": "一貫した",
       "definition": "logical and easy to follow",
       "example": "The report gave a coherent account of events.",
+      "exampleSurface": "coherent",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "一貫した（logical and easy to follow）",
       "status": "unverified",
@@ -736,6 +898,28 @@
             "eloquent",
             "modest"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "inherent",
+            "coherent",
+            "eloquent",
+            "modest"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000108-def_en-option-1",
+            "vocab-000108-def_en-option-2",
+            "vocab-000108-def_en-option-3",
+            "vocab-000108-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000108-def_en-option-2",
+          "distractorHeadwords": [
+            "inherent",
+            null,
+            "eloquent",
+            "modest"
+          ]
         }
       }
     },
@@ -749,6 +933,7 @@
       "meaning": "雄弁な",
       "definition": "able to speak clearly and with force",
       "example": "She gave an eloquent speech at the meeting.",
+      "exampleSurface": "eloquent",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "雄弁な（able to speak clearly and with force）",
       "status": "unverified",
@@ -827,6 +1012,28 @@
             null,
             "inherent"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "modest",
+            "subtle",
+            "eloquent",
+            "inherent"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000109-def_en-option-1",
+            "vocab-000109-def_en-option-2",
+            "vocab-000109-def_en-option-3",
+            "vocab-000109-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000109-def_en-option-3",
+          "distractorHeadwords": [
+            "modest",
+            "subtle",
+            null,
+            "inherent"
+          ]
         }
       }
     },
@@ -840,6 +1047,7 @@
       "meaning": "微妙な",
       "definition": "not obvious and hard to notice",
       "example": "There is a subtle difference between the two words.",
+      "exampleSurface": "subtle",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "微妙な（not obvious and hard to notice）",
       "status": "unverified",
@@ -912,6 +1120,28 @@
             "vocab-000110-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000110-ja_en-option-4",
+          "distractorHeadwords": [
+            "adverse",
+            "modest",
+            "inherent",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "adverse",
+            "modest",
+            "inherent",
+            "subtle"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000110-def_en-option-1",
+            "vocab-000110-def_en-option-2",
+            "vocab-000110-def_en-option-3",
+            "vocab-000110-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000110-def_en-option-4",
           "distractorHeadwords": [
             "adverse",
             "modest",

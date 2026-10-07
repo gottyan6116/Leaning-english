@@ -9,17 +9,20 @@
  const root=document.createElement('div');root.id='quiz-session';root.className='qs-root';root.hidden=true;document.body.append(root);
  const safe=s=>esc(s),modeName=m=>EnglishQuiz.MODE_NAMES[m]||EnglishQuiz.MODE_NAMES.ja;
  let lastOptions={},timerFrame=null,timerTick=null,comboVisible=false,comboTimer=null,shownSeconds=null;
- function exampleHtml(item){const escaped=item.headword.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),pattern=new RegExp('\\b'+escaped+'(?:s|es|ed|ing)?\\b','gi');let result='',last=0;for(const match of item.example.matchAll(pattern)){result+=safe(item.example.slice(last,match.index))+'<strong>'+safe(match[0])+'</strong>';last=match.index+match[0].length;}return result+safe(item.example.slice(last));}
+ function exampleHtml(item){const escaped=(item.exampleSurface||item.headword).replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),pattern=new RegExp('\\b'+escaped+(item.exampleSurface?'':'(?:s|es|ed|ing)?')+'\\b','gi');let result='',last=0;for(const match of item.example.matchAll(pattern)){result+=safe(item.example.slice(last,match.index))+'<strong>'+safe(match[0])+'</strong>';last=match.index+match[0].length;}return result+safe(item.example.slice(last));}
  const saved=id=>window.AppUI?AppUI.isSaved(id):!!store?.bookmarks.includes(id);
 
+ const posLabel=pos=>({noun:'名詞',verb:'動詞',adjective:'形容詞',adverb:'副詞'}[pos]||pos||'');
  const colSaved=id=>!!window.CollocationUI?.isSaved(id);
  function cardHtml(item,answered){
   if(item.kind==='collocation'){const on=colSaved(item.id),example=item.format==='fill'?(answered?item.example:item.exampleMasked):null;return `<h1 class="qs-target">${safe(item.headword)}</h1>${example?`<p class="qs-example">${safe(example)}</p>`:''}${item.collocation.status!=='verified'?'<p class="qs-pending">確認中</p>':''}<button class="qs-circle qs-save ${on?'saved':''}" onclick="QuizUI.bookmarkCollocation('${item.id}')" aria-label="${on?'保存を解除':'組み合わせを保存'}" aria-pressed="${on}">${svg('save')}</button>`;}
-  const m=session.modeOf(item);if(m==='ja_en')return `<h1 class="qs-target">${safe(item.meaning)}</h1><button class="qs-circle qs-save ${saved(item.id)?'saved':''}" onclick="QuizUI.bookmark('${item.id}')" aria-label="${saved(item.id)?'保存を解除':'表現を保存'}" aria-pressed="${saved(item.id)}">${svg('save')}</button>`;
+  const m=session.modeOf(item);if(m==='def_en')return `<h1 class="qs-target qs-definition-card">${safe(item.definition)}</h1><p class="qs-example qs-blank-example">${safe(EnglishQuiz.maskExample(item))}</p><button class="qs-circle qs-save ${saved(item.id)?'saved':''}" onclick="QuizUI.bookmark('${item.id}')" aria-label="${saved(item.id)?'保存を解除':'表現を保存'}" aria-pressed="${saved(item.id)}">${svg('save')}</button>`;
+  if(m==='ja_en')return `<h1 class="qs-target">${safe(item.meaning)}</h1><button class="qs-circle qs-save ${saved(item.id)?'saved':''}" onclick="QuizUI.bookmark('${item.id}')" aria-label="${saved(item.id)?'保存を解除':'表現を保存'}" aria-pressed="${saved(item.id)}">${svg('save')}</button>`;
   return `<h1 class="qs-target">${safe(item.headword)}</h1>${item.sourceKind==='article'||m==='en'?`<p class="qs-example">${safe(item.sourceKind==='article'?item.context:item.example)}</p>`:''}<button class="qs-circle qs-save ${saved(item.id)?'saved':''}" onclick="QuizUI.bookmark('${item.id}')" aria-label="${saved(item.id)?'保存を解除':'表現を保存'}" aria-pressed="${saved(item.id)}">${svg('save')}</button>`;
  }
  function sheetHtml(item){
   if(item.kind==='collocation'){const c=item.collocation;if(item.format==='misuse')return `<h2>${safe(c.misuse.form)}</h2><p>${safe(c.misuse.noteJa)}</p><ul class="qs-natural">${item.questions.en.choices.filter(text=>text!==c.misuse.form).map(text=>`<li>${safe(text)}</li>`).join('')}</ul>`;return `<h2>${safe(c.form)}</h2><p>${safe(c.meaningJa)}</p><p>${safe(c.nuanceJa)}</p><p>${safe(c.example)}</p>`;}
+  if(session.modeOf(item)==='def_en')return `<h2>${safe(item.headword)}</h2><p class="qs-pos">${safe(posLabel(item.partOfSpeech))}　${safe(item.meaning)}</p><p>${exampleHtml(item)}</p>`;
   return `<h2>${session.modeOf(item)==='ja_en'?safe(item.headword)+'　':''}${safe(item.meaning)}</h2><p>${exampleHtml(item)}</p><p class="qs-definition"><span class="qs-definition-label">定義</span>${safe(item.definition)}</p>`;
  }
  function wrongRow(item){

@@ -1,6 +1,6 @@
 {
   "id": "advanced-vocabulary-c1-01",
-  "version": 2,
+  "version": 3,
   "kind": "vocabulary",
   "title": "アドバンス単語 ③",
   "genre": "advanced",
@@ -21,6 +21,7 @@
       "meaning": "制約",
       "definition": "a limit on what you can do",
       "example": "Budget constraints forced us to reduce the scope of the pilot.",
+      "exampleSurface": "constraints",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "制約（a limit on what you can do）",
       "status": "unverified",
@@ -99,6 +100,28 @@
             null,
             "scrutiny"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "bureaucracy",
+            "dilemma",
+            "constraint",
+            "scrutiny"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000001-def_en-option-1",
+            "vocab-000001-def_en-option-2",
+            "vocab-000001-def_en-option-3",
+            "vocab-000001-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000001-def_en-option-3",
+          "distractorHeadwords": [
+            "bureaucracy",
+            "dilemma",
+            null,
+            "scrutiny"
+          ]
         }
       }
     },
@@ -112,6 +135,7 @@
       "meaning": "精査",
       "definition": "careful and close examination",
       "example": "The company's sustainability claims came under scrutiny after the report was published.",
+      "exampleSurface": "scrutiny",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "精査（careful and close examination）",
       "status": "unverified",
@@ -190,6 +214,28 @@
             "flaw",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "outlook",
+            "consensus",
+            "flaw",
+            "scrutiny"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000002-def_en-option-1",
+            "vocab-000002-def_en-option-2",
+            "vocab-000002-def_en-option-3",
+            "vocab-000002-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000002-def_en-option-4",
+          "distractorHeadwords": [
+            "outlook",
+            "consensus",
+            "flaw",
+            null
+          ]
         }
       }
     },
@@ -203,6 +249,7 @@
       "meaning": "前提",
       "definition": "an idea that an argument is based on",
       "example": "The proposal rests on the premise that customers value reliability more than speed.",
+      "exampleSurface": "premise",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "前提（an idea that an argument is based on）",
       "status": "unverified",
@@ -281,6 +328,28 @@
             "bureaucracy",
             "alliance"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "premise",
+            "allegation",
+            "bureaucracy",
+            "alliance"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000003-def_en-option-1",
+            "vocab-000003-def_en-option-2",
+            "vocab-000003-def_en-option-3",
+            "vocab-000003-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000003-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "allegation",
+            "bureaucracy",
+            "alliance"
+          ]
         }
       }
     },
@@ -294,6 +363,7 @@
       "meaning": "疑惑",
       "definition": "a claim that has not been proved",
       "example": "The newspaper reported an allegation of favoritism, but no evidence had yet been presented.",
+      "exampleSurface": "allegation",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "疑惑（a claim that has not been proved）",
       "status": "unverified",
@@ -372,6 +442,28 @@
             "premise",
             "bureaucracy"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "dilemma",
+            "allegation",
+            "premise",
+            "bureaucracy"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000004-def_en-option-1",
+            "vocab-000004-def_en-option-2",
+            "vocab-000004-def_en-option-3",
+            "vocab-000004-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000004-def_en-option-2",
+          "distractorHeadwords": [
+            "dilemma",
+            null,
+            "premise",
+            "bureaucracy"
+          ]
         }
       }
     },
@@ -385,6 +477,7 @@
       "meaning": "和らげる",
       "definition": "to make pain or trouble less severe",
       "example": "A flexible start time may alleviate the stress of a crowded morning commute.",
+      "exampleSurface": "alleviate",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "和らげる（to make pain or trouble less severe）",
       "status": "unverified",
@@ -463,6 +556,28 @@
             null,
             "confront"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "compel",
+            "persist",
+            "alleviate",
+            "confront"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000005-def_en-option-1",
+            "vocab-000005-def_en-option-2",
+            "vocab-000005-def_en-option-3",
+            "vocab-000005-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000005-def_en-option-3",
+          "distractorHeadwords": [
+            "compel",
+            "persist",
+            null,
+            "confront"
+          ]
         }
       }
     },
@@ -476,6 +591,7 @@
       "meaning": "強いる",
       "definition": "to force someone to do something",
       "example": "The revised contract may compel suppliers to disclose additional costs.",
+      "exampleSurface": "compel",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "強いる（to force someone to do something）",
       "status": "unverified",
@@ -554,6 +670,28 @@
             "alleviate",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "reinforce",
+            "inherit",
+            "alleviate",
+            "compel"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000006-def_en-option-1",
+            "vocab-000006-def_en-option-2",
+            "vocab-000006-def_en-option-3",
+            "vocab-000006-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000006-def_en-option-4",
+          "distractorHeadwords": [
+            "reinforce",
+            "inherit",
+            "alleviate",
+            null
+          ]
         }
       }
     },
@@ -567,6 +705,7 @@
       "meaning": "妨げる",
       "definition": "to make progress slow or difficult",
       "example": "Repeated changes to the brief can impede progress on a small project.",
+      "exampleSurface": "impede",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "妨げる（to make progress slow or difficult）",
       "status": "unverified",
@@ -645,6 +784,28 @@
             "reinforce",
             "confront"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "impede",
+            "compel",
+            "reinforce",
+            "confront"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000007-def_en-option-1",
+            "vocab-000007-def_en-option-2",
+            "vocab-000007-def_en-option-3",
+            "vocab-000007-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000007-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "compel",
+            "reinforce",
+            "confront"
+          ]
         }
       }
     },
@@ -658,6 +819,7 @@
       "meaning": "ありそうな",
       "definition": "seeming likely to be true",
       "example": "Her explanation for the delay sounded plausible, although we still needed to check the dates.",
+      "exampleSurface": "plausible",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "ありそうな（seeming likely to be true）",
       "status": "unverified",
@@ -736,6 +898,28 @@
             "eloquent",
             "affordable"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "adverse",
+            "plausible",
+            "eloquent",
+            "affordable"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000008-def_en-option-1",
+            "vocab-000008-def_en-option-2",
+            "vocab-000008-def_en-option-3",
+            "vocab-000008-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000008-def_en-option-2",
+          "distractorHeadwords": [
+            "adverse",
+            null,
+            "eloquent",
+            "affordable"
+          ]
         }
       }
     },
@@ -749,6 +933,7 @@
       "meaning": "固有の",
       "definition": "forming a basic part of something",
       "example": "Some uncertainty is inherent in forecasting demand for a new product.",
+      "exampleSurface": "inherent",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "固有の（forming a basic part of something）",
       "status": "unverified",
@@ -827,6 +1012,28 @@
             null,
             "modest"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "legitimate",
+            "subtle",
+            "inherent",
+            "modest"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000009-def_en-option-1",
+            "vocab-000009-def_en-option-2",
+            "vocab-000009-def_en-option-3",
+            "vocab-000009-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000009-def_en-option-3",
+          "distractorHeadwords": [
+            "legitimate",
+            "subtle",
+            null,
+            "modest"
+          ]
         }
       }
     },
@@ -840,6 +1047,7 @@
       "meaning": "それによって",
       "definition": "as a result of the action mentioned",
       "example": "We moved the workshop online, thereby allowing colleagues in other cities to take part.",
+      "exampleSurface": "thereby",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "それによって（as a result of the action mentioned）",
       "status": "unverified",
@@ -912,6 +1120,28 @@
             "vocab-000010-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000010-ja_en-option-4",
+          "distractorHeadwords": [
+            "beforehand",
+            "ordinarily",
+            "enormously",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "beforehand",
+            "ordinarily",
+            "enormously",
+            "thereby"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000010-def_en-option-1",
+            "vocab-000010-def_en-option-2",
+            "vocab-000010-def_en-option-3",
+            "vocab-000010-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000010-def_en-option-4",
           "distractorHeadwords": [
             "beforehand",
             "ordinarily",

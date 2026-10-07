@@ -18,9 +18,10 @@ test('5 genres x 3 sets = 15 sets and 150 unique words pass the word-set validat
  const result=spawnSync(process.execPath,['scripts/validate-wordbook.cjs'],{cwd:path.join(__dirname,'..'),encoding:'utf8'});assert.equal(result.status,0,result.stdout+result.stderr);
  assert.match(result.stdout,/15 sets, 150 words, 0 errors/);
 });
-test('every word offers all three question formats with valid choices and unverified status',()=>{
+test('every word offers all four question formats with valid choices and unverified status',()=>{
  for(const set of sets)for(const w of set.items){
-  for(const mode of Quiz.MODES){assert.ok(Quiz.modeSupported(w,mode),`${w.id}/${mode}`);const q=w.questions[mode];assert.equal(q.choices[q.answerIndex],{ja:w.meaning,en:w.definition,ja_en:w.headword}[mode]);}
+  for(const mode of Quiz.MODES){assert.ok(Quiz.modeSupported(w,mode),`${w.id}/${mode}`);const q=w.questions[mode];assert.equal(q.choices[q.answerIndex],{ja:w.meaning,en:w.definition,ja_en:w.headword,def_en:w.headword}[mode]);}
+  assert.deepEqual(w.questions.def_en.choices,w.questions.ja_en.choices,'def_en reuses the ja_en choices');assert.notEqual(Quiz.maskExample(w),null);assert.equal(Quiz.maskExample(w).split('___').length,2);
   assert.equal(w.status,'unverified');assert.equal(w.exampleOrigin,'original-for-this-app');assert.ok(w.testedSense.includes(w.meaning));
  }
 });
@@ -116,4 +117,48 @@ test('settings accept the third format and reject unknown ones',()=>{
  state.savePreferences(store,{daily:null,weekly:null},{mode:'ja_en',autoAdvance:true});assert.equal(new QuizStore(storage).settings.mode,'ja_en');
  assert.equal(storage.snapshot().rows.preferences.mode.value,'ja_en');
  assert.throws(()=>state.savePreferences(store,{daily:null,weekly:null},{mode:'xx',autoAdvance:true}));
+});
+
+const {definitionLeaks}=require('../scripts/validate-wordbook.cjs');
+test('definition leak detection catches the headword, its inflections and words of the same family',()=>{
+ assert.deepEqual(definitionLeaks('applicant','a person who will apply for a job'),['apply']);
+ assert.deepEqual(definitionLeaks('applicant','a person who fills in an application form'),['application']);
+ assert.deepEqual(definitionLeaks('applicant','a person who asks formally for a job'),[]);
+ assert.deepEqual(definitionLeaks('cancel','to say that it is cancelled'),['cancelled']);
+ assert.deepEqual(definitionLeaks('wash','a job of washing clothes'),['washing']);
+ assert.deepEqual(definitionLeaks('wash','to clean something with water'),[]);
+ assert.deepEqual(definitionLeaks('rent','a current payment'),[],'short headwords match inflections only');
+ assert.deepEqual(definitionLeaks('simplify','to make something simple'),['simple']);
+ assert.deepEqual(definitionLeaks('ambiguity','having more than one meaning'),[]);
+ for(const set of sets)for(const w of set.items)assert.deepEqual(definitionLeaks(w.headword,w.definition),[],w.headword);
+});
+test('the blanked example hides exactly one occurrence of the surface form and restores to the original',()=>{
+ const item={example:'He repaid the loan in two years.',exampleSurface:'repaid'};
+ assert.equal(Quiz.maskExample(item),'He ___ the loan in two years.');
+ assert.equal(Quiz.maskExample({example:'Cancel it or cancel that.',exampleSurface:'cancel'}),null,'two occurrences are rejected');
+ assert.equal(Quiz.maskExample({example:'Nothing here.',exampleSurface:'repaid'}),null);assert.equal(Quiz.maskExample({example:'Nothing here.'}),null);
+ assert.equal(Quiz.maskExample({example:'The Kitchen is big.',exampleSurface:'kitchen'}),'The ___ is big.');
+ for(const set of sets)for(const w of set.items)assert.equal(Quiz.maskExample(w).replace('___',w.exampleSurface).toLowerCase(),w.example.toLowerCase());
+});
+test('definition -> English is asked, scored and ranged per format like the other formats',()=>{
+ const storage=createStorage(memory()),store=new QuizStore(storage),session=new QuizSession(basic.items,'def_en',store,()=>0,()=>0.5);
+ assert.equal(session.modeOf(basic.items[0]),'def_en');const q=basic.items[0].questions.def_en;assert.equal(session.choices.map(c=>c.id).sort().join(),q.choiceIds.slice().sort().join());
+ const right=session.answerChoice(session.correctId);assert.equal(right.mode,'def_en');assert.equal(right.correct,true);session.next();
+ const wrong=session.answerChoice(session.choices.find(c=>c.id!==session.correctId).id);assert.equal(wrong.mode,'def_en');assert.equal(wrong.correct,false);
+ const rows=Object.values(storage.snapshot().rows.answer_logs);assert.equal(rows.every(row=>row.mode==='def_en'),true);rows.forEach(row=>Sync.validateRow('answer_logs',row));
+ assert.deepEqual(Quiz.scoreForMode(store.logs,'def_en'),{answered:2,correct:1,wrong:1,skipped:0});assert.deepEqual(Quiz.scoreForMode(store.logs,'ja'),{answered:0,correct:0,wrong:0,skipped:0});
+ const ctx={logs:store.logs,mode:'def_en',savedIds:[]};assert.deepEqual(Core.counts(basic,ctx),{auto:10,weak:1,unlearned:8,saved:0});assert.deepEqual(Core.counts(basic,{...ctx,mode:'ja'}),{auto:10,weak:0,unlearned:10,saved:0});
+ assert.equal(Quiz.MODE_NAMES.def_en,'定義→英');assert.equal(Quiz.MODES.length,4);
+ const bare={...basic.items[0],exampleSurface:undefined};assert.equal(Quiz.modeSupported(bare,'def_en'),false,'no blank, no definition question');
+ assert.equal(new QuizSession([bare],'def_en',store).modeOf(bare),'ja','words that cannot be asked fall back to English -> Japanese');
+});
+test('settings, sessions and preferences accept the definition format and reject near misses',()=>{
+ assert.equal(Sync.validPreference('mode','def_en'),true);assert.equal(Sync.validPreference('mode','def-en'),false);
+ const row={event_id:'33333333-3333-4333-8333-333333333333',session_id:'s',question_id:'q',mode:'def_en',kind:'vocabulary',correct:true,skipped:false,answered_at:'2026-10-08T00:00:00Z'};
+ Sync.validateRow('answer_logs',row);assert.throws(()=>Sync.validateRow('answer_logs',{...row,mode:'definition'}));
+ Sync.validateRow('unit_sessions',{session_id:'x',unit_id:'u',mode:'def_en',total:10,correct:7,completed_at:'2026-10-08T00:00:00Z'});
+ const storage=createStorage(memory()),store=new QuizStore(storage),state=new AppState(storage,basic);
+ state.savePreferences(store,{daily:null,weekly:null},{mode:'def_en',autoAdvance:true});assert.equal(new QuizStore(storage).settings.mode,'def_en');
+ const session=new QuizSession(basic.items,'def_en',store,()=>Date.now(),()=>0.3);for(let i=0;i<10;i++){session.answerChoice(session.correctId);session.next();}
+ assert.equal(state.completeUnit(session,basic),true);assert.equal(state.best('def_en',basic),10);assert.equal(state.best('ja_en',basic),null);
 });

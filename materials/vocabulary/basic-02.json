@@ -1,6 +1,6 @@
 {
   "id": "basic-02",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
   "title": "基礎単語 ②",
   "genre": "basic",
@@ -21,6 +21,7 @@
       "meaning": "空港",
       "definition": "a place where planes arrive and leave",
       "example": "We waited at the airport for two hours.",
+      "exampleSurface": "airport",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "空港（a place where planes arrive and leave）",
       "status": "unverified",
@@ -99,6 +100,28 @@
             null,
             "ticket"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "corner",
+            "holiday",
+            "airport",
+            "ticket"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000021-def_en-option-1",
+            "vocab-000021-def_en-option-2",
+            "vocab-000021-def_en-option-3",
+            "vocab-000021-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000021-def_en-option-3",
+          "distractorHeadwords": [
+            "corner",
+            "holiday",
+            null,
+            "ticket"
+          ]
         }
       }
     },
@@ -112,6 +135,7 @@
       "meaning": "傘",
       "definition": "a thing that keeps rain off your head",
       "example": "Take an umbrella because it may rain.",
+      "exampleSurface": "umbrella",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "傘（a thing that keeps rain off your head）",
       "status": "unverified",
@@ -190,6 +214,28 @@
             "shoulder",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "bridge",
+            "ground",
+            "shoulder",
+            "umbrella"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000022-def_en-option-1",
+            "vocab-000022-def_en-option-2",
+            "vocab-000022-def_en-option-3",
+            "vocab-000022-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000022-def_en-option-4",
+          "distractorHeadwords": [
+            "bridge",
+            "ground",
+            "shoulder",
+            null
+          ]
         }
       }
     },
@@ -203,6 +249,7 @@
       "meaning": "角",
       "definition": "the place where two streets meet",
       "example": "The shop is on the corner of the street.",
+      "exampleSurface": "corner",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "角（the place where two streets meet）",
       "status": "unverified",
@@ -281,6 +328,28 @@
             "bottle",
             "ticket"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "corner",
+            "bridge",
+            "bottle",
+            "ticket"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000023-def_en-option-1",
+            "vocab-000023-def_en-option-2",
+            "vocab-000023-def_en-option-3",
+            "vocab-000023-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000023-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "bridge",
+            "bottle",
+            "ticket"
+          ]
         }
       }
     },
@@ -294,6 +363,7 @@
       "meaning": "肩",
       "definition": "the part of the body next to the neck",
       "example": "He carried the bag on his shoulder.",
+      "exampleSurface": "shoulder",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "肩（the part of the body next to the neck）",
       "status": "unverified",
@@ -372,6 +442,28 @@
             "holiday",
             "umbrella"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "corner",
+            "shoulder",
+            "holiday",
+            "umbrella"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000024-def_en-option-1",
+            "vocab-000024-def_en-option-2",
+            "vocab-000024-def_en-option-3",
+            "vocab-000024-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000024-def_en-option-2",
+          "distractorHeadwords": [
+            "corner",
+            null,
+            "holiday",
+            "umbrella"
+          ]
         }
       }
     },
@@ -385,6 +477,7 @@
       "meaning": "洗う",
       "definition": "to clean something with water",
       "example": "I wash my hands before dinner.",
+      "exampleSurface": "wash",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "洗う（to clean something with water）",
       "status": "unverified",
@@ -463,6 +556,28 @@
             null,
             "answer"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "enjoy",
+            "borrow",
+            "wash",
+            "answer"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000025-def_en-option-1",
+            "vocab-000025-def_en-option-2",
+            "vocab-000025-def_en-option-3",
+            "vocab-000025-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000025-def_en-option-3",
+          "distractorHeadwords": [
+            "enjoy",
+            "borrow",
+            null,
+            "answer"
+          ]
         }
       }
     },
@@ -476,6 +591,7 @@
       "meaning": "捕まえる",
       "definition": "to take hold of something that moves",
       "example": "She can catch the ball with one hand.",
+      "exampleSurface": "catch",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "捕まえる（to take hold of something that moves）",
       "status": "unverified",
@@ -554,6 +670,28 @@
             "answer",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "clean",
+            "enjoy",
+            "answer",
+            "catch"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000026-def_en-option-1",
+            "vocab-000026-def_en-option-2",
+            "vocab-000026-def_en-option-3",
+            "vocab-000026-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000026-def_en-option-4",
+          "distractorHeadwords": [
+            "clean",
+            "enjoy",
+            "answer",
+            null
+          ]
         }
       }
     },
@@ -567,6 +705,7 @@
       "meaning": "押す",
       "definition": "to use force to move something away",
       "example": "Please push the door to open it.",
+      "exampleSurface": "push",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "押す（to use force to move something away）",
       "status": "unverified",
@@ -645,6 +784,28 @@
             "catch",
             "carry"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "push",
+            "borrow",
+            "catch",
+            "carry"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000027-def_en-option-1",
+            "vocab-000027-def_en-option-2",
+            "vocab-000027-def_en-option-3",
+            "vocab-000027-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000027-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "borrow",
+            "catch",
+            "carry"
+          ]
         }
       }
     },
@@ -658,6 +819,7 @@
       "meaning": "疲れた",
       "definition": "needing to rest or sleep",
       "example": "I was tired after the long walk.",
+      "exampleSurface": "tired",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "疲れた（needing to rest or sleep）",
       "status": "unverified",
@@ -736,6 +898,28 @@
             "heavy",
             "tall"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "cheap",
+            "tired",
+            "heavy",
+            "tall"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000028-def_en-option-1",
+            "vocab-000028-def_en-option-2",
+            "vocab-000028-def_en-option-3",
+            "vocab-000028-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000028-def_en-option-2",
+          "distractorHeadwords": [
+            "cheap",
+            null,
+            "heavy",
+            "tall"
+          ]
         }
       }
     },
@@ -749,6 +933,7 @@
       "meaning": "安い",
       "definition": "costing very little money",
       "example": "These shoes were cheap.",
+      "exampleSurface": "cheap",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "安い（costing very little money）",
       "status": "unverified",
@@ -827,6 +1012,28 @@
             null,
             "tall"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "heavy",
+            "busy",
+            "cheap",
+            "tall"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000029-def_en-option-1",
+            "vocab-000029-def_en-option-2",
+            "vocab-000029-def_en-option-3",
+            "vocab-000029-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000029-def_en-option-3",
+          "distractorHeadwords": [
+            "heavy",
+            "busy",
+            null,
+            "tall"
+          ]
         }
       }
     },
@@ -840,6 +1047,7 @@
       "meaning": "背が高い",
       "definition": "having a great height",
       "example": "My brother is very tall.",
+      "exampleSurface": "tall",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "背が高い（having a great height）",
       "status": "unverified",
@@ -912,6 +1120,28 @@
             "vocab-000030-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000030-ja_en-option-4",
+          "distractorHeadwords": [
+            "noisy",
+            "busy",
+            "hungry",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "noisy",
+            "busy",
+            "hungry",
+            "tall"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000030-def_en-option-1",
+            "vocab-000030-def_en-option-2",
+            "vocab-000030-def_en-option-3",
+            "vocab-000030-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000030-def_en-option-4",
           "distractorHeadwords": [
             "noisy",
             "busy",

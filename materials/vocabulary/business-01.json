@@ -1,6 +1,6 @@
 {
   "id": "business-01",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
   "title": "ビジネス単語 ①",
   "genre": "business",
@@ -21,6 +21,7 @@
       "meaning": "締め切り",
       "definition": "the time by which a task must be finished",
       "example": "The deadline for the report is Friday.",
+      "exampleSurface": "deadline",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "締め切り（the time by which a task must be finished）",
       "status": "unverified",
@@ -105,6 +106,28 @@
             "client",
             "recession"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "deadline",
+            "brochure",
+            "client",
+            "recession"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000071-def_en-option-1",
+            "vocab-000071-def_en-option-2",
+            "vocab-000071-def_en-option-3",
+            "vocab-000071-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000071-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "brochure",
+            "client",
+            "recession"
+          ]
         }
       }
     },
@@ -118,6 +141,7 @@
       "meaning": "顧客",
       "definition": "a person who pays for a service",
       "example": "We met a new client this morning.",
+      "exampleSurface": "client",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "顧客（a person who pays for a service）",
       "status": "unverified",
@@ -202,6 +226,28 @@
             "merger",
             "shortage"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "supervisor",
+            "client",
+            "merger",
+            "shortage"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000072-def_en-option-1",
+            "vocab-000072-def_en-option-2",
+            "vocab-000072-def_en-option-3",
+            "vocab-000072-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000072-def_en-option-2",
+          "distractorHeadwords": [
+            "supervisor",
+            null,
+            "merger",
+            "shortage"
+          ]
         }
       }
     },
@@ -215,6 +261,7 @@
       "meaning": "返金",
       "definition": "money that is paid back to a customer",
       "example": "She asked for a refund for the broken lamp.",
+      "exampleSurface": "refund",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "返金（money that is paid back to a customer）",
       "status": "unverified",
@@ -299,6 +346,28 @@
             null,
             "brochure"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "deadline",
+            "audit",
+            "refund",
+            "brochure"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000073-def_en-option-1",
+            "vocab-000073-def_en-option-2",
+            "vocab-000073-def_en-option-3",
+            "vocab-000073-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000073-def_en-option-3",
+          "distractorHeadwords": [
+            "deadline",
+            "audit",
+            null,
+            "brochure"
+          ]
         }
       }
     },
@@ -312,6 +381,7 @@
       "meaning": "不足",
       "definition": "not having enough of something",
       "example": "There is a shortage of skilled workers.",
+      "exampleSurface": "shortage",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "不足（not having enough of something）",
       "status": "unverified",
@@ -396,6 +466,28 @@
             "audit",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "brochure",
+            "applicant",
+            "audit",
+            "shortage"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000074-def_en-option-1",
+            "vocab-000074-def_en-option-2",
+            "vocab-000074-def_en-option-3",
+            "vocab-000074-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000074-def_en-option-4",
+          "distractorHeadwords": [
+            "brochure",
+            "applicant",
+            "audit",
+            null
+          ]
         }
       }
     },
@@ -409,6 +501,7 @@
       "meaning": "入手する",
       "definition": "to get something by asking or trying",
       "example": "You must obtain a permit first.",
+      "exampleSurface": "obtain",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "入手する（to get something by asking or trying）",
       "status": "unverified",
@@ -493,6 +586,28 @@
             "endorse",
             "simplify"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "obtain",
+            "enforce",
+            "endorse",
+            "simplify"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000075-def_en-option-1",
+            "vocab-000075-def_en-option-2",
+            "vocab-000075-def_en-option-3",
+            "vocab-000075-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000075-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "enforce",
+            "endorse",
+            "simplify"
+          ]
         }
       }
     },
@@ -506,6 +621,7 @@
       "meaning": "延期する",
       "definition": "to move an event to a later time",
       "example": "The meeting was postponed until next week.",
+      "exampleSurface": "postponed",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "延期する（to move an event to a later time）",
       "status": "unverified",
@@ -590,6 +706,28 @@
             "upgrade",
             "obtain"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "clarify",
+            "postpone",
+            "upgrade",
+            "obtain"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000076-def_en-option-1",
+            "vocab-000076-def_en-option-2",
+            "vocab-000076-def_en-option-3",
+            "vocab-000076-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000076-def_en-option-2",
+          "distractorHeadwords": [
+            "clarify",
+            null,
+            "upgrade",
+            "obtain"
+          ]
         }
       }
     },
@@ -603,6 +741,7 @@
       "meaning": "返済する",
       "definition": "to pay back money that you borrowed",
       "example": "He repaid the loan in two years.",
+      "exampleSurface": "repaid",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "返済する（to pay back money that you borrowed）",
       "status": "unverified",
@@ -687,6 +826,28 @@
             null,
             "postpone"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "enforce",
+            "simplify",
+            "repay",
+            "postpone"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000077-def_en-option-1",
+            "vocab-000077-def_en-option-2",
+            "vocab-000077-def_en-option-3",
+            "vocab-000077-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000077-def_en-option-3",
+          "distractorHeadwords": [
+            "enforce",
+            "simplify",
+            null,
+            "postpone"
+          ]
         }
       }
     },
@@ -700,6 +861,7 @@
       "meaning": "緊急の",
       "definition": "needing action or attention at once",
       "example": "I have an urgent message for you.",
+      "exampleSurface": "urgent",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "緊急の（needing action or attention at once）",
       "status": "unverified",
@@ -784,6 +946,28 @@
             "ambitious",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "profitable",
+            "competent",
+            "ambitious",
+            "urgent"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000078-def_en-option-1",
+            "vocab-000078-def_en-option-2",
+            "vocab-000078-def_en-option-3",
+            "vocab-000078-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000078-def_en-option-4",
+          "distractorHeadwords": [
+            "profitable",
+            "competent",
+            "ambitious",
+            null
+          ]
         }
       }
     },
@@ -797,6 +981,7 @@
       "meaning": "徹底的な",
       "definition": "done with great care and attention to detail",
       "example": "The team made a thorough check of the plan.",
+      "exampleSurface": "thorough",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "徹底的な（done with great care and attention to detail）",
       "status": "unverified",
@@ -881,6 +1066,28 @@
             "valid",
             "reluctant"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "thorough",
+            "profitable",
+            "valid",
+            "reluctant"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000079-def_en-option-1",
+            "vocab-000079-def_en-option-2",
+            "vocab-000079-def_en-option-3",
+            "vocab-000079-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000079-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "profitable",
+            "valid",
+            "reluctant"
+          ]
         }
       }
     },
@@ -894,6 +1101,7 @@
       "meaning": "野心的な",
       "definition": "having a strong wish to succeed",
       "example": "The company has an ambitious sales target.",
+      "exampleSurface": "ambitious",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "野心的な（having a strong wish to succeed）",
       "status": "unverified",
@@ -972,6 +1180,28 @@
             "vocab-000080-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000080-ja_en-option-2",
+          "distractorHeadwords": [
+            "competent",
+            null,
+            "affordable",
+            "urgent"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "competent",
+            "ambitious",
+            "affordable",
+            "urgent"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000080-def_en-option-1",
+            "vocab-000080-def_en-option-2",
+            "vocab-000080-def_en-option-3",
+            "vocab-000080-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000080-def_en-option-2",
           "distractorHeadwords": [
             "competent",
             null,

@@ -1,6 +1,6 @@
 {
   "id": "basic-03",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
   "title": "基礎単語 ③",
   "genre": "basic",
@@ -21,6 +21,7 @@
       "meaning": "山",
       "definition": "a very high hill",
       "example": "We climbed the mountain on Sunday.",
+      "exampleSurface": "mountain",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "山（a very high hill）",
       "status": "unverified",
@@ -99,6 +100,28 @@
             "airport",
             "ticket"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "mountain",
+            "holiday",
+            "airport",
+            "ticket"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000031-def_en-option-1",
+            "vocab-000031-def_en-option-2",
+            "vocab-000031-def_en-option-3",
+            "vocab-000031-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000031-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "holiday",
+            "airport",
+            "ticket"
+          ]
         }
       }
     },
@@ -112,6 +135,7 @@
       "meaning": "瓶",
       "definition": "a container with a narrow neck",
       "example": "She filled the bottle with water.",
+      "exampleSurface": "bottle",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "瓶（a container with a narrow neck）",
       "status": "unverified",
@@ -190,6 +214,28 @@
             "ticket",
             "shoulder"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "umbrella",
+            "bottle",
+            "ticket",
+            "shoulder"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000032-def_en-option-1",
+            "vocab-000032-def_en-option-2",
+            "vocab-000032-def_en-option-3",
+            "vocab-000032-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000032-def_en-option-2",
+          "distractorHeadwords": [
+            "umbrella",
+            null,
+            "ticket",
+            "shoulder"
+          ]
         }
       }
     },
@@ -203,6 +249,7 @@
       "meaning": "休暇",
       "definition": "a time when you do not work",
       "example": "We spent our holiday at the beach.",
+      "exampleSurface": "holiday",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "休暇（a time when you do not work）",
       "status": "unverified",
@@ -281,6 +328,28 @@
             null,
             "ground"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "pocket",
+            "airport",
+            "holiday",
+            "ground"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000033-def_en-option-1",
+            "vocab-000033-def_en-option-2",
+            "vocab-000033-def_en-option-3",
+            "vocab-000033-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000033-def_en-option-3",
+          "distractorHeadwords": [
+            "pocket",
+            "airport",
+            null,
+            "ground"
+          ]
         }
       }
     },
@@ -294,6 +363,7 @@
       "meaning": "地面",
       "definition": "the surface that you walk on",
       "example": "The ground was wet after the rain.",
+      "exampleSurface": "ground",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "地面（the surface that you walk on）",
       "status": "unverified",
@@ -372,6 +442,28 @@
             "bottle",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "ticket",
+            "mountain",
+            "bottle",
+            "ground"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000034-def_en-option-1",
+            "vocab-000034-def_en-option-2",
+            "vocab-000034-def_en-option-3",
+            "vocab-000034-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000034-def_en-option-4",
+          "distractorHeadwords": [
+            "ticket",
+            "mountain",
+            "bottle",
+            null
+          ]
         }
       }
     },
@@ -385,6 +477,7 @@
       "meaning": "送る",
       "definition": "to make something go to another place",
       "example": "I will send you a message tonight.",
+      "exampleSurface": "send",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "送る（to make something go to another place）",
       "status": "unverified",
@@ -463,6 +556,28 @@
             "carry",
             "enjoy"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "send",
+            "borrow",
+            "carry",
+            "enjoy"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000035-def_en-option-1",
+            "vocab-000035-def_en-option-2",
+            "vocab-000035-def_en-option-3",
+            "vocab-000035-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000035-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "borrow",
+            "carry",
+            "enjoy"
+          ]
         }
       }
     },
@@ -476,6 +591,7 @@
       "meaning": "楽しむ",
       "definition": "to feel pleasure from something",
       "example": "They enjoy walking in the park.",
+      "exampleSurface": "enjoy",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "楽しむ（to feel pleasure from something）",
       "status": "unverified",
@@ -554,6 +670,28 @@
             "answer",
             "borrow"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "wash",
+            "enjoy",
+            "answer",
+            "borrow"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000036-def_en-option-1",
+            "vocab-000036-def_en-option-2",
+            "vocab-000036-def_en-option-3",
+            "vocab-000036-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000036-def_en-option-2",
+          "distractorHeadwords": [
+            "wash",
+            null,
+            "answer",
+            "borrow"
+          ]
         }
       }
     },
@@ -567,6 +705,7 @@
       "meaning": "答える",
       "definition": "to say something when someone asks",
       "example": "He answered the question quickly.",
+      "exampleSurface": "answered",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "答える（to say something when someone asks）",
       "status": "unverified",
@@ -645,6 +784,28 @@
             null,
             "push"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "borrow",
+            "enjoy",
+            "answer",
+            "push"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000037-def_en-option-1",
+            "vocab-000037-def_en-option-2",
+            "vocab-000037-def_en-option-3",
+            "vocab-000037-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000037-def_en-option-3",
+          "distractorHeadwords": [
+            "borrow",
+            "enjoy",
+            null,
+            "push"
+          ]
         }
       }
     },
@@ -658,6 +819,7 @@
       "meaning": "静かな",
       "definition": "making very little sound",
       "example": "The library is a quiet place.",
+      "exampleSurface": "quiet",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "静かな（making very little sound）",
       "status": "unverified",
@@ -736,6 +898,28 @@
             "heavy",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "dark",
+            "tall",
+            "heavy",
+            "quiet"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000038-def_en-option-1",
+            "vocab-000038-def_en-option-2",
+            "vocab-000038-def_en-option-3",
+            "vocab-000038-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000038-def_en-option-4",
+          "distractorHeadwords": [
+            "dark",
+            "tall",
+            "heavy",
+            null
+          ]
         }
       }
     },
@@ -749,6 +933,7 @@
       "meaning": "忙しい",
       "definition": "having a lot of things to do",
       "example": "My mother is busy on Mondays.",
+      "exampleSurface": "busy",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "忙しい（having a lot of things to do）",
       "status": "unverified",
@@ -827,6 +1012,28 @@
             "cheap",
             "dark"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "busy",
+            "quiet",
+            "cheap",
+            "dark"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000039-def_en-option-1",
+            "vocab-000039-def_en-option-2",
+            "vocab-000039-def_en-option-3",
+            "vocab-000039-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000039-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "quiet",
+            "cheap",
+            "dark"
+          ]
         }
       }
     },
@@ -840,6 +1047,7 @@
       "meaning": "暗い",
       "definition": "without much light",
       "example": "It was dark when we got home.",
+      "exampleSurface": "dark",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "暗い（without much light）",
       "status": "unverified",
@@ -912,6 +1120,28 @@
             "vocab-000040-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000040-ja_en-option-2",
+          "distractorHeadwords": [
+            "cheap",
+            null,
+            "noisy",
+            "busy"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "cheap",
+            "dark",
+            "noisy",
+            "busy"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000040-def_en-option-1",
+            "vocab-000040-def_en-option-2",
+            "vocab-000040-def_en-option-3",
+            "vocab-000040-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000040-def_en-option-2",
           "distractorHeadwords": [
             "cheap",
             null,

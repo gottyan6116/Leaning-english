@@ -1,6 +1,6 @@
 {
   "id": "business-03",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
   "title": "ビジネス単語 ③",
   "genre": "business",
@@ -21,6 +21,7 @@
       "meaning": "景気後退",
       "definition": "a period when the economy gets weaker",
       "example": "Many shops closed during the recession.",
+      "exampleSurface": "recession",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "景気後退（a period when the economy gets weaker）",
       "status": "unverified",
@@ -105,6 +106,28 @@
             "shortage",
             "deadline"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "recession",
+            "feedback",
+            "shortage",
+            "deadline"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000091-def_en-option-1",
+            "vocab-000091-def_en-option-2",
+            "vocab-000091-def_en-option-3",
+            "vocab-000091-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000091-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "feedback",
+            "shortage",
+            "deadline"
+          ]
         }
       }
     },
@@ -118,6 +141,7 @@
       "meaning": "監査",
       "definition": "an official check of a company's accounts",
       "example": "The audit found no serious errors.",
+      "exampleSurface": "audit",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "監査（an official check of a company's accounts）",
       "status": "unverified",
@@ -202,6 +226,28 @@
             "recession",
             "feedback"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "shortage",
+            "audit",
+            "recession",
+            "feedback"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000092-def_en-option-1",
+            "vocab-000092-def_en-option-2",
+            "vocab-000092-def_en-option-3",
+            "vocab-000092-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000092-def_en-option-2",
+          "distractorHeadwords": [
+            "shortage",
+            null,
+            "recession",
+            "feedback"
+          ]
         }
       }
     },
@@ -215,6 +261,7 @@
       "meaning": "応募者",
       "definition": "a person who asks formally for a job",
       "example": "Each applicant must send a short letter.",
+      "exampleSurface": "applicant",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "応募者（a person who asks formally for a job）",
       "status": "unverified",
@@ -299,6 +346,28 @@
             null,
             "brochure"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "deadline",
+            "merger",
+            "applicant",
+            "brochure"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000093-def_en-option-1",
+            "vocab-000093-def_en-option-2",
+            "vocab-000093-def_en-option-3",
+            "vocab-000093-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000093-def_en-option-3",
+          "distractorHeadwords": [
+            "deadline",
+            "merger",
+            null,
+            "brochure"
+          ]
         }
       }
     },
@@ -312,6 +381,7 @@
       "meaning": "上司",
       "definition": "a person who guides other workers",
       "example": "My supervisor approved the plan.",
+      "exampleSurface": "supervisor",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "上司（a person who guides other workers）",
       "status": "unverified",
@@ -396,6 +466,28 @@
             "recession",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "brochure",
+            "feedback",
+            "recession",
+            "supervisor"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000094-def_en-option-1",
+            "vocab-000094-def_en-option-2",
+            "vocab-000094-def_en-option-3",
+            "vocab-000094-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000094-def_en-option-4",
+          "distractorHeadwords": [
+            "brochure",
+            "feedback",
+            "recession",
+            null
+          ]
         }
       }
     },
@@ -409,6 +501,7 @@
       "meaning": "実施させる",
       "definition": "to make people obey a rule or law",
       "example": "The city enforces strict parking rules.",
+      "exampleSurface": "enforces",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "実施させる（to make people obey a rule or law）",
       "status": "unverified",
@@ -493,6 +586,28 @@
             "postpone",
             "simplify"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "enforce",
+            "compile",
+            "postpone",
+            "simplify"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000095-def_en-option-1",
+            "vocab-000095-def_en-option-2",
+            "vocab-000095-def_en-option-3",
+            "vocab-000095-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000095-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "compile",
+            "postpone",
+            "simplify"
+          ]
         }
       }
     },
@@ -506,6 +621,7 @@
       "meaning": "まとめる",
       "definition": "to collect information and put it together",
       "example": "She compiled a report from several sources.",
+      "exampleSurface": "compiled",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "まとめる（to collect information and put it together）",
       "status": "unverified",
@@ -590,6 +706,28 @@
             "upgrade",
             "postpone"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "repay",
+            "compile",
+            "upgrade",
+            "postpone"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000096-def_en-option-1",
+            "vocab-000096-def_en-option-2",
+            "vocab-000096-def_en-option-3",
+            "vocab-000096-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000096-def_en-option-2",
+          "distractorHeadwords": [
+            "repay",
+            null,
+            "upgrade",
+            "postpone"
+          ]
         }
       }
     },
@@ -603,6 +741,7 @@
       "meaning": "支持する",
       "definition": "to say publicly that you support something",
       "example": "The union endorsed the new agreement.",
+      "exampleSurface": "endorsed",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "支持する（to say publicly that you support something）",
       "status": "unverified",
@@ -687,6 +826,28 @@
             null,
             "compile"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "postpone",
+            "simplify",
+            "endorse",
+            "compile"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000097-def_en-option-1",
+            "vocab-000097-def_en-option-2",
+            "vocab-000097-def_en-option-3",
+            "vocab-000097-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000097-def_en-option-3",
+          "distractorHeadwords": [
+            "postpone",
+            "simplify",
+            null,
+            "compile"
+          ]
         }
       }
     },
@@ -700,6 +861,7 @@
       "meaning": "資格のある",
       "definition": "having the right to do or receive something",
       "example": "Students are eligible for a discount.",
+      "exampleSurface": "eligible",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "資格のある（having the right to do or receive something）",
       "status": "unverified",
@@ -784,6 +946,28 @@
             "affordable",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "ambitious",
+            "thorough",
+            "affordable",
+            "eligible"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000098-def_en-option-1",
+            "vocab-000098-def_en-option-2",
+            "vocab-000098-def_en-option-3",
+            "vocab-000098-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000098-def_en-option-4",
+          "distractorHeadwords": [
+            "ambitious",
+            "thorough",
+            "affordable",
+            null
+          ]
         }
       }
     },
@@ -797,6 +981,7 @@
       "meaning": "利益の出る",
       "definition": "making more money than it costs",
       "example": "The shop became profitable last year.",
+      "exampleSurface": "profitable",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "利益の出る（making more money than it costs）",
       "status": "unverified",
@@ -881,6 +1066,28 @@
             "thorough",
             "affordable"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "profitable",
+            "competent",
+            "thorough",
+            "affordable"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000099-def_en-option-1",
+            "vocab-000099-def_en-option-2",
+            "vocab-000099-def_en-option-3",
+            "vocab-000099-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000099-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "competent",
+            "thorough",
+            "affordable"
+          ]
         }
       }
     },
@@ -894,6 +1101,7 @@
       "meaning": "気が進まない",
       "definition": "not willing to do something",
       "example": "He was reluctant to sign the contract.",
+      "exampleSurface": "reluctant",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "気が進まない（not willing to do something）",
       "status": "unverified",
@@ -972,6 +1180,28 @@
             "vocab-000100-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000100-ja_en-option-2",
+          "distractorHeadwords": [
+            "valid",
+            null,
+            "affordable",
+            "profitable"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "valid",
+            "reluctant",
+            "affordable",
+            "profitable"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000100-def_en-option-1",
+            "vocab-000100-def_en-option-2",
+            "vocab-000100-def_en-option-3",
+            "vocab-000100-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000100-def_en-option-2",
           "distractorHeadwords": [
             "valid",
             null,

@@ -24,3 +24,6 @@
  .qs-timeleft{display:block}
  .qs-combo{animation:none}
 }
+.qs-definition-card{font-size:var(--font-size-page-title);line-height:1.4;margin:12px 0}
+.qs-blank-example{margin:0;color:var(--color-text-sub)}
+.qs-pos{color:var(--color-text-sub)}

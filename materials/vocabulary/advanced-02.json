@@ -1,6 +1,6 @@
 {
   "id": "advanced-02",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
   "title": "アドバンス単語 ②",
   "genre": "advanced",
@@ -21,6 +21,7 @@
       "meaning": "同意",
       "definition": "permission to do something",
       "example": "Parents must give written consent for the trip.",
+      "exampleSurface": "consent",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "同意（permission to do something）",
       "status": "unverified",
@@ -99,6 +100,28 @@
             "dilemma",
             "flaw"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "consent",
+            "constraint",
+            "dilemma",
+            "flaw"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000111-def_en-option-1",
+            "vocab-000111-def_en-option-2",
+            "vocab-000111-def_en-option-3",
+            "vocab-000111-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000111-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "constraint",
+            "dilemma",
+            "flaw"
+          ]
         }
       }
     },
@@ -112,6 +135,7 @@
       "meaning": "同盟",
       "definition": "an agreement between groups to work together",
       "example": "The two parties formed an alliance before the vote.",
+      "exampleSurface": "alliance",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "同盟（an agreement between groups to work together）",
       "status": "unverified",
@@ -190,6 +214,28 @@
             "bureaucracy",
             "flaw"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "consensus",
+            "alliance",
+            "bureaucracy",
+            "flaw"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000112-def_en-option-1",
+            "vocab-000112-def_en-option-2",
+            "vocab-000112-def_en-option-3",
+            "vocab-000112-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000112-def_en-option-2",
+          "distractorHeadwords": [
+            "consensus",
+            null,
+            "bureaucracy",
+            "flaw"
+          ]
         }
       }
     },
@@ -203,6 +249,7 @@
       "meaning": "欠陥",
       "definition": "a mistake or weakness in something",
       "example": "The test revealed a serious flaw in the design.",
+      "exampleSurface": "flaw",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "欠陥（a mistake or weakness in something）",
       "status": "unverified",
@@ -281,6 +328,28 @@
             null,
             "premise"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "consensus",
+            "allegation",
+            "flaw",
+            "premise"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000113-def_en-option-1",
+            "vocab-000113-def_en-option-2",
+            "vocab-000113-def_en-option-3",
+            "vocab-000113-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000113-def_en-option-3",
+          "distractorHeadwords": [
+            "consensus",
+            "allegation",
+            null,
+            "premise"
+          ]
         }
       }
     },
@@ -294,6 +363,7 @@
       "meaning": "見通し",
       "definition": "what is likely to happen in the future",
       "example": "The economic outlook is better than last year.",
+      "exampleSurface": "outlook",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "見通し（what is likely to happen in the future）",
       "status": "unverified",
@@ -372,6 +442,28 @@
             "dilemma",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "controversy",
+            "premise",
+            "dilemma",
+            "outlook"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000114-def_en-option-1",
+            "vocab-000114-def_en-option-2",
+            "vocab-000114-def_en-option-3",
+            "vocab-000114-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000114-def_en-option-4",
+          "distractorHeadwords": [
+            "controversy",
+            "premise",
+            "dilemma",
+            null
+          ]
         }
       }
     },
@@ -385,6 +477,7 @@
       "meaning": "補強する",
       "definition": "to make something stronger",
       "example": "The results reinforce our earlier findings.",
+      "exampleSurface": "reinforce",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "補強する（to make something stronger）",
       "status": "unverified",
@@ -463,6 +556,28 @@
             "persist",
             "confront"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "reinforce",
+            "inherit",
+            "persist",
+            "confront"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000115-def_en-option-1",
+            "vocab-000115-def_en-option-2",
+            "vocab-000115-def_en-option-3",
+            "vocab-000115-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000115-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "inherit",
+            "persist",
+            "confront"
+          ]
         }
       }
     },
@@ -476,6 +591,7 @@
       "meaning": "抑え込む",
       "definition": "to stop something from being seen or heard",
       "example": "The government tried to suppress the news.",
+      "exampleSurface": "suppress",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "抑え込む（to stop something from being seen or heard）",
       "status": "unverified",
@@ -554,6 +670,28 @@
             "inherit",
             "confront"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "persist",
+            "suppress",
+            "inherit",
+            "confront"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000116-def_en-option-1",
+            "vocab-000116-def_en-option-2",
+            "vocab-000116-def_en-option-3",
+            "vocab-000116-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000116-def_en-option-2",
+          "distractorHeadwords": [
+            "persist",
+            null,
+            "inherit",
+            "confront"
+          ]
         }
       }
     },
@@ -567,6 +705,7 @@
       "meaning": "受け継ぐ",
       "definition": "to get things when someone dies",
       "example": "She inherited the house from her aunt.",
+      "exampleSurface": "inherited",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "受け継ぐ（to get things when someone dies）",
       "status": "unverified",
@@ -645,6 +784,28 @@
             null,
             "suppress"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "impede",
+            "compel",
+            "inherit",
+            "suppress"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000117-def_en-option-1",
+            "vocab-000117-def_en-option-2",
+            "vocab-000117-def_en-option-3",
+            "vocab-000117-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000117-def_en-option-3",
+          "distractorHeadwords": [
+            "impede",
+            "compel",
+            null,
+            "suppress"
+          ]
         }
       }
     },
@@ -658,6 +819,7 @@
       "meaning": "正当な",
       "definition": "fair and allowed by the law",
       "example": "He has a legitimate reason for being late.",
+      "exampleSurface": "legitimate",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "正当な（fair and allowed by the law）",
       "status": "unverified",
@@ -736,6 +898,28 @@
             "affordable",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "eloquent",
+            "competent",
+            "affordable",
+            "legitimate"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000118-def_en-option-1",
+            "vocab-000118-def_en-option-2",
+            "vocab-000118-def_en-option-3",
+            "vocab-000118-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000118-def_en-option-4",
+          "distractorHeadwords": [
+            "eloquent",
+            "competent",
+            "affordable",
+            null
+          ]
         }
       }
     },
@@ -749,6 +933,7 @@
       "meaning": "不利な",
       "definition": "harmful or likely to cause problems",
       "example": "Adverse weather forced the team to stay indoors.",
+      "exampleSurface": "Adverse",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "不利な（harmful or likely to cause problems）",
       "status": "unverified",
@@ -827,6 +1012,28 @@
             "subtle",
             "inherent"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "adverse",
+            "eloquent",
+            "subtle",
+            "inherent"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000119-def_en-option-1",
+            "vocab-000119-def_en-option-2",
+            "vocab-000119-def_en-option-3",
+            "vocab-000119-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000119-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "eloquent",
+            "subtle",
+            "inherent"
+          ]
         }
       }
     },
@@ -840,6 +1047,7 @@
       "meaning": "控えめな",
       "definition": "not large and not too proud of yourself",
       "example": "He lives in a modest house near the station.",
+      "exampleSurface": "modest",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "控えめな（not large and not too proud of yourself）",
       "status": "unverified",
@@ -912,6 +1120,28 @@
             "vocab-000120-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000120-ja_en-option-2",
+          "distractorHeadwords": [
+            "eloquent",
+            null,
+            "inherent",
+            "coherent"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "eloquent",
+            "modest",
+            "inherent",
+            "coherent"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000120-def_en-option-1",
+            "vocab-000120-def_en-option-2",
+            "vocab-000120-def_en-option-3",
+            "vocab-000120-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000120-def_en-option-2",
           "distractorHeadwords": [
             "eloquent",
             null,

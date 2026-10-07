@@ -1,6 +1,6 @@
 {
   "id": "super-03",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
   "title": "超アドバンス単語 ③",
   "genre": "super",
@@ -21,6 +21,7 @@
       "meaning": "細部",
       "definition": "very small and exact details",
       "example": "The committee argued over the minutiae of the contract.",
+      "exampleSurface": "minutiae",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "細部（very small and exact details）",
       "status": "unverified",
@@ -99,6 +100,28 @@
             "legacy",
             "scenario"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "minutiae",
+            "adversary",
+            "legacy",
+            "scenario"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000141-def_en-option-1",
+            "vocab-000141-def_en-option-2",
+            "vocab-000141-def_en-option-3",
+            "vocab-000141-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000141-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "adversary",
+            "legacy",
+            "scenario"
+          ]
         }
       }
     },
@@ -112,6 +135,7 @@
       "meaning": "敵対者",
       "definition": "a person or group that you compete against",
       "example": "The two companies have been adversaries for years.",
+      "exampleSurface": "adversaries",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "敵対者（a person or group that you compete against）",
       "status": "unverified",
@@ -190,6 +214,28 @@
             "scenario",
             "discourse"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "conformity",
+            "adversary",
+            "scenario",
+            "discourse"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000142-def_en-option-1",
+            "vocab-000142-def_en-option-2",
+            "vocab-000142-def_en-option-3",
+            "vocab-000142-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000142-def_en-option-2",
+          "distractorHeadwords": [
+            "conformity",
+            null,
+            "scenario",
+            "discourse"
+          ]
         }
       }
     },
@@ -203,6 +249,7 @@
       "meaning": "終焉",
       "definition": "the end of something that was once successful",
       "example": "The demise of the local newspaper saddened many readers.",
+      "exampleSurface": "demise",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "終焉（the end of something that was once successful）",
       "status": "unverified",
@@ -281,6 +328,28 @@
             null,
             "discourse"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "hypocrisy",
+            "rapport",
+            "demise",
+            "discourse"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000143-def_en-option-1",
+            "vocab-000143-def_en-option-2",
+            "vocab-000143-def_en-option-3",
+            "vocab-000143-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000143-def_en-option-3",
+          "distractorHeadwords": [
+            "hypocrisy",
+            "rapport",
+            null,
+            "discourse"
+          ]
         }
       }
     },
@@ -294,6 +363,7 @@
       "meaning": "頂点",
       "definition": "the highest or most successful point",
       "example": "Winning the prize was the pinnacle of her career.",
+      "exampleSurface": "pinnacle",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "頂点（the highest or most successful point）",
       "status": "unverified",
@@ -372,6 +442,28 @@
             "hypocrisy",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "rapport",
+            "turmoil",
+            "hypocrisy",
+            "pinnacle"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000144-def_en-option-1",
+            "vocab-000144-def_en-option-2",
+            "vocab-000144-def_en-option-3",
+            "vocab-000144-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000144-def_en-option-4",
+          "distractorHeadwords": [
+            "rapport",
+            "turmoil",
+            "hypocrisy",
+            null
+          ]
         }
       }
     },
@@ -385,6 +477,7 @@
       "meaning": "遺贈する",
       "definition": "to leave money or things to someone when you die",
       "example": "He bequeathed his books to the university.",
+      "exampleSurface": "bequeathed",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "遺贈する（to leave money or things to someone when you die）",
       "status": "unverified",
@@ -463,6 +556,28 @@
             "resonate",
             "depict"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "bequeath",
+            "comply",
+            "resonate",
+            "depict"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000145-def_en-option-1",
+            "vocab-000145-def_en-option-2",
+            "vocab-000145-def_en-option-3",
+            "vocab-000145-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000145-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "comply",
+            "resonate",
+            "depict"
+          ]
         }
       }
     },
@@ -476,6 +591,7 @@
       "meaning": "浪費する",
       "definition": "to waste money, time or chances",
       "example": "They squandered the chance to win the game.",
+      "exampleSurface": "squandered",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "浪費する（to waste money, time or chances）",
       "status": "unverified",
@@ -554,6 +670,28 @@
             "depict",
             "resonate"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "bequeath",
+            "squander",
+            "depict",
+            "resonate"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000146-def_en-option-1",
+            "vocab-000146-def_en-option-2",
+            "vocab-000146-def_en-option-3",
+            "vocab-000146-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000146-def_en-option-2",
+          "distractorHeadwords": [
+            "bequeath",
+            null,
+            "depict",
+            "resonate"
+          ]
         }
       }
     },
@@ -567,6 +705,7 @@
       "meaning": "変動する",
       "definition": "to change often between high and low",
       "example": "Prices fluctuate from one season to the next.",
+      "exampleSurface": "fluctuate",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "変動する（to change often between high and low）",
       "status": "unverified",
@@ -645,6 +784,28 @@
             null,
             "depict"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "resonate",
+            "comply",
+            "fluctuate",
+            "depict"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000147-def_en-option-1",
+            "vocab-000147-def_en-option-2",
+            "vocab-000147-def_en-option-3",
+            "vocab-000147-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000147-def_en-option-3",
+          "distractorHeadwords": [
+            "resonate",
+            "comply",
+            null,
+            "depict"
+          ]
         }
       }
     },
@@ -658,6 +819,7 @@
       "meaning": "厳格な",
       "definition": "very strict and difficult to meet",
       "example": "The factory must meet stringent safety standards.",
+      "exampleSurface": "stringent",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "厳格な（very strict and difficult to meet）",
       "status": "unverified",
@@ -736,6 +898,28 @@
             "candid",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "insightful",
+            "versatile",
+            "candid",
+            "stringent"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000148-def_en-option-1",
+            "vocab-000148-def_en-option-2",
+            "vocab-000148-def_en-option-3",
+            "vocab-000148-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000148-def_en-option-4",
+          "distractorHeadwords": [
+            "insightful",
+            "versatile",
+            "candid",
+            null
+          ]
         }
       }
     },
@@ -749,6 +933,7 @@
       "meaning": "入り組んだ",
       "definition": "very complicated and hard to follow",
       "example": "The film has a convoluted plot that confuses many viewers.",
+      "exampleSurface": "convoluted",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "入り組んだ（very complicated and hard to follow）",
       "status": "unverified",
@@ -827,6 +1012,28 @@
             "candid",
             "versatile"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "convoluted",
+            "superficial",
+            "candid",
+            "versatile"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000149-def_en-option-1",
+            "vocab-000149-def_en-option-2",
+            "vocab-000149-def_en-option-3",
+            "vocab-000149-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000149-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "superficial",
+            "candid",
+            "versatile"
+          ]
         }
       }
     },
@@ -840,6 +1047,7 @@
       "meaning": "細心の",
       "definition": "very careful about small details",
       "example": "She keeps meticulous records of every sale.",
+      "exampleSurface": "meticulous",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "細心の（very careful about small details）",
       "status": "unverified",
@@ -912,6 +1120,28 @@
             "vocab-000150-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000150-ja_en-option-2",
+          "distractorHeadwords": [
+            "insightful",
+            null,
+            "versatile",
+            "candid"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "insightful",
+            "meticulous",
+            "versatile",
+            "candid"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000150-def_en-option-1",
+            "vocab-000150-def_en-option-2",
+            "vocab-000150-def_en-option-3",
+            "vocab-000150-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000150-def_en-option-2",
           "distractorHeadwords": [
             "insightful",
             null,

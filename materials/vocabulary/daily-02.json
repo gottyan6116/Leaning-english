@@ -1,6 +1,6 @@
 {
   "id": "daily-02",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
   "title": "日常単語 ②",
   "genre": "daily",
@@ -21,6 +21,7 @@
       "meaning": "レシート",
       "definition": "a paper that shows what you paid for",
       "example": "Keep the receipt in case you want to return it.",
+      "exampleSurface": "receipt",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "レシート（a paper that shows what you paid for）",
       "status": "unverified",
@@ -99,6 +100,28 @@
             "dentist",
             "apartment"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "receipt",
+            "fridge",
+            "dentist",
+            "apartment"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000051-def_en-option-1",
+            "vocab-000051-def_en-option-2",
+            "vocab-000051-def_en-option-3",
+            "vocab-000051-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000051-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "fridge",
+            "dentist",
+            "apartment"
+          ]
         }
       }
     },
@@ -112,6 +135,7 @@
       "meaning": "予定表",
       "definition": "a plan of what will happen and when",
       "example": "My schedule for Monday is full.",
+      "exampleSurface": "schedule",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "予定表（a plan of what will happen and when）",
       "status": "unverified",
@@ -190,6 +214,28 @@
             "gym",
             "pharmacy"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "receipt",
+            "schedule",
+            "gym",
+            "pharmacy"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000052-def_en-option-1",
+            "vocab-000052-def_en-option-2",
+            "vocab-000052-def_en-option-3",
+            "vocab-000052-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000052-def_en-option-2",
+          "distractorHeadwords": [
+            "receipt",
+            null,
+            "gym",
+            "pharmacy"
+          ]
         }
       }
     },
@@ -203,6 +249,7 @@
       "meaning": "アパート",
       "definition": "a set of rooms for living in one building",
       "example": "They rent a small apartment near the park.",
+      "exampleSurface": "apartment",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "アパート（a set of rooms for living in one building）",
       "status": "unverified",
@@ -281,6 +328,28 @@
             null,
             "receipt"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "dentist",
+            "appointment",
+            "apartment",
+            "receipt"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000053-def_en-option-1",
+            "vocab-000053-def_en-option-2",
+            "vocab-000053-def_en-option-3",
+            "vocab-000053-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000053-def_en-option-3",
+          "distractorHeadwords": [
+            "dentist",
+            "appointment",
+            null,
+            "receipt"
+          ]
         }
       }
     },
@@ -294,6 +363,7 @@
       "meaning": "招待",
       "definition": "a request to come to an event",
       "example": "I got an invitation to her party.",
+      "exampleSurface": "invitation",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "招待（a request to come to an event）",
       "status": "unverified",
@@ -372,6 +442,28 @@
             "apartment",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "schedule",
+            "dentist",
+            "apartment",
+            "invitation"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000054-def_en-option-1",
+            "vocab-000054-def_en-option-2",
+            "vocab-000054-def_en-option-3",
+            "vocab-000054-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000054-def_en-option-4",
+          "distractorHeadwords": [
+            "schedule",
+            "dentist",
+            "apartment",
+            null
+          ]
         }
       }
     },
@@ -385,6 +477,7 @@
       "meaning": "配達する",
       "definition": "to take something to a person or place",
       "example": "The shop delivers food to your door.",
+      "exampleSurface": "delivers",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "配達する（to take something to a person or place）",
       "status": "unverified",
@@ -463,6 +556,28 @@
             "bake",
             "repair"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "deliver",
+            "rent",
+            "bake",
+            "repair"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000055-def_en-option-1",
+            "vocab-000055-def_en-option-2",
+            "vocab-000055-def_en-option-3",
+            "vocab-000055-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000055-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "rent",
+            "bake",
+            "repair"
+          ]
         }
       }
     },
@@ -476,6 +591,7 @@
       "meaning": "勧める",
       "definition": "to say that something is good to try",
       "example": "Can you recommend a good restaurant?",
+      "exampleSurface": "recommend",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "勧める（to say that something is good to try）",
       "status": "unverified",
@@ -554,6 +670,28 @@
             "discover",
             "prepare"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "deliver",
+            "recommend",
+            "discover",
+            "prepare"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000056-def_en-option-1",
+            "vocab-000056-def_en-option-2",
+            "vocab-000056-def_en-option-3",
+            "vocab-000056-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000056-def_en-option-2",
+          "distractorHeadwords": [
+            "deliver",
+            null,
+            "discover",
+            "prepare"
+          ]
         }
       }
     },
@@ -567,6 +705,7 @@
       "meaning": "賃借りする",
       "definition": "to pay money to use a place or thing",
       "example": "We rent a car when we travel.",
+      "exampleSurface": "rent",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "賃借りする（to pay money to use a place or thing）",
       "status": "unverified",
@@ -645,6 +784,28 @@
             null,
             "recycle"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "deliver",
+            "recommend",
+            "rent",
+            "recycle"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000057-def_en-option-1",
+            "vocab-000057-def_en-option-2",
+            "vocab-000057-def_en-option-3",
+            "vocab-000057-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000057-def_en-option-3",
+          "distractorHeadwords": [
+            "deliver",
+            "recommend",
+            null,
+            "recycle"
+          ]
         }
       }
     },
@@ -658,6 +819,7 @@
       "meaning": "礼儀正しい",
       "definition": "showing good manners to other people",
       "example": "The waiter was very polite.",
+      "exampleSurface": "polite",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "礼儀正しい（showing good manners to other people）",
       "status": "unverified",
@@ -736,6 +898,28 @@
             "relaxed",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "convenient",
+            "familiar",
+            "relaxed",
+            "polite"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000058-def_en-option-1",
+            "vocab-000058-def_en-option-2",
+            "vocab-000058-def_en-option-3",
+            "vocab-000058-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000058-def_en-option-4",
+          "distractorHeadwords": [
+            "convenient",
+            "familiar",
+            "relaxed",
+            null
+          ]
         }
       }
     },
@@ -749,6 +933,7 @@
       "meaning": "混雑した",
       "definition": "full of many people",
       "example": "The train was crowded this morning.",
+      "exampleSurface": "crowded",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "混雑した（full of many people）",
       "status": "unverified",
@@ -827,6 +1012,28 @@
             "cheerful",
             "comfortable"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "crowded",
+            "nervous",
+            "cheerful",
+            "comfortable"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000059-def_en-option-1",
+            "vocab-000059-def_en-option-2",
+            "vocab-000059-def_en-option-3",
+            "vocab-000059-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000059-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "nervous",
+            "cheerful",
+            "comfortable"
+          ]
         }
       }
     },
@@ -840,6 +1047,7 @@
       "meaning": "見慣れた",
       "definition": "seen or heard many times before",
       "example": "The song sounded familiar to me.",
+      "exampleSurface": "familiar",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "見慣れた（seen or heard many times before）",
       "status": "unverified",
@@ -912,6 +1120,28 @@
             "vocab-000060-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000060-ja_en-option-2",
+          "distractorHeadwords": [
+            "convenient",
+            null,
+            "nervous",
+            "patient"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "convenient",
+            "familiar",
+            "nervous",
+            "patient"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000060-def_en-option-1",
+            "vocab-000060-def_en-option-2",
+            "vocab-000060-def_en-option-3",
+            "vocab-000060-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000060-def_en-option-2",
           "distractorHeadwords": [
             "convenient",
             null,

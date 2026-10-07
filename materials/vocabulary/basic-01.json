@@ -1,6 +1,6 @@
 {
   "id": "basic-01",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
   "title": "基礎単語 ①",
   "genre": "basic",
@@ -21,6 +21,7 @@
       "meaning": "台所",
       "definition": "a room where people cook food",
       "example": "She is making soup in the kitchen.",
+      "exampleSurface": "kitchen",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "台所（a room where people cook food）",
       "status": "unverified",
@@ -99,6 +100,28 @@
             "classroom",
             "library"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "kitchen",
+            "bathroom",
+            "classroom",
+            "library"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000011-def_en-option-1",
+            "vocab-000011-def_en-option-2",
+            "vocab-000011-def_en-option-3",
+            "vocab-000011-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000011-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "bathroom",
+            "classroom",
+            "library"
+          ]
         }
       }
     },
@@ -112,6 +135,7 @@
       "meaning": "切符",
       "definition": "a piece of paper that lets you travel",
       "example": "I bought a train ticket at the station.",
+      "exampleSurface": "ticket",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "切符（a piece of paper that lets you travel）",
       "status": "unverified",
@@ -190,6 +214,28 @@
             "letter",
             "bill"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "map",
+            "ticket",
+            "letter",
+            "bill"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000012-def_en-option-1",
+            "vocab-000012-def_en-option-2",
+            "vocab-000012-def_en-option-3",
+            "vocab-000012-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000012-def_en-option-2",
+          "distractorHeadwords": [
+            "map",
+            null,
+            "letter",
+            "bill"
+          ]
         }
       }
     },
@@ -203,6 +249,7 @@
       "meaning": "橋",
       "definition": "a structure that lets people cross a river",
       "example": "We walked across the old bridge.",
+      "exampleSurface": "bridge",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "橋（a structure that lets people cross a river）",
       "status": "unverified",
@@ -281,6 +328,28 @@
             null,
             "building"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "tower",
+            "fence",
+            "bridge",
+            "building"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000013-def_en-option-1",
+            "vocab-000013-def_en-option-2",
+            "vocab-000013-def_en-option-3",
+            "vocab-000013-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000013-def_en-option-3",
+          "distractorHeadwords": [
+            "tower",
+            "fence",
+            null,
+            "building"
+          ]
         }
       }
     },
@@ -294,6 +363,7 @@
       "meaning": "ポケット",
       "definition": "a small part of clothes where you keep things",
       "example": "He put his phone in his pocket.",
+      "exampleSurface": "pocket",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "ポケット（a small part of clothes where you keep things）",
       "status": "unverified",
@@ -372,6 +442,28 @@
             "glove",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "skirt",
+            "button",
+            "glove",
+            "pocket"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000014-def_en-option-1",
+            "vocab-000014-def_en-option-2",
+            "vocab-000014-def_en-option-3",
+            "vocab-000014-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000014-def_en-option-4",
+          "distractorHeadwords": [
+            "skirt",
+            "button",
+            "glove",
+            null
+          ]
         }
       }
     },
@@ -385,6 +477,7 @@
       "meaning": "借りる",
       "definition": "to take something and give it back later",
       "example": "Can I borrow your pen for a minute?",
+      "exampleSurface": "borrow",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "借りる（to take something and give it back later）",
       "status": "unverified",
@@ -463,6 +556,28 @@
             "catch",
             "listen"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "borrow",
+            "wash",
+            "catch",
+            "listen"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000015-def_en-option-1",
+            "vocab-000015-def_en-option-2",
+            "vocab-000015-def_en-option-3",
+            "vocab-000015-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000015-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "wash",
+            "catch",
+            "listen"
+          ]
         }
       }
     },
@@ -476,6 +591,7 @@
       "meaning": "運ぶ",
       "definition": "to hold something and take it to a place",
       "example": "She carries her lunch to school in a bag.",
+      "exampleSurface": "carries",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "運ぶ（to hold something and take it to a place）",
       "status": "unverified",
@@ -554,6 +670,28 @@
             "clean",
             "open"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "wait",
+            "carry",
+            "clean",
+            "open"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000016-def_en-option-1",
+            "vocab-000016-def_en-option-2",
+            "vocab-000016-def_en-option-3",
+            "vocab-000016-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000016-def_en-option-2",
+          "distractorHeadwords": [
+            "wait",
+            null,
+            "clean",
+            "open"
+          ]
         }
       }
     },
@@ -567,6 +705,7 @@
       "meaning": "忘れる",
       "definition": "to fail to remember something",
       "example": "I forgot my umbrella on the train.",
+      "exampleSurface": "forgot",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "忘れる（to fail to remember something）",
       "status": "unverified",
@@ -645,6 +784,28 @@
             null,
             "enjoy"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "answer",
+            "send",
+            "forget",
+            "enjoy"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000017-def_en-option-1",
+            "vocab-000017-def_en-option-2",
+            "vocab-000017-def_en-option-3",
+            "vocab-000017-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000017-def_en-option-3",
+          "distractorHeadwords": [
+            "answer",
+            "send",
+            null,
+            "enjoy"
+          ]
         }
       }
     },
@@ -658,6 +819,7 @@
       "meaning": "重い",
       "definition": "weighing a lot",
       "example": "This bag is too heavy for me.",
+      "exampleSurface": "heavy",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "重い（weighing a lot）",
       "status": "unverified",
@@ -736,6 +898,28 @@
             "hungry",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "busy",
+            "tired",
+            "hungry",
+            "heavy"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000018-def_en-option-1",
+            "vocab-000018-def_en-option-2",
+            "vocab-000018-def_en-option-3",
+            "vocab-000018-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000018-def_en-option-4",
+          "distractorHeadwords": [
+            "busy",
+            "tired",
+            "hungry",
+            null
+          ]
         }
       }
     },
@@ -749,6 +933,7 @@
       "meaning": "空の",
       "definition": "having nothing inside",
       "example": "The box was empty when we opened it.",
+      "exampleSurface": "empty",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "空の（having nothing inside）",
       "status": "unverified",
@@ -827,6 +1012,28 @@
             "dark",
             "dirty"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "empty",
+            "wet",
+            "dark",
+            "dirty"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000019-def_en-option-1",
+            "vocab-000019-def_en-option-2",
+            "vocab-000019-def_en-option-3",
+            "vocab-000019-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000019-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "wet",
+            "dark",
+            "dirty"
+          ]
         }
       }
     },
@@ -840,6 +1047,7 @@
       "meaning": "うるさい",
       "definition": "making a lot of sound",
       "example": "The street was noisy all night.",
+      "exampleSurface": "noisy",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "うるさい（making a lot of sound）",
       "status": "unverified",
@@ -912,6 +1120,28 @@
             "vocab-000020-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000020-ja_en-option-2",
+          "distractorHeadwords": [
+            "cheap",
+            null,
+            "tall",
+            "hungry"
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "cheap",
+            "noisy",
+            "tall",
+            "hungry"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000020-def_en-option-1",
+            "vocab-000020-def_en-option-2",
+            "vocab-000020-def_en-option-3",
+            "vocab-000020-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000020-def_en-option-2",
           "distractorHeadwords": [
             "cheap",
             null,

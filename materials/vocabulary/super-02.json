@@ -1,6 +1,6 @@
 {
   "id": "super-02",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
   "title": "超アドバンス単語 ②",
   "genre": "super",
@@ -21,6 +21,7 @@
       "meaning": "工夫の才",
       "definition": "skill in finding clever new ways to do things",
       "example": "The engineer solved the problem with great ingenuity.",
+      "exampleSurface": "ingenuity",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "工夫の才（skill in finding clever new ways to do things）",
       "status": "unverified",
@@ -99,6 +100,28 @@
             null,
             "rapport"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "pinnacle",
+            "turmoil",
+            "ingenuity",
+            "rapport"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000131-def_en-option-1",
+            "vocab-000131-def_en-option-2",
+            "vocab-000131-def_en-option-3",
+            "vocab-000131-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000131-def_en-option-3",
+          "distractorHeadwords": [
+            "pinnacle",
+            "turmoil",
+            null,
+            "rapport"
+          ]
         }
       }
     },
@@ -112,6 +135,7 @@
       "meaning": "信頼関係",
       "definition": "a close and friendly understanding between people",
       "example": "The teacher quickly built a rapport with her class.",
+      "exampleSurface": "rapport",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "信頼関係（a close and friendly understanding between people）",
       "status": "unverified",
@@ -190,6 +214,28 @@
             "ingenuity",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "demise",
+            "scenario",
+            "ingenuity",
+            "rapport"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000132-def_en-option-1",
+            "vocab-000132-def_en-option-2",
+            "vocab-000132-def_en-option-3",
+            "vocab-000132-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000132-def_en-option-4",
+          "distractorHeadwords": [
+            "demise",
+            "scenario",
+            "ingenuity",
+            null
+          ]
         }
       }
     },
@@ -203,6 +249,7 @@
       "meaning": "順応",
       "definition": "behaviour that follows the usual rules of a group",
       "example": "The school values creativity more than conformity.",
+      "exampleSurface": "conformity",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "順応（behaviour that follows the usual rules of a group）",
       "status": "unverified",
@@ -281,6 +328,28 @@
             "legacy",
             "adversary"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "conformity",
+            "rapport",
+            "legacy",
+            "adversary"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000133-def_en-option-1",
+            "vocab-000133-def_en-option-2",
+            "vocab-000133-def_en-option-3",
+            "vocab-000133-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000133-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "rapport",
+            "legacy",
+            "adversary"
+          ]
         }
       }
     },
@@ -294,6 +363,7 @@
       "meaning": "言説",
       "definition": "serious talk or writing about a subject",
       "example": "Public discourse about the issue has become angry.",
+      "exampleSurface": "discourse",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "言説（serious talk or writing about a subject）",
       "status": "unverified",
@@ -372,6 +442,28 @@
             "hypocrisy",
             "scenario"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "demise",
+            "discourse",
+            "hypocrisy",
+            "scenario"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000134-def_en-option-1",
+            "vocab-000134-def_en-option-2",
+            "vocab-000134-def_en-option-3",
+            "vocab-000134-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000134-def_en-option-2",
+          "distractorHeadwords": [
+            "demise",
+            null,
+            "hypocrisy",
+            "scenario"
+          ]
         }
       }
     },
@@ -385,6 +477,7 @@
       "meaning": "助長する",
       "definition": "to make a bad situation continue",
       "example": "Such stories perpetuate old stereotypes.",
+      "exampleSurface": "perpetuate",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "助長する（to make a bad situation continue）",
       "status": "unverified",
@@ -463,6 +556,28 @@
             null,
             "fluctuate"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "bequeath",
+            "resonate",
+            "perpetuate",
+            "fluctuate"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000135-def_en-option-1",
+            "vocab-000135-def_en-option-2",
+            "vocab-000135-def_en-option-3",
+            "vocab-000135-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000135-def_en-option-3",
+          "distractorHeadwords": [
+            "bequeath",
+            "resonate",
+            null,
+            "fluctuate"
+          ]
         }
       }
     },
@@ -476,6 +591,7 @@
       "meaning": "及ぼす",
       "definition": "to use power or influence on something",
       "example": "The moon exerts a strong pull on the sea.",
+      "exampleSurface": "exerts",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "及ぼす（to use power or influence on something）",
       "status": "unverified",
@@ -554,6 +670,28 @@
             "fluctuate",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "evoke",
+            "squander",
+            "fluctuate",
+            "exert"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000136-def_en-option-1",
+            "vocab-000136-def_en-option-2",
+            "vocab-000136-def_en-option-3",
+            "vocab-000136-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000136-def_en-option-4",
+          "distractorHeadwords": [
+            "evoke",
+            "squander",
+            "fluctuate",
+            null
+          ]
         }
       }
     },
@@ -567,6 +705,7 @@
       "meaning": "共鳴する",
       "definition": "to have a strong meaning for someone",
       "example": "Her message resonated with many young voters.",
+      "exampleSurface": "resonated",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "共鳴する（to have a strong meaning for someone）",
       "status": "unverified",
@@ -645,6 +784,28 @@
             "bequeath",
             "depict"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "resonate",
+            "perpetuate",
+            "bequeath",
+            "depict"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000137-def_en-option-1",
+            "vocab-000137-def_en-option-2",
+            "vocab-000137-def_en-option-3",
+            "vocab-000137-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000137-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "perpetuate",
+            "bequeath",
+            "depict"
+          ]
         }
       }
     },
@@ -658,6 +819,7 @@
       "meaning": "頑丈な",
       "definition": "strong and unlikely to fail",
       "example": "The company has a robust plan for growth.",
+      "exampleSurface": "robust",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "頑丈な（strong and unlikely to fail）",
       "status": "unverified",
@@ -736,6 +898,28 @@
             "versatile",
             "meticulous"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "insightful",
+            "robust",
+            "versatile",
+            "meticulous"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000138-def_en-option-1",
+            "vocab-000138-def_en-option-2",
+            "vocab-000138-def_en-option-3",
+            "vocab-000138-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000138-def_en-option-2",
+          "distractorHeadwords": [
+            "insightful",
+            null,
+            "versatile",
+            "meticulous"
+          ]
         }
       }
     },
@@ -749,6 +933,7 @@
       "meaning": "粘り強い",
       "definition": "very determined and unwilling to give up",
       "example": "She is a tenacious reporter who never drops a story.",
+      "exampleSurface": "tenacious",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "粘り強い（very determined and unwilling to give up）",
       "status": "unverified",
@@ -827,6 +1012,28 @@
             null,
             "stringent"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "versatile",
+            "superficial",
+            "tenacious",
+            "stringent"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000139-def_en-option-1",
+            "vocab-000139-def_en-option-2",
+            "vocab-000139-def_en-option-3",
+            "vocab-000139-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000139-def_en-option-3",
+          "distractorHeadwords": [
+            "versatile",
+            "superficial",
+            null,
+            "stringent"
+          ]
         }
       }
     },
@@ -840,6 +1047,7 @@
       "meaning": "鋭い",
       "definition": "showing a deep understanding",
       "example": "His insightful comments changed the discussion.",
+      "exampleSurface": "insightful",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "鋭い（showing a deep understanding）",
       "status": "unverified",
@@ -912,6 +1120,28 @@
             "vocab-000140-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000140-ja_en-option-4",
+          "distractorHeadwords": [
+            "versatile",
+            "convoluted",
+            "candid",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "versatile",
+            "convoluted",
+            "candid",
+            "insightful"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000140-def_en-option-1",
+            "vocab-000140-def_en-option-2",
+            "vocab-000140-def_en-option-3",
+            "vocab-000140-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000140-def_en-option-4",
           "distractorHeadwords": [
             "versatile",
             "convoluted",

@@ -1,6 +1,6 @@
 {
   "id": "daily-01",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
   "title": "日常単語 ①",
   "genre": "daily",
@@ -21,6 +21,7 @@
       "meaning": "歯科医",
       "definition": "a doctor who looks after your teeth",
       "example": "I visit the dentist twice a year.",
+      "exampleSurface": "dentist",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "歯科医（a doctor who looks after your teeth）",
       "status": "unverified",
@@ -99,6 +100,28 @@
             null,
             "fridge"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "luggage",
+            "receipt",
+            "dentist",
+            "fridge"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000041-def_en-option-1",
+            "vocab-000041-def_en-option-2",
+            "vocab-000041-def_en-option-3",
+            "vocab-000041-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000041-def_en-option-3",
+          "distractorHeadwords": [
+            "luggage",
+            "receipt",
+            null,
+            "fridge"
+          ]
         }
       }
     },
@@ -112,6 +135,7 @@
       "meaning": "予約",
       "definition": "a time that you arrange to see someone",
       "example": "I have a dentist appointment at ten.",
+      "exampleSurface": "appointment",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "予約（a time that you arrange to see someone）",
       "status": "unverified",
@@ -190,6 +214,28 @@
             "traffic",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "apartment",
+            "countryside",
+            "traffic",
+            "appointment"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000042-def_en-option-1",
+            "vocab-000042-def_en-option-2",
+            "vocab-000042-def_en-option-3",
+            "vocab-000042-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000042-def_en-option-4",
+          "distractorHeadwords": [
+            "apartment",
+            "countryside",
+            "traffic",
+            null
+          ]
         }
       }
     },
@@ -203,6 +249,7 @@
       "meaning": "荷物",
       "definition": "the bags that you take on a trip",
       "example": "Please keep your luggage with you.",
+      "exampleSurface": "luggage",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "荷物（the bags that you take on a trip）",
       "status": "unverified",
@@ -281,6 +328,28 @@
             "fridge",
             "dentist"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "luggage",
+            "apartment",
+            "fridge",
+            "dentist"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000043-def_en-option-1",
+            "vocab-000043-def_en-option-2",
+            "vocab-000043-def_en-option-3",
+            "vocab-000043-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000043-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "apartment",
+            "fridge",
+            "dentist"
+          ]
         }
       }
     },
@@ -294,6 +363,7 @@
       "meaning": "交通",
       "definition": "the cars and trucks on a road",
       "example": "The traffic was heavy this morning.",
+      "exampleSurface": "traffic",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "交通（the cars and trucks on a road）",
       "status": "unverified",
@@ -372,6 +442,28 @@
             "fridge",
             "receipt"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "pharmacy",
+            "traffic",
+            "fridge",
+            "receipt"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000044-def_en-option-1",
+            "vocab-000044-def_en-option-2",
+            "vocab-000044-def_en-option-3",
+            "vocab-000044-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000044-def_en-option-2",
+          "distractorHeadwords": [
+            "pharmacy",
+            null,
+            "fridge",
+            "receipt"
+          ]
         }
       }
     },
@@ -385,6 +477,7 @@
       "meaning": "取り消す",
       "definition": "to say that something will not happen",
       "example": "They cancelled the picnic because of rain.",
+      "exampleSurface": "cancelled",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "取り消す（to say that something will not happen）",
       "status": "unverified",
@@ -463,6 +556,28 @@
             null,
             "recommend"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "bake",
+            "repair",
+            "cancel",
+            "recommend"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000045-def_en-option-1",
+            "vocab-000045-def_en-option-2",
+            "vocab-000045-def_en-option-3",
+            "vocab-000045-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000045-def_en-option-3",
+          "distractorHeadwords": [
+            "bake",
+            "repair",
+            null,
+            "recommend"
+          ]
         }
       }
     },
@@ -476,6 +591,7 @@
       "meaning": "修理する",
       "definition": "to make something broken work again",
       "example": "He repaired the bike in the garage.",
+      "exampleSurface": "repaired",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "修理する（to make something broken work again）",
       "status": "unverified",
@@ -554,6 +670,28 @@
             "pack",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "deliver",
+            "reserve",
+            "pack",
+            "repair"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000046-def_en-option-1",
+            "vocab-000046-def_en-option-2",
+            "vocab-000046-def_en-option-3",
+            "vocab-000046-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000046-def_en-option-4",
+          "distractorHeadwords": [
+            "deliver",
+            "reserve",
+            "pack",
+            null
+          ]
         }
       }
     },
@@ -567,6 +705,7 @@
       "meaning": "予約する",
       "definition": "to ask for something to be kept for you",
       "example": "I reserved a table for four.",
+      "exampleSurface": "reserved",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "予約する（to ask for something to be kept for you）",
       "status": "unverified",
@@ -645,6 +784,28 @@
             "bake",
             "deliver"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "reserve",
+            "repair",
+            "bake",
+            "deliver"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000047-def_en-option-1",
+            "vocab-000047-def_en-option-2",
+            "vocab-000047-def_en-option-3",
+            "vocab-000047-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000047-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "repair",
+            "bake",
+            "deliver"
+          ]
         }
       }
     },
@@ -658,6 +819,7 @@
       "meaning": "快適な",
       "definition": "giving you a pleasant and relaxed feeling",
       "example": "This sofa is very comfortable.",
+      "exampleSurface": "comfortable",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "快適な（giving you a pleasant and relaxed feeling）",
       "status": "unverified",
@@ -736,6 +898,28 @@
             "dangerous",
             "embarrassed"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "crowded",
+            "comfortable",
+            "dangerous",
+            "embarrassed"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000048-def_en-option-1",
+            "vocab-000048-def_en-option-2",
+            "vocab-000048-def_en-option-3",
+            "vocab-000048-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000048-def_en-option-2",
+          "distractorHeadwords": [
+            "crowded",
+            null,
+            "dangerous",
+            "embarrassed"
+          ]
         }
       }
     },
@@ -749,6 +933,7 @@
       "meaning": "便利な",
       "definition": "easy to use or to reach",
       "example": "The station is convenient for shopping.",
+      "exampleSurface": "convenient",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "便利な（easy to use or to reach）",
       "status": "unverified",
@@ -827,6 +1012,28 @@
             null,
             "impossible"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "crowded",
+            "dangerous",
+            "convenient",
+            "impossible"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000049-def_en-option-1",
+            "vocab-000049-def_en-option-2",
+            "vocab-000049-def_en-option-3",
+            "vocab-000049-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000049-def_en-option-3",
+          "distractorHeadwords": [
+            "crowded",
+            "dangerous",
+            null,
+            "impossible"
+          ]
         }
       }
     },
@@ -840,6 +1047,7 @@
       "meaning": "緊張した",
       "definition": "worried and unable to relax",
       "example": "She felt nervous before the interview.",
+      "exampleSurface": "nervous",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "緊張した（worried and unable to relax）",
       "status": "unverified",
@@ -912,6 +1120,28 @@
             "vocab-000050-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000050-ja_en-option-4",
+          "distractorHeadwords": [
+            "patient",
+            "crowded",
+            "polite",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "patient",
+            "crowded",
+            "polite",
+            "nervous"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000050-def_en-option-1",
+            "vocab-000050-def_en-option-2",
+            "vocab-000050-def_en-option-3",
+            "vocab-000050-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000050-def_en-option-4",
           "distractorHeadwords": [
             "patient",
             "crowded",

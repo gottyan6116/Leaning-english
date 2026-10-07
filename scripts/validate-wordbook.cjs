@@ -6,7 +6,18 @@ const LISTS=[csv('cefrj-vocabulary-profile-1.5.csv'),csv('octanove-vocabulary-pr
 const BSL=new Set(fs.readFileSync(path.join(root,'materials/validation/bsl-1.2-lemmatized-for-teaching.csv'),'utf8').split(/\r?\n/).filter(Boolean).map(l=>l.split(',')[0].trim().toLowerCase()));
 const listed=(head,pos,bands)=>LISTS.some(rows=>rows.some(r=>r.head.split('/').includes(head)&&r.pos===pos&&bands.includes(r.level)));
 const len=s=>Array.from(String(s).trim()).length;
-const MODES=['ja','en','ja_en'],STATUSES=['unverified','verified'];
+const Quiz=require('../quiz-core.js');
+const MODES=['ja','en','ja_en','def_en'],STATUSES=['unverified','verified'];
+// Words of a definition that give the answer away: the headword, its inflections, or a word from the same family
+// (shared leading letters; y/i alternation such as apply/application). Short headwords (4 letters or fewer) match inflections only.
+function definitionLeaks(headword,definition){
+ const norm=w=>{const t=String(w).toLowerCase();return t.endsWith('y')&&t.length>3?t.slice(0,-1)+'i':t;},head=norm(headword),stem=head.slice(0,Math.min(5,head.length));
+ return String(definition).toLowerCase().split(/[^a-z]+/).filter(Boolean).filter(token=>{
+  const t=norm(token);
+  if(head.length<=4)return t===head||(t.startsWith(head)&&t.length<=head.length+3);
+  return t.startsWith(stem)||(t.length>=5&&head.startsWith(t.slice(0,5)));
+ });
+}
 // Validates the genre definitions and every word set. Returns {errors,warnings,sets,genres,genreText}.
 function validateWordbook(){
  const errors=[],warnings=[],check=(ok,message)=>{if(!ok)errors.push(message);};
@@ -34,6 +45,8 @@ function validateWordbook(){
    check(listed(w.headword,w.partOfSpeech,[w.level]),`${L}: ${w.headword}/${w.partOfSpeech}/${w.level} not found in the open word lists`);
    if(set.genre==='business')check(BSL.has(headKey),`${L}: ${w.headword} is not in the Business Service List 1.2`);
    check(w.selectionSource?.listName&&w.selectionSource?.license&&w.selectionSource?.url,`${L}: selection source required`);
+   const leaks=definitionLeaks(w.headword,w.definition);check(leaks.length===0,`${L}: the definition contains the headword or a related word (${leaks.join(', ')})`);
+   const masked=Quiz.maskExample(w);check(masked!==null&&masked.includes(Quiz.BLANK)&&masked.split(Quiz.BLANK).length===2,`${L}: exampleSurface must occur exactly once in the example`);if(masked!==null)check(masked.replace(Quiz.BLANK,w.exampleSurface).toLowerCase()===w.example.toLowerCase(),`${L}: the blanked example does not restore to the original sentence`);
    const stem=headKey.slice(0,Math.max(3,headKey.length-2));check(w.example.toLowerCase().includes(stem),`${L}: example should contain the headword`);
    for(const mode of MODES){
     const q=w.questions?.[mode],M=`${L}/${mode}`;
@@ -41,17 +54,18 @@ function validateWordbook(){
     check(q.choices.every(x=>typeof x==='string'&&x.trim())&&new Set(q.choices.map(x=>x.trim().toLowerCase())).size===4,`${M}: empty or duplicate choice`);
     check(Number.isInteger(q.answerIndex)&&q.answerIndex>=0&&q.answerIndex<4,`${M}: invalid answer index`);
     check(Array.isArray(q.choiceIds)&&new Set(q.choiceIds).size===4&&q.correctChoiceId===q.choiceIds[q.answerIndex],`${M}: invalid choice IDs`);
-    const correct={ja:w.meaning,en:w.definition,ja_en:w.headword}[mode];check(q.choices[q.answerIndex]===correct,`${M}: the marked answer is not the word's own ${mode} value`);
+    const correct={ja:w.meaning,en:w.definition,ja_en:w.headword,def_en:w.headword}[mode];check(q.choices[q.answerIndex]===correct,`${M}: the marked answer is not the word's own ${mode} value`);
     const lengths=q.choices.map(len),ranked=[...lengths].sort((a,b)=>b-a);
     if(lengths[q.answerIndex]===ranked[0]&&lengths.filter(n=>n===ranked[0]).length===1&&ranked[0]>=ranked[1]*1.2)errors.push(`${M}: correct choice uniquely longest by 20% or more`);
     if(ranked[0]/ranked[3]>3)warnings.push(`${M}: length ratio ${(ranked[0]/ranked[3]).toFixed(2)}`);
     const heads4=q.distractorHeadwords;check(Array.isArray(heads4)&&heads4.length===4&&heads4[q.answerIndex]===null,`${M}: distractorHeadwords must mark the answer slot with null`);
     for(const [i,h] of (heads4||[]).entries()){if(i===q.answerIndex||h===null)continue;check(h!==w.headword,`${M}: distractor equals the answer`);check(listed(h,w.partOfSpeech,bands),`${M}: distractor ${h}/${w.partOfSpeech} is not a same-POS word within ${bands}`);}
-    if(mode==='ja_en')check(JSON.stringify((heads4||[]).filter(Boolean))===JSON.stringify(q.choices.filter((_,i)=>i!==q.answerIndex)),`${M}: ja_en choices must equal the distractor headwords`);
+    if(mode==='def_en'){check(JSON.stringify(q.choices)===JSON.stringify(w.questions.ja_en?.choices)&&q.answerIndex===w.questions.ja_en?.answerIndex,`${M}: def_en must reuse the ja_en choices`);check(JSON.stringify(q.choiceIds)===JSON.stringify(q.choices.map((_,i)=>`${w.id}-def_en-option-${i+1}`)),`${M}: unexpected choice IDs`);}
+    if(mode==='ja_en'||mode==='def_en')check(JSON.stringify((heads4||[]).filter(Boolean))===JSON.stringify(q.choices.filter((_,i)=>i!==q.answerIndex)),`${M}: ja_en choices must equal the distractor headwords`);
    }
   }
  }
  return {errors,warnings,sets,genres,genreText,genreMaterial};
 }
-module.exports={validateWordbook,genresFile};
+module.exports={validateWordbook,definitionLeaks,genresFile};
 if(require.main===module){const r=validateWordbook();r.warnings.forEach(w=>console.warn('warning: '+w));r.errors.forEach(e=>console.error(e));console.log(`wordbook: ${r.genres.length} genres, ${r.sets.length} sets, ${r.sets.reduce((n,s)=>n+s.items.length,0)} words, ${r.errors.length} errors, ${r.warnings.length} warnings`);process.exit(r.errors.length?1:0);}

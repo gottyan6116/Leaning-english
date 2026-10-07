@@ -1,6 +1,6 @@
 {
   "id": "daily-03",
-  "version": 1,
+  "version": 2,
   "kind": "vocabulary",
   "title": "日常単語 ③",
   "genre": "daily",
@@ -21,6 +21,7 @@
       "meaning": "冷蔵庫",
       "definition": "a machine that keeps food cold",
       "example": "Put the milk in the fridge.",
+      "exampleSurface": "fridge",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "冷蔵庫（a machine that keeps food cold）",
       "status": "unverified",
@@ -99,6 +100,28 @@
             null,
             "dentist"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "appointment",
+            "pharmacy",
+            "fridge",
+            "dentist"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000061-def_en-option-1",
+            "vocab-000061-def_en-option-2",
+            "vocab-000061-def_en-option-3",
+            "vocab-000061-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000061-def_en-option-3",
+          "distractorHeadwords": [
+            "appointment",
+            "pharmacy",
+            null,
+            "dentist"
+          ]
         }
       }
     },
@@ -112,6 +135,7 @@
       "meaning": "薬局",
       "definition": "a shop where medicines are sold",
       "example": "The pharmacy closes at nine.",
+      "exampleSurface": "pharmacy",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "薬局（a shop where medicines are sold）",
       "status": "unverified",
@@ -190,6 +214,28 @@
             "receipt",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "appointment",
+            "rubbish",
+            "receipt",
+            "pharmacy"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000062-def_en-option-1",
+            "vocab-000062-def_en-option-2",
+            "vocab-000062-def_en-option-3",
+            "vocab-000062-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000062-def_en-option-4",
+          "distractorHeadwords": [
+            "appointment",
+            "rubbish",
+            "receipt",
+            null
+          ]
         }
       }
     },
@@ -203,6 +249,7 @@
       "meaning": "ごみ",
       "definition": "things that you throw away",
       "example": "Put the rubbish in the bin.",
+      "exampleSurface": "rubbish",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "ごみ（things that you throw away）",
       "status": "unverified",
@@ -281,6 +328,28 @@
             "traffic",
             "appointment"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "rubbish",
+            "dentist",
+            "traffic",
+            "appointment"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000063-def_en-option-1",
+            "vocab-000063-def_en-option-2",
+            "vocab-000063-def_en-option-3",
+            "vocab-000063-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000063-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "dentist",
+            "traffic",
+            "appointment"
+          ]
         }
       }
     },
@@ -294,6 +363,7 @@
       "meaning": "ジム",
       "definition": "a place where people exercise",
       "example": "He goes to the gym after work.",
+      "exampleSurface": "gym",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "ジム（a place where people exercise）",
       "status": "unverified",
@@ -372,6 +442,28 @@
             "rubbish",
             "schedule"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "fridge",
+            "gym",
+            "rubbish",
+            "schedule"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000064-def_en-option-1",
+            "vocab-000064-def_en-option-2",
+            "vocab-000064-def_en-option-3",
+            "vocab-000064-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000064-def_en-option-2",
+          "distractorHeadwords": [
+            "fridge",
+            null,
+            "rubbish",
+            "schedule"
+          ]
         }
       }
     },
@@ -385,6 +477,7 @@
       "meaning": "荷造りする",
       "definition": "to put things into a bag or box",
       "example": "I packed my bag the night before.",
+      "exampleSurface": "packed",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "荷造りする（to put things into a bag or box）",
       "status": "unverified",
@@ -463,6 +556,28 @@
             null,
             "rent"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "repair",
+            "cancel",
+            "pack",
+            "rent"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000065-def_en-option-1",
+            "vocab-000065-def_en-option-2",
+            "vocab-000065-def_en-option-3",
+            "vocab-000065-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000065-def_en-option-3",
+          "distractorHeadwords": [
+            "repair",
+            "cancel",
+            null,
+            "rent"
+          ]
         }
       }
     },
@@ -476,6 +591,7 @@
       "meaning": "再利用する",
       "definition": "to use waste again to make new things",
       "example": "We recycle bottles and paper.",
+      "exampleSurface": "recycle",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "再利用する（to use waste again to make new things）",
       "status": "unverified",
@@ -554,6 +670,28 @@
             "bake",
             null
           ]
+        },
+        "def_en": {
+          "choices": [
+            "pack",
+            "deliver",
+            "bake",
+            "recycle"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000066-def_en-option-1",
+            "vocab-000066-def_en-option-2",
+            "vocab-000066-def_en-option-3",
+            "vocab-000066-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000066-def_en-option-4",
+          "distractorHeadwords": [
+            "pack",
+            "deliver",
+            "bake",
+            null
+          ]
         }
       }
     },
@@ -567,6 +705,7 @@
       "meaning": "焼く",
       "definition": "to cook food in an oven",
       "example": "She bakes bread every Sunday.",
+      "exampleSurface": "bakes",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "焼く（to cook food in an oven）",
       "status": "unverified",
@@ -645,6 +784,28 @@
             "reserve",
             "pack"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "bake",
+            "recommend",
+            "reserve",
+            "pack"
+          ],
+          "answerIndex": 0,
+          "choiceIds": [
+            "vocab-000067-def_en-option-1",
+            "vocab-000067-def_en-option-2",
+            "vocab-000067-def_en-option-3",
+            "vocab-000067-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000067-def_en-option-1",
+          "distractorHeadwords": [
+            null,
+            "recommend",
+            "reserve",
+            "pack"
+          ]
         }
       }
     },
@@ -658,6 +819,7 @@
       "meaning": "辛抱強い",
       "definition": "able to wait without getting angry",
       "example": "Be patient; the bus will come soon.",
+      "exampleSurface": "patient",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "辛抱強い（able to wait without getting angry）",
       "status": "unverified",
@@ -736,6 +898,28 @@
             "nervous",
             "cheerful"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "convenient",
+            "patient",
+            "nervous",
+            "cheerful"
+          ],
+          "answerIndex": 1,
+          "choiceIds": [
+            "vocab-000068-def_en-option-1",
+            "vocab-000068-def_en-option-2",
+            "vocab-000068-def_en-option-3",
+            "vocab-000068-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000068-def_en-option-2",
+          "distractorHeadwords": [
+            "convenient",
+            null,
+            "nervous",
+            "cheerful"
+          ]
         }
       }
     },
@@ -749,6 +933,7 @@
       "meaning": "くつろいだ",
       "definition": "feeling calm and not worried",
       "example": "He felt relaxed on the beach.",
+      "exampleSurface": "relaxed",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "くつろいだ（feeling calm and not worried）",
       "status": "unverified",
@@ -827,6 +1012,28 @@
             null,
             "polite"
           ]
+        },
+        "def_en": {
+          "choices": [
+            "cheerful",
+            "crowded",
+            "relaxed",
+            "polite"
+          ],
+          "answerIndex": 2,
+          "choiceIds": [
+            "vocab-000069-def_en-option-1",
+            "vocab-000069-def_en-option-2",
+            "vocab-000069-def_en-option-3",
+            "vocab-000069-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000069-def_en-option-3",
+          "distractorHeadwords": [
+            "cheerful",
+            "crowded",
+            null,
+            "polite"
+          ]
         }
       }
     },
@@ -840,6 +1047,7 @@
       "meaning": "陽気な",
       "definition": "happy and full of good spirits",
       "example": "The shop owner is always cheerful.",
+      "exampleSurface": "cheerful",
       "exampleOrigin": "original-for-this-app",
       "testedSense": "陽気な（happy and full of good spirits）",
       "status": "unverified",
@@ -912,6 +1120,28 @@
             "vocab-000070-ja_en-option-4"
           ],
           "correctChoiceId": "vocab-000070-ja_en-option-4",
+          "distractorHeadwords": [
+            "patient",
+            "comfortable",
+            "crowded",
+            null
+          ]
+        },
+        "def_en": {
+          "choices": [
+            "patient",
+            "comfortable",
+            "crowded",
+            "cheerful"
+          ],
+          "answerIndex": 3,
+          "choiceIds": [
+            "vocab-000070-def_en-option-1",
+            "vocab-000070-def_en-option-2",
+            "vocab-000070-def_en-option-3",
+            "vocab-000070-def_en-option-4"
+          ],
+          "correctChoiceId": "vocab-000070-def_en-option-4",
           "distractorHeadwords": [
             "patient",
             "comfortable",
