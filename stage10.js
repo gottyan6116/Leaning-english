@@ -18,12 +18,12 @@
  function clearedCount(genre){return genre.sets.filter(s=>Core.cleared(sessions(),s.id,mode())).length;}
  function genresHtml(){
   const list=organised();
-  if(!list.length){const failed=Boolean(catalog()?.error?.());return `<p class="vocabulary-empty" role="${failed?'alert':'status'}">${failed?'単語帳を読み込めませんでした':'単語帳を読み込んでいます'}</p>`;}
+  if(!list.length){const failed=Boolean(catalog()?.error?.());return `<p class="vocabulary-empty" role="${failed?'alert':'status'}">${failed?'単語練習を読み込めませんでした':'単語練習を読み込んでいます'}</p>`;}
   return `<div class="vocabulary-group wb-genres">${list.map(g=>{const done=clearedCount(g);return `<button class="vocabulary-row wb-genre" data-wb-genre="${esc(g.id)}"><span class="vocabulary-label"><strong>${esc(g.name)}</strong><small>${esc(g.levelRange)}</small></span><span class="wb-progress" aria-label="${g.sets.length}セット中${done}セットクリア"><span class="wb-progress-bar" aria-hidden="true"><i style="width:${g.sets.length?done/g.sets.length*100:0}%"></i></span><span>${done} / ${g.sets.length}</span></span>${arrow}</button>`;}).join('')}</div>`;
  }
  function genreHtml(){
   const g=findGenre(state.genreId);if(!g)return genresHtml();
-  return `<button class="back" data-wb-back="genres">単語帳 ${arrow}</button><div class="sectionhead"><h1>${esc(g.name)}</h1></div><p class="wb-sub">${esc(g.levelRange)}</p><div class="vocabulary-group">${g.sets.map(s=>{const best=Core.bestOf(sessions(),s.id,mode());return `<button class="vocabulary-row unit-row" data-wb-set="${esc(s.id)}"><span class="unit-number">${Core.setLabel(s.setNumber)}</span><span class="vocabulary-label"><strong>${esc(g.name)} ${Core.setLabel(s.setNumber)}</strong></span><span class="unit-score">ベスト ${best??0}/10</span>${best===10?'<span class="unit-clear" role="img" aria-label="クリア">✓</span>':''}${arrow}</button>`;}).join('')||'<p class="vocabulary-empty">セットはありません</p>'}</div>`;
+  return `<button class="back" data-wb-back="genres">単語練習 ${arrow}</button><div class="sectionhead"><h1>${esc(g.name)}</h1></div><p class="wb-sub">${esc(g.levelRange)}</p><div class="vocabulary-group">${g.sets.map(s=>{const best=Core.bestOf(sessions(),s.id,mode());return `<button class="vocabulary-row unit-row" data-wb-set="${esc(s.id)}"><span class="unit-number">${Core.setLabel(s.setNumber)}</span><span class="vocabulary-label"><strong>${esc(g.name)} ${Core.setLabel(s.setNumber)}</strong></span><span class="unit-score">ベスト ${best??0}/10</span>${best===10?'<span class="unit-clear" role="img" aria-label="クリア">✓</span>':''}${arrow}</button>`;}).join('')||'<p class="vocabulary-empty">セットはありません</p>'}</div>`;
  }
  function segment(group,options,current,disabledFor=()=>false,label=()=>''){
   return `<div class="wb-seg" role="group" aria-label="${esc(group.label)}">${options.map(([value,text])=>{const off=disabledFor(value),on=current===value;return `<button class="a5-secondary wb-opt" data-wb-${group.key}="${esc(String(value))}" aria-pressed="${on}" ${off?'disabled':''}><span>${esc(text)}</span>${label(value)?`<small>${esc(label(value))}</small>`:''}</button>`;}).join('')}</div>`;
@@ -39,7 +39,7 @@
   <button class="primary full wb-start" data-wb-start ${picked.length?'':'disabled'}>スタート ${arrow}</button>`;
  }
  function html(){
-  if(unavailable()&&state.screen!=='genres')return '<p class="vocabulary-empty" role="status">単語帳を読み込んでいます</p>';
+  if(unavailable()&&state.screen!=='genres')return '<p class="vocabulary-empty" role="status">単語練習を読み込んでいます</p>';
   return state.screen==='genre'?genreHtml():state.screen==='setup'?setupHtml():genresHtml();
  }
  const deep=()=>state.screen!=='genres'&&Boolean(findSet(state.setId)||findGenre(state.genreId));

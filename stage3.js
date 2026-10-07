@@ -8,7 +8,7 @@
  const baseWords=words.map(word=>({...word,bookmarked:false}));
  const personIcon='<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg>';
  const arrow=()=>'<span class="action-chevron" aria-hidden="true">›</span>';
- let vocabularyTab='saved',vocabularyLevel='C1',detailItem=null,detailBack=null;
+ let vocabularyTab='wordbook',vocabularyLevel='C1',detailItem=null,detailBack=null;
  nav.splice(0,nav.length,['home','ホーム'],['vocab','単語'],['articles','記事'],['listen','リスニング'],['records','記録']);
  if(appState){for(const index of appState.articleSaves)if(words[index])words[index].bookmarked=true;for(const word of appState.customWords)if(!words.some(x=>x.en===word.en&&x.ja===word.ja))words.push({...word});}
  function savedWords(){return appState?appState.savedVocabulary(quizStore?.bookmarks||[],words):[];}
@@ -17,11 +17,11 @@
  function status(item){return vocabularyView().status(item);}
  const gauge=state=>{const filled=state==='定着'?3:state==='学習中'?1:0;return `<span class="proficiency-gauge" role="img" aria-label="${esc(state)}">${[0,1,2].map(index=>`<span class="proficiency-dot ${index<filled?'filled':''}" aria-hidden="true"></span>`).join('')}</span>`;};
  vocabulary=function(){
-  const tabs=`<div class="vocabulary-tabs" role="tablist" aria-label="単語教材">${[['saved','保存した語'],['collocations','組み合わせ'],['wordbook','単語帳']].map(([key,label])=>`<button role="tab" aria-selected="${vocabularyTab===key}" onclick="AppUI.vocabularyTab('${key}')">${label}</button>`).join('')}</div>`;
+  const tabs=`<div class="vocabulary-tabs" role="tablist" aria-label="単語教材">${[['wordbook','単語練習'],['collocations','組み合わせ'],['saved','保存した単語']].map(([key,label])=>`<button role="tab" aria-selected="${vocabularyTab===key}" onclick="AppUI.vocabularyTab('${key}')">${label}</button>`).join('')}</div>`;
   let content;
   if(vocabularyTab==='saved'){const sections=vocabularyView().sections(),entries=sections.flatMap(section=>section.items);content=sections.map(section=>`<section class="vocabulary-section" aria-labelledby="vocabulary-${section.state}"><h2 id="vocabulary-${section.state}">${section.state} <span>${section.items.length}</span></h2><div class="vocabulary-group">${section.items.map(item=>`<button class="vocabulary-row" onclick="AppUI.savedDetail(${entries.indexOf(item)})"><span class="vocabulary-label"><strong>${esc(item.headword)}</strong><small>${esc(item.meaning)}</small></span>${gauge(section.state)}${arrow()}</button>`).join('')}</div></section>${section.state==='復習予定'?`<div class="vocabulary-actions"><button class="primary full" onclick="startReview()">復習をはじめる ${arrow()}</button></div>`:''}`).join('')||'<p class="vocabulary-empty">保存した語はありません</p>';
   }else if(vocabularyTab==='collocations'){content=window.CollocationUI?.savedTabHtml?.()||'<p class="vocabulary-empty" role="status">組み合わせを読み込んでいます</p>';
-  }else if(vocabularyTab==='wordbook'){content=window.WordbookUI?WordbookUI.html():'<p class="vocabulary-empty" role="status">単語帳を読み込んでいます</p>';
+  }else if(vocabularyTab==='wordbook'){content=window.WordbookUI?WordbookUI.html():'<p class="vocabulary-empty" role="status">単語練習を読み込んでいます</p>';
   }else{const units=(window.MaterialCatalog?.units?.()||[C1_UNIT_01]).filter(unit=>unit.level===vocabularyLevel);content=`<div class="level-switch" role="tablist" aria-label="語彙レベル">${['C1','C2'].map(level=>`<button role="tab" aria-selected="${vocabularyLevel===level}" onclick="AppUI.vocabularyLevel('${level}')">${level}</button>`).join('')}</div>${units.length?`<div class="vocabulary-group">${units.map(unit=>{const best=appState&&quizStore?appState.best(quizStore.settings.mode,unit):null;return `<button class="vocabulary-row unit-row" onclick="QuizUI.startUnit('${esc(unit.id)}')"><span class="unit-number">${['①','②','③','④','⑤'][unit.unitNumber-1]||unit.unitNumber}</span><span class="vocabulary-label"><strong>${esc(unit.title)}</strong></span><span class="unit-score">ベスト ${best??0}/10</span>${best===10?'<span class="unit-clear" role="img" aria-label="クリア">✓</span>':''}${arrow()}</button>`;}).join('')}</div>`:'<p class="vocabulary-empty">教材はありません</p>'}`;}
 
   if(vocabularyTab==='wordbook'&&window.WordbookUI?.deep())return WordbookUI.html();
