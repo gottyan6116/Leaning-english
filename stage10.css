@@ -1,0 +1,26 @@
+.wb-sub{margin:-4px 0 20px;font-size:var(--font-size-caption);color:var(--color-text-sub)}
+.wb-genre .wb-progress{display:flex;align-items:center;gap:10px;font-size:var(--font-size-caption);color:var(--color-text-sub);white-space:nowrap}
+.wb-progress-bar{display:block;width:64px;height:6px;border-radius:3px;background:var(--color-border);overflow:hidden}
+.wb-progress-bar i{display:block;height:100%;background:var(--color-primary)}
+.wb-block{margin:0 0 24px}
+.wb-block h2{margin:0 0 10px;font-size:var(--font-size-section-title);font-weight:var(--font-weight-bold)}
+.wb-seg{display:flex;flex-wrap:wrap;gap:8px}
+.wb-opt{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-width:72px;padding:8px 16px;border-width:1px}
+.wb-opt small{font-size:var(--font-size-caption);color:var(--color-text-sub);font-weight:var(--font-weight-regular)}
+.wb-opt[aria-pressed="true"]{border:2px solid var(--color-text);box-shadow:none}
+.wb-opt:disabled{color:var(--color-text-muted);box-shadow:none;cursor:not-allowed}
+.wb-opt:disabled small{color:var(--color-text-muted)}
+.wb-start{margin-top:8px}
+.wb-start:disabled{opacity:.5;cursor:not-allowed}
+.qs-timer{display:flex;align-items:center;gap:10px;width:100%;align-self:stretch;flex-shrink:0;margin:-4px 0 12px}
+.qs-timebar{flex:1;height:4px;border-radius:2px;background:var(--color-border);overflow:hidden}
+.qs-timebar i{display:block;height:100%;background:var(--color-text-sub)}
+.qs-timeleft{min-width:2ch;text-align:right;font-size:var(--font-size-caption);color:var(--color-text-sub);display:none}
+.qs-combo-slot{min-height:28px;text-align:center}
+.qs-combo{display:inline-block;font-weight:var(--font-weight-bold);font-size:var(--font-size-body);color:var(--color-correct-text);animation:qs-combo-in var(--duration-feedback) var(--motion-easing)}
+@keyframes qs-combo-in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){
+ .qs-timebar{display:none}
+ .qs-timeleft{display:block}
+ .qs-combo{animation:none}
+}
