@@ -13,7 +13,7 @@ try {
  insert into auth.users values('${A}'),('${B}');`);
  const files=(await fs.readdir('supabase/migrations')).filter(f=>f.endsWith('.sql')).sort();
  for(const file of files)await db.exec(await fs.readFile('supabase/migrations/'+file,'utf8'));
- ok(files.length===6,'six ordered migrations applied');
+ ok(files.length===7,'seven ordered migrations applied');
  const tables=['answer_logs','saved_words','preferences','unit_sessions','article_states','opinion_drafts'];
  const rows=await db.query(`select relname,relrowsecurity from pg_class join pg_namespace n on n.oid=relnamespace where n.nspname in ('public','private') and relkind='r'`);
  ok(rows.rows.length===7&&rows.rows.every(r=>r.relrowsecurity),'all seven tables have RLS');
@@ -48,13 +48,13 @@ try {
  for(const kind of ['vocabulary','comprehension','collocation'])await db.exec(`insert into public.answer_logs(user_id,event_id,session_id,question_id,kind,mode,correct,answered_at) values('${A}',gen_random_uuid(),'session','q-${kind}','${kind}','en',true,now())`);
  ok((await db.query(`select count(distinct kind)::int n from public.answer_logs where question_id like 'q-%'`)).rows[0].n===3,'collocation answer kind accepted alongside existing kinds');
  await assert.rejects(db.exec(`insert into public.answer_logs(user_id,event_id,session_id,question_id,kind,mode,correct,answered_at) values('${A}',gen_random_uuid(),'session','q-bad','grammar','en',true,now())`));checks++;
- let stamp2=0;for(const mode of ['ja','en','ja_en']){stamp2++;
+ let stamp2=0;for(const mode of ['ja','en','ja_en','def_en']){stamp2++;
   await db.exec(`insert into public.answer_logs(user_id,event_id,session_id,question_id,mode,correct,answered_at) values('${A}',gen_random_uuid(),'session','q-mode-${mode}','${mode}',true,now())`);
   await db.exec(`insert into public.unit_sessions(user_id,session_id,unit_id,mode,total,correct,completed_at) values('${A}','mode-${mode}','unit','${mode}',10,5,now())`);
   await db.exec(`insert into public.preferences(user_id,setting_key,value,updated_at) values('${A}','mode','"${mode}"','2026-01-03 01:0${stamp2}') on conflict(user_id,setting_key) do update set value=excluded.value,updated_at=excluded.updated_at`);
   ok((await db.query(`select value from public.preferences where setting_key='mode'`)).rows[0].value===mode,'mode preference accepts '+mode);
  }
- for(const bad of ['ja-en','JA','','en_ja']){
+ for(const bad of ['ja-en','JA','','en_ja','def-en','definition']){
   await assert.rejects(db.exec(`insert into public.answer_logs(user_id,event_id,session_id,question_id,mode,correct,answered_at) values('${A}',gen_random_uuid(),'session','q-bad-mode','${bad}',true,now())`));checks++;
   await assert.rejects(db.exec(`insert into public.unit_sessions(user_id,session_id,unit_id,mode,total,correct,completed_at) values('${A}','bad-${bad}','unit','${bad}',10,5,now())`));checks++;
   await assert.rejects(db.exec(`update public.preferences set value='"${bad}"'::jsonb,updated_at='2026-01-03 02:00' where setting_key='mode'`));checks++;
