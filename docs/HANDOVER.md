@@ -98,6 +98,8 @@ git diff --check
 | records.js | 現状の記録画面。固定の表示用履歴が残る |
 | wordbook-core.js | 単語帳の出題範囲（おまかせ／苦手／未学習／保存済み）・件数・端末ごとの設定の記憶・ジャンルとセットの組み立て |
 | stage10.js／stage10.css | 単語タブの「単語練習」（ジャンル→セット→出題の設定）とタイムバー・コンボの見た目。単語タブの並びは 単語練習／組み合わせ／保存した単語（既定は単語練習） |
+| home-core.js | ホームの算出ロジック（日本時間の日付・週、学習した日、連続日数、今週の集計、今日のタスクと完了判定、最近の学習）。表示から分離しテスト済み。`PROGRESS_METRIC` で「今週の回答数」と将来の学習時間を切り替える（設定画面には出さない） |
+| stage12.js／stage12.css | 新ホーム画面（PC2列・スマホ1列）、ナビ下部の表示名、タスクの開始、完了の端末内記録（`english-notes.home.completions.v1`、同期しない）。表示名は端末の localStorage `english-notes.ui.display-name.v1`（同期しない、学習設定で入力） |
 | stage11.js／stage11.css | リスニング画面（従来の3本＋materials/listeningの新規5本を一覧から選んで再生・問題）。再生はブラウザの音声読み上げ |
 | collocation-core.js | コロケーションの検証・出題（穴埋め／誤用）・状態・復習・保存／回答の端末保存 |
 | stage8.js／stage8.css | 語の詳細の「よく一緒に使う表現」、記事ページの入口、単語一覧の「組み合わせ」タブ |
@@ -167,7 +169,8 @@ READMEと要件書には旧Googleログイン・同期未実装等の記載が�
 | 第6 | 一部完了：SQL適用と同期実装・自動検証済み。実機の追加検証は未確認 | docs/stage6-sync-design.md、docs/stage6-supabase-setup.md、docs/stage6-sync-report.md |
 | 第6.5 | 完了：ログイン独立・目アイコン・アカウント／設定／データ管理。自動入力等の実機確認は未確認 | docs/stage65-ui-report.md |
 | 第8 | 実装完了・公開済み：コロケーション中心の学習。SQLはSupabase適用済み（ユーザー報告）、実機の同期確認は未確認。誤用の見分けは65語の各1件（語の最初の組み合わせ）に私（AI）の下書きを登録済みで出題される。下書きはユーザーの確認待ち | docs/stage8-spec.md、docs/stage8-collocation-list.md |
-| 第11 | 実装完了・確認待ち：定義→英（mode `def_en`）、各ジャンル④〜⑥（150語）。SQLはSupabase適用済み（ユーザー報告）。語の内容はすべて unverified、`docs/stage11-review.md` のユーザー確認と公開前（push未実施） | docs/stage11-spec.md、docs/stage11-review.md |
+| 第12 | 実装完了・確認待ち：ホーム画面の刷新（今日の学習／最近の学習／週のカレンダー／学習の進捗／継続記録／新着の記事）。表示はすべて実データから算出。旧ホームの「続きから」「表現ノート」は廃止（単語タブから利用）。DB変更なし | docs/stage12-spec.md |
+| 第11 | 実装完了・公開済み：定義→英（mode `def_en`）、各ジャンル④〜⑥（150語）。SQLはSupabase適用済み（ユーザー報告）。語の内容はすべて unverified、`docs/stage11-review.md` のユーザー確認と公開前（push未実施） | docs/stage11-spec.md、docs/stage11-review.md |
 | 第10 | 実装完了・公開済み：単語帳の拡充（150語・15セット）、出題の設定、時間制限、コンボ。SQL（mode に ja_en、answer_logs.timed_out）はSupabase適用済み（ユーザー報告）。語の内容はすべて unverified で、実機の同期確認は未確認 | docs/stage10-spec.md、docs/stage10-wordlist.md |
 | 同期仕上げ | 実装完了：未設定目標、恒久拒否隔離、自動統合、UUID照合。本人の再ログイン実機検証は未確認 | docs/sync-import-fix-report.md、docs/automatic-guest-merge-report.md |
 | 第7 | 完了：10本追加→13本、全段落訳、遅延取得、検索・モザイク・棚。教材の本人レビューと最新UI実画面確認は未確認 | docs/stage7-article-plan.md、docs/stage7-implementation-report.md、docs/article-browse-report.md |

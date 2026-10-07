@@ -59,4 +59,14 @@
  --duration-feedback:200ms;
  --motion-easing:ease-out;
  --motion-wrong-distance:4px;
+ /* Home screen only (stage 12): corner radii and the per-kind icon colors. */
+ --radius-home-card:20px;
+ --radius-tile:14px;
+ --radius-thumb:10px;
+ --color-kind-vocab-bg:var(--color-primary-soft);
+ --color-kind-vocab-fg:var(--color-primary-text);
+ --color-kind-colloc-bg:#EEF0FF;
+ --color-kind-colloc-fg:#5B63D6;
+ --color-kind-article-bg:var(--color-correct-soft);
+ --color-kind-article-fg:var(--color-correct);
 }

@@ -62,5 +62,10 @@
   if(t.hasAttribute('data-wb-mode')){try{window.AppUI.saveLearningSettings({mode:t.dataset.wbMode});}catch(error){toast('設定を保存できませんでした');}return;}
   if(t.hasAttribute('data-wb-start'))return start();
  });
- window.WordbookUI={html,deep,openSet,state,start,reset:()=>{state.screen='genres';state.genreId=null;state.setId=null;}};
+ function quickStart(setId){
+  const set=findSet(setId);if(!set)return;const available=Core.counts(set,context()),setup=Core.normalizeSetup(Core.loadSetup(storage),available),items=Core.first10(Core.select('auto',set,context()));
+  if(!items.length){toast('出題できる語がありません');return;}
+  window.QuizUI.startWordSet(set,items,{recordScore:items.length===10,timeLimitMs:setup.timeLimitMs||null});
+ }
+ window.WordbookUI={html,deep,openSet,state,start,quickStart,reset:()=>{state.screen='genres';state.genreId=null;state.setId=null;}};
 })();
