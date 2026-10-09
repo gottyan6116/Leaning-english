@@ -22,7 +22,8 @@
         "checkedAt": "2026-10-07",
         "credit": "Photo by Nik Shuliahin on Unsplash",
         "alt": "バスケットボールをする若者たち",
-        "context": "運動に関連する素材写真。WHOの指針の対象者や調査の写真ではない。"
+        "context": "運動に関連する素材写真。WHOの指針の対象者や調査の写真ではない。",
+        "assetPath": "assets/articles/health-adolescent-obesity.jpg"
       },
       "sourcePublishedAt": "2026-10-07",
       "articlePath": "materials/articles/health-adolescent-obesity.json"
@@ -39,15 +40,16 @@
       "level": "A2",
       "readingMinutes": 2,
       "photo": {
-        "pageUrl": "https://unsplash.com/photos/a-group-of-children-playing-in-a-field-DldEn-9g78k",
-        "photoId": "DldEn-9g78k",
-        "photographer": "Andy Quezada",
+        "pageUrl": "https://unsplash.com/photos/three-children-are-sitting-in-a-field-of-tall-grass-sW6TRpgZLMw",
+        "photoId": "sW6TRpgZLMw",
+        "photographer": "Laura Ohlman",
         "service": "Unsplash",
         "licenseUrl": "https://unsplash.com/license",
         "checkedAt": "2026-10-07",
-        "credit": "Photo by Andy Quezada on Unsplash",
-        "alt": "野原で遊ぶ子どもたち",
-        "context": "子どもの運動に関連する素材写真。WHOの指針や調査対象の子どもの写真ではない。"
+        "credit": "Photo by Laura Ohlman on Unsplash",
+        "alt": "草原に座る三人の子ども",
+        "context": "子どもの運動に関連する素材写真。WHOの指針や調査対象の子どもの写真ではない。",
+        "assetPath": "assets/articles/health-child-obesity.jpg"
       },
       "sourcePublishedAt": "2026-10-07",
       "articlePath": "materials/articles/health-child-obesity.json"
@@ -72,7 +74,8 @@
         "checkedAt": "2026-10-07",
         "credit": "Photo by Age Cymru on Unsplash",
         "alt": "晴れた公園の小道を歩く人々",
-        "context": "高齢者の暮らしに関連する素材写真。PAHOの評価に参加した国や人々の写真ではない。"
+        "context": "高齢者の暮らしに関連する素材写真。PAHOの評価に参加した国や人々の写真ではない。",
+        "assetPath": "assets/articles/health-healthy-ageing.jpg"
       },
       "sourcePublishedAt": "2026-10-06",
       "articlePath": "materials/articles/health-healthy-ageing.json"
@@ -89,15 +92,16 @@
       "level": "B1",
       "readingMinutes": 3,
       "photo": {
-        "pageUrl": "https://unsplash.com/photos/a-couple-of-women-sitting-at-a-table-BziLss04mXY",
-        "photoId": "BziLss04mXY",
-        "photographer": "Daiga Ellaby",
+        "pageUrl": "https://unsplash.com/photos/2-women-sitting-on-brown-wooden-bench-kFEb8yigiuQ",
+        "photoId": "kFEb8yigiuQ",
+        "photographer": "Jarritos Mexican Soda",
         "service": "Unsplash",
         "licenseUrl": "https://unsplash.com/license",
         "checkedAt": "2026-10-07",
-        "credit": "Photo by Daiga Ellaby on Unsplash",
-        "alt": "テーブルで話す二人の女性",
-        "context": "対話や支え合いに関連する素材写真。PAHOの会合や参加者の写真ではない。"
+        "credit": "Photo by Jarritos Mexican Soda on Unsplash",
+        "alt": "ベンチに座る二人の女性",
+        "context": "対話や支え合いに関連する素材写真。PAHOの会合や参加者の写真ではない。",
+        "assetPath": "assets/articles/health-mental-health-week.jpg"
       },
       "sourcePublishedAt": "2026-10-06",
       "articlePath": "materials/articles/health-mental-health-week.json"
@@ -122,7 +126,8 @@
         "checkedAt": "2026-10-07",
         "credit": "Photo by Devon Divine on Unsplash",
         "alt": "日差しの中の野原に立つ妊婦",
-        "context": "暑さと妊娠に関連する素材写真。調査の対象者や実際の被害の写真ではない。"
+        "context": "暑さと妊娠に関連する素材写真。調査の対象者や実際の被害の写真ではない。",
+        "assetPath": "assets/articles/health-heat-pregnancy.jpg"
       },
       "sourcePublishedAt": "2026-10-05",
       "articlePath": "materials/articles/health-heat-pregnancy.json"
@@ -173,7 +178,8 @@
         "checkedAt": "2026-10-07",
         "credit": "Photo by Marek Studzinski on Unsplash",
         "alt": "机の上の聴診器とハートの飾り",
-        "context": "心臓の健康に関連する素材写真。WHOの推計や調査の対象とは関係がない。"
+        "context": "心臓の健康に関連する素材写真。WHOの推計や調査の対象とは関係がない。",
+        "assetPath": "assets/articles/health-global-health-estimates.jpg"
       },
       "sourcePublishedAt": "2026-10-02",
       "articlePath": "materials/articles/health-global-health-estimates.json"
@@ -198,7 +204,8 @@
         "checkedAt": "2026-10-07",
         "credit": "Photo by Hector Reyes on Unsplash",
         "alt": "道を腕を組んで歩く年配の二人",
-        "context": "長寿に関連する素材写真。WHOの調査対象の人物や場所の写真ではない。"
+        "context": "長寿に関連する素材写真。WHOの調査対象の人物や場所の写真ではない。",
+        "assetPath": "assets/articles/health-life-expectancy.jpg"
       },
       "sourcePublishedAt": "2026-10-02",
       "articlePath": "materials/articles/health-life-expectancy.json"
@@ -433,7 +440,8 @@
         "checkedAt": "2026-10-07",
         "credit": "Photo by Tasha Kostyuk on Unsplash",
         "alt": "ベンチのある病院の廊下",
-        "context": "小児がんの医療に関連する素材写真。報告書の対象となった病院や患者の写真ではない。"
+        "context": "小児がんの医療に関連する素材写真。報告書の対象となった病院や患者の写真ではない。",
+        "assetPath": "assets/articles/health-childhood-cancer.jpg"
       },
       "sourcePublishedAt": "2026-09-23",
       "articlePath": "materials/articles/health-childhood-cancer.json"

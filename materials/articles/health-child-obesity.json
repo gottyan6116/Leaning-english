@@ -47,15 +47,16 @@
     }
   ],
   "photo": {
-    "pageUrl": "https://unsplash.com/photos/a-group-of-children-playing-in-a-field-DldEn-9g78k",
-    "photoId": "DldEn-9g78k",
-    "photographer": "Andy Quezada",
+    "pageUrl": "https://unsplash.com/photos/three-children-are-sitting-in-a-field-of-tall-grass-sW6TRpgZLMw",
+    "photoId": "sW6TRpgZLMw",
+    "photographer": "Laura Ohlman",
     "service": "Unsplash",
     "licenseUrl": "https://unsplash.com/license",
     "checkedAt": "2026-10-07",
-    "credit": "Photo by Andy Quezada on Unsplash",
-    "alt": "野原で遊ぶ子どもたち",
-    "context": "子どもの運動に関連する素材写真。WHOの指針や調査対象の子どもの写真ではない。"
+    "credit": "Photo by Laura Ohlman on Unsplash",
+    "alt": "草原に座る三人の子ども",
+    "context": "子どもの運動に関連する素材写真。WHOの指針や調査対象の子どもの写真ではない。",
+    "assetPath": "assets/articles/health-child-obesity.jpg"
   },
   "paragraphs": [
     {

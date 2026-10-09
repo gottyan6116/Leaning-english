@@ -93,7 +93,7 @@
       "version": 1,
       "publishedAt": "2026-10-07T00:00:00+09:00",
       "path": "materials/articles/health-adolescent-obesity.json",
-      "sha256": "8abf31b4c438db3500b4c64c1b1b20015b6e38a2a9aef00258c7d888790b7475"
+      "sha256": "f70036815279f25ad033de567468b28b860eb52d572d18ee5047d35ec94b22b1"
     },
     {
       "id": "article-health-child-obesity-2026",
@@ -101,7 +101,7 @@
       "version": 1,
       "publishedAt": "2026-10-07T00:00:00+09:00",
       "path": "materials/articles/health-child-obesity.json",
-      "sha256": "195bd2108c3c56e3674847b4967fb8c7cf3038f8055efefe21403a10d5a4dd63"
+      "sha256": "ed006d1c5ffdf16db0219e22a86d95a3269934e604c717eebce387a6e39059a8"
     },
     {
       "id": "article-health-childhood-cancer-2026",
@@ -109,7 +109,7 @@
       "version": 1,
       "publishedAt": "2026-10-07T00:00:00+09:00",
       "path": "materials/articles/health-childhood-cancer.json",
-      "sha256": "55d0381f329e7a2540160a631a7a49d33fd017472700938f855a78a0c67a1006"
+      "sha256": "0bd73a2d617a19216b88993187b1218e2ae964180fc2b44ac699bd69a8753b77"
     },
     {
       "id": "article-health-global-health-estimates-2026",
@@ -117,7 +117,7 @@
       "version": 1,
       "publishedAt": "2026-10-07T00:00:00+09:00",
       "path": "materials/articles/health-global-health-estimates.json",
-      "sha256": "3a836b4f058f4ed73e119e3b0d0bd9b931d8fef9d6b0f89cd622531e160c789c"
+      "sha256": "eb5ed9e63ce750dedd4524c737f22da3d033fc64047a8970aa5cf800d327e43d"
     },
     {
       "id": "article-health-healthy-ageing-2026",
@@ -125,7 +125,7 @@
       "version": 1,
       "publishedAt": "2026-10-07T00:00:00+09:00",
       "path": "materials/articles/health-healthy-ageing.json",
-      "sha256": "cf36e10c4f674410801978fc85339f02f6ae7f49dbbe9ed7cfec35fed19a6850"
+      "sha256": "882100b9fd3be4eb77ed37deb95ee79c6c88aa8d0894a9c70fad05c61863ac8a"
     },
     {
       "id": "article-health-heat-pregnancy-2026",
@@ -133,7 +133,7 @@
       "version": 1,
       "publishedAt": "2026-10-07T00:00:00+09:00",
       "path": "materials/articles/health-heat-pregnancy.json",
-      "sha256": "6bca789663d8d252ad6a39c4b175a4c5a444d288651a185952e6196722afc41f"
+      "sha256": "751bf37ab47133818d001cd947c9c1dba524e525c808dc1197924ceca2831380"
     },
     {
       "id": "article-health-life-expectancy-2026",
@@ -141,7 +141,7 @@
       "version": 1,
       "publishedAt": "2026-10-07T00:00:00+09:00",
       "path": "materials/articles/health-life-expectancy.json",
-      "sha256": "05bd0f5de70255bbb1f767ef4240f528c7b3d78d5639b960e5fff821a1c26e7f"
+      "sha256": "83711b7af49b93f4210f5508b0180e5d89c4cc7abb41469f09a289b1627d729f"
     },
     {
       "id": "article-health-mental-health-week-2026",
@@ -149,7 +149,7 @@
       "version": 1,
       "publishedAt": "2026-10-07T00:00:00+09:00",
       "path": "materials/articles/health-mental-health-week.json",
-      "sha256": "5dfb78e11b29ec3b5770140ecee3b4d75c21c6d0955b5b8e09d3c5eaeb1a3d08"
+      "sha256": "2905faf6cc20a5a304b77591ee9e310e19e0968cc69eb65238be035676dec41a"
     },
     {
       "id": "article-informal-workers-2026",
@@ -420,7 +420,7 @@
     "id": "article-index",
     "version": 1,
     "path": "materials/articles/index.json",
-    "sha256": "411e3b6f3aa0332574f3f03be22624db22223084af8fb25d7ba4c9ec6f31327d"
+    "sha256": "833d5beebc0162b77ed256b25437ee58535975ad07fbd36d49782e345e33be02"
   },
   "articleVocabulary": [
     {

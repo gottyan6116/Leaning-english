@@ -34,15 +34,16 @@
     }
   ],
   "photo": {
-    "pageUrl": "https://unsplash.com/photos/a-couple-of-women-sitting-at-a-table-BziLss04mXY",
-    "photoId": "BziLss04mXY",
-    "photographer": "Daiga Ellaby",
+    "pageUrl": "https://unsplash.com/photos/2-women-sitting-on-brown-wooden-bench-kFEb8yigiuQ",
+    "photoId": "kFEb8yigiuQ",
+    "photographer": "Jarritos Mexican Soda",
     "service": "Unsplash",
     "licenseUrl": "https://unsplash.com/license",
     "checkedAt": "2026-10-07",
-    "credit": "Photo by Daiga Ellaby on Unsplash",
-    "alt": "テーブルで話す二人の女性",
-    "context": "対話や支え合いに関連する素材写真。PAHOの会合や参加者の写真ではない。"
+    "credit": "Photo by Jarritos Mexican Soda on Unsplash",
+    "alt": "ベンチに座る二人の女性",
+    "context": "対話や支え合いに関連する素材写真。PAHOの会合や参加者の写真ではない。",
+    "assetPath": "assets/articles/health-mental-health-week.jpg"
   },
   "paragraphs": [
     {
