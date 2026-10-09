@@ -26,3 +26,5 @@ body.quiz-active{overflow:hidden;background:var(--color-bg)}body.quiz-active>hea
 .qs-frame.article-session .qs-target{font-size:var(--font-size-target);margin:10px 0}
 .qs-frame.article-session.has-sheet .qs-count{top:12px}
 @media(max-width:767px){.qs-frame.article-session .qs-content{gap:12px}.qs-frame.article-session.has-sheet .qs-answerarea{margin-top:0}}
+
+.qs-cols{margin-top:18px}.qs-cols h2{font-size:18px;margin:0 0 6px}.qs-cols h3{font-size:14px;margin:0 0 2px;color:var(--color-text-sub)}.qs-colword{margin-top:14px}.qs-colword h3{color:var(--color-text);font-size:16px}.qs-colword h3 small{display:block;font-size:12px;font-weight:400;color:var(--color-text-sub);margin-top:3px}.qs-cols .qs-wronglist{margin-bottom:0}.qs-sheet .qs-wrongrow{background:transparent;padding:12px 0}.qs-sheet .qs-wrongrow strong{font-size:16px}

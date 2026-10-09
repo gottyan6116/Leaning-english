@@ -8,6 +8,7 @@
  const byArticle=id=>items().filter(c=>c.articleId===id);
  const logs=()=>{try{return store?store.logs:[];}catch(error){return [];}};
  const isSaved=id=>{try{return !!store?.isSaved(id);}catch(error){return false;}};
+ const savedIds=()=>{try{return store?store.saves:[];}catch(error){return [];}};
  const pending=c=>c.status!=='verified'?'<span class="col-pending">確認中</span>':'';
  const icon=active=>`<svg viewBox="0 0 24 24" fill="${active?'currentColor':'none'}" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>`;
  const quiet=()=>document.body.classList.contains('quiz-active');
@@ -22,10 +23,10 @@
  const wordLink=(word,articleId)=>byWord(word.id).length?`<button class="col-wordlink" data-col-open-word="${esc(word.id)}" data-col-article="${esc(articleId)}"><strong>${esc(word.headword)}</strong><span aria-hidden="true">›</span><span class="col-sr">の表現を見る</span></button>`:`<strong>${esc(word.headword)}</strong>`;
  function savedTabHtml(){const all=items();
   if(!all.length){const failed=Boolean(window.MaterialCatalog?.collocationError?.());return `<p class="vocabulary-empty" role="${failed?'alert':'status'}">${failed?'組み合わせを読み込めませんでした':'組み合わせを読み込んでいます'}</p>`;}
-  const saved=all.filter(c=>isSaved(c.id)),reviewIds=new Set(Core.reviewItems(all,logs()).map(x=>x.id)),view=EnglishVocabulary.createView(saved,saved.filter(c=>reviewIds.has(c.id)),c=>Core.status(c.id,logs()));
+  const saved=all.filter(c=>isSaved(c.id)),reviewIds=new Set(Core.reviewItems(all,logs(),savedIds()).map(x=>x.id)),view=EnglishVocabulary.createView(saved,saved.filter(c=>reviewIds.has(c.id)),c=>Core.status(c.id,logs()));
   const sections=view.sections();if(!sections.length)return '<p class="vocabulary-empty">保存した組み合わせはありません</p>';
   return sections.map(section=>`<section class="vocabulary-section" aria-labelledby="col-state-${section.state}"><h2 id="col-state-${section.state}">${section.state} <span>${section.items.length}</span></h2><div class="vocabulary-group">${section.items.map(c=>`<button class="vocabulary-row" onclick="CollocationUI.openDetail('${esc(c.id)}')"><span class="vocabulary-label"><strong>${esc(c.form)}</strong><small>${esc(c.meaningJa)}${c.status!=='verified'?'（確認中）':''}</small></span>${AppUI.gauge(section.state)}<span class="action-chevron" aria-hidden="true">›</span></button>`).join('')}</div></section>${section.state==='復習予定'?'<div class="vocabulary-actions"><button class="primary full" onclick="CollocationUI.startReview()">復習をはじめる <span class="action-chevron" aria-hidden="true">›</span></button></div>':''}`).join('');}
- function reviewItems(){return store?Core.reviewItems(items(),logs()):[];}
+ function reviewItems(){return store?Core.reviewItems(items(),logs(),savedIds()):[];}
  function launch(list,scope){if(!list.length){toast('出題できる組み合わせがありません');return;}window.QuizUI?.startCollocations?.(list,{kind:'collocation',scope});}
  const scopeCandidates=scope=>scope?.type==='article'?byArticle(scope.id):scope?.type==='word'?byWord(scope.id):items();
  function start(scope){launch(practiceItems(scopeCandidates(scope)),scope);}

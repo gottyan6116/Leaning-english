@@ -127,3 +127,16 @@ test('the new migration only widens answer_logs.kind and leaves applied migratio
  const added=fs.readdirSync(dir).filter(n=>/collocation/.test(n));assert.equal(added.length,1);const sql=read(added[0]);
  assert.match(sql,/'vocabulary','comprehension','collocation'/);assert.doesNotMatch(sql,/drop table|delete from|truncate/i);
 });
+
+test('stage 14: registered but unanswered combinations join the review; a correct latest answer removes them',()=>{
+ const c=all.find(x=>x.fill),e=(correct)=>({kind:'collocation',collocationId:c.id,wordId:c.wordId,format:'fill',mode:'en',correct,skipped:false,at:'2026-10-09T00:00:00Z'});
+ assert.deepEqual(Core.reviewItems(all,[],[]),[]);
+ assert.deepEqual(Core.reviewItems(all,[],[c.id]).map(x=>x.id),[c.id]);
+ assert.deepEqual(Core.reviewItems(all,[e(true)],[c.id]),[],'solved correctly: not due');
+ assert.deepEqual(Core.reviewItems(all,[e(false)],[]).map(x=>x.id),[c.id],'wrong answers still count without a registration');
+});
+test('stage 14: the question card never shows the unmasked example, and the sheet lists at most three combinations',()=>{
+ const source=fs.readFileSync(path.join(__dirname,'../quiz-session.js'),'utf8');
+ assert.doesNotMatch(source,/answered\?item\.example/,'card must keep the masked example after answering');
+ assert.match(source,/slice\(0,3\)/);
+});
