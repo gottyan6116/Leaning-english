@@ -6800,6 +6800,666 @@
         ]
       },
       "misuse": null
+    },
+    {
+      "id": "col-vocab-000071-meet-a-deadline",
+      "wordId": "vocab-000071",
+      "form": "meet a deadline",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "締め切りに間に合わせる",
+      "nuanceJa": "meet は期限どおりに終えることを表す。miss a deadline（間に合わない）と対にして覚える。make a deadline とも言うが、meet の方が標準的。",
+      "example": "The team worked all night to meet the deadline.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "meet",
+        "distractors": [
+          "cook",
+          "repair",
+          "visit"
+        ]
+      },
+      "misuse": {
+        "form": "bake a deadline",
+        "noteJa": "「bake a deadline」とは言いません。ふつうは「meet a deadline」・「a tight deadline」・「the deadline for ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000071-a-tight-deadline",
+      "wordId": "vocab-000071",
+      "form": "a tight deadline",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "余裕のない締め切り",
+      "nuanceJa": "tight は作業量に対して余裕がないことを強調する。short deadline は期間の短さそのものを言うので、焦点が違う。",
+      "example": "We have a tight deadline for the new website.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "tight",
+        "distractors": [
+          "sweet",
+          "wooden",
+          "fluffy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000071-the-deadline-for-x",
+      "wordId": "vocab-000071",
+      "form": "the deadline for ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の締め切り",
+      "nuanceJa": "for の後ろに提出物や手続きを置く（the deadline for applications）。日付は by や on で示すので、何の締め切りかは for、いつかは by と分ける。",
+      "example": "The deadline for entries is next Monday.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "from",
+          "through",
+          "beside"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000072-a-new-client",
+      "wordId": "vocab-000072",
+      "form": "a new client",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "新規の顧客",
+      "nuanceJa": "new client は取引を始めたばかりの顧客。potential client（見込み客）はまだ契約前なので、契約済みかどうかで使い分ける。",
+      "example": "The agency won a new client last month.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "new",
+        "distractors": [
+          "sandy",
+          "salty",
+          "woolen"
+        ]
+      },
+      "misuse": {
+        "form": "peel a client",
+        "noteJa": "「peel a client」とは言いません。ふつうは「a new client」・「serve clients」・「a client of ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000072-serve-clients",
+      "wordId": "vocab-000072",
+      "form": "serve clients",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "顧客に対応する",
+      "nuanceJa": "serve は会社や店が顧客に仕事を提供し続けること。help は日常的で幅広く、serve は組織が継続的に顧客を相手にする改まった響きがある。",
+      "example": "The firm serves clients in more than ten countries.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "serve",
+        "distractors": [
+          "peel",
+          "knit",
+          "sneeze"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000072-a-client-of-x",
+      "wordId": "vocab-000072",
+      "form": "a client of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の顧客",
+      "nuanceJa": "of の後ろに依頼を受ける会社や専門家を置く（a client of the law firm）。customer は店の買い手で、client は専門的なサービスの依頼者という違いがある。",
+      "example": "She is a client of a small law firm.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "onto",
+          "upon",
+          "beneath"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000073-ask-for-a-refund",
+      "wordId": "vocab-000073",
+      "form": "ask for a refund",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋前置詞＋名詞",
+      "meaningJa": "返金を求める",
+      "nuanceJa": "ask for は丁寧に求める日常的な言い方。demand a refund は強く要求する言い方で、苦情を伝える場面で使う。",
+      "example": "She asked for a refund.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "ask",
+        "distractors": [
+          "bake",
+          "spell",
+          "peel"
+        ]
+      },
+      "misuse": {
+        "form": "a salty refund",
+        "noteJa": "「a salty refund」とは言いません。ふつうは「ask for a refund」・「a full refund」・「a refund for ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000073-a-full-refund",
+      "wordId": "vocab-000073",
+      "form": "a full refund",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "全額返金",
+      "nuanceJa": "full は代金のすべてが戻ること。partial refund（一部返金）と対になり、店の返品規定では full refund が定型。",
+      "example": "The shop offered a full refund.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "full",
+        "distractors": [
+          "wooden",
+          "noisy",
+          "hollow"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000073-a-refund-for-x",
+      "wordId": "vocab-000073",
+      "form": "a refund for ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の返金",
+      "nuanceJa": "for の後ろに返金される商品やサービスを置く（a refund for the ticket）。on は税金の戻り（a refund on the tax）にもよく使うので、買ったものなら for が自然。",
+      "example": "He got a refund for the cancelled trip.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "onto",
+          "upon",
+          "beneath"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000074-a-shortage-of-x",
+      "wordId": "vocab-000074",
+      "form": "a shortage of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の不足",
+      "nuanceJa": "of の後ろに足りないものを置く（a shortage of staff）。lack of は不足一般を言い、shortage は需要に対して供給が足りない状況を指し、人手や物資によく使う。",
+      "example": "A shortage of nurses worries the hospital.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "to",
+          "by",
+          "into"
+        ]
+      },
+      "misuse": {
+        "form": "a chewy shortage",
+        "noteJa": "「a chewy shortage」とは言いません。ふつうは「a shortage of ～」・「a severe shortage」・「cause a shortage」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000074-a-severe-shortage",
+      "wordId": "vocab-000074",
+      "form": "a severe shortage",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "深刻な不足",
+      "nuanceJa": "severe は程度が重く影響が大きいこと。serious より硬く、ニュースで shortage と組む定番の言い方。",
+      "example": "The city faces a severe shortage of housing.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "severe",
+        "distractors": [
+          "sleepy",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000074-cause-a-shortage",
+      "wordId": "vocab-000074",
+      "form": "cause a shortage",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "不足を招く",
+      "nuanceJa": "cause は意図せず結果を生むときに使う。create は意図的に作り出す印象があり、不足は意図せず起きるので cause が自然。",
+      "example": "Bad weather caused a shortage of vegetables.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "cause",
+        "distractors": [
+          "sing",
+          "peel",
+          "knit"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000075-obtain-a-permit",
+      "wordId": "vocab-000075",
+      "form": "obtain a permit",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "許可証を入手する",
+      "nuanceJa": "obtain は手続きや努力を経て手に入れる改まった語で、get の硬い言い方。permit、licence、approval など許可の類と結びつく。",
+      "example": "You need to obtain a permit before you build.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "obtain",
+        "distractors": [
+          "bake",
+          "tickle",
+          "peel"
+        ]
+      },
+      "misuse": {
+        "form": "obtain a sunrise",
+        "noteJa": "「obtain a sunrise」とは言いません。ふつうは「obtain a permit」・「obtain information」・「difficult to obtain」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000075-obtain-information",
+      "wordId": "vocab-000075",
+      "form": "obtain information",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "情報を入手する",
+      "nuanceJa": "obtain information は調べたり問い合わせたりして得ること。get information より改まり、公的な文書や案内で使う。",
+      "example": "Visitors can obtain information at the desk.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "obtain",
+        "distractors": [
+          "peel",
+          "knit",
+          "tickle"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000075-difficult-to-obtain",
+      "wordId": "vocab-000075",
+      "form": "difficult to obtain",
+      "type": "other",
+      "patternDetail": "形容詞＋不定詞",
+      "meaningJa": "入手しにくい",
+      "nuanceJa": "difficult to obtain は「手に入れにくい」という説明書や報告書の定型。hard to get は日常会話的な言い方。",
+      "example": "Rare parts are difficult to obtain.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "difficult",
+        "distractors": [
+          "sleepy",
+          "hollow",
+          "fluffy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000076-postpone-a-meeting",
+      "wordId": "vocab-000076",
+      "form": "postpone a meeting",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "会議を延期する",
+      "nuanceJa": "postpone は予定を後の日に移すこと。cancel は取りやめ、delay は予定より遅らせる（不測の事情が多い）という違いがある。",
+      "example": "We had to postpone the meeting.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "postpone",
+        "distractors": [
+          "peel",
+          "knit",
+          "bake"
+        ]
+      },
+      "misuse": {
+        "form": "postpone a sunrise",
+        "noteJa": "「postpone a sunrise」とは言いません。ふつうは「postpone a meeting」・「postpone until ～」・「be postponed due to ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000076-postpone-until-x",
+      "wordId": "vocab-000076",
+      "form": "postpone until ～",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "～まで延期する",
+      "nuanceJa": "until の後ろに新しい日時を置く（postpone until Monday）。to も使えるが、until は「その時まで先送りする」感じが強い。",
+      "example": "The vote was postponed until next month.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "until",
+        "distractors": [
+          "onto",
+          "beside",
+          "beneath"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000076-be-postponed-due-to-x",
+      "wordId": "vocab-000076",
+      "form": "be postponed due to ～",
+      "type": "other",
+      "patternDetail": "受け身＋前置詞句",
+      "meaningJa": "～のため延期される",
+      "nuanceJa": "due to の後ろに延期の理由を置く（postponed due to rain）。because of と近いが、due to は告知文や案内で使われやすい。",
+      "example": "The match was postponed due to rain.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "postponed",
+        "distractors": [
+          "peeled",
+          "knitted",
+          "baked"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000077-repay-a-loan",
+      "wordId": "vocab-000077",
+      "form": "repay a loan",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "ローンを返済する",
+      "nuanceJa": "repay は借りたお金を返すこと。pay back は日常的な言い方で、repay の方が改まり、ローンや借金の場面で使う。",
+      "example": "She plans to repay the loan within five years.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "repay",
+        "distractors": [
+          "peel",
+          "knit",
+          "bake"
+        ]
+      },
+      "misuse": {
+        "form": "repay a sneeze",
+        "noteJa": "「repay a sneeze」とは言いません。ふつうは「repay a loan」・「repay in full」・「repay with interest」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000077-repay-in-full",
+      "wordId": "vocab-000077",
+      "form": "repay in full",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞句",
+      "meaningJa": "全額返済する",
+      "nuanceJa": "in full は全額という意味で、repay in full は残さず返すこと。分割で返す repay in instalments と対になる。",
+      "example": "He repaid the money in full.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "full",
+        "distractors": [
+          "fear",
+          "glass",
+          "stone"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000077-repay-with-interest",
+      "wordId": "vocab-000077",
+      "form": "repay with interest",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞句",
+      "meaningJa": "利息を付けて返す",
+      "nuanceJa": "with interest は利息を付けることで、金融の場面の定型。比喩的に「倍にして返す」という意味でも使われる。",
+      "example": "The loan must be repaid with interest.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "interest",
+        "distractors": [
+          "laughter",
+          "sunshine",
+          "lemon"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000078-an-urgent-matter",
+      "wordId": "vocab-000078",
+      "form": "an urgent matter",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "緊急の用件",
+      "nuanceJa": "urgent は今すぐ対応が必要なこと。important は重要だが急ぐとは限らず、urgent は時間の切迫を強調する。",
+      "example": "I need to talk to you about an urgent matter.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "urgent",
+        "distractors": [
+          "sandy",
+          "woolen",
+          "fluffy"
+        ]
+      },
+      "misuse": {
+        "form": "urgent breakfast",
+        "noteJa": "「urgent breakfast」とは言いません。ふつうは「an urgent matter」・「an urgent need for ～」・「urgently need」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000078-an-urgent-need-for-x",
+      "wordId": "vocab-000078",
+      "form": "an urgent need for ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の緊急の必要",
+      "nuanceJa": "need の後ろは for で必要なものを示す。urgent は「すぐに」を強め、ニュースや援助の呼びかけでよく使う。",
+      "example": "There is an urgent need for clean water.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "by",
+          "at",
+          "into"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000078-urgently-need",
+      "wordId": "vocab-000078",
+      "form": "urgently need",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "至急必要とする",
+      "nuanceJa": "urgently は時間の切迫を示す副詞。badly need は日常的に強く必要とする言い方で、切迫よりも切実さを表す。",
+      "example": "The shelter urgently needs blankets.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "urgently",
+        "distractors": [
+          "sleepily",
+          "tastily",
+          "woodenly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000079-a-thorough-check",
+      "wordId": "vocab-000079",
+      "form": "a thorough check",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "徹底的な点検",
+      "nuanceJa": "thorough は細部まで抜けなく行うこと。complete は全部そろっていること、careful は注意深いことで、thorough は漏れのなさに重点がある。",
+      "example": "The engineer made a thorough check of the machine.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "thorough",
+        "distractors": [
+          "sleepy",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": {
+        "form": "a thorough sneeze",
+        "noteJa": "「a thorough sneeze」とは言いません。ふつうは「a thorough check」・「thoroughly clean」・「thorough in ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000079-thoroughly-clean",
+      "wordId": "vocab-000079",
+      "form": "thoroughly clean",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "隅々まできれいにする",
+      "nuanceJa": "thoroughly は「隅々まで」という程度を示す副詞。completely は全部という意味で、thoroughly は念入りさを強調する。",
+      "example": "Please clean the machine thoroughly.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "thoroughly",
+        "distractors": [
+          "tastily",
+          "sleepily",
+          "woodenly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000079-thorough-in-x",
+      "wordId": "vocab-000079",
+      "form": "thorough in ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～に抜かりがない",
+      "nuanceJa": "in の後ろに仕事や調べ方を置く（thorough in checking）。人の仕事ぶりを評価する言い方で、注意深いだけでなく漏れがないことを褒める。",
+      "example": "Ms Tanaka is thorough in her checks.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "onto",
+          "beneath",
+          "upon"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000080-an-ambitious-plan",
+      "wordId": "vocab-000080",
+      "form": "an ambitious plan",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "意欲的な計画",
+      "nuanceJa": "計画に使うと、達成は難しいが大きな目標を掲げた意欲的な計画という好意的な意味になる。人に使うと野心家という意味になり、評価が分かれる。",
+      "example": "The city announced an ambitious plan to plant trees.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "ambitious",
+        "distractors": [
+          "sleepy",
+          "woolen",
+          "muddy"
+        ]
+      },
+      "misuse": {
+        "form": "an ambitious pillow",
+        "noteJa": "「an ambitious pillow」とは言いません。ふつうは「an ambitious plan」・「set an ambitious goal」・「ambitious for ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000080-set-an-ambitious-goal",
+      "wordId": "vocab-000080",
+      "form": "set an ambitious goal",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋形容詞＋名詞",
+      "meaningJa": "意欲的な目標を掲げる",
+      "nuanceJa": "set は数値などを決めて目標を掲げること。aim for は目指す姿勢を言う表現で、set は目標を定める行為そのものを指す。",
+      "example": "The company set an ambitious goal for next year.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "set",
+        "distractors": [
+          "peel",
+          "knit",
+          "tickle"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000080-ambitious-for-x",
+      "wordId": "vocab-000080",
+      "form": "ambitious for ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～のために大志を抱く",
+      "nuanceJa": "for の後ろに人や組織を置き、その将来に大きな望みを持つことを表す（ambitious for the team）。ambitious about ～ は目標への意気込みを言う。",
+      "example": "The coach is ambitious for the team.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "onto",
+          "upon",
+          "beneath"
+        ]
+      },
+      "misuse": null
     }
   ]
 }

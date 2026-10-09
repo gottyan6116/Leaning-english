@@ -554,7 +554,7 @@
     "id": "article-collocations",
     "version": 1,
     "path": "materials/collocations/article-collocations.json",
-    "sha256": "2c7e7ad36574650a9161438fe3fe138b90006b4d71779be1831ac992cf60674f"
+    "sha256": "04fde5a034341148accfc21eb18c7fe06c5f80e8d2f37612cbd2c7b5f663a14a"
   },
   "genres": {
     "id": "wordbook-genres",

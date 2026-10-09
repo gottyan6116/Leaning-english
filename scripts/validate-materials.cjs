@@ -2,6 +2,7 @@ const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypt
 const root=path.join(__dirname,'..');
 const result=spawnSync(process.execPath,[path.join(__dirname,'validate-articles.cjs'),...(process.argv.includes('--write')?['--report']:[])],{stdio:'inherit'});
 if(result.status!==0)process.exit(result.status||1);
+const wordbookIds=new Set();
 const {validateItem}=require('../quiz-core.js'),entries=[],ids=new Set(),heads=new Set(),errors=[],articles=[],vocabularyRefs=[],wordIndex={},generated=[],searchRows=[];
 const json=x=>JSON.stringify(x,null,2)+'\n',hash=text=>crypto.createHash('sha256').update(text).digest('hex');
 function artifact(relative,text){generated.push([relative,text]);return{path:relative,sha256:hash(text)};}
@@ -13,7 +14,7 @@ for(const folder of ['vocabulary','articles'])for(const file of fs.readdirSync(p
  if(material.publishedAt!==null&&(!/(Z|[+-]\d\d:\d\d)$/.test(material.publishedAt)||!Number.isFinite(Date.parse(material.publishedAt))))errors.push(`Invalid publication date: ${file}`);
  if(folder==='vocabulary'){
   // Detailed word-set rules (word lists, distractors, lengths) live in validate-wordbook.cjs.
-  for(const item of material.items||[]){if(ids.has(item.id))errors.push(`Duplicate word ID: ${item.id}`);ids.add(item.id);}
+  for(const item of material.items||[]){if(ids.has(item.id))errors.push(`Duplicate word ID: ${item.id}`);ids.add(item.id);wordbookIds.add(item.id);}
  }
  if(material.publishedAt){entries.push({id:material.id,kind:material.kind,version:material.version,publishedAt:material.publishedAt,path:relative,sha256:hash(text)});
   if(folder==='articles'){
@@ -23,7 +24,7 @@ for(const folder of ['vocabulary','articles'])for(const file of fs.readdirSync(p
   }
  }
 }
-const collocations=require('./validate-collocations.cjs').validateCollocations(new Set(Object.keys(wordIndex)));
+const collocations=require('./validate-collocations.cjs').validateCollocations(new Set([...Object.keys(wordIndex),...wordbookIds]));
 errors.push(...collocations.errors);collocations.warnings.forEach(w=>console.warn('warning: '+w));
 {const rawFile=require('./validate-collocations.cjs').file,raw=fs.readFileSync(rawFile,'utf8');if(raw!==collocations.text){if(process.argv.includes('--write'))fs.writeFileSync(rawFile,collocations.text);else errors.push('Collocation material uses CRLF. Regenerate with --write before importing.');}}
 const wordbook=require('./validate-wordbook.cjs').validateWordbook();
