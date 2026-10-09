@@ -7402,7 +7402,7 @@
       "type": "adj_noun",
       "patternDetail": "形容詞＋名詞",
       "meaningJa": "意欲的な計画",
-      "nuanceJa": "計画に使うと、達成は難しいが大きな目標を掲げた意欲的な計画という好意的な意味になる。人に使うと野心家という意味になり、評価が分かれる。",
+      "nuanceJa": "計画に使うと、達成は難しいが大きな目標を掲げた意欲的な計画という好意的な意味になる。人に使うと野心家（ambitious person）を指し、評価が分かれる。",
       "example": "The city announced an ambitious plan to plant trees.",
       "exampleOrigin": "original-for-this-app",
       "status": "unverified",
@@ -7457,6 +7457,5286 @@
           "onto",
           "upon",
           "beneath"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000081-announce-a-merger",
+      "wordId": "vocab-000081",
+      "form": "announce a merger",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "合併を発表する",
+      "nuanceJa": "announce は公式に知らせること。say や tell は日常的な言い方で、会社の決定を伝えるときは announce を使う。",
+      "example": "The two banks announced a merger on Monday.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "announce",
+        "distractors": [
+          "tell",
+          "say",
+          "speak"
+        ]
+      },
+      "misuse": {
+        "form": "do a merger",
+        "noteJa": "「do a merger」とは言いません。ふつうは「announce a merger」・「a merger between ～」・「a proposed merger」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000081-a-merger-between-x",
+      "wordId": "vocab-000081",
+      "form": "a merger between ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の間の合併",
+      "nuanceJa": "between A and B で合併する二者を並べて示す。with は片方の立場から言う形（a merger with a rival）なので、二者を対等に言うなら between。",
+      "example": "A merger between the two firms was approved.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "between",
+        "distractors": [
+          "for",
+          "about",
+          "by"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000081-a-proposed-merger",
+      "wordId": "vocab-000081",
+      "form": "a proposed merger",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "提案されている合併",
+      "nuanceJa": "proposed は決定前の案であることを示す。planned は実行が決まった計画を指すので、承認前の段階では proposed を使う。",
+      "example": "Shareholders voted on the proposed merger.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "proposed",
+        "distractors": [
+          "asked",
+          "wanted",
+          "thought"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000082-pick-up-a-brochure",
+      "wordId": "vocab-000082",
+      "form": "pick up a brochure",
+      "type": "verb_noun",
+      "patternDetail": "句動詞＋名詞",
+      "meaningJa": "小冊子を手に取る",
+      "nuanceJa": "pick up は置いてあるものを自由に取ること。take でも言えるが、窓口や店で置いてある物を取る場面では pick up がよく使われる。",
+      "example": "You can pick up a brochure at the front desk.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "pick",
+        "distractors": [
+          "catch",
+          "hold",
+          "pull"
+        ]
+      },
+      "misuse": {
+        "form": "eat a brochure",
+        "noteJa": "「eat a brochure」とは言いません。ふつうは「pick up a brochure」・「a brochure about ～」・「a colour brochure」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000082-a-brochure-about-x",
+      "wordId": "vocab-000082",
+      "form": "a brochure about ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～についての小冊子",
+      "nuanceJa": "about の後ろに紹介する対象を置く。of は使わない。読む人を示すときは for（a brochure for visitors）を使う。",
+      "example": "She read a brochure about the museum.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "about",
+        "distractors": [
+          "of",
+          "at",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000082-a-colour-brochure",
+      "wordId": "vocab-000082",
+      "form": "a colour brochure",
+      "type": "adj_noun",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "カラーの小冊子",
+      "nuanceJa": "colour は色刷りであることを示す。coloured は色が付いた物そのものを言うので、印刷物の種類を言うときは colour brochure が自然。",
+      "example": "The hotel sent us a colour brochure.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "colour",
+        "distractors": [
+          "paint",
+          "dye",
+          "ink"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000083-give-feedback",
+      "wordId": "vocab-000083",
+      "form": "give feedback",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "意見を伝える",
+      "nuanceJa": "give は評価や意見を相手に伝えること。受け取る側は get や receive。feedback は数えない名詞なので a は付けない。",
+      "example": "Please give feedback on the draft.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "give",
+        "distractors": [
+          "say",
+          "tell",
+          "put"
+        ]
+      },
+      "misuse": {
+        "form": "many feedbacks",
+        "noteJa": "「many feedbacks」とは言いません。ふつうは「give feedback」・「positive feedback」・「feedback on ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000083-positive-feedback",
+      "wordId": "vocab-000083",
+      "form": "positive feedback",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "前向きな評価",
+      "nuanceJa": "positive は良い評価の意見。good feedback より改まり、negative feedback と対にして報告書にも出る。",
+      "example": "The class received positive feedback from parents.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "positive",
+        "distractors": [
+          "happy",
+          "sweet",
+          "funny"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000083-feedback-on-x",
+      "wordId": "vocab-000083",
+      "form": "feedback on ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～についての意見",
+      "nuanceJa": "on の後ろに評価の対象を置く（feedback on the report）。for は相手（feedback for the team）に使うので、何についてかを言うなら on。",
+      "example": "We asked students for feedback on the course.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "on",
+        "distractors": [
+          "of",
+          "at",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000084-a-two-year-warranty",
+      "wordId": "vocab-000084",
+      "form": "a two-year warranty",
+      "type": "adj_noun",
+      "patternDetail": "数詞＋名詞",
+      "meaningJa": "2年間の保証",
+      "nuanceJa": "期間はハイフンでつないで warranty の前に置く。two-years warranty のように year を複数にしないのが決まり。",
+      "example": "The laptop has a two-year warranty.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "two-year",
+        "distractors": [
+          "two-years",
+          "twice-year",
+          "second-year"
+        ]
+      },
+      "misuse": {
+        "form": "in warranty",
+        "noteJa": "「in warranty」とは言いません。ふつうは「a two-year warranty」・「under warranty」・「extend the warranty」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000084-under-warranty",
+      "wordId": "vocab-000084",
+      "form": "under warranty",
+      "type": "other",
+      "patternDetail": "前置詞＋名詞",
+      "meaningJa": "保証期間中で",
+      "nuanceJa": "under は保証が効いている状態を表す。in warranty とは言わない。修理が無料になるかどうかを話す場面で使う。",
+      "example": "The phone is still under warranty.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "under",
+        "distractors": [
+          "in",
+          "on",
+          "at"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000084-extend-the-warranty",
+      "wordId": "vocab-000084",
+      "form": "extend the warranty",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "保証を延長する",
+      "nuanceJa": "extend は期間を延ばすこと。lengthen は物理的な長さに使うことが多く、保証の期間には extend が定番。",
+      "example": "You can pay to extend the warranty by a year.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "extend",
+        "distractors": [
+          "lengthen",
+          "grow",
+          "stretch"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000085-clarify-a-point",
+      "wordId": "vocab-000085",
+      "form": "clarify a point",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "点をはっきりさせる",
+      "nuanceJa": "clarify は分かりにくい点をはっきりさせること。explain は説明全般で、clarify は一度話した後の補足に向く。",
+      "example": "I want to clarify one point.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "clarify",
+        "distractors": [
+          "clear",
+          "open",
+          "light"
+        ]
+      },
+      "misuse": {
+        "form": "clear a point",
+        "noteJa": "「clear a point」とは言いません。ふつうは「clarify a point」・「further clarify」・「clarify the meaning of ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000085-further-clarify",
+      "wordId": "vocab-000085",
+      "form": "further clarify",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "さらに明確にする",
+      "nuanceJa": "further は「さらに」と追加で補足する意味。more clarify とは言えないので、程度を足すときは further を使う。",
+      "example": "The manager will further clarify the plan tomorrow.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "further",
+        "distractors": [
+          "more",
+          "much",
+          "very"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000085-clarify-the-meaning-of-x",
+      "wordId": "vocab-000085",
+      "form": "clarify the meaning of ～",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～の意味をはっきりさせる",
+      "nuanceJa": "of の後ろに意味を確かめたい語や文を置く。Could you clarify ～? は意味を丁寧に聞き返すときの定型。",
+      "example": "Can you clarify the meaning of this word?",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "to",
+          "for",
+          "by"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000086-simplify-the-process",
+      "wordId": "vocab-000086",
+      "form": "simplify the process",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "手順を簡単にする",
+      "nuanceJa": "simplify は複雑さを減らして簡単にすること。shorten は短くすることで、手順の数が同じでも分かりやすくするなら simplify。",
+      "example": "The new software will simplify the process.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "simplify",
+        "distractors": [
+          "simple",
+          "easy",
+          "short"
+        ]
+      },
+      "misuse": {
+        "form": "easy the process",
+        "noteJa": "「easy the process」とは言いません。ふつうは「simplify the process」・「greatly simplify」・「simplify ～ for ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000086-greatly-simplify",
+      "wordId": "vocab-000086",
+      "form": "greatly simplify",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "大幅に簡単にする",
+      "nuanceJa": "greatly は程度が大きいことを示す。much simplify とは言えないので、強めるときは greatly や really を使う。",
+      "example": "A clear chart can greatly simplify the report.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "greatly",
+        "distractors": [
+          "much",
+          "very",
+          "too"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000086-simplify-x-for-x",
+      "wordId": "vocab-000086",
+      "form": "simplify ～ for ～",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～を～向けに簡単にする",
+      "nuanceJa": "for の後ろに読む人や使う人を置く（simplify the text for children）。to を使うと方向の意味になるので、対象者には for。",
+      "example": "She will simplify the text for young readers.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "to",
+          "at",
+          "with"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000087-upgrade-to-x",
+      "wordId": "vocab-000087",
+      "form": "upgrade to ～",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "～に格上げする",
+      "nuanceJa": "to の後ろに新しい版や上位のものを置く（upgrade to the latest version）。change は良し悪しを問わず、upgrade はより良いものへ変えること。",
+      "example": "Please upgrade to the latest version.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "to",
+        "distractors": [
+          "into",
+          "for",
+          "at"
+        ]
+      },
+      "misuse": {
+        "form": "upgrade up the system",
+        "noteJa": "「upgrade up the system」とは言いません。ふつうは「upgrade to ～」・「upgrade the system」・「a free upgrade」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000087-upgrade-the-system",
+      "wordId": "vocab-000087",
+      "form": "upgrade the system",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "システムを格上げする",
+      "nuanceJa": "upgrade は今あるものをより良い版に変えること。update は最新の状態にそろえることで、機能が良くなるとは限らない。",
+      "example": "We need to upgrade the system this year.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "upgrade",
+        "distractors": [
+          "raise",
+          "lift",
+          "up"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000087-a-free-upgrade",
+      "wordId": "vocab-000087",
+      "form": "a free upgrade",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "無料の格上げ",
+      "nuanceJa": "名詞としても使い、ホテルや航空券で料金を足さずに上のランクに変えてもらうことを言う。動詞の upgrade と同じ形。",
+      "example": "The hotel gave us a free upgrade.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "free",
+        "distractors": [
+          "cheap",
+          "easy",
+          "open"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000088-a-competent-manager",
+      "wordId": "vocab-000088",
+      "form": "a competent manager",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "有能な管理者",
+      "nuanceJa": "competent は仕事を必要な水準でこなせること。skilled は技術の高さを言い、competent は褒め方としてはやや控えめ。",
+      "example": "She is a competent manager.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "competent",
+        "distractors": [
+          "lucky",
+          "funny",
+          "quiet"
+        ]
+      },
+      "misuse": {
+        "form": "a competent weather",
+        "noteJa": "「a competent weather」とは言いません。ふつうは「a competent manager」・「competent in ～」・「highly competent」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000088-competent-in-x",
+      "wordId": "vocab-000088",
+      "form": "competent in ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～に有能な",
+      "nuanceJa": "in の後ろに分野を置く（competent in English）。competent は in が定番で、for や on は使わない。",
+      "example": "She is competent in three languages.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "on",
+          "to",
+          "for"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000088-highly-competent",
+      "wordId": "vocab-000088",
+      "form": "highly competent",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "非常に有能な",
+      "nuanceJa": "highly は能力の高さを強める。very competent も言えるが、highly は推薦文や評価の文書で使われる改まった言い方。",
+      "example": "The staff are highly competent.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "highly",
+        "distractors": [
+          "much",
+          "tall",
+          "deeply"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000089-affordable-prices",
+      "wordId": "vocab-000089",
+      "form": "affordable prices",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "手頃な価格",
+      "nuanceJa": "affordable は収入に見合う価格。cheap は安いが質も低い印象があるので、褒めるときは affordable を使う。",
+      "example": "The shop is known for affordable prices.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "affordable",
+        "distractors": [
+          "small",
+          "short",
+          "little"
+        ]
+      },
+      "misuse": {
+        "form": "affordable weather",
+        "noteJa": "「affordable weather」とは言いません。ふつうは「affordable prices」・「at an affordable price」・「remain affordable」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000089-at-an-affordable-price",
+      "wordId": "vocab-000089",
+      "form": "at an affordable price",
+      "type": "other",
+      "patternDetail": "前置詞＋形容詞＋名詞",
+      "meaningJa": "手頃な価格で",
+      "nuanceJa": "価格帯は at を使って示す（at a low price）。in や on は使わない。広告や商品紹介の定型。",
+      "example": "The shop sells good shoes at an affordable price.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "at",
+        "distractors": [
+          "in",
+          "on",
+          "by"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000089-remain-affordable",
+      "wordId": "vocab-000089",
+      "form": "remain affordable",
+      "type": "other",
+      "patternDetail": "動詞＋形容詞",
+      "meaningJa": "手頃なままである",
+      "nuanceJa": "remain は変わらずその状態であること。stay も使えるが、値上げしないことを書き言葉で言うときは remain が多い。",
+      "example": "We want tickets to remain affordable.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "remain",
+        "distractors": [
+          "happen",
+          "arrive",
+          "wake"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000090-a-valid-ticket",
+      "wordId": "vocab-000090",
+      "form": "a valid ticket",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "有効な切符",
+      "nuanceJa": "valid は期限内で条件を満たし、公式に認められていること。effective は効果があることで、切符には使わない。",
+      "example": "You need a valid ticket to enter.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "valid",
+        "distractors": [
+          "effective",
+          "useful",
+          "active"
+        ]
+      },
+      "misuse": {
+        "form": "an effective ticket",
+        "noteJa": "「an effective ticket」とは言いません。ふつうは「a valid ticket」・「valid for ～」・「remain valid」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000090-valid-for-x",
+      "wordId": "vocab-000090",
+      "form": "valid for ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～の間有効な",
+      "nuanceJa": "for の後ろに期間を置く（valid for 30 days）。終わりの日は until（valid until Friday）で示すので、長さは for、期限日は until。",
+      "example": "The pass is valid for one month.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "in",
+          "during",
+          "at"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000090-remain-valid",
+      "wordId": "vocab-000090",
+      "form": "remain valid",
+      "type": "other",
+      "patternDetail": "動詞＋形容詞",
+      "meaningJa": "有効なままである",
+      "nuanceJa": "remain valid は一定期間そのまま有効であること。stay valid も言えるが、案内や契約の文書では remain が使われる。",
+      "example": "The offer will remain valid until May.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "remain",
+        "distractors": [
+          "keep",
+          "hold",
+          "last"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000091-enter-a-recession",
+      "wordId": "vocab-000091",
+      "form": "enter a recession",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "景気後退に入る",
+      "nuanceJa": "enter は不況が始まる局面を言う。fall into も使えるが、統計上の基準を満たしたと伝える報道では enter が定番。",
+      "example": "The country may enter a recession next year.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "enter",
+        "distractors": [
+          "reach",
+          "arrive",
+          "come"
+        ]
+      },
+      "misuse": {
+        "form": "a tall recession",
+        "noteJa": "「a tall recession」とは言いません。ふつうは「enter a recession」・「a deep recession」・「during the recession」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000091-a-deep-recession",
+      "wordId": "vocab-000091",
+      "form": "a deep recession",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "深い景気後退",
+      "nuanceJa": "deep は落ち込みの大きさを言う。long は期間の長さなので、深さか長さかで形容詞を使い分ける。",
+      "example": "The city suffered a deep recession.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "deep",
+        "distractors": [
+          "high",
+          "tall",
+          "wide"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000091-during-the-recession",
+      "wordId": "vocab-000091",
+      "form": "during the recession",
+      "type": "other",
+      "patternDetail": "前置詞＋名詞",
+      "meaningJa": "景気後退の間",
+      "nuanceJa": "during は不況の期間中を示す。for は期間の長さ（for two years）に使うので、いつの間かを言うなら during。",
+      "example": "Many shops closed during the recession.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "during",
+        "distractors": [
+          "at",
+          "by",
+          "from"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000092-conduct-an-audit",
+      "wordId": "vocab-000092",
+      "form": "conduct an audit",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "監査を行う",
+      "nuanceJa": "conduct は調査や検査を組織立てて行う硬い動詞。do an audit は会話的で、報告書や公式な案内では conduct を使う。",
+      "example": "The company will conduct an audit in May.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "conduct",
+        "distractors": [
+          "make",
+          "take",
+          "hold"
+        ]
+      },
+      "misuse": {
+        "form": "an audit to the accounts",
+        "noteJa": "「an audit to the accounts」とは言いません。ふつうは「conduct an audit」・「an annual audit」・「an audit of ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000092-an-annual-audit",
+      "wordId": "vocab-000092",
+      "form": "an annual audit",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "年次監査",
+      "nuanceJa": "annual は毎年行われること。yearly とほぼ同じだが、annual は制度や報告書で、yearly は日常的な語。",
+      "example": "An annual audit is required by law.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "annual",
+        "distractors": [
+          "quick",
+          "green",
+          "wide"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000092-an-audit-of-x",
+      "wordId": "vocab-000092",
+      "form": "an audit of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の監査",
+      "nuanceJa": "of の後ろに監査される対象を置く（an audit of the accounts）。on は話題（an audit on safety）にも使うが、帳簿や組織には of。",
+      "example": "An audit of the school accounts began today.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "to",
+          "at",
+          "by"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000093-a-job-applicant",
+      "wordId": "vocab-000093",
+      "form": "a job applicant",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "求職者",
+      "nuanceJa": "job を前に置いて応募先の仕事を示す。work applicant とは言わない。candidate は選考に残った人も含むので、応募した人は applicant。",
+      "example": "Each job applicant must send a short letter.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "job",
+        "distractors": [
+          "work",
+          "labour",
+          "task"
+        ]
+      },
+      "misuse": {
+        "form": "a work applicant",
+        "noteJa": "「a work applicant」とは言いません。ふつうは「a job applicant」・「a successful applicant」・「an applicant for ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000093-a-successful-applicant",
+      "wordId": "vocab-000093",
+      "form": "a successful applicant",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "採用された応募者",
+      "nuanceJa": "successful は合格や採用に至った応募者を指す。lucky は運が良いだけの意味になるので、採用には successful を使う。",
+      "example": "The successful applicant will start in April.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "successful",
+        "distractors": [
+          "lucky",
+          "happy",
+          "winning"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000093-an-applicant-for-x",
+      "wordId": "vocab-000093",
+      "form": "an applicant for ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～への応募者",
+      "nuanceJa": "for の後ろに応募先の職や制度を置く（an applicant for the post）。to は使えない。",
+      "example": "She was the only applicant for the post.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "to",
+          "of",
+          "into"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000094-a-direct-supervisor",
+      "wordId": "vocab-000094",
+      "form": "a direct supervisor",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "直属の上司",
+      "nuanceJa": "direct は間に人を挟まない関係。immediate supervisor とも言い、どちらも組織図で一つ上の人を指す。",
+      "example": "Please send the form to your direct supervisor.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "direct",
+        "distractors": [
+          "straight",
+          "right",
+          "near"
+        ]
+      },
+      "misuse": {
+        "form": "a supervisor to the night shift",
+        "noteJa": "「a supervisor to the night shift」とは言いません。ふつうは「a direct supervisor」・「a supervisor of ～」・「approved by a supervisor」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000094-a-supervisor-of-x",
+      "wordId": "vocab-000094",
+      "form": "a supervisor of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の監督者",
+      "nuanceJa": "of の後ろに管理する持ち場を置く（a supervisor of the night shift）。manager は部門全体の責任者で、supervisor は現場の監督役。",
+      "example": "Mr Kato is the supervisor of the night shift.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "to",
+          "at",
+          "by"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000094-approved-by-a-supervisor",
+      "wordId": "vocab-000094",
+      "form": "approved by a supervisor",
+      "type": "other",
+      "patternDetail": "過去分詞＋前置詞＋名詞",
+      "meaningJa": "上司に承認された",
+      "nuanceJa": "by の後ろに承認する人を置く受け身。承認の権限を持つ人を示す形で、from は使わない。",
+      "example": "The plan was approved by the supervisor.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "by",
+        "distractors": [
+          "from",
+          "with",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000095-enforce-a-rule",
+      "wordId": "vocab-000095",
+      "form": "enforce a rule",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "規則を守らせる",
+      "nuanceJa": "enforce は規則を守らせる側の動詞。follow は自分が従うことで、取り締まる側が主語のときは enforce。",
+      "example": "The school will enforce the new rule.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "enforce",
+        "distractors": [
+          "force",
+          "push",
+          "hold"
+        ]
+      },
+      "misuse": {
+        "form": "force a rule",
+        "noteJa": "「force a rule」とは言いません。ふつうは「enforce a rule」・「strictly enforce」・「law enforcement」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000095-strictly-enforce",
+      "wordId": "vocab-000095",
+      "form": "strictly enforce",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "厳しく実施させる",
+      "nuanceJa": "strictly は例外なく厳しくという意味。hard enforce とは言わず、副詞の strictly を使う。",
+      "example": "The city will strictly enforce the parking rules.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "strictly",
+        "distractors": [
+          "hard",
+          "strong",
+          "tight"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000095-law-enforcement",
+      "wordId": "vocab-000095",
+      "form": "law enforcement",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "法の執行",
+      "nuanceJa": "law enforcement は警察など法を執行する機関や活動の総称。rule enforcement とはあまり言わない。",
+      "example": "Law enforcement officers visited the shop.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "law",
+        "distractors": [
+          "rule",
+          "order",
+          "police"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000096-compile-a-report",
+      "wordId": "vocab-000096",
+      "form": "compile a report",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "報告書をまとめる",
+      "nuanceJa": "compile は集めた情報を一つにまとめること。write は一から書くことで、compile は元の資料を集める作業を含む。",
+      "example": "She will compile a report from several sources.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "compile",
+        "distractors": [
+          "join",
+          "stack",
+          "pack"
+        ]
+      },
+      "misuse": {
+        "form": "make a compile",
+        "noteJa": "「make a compile」とは言いません。ふつうは「compile a report」・「compile data from ～」・「carefully compiled」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000096-compile-data-from-x",
+      "wordId": "vocab-000096",
+      "form": "compile data from ～",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～からデータを集めてまとめる",
+      "nuanceJa": "from の後ろに元の資料を置く（compile data from surveys）。of は使わない。複数の出所を集める場面で使う。",
+      "example": "She will compile the data from many surveys.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "from",
+        "distractors": [
+          "of",
+          "at",
+          "into"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000096-carefully-compiled",
+      "wordId": "vocab-000096",
+      "form": "carefully compiled",
+      "type": "other",
+      "patternDetail": "副詞＋過去分詞",
+      "meaningJa": "丁寧にまとめられた",
+      "nuanceJa": "carefully は丁寧に作業したことを示す。good compiled のように形容詞は使えない。資料集や名簿の紹介で使う。",
+      "example": "The list was carefully compiled.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "carefully",
+        "distractors": [
+          "good",
+          "hard",
+          "nice"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000097-endorse-a-plan",
+      "wordId": "vocab-000097",
+      "form": "endorse a plan",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "計画を支持する",
+      "nuanceJa": "endorse は公に支持を表明すること。support は幅広い支持で、endorse は公式な賛成の表明という違いがある。",
+      "example": "The council will endorse the plan.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "endorse",
+        "distractors": [
+          "hold",
+          "hang",
+          "stick"
+        ]
+      },
+      "misuse": {
+        "form": "endorse a sneeze",
+        "noteJa": "「endorse a sneeze」とは言いません。ふつうは「endorse a plan」・「publicly endorse」・「endorse ～ for ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000097-publicly-endorse",
+      "wordId": "vocab-000097",
+      "form": "publicly endorse",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "公に支持する",
+      "nuanceJa": "publicly は公の場で表明すること。openly は隠さずにという意味で、publicly は発表や声明の場面で使う。",
+      "example": "The mayor will publicly endorse the plan.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "publicly",
+        "distractors": [
+          "public",
+          "popular",
+          "common"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000097-endorse-x-for-x",
+      "wordId": "vocab-000097",
+      "form": "endorse ～ for ～",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～を～に推薦する",
+      "nuanceJa": "for の後ろに役職を置いて支持する（endorse Ms Lee for president）。recommend は専門家の意見で、endorse は公的な支持の表明。",
+      "example": "The union endorsed Ms Lee for president.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "to",
+          "at",
+          "of"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000098-eligible-for-x",
+      "wordId": "vocab-000098",
+      "form": "eligible for ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～の資格がある",
+      "nuanceJa": "for の後ろに権利や制度を置く（eligible for a discount）。to は動詞を続ける形（eligible to vote）で使うので、名詞なら for。",
+      "example": "Students are eligible for a discount.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "to",
+          "of",
+          "at"
+        ]
+      },
+      "misuse": {
+        "form": "eligible of a discount",
+        "noteJa": "「eligible of a discount」とは言いません。ふつうは「eligible for ～」・「eligible to vote」・「an eligible candidate」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000098-eligible-to-vote",
+      "wordId": "vocab-000098",
+      "form": "eligible to vote",
+      "type": "other",
+      "patternDetail": "形容詞＋不定詞",
+      "meaningJa": "投票する資格がある",
+      "nuanceJa": "to の後ろに動詞を置いて、できる資格を言う。able to は能力、eligible to は規則上の資格を表す。",
+      "example": "People over 18 are eligible to vote.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "eligible",
+        "distractors": [
+          "possible",
+          "easy",
+          "enough"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000098-an-eligible-candidate",
+      "wordId": "vocab-000098",
+      "form": "an eligible candidate",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "資格のある候補者",
+      "nuanceJa": "eligible は条件を満たして応募や参加ができること。qualified は資格や能力を実際に持つことで、eligible は立場を言う。",
+      "example": "Only eligible candidates can apply.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "eligible",
+        "distractors": [
+          "able",
+          "fit",
+          "right"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000099-highly-profitable",
+      "wordId": "vocab-000099",
+      "form": "highly profitable",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "非常に利益が出る",
+      "nuanceJa": "highly は利益の大きさを強める。very profitable は日常的で、highly profitable は記事や報告書の言い方。",
+      "example": "The new product was highly profitable.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "highly",
+        "distractors": [
+          "much",
+          "big",
+          "hard"
+        ]
+      },
+      "misuse": {
+        "form": "a profitable weather",
+        "noteJa": "「a profitable weather」とは言いません。ふつうは「highly profitable」・「a profitable business」・「become profitable」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000099-a-profitable-business",
+      "wordId": "vocab-000099",
+      "form": "a profitable business",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "利益の出る事業",
+      "nuanceJa": "profitable は費用より収入が多いこと。successful は成功全般を言うので、利益が出ているかを言うなら profitable。",
+      "example": "She runs a profitable business.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "profitable",
+        "distractors": [
+          "rich",
+          "wealthy",
+          "expensive"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000099-become-profitable",
+      "wordId": "vocab-000099",
+      "form": "become profitable",
+      "type": "other",
+      "patternDetail": "動詞＋形容詞",
+      "meaningJa": "黒字になる",
+      "nuanceJa": "become は黒字になるという変化を表す。turn a profit は「利益を出す」という慣用表現で、形容詞を使うなら become profitable。",
+      "example": "The shop will become profitable soon.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "become",
+        "distractors": [
+          "make",
+          "do",
+          "take"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000100-reluctant-to-x",
+      "wordId": "vocab-000100",
+      "form": "reluctant to ～",
+      "type": "other",
+      "patternDetail": "形容詞＋不定詞",
+      "meaningJa": "～したがらない",
+      "nuanceJa": "to の後ろに動詞を置く。unwilling は強い拒否で、reluctant は気が進まないがやる可能性もあるという程度の違い。",
+      "example": "He was reluctant to sign the contract.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "to",
+        "distractors": [
+          "for",
+          "of",
+          "at"
+        ]
+      },
+      "misuse": {
+        "form": "reluctant of signing",
+        "noteJa": "「reluctant of signing」とは言いません。ふつうは「reluctant to ～」・「a reluctant buyer」・「seem reluctant」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000100-a-reluctant-buyer",
+      "wordId": "vocab-000100",
+      "form": "a reluctant buyer",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "乗り気でない買い手",
+      "nuanceJa": "reluctant を名詞の前に置くと、しぶしぶ関わっている人を表す。a reluctant hero のようにも使う。",
+      "example": "He was a reluctant buyer.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "reluctant",
+        "distractors": [
+          "slow",
+          "late",
+          "lazy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000100-seem-reluctant",
+      "wordId": "vocab-000100",
+      "form": "seem reluctant",
+      "type": "other",
+      "patternDetail": "動詞＋形容詞",
+      "meaningJa": "気が進まない様子だ",
+      "nuanceJa": "seem は周りから見た印象を言う。feel reluctant は本人の気持ちで、seem は見た目から判断する言い方。",
+      "example": "Some managers seem reluctant to change the plan.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "seem",
+        "distractors": [
+          "feel",
+          "make",
+          "do"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000101-reach-a-consensus",
+      "wordId": "vocab-000101",
+      "form": "reach a consensus",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "合意に達する",
+      "nuanceJa": "reach は話し合いの末に到達する意味。make a consensus とは言わない。get a consensus は口語的で、報告書では reach を使う。",
+      "example": "The group reached a consensus after a long talk.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "reach",
+        "distractors": [
+          "make",
+          "do",
+          "take"
+        ]
+      },
+      "misuse": {
+        "form": "make a consensus",
+        "noteJa": "「make a consensus」とは言いません。ふつうは「reach a consensus」・「a general consensus」・「consensus on ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000101-a-general-consensus",
+      "wordId": "vocab-000101",
+      "form": "a general consensus",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "大方の合意",
+      "nuanceJa": "general は多くの人に共通するという意味。broad consensus は幅広い支持、full consensus は全員一致に近い合意を言う。",
+      "example": "There is a general consensus among the staff.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "general",
+        "distractors": [
+          "big",
+          "large",
+          "usual"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000101-consensus-on-x",
+      "wordId": "vocab-000101",
+      "form": "consensus on ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～についての合意",
+      "nuanceJa": "on の後ろに合意した議題を置く（consensus on the plan）。about も使えるが、on の方が一般的で、at や to は使わない。",
+      "example": "There is no consensus on the issue.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "on",
+        "distractors": [
+          "at",
+          "to",
+          "by"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000102-face-a-dilemma",
+      "wordId": "vocab-000102",
+      "form": "face a dilemma",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "板挟みに直面する",
+      "nuanceJa": "face は難しい状況に向き合うこと。be in a dilemma とも言う。have a dilemma は会話的で、記事では face がよく使われる。",
+      "example": "Many parents face a dilemma.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "face",
+        "distractors": [
+          "meet",
+          "touch",
+          "hit"
+        ]
+      },
+      "misuse": {
+        "form": "do a dilemma",
+        "noteJa": "「do a dilemma」とは言いません。ふつうは「face a dilemma」・「a moral dilemma」・「a dilemma between ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000102-a-moral-dilemma",
+      "wordId": "vocab-000102",
+      "form": "a moral dilemma",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "道徳上の板挟み",
+      "nuanceJa": "moral は善悪の判断に関わる板挟み。ethical dilemma も同じ意味だが、職業や専門分野の場面では ethical がよく使われる。",
+      "example": "The doctor faced a moral dilemma.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "moral",
+        "distractors": [
+          "good",
+          "bad",
+          "kind"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000102-a-dilemma-between-x",
+      "wordId": "vocab-000102",
+      "form": "a dilemma between ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の間の板挟み",
+      "nuanceJa": "between A and B で板挟みになっている二つの選択肢を示す。of は使わない。",
+      "example": "She faced a dilemma between family and work.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "between",
+        "distractors": [
+          "among",
+          "from",
+          "into"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000103-reduce-bureaucracy",
+      "wordId": "vocab-000103",
+      "form": "reduce bureaucracy",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "お役所手続きを減らす",
+      "nuanceJa": "reduce は程度を減らすこと。cut red tape は同じ意味の口語的な言い方で、新聞の見出しでは cut bureaucracy も使われる。",
+      "example": "The new minister wants to reduce bureaucracy.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "reduce",
+        "distractors": [
+          "lower",
+          "small",
+          "shorten"
+        ]
+      },
+      "misuse": {
+        "form": "many bureaucracy",
+        "noteJa": "「many bureaucracy」とは言いません。ふつうは「reduce bureaucracy」・「excessive bureaucracy」・「government bureaucracy」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000103-excessive-bureaucracy",
+      "wordId": "vocab-000103",
+      "form": "excessive bureaucracy",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "行き過ぎた官僚制",
+      "nuanceJa": "excessive は必要以上に多いことを批判する語。heavy bureaucracy も使うが、excessive の方が非難の意味が強い。",
+      "example": "Excessive bureaucracy slows every project.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "excessive",
+        "distractors": [
+          "many",
+          "few",
+          "big"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000103-government-bureaucracy",
+      "wordId": "vocab-000103",
+      "form": "government bureaucracy",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "政府の官僚機構",
+      "nuanceJa": "government を前に置いて、どの組織の手続きかを示す。bureaucracy だけでも通じるが、対象を示すと意味がはっきりする。",
+      "example": "Government bureaucracy delayed the building project.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "government",
+        "distractors": [
+          "country",
+          "people",
+          "society"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000104-cause-controversy",
+      "wordId": "vocab-000104",
+      "form": "cause controversy",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "論争を引き起こす",
+      "nuanceJa": "cause は結果として論争が起きること。create は意図的に作る印象があり、make controversy とは言わない。",
+      "example": "The new law caused great controversy.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "cause",
+        "distractors": [
+          "make",
+          "do",
+          "put"
+        ]
+      },
+      "misuse": {
+        "form": "a controversy to the plan",
+        "noteJa": "「a controversy to the plan」とは言いません。ふつうは「cause controversy」・「a heated controversy」・「controversy over ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000104-a-heated-controversy",
+      "wordId": "vocab-000104",
+      "form": "a heated controversy",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "激しい論争",
+      "nuanceJa": "heated は感情的で激しいやり取り。big controversy は規模を言うが、heated は議論の熱さを強調する。",
+      "example": "A heated controversy followed the speech.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "heated",
+        "distractors": [
+          "hot",
+          "warm",
+          "angry"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000104-controversy-over-x",
+      "wordId": "vocab-000104",
+      "form": "controversy over ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～をめぐる論争",
+      "nuanceJa": "over の後ろに争点を置く（controversy over the plan）。about も使えるが、over は争いの対象を示す。",
+      "example": "The controversy over the new rule continues.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "over",
+        "distractors": [
+          "to",
+          "at",
+          "by"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000105-concede-defeat",
+      "wordId": "vocab-000105",
+      "form": "concede defeat",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "負けを認める",
+      "nuanceJa": "concede は負けや誤りを認めること。admit は事実全般を認めるので、競争や選挙の敗北には concede が定型。",
+      "example": "The candidate conceded defeat late at night.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "concede",
+        "distractors": [
+          "lose",
+          "give",
+          "leave"
+        ]
+      },
+      "misuse": {
+        "form": "concede a victory",
+        "noteJa": "「concede a victory」とは言いません。ふつうは「concede defeat」・「concede that ～」・「reluctantly concede」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000105-concede-that-x",
+      "wordId": "vocab-000105",
+      "form": "concede that ～",
+      "type": "other",
+      "patternDetail": "動詞＋that節",
+      "meaningJa": "～ということを認める",
+      "nuanceJa": "that の後ろに認める内容を置く。しぶしぶ認める含みがあり、admit が事実を認める中立的な語であるのと違う。",
+      "example": "He conceded that the plan had some weaknesses.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "that",
+        "distractors": [
+          "which",
+          "whom",
+          "whose"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000105-reluctantly-concede",
+      "wordId": "vocab-000105",
+      "form": "reluctantly concede",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "しぶしぶ認める",
+      "nuanceJa": "reluctantly は気が進まないが認める様子。concede にはもともとしぶしぶ認める響きがあるので、強調して言うときに使う。",
+      "example": "The manager reluctantly conceded the point.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "reluctantly",
+        "distractors": [
+          "slowly",
+          "hardly",
+          "lazily"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000106-confront-a-problem",
+      "wordId": "vocab-000106",
+      "form": "confront a problem",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "問題に立ち向かう",
+      "nuanceJa": "confront は避けずに向き合うこと。face は状況に直面する意味で、confront は自分から積極的に立ち向かう響きがある。",
+      "example": "The manager confronted the issue directly.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "confront",
+        "distractors": [
+          "touch",
+          "hit",
+          "hold"
+        ]
+      },
+      "misuse": {
+        "form": "confront to a problem",
+        "noteJa": "「confront to a problem」とは言いません。ふつうは「confront a problem」・「confront ～ about ～」・「directly confront」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000106-confront-x-about-x",
+      "wordId": "vocab-000106",
+      "form": "confront ～ about ～",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～について～を問いただす",
+      "nuanceJa": "about の後ろに問いただす内容を置く（confront a manager about a delay）。人を相手にするときは直接問い詰める強い意味になる。",
+      "example": "She confronted her manager about the delay.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "about",
+        "distractors": [
+          "for",
+          "of",
+          "on"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000106-directly-confront",
+      "wordId": "vocab-000106",
+      "form": "directly confront",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "正面から立ち向かう",
+      "nuanceJa": "directly は回避せずにという意味。bravely confront は勇気を強調する。straight confront とは言わない。",
+      "example": "The mayor directly confronted the issue.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "directly",
+        "distractors": [
+          "straight",
+          "right",
+          "just"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000107-persist-in-xing",
+      "wordId": "vocab-000107",
+      "form": "persist in ～ing",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞＋動名詞",
+      "meaningJa": "～し続ける",
+      "nuanceJa": "in の後ろに動名詞を置く（persist in asking）。with は取り組む対象（persist with the plan）に使うので、行為なら in、物事なら with。",
+      "example": "He persisted in asking questions.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "on",
+          "to",
+          "for"
+        ]
+      },
+      "misuse": {
+        "form": "persist to ask",
+        "noteJa": "「persist to ask」とは言いません。ふつうは「persist in ～ing」・「persist with ～」・「persist for ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000107-persist-with-x",
+      "wordId": "vocab-000107",
+      "form": "persist with ～",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "～を粘り強く続ける",
+      "nuanceJa": "with の後ろに続ける対象を置く（persist with her studies）。insist（主張する）と綴りが似ているので混同しない。",
+      "example": "She persisted with her studies.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "with",
+        "distractors": [
+          "by",
+          "of",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000107-persist-for-x",
+      "wordId": "vocab-000107",
+      "form": "persist for ～",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "～の間続く",
+      "nuanceJa": "for の後ろに期間を置いて、症状や問題が続くことを言う（persist for weeks）。last は期間を言うだけで、persist は消えるはずのものが残るニュアンス。",
+      "example": "The cough persisted for two weeks.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "since",
+          "from",
+          "about"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000108-a-coherent-argument",
+      "wordId": "vocab-000108",
+      "form": "a coherent argument",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "筋の通った主張",
+      "nuanceJa": "coherent は全体のまとまりがあり筋が通っていること。consistent は矛盾がないことで、coherent は分かりやすい流れまで含む。",
+      "example": "She made a coherent argument.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "coherent",
+        "distractors": [
+          "clever",
+          "right",
+          "straight"
+        ]
+      },
+      "misuse": {
+        "form": "a coherent weather",
+        "noteJa": "「a coherent weather」とは言いません。ふつうは「a coherent argument」・「coherent in ～」・「too coherent」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000108-coherent-in-x",
+      "wordId": "vocab-000108",
+      "form": "coherent in ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～の点で一貫した",
+      "nuanceJa": "in の後ろに観点を置く（coherent in structure）。with は他と合うことを言う consistent with の形で、coherent with は不自然。",
+      "example": "The essay is coherent in structure.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "with",
+          "to",
+          "for"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000108-too-coherent",
+      "wordId": "vocab-000108",
+      "form": "too coherent",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "あまりに筋が通りすぎた",
+      "nuanceJa": "too は程度が過ぎることを示す。疑わしいほど整っている、という皮肉な使い方もできる。enough は形容詞の後ろに置く。",
+      "example": "The story was too coherent to be true.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "too",
+        "distractors": [
+          "enough",
+          "much",
+          "so"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000109-an-eloquent-speech",
+      "wordId": "vocab-000109",
+      "form": "an eloquent speech",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "雄弁な演説",
+      "nuanceJa": "eloquent は言葉が力強く心に響くこと。fluent は流暢さを言い、eloquent は説得力まで含む。",
+      "example": "She gave an eloquent speech at the meeting.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "eloquent",
+        "distractors": [
+          "loud",
+          "fast",
+          "tall"
+        ]
+      },
+      "misuse": {
+        "form": "an eloquent table",
+        "noteJa": "「an eloquent table」とは言いません。ふつうは「an eloquent speech」・「eloquent about ～」・「speak eloquently」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000109-eloquent-about-x",
+      "wordId": "vocab-000109",
+      "form": "eloquent about ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～について雄弁な",
+      "nuanceJa": "about の後ろに話題を置く（eloquent about her village）。熱意を込めて上手に語る感じがある。",
+      "example": "The writer was eloquent about her village.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "about",
+        "distractors": [
+          "for",
+          "at",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000109-speak-eloquently",
+      "wordId": "vocab-000109",
+      "form": "speak eloquently",
+      "type": "other",
+      "patternDetail": "動詞＋副詞",
+      "meaningJa": "雄弁に話す",
+      "nuanceJa": "eloquently は話し方や書き方の巧みさを表す。good speak とは言えず、副詞は eloquently や well。",
+      "example": "The leader spoke eloquently about peace.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "eloquently",
+        "distractors": [
+          "good",
+          "nice",
+          "fine"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000110-a-subtle-difference",
+      "wordId": "vocab-000110",
+      "form": "a subtle difference",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "微妙な違い",
+      "nuanceJa": "subtle は気づきにくいほど小さい違い。slight は単に小さいことで、subtle は見分けにくい繊細さを言う。",
+      "example": "There is a subtle difference between the two words.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "subtle",
+        "distractors": [
+          "quiet",
+          "thin",
+          "soft"
+        ]
+      },
+      "misuse": {
+        "form": "a subtle house",
+        "noteJa": "「a subtle house」とは言いません。ふつうは「a subtle difference」・「subtly different」・「subtle about ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000110-subtly-different",
+      "wordId": "vocab-000110",
+      "form": "subtly different",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "わずかに違う",
+      "nuanceJa": "subtly は気づきにくいほど少しという程度。slightly は量が少しという言い方で、subtly は見分けにくい点に焦点がある。",
+      "example": "The two colours are subtly different.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "subtly",
+        "distractors": [
+          "quietly",
+          "lightly",
+          "softly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000110-subtle-about-x",
+      "wordId": "vocab-000110",
+      "form": "subtle about ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～について遠回しだ",
+      "nuanceJa": "about の後ろに示したい内容を置く（subtle about her plans）。人が控えめで遠回しな言い方をするという意味になる。",
+      "example": "She was subtle about her plans.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "about",
+        "distractors": [
+          "for",
+          "to",
+          "at"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000111-give-consent",
+      "wordId": "vocab-000111",
+      "form": "give consent",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "同意を与える",
+      "nuanceJa": "give は許可を与えること。ask for consent（求める）と対になる。consent は数えない名詞なので a は付けない。",
+      "example": "Parents must give written consent.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "give",
+        "distractors": [
+          "make",
+          "do",
+          "take"
+        ]
+      },
+      "misuse": {
+        "form": "do consent",
+        "noteJa": "「do consent」とは言いません。ふつうは「give consent」・「written consent」・「without consent」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000111-written-consent",
+      "wordId": "vocab-000111",
+      "form": "written consent",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "書面による同意",
+      "nuanceJa": "written は書面での同意で、verbal consent（口頭）と対になる。学校や病院の手続きで求められる。",
+      "example": "The trip needs written consent from parents.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "written",
+        "distractors": [
+          "paper",
+          "letter",
+          "hand"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000111-without-consent",
+      "wordId": "vocab-000111",
+      "form": "without consent",
+      "type": "other",
+      "patternDetail": "前置詞＋名詞",
+      "meaningJa": "同意なしに",
+      "nuanceJa": "without は同意がないまま行うこと。no consent と名詞だけで言うこともあるが、行為の前置きには without を使う。",
+      "example": "Do not share photos without consent.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "without",
+        "distractors": [
+          "not",
+          "non",
+          "free"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000112-form-an-alliance",
+      "wordId": "vocab-000112",
+      "form": "form an alliance",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "同盟を結ぶ",
+      "nuanceJa": "form は集まって作ること。join an alliance は既にある同盟に加わることで、動詞が違う。",
+      "example": "The two parties formed an alliance.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "form",
+        "distractors": [
+          "do",
+          "take",
+          "hold"
+        ]
+      },
+      "misuse": {
+        "form": "do an alliance",
+        "noteJa": "「do an alliance」とは言いません。ふつうは「form an alliance」・「an alliance between ～」・「a strong alliance」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000112-an-alliance-between-x",
+      "wordId": "vocab-000112",
+      "form": "an alliance between ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の間の同盟",
+      "nuanceJa": "between A and B で同盟する二者を示す。with も使えるが、between は二者を対等に並べる言い方。",
+      "example": "An alliance between the two groups was announced.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "between",
+        "distractors": [
+          "for",
+          "at",
+          "by"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000112-a-strong-alliance",
+      "wordId": "vocab-000112",
+      "form": "a strong alliance",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "強い同盟",
+      "nuanceJa": "strong は結びつきの強さ。close alliance は関係の近さを言うので、強さか近さかで形容詞が変わる。",
+      "example": "The countries built a strong alliance.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "strong",
+        "distractors": [
+          "heavy",
+          "hard",
+          "big"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000113-a-serious-flaw",
+      "wordId": "vocab-000113",
+      "form": "a serious flaw",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "重大な欠陥",
+      "nuanceJa": "serious は影響が大きい欠陥。major flaw は規模、fatal flaw は致命的であることを言う。",
+      "example": "The test revealed a serious flaw in the design.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "serious",
+        "distractors": [
+          "heavy",
+          "hard",
+          "strong"
+        ]
+      },
+      "misuse": {
+        "form": "a heavy flaw",
+        "noteJa": "「a heavy flaw」とは言いません。ふつうは「a serious flaw」・「a flaw in ～」・「point out a flaw」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000113-a-flaw-in-x",
+      "wordId": "vocab-000113",
+      "form": "a flaw in ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の欠陥",
+      "nuanceJa": "in の後ろに欠陥がある物や計画を置く（a flaw in the plan）。of は使わない。",
+      "example": "She found a flaw in the argument.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "of",
+          "at",
+          "on"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000113-point-out-a-flaw",
+      "wordId": "vocab-000113",
+      "form": "point out a flaw",
+      "type": "verb_noun",
+      "patternDetail": "句動詞＋名詞",
+      "meaningJa": "欠点を指摘する",
+      "nuanceJa": "point out は相手が気づいていない点を示すこと。say は一般的な「言う」で、指摘の意味は含まない。",
+      "example": "The editor pointed out a flaw in the story.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "point",
+        "distractors": [
+          "tell",
+          "say",
+          "speak"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000114-the-economic-outlook",
+      "wordId": "vocab-000114",
+      "form": "the economic outlook",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "経済の見通し",
+      "nuanceJa": "economic outlook は経済全体の見通し。forecast は数値を伴う予測で、outlook はより大まかな見通し。",
+      "example": "The economic outlook is better than last year.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "economic",
+        "distractors": [
+          "money",
+          "finance",
+          "cash"
+        ]
+      },
+      "misuse": {
+        "form": "a money outlook",
+        "noteJa": "「a money outlook」とは言いません。ふつうは「the economic outlook」・「a positive outlook」・「the outlook for ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000114-a-positive-outlook",
+      "wordId": "vocab-000114",
+      "form": "a positive outlook",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "明るい見通し",
+      "nuanceJa": "positive は明るい見通し。人の考え方（an outlook on life）にも使えるが、その場合は on を使う。",
+      "example": "The company has a positive outlook.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "positive",
+        "distractors": [
+          "happy",
+          "nice",
+          "funny"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000114-the-outlook-for-x",
+      "wordId": "vocab-000114",
+      "form": "the outlook for ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の見通し",
+      "nuanceJa": "for の後ろに見通しの対象を置く（the outlook for the economy）。on は人の考え方（an outlook on life）に使う。",
+      "example": "The outlook for the economy is better.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "for",
+        "distractors": [
+          "to",
+          "at",
+          "from"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000115-reinforce-the-wall",
+      "wordId": "vocab-000115",
+      "form": "reinforce the wall",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "壁を補強する",
+      "nuanceJa": "reinforce は補強材を足して強くすること。strengthen は強くする一般的な動詞で、reinforce は物理的な補強にも考えにも使える。",
+      "example": "Workers reinforced the wall with steel.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "reinforce",
+        "distractors": [
+          "strong",
+          "force",
+          "push"
+        ]
+      },
+      "misuse": {
+        "form": "strong the wall",
+        "noteJa": "「strong the wall」とは言いません。ふつうは「reinforce the wall」・「further reinforce」・「reinforce ～ with ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000115-further-reinforce",
+      "wordId": "vocab-000115",
+      "form": "further reinforce",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "さらに強める",
+      "nuanceJa": "further は「さらに」を表す。more reinforce とは言えないので、程度を足すときは further を使う。",
+      "example": "The new data will further reinforce our view.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "further",
+        "distractors": [
+          "more",
+          "much",
+          "very"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000115-reinforce-x-with-x",
+      "wordId": "vocab-000115",
+      "form": "reinforce ～ with ～",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～を～で補強する",
+      "nuanceJa": "with の後ろに補強する材料や手段を置く（reinforce with steel）。by は方法を言うので、材料には with。",
+      "example": "They reinforced the bridge with steel.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "with",
+        "distractors": [
+          "by",
+          "of",
+          "in"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000116-suppress-information",
+      "wordId": "vocab-000116",
+      "form": "suppress information",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "情報を封じ込める",
+      "nuanceJa": "suppress は権力などで公になるのを抑えること。hide は隠すことで、suppress は力で押さえつける含みがある。",
+      "example": "The government tried to suppress the news.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "suppress",
+        "distractors": [
+          "press",
+          "push",
+          "drop"
+        ]
+      },
+      "misuse": {
+        "form": "suppress to the news",
+        "noteJa": "「suppress to the news」とは言いません。ふつうは「suppress information」・「suppress a laugh」・「forcibly suppress」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000116-suppress-a-laugh",
+      "wordId": "vocab-000116",
+      "form": "suppress a laugh",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "笑いをこらえる",
+      "nuanceJa": "suppress は感情や反応を意識して抑えること。hold back は日常的な言い方で、suppress は少し硬い。",
+      "example": "He tried to suppress a laugh.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "suppress",
+        "distractors": [
+          "hold",
+          "keep",
+          "close"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000116-forcibly-suppress",
+      "wordId": "vocab-000116",
+      "form": "forcibly suppress",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "力ずくで抑え込む",
+      "nuanceJa": "forcibly は力ずくでという意味。抑圧の強さを言い、suddenly などの副詞とは違う。",
+      "example": "The protest was forcibly suppressed.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "forcibly",
+        "distractors": [
+          "hardly",
+          "slowly",
+          "quietly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000117-inherit-a-house",
+      "wordId": "vocab-000117",
+      "form": "inherit a house",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "家を相続する",
+      "nuanceJa": "inherit は亡くなった人から受け継ぐこと。get は生前に得ることも含む広い語なので、相続を言うなら inherit。",
+      "example": "She will inherit the house.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "inherit",
+        "distractors": [
+          "lend",
+          "borrow",
+          "rent"
+        ]
+      },
+      "misuse": {
+        "form": "inherit to her aunt",
+        "noteJa": "「inherit to her aunt」とは言いません。ふつうは「inherit a house」・「inherit from ～」・「an inherited trait」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000117-inherit-from-x",
+      "wordId": "vocab-000117",
+      "form": "inherit from ～",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "～から受け継ぐ",
+      "nuanceJa": "from の後ろに残した人を置く（inherit from an aunt）。of は使わない。",
+      "example": "She inherited a house from her aunt.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "from",
+        "distractors": [
+          "of",
+          "by",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000117-an-inherited-trait",
+      "wordId": "vocab-000117",
+      "form": "an inherited trait",
+      "type": "adj_noun",
+      "patternDetail": "過去分詞＋名詞",
+      "meaningJa": "遺伝した特徴",
+      "nuanceJa": "inherited は親から受け継いだ状態。hereditary は遺伝性の病気などを分類する語で、inherited は受け継いだ事実を言う。",
+      "example": "Eye colour is an inherited trait.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "inherited",
+        "distractors": [
+          "born",
+          "got",
+          "taken"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000118-a-legitimate-reason",
+      "wordId": "vocab-000118",
+      "form": "a legitimate reason",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "正当な理由",
+      "nuanceJa": "legitimate は法や道理に合って認められること。valid は有効であることを言い、legitimate は正当性を強調する。",
+      "example": "He has a legitimate reason for being late.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "legitimate",
+        "distractors": [
+          "tidy",
+          "sweet",
+          "tiny"
+        ]
+      },
+      "misuse": {
+        "form": "a legitimate sunrise",
+        "noteJa": "「a legitimate sunrise」とは言いません。ふつうは「a legitimate reason」・「a legitimate concern」・「perfectly legitimate」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000118-a-legitimate-concern",
+      "wordId": "vocab-000118",
+      "form": "a legitimate concern",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "もっともな懸念",
+      "nuanceJa": "legitimate concern は理由のある心配事で、反論に対して「その心配はもっともだ」と認めるときに使う。",
+      "example": "Safety is a legitimate concern.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "legitimate",
+        "distractors": [
+          "happy",
+          "funny",
+          "noisy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000118-perfectly-legitimate",
+      "wordId": "vocab-000118",
+      "form": "perfectly legitimate",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "まったく正当な",
+      "nuanceJa": "perfectly は疑いなく正当という強調。very legitimate より自然で、反論に対して正当性を主張するときに使う。",
+      "example": "It is a perfectly legitimate question.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "perfectly",
+        "distractors": [
+          "so",
+          "too",
+          "such"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000119-adverse-effects",
+      "wordId": "vocab-000119",
+      "form": "adverse effects",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "悪影響",
+      "nuanceJa": "adverse は有害で望ましくない影響。bad effects は日常語で、adverse effects は薬や報告書で使う硬い言い方。",
+      "example": "The medicine has few adverse effects.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "adverse",
+        "distractors": [
+          "strange",
+          "wide",
+          "soft"
+        ]
+      },
+      "misuse": {
+        "form": "an adverse sunrise",
+        "noteJa": "「an adverse sunrise」とは言いません。ふつうは「adverse effects」・「adverse weather」・「an adverse effect on ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000119-adverse-weather",
+      "wordId": "vocab-000119",
+      "form": "adverse weather",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "悪天候",
+      "nuanceJa": "adverse weather は天気予報や報道で使う硬い表現。日常会話では bad weather と言う。",
+      "example": "Adverse weather forced the team to stay indoors.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "adverse",
+        "distractors": [
+          "angry",
+          "sad",
+          "rude"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000119-an-adverse-effect-on-x",
+      "wordId": "vocab-000119",
+      "form": "an adverse effect on ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～への悪影響",
+      "nuanceJa": "on の後ろに影響を受けるものを置く。effect of は原因側、effect on は受ける側を示すので、前置詞で向きが変わる。",
+      "example": "Noise can have an adverse effect on sleep.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "on",
+        "distractors": [
+          "to",
+          "for",
+          "at"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000120-a-modest-income",
+      "wordId": "vocab-000120",
+      "form": "a modest income",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "ささやかな収入",
+      "nuanceJa": "modest は多くない控えめな額。small より穏やかな言い方で、謙遜や婉曲な表現にも使える。",
+      "example": "They live on a modest income.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "modest",
+        "distractors": [
+          "short",
+          "thin",
+          "narrow"
+        ]
+      },
+      "misuse": {
+        "form": "a modest weather",
+        "noteJa": "「a modest weather」とは言いません。ふつうは「a modest income」・「modest about ～」・「modestly priced」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000120-modest-about-x",
+      "wordId": "vocab-000120",
+      "form": "modest about ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～について控えめな",
+      "nuanceJa": "about の後ろに自分の成果を置く（modest about her success）。humble より日常的で、控えめな態度を褒める。",
+      "example": "The winner was modest about her success.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "about",
+        "distractors": [
+          "for",
+          "at",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000120-modestly-priced",
+      "wordId": "vocab-000120",
+      "form": "modestly priced",
+      "type": "other",
+      "patternDetail": "副詞＋過去分詞",
+      "meaningJa": "手頃な値段の",
+      "nuanceJa": "modestly は控えめにという副詞。modestly priced は高すぎない値段を穏やかに言う、広告でよく見る形。",
+      "example": "The hotel is modestly priced.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "modestly",
+        "distractors": [
+          "slowly",
+          "quietly",
+          "softly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000001-budget-constraints",
+      "wordId": "vocab-000001",
+      "form": "budget constraints",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "予算の制約",
+      "nuanceJa": "budget constraints は予算上の制約で、理由として挙げる定番の言い方。financial constraints も同じ意味で、やや硬い。",
+      "example": "Budget constraints limited the size of the project.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "budget",
+        "distractors": [
+          "pocket",
+          "wallet",
+          "coin"
+        ]
+      },
+      "misuse": {
+        "form": "a sweet constraint",
+        "noteJa": "「a sweet constraint」とは言いません。ふつうは「budget constraints」・「impose constraints」・「constraints on ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000001-impose-constraints",
+      "wordId": "vocab-000001",
+      "form": "impose constraints",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "制約を課す",
+      "nuanceJa": "impose は権限のある側が上から課すこと。put constraints とも言えるが、impose は押しつける含みが強い。",
+      "example": "The new rules impose constraints on small shops.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "impose",
+        "distractors": [
+          "hold",
+          "lay",
+          "raise"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000001-constraints-on-x",
+      "wordId": "vocab-000001",
+      "form": "constraints on ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～に対する制約",
+      "nuanceJa": "on の後ろに制限される対象を置く（constraints on spending）。of ではなく on を使う。",
+      "example": "There are constraints on how much we can spend.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "on",
+        "distractors": [
+          "of",
+          "at",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000002-under-scrutiny",
+      "wordId": "vocab-000002",
+      "form": "under scrutiny",
+      "type": "other",
+      "patternDetail": "前置詞＋名詞",
+      "meaningJa": "精査を受けて",
+      "nuanceJa": "under は調べられている状態を表し、in scrutiny とは言わない。批判的に細かく調べられる含みがある。",
+      "example": "The plan is under scrutiny.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "under",
+        "distractors": [
+          "in",
+          "on",
+          "at"
+        ]
+      },
+      "misuse": {
+        "form": "many scrutinies",
+        "noteJa": "「many scrutinies」とは言いません。ふつうは「under scrutiny」・「close scrutiny」・「subject ～ to scrutiny」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000002-close-scrutiny",
+      "wordId": "vocab-000002",
+      "form": "close scrutiny",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "綿密な精査",
+      "nuanceJa": "close は細部まで注意深い調べ。strict scrutiny は法律用語になるので、一般には close scrutiny を使う。",
+      "example": "The claims will face close scrutiny.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "close",
+        "distractors": [
+          "near",
+          "narrow",
+          "tight"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000002-subject-x-to-scrutiny",
+      "wordId": "vocab-000002",
+      "form": "subject ～ to scrutiny",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～を精査にかける",
+      "nuanceJa": "subject A to B で A を B にさらす。put under scrutiny は口語的で、subject は報告書で使う硬い言い方。",
+      "example": "The council will subject the plan to scrutiny.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "subject",
+        "distractors": [
+          "give",
+          "make",
+          "send"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000003-a-false-premise",
+      "wordId": "vocab-000003",
+      "form": "a false premise",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "誤った前提",
+      "nuanceJa": "false は誤った前提で、議論や論理の場面の定型。wrong premise とも言えるが、false の方が論理的な誤りを指す。",
+      "example": "The argument rests on a false premise.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "false",
+        "distractors": [
+          "lie",
+          "fake",
+          "empty"
+        ]
+      },
+      "misuse": {
+        "form": "a premise to the plan",
+        "noteJa": "「a premise to the plan」とは言いません。ふつうは「a false premise」・「on the premise that ～」・「challenge the premise」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000003-on-the-premise-that-x",
+      "wordId": "vocab-000003",
+      "form": "on the premise that ～",
+      "type": "other",
+      "patternDetail": "前置詞＋名詞＋that節",
+      "meaningJa": "～という前提で",
+      "nuanceJa": "that の後ろに前提を置く。on the basis that とほぼ同じだが、on the premise の方がやや改まる。",
+      "example": "We plan on the premise that sales will grow.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "on",
+        "distractors": [
+          "in",
+          "at",
+          "by"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000003-challenge-the-premise",
+      "wordId": "vocab-000003",
+      "form": "challenge the premise",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "前提を問い直す",
+      "nuanceJa": "challenge は前提の正しさに異議を唱えること。question は質問することで、challenge はより強い疑いを示す。",
+      "example": "The study challenges the premise of the plan.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "challenge",
+        "distractors": [
+          "fight",
+          "hit",
+          "break"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000004-make-an-allegation",
+      "wordId": "vocab-000004",
+      "form": "make an allegation",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "申し立てをする",
+      "nuanceJa": "make は申し立てを行うこと。raise は問題として持ち出す。allegation は証拠のない主張に使う。",
+      "example": "The newspaper made an allegation of favoritism.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "make",
+        "distractors": [
+          "do",
+          "take",
+          "give"
+        ]
+      },
+      "misuse": {
+        "form": "do an allegation",
+        "noteJa": "「do an allegation」とは言いません。ふつうは「make an allegation」・「deny an allegation」・「an allegation of ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000004-deny-an-allegation",
+      "wordId": "vocab-000004",
+      "form": "deny an allegation",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "疑惑を否定する",
+      "nuanceJa": "deny は事実ではないと言うこと。reject は強く退けることで、refuse an allegation とは言わない。",
+      "example": "The company will deny the allegation.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "deny",
+        "distractors": [
+          "refuse",
+          "stop",
+          "close"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000004-an-allegation-of-x",
+      "wordId": "vocab-000004",
+      "form": "an allegation of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の疑惑",
+      "nuanceJa": "of の後ろに疑われる行為を置く（an allegation of fraud）。against は疑われる人（allegations against the mayor）を示す。",
+      "example": "The report included an allegation of fraud.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "for",
+          "at",
+          "on"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000005-alleviate-poverty",
+      "wordId": "vocab-000005",
+      "form": "alleviate poverty",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "貧困を和らげる",
+      "nuanceJa": "alleviate は苦しみを軽くすること。eliminate はなくすことで、alleviate は完全には解決しない含みがある。",
+      "example": "The programme aims to alleviate poverty.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "alleviate",
+        "distractors": [
+          "lower",
+          "soften",
+          "small"
+        ]
+      },
+      "misuse": {
+        "form": "alleviate to the pain",
+        "noteJa": "「alleviate to the pain」とは言いません。ふつうは「alleviate poverty」・「help alleviate」・「alleviate ～ by ～ing」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000005-help-alleviate",
+      "wordId": "vocab-000005",
+      "form": "help alleviate",
+      "type": "other",
+      "patternDetail": "動詞＋動詞",
+      "meaningJa": "和らげるのに役立つ",
+      "nuanceJa": "help alleviate は「和らげるのに役立つ」と断定を避ける型。報道や報告書で、効果を控えめに述べるときの定番。",
+      "example": "New buses will help alleviate traffic.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "help",
+        "distractors": [
+          "make",
+          "let",
+          "have"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000005-alleviate-x-by-xing",
+      "wordId": "vocab-000005",
+      "form": "alleviate ～ by ～ing",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～することで和らげる",
+      "nuanceJa": "by の後ろに方法を置く（alleviate stress by walking）。with は道具や手段の物（with medicine）に使うので、方法の動作には by。",
+      "example": "You can alleviate stress by walking.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "by",
+        "distractors": [
+          "for",
+          "at",
+          "on"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000006-feel-compelled-to-x",
+      "wordId": "vocab-000006",
+      "form": "feel compelled to ～",
+      "type": "other",
+      "patternDetail": "動詞＋過去分詞＋不定詞",
+      "meaningJa": "せずにいられないと感じる",
+      "nuanceJa": "feel compelled は自分の内側から「せずにいられない」と感じること。be forced は外からの強制を言う。",
+      "example": "I feel compelled to say thank you.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "compelled",
+        "distractors": [
+          "pushed",
+          "pulled",
+          "hit"
+        ]
+      },
+      "misuse": {
+        "form": "compel for",
+        "noteJa": "「compel for」とは言いません。ふつうは「feel compelled to ～」・「compel ～ to ～」・「legally compelled」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000006-compel-x-to-x",
+      "wordId": "vocab-000006",
+      "form": "compel ～ to ～",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋不定詞",
+      "meaningJa": "～に～することを強いる",
+      "nuanceJa": "compel 人 to 動詞 の形で強いる。force と近いが、compel は法律や義務など正式な力で強制する響きがある。",
+      "example": "The law compels companies to report costs.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "to",
+        "distractors": [
+          "for",
+          "at",
+          "of"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000006-legally-compelled",
+      "wordId": "vocab-000006",
+      "form": "legally compelled",
+      "type": "other",
+      "patternDetail": "副詞＋過去分詞",
+      "meaningJa": "法的に強いられた",
+      "nuanceJa": "legally は法律上という意味。by law と近く、compelled は義務として強いられることを示す。",
+      "example": "Companies are legally compelled to keep records.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "legally",
+        "distractors": [
+          "legal",
+          "law",
+          "lawful"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000007-impede-progress",
+      "wordId": "vocab-000007",
+      "form": "impede progress",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "進展を妨げる",
+      "nuanceJa": "impede は進行を遅らせたり難しくしたりする硬い動詞。block は完全に止めることで、impede は部分的な妨げ。",
+      "example": "Repeated changes can impede progress.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "impede",
+        "distractors": [
+          "hide",
+          "push",
+          "hold"
+        ]
+      },
+      "misuse": {
+        "form": "impede a sneeze",
+        "noteJa": "「impede a sneeze」とは言いません。ふつうは「impede progress」・「seriously impede」・「be impeded by ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000007-seriously-impede",
+      "wordId": "vocab-000007",
+      "form": "seriously impede",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "深刻に妨げる",
+      "nuanceJa": "seriously は妨げの大きさを強める。greatly も同様に使えるが、seriously は悪い影響に使うことが多い。",
+      "example": "Poor roads seriously impede trade.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "seriously",
+        "distractors": [
+          "much",
+          "very",
+          "too"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000007-be-impeded-by-x",
+      "wordId": "vocab-000007",
+      "form": "be impeded by ～",
+      "type": "other",
+      "patternDetail": "受け身＋前置詞",
+      "meaningJa": "～に妨げられる",
+      "nuanceJa": "by の後ろに妨げる原因を置く（impeded by weather）。stopped は止まったことで、impeded は遅れや困難を表す。",
+      "example": "The work was impeded by bad weather.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "by",
+        "distractors": [
+          "with",
+          "to",
+          "into"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000008-a-plausible-explanation",
+      "wordId": "vocab-000008",
+      "form": "a plausible explanation",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "もっともらしい説明",
+      "nuanceJa": "plausible は筋が通ってありそうに聞こえること。真実だと保証せず、確かめる余地を残す。",
+      "example": "She gave a plausible explanation for the delay.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "plausible",
+        "distractors": [
+          "pleasant",
+          "popular",
+          "pretty"
+        ]
+      },
+      "misuse": {
+        "form": "a plausible house",
+        "noteJa": "「a plausible house」とは言いません。ふつうは「a plausible explanation」・「seem plausible」・「highly plausible」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000008-seem-plausible",
+      "wordId": "vocab-000008",
+      "form": "seem plausible",
+      "type": "other",
+      "patternDetail": "動詞＋形容詞",
+      "meaningJa": "ありそうに思える",
+      "nuanceJa": "seem plausible は「ありそうだ」と控えめに評価する。feel plausible とは言わず、seem や sound を使う。",
+      "example": "Her story seems plausible.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "seem",
+        "distractors": [
+          "feel",
+          "make",
+          "do"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000008-highly-plausible",
+      "wordId": "vocab-000008",
+      "form": "highly plausible",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "非常にありそうな",
+      "nuanceJa": "highly は可能性の高さを強める。very plausible も言えるが、highly は書き言葉。",
+      "example": "It is highly plausible that prices will rise.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "highly",
+        "distractors": [
+          "much",
+          "big",
+          "hard"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000009-inherent-in-x",
+      "wordId": "vocab-000009",
+      "form": "inherent in ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～に本来備わった",
+      "nuanceJa": "in の後ろに性質を持つ物を置く（inherent in the system）。of は使わない。to も使えるが in が定番。",
+      "example": "Some risk is inherent in any plan.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "of",
+          "at",
+          "on"
+        ]
+      },
+      "misuse": {
+        "form": "inherent of the system",
+        "noteJa": "「inherent of the system」とは言いません。ふつうは「inherent in ～」・「an inherent risk」・「inherently risky」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000009-an-inherent-risk",
+      "wordId": "vocab-000009",
+      "form": "an inherent risk",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "本来的なリスク",
+      "nuanceJa": "inherent は取り除けない性質として備わっていること。built-in は仕組みとして組み込まれた意味に近い。",
+      "example": "Every investment has an inherent risk.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "inherent",
+        "distractors": [
+          "inner",
+          "inside",
+          "inborn"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000009-inherently-risky",
+      "wordId": "vocab-000009",
+      "form": "inherently risky",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "本質的に危険な",
+      "nuanceJa": "inherently は本質的にという意味。naturally は自然にという意味で、inherently は変えられない性質を言う。",
+      "example": "The method is inherently risky.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "inherently",
+        "distractors": [
+          "often",
+          "soon",
+          "just"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000010-thereby-saving-x",
+      "wordId": "vocab-000010",
+      "form": "thereby saving ～",
+      "type": "other",
+      "patternDetail": "副詞＋現在分詞",
+      "meaningJa": "それによって～を節約する",
+      "nuanceJa": "thereby の後ろに動名詞を置いて結果を付け足す書き言葉。so や therefore のように文を切らず、一文の中で結果を述べる。",
+      "example": "We moved online, thereby saving time.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "thereby",
+        "distractors": [
+          "therefore",
+          "because",
+          "although"
+        ]
+      },
+      "misuse": {
+        "form": "thereby to allowing",
+        "noteJa": "「thereby to allowing」とは言いません。ふつうは「thereby saving ～」・「thereby allowing ～」・「thereby making ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000010-thereby-allowing-x",
+      "wordId": "vocab-000010",
+      "form": "thereby allowing ～",
+      "type": "other",
+      "patternDetail": "副詞＋現在分詞",
+      "meaningJa": "それによって～を可能にする",
+      "nuanceJa": "allowing の前に置き、その行為が可能にしたことを述べる。and でつなぐより結果であることがはっきりする。",
+      "example": "They shared the files, thereby allowing others to join.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "thereby",
+        "distractors": [
+          "so",
+          "but",
+          "then"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000010-thereby-making-x",
+      "wordId": "vocab-000010",
+      "form": "thereby making ～",
+      "type": "other",
+      "patternDetail": "副詞＋現在分詞",
+      "meaningJa": "それによって～にする",
+      "nuanceJa": "making の前に置き、行為の結果として状態が変わったことを述べる。thereby は文の途中で使い、文頭には置かない。",
+      "example": "The school added a ramp, thereby making the hall easier to enter.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "thereby",
+        "distractors": [
+          "therefore",
+          "because",
+          "while"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000121-in-turmoil",
+      "wordId": "vocab-000121",
+      "form": "in turmoil",
+      "type": "other",
+      "patternDetail": "前置詞＋名詞",
+      "meaningJa": "混乱状態で",
+      "nuanceJa": "in turmoil は混乱の状態にあること。on turmoil とは言わない。国や市場、組織など大きなものの混乱に使う。",
+      "example": "The sudden news left the whole office in turmoil.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "on",
+          "at",
+          "under"
+        ]
+      },
+      "misuse": {
+        "form": "many turmoils",
+        "noteJa": "「many turmoils」とは言いません。ふつうは「in turmoil」・「political turmoil」・「throw ～ into turmoil」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000121-political-turmoil",
+      "wordId": "vocab-000121",
+      "form": "political turmoil",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "政治的な混乱",
+      "nuanceJa": "political は政治上の混乱。economic turmoil は経済の混乱で、どちらもニュースの見出しによく出る。",
+      "example": "The country is facing political turmoil.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "political",
+        "distractors": [
+          "politics",
+          "policy",
+          "politic"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000121-throw-x-into-turmoil",
+      "wordId": "vocab-000121",
+      "form": "throw ～ into turmoil",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～を混乱に陥れる",
+      "nuanceJa": "throw A into turmoil で A を混乱させる。cause turmoil より劇的で、出来事の衝撃を強調する。",
+      "example": "The decision will throw the market into turmoil.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "throw",
+        "distractors": [
+          "drop",
+          "hold",
+          "carry"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000122-leave-a-legacy",
+      "wordId": "vocab-000122",
+      "form": "leave a legacy",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "遺産を残す",
+      "nuanceJa": "leave は後に残すこと。build a legacy は意図して築くことで、leave は結果として残る場合にも使う。",
+      "example": "The mayor wants to leave a legacy of new parks.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "leave",
+        "distractors": [
+          "make",
+          "do",
+          "take"
+        ]
+      },
+      "misuse": {
+        "form": "do a legacy",
+        "noteJa": "「do a legacy」とは言いません。ふつうは「leave a legacy」・「a lasting legacy」・「a legacy of ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000122-a-lasting-legacy",
+      "wordId": "vocab-000122",
+      "form": "a lasting legacy",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "長く残る遺産",
+      "nuanceJa": "lasting は長く続くこと。long legacy とは言わず、時間の長さを言うなら lasting を使う。",
+      "example": "The teacher left a lasting legacy.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "lasting",
+        "distractors": [
+          "long",
+          "old",
+          "forever"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000122-a-legacy-of-x",
+      "wordId": "vocab-000122",
+      "form": "a legacy of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～という遺産",
+      "nuanceJa": "of の後ろに残したものの中身を置く（a legacy of kindness）。from は誰から受け継いだかを言う。",
+      "example": "The war left a legacy of mistrust.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "to",
+          "at",
+          "on"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000123-accuse-x-of-hypocrisy",
+      "wordId": "vocab-000123",
+      "form": "accuse ～ of hypocrisy",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～を偽善だと非難する",
+      "nuanceJa": "accuse A of B の型で、blame A for B と前置詞が違う。of の後ろに非難の内容を置く。",
+      "example": "They accused the mayor of hypocrisy.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "for",
+          "with",
+          "about"
+        ]
+      },
+      "misuse": {
+        "form": "tidy hypocrisy",
+        "noteJa": "「tidy hypocrisy」とは言いません。ふつうは「accuse ～ of hypocrisy」・「sheer hypocrisy」・「the hypocrisy of ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000123-sheer-hypocrisy",
+      "wordId": "vocab-000123",
+      "form": "sheer hypocrisy",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "まったくの偽善",
+      "nuanceJa": "sheer は「まったくの」という強調で、批判的な文脈で使う。complete hypocrisy も同じ意味。",
+      "example": "Critics called the plan sheer hypocrisy.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "sheer",
+        "distractors": [
+          "clear",
+          "clean",
+          "thin"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000123-the-hypocrisy-of-x",
+      "wordId": "vocab-000123",
+      "form": "the hypocrisy of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の偽善",
+      "nuanceJa": "of の後ろに偽善的な人や行為を置く（the hypocrisy of the speech）。批判する側から言う型。",
+      "example": "Many people criticised the hypocrisy of the speech.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "at",
+          "on",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000124-worst-case-scenario",
+      "wordId": "vocab-000124",
+      "form": "worst-case scenario",
+      "type": "other",
+      "patternDetail": "名詞＋名詞",
+      "meaningJa": "最悪の筋書き",
+      "nuanceJa": "worst-case scenario は最悪の場合の筋書き。best-case scenario と対で、リスクを説明する場面で定番。",
+      "example": "In the worst-case scenario, the match would be cancelled.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "worst-case",
+        "distractors": [
+          "bad-case",
+          "worse-case",
+          "least-case"
+        ]
+      },
+      "misuse": {
+        "form": "a tall scenario",
+        "noteJa": "「a tall scenario」とは言いません。ふつうは「worst-case scenario」・「a likely scenario」・「imagine a scenario」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000124-a-likely-scenario",
+      "wordId": "vocab-000124",
+      "form": "a likely scenario",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "ありそうな筋書き",
+      "nuanceJa": "likely は起こりそうな筋書き。possible scenario は起こりうるという意味で、確率の高さまでは含まない。",
+      "example": "A delay is a likely scenario.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "likely",
+        "distractors": [
+          "famous",
+          "tall",
+          "heavy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000124-imagine-a-scenario",
+      "wordId": "vocab-000124",
+      "form": "imagine a scenario",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "筋書きを想像する",
+      "nuanceJa": "imagine は想像すること。describe a scenario は筋書きを説明すること。話の導入で Imagine a scenario ～ と使う。",
+      "example": "Imagine a scenario in which the power goes out.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "imagine",
+        "distractors": [
+          "see",
+          "look",
+          "watch"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000125-evoke-memories",
+      "wordId": "vocab-000125",
+      "form": "evoke memories",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "思い出を呼び起こす",
+      "nuanceJa": "evoke は物や出来事が感情や記憶を呼び起こすこと。remind は人に思い出させる（remind me of）ので、主語が物か人かで使い分ける。",
+      "example": "The smell of bread evoked memories of my childhood.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "evoke",
+        "distractors": [
+          "wake",
+          "call",
+          "raise"
+        ]
+      },
+      "misuse": {
+        "form": "evoke to memories",
+        "noteJa": "「evoke to memories」とは言いません。ふつうは「evoke memories」・「strongly evoke」・「evoke ～ in ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000125-strongly-evoke",
+      "wordId": "vocab-000125",
+      "form": "strongly evoke",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "強く呼び起こす",
+      "nuanceJa": "strongly は呼び起こされる強さを示す。deeply も使えるが、strongly は連想がはっきり浮かぶことを言う。",
+      "example": "The song strongly evokes summer.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "strongly",
+        "distractors": [
+          "high",
+          "hard",
+          "big"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000125-evoke-x-in-x",
+      "wordId": "vocab-000125",
+      "form": "evoke ～ in ～",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～に～を呼び起こす",
+      "nuanceJa": "in の後ろに感じる人を置く（evoke fear in children）。to は使えない。",
+      "example": "The film evokes fear in children.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "on",
+          "at",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000126-comply-with-x",
+      "wordId": "vocab-000126",
+      "form": "comply with ～",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "～に従う",
+      "nuanceJa": "with の後ろに規則を置く。comply to は誤り。follow は日常的で、comply with は法律や規則に従う硬い言い方。",
+      "example": "All visitors must comply with the safety rules.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "with",
+        "distractors": [
+          "to",
+          "for",
+          "by"
+        ]
+      },
+      "misuse": {
+        "form": "comply to the rules",
+        "noteJa": "「comply to the rules」とは言いません。ふつうは「comply with ～」・「fail to comply」・「fully comply」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000126-fail-to-comply",
+      "wordId": "vocab-000126",
+      "form": "fail to comply",
+      "type": "other",
+      "patternDetail": "動詞＋不定詞",
+      "meaningJa": "従わない",
+      "nuanceJa": "fail to comply は結果として従わなかったこと。refuse to comply は意図的に拒むことで、意図の有無が違う。",
+      "example": "Shops that fail to comply will pay a fine.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "fail",
+        "distractors": [
+          "miss",
+          "lose",
+          "break"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000126-fully-comply",
+      "wordId": "vocab-000126",
+      "form": "fully comply",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "完全に従う",
+      "nuanceJa": "fully は完全にという意味。partly comply と対になり、規則への適合を報告する場面で使う。very comply とは言わない。",
+      "example": "The factory must fully comply with the law.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "fully",
+        "distractors": [
+          "full",
+          "much",
+          "very"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000127-depict-x-as-x",
+      "wordId": "vocab-000127",
+      "form": "depict ～ as ～",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～を～として描く",
+      "nuanceJa": "depict A as B で A を B として描く。show は見せることで、depict は絵や文章で描き出す意味。",
+      "example": "The film depicts the king as a kind man.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "as",
+        "distractors": [
+          "to",
+          "for",
+          "into"
+        ]
+      },
+      "misuse": {
+        "form": "depict to a scene",
+        "noteJa": "「depict to a scene」とは言いません。ふつうは「depict ～ as ～」・「vividly depict」・「depict a scene」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000127-vividly-depict",
+      "wordId": "vocab-000127",
+      "form": "vividly depict",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "鮮やかに描く",
+      "nuanceJa": "vividly は目に浮かぶように鮮やかに。clearly は分かりやすくという意味で、vividly は描写の生々しさを言う。",
+      "example": "The writer vividly depicts life in the village.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "vividly",
+        "distractors": [
+          "bright",
+          "lively",
+          "colour"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000127-depict-a-scene",
+      "wordId": "vocab-000127",
+      "form": "depict a scene",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "場面を描く",
+      "nuanceJa": "depict は場面や人物を描き出す。draw は線で描くことで、depict は文章や映像にも使える。",
+      "example": "The painting depicts a scene from a village in winter.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "depict",
+        "distractors": [
+          "make",
+          "do",
+          "take"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000128-a-candid-answer",
+      "wordId": "vocab-000128",
+      "form": "a candid answer",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "率直な答え",
+      "nuanceJa": "candid は隠さず率直に言うこと。frank も近いが、candid は聞き手に不都合なことも正直に言う含みがある。",
+      "example": "She gave a candid answer about her mistakes.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "candid",
+        "distractors": [
+          "bare",
+          "naked",
+          "empty"
+        ]
+      },
+      "misuse": {
+        "form": "a candid weather",
+        "noteJa": "「a candid weather」とは言いません。ふつうは「a candid answer」・「candid about ～」・「refreshingly candid」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000128-candid-about-x",
+      "wordId": "vocab-000128",
+      "form": "candid about ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～について率直な",
+      "nuanceJa": "about の後ろに話題を置く（candid about the risks）。人を相手にするときは with（candid with her）。",
+      "example": "The doctor was candid about the risks.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "about",
+        "distractors": [
+          "for",
+          "to",
+          "by"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000128-refreshingly-candid",
+      "wordId": "vocab-000128",
+      "form": "refreshingly candid",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "新鮮なほど率直な",
+      "nuanceJa": "refreshingly は意外なほど清々しくという副詞。褒める文脈で candid と組み合わせる定番の形。",
+      "example": "The coach was refreshingly candid.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "refreshingly",
+        "distractors": [
+          "freshly",
+          "coolly",
+          "newly"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000129-a-versatile-tool",
+      "wordId": "vocab-000129",
+      "form": "a versatile tool",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "用途の広い道具",
+      "nuanceJa": "versatile は多くの使い方ができること。useful は役に立つことで、versatile は用途の広さを言う。",
+      "example": "A simple knife is a versatile tool.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "versatile",
+        "distractors": [
+          "various",
+          "many",
+          "wide"
+        ]
+      },
+      "misuse": {
+        "form": "enough versatile",
+        "noteJa": "「enough versatile」とは言いません。ふつうは「a versatile tool」・「remarkably versatile」・「versatile enough to ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000129-remarkably-versatile",
+      "wordId": "vocab-000129",
+      "form": "remarkably versatile",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "驚くほど用途が広い",
+      "nuanceJa": "remarkably は意外なほどという強調。very versatile より書き言葉で、製品紹介などで使う。",
+      "example": "The new phone is remarkably versatile.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "remarkably",
+        "distractors": [
+          "remarkable",
+          "remarked",
+          "remarking"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000129-versatile-enough-to-x",
+      "wordId": "vocab-000129",
+      "form": "versatile enough to ～",
+      "type": "other",
+      "patternDetail": "形容詞＋enough＋不定詞",
+      "meaningJa": "～できるほど用途が広い",
+      "nuanceJa": "enough は形容詞の後ろに置く。enough versatile とは言わない。to の後ろに使える場面を続ける。",
+      "example": "The room is versatile enough to host a class.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "enough",
+        "distractors": [
+          "much",
+          "very",
+          "so"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000130-superficial-knowledge",
+      "wordId": "vocab-000130",
+      "form": "superficial knowledge",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "表面的な知識",
+      "nuanceJa": "superficial は表面だけで深さがないこと。shallow も近いが、superficial は理解や関係の浅さを批判的に言う。",
+      "example": "His knowledge of the subject is rather superficial.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "superficial",
+        "distractors": [
+          "surface",
+          "upper",
+          "flat"
+        ]
+      },
+      "misuse": {
+        "form": "a superficial sunrise",
+        "noteJa": "「a superficial sunrise」とは言いません。ふつうは「superficial knowledge」・「on a superficial level」・「superficially similar」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000130-on-a-superficial-level",
+      "wordId": "vocab-000130",
+      "form": "on a superficial level",
+      "type": "other",
+      "patternDetail": "前置詞＋形容詞＋名詞",
+      "meaningJa": "表面的なレベルでは",
+      "nuanceJa": "on a ～ level の型で、どの深さで見るかを言う。level の前に形容詞を置き、at a superficial level も使える。",
+      "example": "On a superficial level, the plans look the same.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "on",
+        "distractors": [
+          "in",
+          "by",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000130-superficially-similar",
+      "wordId": "vocab-000130",
+      "form": "superficially similar",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "見かけは似ている",
+      "nuanceJa": "superficially は見かけだけという意味。apparently は見たところという意味で、superficially は中身が違う含みがある。",
+      "example": "The two plans are superficially similar.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "superficially",
+        "distractors": [
+          "surface",
+          "outer",
+          "top"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000131-show-ingenuity",
+      "wordId": "vocab-000131",
+      "form": "show ingenuity",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "工夫の才を見せる",
+      "nuanceJa": "show は能力を示すこと。demonstrate は証明する意味で硬い。ingenuity は数えない名詞で a は付けない。",
+      "example": "The students showed ingenuity in the contest.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "show",
+        "distractors": [
+          "make",
+          "do",
+          "give"
+        ]
+      },
+      "misuse": {
+        "form": "tall ingenuity",
+        "noteJa": "「tall ingenuity」とは言いません。ふつうは「show ingenuity」・「great ingenuity」・「with ingenuity」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000131-great-ingenuity",
+      "wordId": "vocab-000131",
+      "form": "great ingenuity",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "大変な工夫の才",
+      "nuanceJa": "great は程度が大きいこと。human ingenuity のように「人間の創意」という一般的な言い方でも使われる。",
+      "example": "The engineer solved the problem with great ingenuity.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "great",
+        "distractors": [
+          "big",
+          "high",
+          "tall"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000131-with-ingenuity",
+      "wordId": "vocab-000131",
+      "form": "with ingenuity",
+      "type": "other",
+      "patternDetail": "前置詞＋名詞",
+      "meaningJa": "工夫して",
+      "nuanceJa": "with ingenuity は「工夫して」という副詞的な言い方。ingeniously と同じ意味だが、名詞を使う方が少し改まる。",
+      "example": "The team solved the problem with ingenuity.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "with",
+        "distractors": [
+          "of",
+          "for",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000132-build-rapport",
+      "wordId": "vocab-000132",
+      "form": "build rapport",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "信頼関係を築く",
+      "nuanceJa": "build は時間をかけて築くこと。make rapport とは言わない。establish は最初に確立するという硬い言い方。",
+      "example": "The teacher tried to build rapport with her class.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "build",
+        "distractors": [
+          "make",
+          "do",
+          "take"
+        ]
+      },
+      "misuse": {
+        "form": "make a rapport",
+        "noteJa": "「make a rapport」とは言いません。ふつうは「build rapport」・「good rapport」・「rapport with ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000132-good-rapport",
+      "wordId": "vocab-000132",
+      "form": "good rapport",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "良好な信頼関係",
+      "nuanceJa": "good は話が通じ合う良い関係。close rapport は親密さを強調する。well rapport のように副詞は使えない。",
+      "example": "The two managers have good rapport.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "good",
+        "distractors": [
+          "well",
+          "happy",
+          "soft"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000132-rapport-with-x",
+      "wordId": "vocab-000132",
+      "form": "rapport with ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～との信頼関係",
+      "nuanceJa": "with の後ろに相手を置く（rapport with students）。二者の関係を言うときは between（rapport between teacher and class）。",
+      "example": "She has a good rapport with her students.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "with",
+        "distractors": [
+          "to",
+          "for",
+          "at"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000133-social-conformity",
+      "wordId": "vocab-000133",
+      "form": "social conformity",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "社会への同調",
+      "nuanceJa": "social は集団や社会に合わせること。conformity は多数に合わせる行動を言い、批判的に使われることが多い。",
+      "example": "The book is about social conformity.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "social",
+        "distractors": [
+          "society",
+          "public",
+          "people"
+        ]
+      },
+      "misuse": {
+        "form": "a conformity",
+        "noteJa": "「a conformity」とは言いません。ふつうは「social conformity」・「conformity to ～」・「demand conformity」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000133-conformity-to-x",
+      "wordId": "vocab-000133",
+      "form": "conformity to ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～への適合",
+      "nuanceJa": "to の後ろに従う基準を置く（conformity to the rules）。with も使うが、to が一般的。",
+      "example": "The school demands conformity to the rules.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "to",
+        "distractors": [
+          "for",
+          "at",
+          "of"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000133-demand-conformity",
+      "wordId": "vocab-000133",
+      "form": "demand conformity",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "同調を求める",
+      "nuanceJa": "demand は強く求めること。ask for は丁寧な依頼で、demand は従わせようとする強い響きがある。",
+      "example": "Some groups demand conformity from members.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "demand",
+        "distractors": [
+          "call",
+          "tell",
+          "say"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000134-public-discourse",
+      "wordId": "vocab-000134",
+      "form": "public discourse",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "公共の議論",
+      "nuanceJa": "public は社会全体で交わされる議論。academic discourse のように、分野によって形容詞が変わる。",
+      "example": "Public discourse about the issue has become angry.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "public",
+        "distractors": [
+          "people",
+          "crowd",
+          "town"
+        ]
+      },
+      "misuse": {
+        "form": "a discourses",
+        "noteJa": "「a discourses」とは言いません。ふつうは「public discourse」・「discourse on ～」・「shape the discourse」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000134-discourse-on-x",
+      "wordId": "vocab-000134",
+      "form": "discourse on ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～についての言説",
+      "nuanceJa": "on の後ろに主題を置く（discourse on freedom）。about より硬く、論文や評論向き。",
+      "example": "She wrote a discourse on freedom.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "on",
+        "distractors": [
+          "at",
+          "to",
+          "by"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000134-shape-the-discourse",
+      "wordId": "vocab-000134",
+      "form": "shape the discourse",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "言説を方向づける",
+      "nuanceJa": "shape は形づくること。change は変えることで、shape は議論の方向を決める影響を言う。",
+      "example": "Social media can shape the discourse.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "shape",
+        "distractors": [
+          "make",
+          "do",
+          "draw"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000135-perpetuate-stereotypes",
+      "wordId": "vocab-000135",
+      "form": "perpetuate stereotypes",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "固定観念を助長する",
+      "nuanceJa": "perpetuate は悪い状況を続けさせること。continue は自然に続くことで、perpetuate は人や制度が続けさせる。",
+      "example": "Such stories perpetuate old stereotypes.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "perpetuate",
+        "distractors": [
+          "hold",
+          "carry",
+          "push"
+        ]
+      },
+      "misuse": {
+        "form": "perpetuate a sneeze",
+        "noteJa": "「perpetuate a sneeze」とは言いません。ふつうは「perpetuate stereotypes」・「help perpetuate」・「perpetuated by ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000135-help-perpetuate",
+      "wordId": "vocab-000135",
+      "form": "help perpetuate",
+      "type": "other",
+      "patternDetail": "動詞＋動詞",
+      "meaningJa": "助長する一因となる",
+      "nuanceJa": "help perpetuate は「助長する一因になる」という型。直接の原因でなくても関わっていることを控えめに言う。",
+      "example": "Old habits help perpetuate the problem.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "help",
+        "distractors": [
+          "make",
+          "let",
+          "have"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000135-perpetuated-by-x",
+      "wordId": "vocab-000135",
+      "form": "perpetuated by ～",
+      "type": "other",
+      "patternDetail": "過去分詞＋前置詞",
+      "meaningJa": "～によって存続させられる",
+      "nuanceJa": "by の後ろに続けさせる原因を置く（perpetuated by poverty）。受け身で原因を示す。",
+      "example": "The problem is perpetuated by poor planning.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "by",
+        "distractors": [
+          "with",
+          "from",
+          "of"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000136-exert-pressure",
+      "wordId": "vocab-000136",
+      "form": "exert pressure",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "圧力をかける",
+      "nuanceJa": "exert は力や影響を加える硬い動詞。put pressure on は日常的な言い方。give pressure とは言わない。",
+      "example": "Voters can exert pressure on the government.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "exert",
+        "distractors": [
+          "give",
+          "make",
+          "take"
+        ]
+      },
+      "misuse": {
+        "form": "exert to pressure",
+        "noteJa": "「exert to pressure」とは言いません。ふつうは「exert pressure」・「exert influence on ～」・「exert considerable influence」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000136-exert-influence-on-x",
+      "wordId": "vocab-000136",
+      "form": "exert influence on ～",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～に影響を及ぼす",
+      "nuanceJa": "on の後ろに働きかける相手を置く（exert influence on voters）。to は使えない。",
+      "example": "Friends exert a strong influence on teenagers.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "on",
+        "distractors": [
+          "to",
+          "for",
+          "at"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000136-exert-considerable-influence",
+      "wordId": "vocab-000136",
+      "form": "exert considerable influence",
+      "type": "other",
+      "patternDetail": "動詞＋形容詞＋名詞",
+      "meaningJa": "かなりの影響を及ぼす",
+      "nuanceJa": "considerable は「かなりの」という意味で、報告書でよく使う。considerate（思いやりのある）と形が似ているので注意する。",
+      "example": "The report exerts considerable influence.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "considerable",
+        "distractors": [
+          "considerate",
+          "consider",
+          "considering"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000137-resonate-with-x",
+      "wordId": "vocab-000137",
+      "form": "resonate with ～",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "～の心に響く",
+      "nuanceJa": "with の後ろに共感する人を置く。resonate to とは言わない。reach は届くだけで、resonate は心に響く意味。",
+      "example": "Her message resonated with many young voters.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "with",
+        "distractors": [
+          "to",
+          "for",
+          "at"
+        ]
+      },
+      "misuse": {
+        "form": "resonate to",
+        "noteJa": "「resonate to」とは言いません。ふつうは「resonate with ～」・「strongly resonate」・「resonate deeply」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000137-strongly-resonate",
+      "wordId": "vocab-000137",
+      "form": "strongly resonate",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "強く響く",
+      "nuanceJa": "strongly は共鳴の強さを示す。deeply も使えるが、strongly は広く受け入れられる意味に傾く。",
+      "example": "The idea will strongly resonate with young people.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "strongly",
+        "distractors": [
+          "high",
+          "hard",
+          "big"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000137-resonate-deeply",
+      "wordId": "vocab-000137",
+      "form": "resonate deeply",
+      "type": "other",
+      "patternDetail": "動詞＋副詞",
+      "meaningJa": "深く響く",
+      "nuanceJa": "deeply は心の奥深くという度合いを示す。deep resonate とは言えず、動詞を修飾するときは副詞の deeply を使う。",
+      "example": "The song resonated deeply with fans.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "deeply",
+        "distractors": [
+          "deep",
+          "deeper",
+          "depth"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000138-a-robust-economy",
+      "wordId": "vocab-000138",
+      "form": "a robust economy",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "頑丈な経済",
+      "nuanceJa": "robust は強くて変動に耐えること。strong は強さ全般を言い、robust は揺らぎに強いことを強調する。",
+      "example": "The country has a robust economy.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "robust",
+        "distractors": [
+          "hard",
+          "heavy",
+          "thick"
+        ]
+      },
+      "misuse": {
+        "form": "enough robust",
+        "noteJa": "「enough robust」とは言いません。ふつうは「a robust economy」・「remain robust」・「robust enough」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000138-remain-robust",
+      "wordId": "vocab-000138",
+      "form": "remain robust",
+      "type": "other",
+      "patternDetail": "動詞＋形容詞",
+      "meaningJa": "頑丈なままである",
+      "nuanceJa": "remain は変わらずその状態であること。stay も使えるが、報告書では remain が多い。",
+      "example": "Sales remain robust this year.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "remain",
+        "distractors": [
+          "happen",
+          "arrive",
+          "stand"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000138-robust-enough",
+      "wordId": "vocab-000138",
+      "form": "robust enough",
+      "type": "other",
+      "patternDetail": "形容詞＋enough",
+      "meaningJa": "十分に頑丈な",
+      "nuanceJa": "enough は形容詞の後ろに置く。enough robust とは言わない。robust enough to ～ で耐えるのに足りることを言う。",
+      "example": "The plan is robust enough to handle change.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "enough",
+        "distractors": [
+          "much",
+          "so",
+          "very"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000139-a-tenacious-opponent",
+      "wordId": "vocab-000139",
+      "form": "a tenacious opponent",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "粘り強い相手",
+      "nuanceJa": "tenacious は簡単にあきらめない粘り強さ。persistent は続けること、tenacious はしがみつく強さを言う。",
+      "example": "The team faced a tenacious opponent.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "tenacious",
+        "distractors": [
+          "thick",
+          "tight",
+          "heavy"
+        ]
+      },
+      "misuse": {
+        "form": "a tenacious breakfast",
+        "noteJa": "「a tenacious breakfast」とは言いません。ふつうは「a tenacious opponent」・「tenacious in ～」・「a tenacious fighter」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000139-tenacious-in-x",
+      "wordId": "vocab-000139",
+      "form": "tenacious in ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～に粘り強い",
+      "nuanceJa": "in の後ろに粘る行為を置く（tenacious in pursuing a goal）。about は使わない。",
+      "example": "She is tenacious in pursuing her goals.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "on",
+          "at",
+          "for"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000139-a-tenacious-fighter",
+      "wordId": "vocab-000139",
+      "form": "a tenacious fighter",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "粘り強い闘士",
+      "nuanceJa": "tenacious fighter は不利でもあきらめずに闘う人。褒め言葉だが、頑固という意味にもなる。",
+      "example": "He was a tenacious fighter for workers.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "tenacious",
+        "distractors": [
+          "loud",
+          "narrow",
+          "heavy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000140-an-insightful-comment",
+      "wordId": "vocab-000140",
+      "form": "an insightful comment",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "鋭い指摘",
+      "nuanceJa": "insightful は物事の本質をつかんだ鋭さ。clever は頭の良さで、insightful は深い理解を示す。",
+      "example": "She made an insightful comment.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "insightful",
+        "distractors": [
+          "insight",
+          "inside",
+          "insighted"
+        ]
+      },
+      "misuse": {
+        "form": "an insight comment",
+        "noteJa": "「an insight comment」とは言いません。ふつうは「an insightful comment」・「find ～ insightful」・「particularly insightful」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000140-find-x-insightful",
+      "wordId": "vocab-000140",
+      "form": "find ～ insightful",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋形容詞",
+      "meaningJa": "～を鋭いと感じる",
+      "nuanceJa": "find A insightful で「A を鋭いと感じる」。think A insightful とは言わず、find を使う。",
+      "example": "Many readers find the book insightful.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "find",
+        "distractors": [
+          "think",
+          "say",
+          "tell"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000140-particularly-insightful",
+      "wordId": "vocab-000140",
+      "form": "particularly insightful",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "特に鋭い",
+      "nuanceJa": "particularly は「特に」。especially も同じ意味で、particularly の方が書き言葉。special や specially は形が違うので使えない。",
+      "example": "Her last point was particularly insightful.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "particularly",
+        "distractors": [
+          "special",
+          "specially",
+          "specific"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000141-the-minutiae-of-x",
+      "wordId": "vocab-000141",
+      "form": "the minutiae of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の細かい点",
+      "nuanceJa": "of の後ろに細部の対象を置く（the minutiae of the contract）。ふつう複数扱いで a minutiae とは言わない。",
+      "example": "The committee argued over the minutiae of the contract.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "at",
+          "to",
+          "by"
+        ]
+      },
+      "misuse": {
+        "form": "tidy minutiae",
+        "noteJa": "「tidy minutiae」とは言いません。ふつうは「the minutiae of ～」・「get lost in the minutiae」・「legal minutiae」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000141-get-lost-in-the-minutiae",
+      "wordId": "vocab-000141",
+      "form": "get lost in the minutiae",
+      "type": "other",
+      "patternDetail": "動詞＋形容詞＋前置詞句",
+      "meaningJa": "細部にとらわれる",
+      "nuanceJa": "get lost in は細部に没頭して全体を見失うこと。悪い意味で使うことが多い。",
+      "example": "Do not get lost in the minutiae.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "lost",
+        "distractors": [
+          "found",
+          "held",
+          "kept"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000141-legal-minutiae",
+      "wordId": "vocab-000141",
+      "form": "legal minutiae",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "法律上の細かい点",
+      "nuanceJa": "分野を前に置いて細かい点の種類を示す（legal minutiae、technical minutiae）。細かすぎて重要でない点という響きがある。",
+      "example": "The lawyers argued over legal minutiae.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "legal",
+        "distractors": [
+          "law",
+          "laws",
+          "lawyer"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000142-a-political-adversary",
+      "wordId": "vocab-000142",
+      "form": "a political adversary",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "政治上の敵対者",
+      "nuanceJa": "adversary は競争や対立の相手。enemy より中立的で、政治やスポーツの場面で使う。",
+      "example": "The senator met a political adversary.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "political",
+        "distractors": [
+          "politics",
+          "policy",
+          "politic"
+        ]
+      },
+      "misuse": {
+        "form": "an adversary to the company",
+        "noteJa": "「an adversary to the company」とは言いません。ふつうは「a political adversary」・「an adversary of ～」・「face an adversary」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000142-an-adversary-of-x",
+      "wordId": "vocab-000142",
+      "form": "an adversary of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の敵対者",
+      "nuanceJa": "of の後ろに対立する相手を置く（an adversary of the company）。to は使わない。",
+      "example": "He was an adversary of the company.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "to",
+          "at",
+          "on"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000142-face-an-adversary",
+      "wordId": "vocab-000142",
+      "form": "face an adversary",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "敵対者と向き合う",
+      "nuanceJa": "face は向き合うこと。fight は戦うことで、face は対戦や対決の場に立つ意味。",
+      "example": "The team will face an adversary in the final.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "face",
+        "distractors": [
+          "touch",
+          "hit",
+          "hold"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000143-the-demise-of-x",
+      "wordId": "vocab-000143",
+      "form": "the demise of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の終焉",
+      "nuanceJa": "of の後ろに終わるものを置く（the demise of the factory）。death の比喩的で硬い言い方。",
+      "example": "The demise of the local newspaper saddened many readers.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "to",
+          "at",
+          "by"
+        ]
+      },
+      "misuse": {
+        "form": "a demise to",
+        "noteJa": "「a demise to」とは言いません。ふつうは「the demise of ～」・「a sudden demise」・「lead to the demise of ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000143-a-sudden-demise",
+      "wordId": "vocab-000143",
+      "form": "a sudden demise",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "突然の終焉",
+      "nuanceJa": "sudden は急に終わること。slow demise は徐々に衰えて終わる場合に使い、早さが対になる。",
+      "example": "The shop met a sudden demise.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "sudden",
+        "distractors": [
+          "fast",
+          "soon",
+          "hard"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000143-lead-to-the-demise-of-x",
+      "wordId": "vocab-000143",
+      "form": "lead to the demise of ～",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞＋名詞",
+      "meaningJa": "～の終焉につながる",
+      "nuanceJa": "lead to は結果として終焉を招くこと。cause は直接の原因を言い、lead to は経過を含む。",
+      "example": "Falling sales can lead to the demise of the shop.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "lead",
+        "distractors": [
+          "go",
+          "run",
+          "walk"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000144-the-pinnacle-of-x",
+      "wordId": "vocab-000144",
+      "form": "the pinnacle of ～",
+      "type": "noun_prep",
+      "patternDetail": "名詞＋前置詞",
+      "meaningJa": "～の頂点",
+      "nuanceJa": "of の後ろに頂点に達した対象を置く（the pinnacle of her career）。peak より硬く、栄光の頂点を言う。",
+      "example": "Winning the prize was the pinnacle of her career.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "of",
+        "distractors": [
+          "to",
+          "at",
+          "on"
+        ]
+      },
+      "misuse": {
+        "form": "a pinnacle at",
+        "noteJa": "「a pinnacle at」とは言いません。ふつうは「the pinnacle of ～」・「reach the pinnacle」・「at the pinnacle of ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000144-reach-the-pinnacle",
+      "wordId": "vocab-000144",
+      "form": "reach the pinnacle",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "頂点に達する",
+      "nuanceJa": "reach は到達すること。climb to は上っていく過程を言う。pinnacle は成功の最高点にたとえて使う。",
+      "example": "The singer reached the pinnacle of fame.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "reach",
+        "distractors": [
+          "arrive",
+          "come",
+          "go"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000144-at-the-pinnacle-of-x",
+      "wordId": "vocab-000144",
+      "form": "at the pinnacle of ～",
+      "type": "other",
+      "patternDetail": "前置詞＋名詞＋前置詞",
+      "meaningJa": "～の頂点で",
+      "nuanceJa": "at は位置の一点を示す。on the pinnacle は尖塔の上など物理的な場所に使うので、比喩には at を使う。",
+      "example": "The team is at the pinnacle of the sport.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "at",
+        "distractors": [
+          "in",
+          "by",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000145-bequeath-x-to-x",
+      "wordId": "vocab-000145",
+      "form": "bequeath ～ to ～",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～を～に遺贈する",
+      "nuanceJa": "to の後ろに受け取る人や団体を置く（bequeath books to the university）。give は広い語で、bequeath は遺言で残す文語的な語。",
+      "example": "He bequeathed his books to the university.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "to",
+        "distractors": [
+          "at",
+          "of",
+          "on"
+        ]
+      },
+      "misuse": {
+        "form": "bequeath from",
+        "noteJa": "「bequeath from」とは言いません。ふつうは「bequeath ～ to ～」・「bequeath a fortune」・「bequeath in a will」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000145-bequeath-a-fortune",
+      "wordId": "vocab-000145",
+      "form": "bequeath a fortune",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "財産を遺贈する",
+      "nuanceJa": "bequeath は遺言で財産などを残す文語的な語。leave は日常的で、leave a fortune to ～ とも言う。",
+      "example": "She bequeathed a fortune to the school.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "bequeath",
+        "distractors": [
+          "lend",
+          "borrow",
+          "spend"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000145-bequeath-in-a-will",
+      "wordId": "vocab-000145",
+      "form": "bequeath in a will",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞句",
+      "meaningJa": "遺言で遺贈する",
+      "nuanceJa": "in a will は遺言書の中でという意味。bequeath はそれ自体が遺言による遺贈を指すので、in a will を足して補う形。",
+      "example": "She bequeathed the house in her will.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "in",
+        "distractors": [
+          "on",
+          "with",
+          "at"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000146-squander-a-chance",
+      "wordId": "vocab-000146",
+      "form": "squander a chance",
+      "type": "verb_noun",
+      "patternDetail": "動詞＋名詞",
+      "meaningJa": "機会を無駄にする",
+      "nuanceJa": "squander は大事なものを無駄にすること。waste も近いが、squander は価値あるものを惜しげなく失う批判を含む。",
+      "example": "They squandered the chance to win the game.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "squander",
+        "distractors": [
+          "spread",
+          "collect",
+          "save"
+        ]
+      },
+      "misuse": {
+        "form": "squander at",
+        "noteJa": "「squander at」とは言いません。ふつうは「squander a chance」・「squander ～ on ～」・「needlessly squander」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000146-squander-x-on-x",
+      "wordId": "vocab-000146",
+      "form": "squander ～ on ～",
+      "type": "other",
+      "patternDetail": "動詞＋名詞＋前置詞",
+      "meaningJa": "～を～に浪費する",
+      "nuanceJa": "on の後ろに浪費の対象を置く（squander money on gifts）。for ではなく on を使う。",
+      "example": "He squandered his money on gifts.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "on",
+        "distractors": [
+          "for",
+          "at",
+          "to"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000146-needlessly-squander",
+      "wordId": "vocab-000146",
+      "form": "needlessly squander",
+      "type": "other",
+      "patternDetail": "副詞＋動詞",
+      "meaningJa": "不必要に浪費する",
+      "nuanceJa": "needlessly は避けられたはずという意味。carelessly は不注意にで、needlessly は無駄だったことを強調する。",
+      "example": "The company needlessly squandered its savings.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "needlessly",
+        "distractors": [
+          "needless",
+          "need",
+          "needy"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000147-fluctuate-between-x-and-x",
+      "wordId": "vocab-000147",
+      "form": "fluctuate between ～ and ～",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "～と～の間で変動する",
+      "nuanceJa": "between A and B で変動の幅を示す（fluctuate between 10 and 20）。around は中心になる値を示す。",
+      "example": "Prices fluctuate between ten and twenty dollars.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "between",
+        "distractors": [
+          "among",
+          "above",
+          "beside"
+        ]
+      },
+      "misuse": {
+        "form": "fluctuate to",
+        "noteJa": "「fluctuate to」とは言いません。ふつうは「fluctuate between ～ and ～」・「fluctuate widely」・「fluctuate with ～」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000147-fluctuate-widely",
+      "wordId": "vocab-000147",
+      "form": "fluctuate widely",
+      "type": "other",
+      "patternDetail": "動詞＋副詞",
+      "meaningJa": "大きく変動する",
+      "nuanceJa": "widely は変動の幅が大きいこと。much fluctuate とは言えず、副詞は widely や wildly を使う。",
+      "example": "Prices fluctuate widely from season to season.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "widely",
+        "distractors": [
+          "much",
+          "big",
+          "wide"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000147-fluctuate-with-x",
+      "wordId": "vocab-000147",
+      "form": "fluctuate with ～",
+      "type": "other",
+      "patternDetail": "動詞＋前置詞",
+      "meaningJa": "～に応じて変動する",
+      "nuanceJa": "with の後ろに連動する要因を置く（fluctuate with the seasons）。by は変動した量（fluctuate by 5%）を示す。",
+      "example": "Sales fluctuate with the seasons.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "with",
+        "distractors": [
+          "of",
+          "for",
+          "at"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000148-stringent-rules",
+      "wordId": "vocab-000148",
+      "form": "stringent rules",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "厳格な規則",
+      "nuanceJa": "stringent は守るのが難しいほど厳しい規則に使う。strict は厳しさ全般を言い、stringent は基準や条件に使う硬い語。",
+      "example": "The factory must follow stringent rules.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "stringent",
+        "distractors": [
+          "strong",
+          "hard",
+          "heavy"
+        ]
+      },
+      "misuse": {
+        "form": "a stringent breakfast",
+        "noteJa": "「a stringent breakfast」とは言いません。ふつうは「stringent rules」・「less stringent」・「more stringent」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000148-less-stringent",
+      "wordId": "vocab-000148",
+      "form": "less stringent",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "それほど厳しくない",
+      "nuanceJa": "less stringent は「それほど厳しくない」。比較は more stringent と less stringent で表し、little stringent とは言わない。",
+      "example": "The new rules are less stringent.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "less",
+        "distractors": [
+          "few",
+          "little",
+          "lower"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000148-more-stringent",
+      "wordId": "vocab-000148",
+      "form": "more stringent",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "より厳しい",
+      "nuanceJa": "more stringent は規制が厳しくなる変化を言う。stringenter とは言わず、長い形容詞は more を付けて比べる。",
+      "example": "Safety checks have become more stringent.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "more",
+        "distractors": [
+          "much",
+          "very",
+          "so"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000149-a-convoluted-plot",
+      "wordId": "vocab-000149",
+      "form": "a convoluted plot",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "入り組んだ筋",
+      "nuanceJa": "convoluted は入り組んで追いにくいこと。complicated は複雑さ一般で、convoluted はねじれて分かりにくい感じがある。",
+      "example": "The film has a convoluted plot that confuses many viewers.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "convoluted",
+        "distractors": [
+          "round",
+          "curved",
+          "bent"
+        ]
+      },
+      "misuse": {
+        "form": "a convoluted tooth",
+        "noteJa": "「a convoluted tooth」とは言いません。ふつうは「a convoluted plot」・「overly convoluted」・「seem convoluted」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000149-overly-convoluted",
+      "wordId": "vocab-000149",
+      "form": "overly convoluted",
+      "type": "other",
+      "patternDetail": "副詞＋形容詞",
+      "meaningJa": "必要以上に入り組んだ",
+      "nuanceJa": "overly は必要以上にという意味。too convoluted と近く、overly の方が書き言葉。over convoluted とは言わない。",
+      "example": "The rules are overly convoluted.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "overly",
+        "distractors": [
+          "over",
+          "over-",
+          "overall"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000149-seem-convoluted",
+      "wordId": "vocab-000149",
+      "form": "seem convoluted",
+      "type": "other",
+      "patternDetail": "動詞＋形容詞",
+      "meaningJa": "入り組んでいるように思える",
+      "nuanceJa": "seem は見た印象を言う。feel convoluted とは言いにくく、説明や手続きの印象には seem や sound を使う。",
+      "example": "The steps seem convoluted at first.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "seem",
+        "distractors": [
+          "feel",
+          "smell",
+          "taste"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000150-meticulous-records",
+      "wordId": "vocab-000150",
+      "form": "meticulous records",
+      "type": "adj_noun",
+      "patternDetail": "形容詞＋名詞",
+      "meaningJa": "細心の記録",
+      "nuanceJa": "meticulous は細部まで非常に注意深いこと。careful より強く、几帳面さを褒める。",
+      "example": "She keeps meticulous records of every sale.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "meticulous",
+        "distractors": [
+          "narrow",
+          "tiny",
+          "thin"
+        ]
+      },
+      "misuse": {
+        "form": "a meticulous sunrise",
+        "noteJa": "「a meticulous sunrise」とは言いません。ふつうは「meticulous records」・「meticulous about ～」・「meticulously planned」のように使います。"
+      }
+    },
+    {
+      "id": "col-vocab-000150-meticulous-about-x",
+      "wordId": "vocab-000150",
+      "form": "meticulous about ～",
+      "type": "other",
+      "patternDetail": "形容詞＋前置詞",
+      "meaningJa": "～に細心の",
+      "nuanceJa": "about の後ろに気を配る対象を置く（meticulous about details）。for ではなく about を使う。",
+      "example": "Mr Sato is meticulous about details.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "about",
+        "distractors": [
+          "for",
+          "to",
+          "by"
+        ]
+      },
+      "misuse": null
+    },
+    {
+      "id": "col-vocab-000150-meticulously-planned",
+      "wordId": "vocab-000150",
+      "form": "meticulously planned",
+      "type": "other",
+      "patternDetail": "副詞＋過去分詞",
+      "meaningJa": "周到に計画された",
+      "nuanceJa": "meticulously は細部まで周到にという副詞。carefully より念入りさが強く、計画や準備の丁寧さを言う。",
+      "example": "The trip was meticulously planned.",
+      "exampleOrigin": "original-for-this-app",
+      "status": "unverified",
+      "fill": {
+        "blank": "meticulously",
+        "distractors": [
+          "meticulous",
+          "narrowly",
+          "smally"
         ]
       },
       "misuse": null

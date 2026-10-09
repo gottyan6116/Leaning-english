@@ -140,3 +140,13 @@ test('stage 14: the question card never shows the unmasked example, and the shee
  assert.doesNotMatch(source,/answered\?item\.example/,'card must keep the masked example after answering');
  assert.match(source,/slice\(0,3\)/);
 });
+
+test('stage 14: business, advanced and super sets 1-3 (90 words) have three collocations each, with informative nuance',()=>{
+ const {check}=require('../scripts/nuance-check.cjs');
+ const dir=path.join(__dirname,'../materials/vocabulary'),ids=[];
+ for(const file of ['business-01','business-02','business-03','advanced-01','advanced-02','c1-unit-01','super-01','super-02','super-03'])ids.push(...JSON.parse(fs.readFileSync(path.join(dir,file+'.json'),'utf8')).items.map(w=>w.id));
+ assert.equal(ids.length,90);
+ for(const id of ids){const list=all.filter(c=>c.wordId===id);assert.equal(list.length,3,id);assert.equal(list.filter(c=>c.misuse).length,1,id+' misuse');}
+ for(const c of all.filter(x=>ids.includes(x.wordId))){assert.equal(c.status,'unverified');assert.equal(c.exampleOrigin,'original-for-this-app');assert.equal(check(c),null,c.id+' nuance');assert.ok(c.fill&&Core.maskedExample(c),c.id+' fill');}
+ assert.ok(all.filter(c=>c.articleId&&!c.articleId.startsWith('article-health-')).filter(c=>check(c)).length>=168,'detector still reports the earlier rephrased nuances');
+});
