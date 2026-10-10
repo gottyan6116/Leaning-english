@@ -128,9 +128,22 @@ test('per-day activity: answers, correct answers and distinct words/items/articl
   articleAnswers:[{answeredAt:'2026-10-10T03:00:00Z',correct:true},{answeredAt:'2026-10-10T03:01:00Z',correct:false}],
   reads:{a1:{completedAt:'2026-10-10T04:00:00Z'},a2:{completedAt:'2026-10-09T04:00:00Z'},a3:{}}
  });
- assert.deepEqual(a['2026-10-10'].vocab,{answers:3,correct:1,words:2},'a skipped answer is an answer but not correct; 15:30Z is already the next day in Japan');
- assert.deepEqual(a['2026-10-11'].vocab,{answers:1,correct:1,words:1});
+ assert.deepEqual(a['2026-10-10'].vocab,{answers:3,correct:1,words:2,genres:{}},'a skipped answer is an answer but not correct; 15:30Z is already the next day in Japan');
+ assert.deepEqual(a['2026-10-11'].vocab,{answers:1,correct:1,words:1,genres:{}});
  assert.deepEqual(a['2026-10-10'].colloc,{answers:1,correct:1,items:1});
  assert.deepEqual(a['2026-10-10'].article,{answers:2,correct:1,read:1});assert.equal(a['2026-10-09'].article.read,1);
  assert.deepEqual(S.activityByDay({}),{});
+});
+
+test('time and counts per word-bank genre: targets follow the segment that owns the time',()=>{
+ const a=seg('a','vocab',J('2026-10-10T10:00:00'),J('2026-10-10T10:20:00'),{targetId:'basic-01'});
+ const b=seg('b','vocab',J('2026-10-10T10:10:00'),J('2026-10-10T10:40:00'),{targetId:'business-02'});
+ const manual={id:'m',kind:'manual',method:'manual',studyDate:'2026-10-10',countedMs:10*MIN,targetId:'reading',deletedAt:null};
+ const agg=S.aggregate([a,b,manual]),day=agg.days['2026-10-10'];
+ assert.deepEqual(day.targets.vocab,{'basic-01':10*MIN,'business-02':30*MIN},'the overlap goes to the set that started later');
+ assert.equal(Object.values(day.targets.vocab).reduce((s,x)=>s+x,0),day.kinds.vocab);assert.deepEqual(day.targets.manual,{reading:10*MIN});
+ assert.deepEqual(S.targetTimes(agg,'vocab','all','2026-10-10'),{'basic-01':10*MIN,'business-02':30*MIN});
+ assert.deepEqual(S.targetTimes(agg,'vocab','week','2026-10-10'),S.targetTimes(agg,'vocab','all','2026-10-10'));
+ const act=S.activityByDay({vocabLogs:[{answeredAt:'2026-10-10T01:00:00Z',wordId:'w1',correct:true},{answeredAt:'2026-10-10T01:01:00Z',wordId:'w2',correct:false},{answeredAt:'2026-10-10T01:02:00Z',wordId:'zz',correct:true}]},id=>({w1:'basic',w2:'business'}[id]));
+ assert.deepEqual(act['2026-10-10'].vocab.genres,{basic:{answers:1,correct:1,words:1},business:{answers:1,correct:0,words:1},'':{answers:1,correct:1,words:1}});
 });

@@ -71,3 +71,7 @@ button.rc-cell{cursor:pointer}
 .rc-detail-name{font-weight:var(--font-weight-bold);min-width:5.5em}
 .rc-detail-time{font-weight:var(--font-weight-bold)}
 .rc-detail-text{color:var(--color-text-sub);font-size:var(--font-size-caption)}
+.rc-detail-sub{flex-basis:100%;display:grid;gap:4px;margin:4px 0 4px 1.2em;padding:0;list-style:none}
+.rc-detail-sub .rc-detail-name{font-weight:var(--font-weight-regular);min-width:5.5em}
+.rc-break-sub{grid-column:1/-1;display:grid;gap:2px;margin:4px 0 0 16px;padding:0;list-style:none;font-size:var(--font-size-caption);color:var(--color-text-sub)}
+.rc-break-sub li{display:flex;justify-content:space-between;gap:12px}

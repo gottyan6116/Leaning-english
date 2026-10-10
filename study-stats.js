@@ -24,22 +24,23 @@
  // - Deleted records (deletedAt) are ignored.
  function aggregate(segments){
   const days={},perDay={};
-  const bucket=day=>days[day]||(days[day]={total:0,kinds:emptyKinds()});
-  const add=(day,kind,ms)=>{if(ms<=0)return;const b=bucket(day);b.kinds[kind]+=ms;b.total+=ms;};
+  const bucket=day=>days[day]||(days[day]={total:0,kinds:emptyKinds(),targets:Object.fromEntries(KINDS.map(k=>[k,{}]))});
+  // targets: time per kind and per target (a word set, an article ...); '' = no target recorded.
+  const add=(day,kind,ms,target)=>{if(ms<=0)return;const b=bucket(day),t=target||'';b.kinds[kind]+=ms;b.total+=ms;b.targets[kind][t]=(b.targets[kind][t]||0)+ms;};
   for(const s of segments||[]){
    if(!s||s.deletedAt)continue;
-   if(s.method==='manual'){if(/^\d{4}-\d{2}-\d{2}$/.test(s.studyDate||'')&&Number.isFinite(s.countedMs))add(s.studyDate,'manual',s.countedMs);continue;}
+   if(s.method==='manual'){if(/^\d{4}-\d{2}-\d{2}$/.test(s.studyDate||'')&&Number.isFinite(s.countedMs))add(s.studyDate,'manual',s.countedMs,s.targetId);continue;}
    if(!KINDS.includes(s.kind)||s.kind==='manual')continue;
    const start=Date.parse(s.startedAt),end=Date.parse(s.endedAt);
    if(!Number.isFinite(start)||!Number.isFinite(end)||end<=start)continue;
-   for(const part of splitByDay(start,end))(perDay[part.day]||(perDay[part.day]=[])).push({kind:s.kind,start:part.start,end:part.end,order:start,id:String(s.id||'')});
+   for(const part of splitByDay(start,end))(perDay[part.day]||(perDay[part.day]=[])).push({kind:s.kind,start:part.start,end:part.end,order:start,id:String(s.id||''),target:s.targetId||''});
   }
   for(const [day,list] of Object.entries(perDay)){
    const marks=[...new Set(list.flatMap(x=>[x.start,x.end]))].sort((a,b)=>a-b);
    for(let i=0;i+1<marks.length;i++){
     const a=marks[i],b=marks[i+1];let owner=null;
     for(const x of list){if(x.start<=a&&x.end>=b&&(!owner||x.order>owner.order||x.order===owner.order&&x.id>owner.id))owner=x;}
-    if(owner)add(day,owner.kind,b-a);
+    if(owner)add(day,owner.kind,b-a,owner.target);
    }
   }
   return {days,total:Object.values(days).reduce((sum,d)=>sum+d.total,0)};
@@ -74,6 +75,12 @@
   const first=addDays(weekStart(today),-7*(weeks-1));
   return Array.from({length:weeks},(_,w)=>Array.from({length:7},(_,d)=>{const day=addDays(first,w*7+d),ms=dayValue(agg,day).total;return {day,ms,level:heatLevel(ms),future:day>today};}));
  }
+ // Time per target (a word set) of one kind over a period: {target: ms}.
+ function targetTimes(agg,kind,period,today){
+  const from=period==='week'?weekStart(today):period==='month'?today.slice(0,8)+'01':'0000-01-01',out={};
+  for(const [day,value] of Object.entries(agg.days)){if(day<from||day>today)continue;for(const [t,ms] of Object.entries(value.targets?.[kind]||{}))out[t]=(out[t]||0)+ms;}
+  return out;
+ }
  // Time per kind with percentages that add up to exactly 100 (largest remainder).
  function breakdown(agg,period,today){
   const from=period==='week'?weekStart(today):period==='month'?today.slice(0,8)+'01':'0000-01-01';
@@ -85,19 +92,21 @@
  }
  // What was done on each day, from the answer records and article reads: answers, correct answers and distinct words/items/articles.
  // data: {vocabLogs, collocLogs, articleAnswers, reads}. A skipped or timed-out answer counts as an answer, not as correct.
- function activityByDay(data){
+ function activityByDay(data,genreOfWord){
   const days={};
-  const slot=(day,kind)=>{const d=days[day]||(days[day]={vocab:{answers:0,correct:0,ids:new Set()},colloc:{answers:0,correct:0,ids:new Set()},article:{answers:0,correct:0,ids:new Set()}});return d[kind];};
+  const slot=(day,kind)=>{const d=days[day]||(days[day]={vocab:{answers:0,correct:0,ids:new Set(),genres:{}},colloc:{answers:0,correct:0,ids:new Set()},article:{answers:0,correct:0,ids:new Set()}});return d[kind];};
   const time=value=>{const ts=Date.parse(value||'');return Number.isFinite(ts)?ts:null;};
   const answer=(list,kind,idOf)=>{for(const e of list||[]){const ts=time(e.answeredAt);if(ts===null)continue;const s=slot(dayOf(ts),kind);s.answers++;if(e.correct===true&&!e.skipped)s.correct++;const id=idOf(e);if(id)s.ids.add(id);}};
   answer(data.vocabLogs,'vocab',e=>e.wordId);
+  // The same counts per word-bank genre (basic, business ...); words outside the word bank go to ''.
+  if(genreOfWord)for(const e of data.vocabLogs||[]){const ts=time(e.answeredAt);if(ts===null)continue;const g=slot(dayOf(ts),'vocab').genres,key=genreOfWord(e.wordId)||'',x=g[key]||(g[key]={answers:0,correct:0,ids:new Set()});x.answers++;if(e.correct===true&&!e.skipped)x.correct++;if(e.wordId)x.ids.add(e.wordId);}
   answer(data.collocLogs,'colloc',e=>e.collocationId);
   answer(data.articleAnswers,'article',()=>null);
   for(const [articleId,read] of Object.entries(data.reads||{})){const ts=time(read?.completedAt);if(ts!==null)slot(dayOf(ts),'article').ids.add(articleId);}
   const out={};
-  for(const [day,d] of Object.entries(days))out[day]={vocab:{answers:d.vocab.answers,correct:d.vocab.correct,words:d.vocab.ids.size},colloc:{answers:d.colloc.answers,correct:d.colloc.correct,items:d.colloc.ids.size},article:{answers:d.article.answers,correct:d.article.correct,read:d.article.ids.size}};
+  for(const [day,d] of Object.entries(days))out[day]={vocab:{answers:d.vocab.answers,correct:d.vocab.correct,words:d.vocab.ids.size,genres:Object.fromEntries(Object.entries(d.vocab.genres).map(([k,x])=>[k,{answers:x.answers,correct:x.correct,words:x.ids.size}]))},colloc:{answers:d.colloc.answers,correct:d.colloc.correct,items:d.colloc.ids.size},article:{answers:d.article.answers,correct:d.article.correct,read:d.article.ids.size}};
   return out;
  }
- const api={activityByDay,KINDS,MILESTONE_HOURS,milestone,heatLevel,weekDays,weekSeries,compareWeek,heatmap,breakdown,DAY_MS,dayOf,dayStart,addDays,weekStart,splitByDay,aggregate,sumRange};
+ const api={targetTimes,activityByDay,KINDS,MILESTONE_HOURS,milestone,heatLevel,weekDays,weekSeries,compareWeek,heatmap,breakdown,DAY_MS,dayOf,dayStart,addDays,weekStart,splitByDay,aggregate,sumRange};
  if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.StudyStats=api;
 })(typeof window!=='undefined'?window:globalThis);

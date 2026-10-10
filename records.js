@@ -21,6 +21,13 @@
   return {vocabLogs:list(readJson('english-notes.quiz.answers.v1',[])),collocLogs:list(colloc),articleAnswers:Object.values(readJson('english-notes.article.answers.v1',{})||{}),reads:readJson('english-notes.article.read.v1',{})||{}};
  }
  let shown={agg:null,activity:{},today:''};
+ // Word-bank genre of a set / of a word, from the material catalog (names such as 基礎単語). Unknown ones fall under 'その他'.
+ const catalogSets=()=>{try{return window.MaterialCatalog?.sets?.()||[];}catch(error){return [];}};
+ const genreName=id=>{try{return (window.MaterialCatalog?.genres?.()||[]).find(g=>g.id===id)?.name||'その他';}catch(error){return 'その他';}};
+ const genreOfSet=target=>catalogSets().find(s=>s.id===target)?.genre||'';
+ function genreOfWordMap(){const map=new Map();for(const set of catalogSets())for(const item of set.items||[])map.set(item.id,set.genre);return id=>map.get(id)||'';}
+ // {genre: ms} from {setId: ms}
+ function timesByGenre(targets){const out={};for(const [t,ms] of Object.entries(targets||{})){const g=genreOfSet(t);out[g]=(out[g]||0)+ms;}return out;}
  const WEEKDAY=['日','月','火','水','木','金','土'];
  const dateLabel=day=>{const d=new Date(day+'T00:00:00Z');return `${d.getUTCMonth()+1}月${d.getUTCDate()}日（${WEEKDAY[d.getUTCDay()]}）`;};
  // 75 minutes -> "1時間 15分", 45 minutes -> "45分", under a minute -> "1分未満".
@@ -57,11 +64,17 @@
   return `<section class="rc-card" aria-labelledby="rc-week-title"><h2 id="rc-week-title" class="rc-title">今週の学習時間</h2><strong class="rc-weektotal">${esc(durationText(total))}</strong>
   <div class="rc-bars">${bars}</div><ul class="rc-keys">${present.map(k=>`<li><i class="rc-dot rc-k-${k}"></i>${KIND_LABEL[k]}</li>`).join('')}${series.some(d=>d.kinds.manual>0)?'':'<li><i class="rc-dot rc-k-manual"></i>アプリ外</li>'}</ul>${compare}</section>`;
  }
+ // Word-bank genres inside the vocabulary row of the breakdown (time only, for the chosen period).
+ function genreBreakdown(agg,today){
+  const times=timesByGenre(S().targetTimes(agg,'vocab',period,today)),list=Object.entries(times).filter(([,ms])=>ms>0).sort((a,b)=>b[1]-a[1]);
+  if(!list.length||list.length===1&&list[0][0]==='')return '';
+  return `<ul class="rc-break-sub">${list.map(([g,ms])=>`<li><span>${esc(genreName(g))}</span><span>${esc(durationText(ms))}</span></li>`).join('')}</ul>`;
+ }
  function breakdownHtml(agg,today){
   const b=S().breakdown(agg,period,today);
   const tabs=[['week','今週'],['month','今月'],['all','累計']].map(([v,l])=>`<button type="button" class="${period===v?'active':''}" onclick="recordsPeriod('${v}')" aria-pressed="${period===v}">${l}</button>`).join('');
   return `<section class="rc-card" aria-labelledby="rc-break-title"><h2 id="rc-break-title" class="rc-title">種類別の内訳</h2><div class="tabs rc-tabs" aria-label="表示する期間">${tabs}</div>
-  ${b.total?`<ul class="rc-break">${b.items.map(x=>`<li><span class="rc-break-name"><i class="rc-dot rc-k-${x.kind}"></i>${KIND_LABEL[x.kind]}</span><span class="rc-break-time">${esc(durationText(x.ms))}</span><span class="rc-break-pct">${x.percent}%</span><span class="rc-break-bar"><i class="rc-k-${x.kind}" style="width:${x.percent}%"></i></span></li>`).join('')}</ul>`:'<p class="rc-quiet">この期間の記録はまだありません</p>'}</section>`;
+  ${b.total?`<ul class="rc-break">${b.items.map(x=>`<li><span class="rc-break-name"><i class="rc-dot rc-k-${x.kind}"></i>${KIND_LABEL[x.kind]}</span><span class="rc-break-time">${esc(durationText(x.ms))}</span><span class="rc-break-pct">${x.percent}%</span><span class="rc-break-bar"><i class="rc-k-${x.kind}" style="width:${x.percent}%"></i></span>${x.kind==='vocab'?genreBreakdown(agg,today):''}</li>`).join('')}</ul>`:'<p class="rc-quiet">この期間の記録はまだありません</p>'}</section>`;
  }
  function manualHtml(list){
   const rows=list.filter(s=>s.method==='manual'&&!s.deletedAt).sort((a,b)=>String(b.studyDate).localeCompare(String(a.studyDate))||String(b.updatedAt).localeCompare(String(a.updatedAt)));
@@ -70,7 +83,7 @@
  }
  function records(){
   const list=segments(),agg=S().aggregate(list),today=todayKey();
-  shown={agg,activity:S().activityByDay(activityData()),today};
+  shown={agg,activity:S().activityByDay(activityData(),genreOfWordMap()),today};
   const head=`<div class="rc-head"><h1>学びの積み重ね</h1><button type="button" class="textbtn" onclick="openStudyForm()">＋ 学習時間を追加</button></div>`;
   if(!agg.total)return `<div class="rc">${head}<section class="rc-empty"><p>学習すると、ここに記録が積み上がります</p><button type="button" class="textbtn" onclick="go('home')">ホームへ</button></section></div>`;
   return `<div class="rc">${head}${heroHtml(agg)}${heatmapHtml(agg,today)}${weekHtml(agg,today)}${breakdownHtml(agg,today)}${manualHtml(list)}</div>`;
@@ -123,14 +136,16 @@
   const pct=(correct,answers)=>answers?`（正解率 ${Math.round(correct/answers*100)}%）`:'';
   const rows=[];
   const v=act.vocab,c=act.colloc,a=act.article;
-  if(kinds.vocab>0||v?.answers)rows.push(['単語',kinds.vocab,v?.answers?`回答 ${v.answers}問・正解 ${v.correct}問${pct(v.correct,v.answers)}・${v.words}語`:'']);
+  const genreRows=[];
+  {const times=timesByGenre(value?.targets?.vocab),acts=v?.genres||{};for(const g of new Set([...Object.keys(times),...Object.keys(acts)])){const x=acts[g];genreRows.push([genreName(g),times[g]||0,x?.answers?`回答 ${x.answers}問・正解 ${x.correct}問${pct(x.correct,x.answers)}・${x.words}語`:'']);}genreRows.sort((a,b)=>b[1]-a[1]);}
+  if(kinds.vocab>0||v?.answers)rows.push(['単語',kinds.vocab,v?.answers?`回答 ${v.answers}問・正解 ${v.correct}問${pct(v.correct,v.answers)}・${v.words}語`:'',genreRows.length>1||genreRows.length===1&&genreRows[0][0]!=='その他'?genreRows:[]]);
   if(kinds.colloc>0||c?.answers)rows.push(['組み合わせ',kinds.colloc,c?.answers?`回答 ${c.answers}問・正解 ${c.correct}問${pct(c.correct,c.answers)}・${c.items}件`:'']);
   if(kinds.article>0||a?.read||a?.answers)rows.push(['記事',kinds.article,[a?.read?`${a.read}本読了`:'',a?.answers?`理解問題 ${a.answers}問・正解 ${a.correct}問${pct(a.correct,a.answers)}`:''].filter(Boolean).join('・')]);
   if(kinds.listening>0)rows.push(['リスニング',kinds.listening,'']);
   if(kinds.manual>0)rows.push(['アプリ外',kinds.manual,'']);
   const head=`<strong class="rc-detail-day">${esc(dateLabel(day))}${value?.total?`　合計 ${esc(durationText(value.total))}`:''}</strong>`;
   if(!rows.length)return head+'<p class="rc-quiet">学習の記録なし</p>';
-  return head+`<ul class="rc-detail-list">${rows.map(([name,ms,text])=>`<li><span class="rc-detail-name">${name}</span>${ms>0?`<span class="rc-detail-time">${esc(durationText(ms))}</span>`:''}${text?`<span class="rc-detail-text">${esc(text)}</span>`:''}</li>`).join('')}</ul>`;
+  return head+`<ul class="rc-detail-list">${rows.map(([name,ms,text,sub])=>`<li><span class="rc-detail-name">${name}</span>${ms>0?`<span class="rc-detail-time">${esc(durationText(ms))}</span>`:''}${text?`<span class="rc-detail-text">${esc(text)}</span>`:''}${sub?.length?`<ul class="rc-detail-sub">${sub.map(([n,t,x])=>`<li><span class="rc-detail-name">${esc(n)}</span>${t>0?`<span class="rc-detail-time">${esc(durationText(t))}</span>`:''}${x?`<span class="rc-detail-text">${esc(x)}</span>`:''}</li>`).join('')}</ul>`:''}</li>`).join('')}</ul>`;
  }
  function recordsPick(day){const box=document.getElementById('rc-detail');if(box)box.innerHTML=detailHtml(day);}
  function recordsPeriod(value){period=value;render();}
