@@ -49,7 +49,7 @@
  if(typeof module!=='undefined'&&module.exports)module.exports=api;
  else{
   root.RouterCore=api;
-  const baseGo=root.go,router=install({window:root,getView:()=>view,getArticleId:()=>root.ArticleUI?.currentId?.()||null,baseGo:function(v){return baseGo.apply(this,arguments);},openArticle:id=>root.ArticleUI?.open(id),whenReady:()=>root.MaterialCatalog?.ready});
+  const baseGo=root.go,router=install({window:root,getView:()=>view,getArticleId:()=>root.ArticleUI?.currentId?.()||null,baseGo:function(v){const result=baseGo.apply(this,arguments);root.StudyTimer?.onView(v);return result;},openArticle:id=>root.ArticleUI?.open(id),whenReady:()=>root.MaterialCatalog?.ready});
   // Every screen change made through go() is also a history entry; restores call the unwrapped go() and never push.
   root.go=router.go;
   root.Router={restore:router.restore,sync:router.sync};
