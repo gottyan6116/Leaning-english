@@ -78,7 +78,7 @@
  function breakdown(agg,period,today){
   const from=period==='week'?weekStart(today):period==='month'?today.slice(0,8)+'01':'0000-01-01';
   const {total,kinds}=sumRange(agg,from,today);
-  const items=KINDS.map(kind=>({kind,ms:kinds[kind]})).filter(x=>x.ms>0||['vocab','colloc','article','manual'].includes(x.kind));
+  const items=KINDS.map(kind=>({kind,ms:kinds[kind]})).filter(x=>x.ms>0);
   const raw=items.map(x=>total?x.ms/total*100:0),floor=raw.map(Math.floor);let left=total?100-floor.reduce((a,b)=>a+b,0):0;
   raw.map((value,i)=>[value-floor[i],i]).sort((a,b)=>b[0]-a[0]||a[1]-b[1]).forEach(([,i])=>{if(left>0){floor[i]++;left--;}});
   return {total,items:items.map((x,i)=>({...x,percent:floor[i]}))};
