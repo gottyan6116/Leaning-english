@@ -13,6 +13,14 @@
  function segments(){try{const list=JSON.parse(store().getItem(KEY)||'[]');return Array.isArray(list)?list:[];}catch(error){return [];}}
  function writeSegments(list){store().setItem(KEY,JSON.stringify(list));}
  const todayKey=()=>S().dayOf(Date.now());
+ const readJson=(key,fallback)=>{try{const raw=store().getItem(key);return raw===null?fallback:JSON.parse(raw);}catch(error){return fallback;}};
+ // The answer records and article reads that sit next to the measured time (counts per day).
+ function activityData(){
+  let colloc=[];try{colloc=window.CollocationUI?.getStore?.()?.logs||[];}catch(error){colloc=readJson('english-notes.collocation.answers.v1',[]);}
+  const list=value=>Array.isArray(value)?value:[];
+  return {vocabLogs:list(readJson('english-notes.quiz.answers.v1',[])),collocLogs:list(colloc),articleAnswers:Object.values(readJson('english-notes.article.answers.v1',{})||{}),reads:readJson('english-notes.article.read.v1',{})||{}};
+ }
+ let shown={agg:null,activity:{},today:''};
  const WEEKDAY=['日','月','火','水','木','金','土'];
  const dateLabel=day=>{const d=new Date(day+'T00:00:00Z');return `${d.getUTCMonth()+1}月${d.getUTCDate()}日（${WEEKDAY[d.getUTCDay()]}）`;};
  // 75 minutes -> "1時間 15分", 45 minutes -> "45分", under a minute -> "1分未満".
@@ -31,10 +39,10 @@
  }
  function heatmapHtml(agg,today){
   const weeks=window.matchMedia&&window.matchMedia('(min-width:768px)').matches?17:12,columns=S().heatmap(agg,today,weeks);
-  const cells=columns.map(col=>`<div class="rc-week">${col.map(c=>c.future?'<span class="rc-cell rc-future" aria-hidden="true"></span>':`<button type="button" class="rc-cell rc-heat-${c.level}" onclick="recordsPick('${c.day}',${c.ms})" onmouseenter="recordsPick('${c.day}',${c.ms})" aria-label="${esc(dateLabel(c.day))} ${esc(durationText(c.ms))}"></button>`).join('')}</div>`).join('');
+  const cells=columns.map(col=>`<div class="rc-week">${col.map(c=>c.future?'<span class="rc-cell rc-future" aria-hidden="true"></span>':`<button type="button" class="rc-cell rc-heat-${c.level}" onclick="recordsPick('${c.day}')" onmouseenter="recordsPick('${c.day}')" aria-label="${esc(dateLabel(c.day))} ${esc(durationText(c.ms))}"></button>`).join('')}</div>`).join('');
   return `<section class="rc-card" aria-labelledby="rc-heat-title"><h2 id="rc-heat-title" class="rc-title">学習カレンダー</h2>
   <div class="rc-heat" role="group" aria-label="日ごとの学習時間（色が濃いほど長い）"><div class="rc-weekdays" aria-hidden="true"><span>月</span><span></span><span>水</span><span></span><span>金</span><span></span><span>日</span></div><div class="rc-weeks">${cells}</div></div>
-  <p class="rc-detail" id="rc-detail" role="status">日をタップすると、その日の学習時間が表示されます</p>
+  <div class="rc-detail" id="rc-detail" role="status">${detailHtml(today)}</div>
   <div class="rc-legend" aria-hidden="true"><span>少ない</span>${[0,1,2,3,4,5].map(n=>`<i class="rc-cell rc-heat-${n}"></i>`).join('')}<span>多い</span></div></section>`;
  }
  function weekHtml(agg,today){
@@ -62,6 +70,7 @@
  }
  function records(){
   const list=segments(),agg=S().aggregate(list),today=todayKey();
+  shown={agg,activity:S().activityByDay(activityData()),today};
   const head=`<div class="rc-head"><h1>学びの積み重ね</h1><button type="button" class="textbtn" onclick="openStudyForm()">＋ 学習時間を追加</button></div>`;
   if(!agg.total)return `<div class="rc">${head}<section class="rc-empty"><p>学習すると、ここに記録が積み上がります</p><button type="button" class="textbtn" onclick="go('home')">ホームへ</button></section></div>`;
   return `<div class="rc">${head}${heroHtml(agg)}${heatmapHtml(agg,today)}${weekHtml(agg,today)}${breakdownHtml(agg,today)}${manualHtml(list)}</div>`;
@@ -108,7 +117,22 @@
   if(!window.confirm('この記録を削除しますか？'))return;
   try{const now=new Date().toISOString();writeSegments(segments().map(s=>s.id===id&&s.method==='manual'?{...s,deletedAt:now,updatedAt:now}:s));render();toast('削除しました');}catch(error){toast('削除できませんでした。もう一度お試しください');}
  }
- function recordsPick(day,ms){const box=document.getElementById('rc-detail');if(box)box.textContent=`${dateLabel(day)}　${ms>0?durationText(ms):'学習の記録なし'}`;}
+ // One day in detail: time per kind, and what was done (answers, correct answers, words / items / articles).
+ function detailHtml(day){
+  const value=shown.agg?.days[day],kinds=value?.kinds||{},act=shown.activity[day]||{};
+  const pct=(correct,answers)=>answers?`（正解率 ${Math.round(correct/answers*100)}%）`:'';
+  const rows=[];
+  const v=act.vocab,c=act.colloc,a=act.article;
+  if(kinds.vocab>0||v?.answers)rows.push(['単語',kinds.vocab,v?.answers?`回答 ${v.answers}問・正解 ${v.correct}問${pct(v.correct,v.answers)}・${v.words}語`:'']);
+  if(kinds.colloc>0||c?.answers)rows.push(['組み合わせ',kinds.colloc,c?.answers?`回答 ${c.answers}問・正解 ${c.correct}問${pct(c.correct,c.answers)}・${c.items}件`:'']);
+  if(kinds.article>0||a?.read||a?.answers)rows.push(['記事',kinds.article,[a?.read?`${a.read}本読了`:'',a?.answers?`理解問題 ${a.answers}問・正解 ${a.correct}問${pct(a.correct,a.answers)}`:''].filter(Boolean).join('・')]);
+  if(kinds.listening>0)rows.push(['リスニング',kinds.listening,'']);
+  if(kinds.manual>0)rows.push(['アプリ外',kinds.manual,'']);
+  const head=`<strong class="rc-detail-day">${esc(dateLabel(day))}${value?.total?`　合計 ${esc(durationText(value.total))}`:''}</strong>`;
+  if(!rows.length)return head+'<p class="rc-quiet">学習の記録なし</p>';
+  return head+`<ul class="rc-detail-list">${rows.map(([name,ms,text])=>`<li><span class="rc-detail-name">${name}</span>${ms>0?`<span class="rc-detail-time">${esc(durationText(ms))}</span>`:''}${text?`<span class="rc-detail-text">${esc(text)}</span>`:''}</li>`).join('')}</ul>`;
+ }
+ function recordsPick(day){const box=document.getElementById('rc-detail');if(box)box.innerHTML=detailHtml(day);}
  function recordsPeriod(value){period=value;render();}
  Object.assign(window,{records,openStudyForm,deleteStudyRecord,recordsPick,recordsPeriod});
  // The heat map shows 17 weeks on a wide screen and 12 on a narrow one.

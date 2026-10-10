@@ -65,3 +65,9 @@ button.rc-cell{cursor:pointer}
 .rc-error{margin:0;color:var(--color-wrong-text)}
 .rc-actions{display:flex;justify-content:flex-end;align-items:center;gap:12px}
 @media(min-width:768px){.rc-overlay{align-items:center}.rc-sheet{border-radius:var(--radius-surface)}}
+.rc-detail-day{display:block;margin-bottom:6px}
+.rc-detail-list{display:grid;gap:6px;margin:0;padding:0;list-style:none}
+.rc-detail-list li{display:flex;flex-wrap:wrap;gap:2px 12px;align-items:baseline}
+.rc-detail-name{font-weight:var(--font-weight-bold);min-width:5.5em}
+.rc-detail-time{font-weight:var(--font-weight-bold)}
+.rc-detail-text{color:var(--color-text-sub);font-size:var(--font-size-caption)}

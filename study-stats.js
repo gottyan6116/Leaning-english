@@ -83,6 +83,21 @@
   raw.map((value,i)=>[value-floor[i],i]).sort((a,b)=>b[0]-a[0]||a[1]-b[1]).forEach(([,i])=>{if(left>0){floor[i]++;left--;}});
   return {total,items:items.map((x,i)=>({...x,percent:floor[i]}))};
  }
- const api={KINDS,MILESTONE_HOURS,milestone,heatLevel,weekDays,weekSeries,compareWeek,heatmap,breakdown,DAY_MS,dayOf,dayStart,addDays,weekStart,splitByDay,aggregate,sumRange};
+ // What was done on each day, from the answer records and article reads: answers, correct answers and distinct words/items/articles.
+ // data: {vocabLogs, collocLogs, articleAnswers, reads}. A skipped or timed-out answer counts as an answer, not as correct.
+ function activityByDay(data){
+  const days={};
+  const slot=(day,kind)=>{const d=days[day]||(days[day]={vocab:{answers:0,correct:0,ids:new Set()},colloc:{answers:0,correct:0,ids:new Set()},article:{answers:0,correct:0,ids:new Set()}});return d[kind];};
+  const time=value=>{const ts=Date.parse(value||'');return Number.isFinite(ts)?ts:null;};
+  const answer=(list,kind,idOf)=>{for(const e of list||[]){const ts=time(e.answeredAt);if(ts===null)continue;const s=slot(dayOf(ts),kind);s.answers++;if(e.correct===true&&!e.skipped)s.correct++;const id=idOf(e);if(id)s.ids.add(id);}};
+  answer(data.vocabLogs,'vocab',e=>e.wordId);
+  answer(data.collocLogs,'colloc',e=>e.collocationId);
+  answer(data.articleAnswers,'article',()=>null);
+  for(const [articleId,read] of Object.entries(data.reads||{})){const ts=time(read?.completedAt);if(ts!==null)slot(dayOf(ts),'article').ids.add(articleId);}
+  const out={};
+  for(const [day,d] of Object.entries(days))out[day]={vocab:{answers:d.vocab.answers,correct:d.vocab.correct,words:d.vocab.ids.size},colloc:{answers:d.colloc.answers,correct:d.colloc.correct,items:d.colloc.ids.size},article:{answers:d.article.answers,correct:d.article.correct,read:d.article.ids.size}};
+  return out;
+ }
+ const api={activityByDay,KINDS,MILESTONE_HOURS,milestone,heatLevel,weekDays,weekSeries,compareWeek,heatmap,breakdown,DAY_MS,dayOf,dayStart,addDays,weekStart,splitByDay,aggregate,sumRange};
  if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.StudyStats=api;
 })(typeof window!=='undefined'?window:globalThis);

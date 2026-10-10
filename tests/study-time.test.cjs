@@ -120,3 +120,17 @@ test('invalid or empty input never breaks the totals',()=>{
  assert.equal(S.aggregate([]).total,0);assert.equal(S.aggregate(null).total,0);
  assert.equal(S.aggregate([{id:'x',kind:'vocab',method:'auto',startedAt:'bad',endedAt:'bad'},{id:'y',kind:'manual',method:'auto',startedAt:iso(T0),endedAt:iso(T0+MIN)}]).total,0);
 });
+
+test('per-day activity: answers, correct answers and distinct words/items/articles, in Japan time',()=>{
+ const a=S.activityByDay({
+  vocabLogs:[{answeredAt:'2026-10-10T01:00:00Z',wordId:'w1',correct:true},{answeredAt:'2026-10-10T01:01:00Z',wordId:'w1',correct:false},{answeredAt:'2026-10-10T01:02:00Z',wordId:'w2',correct:true,skipped:true},{answeredAt:'2026-10-10T15:30:00Z',wordId:'w3',correct:true}],
+  collocLogs:[{answeredAt:'2026-10-10T02:00:00Z',collocationId:'c1',correct:true}],
+  articleAnswers:[{answeredAt:'2026-10-10T03:00:00Z',correct:true},{answeredAt:'2026-10-10T03:01:00Z',correct:false}],
+  reads:{a1:{completedAt:'2026-10-10T04:00:00Z'},a2:{completedAt:'2026-10-09T04:00:00Z'},a3:{}}
+ });
+ assert.deepEqual(a['2026-10-10'].vocab,{answers:3,correct:1,words:2},'a skipped answer is an answer but not correct; 15:30Z is already the next day in Japan');
+ assert.deepEqual(a['2026-10-11'].vocab,{answers:1,correct:1,words:1});
+ assert.deepEqual(a['2026-10-10'].colloc,{answers:1,correct:1,items:1});
+ assert.deepEqual(a['2026-10-10'].article,{answers:2,correct:1,read:1});assert.equal(a['2026-10-09'].article.read,1);
+ assert.deepEqual(S.activityByDay({}),{});
+});
