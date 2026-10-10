@@ -1,0 +1,1843 @@
+{
+  "id": "expression-questions",
+  "version": 1,
+  "kind": "expression-questions",
+  "items": [
+    {
+      "id": "expr-opinion-inclined-q1",
+      "expressionId": "expr-opinion-inclined",
+      "format": "scene",
+      "promptJa": "上司も出席する会議で、他の人の案への反論の余地を残しつつ、自分は別案の方向がよいと控えめに伝えたい。",
+      "choices": [
+        {
+          "id": "expr-opinion-inclined-q1-c1",
+          "text": "I'm inclined to think…",
+          "expressionId": "expr-opinion-inclined"
+        },
+        {
+          "id": "expr-opinion-inclined-q1-c2",
+          "text": "I firmly believe…",
+          "expressionId": "expr-opinion-firmly"
+        },
+        {
+          "id": "expr-opinion-inclined-q1-c3",
+          "text": "If you ask me, …",
+          "expressionId": "expr-opinion-askme"
+        },
+        {
+          "id": "expr-opinion-inclined-q1-c4",
+          "text": "I feel like…",
+          "expressionId": "expr-opinion-feel"
+        }
+      ],
+      "answerId": "expr-opinion-inclined-q1-c1",
+      "reasonJa": "「控えめに」「反論の余地を残す」「会議」という条件に合うのは、考えの方向だけを示す I'm inclined to think… です。",
+      "whyNotJa": {
+        "expr-opinion-inclined-q1-c2": "断定が強く、控えめに伝えるという条件に合いません。",
+        "expr-opinion-inclined-q1-c3": "くだけた雑談調で、上司のいる会議には砕けすぎです。",
+        "expr-opinion-inclined-q1-c4": "軽い感覚の表現で、会議で別案を示すには根拠が弱く聞こえます。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-feel-q1",
+      "expressionId": "expr-opinion-feel",
+      "format": "scene",
+      "promptJa": "大学の友人との昼食中、週末に観る映画の候補について、なんとなくこっちがいいかな、という軽さで意見を言いたい。",
+      "choices": [
+        {
+          "id": "expr-opinion-feel-q1-c1",
+          "text": "In my opinion, …",
+          "expressionId": "expr-opinion-inmyop"
+        },
+        {
+          "id": "expr-opinion-feel-q1-c2",
+          "text": "I feel like…",
+          "expressionId": "expr-opinion-feel"
+        },
+        {
+          "id": "expr-opinion-feel-q1-c3",
+          "text": "I'd argue that…",
+          "expressionId": "expr-opinion-argue"
+        },
+        {
+          "id": "expr-opinion-feel-q1-c4",
+          "text": "I firmly believe…",
+          "expressionId": "expr-opinion-firmly"
+        }
+      ],
+      "answerId": "expr-opinion-feel-q1-c2",
+      "reasonJa": "「なんとなく」「軽さ」「友人との昼食」に合うのは、感覚を出す I feel like… です。",
+      "whyNotJa": {
+        "expr-opinion-feel-q1-c1": "改まった前置きで、友人との軽い会話では堅すぎます。",
+        "expr-opinion-feel-q1-c3": "議論で主張を押し出す言い方で、映画選びには重すぎます。",
+        "expr-opinion-feel-q1-c4": "強い確信を示す言い方で、「なんとなく」という軽さと合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-argue-q1",
+      "expressionId": "expr-opinion-argue",
+      "format": "scene",
+      "promptJa": "社内の討論会で、反対意見が出ている中、根拠を示して自分の主張を押し出したい。相手は同僚で、場は改まっている。",
+      "choices": [
+        {
+          "id": "expr-opinion-argue-q1-c1",
+          "text": "I feel like…",
+          "expressionId": "expr-opinion-feel"
+        },
+        {
+          "id": "expr-opinion-argue-q1-c2",
+          "text": "If you ask me, …",
+          "expressionId": "expr-opinion-askme"
+        },
+        {
+          "id": "expr-opinion-argue-q1-c3",
+          "text": "I'd argue that…",
+          "expressionId": "expr-opinion-argue"
+        },
+        {
+          "id": "expr-opinion-argue-q1-c4",
+          "text": "As far as I can see, …",
+          "expressionId": "expr-opinion-asfar"
+        }
+      ],
+      "answerId": "expr-opinion-argue-q1-c3",
+      "reasonJa": "「根拠を示して」「主張を押し出す」「討論」に合うのは、論理的な主張の前置きになる I'd argue that… です。",
+      "whyNotJa": {
+        "expr-opinion-argue-q1-c1": "感覚で言う軽い表現で、根拠を示して主張する場面に弱すぎます。",
+        "expr-opinion-argue-q1-c2": "聞かれて答える雑談調で、討論会の主張には砕けすぎです。",
+        "expr-opinion-argue-q1-c4": "範囲を限って控えめに言う表現で、主張を押し出すという条件に反します。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-asfar-q1",
+      "expressionId": "expr-opinion-asfar",
+      "format": "scene",
+      "promptJa": "データがまだ一部しか集まっていない段階の定例会議で、断言は避けつつ、今の見立てを同僚に伝えたい。",
+      "choices": [
+        {
+          "id": "expr-opinion-asfar-q1-c1",
+          "text": "I firmly believe…",
+          "expressionId": "expr-opinion-firmly"
+        },
+        {
+          "id": "expr-opinion-asfar-q1-c2",
+          "text": "I'd argue that…",
+          "expressionId": "expr-opinion-argue"
+        },
+        {
+          "id": "expr-opinion-asfar-q1-c3",
+          "text": "If you ask me, …",
+          "expressionId": "expr-opinion-askme"
+        },
+        {
+          "id": "expr-opinion-asfar-q1-c4",
+          "text": "As far as I can see, …",
+          "expressionId": "expr-opinion-asfar"
+        }
+      ],
+      "answerId": "expr-opinion-asfar-q1-c4",
+      "reasonJa": "「データが一部」「断言は避ける」「今の見立て」に合うのは、見える範囲に限定する As far as I can see, … です。",
+      "whyNotJa": {
+        "expr-opinion-asfar-q1-c1": "強い確信を示す言い方で、情報が足りない段階には合いません。",
+        "expr-opinion-asfar-q1-c2": "主張を押し出す言い方で、断言を避けるという条件に反します。",
+        "expr-opinion-asfar-q1-c3": "聞かれて答える雑談調で、会議での現状報告には砕けすぎです。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-think-q1",
+      "expressionId": "expr-opinion-think",
+      "format": "scene",
+      "promptJa": "会議のあと、同僚に「このデザインどう思う？」とチャットで聞かれた。強さも丁寧さも特に付けず、短く意見を返したい。",
+      "choices": [
+        {
+          "id": "expr-opinion-think-q1-c1",
+          "text": "I think…",
+          "expressionId": "expr-opinion-think"
+        },
+        {
+          "id": "expr-opinion-think-q1-c2",
+          "text": "I'm inclined to think…",
+          "expressionId": "expr-opinion-inclined"
+        },
+        {
+          "id": "expr-opinion-think-q1-c3",
+          "text": "In my opinion, …",
+          "expressionId": "expr-opinion-inmyop"
+        },
+        {
+          "id": "expr-opinion-think-q1-c4",
+          "text": "I firmly believe…",
+          "expressionId": "expr-opinion-firmly"
+        }
+      ],
+      "answerId": "expr-opinion-think-q1-c1",
+      "reasonJa": "「特に付けず」「短く」に合うのは、意見であることを示すだけの基本形 I think… です。",
+      "whyNotJa": {
+        "expr-opinion-think-q1-c2": "控えめで遠回しな言い方で、短く返すという条件に合いません。",
+        "expr-opinion-think-q1-c3": "改まって意見を区切る言い方で、チャットの返事には堅すぎます。",
+        "expr-opinion-think-q1-c4": "強い確信を示す言い方で、「特に強さを付けない」という条件に反します。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-inmyop-q1",
+      "expressionId": "expr-opinion-inmyop",
+      "format": "scene",
+      "promptJa": "地域の公開討論会のスピーチで、聴衆に「ここからは私個人の意見です」と、中立の強さで改まって区切りたい。",
+      "choices": [
+        {
+          "id": "expr-opinion-inmyop-q1-c1",
+          "text": "I feel like…",
+          "expressionId": "expr-opinion-feel"
+        },
+        {
+          "id": "expr-opinion-inmyop-q1-c2",
+          "text": "In my opinion, …",
+          "expressionId": "expr-opinion-inmyop"
+        },
+        {
+          "id": "expr-opinion-inmyop-q1-c3",
+          "text": "I firmly believe…",
+          "expressionId": "expr-opinion-firmly"
+        },
+        {
+          "id": "expr-opinion-inmyop-q1-c4",
+          "text": "I'm inclined to think…",
+          "expressionId": "expr-opinion-inclined"
+        }
+      ],
+      "answerId": "expr-opinion-inmyop-q1-c2",
+      "reasonJa": "「個人の意見であることを区切る」「中立の強さ」「改まった場」に合うのは、In my opinion, … です。",
+      "whyNotJa": {
+        "expr-opinion-inmyop-q1-c1": "くだけた感覚表現で、公の場のスピーチには合いません。",
+        "expr-opinion-inmyop-q1-c3": "強い確信を示す言い方で、「中立の強さ」という条件に反します。",
+        "expr-opinion-inmyop-q1-c4": "控えめに考えの方向だけを示す言い方で、「区切る」という条件と合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-askme-q1",
+      "expressionId": "expr-opinion-askme",
+      "format": "tone",
+      "promptJa": "上司への正式な報告メールの冒頭で、場違いに聞こえるものはどれ？",
+      "choices": [
+        {
+          "id": "expr-opinion-askme-q1-c1",
+          "text": "In my opinion, …",
+          "expressionId": "expr-opinion-inmyop"
+        },
+        {
+          "id": "expr-opinion-askme-q1-c2",
+          "text": "I'm inclined to think…",
+          "expressionId": "expr-opinion-inclined"
+        },
+        {
+          "id": "expr-opinion-askme-q1-c3",
+          "text": "If you ask me, …",
+          "expressionId": "expr-opinion-askme"
+        },
+        {
+          "id": "expr-opinion-askme-q1-c4",
+          "text": "As far as I can see, …",
+          "expressionId": "expr-opinion-asfar"
+        }
+      ],
+      "answerId": "expr-opinion-askme-q1-c3",
+      "reasonJa": "If you ask me, … は聞かれた立場で答える雑談調で、聞かれていない正式な報告には砕けすぎ、唐突に響きます。",
+      "whyNotJa": {
+        "expr-opinion-askme-q1-c1": "改まった前置きで、正式な報告に合います。",
+        "expr-opinion-askme-q1-c2": "控えめで丁寧な言い方で、上司への報告に使えます。",
+        "expr-opinion-askme-q1-c4": "見える範囲に限る言い方で、状況の報告として自然です。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-firmly-q1",
+      "expressionId": "expr-opinion-firmly",
+      "format": "tone",
+      "promptJa": "友人との気軽な雑談で、今夜の夕食の希望を言う場面。場違いに聞こえるものはどれ？",
+      "choices": [
+        {
+          "id": "expr-opinion-firmly-q1-c1",
+          "text": "I feel like…",
+          "expressionId": "expr-opinion-feel"
+        },
+        {
+          "id": "expr-opinion-firmly-q1-c2",
+          "text": "If you ask me, …",
+          "expressionId": "expr-opinion-askme"
+        },
+        {
+          "id": "expr-opinion-firmly-q1-c3",
+          "text": "I think…",
+          "expressionId": "expr-opinion-think"
+        },
+        {
+          "id": "expr-opinion-firmly-q1-c4",
+          "text": "I firmly believe…",
+          "expressionId": "expr-opinion-firmly"
+        }
+      ],
+      "answerId": "expr-opinion-firmly-q1-c4",
+      "reasonJa": "I firmly believe… は強い確信を示す言い方なので、夕食の希望のような軽い話題では大げさで場違いです。",
+      "whyNotJa": {
+        "expr-opinion-firmly-q1-c1": "軽い感覚を出す言い方で、雑談に合います。",
+        "expr-opinion-firmly-q1-c2": "聞かれて答える雑談調で、自然です。",
+        "expr-opinion-firmly-q1-c3": "基本形で、軽い話題でも違和感がありません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-feel-q2",
+      "expressionId": "expr-opinion-feel",
+      "format": "tone",
+      "promptJa": "取締役会で、自分の案を説明する場面。場違いに聞こえるものはどれ？",
+      "choices": [
+        {
+          "id": "expr-opinion-feel-q2-c1",
+          "text": "I feel like…",
+          "expressionId": "expr-opinion-feel"
+        },
+        {
+          "id": "expr-opinion-feel-q2-c2",
+          "text": "I'd argue that…",
+          "expressionId": "expr-opinion-argue"
+        },
+        {
+          "id": "expr-opinion-feel-q2-c3",
+          "text": "In my opinion, …",
+          "expressionId": "expr-opinion-inmyop"
+        },
+        {
+          "id": "expr-opinion-feel-q2-c4",
+          "text": "I'm inclined to think…",
+          "expressionId": "expr-opinion-inclined"
+        }
+      ],
+      "answerId": "expr-opinion-feel-q2-c1",
+      "reasonJa": "I feel like… は感覚を出す軽い言い方なので、取締役会で案を説明する場面では根拠が弱く、場違いです。",
+      "whyNotJa": {
+        "expr-opinion-feel-q2-c2": "根拠を示して主張する言い方で、説明の場に合います。",
+        "expr-opinion-feel-q2-c3": "意見を改まって区切る言い方で、役員会に合います。",
+        "expr-opinion-feel-q2-c4": "控えめに考えの方向を示す丁寧な言い方で、使えます。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-feel-q3",
+      "expressionId": "expr-opinion-feel",
+      "format": "dialogue",
+      "promptJa": "【場面】友人と昼食のカフェを決めている。\nA: \"Which café should we try today?\"\nB: \"____ the new one by the station looks nicer.\"\nA: \"Okay, let's go there.\"",
+      "choices": [
+        {
+          "id": "expr-opinion-feel-q3-c1",
+          "text": "I firmly believe…",
+          "expressionId": "expr-opinion-firmly"
+        },
+        {
+          "id": "expr-opinion-feel-q3-c2",
+          "text": "I feel like…",
+          "expressionId": "expr-opinion-feel"
+        },
+        {
+          "id": "expr-opinion-feel-q3-c3",
+          "text": "In my opinion, …",
+          "expressionId": "expr-opinion-inmyop"
+        },
+        {
+          "id": "expr-opinion-feel-q3-c4",
+          "text": "I'd argue that…",
+          "expressionId": "expr-opinion-argue"
+        }
+      ],
+      "answerId": "expr-opinion-feel-q3-c2",
+      "reasonJa": "友人との軽い会話で「なんとなく」の希望を言うので、I feel like… が自然です。",
+      "whyNotJa": {
+        "expr-opinion-feel-q3-c1": "強い確信を示す言い方で、カフェ選びには重すぎます。",
+        "expr-opinion-feel-q3-c3": "改まって意見を区切る言い方で、昼食の相談には堅すぎます。",
+        "expr-opinion-feel-q3-c4": "討論で主張を押し出す言い方で、軽い相談には合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-asfar-q2",
+      "expressionId": "expr-opinion-asfar",
+      "format": "dialogue",
+      "promptJa": "【場面】結果がまだ一部しか出ていない定例会議。断言は避けたい。\nA: \"Will the project finish on time?\"\nB: \"____ the schedule is fine, but I haven't seen the test results yet.\"\nA: \"Then let's check again next week.\"",
+      "choices": [
+        {
+          "id": "expr-opinion-asfar-q2-c1",
+          "text": "I firmly believe…",
+          "expressionId": "expr-opinion-firmly"
+        },
+        {
+          "id": "expr-opinion-asfar-q2-c2",
+          "text": "In my opinion, …",
+          "expressionId": "expr-opinion-inmyop"
+        },
+        {
+          "id": "expr-opinion-asfar-q2-c3",
+          "text": "As far as I can see, …",
+          "expressionId": "expr-opinion-asfar"
+        },
+        {
+          "id": "expr-opinion-asfar-q2-c4",
+          "text": "I'd argue that…",
+          "expressionId": "expr-opinion-argue"
+        }
+      ],
+      "answerId": "expr-opinion-asfar-q2-c3",
+      "reasonJa": "「テスト結果をまだ見ていない」と続くので、見える範囲に限る As far as I can see, … が合います。",
+      "whyNotJa": {
+        "expr-opinion-asfar-q2-c1": "強い確信を示す言い方で、「結果をまだ見ていない」という続きと矛盾します。",
+        "expr-opinion-asfar-q2-c2": "範囲を限定せず意見を区切る言い方で、「まだ見ていない」という限定が表れません。",
+        "expr-opinion-asfar-q2-c4": "主張を押し出す言い方で、断言を避けるという場面に反します。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-argue-q2",
+      "expressionId": "expr-opinion-argue",
+      "format": "dialogue",
+      "promptJa": "【場面】公開討論会。反論に対して、根拠を示して主張を押し出す。\nA: \"Some people say remote work lowers quality.\"\nB: \"____ it improves quality, because people can focus longer without interruptions.\"\nA: \"That is a strong claim. Can you back it up?\"",
+      "choices": [
+        {
+          "id": "expr-opinion-argue-q2-c1",
+          "text": "I feel like…",
+          "expressionId": "expr-opinion-feel"
+        },
+        {
+          "id": "expr-opinion-argue-q2-c2",
+          "text": "If you ask me, …",
+          "expressionId": "expr-opinion-askme"
+        },
+        {
+          "id": "expr-opinion-argue-q2-c3",
+          "text": "I'm inclined to think…",
+          "expressionId": "expr-opinion-inclined"
+        },
+        {
+          "id": "expr-opinion-argue-q2-c4",
+          "text": "I'd argue that…",
+          "expressionId": "expr-opinion-argue"
+        }
+      ],
+      "answerId": "expr-opinion-argue-q2-c4",
+      "reasonJa": "「根拠を示して主張を押し出す」という場面と、続く because に合うのは I'd argue that… です。",
+      "whyNotJa": {
+        "expr-opinion-argue-q2-c1": "感覚を出す軽い言い方で、討論の主張に弱すぎます。",
+        "expr-opinion-argue-q2-c2": "聞かれて答える雑談調で、討論の主張には砕けすぎです。",
+        "expr-opinion-argue-q2-c3": "控えめに方向だけを示す言い方で、「主張を押し出す」という場面に合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-inmyop-q2",
+      "expressionId": "expr-opinion-inmyop",
+      "format": "dialogue",
+      "promptJa": "【場面】地域の説明会。中立の強さで、改まって個人の意見だと区切って話す。\nA: \"Could you share your view on the new bus route?\"\nB: \"____ the new bus route will help older residents.\"\nA: \"Thank you. Does anyone else agree?\"",
+      "choices": [
+        {
+          "id": "expr-opinion-inmyop-q2-c1",
+          "text": "In my opinion, …",
+          "expressionId": "expr-opinion-inmyop"
+        },
+        {
+          "id": "expr-opinion-inmyop-q2-c2",
+          "text": "I feel like…",
+          "expressionId": "expr-opinion-feel"
+        },
+        {
+          "id": "expr-opinion-inmyop-q2-c3",
+          "text": "I firmly believe…",
+          "expressionId": "expr-opinion-firmly"
+        },
+        {
+          "id": "expr-opinion-inmyop-q2-c4",
+          "text": "I'm inclined to think…",
+          "expressionId": "expr-opinion-inclined"
+        }
+      ],
+      "answerId": "expr-opinion-inmyop-q2-c1",
+      "reasonJa": "「改まって」「中立の強さ」「個人の意見だと区切る」に合うのは In my opinion, … です。",
+      "whyNotJa": {
+        "expr-opinion-inmyop-q2-c2": "くだけた感覚表現で、説明会には合いません。",
+        "expr-opinion-inmyop-q2-c3": "強い確信を示す言い方で、「中立の強さ」に反します。",
+        "expr-opinion-inmyop-q2-c4": "控えめに方向だけを示す言い方で、「ためらわず区切る」という場面に合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-think-q2",
+      "expressionId": "expr-opinion-think",
+      "format": "order",
+      "promptJa": "次の4つの表現を、カジュアルなものから丁寧なものの順に並べてください。",
+      "choices": [
+        {
+          "id": "expr-opinion-think-q2-c1",
+          "text": "I think…",
+          "expressionId": "expr-opinion-think"
+        },
+        {
+          "id": "expr-opinion-think-q2-c2",
+          "text": "I'm inclined to think…",
+          "expressionId": "expr-opinion-inclined"
+        },
+        {
+          "id": "expr-opinion-think-q2-c3",
+          "text": "I feel like…",
+          "expressionId": "expr-opinion-feel"
+        },
+        {
+          "id": "expr-opinion-think-q2-c4",
+          "text": "If you ask me, …",
+          "expressionId": "expr-opinion-askme"
+        }
+      ],
+      "correctOrder": [
+        "expr-opinion-think-q2-c3",
+        "expr-opinion-think-q2-c4",
+        "expr-opinion-think-q2-c1",
+        "expr-opinion-think-q2-c2"
+      ],
+      "reasonJa": "丁寧さは、カジュアル（左）から丁寧（右）の順に、I feel like… → If you ask me, … → I think… → I'm inclined to think… です。",
+      "notesJa": {
+        "expr-opinion-think-q2-c3": "最もくだけた、感覚を出す言い方です。",
+        "expr-opinion-think-q2-c4": "聞かれて答える雑談調で、カジュアルです。",
+        "expr-opinion-think-q2-c1": "強さも丁寧さも付かない基本形で、中間です。",
+        "expr-opinion-think-q2-c2": "控えめで改まった言い方で、最も丁寧です。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-argue-q3",
+      "expressionId": "expr-opinion-argue",
+      "format": "order",
+      "promptJa": "次の4つの表現を、カジュアルなものから丁寧なものの順に並べてください。",
+      "choices": [
+        {
+          "id": "expr-opinion-argue-q3-c1",
+          "text": "I'm inclined to think…",
+          "expressionId": "expr-opinion-inclined"
+        },
+        {
+          "id": "expr-opinion-argue-q3-c2",
+          "text": "If you ask me, …",
+          "expressionId": "expr-opinion-askme"
+        },
+        {
+          "id": "expr-opinion-argue-q3-c3",
+          "text": "As far as I can see, …",
+          "expressionId": "expr-opinion-asfar"
+        },
+        {
+          "id": "expr-opinion-argue-q3-c4",
+          "text": "I'd argue that…",
+          "expressionId": "expr-opinion-argue"
+        }
+      ],
+      "correctOrder": [
+        "expr-opinion-argue-q3-c2",
+        "expr-opinion-argue-q3-c3",
+        "expr-opinion-argue-q3-c4",
+        "expr-opinion-argue-q3-c1"
+      ],
+      "reasonJa": "丁寧さは、カジュアル（左）から丁寧（右）の順に、If you ask me, … → As far as I can see, … → I'd argue that… → I'm inclined to think… です。",
+      "notesJa": {
+        "expr-opinion-argue-q3-c2": "聞かれて答える雑談調で、最もカジュアルです。",
+        "expr-opinion-argue-q3-c3": "中立の丁寧さで、日常にも仕事にも使えます。",
+        "expr-opinion-argue-q3-c4": "議論向きの改まった前置きで、丁寧です。",
+        "expr-opinion-argue-q3-c1": "控えめで改まった言い方で、最も丁寧です。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-afraid-q1",
+      "expressionId": "expr-disagree-afraid",
+      "format": "scene",
+      "promptJa": "取引先との契約交渉の場で、相手の条件に、丁寧な言葉で、しかしはっきりと反対したい。",
+      "choices": [
+        {
+          "id": "expr-disagree-afraid-q1-c1",
+          "text": "I'm afraid I disagree.",
+          "expressionId": "expr-disagree-afraid"
+        },
+        {
+          "id": "expr-disagree-afraid-q1-c2",
+          "text": "I'm not so sure about that.",
+          "expressionId": "expr-disagree-notsure"
+        },
+        {
+          "id": "expr-disagree-afraid-q1-c3",
+          "text": "No way.",
+          "expressionId": "expr-disagree-noway"
+        },
+        {
+          "id": "expr-disagree-afraid-q1-c4",
+          "text": "That's not how I see it.",
+          "expressionId": "expr-disagree-notsee"
+        }
+      ],
+      "answerId": "expr-disagree-afraid-q1-c1",
+      "reasonJa": "「丁寧」「はっきり」「取引先」に合うのは、クッション付きで明確に反対する I'm afraid I disagree. です。",
+      "whyNotJa": {
+        "expr-disagree-afraid-q1-c2": "確信がない形の穏やかな疑いで、「はっきり」という条件に合いません。",
+        "expr-disagree-afraid-q1-c3": "くだけた強い否定で、取引先には失礼です。",
+        "expr-disagree-afraid-q1-c4": "くだけた言い方で、取引先との交渉には合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-notsure-q1",
+      "expressionId": "expr-disagree-notsure",
+      "format": "scene",
+      "promptJa": "同僚の提案について、まだ確信はないが疑問があることを、角を立てずに穏やかに伝えたい。一対一の会話。",
+      "choices": [
+        {
+          "id": "expr-disagree-notsure-q1-c1",
+          "text": "I have to disagree.",
+          "expressionId": "expr-disagree-haveto"
+        },
+        {
+          "id": "expr-disagree-notsure-q1-c2",
+          "text": "I'm not so sure about that.",
+          "expressionId": "expr-disagree-notsure"
+        },
+        {
+          "id": "expr-disagree-notsure-q1-c3",
+          "text": "With all due respect, I disagree.",
+          "expressionId": "expr-disagree-respect"
+        },
+        {
+          "id": "expr-disagree-notsure-q1-c4",
+          "text": "No way.",
+          "expressionId": "expr-disagree-noway"
+        }
+      ],
+      "answerId": "expr-disagree-notsure-q1-c2",
+      "reasonJa": "「確信はない」「穏やかに」に合うのは、確信がない形で疑問を示す I'm not so sure about that. です。",
+      "whyNotJa": {
+        "expr-disagree-notsure-q1-c1": "義務感のある強い反対で、「穏やかに」に合いません。",
+        "expr-disagree-notsure-q1-c3": "敬意を前置きして強く反対する形式的な言い方で、一対一の軽い疑問には大げさです。",
+        "expr-disagree-notsure-q1-c4": "くだけた強い否定で、穏やかに伝えるという条件に反します。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-point-q1",
+      "expressionId": "expr-disagree-point",
+      "format": "scene",
+      "promptJa": "会議で、相手の指摘に一理あると認めたうえで、自分の別の考えを述べたい。相手の顔を立てたい。",
+      "choices": [
+        {
+          "id": "expr-disagree-point-q1-c1",
+          "text": "I don't think so.",
+          "expressionId": "expr-disagree-dont"
+        },
+        {
+          "id": "expr-disagree-point-q1-c2",
+          "text": "I have to disagree.",
+          "expressionId": "expr-disagree-haveto"
+        },
+        {
+          "id": "expr-disagree-point-q1-c3",
+          "text": "I see your point, but…",
+          "expressionId": "expr-disagree-point"
+        },
+        {
+          "id": "expr-disagree-point-q1-c4",
+          "text": "No way.",
+          "expressionId": "expr-disagree-noway"
+        }
+      ],
+      "answerId": "expr-disagree-point-q1-c3",
+      "reasonJa": "「一理あると認める」「相手の顔を立てる」に合うのは、認めてから but でつなぐ I see your point, but… です。",
+      "whyNotJa": {
+        "expr-disagree-point-q1-c1": "認める前置きがなく、そっけなく聞こえます。",
+        "expr-disagree-point-q1-c2": "義務感のある強い反対で、相手の顔を立てる条件に合いません。",
+        "expr-disagree-point-q1-c4": "くだけた強い否定で、会議には失礼です。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-noway-q1",
+      "expressionId": "expr-disagree-noway",
+      "format": "scene",
+      "promptJa": "友達が「明日は雨だから傘はいらないよね？」と冗談で言ったのに対し、笑いながら「ありえない」と返したい。",
+      "choices": [
+        {
+          "id": "expr-disagree-noway-q1-c1",
+          "text": "I'm afraid I disagree.",
+          "expressionId": "expr-disagree-afraid"
+        },
+        {
+          "id": "expr-disagree-noway-q1-c2",
+          "text": "With all due respect, I disagree.",
+          "expressionId": "expr-disagree-respect"
+        },
+        {
+          "id": "expr-disagree-noway-q1-c3",
+          "text": "I see it differently.",
+          "expressionId": "expr-disagree-differently"
+        },
+        {
+          "id": "expr-disagree-noway-q1-c4",
+          "text": "No way.",
+          "expressionId": "expr-disagree-noway"
+        }
+      ],
+      "answerId": "expr-disagree-noway-q1-c4",
+      "reasonJa": "「冗談」「笑いながら」「ありえない」に合うのは、くだけた強い否定の No way. です。",
+      "whyNotJa": {
+        "expr-disagree-noway-q1-c1": "丁寧で硬い言い方で、冗談への返事には堅すぎます。",
+        "expr-disagree-noway-q1-c2": "敬意を前置きした形式的な言い方で、冗談には大げさです。",
+        "expr-disagree-noway-q1-c3": "落ち着いた見方の違いの表明で、「ありえない」という驚きが出ません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-differently-q1",
+      "expressionId": "expr-disagree-differently",
+      "format": "scene",
+      "promptJa": "ワークショップで、相手の意見を否定せず、「私は別の見方をしている」という違いだけを示したい。",
+      "choices": [
+        {
+          "id": "expr-disagree-differently-q1-c1",
+          "text": "I see it differently.",
+          "expressionId": "expr-disagree-differently"
+        },
+        {
+          "id": "expr-disagree-differently-q1-c2",
+          "text": "I have to disagree.",
+          "expressionId": "expr-disagree-haveto"
+        },
+        {
+          "id": "expr-disagree-differently-q1-c3",
+          "text": "No way.",
+          "expressionId": "expr-disagree-noway"
+        },
+        {
+          "id": "expr-disagree-differently-q1-c4",
+          "text": "With all due respect, I disagree.",
+          "expressionId": "expr-disagree-respect"
+        }
+      ],
+      "answerId": "expr-disagree-differently-q1-c1",
+      "reasonJa": "「否定せず」「見方の違いだけ」に合うのは、I see it differently. です。",
+      "whyNotJa": {
+        "expr-disagree-differently-q1-c2": "義務感のある強い反対で、否定しない条件に反します。",
+        "expr-disagree-differently-q1-c3": "くだけた強い否定で、見方の違いだけを示す条件に合いません。",
+        "expr-disagree-differently-q1-c4": "敬意を前置きして強く異を唱える形式的な言い方で、違いを示すだけの場面には大げさです。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-haveto-q1",
+      "expressionId": "expr-disagree-haveto",
+      "format": "scene",
+      "promptJa": "社内のリスク会議で、安全上の理由から、この案には賛成できないと、議論の余地なく、丁寧にはっきり述べたい。",
+      "choices": [
+        {
+          "id": "expr-disagree-haveto-q1-c1",
+          "text": "I'm not so sure about that.",
+          "expressionId": "expr-disagree-notsure"
+        },
+        {
+          "id": "expr-disagree-haveto-q1-c2",
+          "text": "I have to disagree.",
+          "expressionId": "expr-disagree-haveto"
+        },
+        {
+          "id": "expr-disagree-haveto-q1-c3",
+          "text": "I see your point, but…",
+          "expressionId": "expr-disagree-point"
+        },
+        {
+          "id": "expr-disagree-haveto-q1-c4",
+          "text": "No way.",
+          "expressionId": "expr-disagree-noway"
+        }
+      ],
+      "answerId": "expr-disagree-haveto-q1-c2",
+      "reasonJa": "「安全上の理由」「議論の余地なく」「丁寧にはっきり」に合うのは、義務感を出す I have to disagree. です。",
+      "whyNotJa": {
+        "expr-disagree-haveto-q1-c1": "確信がない形の穏やかな疑いで、「議論の余地なく」に合いません。",
+        "expr-disagree-haveto-q1-c3": "相手を認めて譲歩する形で、「余地なく」という条件に反します。",
+        "expr-disagree-haveto-q1-c4": "くだけた強い否定で、会議には失礼です。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-dont-q1",
+      "expressionId": "expr-disagree-dont",
+      "format": "scene",
+      "promptJa": "友人から「この映画、絶対面白いよね？」と聞かれ、理由を足さずに、短く自分は違うと返したい。",
+      "choices": [
+        {
+          "id": "expr-disagree-dont-q1-c1",
+          "text": "With all due respect, I disagree.",
+          "expressionId": "expr-disagree-respect"
+        },
+        {
+          "id": "expr-disagree-dont-q1-c2",
+          "text": "I'm afraid I disagree.",
+          "expressionId": "expr-disagree-afraid"
+        },
+        {
+          "id": "expr-disagree-dont-q1-c3",
+          "text": "I don't think so.",
+          "expressionId": "expr-disagree-dont"
+        },
+        {
+          "id": "expr-disagree-dont-q1-c4",
+          "text": "I have to disagree.",
+          "expressionId": "expr-disagree-haveto"
+        }
+      ],
+      "answerId": "expr-disagree-dont-q1-c3",
+      "reasonJa": "「短く」「理由を足さない」「友人」に合うのは、基本形の I don't think so. です。",
+      "whyNotJa": {
+        "expr-disagree-dont-q1-c1": "形式的で大げさで、友人との会話には合いません。",
+        "expr-disagree-dont-q1-c2": "丁寧で硬い言い方で、友人には距離を感じさせます。",
+        "expr-disagree-dont-q1-c4": "義務感のある強い反対で、映画の感想には重すぎます。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-respect-q1",
+      "expressionId": "expr-disagree-respect",
+      "format": "scene",
+      "promptJa": "役員会で、上位者の発言に対して、敬意を払いつつも強く異を唱える形式的な前置きが必要。",
+      "choices": [
+        {
+          "id": "expr-disagree-respect-q1-c1",
+          "text": "No way.",
+          "expressionId": "expr-disagree-noway"
+        },
+        {
+          "id": "expr-disagree-respect-q1-c2",
+          "text": "I don't think so.",
+          "expressionId": "expr-disagree-dont"
+        },
+        {
+          "id": "expr-disagree-respect-q1-c3",
+          "text": "I'm not so sure about that.",
+          "expressionId": "expr-disagree-notsure"
+        },
+        {
+          "id": "expr-disagree-respect-q1-c4",
+          "text": "With all due respect, I disagree.",
+          "expressionId": "expr-disagree-respect"
+        }
+      ],
+      "answerId": "expr-disagree-respect-q1-c4",
+      "reasonJa": "「敬意を払いつつ強く異を唱える」「形式的」に合うのは、With all due respect, I disagree. です。",
+      "whyNotJa": {
+        "expr-disagree-respect-q1-c1": "くだけた強い否定で、上位者には失礼です。",
+        "expr-disagree-respect-q1-c2": "短い基本形で、「形式的な前置き」という条件に合いません。",
+        "expr-disagree-respect-q1-c3": "確信がない形の穏やかな疑いで、「強く」に合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-noway-q2",
+      "expressionId": "expr-disagree-noway",
+      "format": "tone",
+      "promptJa": "取引先への返信メールで、失礼に聞こえるものはどれ？",
+      "choices": [
+        {
+          "id": "expr-disagree-noway-q2-c1",
+          "text": "No way.",
+          "expressionId": "expr-disagree-noway"
+        },
+        {
+          "id": "expr-disagree-noway-q2-c2",
+          "text": "I'm afraid I disagree.",
+          "expressionId": "expr-disagree-afraid"
+        },
+        {
+          "id": "expr-disagree-noway-q2-c3",
+          "text": "I see your point, but…",
+          "expressionId": "expr-disagree-point"
+        },
+        {
+          "id": "expr-disagree-noway-q2-c4",
+          "text": "I have to disagree.",
+          "expressionId": "expr-disagree-haveto"
+        }
+      ],
+      "answerId": "expr-disagree-noway-q2-c1",
+      "reasonJa": "No way. はくだけた強い否定なので、取引先へのメールでは失礼に聞こえます。",
+      "whyNotJa": {
+        "expr-disagree-noway-q2-c2": "丁寧にはっきり反対する言い方で、メールに合います。",
+        "expr-disagree-noway-q2-c3": "相手の指摘を認めてから述べる言い方で、丁寧です。",
+        "expr-disagree-noway-q2-c4": "義務感を出す丁寧な反対で、メールで使えます。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-respect-q2",
+      "expressionId": "expr-disagree-respect",
+      "format": "tone",
+      "promptJa": "仲のいい友人との雑談で、映画の趣味について話している場面。場違いに聞こえるものはどれ？",
+      "choices": [
+        {
+          "id": "expr-disagree-respect-q2-c1",
+          "text": "I don't think so.",
+          "expressionId": "expr-disagree-dont"
+        },
+        {
+          "id": "expr-disagree-respect-q2-c2",
+          "text": "With all due respect, I disagree.",
+          "expressionId": "expr-disagree-respect"
+        },
+        {
+          "id": "expr-disagree-respect-q2-c3",
+          "text": "I see it differently.",
+          "expressionId": "expr-disagree-differently"
+        },
+        {
+          "id": "expr-disagree-respect-q2-c4",
+          "text": "That's not how I see it.",
+          "expressionId": "expr-disagree-notsee"
+        }
+      ],
+      "answerId": "expr-disagree-respect-q2-c2",
+      "reasonJa": "With all due respect, I disagree. は形式的で硬い言い方なので、友人との雑談では大げさで場違いです。",
+      "whyNotJa": {
+        "expr-disagree-respect-q2-c1": "短い基本形で、雑談に合います。",
+        "expr-disagree-respect-q2-c3": "見方の違いを示す穏やかな言い方で、自然です。",
+        "expr-disagree-respect-q2-c4": "くだけた言い方で、友人との会話に合います。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-notsee-q1",
+      "expressionId": "expr-disagree-notsee",
+      "format": "tone",
+      "promptJa": "初対面の顧客と話す場面。場違いに聞こえるものはどれ？",
+      "choices": [
+        {
+          "id": "expr-disagree-notsee-q1-c1",
+          "text": "I'm afraid I disagree.",
+          "expressionId": "expr-disagree-afraid"
+        },
+        {
+          "id": "expr-disagree-notsee-q1-c2",
+          "text": "I see your point, but…",
+          "expressionId": "expr-disagree-point"
+        },
+        {
+          "id": "expr-disagree-notsee-q1-c3",
+          "text": "That's not how I see it.",
+          "expressionId": "expr-disagree-notsee"
+        },
+        {
+          "id": "expr-disagree-notsee-q1-c4",
+          "text": "I'm not so sure about that.",
+          "expressionId": "expr-disagree-notsure"
+        }
+      ],
+      "answerId": "expr-disagree-notsee-q1-c3",
+      "reasonJa": "That's not how I see it. はくだけた言い方で、口調によっては突き放して聞こえるので、初対面の顧客には場違いです。",
+      "whyNotJa": {
+        "expr-disagree-notsee-q1-c1": "丁寧にはっきり反対する言い方で、顧客に使えます。",
+        "expr-disagree-notsee-q1-c2": "相手の指摘を認めてから述べる丁寧な言い方です。",
+        "expr-disagree-notsee-q1-c4": "確信がない形の穏やかな言い方で、顧客にも角が立ちません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-differently-q2",
+      "expressionId": "expr-disagree-differently",
+      "format": "dialogue",
+      "promptJa": "【場面】ワークショップ。相手の案を否定せず、見方の違いだけを示す。\nA: \"I think we should cut the second stage.\"\nB: \"____ I think the second stage helps new users.\"\nA: \"Tell me more.\"",
+      "choices": [
+        {
+          "id": "expr-disagree-differently-q2-c1",
+          "text": "No way.",
+          "expressionId": "expr-disagree-noway"
+        },
+        {
+          "id": "expr-disagree-differently-q2-c2",
+          "text": "I have to disagree.",
+          "expressionId": "expr-disagree-haveto"
+        },
+        {
+          "id": "expr-disagree-differently-q2-c3",
+          "text": "With all due respect, I disagree.",
+          "expressionId": "expr-disagree-respect"
+        },
+        {
+          "id": "expr-disagree-differently-q2-c4",
+          "text": "I see it differently.",
+          "expressionId": "expr-disagree-differently"
+        }
+      ],
+      "answerId": "expr-disagree-differently-q2-c4",
+      "reasonJa": "「相手の案を否定せず、見方の違いだけを示す」場面なので、I see it differently. が合います。",
+      "whyNotJa": {
+        "expr-disagree-differently-q2-c1": "くだけた強い否定で、案を否定しないという場面に反します。",
+        "expr-disagree-differently-q2-c2": "義務感のある強い反対で、違いを示すだけの場面には重すぎます。",
+        "expr-disagree-differently-q2-c3": "形式的で強い反対で、違いを示すだけの場面には大げさです。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-point-q2",
+      "expressionId": "expr-disagree-point",
+      "format": "dialogue",
+      "promptJa": "【場面】設計会議。相手の指摘を認めたうえで、反論する。\nA: \"The cost is too high.\"\nB: \"____ we can save more over three years.\"\nA: \"Hmm, show me the numbers.\"",
+      "choices": [
+        {
+          "id": "expr-disagree-point-q2-c1",
+          "text": "I see your point, but…",
+          "expressionId": "expr-disagree-point"
+        },
+        {
+          "id": "expr-disagree-point-q2-c2",
+          "text": "I don't think so.",
+          "expressionId": "expr-disagree-dont"
+        },
+        {
+          "id": "expr-disagree-point-q2-c3",
+          "text": "No way.",
+          "expressionId": "expr-disagree-noway"
+        },
+        {
+          "id": "expr-disagree-point-q2-c4",
+          "text": "I have to disagree.",
+          "expressionId": "expr-disagree-haveto"
+        }
+      ],
+      "answerId": "expr-disagree-point-q2-c1",
+      "reasonJa": "「相手の指摘を認めたうえで反論する」場面で、続く節が but でつながるので、I see your point, but… が合います。",
+      "whyNotJa": {
+        "expr-disagree-point-q2-c2": "認める前置きがなく、場面の「認めたうえで」に合いません。",
+        "expr-disagree-point-q2-c3": "くだけた強い否定で、会議には失礼です。",
+        "expr-disagree-point-q2-c4": "義務感のある強い反対で、「認めたうえで」という条件に反します。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-notsure-q2",
+      "expressionId": "expr-disagree-notsure",
+      "format": "dialogue",
+      "promptJa": "【場面】友人と旅行の計画。相手の提案に確信がないことを、穏やかに伝える。\nA: \"Let's take the night bus.\"\nB: \"____ it might be tiring.\"\nA: \"Then let's take the train.\"",
+      "choices": [
+        {
+          "id": "expr-disagree-notsure-q2-c1",
+          "text": "No way.",
+          "expressionId": "expr-disagree-noway"
+        },
+        {
+          "id": "expr-disagree-notsure-q2-c2",
+          "text": "I'm not so sure about that.",
+          "expressionId": "expr-disagree-notsure"
+        },
+        {
+          "id": "expr-disagree-notsure-q2-c3",
+          "text": "I have to disagree.",
+          "expressionId": "expr-disagree-haveto"
+        },
+        {
+          "id": "expr-disagree-notsure-q2-c4",
+          "text": "With all due respect, I disagree.",
+          "expressionId": "expr-disagree-respect"
+        }
+      ],
+      "answerId": "expr-disagree-notsure-q2-c2",
+      "reasonJa": "「確信がない」「穏やかに」に合うのは、I'm not so sure about that. です。",
+      "whyNotJa": {
+        "expr-disagree-notsure-q2-c1": "くだけた強い否定で、穏やかにという場面に反します。",
+        "expr-disagree-notsure-q2-c3": "義務感のある強い反対で、旅行の相談には重すぎます。",
+        "expr-disagree-notsure-q2-c4": "形式的で強い反対で、友人との相談には大げさです。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-afraid-q2",
+      "expressionId": "expr-disagree-afraid",
+      "format": "dialogue",
+      "promptJa": "【場面】顧客との電話。丁寧に、しかしはっきり断る。\nA: \"Can you accept the old price?\"\nB: \"____ the old price is no longer possible.\"\nA: \"I understand. Thank you.\"",
+      "choices": [
+        {
+          "id": "expr-disagree-afraid-q2-c1",
+          "text": "I don't think so.",
+          "expressionId": "expr-disagree-dont"
+        },
+        {
+          "id": "expr-disagree-afraid-q2-c2",
+          "text": "No way.",
+          "expressionId": "expr-disagree-noway"
+        },
+        {
+          "id": "expr-disagree-afraid-q2-c3",
+          "text": "I'm afraid I disagree.",
+          "expressionId": "expr-disagree-afraid"
+        },
+        {
+          "id": "expr-disagree-afraid-q2-c4",
+          "text": "That's not how I see it.",
+          "expressionId": "expr-disagree-notsee"
+        }
+      ],
+      "answerId": "expr-disagree-afraid-q2-c3",
+      "reasonJa": "「顧客」「丁寧に、はっきり」に合うのは、クッション付きで反対する I'm afraid I disagree. です。",
+      "whyNotJa": {
+        "expr-disagree-afraid-q2-c1": "短い基本形で、顧客への説明にはそっけなく聞こえます。",
+        "expr-disagree-afraid-q2-c2": "くだけた強い否定で、顧客には失礼です。",
+        "expr-disagree-afraid-q2-c4": "くだけた言い方で、顧客との電話には合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-dont-q2",
+      "expressionId": "expr-disagree-dont",
+      "format": "order",
+      "promptJa": "次の4つの表現を、カジュアルなものから丁寧なものの順に並べてください。",
+      "choices": [
+        {
+          "id": "expr-disagree-dont-q2-c1",
+          "text": "That's not how I see it.",
+          "expressionId": "expr-disagree-notsee"
+        },
+        {
+          "id": "expr-disagree-dont-q2-c2",
+          "text": "I don't think so.",
+          "expressionId": "expr-disagree-dont"
+        },
+        {
+          "id": "expr-disagree-dont-q2-c3",
+          "text": "I'm afraid I disagree.",
+          "expressionId": "expr-disagree-afraid"
+        },
+        {
+          "id": "expr-disagree-dont-q2-c4",
+          "text": "No way.",
+          "expressionId": "expr-disagree-noway"
+        }
+      ],
+      "correctOrder": [
+        "expr-disagree-dont-q2-c4",
+        "expr-disagree-dont-q2-c1",
+        "expr-disagree-dont-q2-c2",
+        "expr-disagree-dont-q2-c3"
+      ],
+      "reasonJa": "丁寧さは、カジュアル（左）から丁寧（右）の順に、No way. → That's not how I see it. → I don't think so. → I'm afraid I disagree. です。",
+      "notesJa": {
+        "expr-disagree-dont-q2-c4": "最もくだけた強い否定です。",
+        "expr-disagree-dont-q2-c1": "自分の見方に引きつけたくだけた言い方です。",
+        "expr-disagree-dont-q2-c2": "落ち着いた短い基本形で、中間です。",
+        "expr-disagree-dont-q2-c3": "クッション付きで丁寧に反対する、最も丁寧な言い方です。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-point-q3",
+      "expressionId": "expr-disagree-point",
+      "format": "order",
+      "promptJa": "次の4つの表現を、カジュアルなものから丁寧なものの順に並べてください。",
+      "choices": [
+        {
+          "id": "expr-disagree-point-q3-c1",
+          "text": "I see your point, but…",
+          "expressionId": "expr-disagree-point"
+        },
+        {
+          "id": "expr-disagree-point-q3-c2",
+          "text": "With all due respect, I disagree.",
+          "expressionId": "expr-disagree-respect"
+        },
+        {
+          "id": "expr-disagree-point-q3-c3",
+          "text": "That's not how I see it.",
+          "expressionId": "expr-disagree-notsee"
+        },
+        {
+          "id": "expr-disagree-point-q3-c4",
+          "text": "I see it differently.",
+          "expressionId": "expr-disagree-differently"
+        }
+      ],
+      "correctOrder": [
+        "expr-disagree-point-q3-c3",
+        "expr-disagree-point-q3-c4",
+        "expr-disagree-point-q3-c1",
+        "expr-disagree-point-q3-c2"
+      ],
+      "reasonJa": "丁寧さは、カジュアル（左）から丁寧（右）の順に、That's not how I see it. → I see it differently. → I see your point, but… → With all due respect, I disagree. です。",
+      "notesJa": {
+        "expr-disagree-point-q3-c3": "くだけた言い方で、最もカジュアルです。",
+        "expr-disagree-point-q3-c4": "中立の丁寧さで、日常にも仕事にも使えます。",
+        "expr-disagree-point-q3-c1": "相手を認めてから述べる、丁寧な言い方です。",
+        "expr-disagree-point-q3-c2": "敬意を前置きする形式的な言い方で、最も丁寧です。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-can-q1",
+      "expressionId": "expr-request-can",
+      "format": "scene",
+      "promptJa": "同じ部署の仲の良い同僚に、席を立つついでにコピーを頼みたい。口頭で、気軽に。",
+      "choices": [
+        {
+          "id": "expr-request-can-q1-c1",
+          "text": "Can you…?",
+          "expressionId": "expr-request-can"
+        },
+        {
+          "id": "expr-request-can-q1-c2",
+          "text": "I was wondering if you could…",
+          "expressionId": "expr-request-wondering"
+        },
+        {
+          "id": "expr-request-can-q1-c3",
+          "text": "I'd appreciate it if you could…",
+          "expressionId": "expr-request-appreciate"
+        },
+        {
+          "id": "expr-request-can-q1-c4",
+          "text": "Please make sure to…",
+          "expressionId": "expr-request-sure"
+        }
+      ],
+      "answerId": "expr-request-can-q1-c1",
+      "reasonJa": "「仲の良い」「口頭」「気軽に」に合うのは、最も気軽な Can you…? です。",
+      "whyNotJa": {
+        "expr-request-can-q1-c2": "遠回しで丁寧すぎて、親しい同僚には大げさです。",
+        "expr-request-can-q1-c3": "感謝を前に出す正式な言い方で、メール向きです。",
+        "expr-request-can-q1-c4": "念押しの言い方で、気軽に頼む場面に合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-wondering-q1",
+      "expressionId": "expr-request-wondering",
+      "format": "scene",
+      "promptJa": "面識の浅い他部署の部長に、忙しい時期だと分かったうえで、大きな資料作成を、断られる余地を十分に残して頼むメール。",
+      "choices": [
+        {
+          "id": "expr-request-wondering-q1-c1",
+          "text": "Can you…?",
+          "expressionId": "expr-request-can"
+        },
+        {
+          "id": "expr-request-wondering-q1-c2",
+          "text": "I was wondering if you could…",
+          "expressionId": "expr-request-wondering"
+        },
+        {
+          "id": "expr-request-wondering-q1-c3",
+          "text": "I need you to…",
+          "expressionId": "expr-request-need"
+        },
+        {
+          "id": "expr-request-wondering-q1-c4",
+          "text": "Please make sure to…",
+          "expressionId": "expr-request-sure"
+        }
+      ],
+      "answerId": "expr-request-wondering-q1-c2",
+      "reasonJa": "「面識が浅い」「大きな頼み」「断る余地を十分に残す」に合うのは、遠回しな I was wondering if you could… です。",
+      "whyNotJa": {
+        "expr-request-wondering-q1-c1": "気軽な頼み方で、面識の浅い部長には失礼です。",
+        "expr-request-wondering-q1-c3": "必要性を伝える強い言い方で、断る余地を残す条件に反します。",
+        "expr-request-wondering-q1-c4": "念押しの言い方で、大きな頼みには命令のように聞こえます。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-appreciate-q1",
+      "expressionId": "expr-request-appreciate",
+      "format": "scene",
+      "promptJa": "取引先へのメールで、期限までの返信がほしいと、依頼が通ることを前提に、感謝を前に出して丁寧に依頼する。",
+      "choices": [
+        {
+          "id": "expr-request-appreciate-q1-c1",
+          "text": "Can you do me a favor?",
+          "expressionId": "expr-request-favor"
+        },
+        {
+          "id": "expr-request-appreciate-q1-c2",
+          "text": "I need you to…",
+          "expressionId": "expr-request-need"
+        },
+        {
+          "id": "expr-request-appreciate-q1-c3",
+          "text": "I'd appreciate it if you could…",
+          "expressionId": "expr-request-appreciate"
+        },
+        {
+          "id": "expr-request-appreciate-q1-c4",
+          "text": "Could you possibly…?",
+          "expressionId": "expr-request-possibly"
+        }
+      ],
+      "answerId": "expr-request-appreciate-q1-c3",
+      "reasonJa": "「感謝を前に出す」「依頼が通る前提」「メール」に合うのは、I'd appreciate it if you could… です。",
+      "whyNotJa": {
+        "expr-request-appreciate-q1-c1": "親しい間柄の切り出しで、取引先には合いません。",
+        "expr-request-appreciate-q1-c2": "必要性を伝える指示に近い言い方で、感謝を前に出す条件に合いません。",
+        "expr-request-appreciate-q1-c4": "「無理かもしれないが」という恐縮の言い方で、「通る前提」という条件と合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-possibly-q1",
+      "expressionId": "expr-request-possibly",
+      "format": "scene",
+      "promptJa": "新任の上司に、本来は自分の仕事の範囲だが、時間外に手伝ってもらえないか、無理を承知で恐縮しながら頼みたい。",
+      "choices": [
+        {
+          "id": "expr-request-possibly-q1-c1",
+          "text": "Can you…?",
+          "expressionId": "expr-request-can"
+        },
+        {
+          "id": "expr-request-possibly-q1-c2",
+          "text": "Please make sure to…",
+          "expressionId": "expr-request-sure"
+        },
+        {
+          "id": "expr-request-possibly-q1-c3",
+          "text": "I need you to…",
+          "expressionId": "expr-request-need"
+        },
+        {
+          "id": "expr-request-possibly-q1-c4",
+          "text": "Could you possibly…?",
+          "expressionId": "expr-request-possibly"
+        }
+      ],
+      "answerId": "expr-request-possibly-q1-c4",
+      "reasonJa": "「無理を承知」「恐縮」「上司」に合うのは、possibly が恐縮を足す Could you possibly…? です。",
+      "whyNotJa": {
+        "expr-request-possibly-q1-c1": "気軽な頼み方で、上司には馴れ馴れしく聞こえます。",
+        "expr-request-possibly-q1-c2": "念押しの言い方で、上司に使うと命令のように聞こえます。",
+        "expr-request-possibly-q1-c3": "必要性を伝える強い言い方で、上司への恐縮した依頼に合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-sure-q1",
+      "expressionId": "expr-request-sure",
+      "format": "scene",
+      "promptJa": "プロジェクトの締切前、チームの全員に、必ず提出物のチェックリストを確認するよう、念押しを兼ねてチャットで依頼する。同僚同士。",
+      "choices": [
+        {
+          "id": "expr-request-sure-q1-c1",
+          "text": "Please make sure to…",
+          "expressionId": "expr-request-sure"
+        },
+        {
+          "id": "expr-request-sure-q1-c2",
+          "text": "Can you do me a favor?",
+          "expressionId": "expr-request-favor"
+        },
+        {
+          "id": "expr-request-sure-q1-c3",
+          "text": "I was wondering if you could…",
+          "expressionId": "expr-request-wondering"
+        },
+        {
+          "id": "expr-request-sure-q1-c4",
+          "text": "Would you mind …ing?",
+          "expressionId": "expr-request-mind"
+        }
+      ],
+      "answerId": "expr-request-sure-q1-c1",
+      "reasonJa": "「必ず」「念押しを兼ねて」に合うのは、確実にしてほしいと伝える Please make sure to… です。",
+      "whyNotJa": {
+        "expr-request-sure-q1-c2": "親しい間柄の切り出しで、全員への念押しには合いません。",
+        "expr-request-sure-q1-c3": "遠回しで断る余地を残す言い方で、「必ず」という条件に反します。",
+        "expr-request-sure-q1-c4": "相手の気持ちを気づかう言い方で、念押しという目的に合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-need-q1",
+      "expressionId": "expr-request-need",
+      "format": "scene",
+      "promptJa": "緊急のトラブル時に、上司が部下へ、すぐデータを送るよう、実質的な指示として伝える。",
+      "choices": [
+        {
+          "id": "expr-request-need-q1-c1",
+          "text": "Can you…?",
+          "expressionId": "expr-request-can"
+        },
+        {
+          "id": "expr-request-need-q1-c2",
+          "text": "I need you to…",
+          "expressionId": "expr-request-need"
+        },
+        {
+          "id": "expr-request-need-q1-c3",
+          "text": "I was wondering if you could…",
+          "expressionId": "expr-request-wondering"
+        },
+        {
+          "id": "expr-request-need-q1-c4",
+          "text": "Could you possibly…?",
+          "expressionId": "expr-request-possibly"
+        }
+      ],
+      "answerId": "expr-request-need-q1-c2",
+      "reasonJa": "「緊急」「実質的な指示」に合うのは、必要性を伝えて求める I need you to… です。",
+      "whyNotJa": {
+        "expr-request-need-q1-c1": "気軽な頼み方で、緊急の指示には弱すぎます。",
+        "expr-request-need-q1-c3": "遠回しで断る余地を残す言い方で、緊急の指示には合いません。",
+        "expr-request-need-q1-c4": "恐縮を足す言い方で、上司から部下への指示には合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-mind-q1",
+      "expressionId": "expr-request-mind",
+      "format": "scene",
+      "promptJa": "電車で隣の席の初対面の人に、荷物を少しずらしてもらえないか、相手の迷惑にならないかを気づかいながら頼みたい。",
+      "choices": [
+        {
+          "id": "expr-request-mind-q1-c1",
+          "text": "Please make sure to…",
+          "expressionId": "expr-request-sure"
+        },
+        {
+          "id": "expr-request-mind-q1-c2",
+          "text": "I need you to…",
+          "expressionId": "expr-request-need"
+        },
+        {
+          "id": "expr-request-mind-q1-c3",
+          "text": "Would you mind …ing?",
+          "expressionId": "expr-request-mind"
+        },
+        {
+          "id": "expr-request-mind-q1-c4",
+          "text": "Can you do me a favor?",
+          "expressionId": "expr-request-favor"
+        }
+      ],
+      "answerId": "expr-request-mind-q1-c3",
+      "reasonJa": "「相手の迷惑にならないかを気づかう」「初対面」に合うのは、Would you mind …ing? です。",
+      "whyNotJa": {
+        "expr-request-mind-q1-c1": "念押しの言い方で、初対面の人には命令のように聞こえます。",
+        "expr-request-mind-q1-c2": "必要性を伝える強い言い方で、気づかいという条件に反します。",
+        "expr-request-mind-q1-c4": "親しい間柄の切り出しで、初対面には合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-could-q1",
+      "expressionId": "expr-request-could",
+      "format": "scene",
+      "promptJa": "ホテルのフロントで、タオルを追加でもらえるか頼みたい。丁寧だが、大げさにならない標準的な言い方で。",
+      "choices": [
+        {
+          "id": "expr-request-could-q1-c1",
+          "text": "Can you do me a favor?",
+          "expressionId": "expr-request-favor"
+        },
+        {
+          "id": "expr-request-could-q1-c2",
+          "text": "I need you to…",
+          "expressionId": "expr-request-need"
+        },
+        {
+          "id": "expr-request-could-q1-c3",
+          "text": "I was wondering if you could…",
+          "expressionId": "expr-request-wondering"
+        },
+        {
+          "id": "expr-request-could-q1-c4",
+          "text": "Could you…?",
+          "expressionId": "expr-request-could"
+        }
+      ],
+      "answerId": "expr-request-could-q1-c4",
+      "reasonJa": "「丁寧だが大げさにならない」「標準的」に合うのは、Could you…? です。",
+      "whyNotJa": {
+        "expr-request-could-q1-c1": "親しい間柄の切り出しで、フロントには合いません。",
+        "expr-request-could-q1-c2": "必要性を伝える強い言い方で、客からの依頼には強すぎます。",
+        "expr-request-could-q1-c3": "遠回しで大げさに聞こえ、「標準的」という条件に合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-favor-q1",
+      "expressionId": "expr-request-favor",
+      "format": "scene",
+      "promptJa": "仲のいい友人に、今度の引っ越しの手伝いを頼みたい。最初に「ちょっと頼みがある」と切り出したい。",
+      "choices": [
+        {
+          "id": "expr-request-favor-q1-c1",
+          "text": "Can you do me a favor?",
+          "expressionId": "expr-request-favor"
+        },
+        {
+          "id": "expr-request-favor-q1-c2",
+          "text": "Could you possibly…?",
+          "expressionId": "expr-request-possibly"
+        },
+        {
+          "id": "expr-request-favor-q1-c3",
+          "text": "I'd appreciate it if you could…",
+          "expressionId": "expr-request-appreciate"
+        },
+        {
+          "id": "expr-request-favor-q1-c4",
+          "text": "Please make sure to…",
+          "expressionId": "expr-request-sure"
+        }
+      ],
+      "answerId": "expr-request-favor-q1-c1",
+      "reasonJa": "「友人」「ちょっと頼みがあると切り出す」に合うのは、Can you do me a favor? です。",
+      "whyNotJa": {
+        "expr-request-favor-q1-c2": "恐縮を足す丁寧な言い方で、友人には他人行儀です。",
+        "expr-request-favor-q1-c3": "メールで使う感謝を前に出す言い方で、口頭の切り出しには合いません。",
+        "expr-request-favor-q1-c4": "念押しの言い方で、頼みを切り出す場面には合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-need-q2",
+      "expressionId": "expr-request-need",
+      "format": "tone",
+      "promptJa": "初対面の取引先担当者への依頼メールで、失礼・場違いに聞こえるものはどれ？",
+      "choices": [
+        {
+          "id": "expr-request-need-q2-c1",
+          "text": "I'd appreciate it if you could…",
+          "expressionId": "expr-request-appreciate"
+        },
+        {
+          "id": "expr-request-need-q2-c2",
+          "text": "I need you to…",
+          "expressionId": "expr-request-need"
+        },
+        {
+          "id": "expr-request-need-q2-c3",
+          "text": "Could you possibly…?",
+          "expressionId": "expr-request-possibly"
+        },
+        {
+          "id": "expr-request-need-q2-c4",
+          "text": "I was wondering if you could…",
+          "expressionId": "expr-request-wondering"
+        }
+      ],
+      "answerId": "expr-request-need-q2-c2",
+      "reasonJa": "I need you to… は指示に近い強い言い方なので、初対面の取引先には失礼に聞こえます。",
+      "whyNotJa": {
+        "expr-request-need-q2-c1": "感謝を前に出す丁寧な言い方で、取引先に合います。",
+        "expr-request-need-q2-c3": "恐縮を足す丁寧な言い方で、使えます。",
+        "expr-request-need-q2-c4": "遠回しで丁寧な言い方で、初対面にも失礼になりません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-wondering-q2",
+      "expressionId": "expr-request-wondering",
+      "format": "tone",
+      "promptJa": "隣の席の仲のいい同僚へ、ちょっとした頼みをする場面。場違いに聞こえるものはどれ？",
+      "choices": [
+        {
+          "id": "expr-request-wondering-q2-c1",
+          "text": "Can you…?",
+          "expressionId": "expr-request-can"
+        },
+        {
+          "id": "expr-request-wondering-q2-c2",
+          "text": "Could you…?",
+          "expressionId": "expr-request-could"
+        },
+        {
+          "id": "expr-request-wondering-q2-c3",
+          "text": "I was wondering if you could…",
+          "expressionId": "expr-request-wondering"
+        },
+        {
+          "id": "expr-request-wondering-q2-c4",
+          "text": "Can you do me a favor?",
+          "expressionId": "expr-request-favor"
+        }
+      ],
+      "answerId": "expr-request-wondering-q2-c3",
+      "reasonJa": "I was wondering if you could… は遠回しで他人行儀なので、仲のいい同僚へのちょっとした頼みでは場違いです。",
+      "whyNotJa": {
+        "expr-request-wondering-q2-c1": "気軽な頼み方で、同僚に合います。",
+        "expr-request-wondering-q2-c2": "標準的な丁寧さで、同僚にも使えます。",
+        "expr-request-wondering-q2-c4": "親しい間柄の切り出しで、同僚に自然です。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-sure-q2",
+      "expressionId": "expr-request-sure",
+      "format": "tone",
+      "promptJa": "上司が目上の顧客に出す依頼を代筆するとき、失礼に聞こえるものはどれ？",
+      "choices": [
+        {
+          "id": "expr-request-sure-q2-c1",
+          "text": "Would you mind …ing?",
+          "expressionId": "expr-request-mind"
+        },
+        {
+          "id": "expr-request-sure-q2-c2",
+          "text": "I'd appreciate it if you could…",
+          "expressionId": "expr-request-appreciate"
+        },
+        {
+          "id": "expr-request-sure-q2-c3",
+          "text": "Could you possibly…?",
+          "expressionId": "expr-request-possibly"
+        },
+        {
+          "id": "expr-request-sure-q2-c4",
+          "text": "Please make sure to…",
+          "expressionId": "expr-request-sure"
+        }
+      ],
+      "answerId": "expr-request-sure-q2-c4",
+      "reasonJa": "Please make sure to… は念押しで命令のように聞こえるので、目上の顧客には失礼です。",
+      "whyNotJa": {
+        "expr-request-sure-q2-c1": "相手の気持ちを気づかう言い方で、顧客に使えます。",
+        "expr-request-sure-q2-c2": "感謝を前に出す丁寧な言い方で、顧客に合います。",
+        "expr-request-sure-q2-c3": "恐縮を足す丁寧な言い方で、使えます。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-mind-q2",
+      "expressionId": "expr-request-mind",
+      "format": "dialogue",
+      "promptJa": "【場面】カフェで、隣の席の初対面の人に頼む。\nA: \"____ moving your bag a little?\"\nB: \"No, not at all. Here you go.\"\nA: \"Thank you.\"",
+      "choices": [
+        {
+          "id": "expr-request-mind-q2-c1",
+          "text": "Would you mind …ing?",
+          "expressionId": "expr-request-mind"
+        },
+        {
+          "id": "expr-request-mind-q2-c2",
+          "text": "Can you do me a favor?",
+          "expressionId": "expr-request-favor"
+        },
+        {
+          "id": "expr-request-mind-q2-c3",
+          "text": "I need you to…",
+          "expressionId": "expr-request-need"
+        },
+        {
+          "id": "expr-request-mind-q2-c4",
+          "text": "Please make sure to…",
+          "expressionId": "expr-request-sure"
+        }
+      ],
+      "answerId": "expr-request-mind-q2-c1",
+      "reasonJa": "B が \"No, not at all.\" と答えているので、Would you mind …ing? の問いに合います。",
+      "whyNotJa": {
+        "expr-request-mind-q2-c2": "切り出しの前置きで、後に動名詞が続く形になりません。",
+        "expr-request-mind-q2-c3": "need の後は to＋動詞で、\"moving\" が続く形になりません。",
+        "expr-request-mind-q2-c4": "make sure の後は to＋動詞で、\"moving\" が続く形になりません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-could-q2",
+      "expressionId": "expr-request-could",
+      "format": "dialogue",
+      "promptJa": "【場面】同僚に、標準的な丁寧さで資料を頼む。\nA: \"____ send me the file by noon?\"\nB: \"Sure, I'll do it now.\"\nA: \"Thank you.\"",
+      "choices": [
+        {
+          "id": "expr-request-could-q2-c1",
+          "text": "Can you do me a favor?",
+          "expressionId": "expr-request-favor"
+        },
+        {
+          "id": "expr-request-could-q2-c2",
+          "text": "Could you…?",
+          "expressionId": "expr-request-could"
+        },
+        {
+          "id": "expr-request-could-q2-c3",
+          "text": "Please make sure to…",
+          "expressionId": "expr-request-sure"
+        },
+        {
+          "id": "expr-request-could-q2-c4",
+          "text": "Would you mind …ing?",
+          "expressionId": "expr-request-mind"
+        }
+      ],
+      "answerId": "expr-request-could-q2-c2",
+      "reasonJa": "後ろに動詞の原形が続き、標準的な丁寧さで頼むので、Could you… が合います。",
+      "whyNotJa": {
+        "expr-request-could-q2-c1": "後ろに動詞の原形が続く形になりません。",
+        "expr-request-could-q2-c3": "make sure は to が必要で、\"send\" に直接つながりません。",
+        "expr-request-could-q2-c4": "Would you mind の後は動名詞で、\"send\" に直接つながりません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-favor-q2",
+      "expressionId": "expr-request-favor",
+      "format": "dialogue",
+      "promptJa": "【場面】友人どうしの会話。\nA: \"Hey, ____?\"\nB: \"Sure, what is it?\"\nA: \"Can you pick me up at the station tomorrow?\"",
+      "choices": [
+        {
+          "id": "expr-request-favor-q2-c1",
+          "text": "Could you possibly…?",
+          "expressionId": "expr-request-possibly"
+        },
+        {
+          "id": "expr-request-favor-q2-c2",
+          "text": "Please make sure to…",
+          "expressionId": "expr-request-sure"
+        },
+        {
+          "id": "expr-request-favor-q2-c3",
+          "text": "Can you do me a favor?",
+          "expressionId": "expr-request-favor"
+        },
+        {
+          "id": "expr-request-favor-q2-c4",
+          "text": "I need you to…",
+          "expressionId": "expr-request-need"
+        }
+      ],
+      "answerId": "expr-request-favor-q2-c3",
+      "reasonJa": "B が \"what is it?\" と聞き返し、A が後から内容を述べているので、頼みを切り出す Can you do me a favor? が合います。",
+      "whyNotJa": {
+        "expr-request-favor-q2-c1": "後に動詞が続く形で、文が完結せず、\"what is it?\" という返事とつながりません。",
+        "expr-request-favor-q2-c2": "make sure は後に to＋動詞が必要で、文が完結しません。",
+        "expr-request-favor-q2-c4": "need の後に to＋動詞が必要で、文が完結しません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-sure-q3",
+      "expressionId": "expr-request-sure",
+      "format": "dialogue",
+      "promptJa": "【場面】チームへの念押し。\nA: \"Everyone, ____ check the list before you submit.\"\nB: \"Got it.\"\nA: \"Thanks.\"",
+      "choices": [
+        {
+          "id": "expr-request-sure-q3-c1",
+          "text": "Would you mind …ing?",
+          "expressionId": "expr-request-mind"
+        },
+        {
+          "id": "expr-request-sure-q3-c2",
+          "text": "Can you do me a favor?",
+          "expressionId": "expr-request-favor"
+        },
+        {
+          "id": "expr-request-sure-q3-c3",
+          "text": "Could you possibly…?",
+          "expressionId": "expr-request-possibly"
+        },
+        {
+          "id": "expr-request-sure-q3-c4",
+          "text": "Please make sure to…",
+          "expressionId": "expr-request-sure"
+        }
+      ],
+      "answerId": "expr-request-sure-q3-c4",
+      "reasonJa": "全員への念押しで、後ろに動詞の原形が続くので、Please make sure to… が合います。",
+      "whyNotJa": {
+        "expr-request-sure-q3-c1": "Would you mind の後は動名詞で、\"check\" に直接つながりません。",
+        "expr-request-sure-q3-c2": "頼みごとを切り出す文で、後に動詞が続く形になりません。",
+        "expr-request-sure-q3-c3": "恐縮して頼む言い方で、全員への念押しという場面に合いません。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-could-q3",
+      "expressionId": "expr-request-could",
+      "format": "order",
+      "promptJa": "次の4つの表現を、カジュアルなものから丁寧なものの順に並べてください。",
+      "choices": [
+        {
+          "id": "expr-request-could-q3-c1",
+          "text": "Would you mind …ing?",
+          "expressionId": "expr-request-mind"
+        },
+        {
+          "id": "expr-request-could-q3-c2",
+          "text": "Could you possibly…?",
+          "expressionId": "expr-request-possibly"
+        },
+        {
+          "id": "expr-request-could-q3-c3",
+          "text": "Can you do me a favor?",
+          "expressionId": "expr-request-favor"
+        },
+        {
+          "id": "expr-request-could-q3-c4",
+          "text": "Could you…?",
+          "expressionId": "expr-request-could"
+        }
+      ],
+      "correctOrder": [
+        "expr-request-could-q3-c3",
+        "expr-request-could-q3-c4",
+        "expr-request-could-q3-c1",
+        "expr-request-could-q3-c2"
+      ],
+      "reasonJa": "丁寧さは、カジュアル（左）から丁寧（右）の順に、Can you do me a favor? → Could you…? → Would you mind …ing? → Could you possibly…? です。",
+      "notesJa": {
+        "expr-request-could-q3-c3": "最もくだけた、親しい間柄の切り出しです。",
+        "expr-request-could-q3-c4": "標準的な丁寧さで、中間です。",
+        "expr-request-could-q3-c1": "相手の気持ちを気づかう、丁寧な言い方です。",
+        "expr-request-could-q3-c2": "恐縮を足した、最も丁寧な言い方です。"
+      },
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-appreciate-q2",
+      "expressionId": "expr-request-appreciate",
+      "format": "order",
+      "promptJa": "次の4つの表現を、カジュアルなものから丁寧なものの順に並べてください。",
+      "choices": [
+        {
+          "id": "expr-request-appreciate-q2-c1",
+          "text": "I was wondering if you could…",
+          "expressionId": "expr-request-wondering"
+        },
+        {
+          "id": "expr-request-appreciate-q2-c2",
+          "text": "Can you…?",
+          "expressionId": "expr-request-can"
+        },
+        {
+          "id": "expr-request-appreciate-q2-c3",
+          "text": "Could you…?",
+          "expressionId": "expr-request-could"
+        },
+        {
+          "id": "expr-request-appreciate-q2-c4",
+          "text": "I'd appreciate it if you could…",
+          "expressionId": "expr-request-appreciate"
+        }
+      ],
+      "correctOrder": [
+        "expr-request-appreciate-q2-c2",
+        "expr-request-appreciate-q2-c3",
+        "expr-request-appreciate-q2-c4",
+        "expr-request-appreciate-q2-c1"
+      ],
+      "reasonJa": "丁寧さは、カジュアル（左）から丁寧（右）の順に、Can you…? → Could you…? → I'd appreciate it if you could… → I was wondering if you could… です。",
+      "notesJa": {
+        "expr-request-appreciate-q2-c2": "最も気軽な頼み方です。",
+        "expr-request-appreciate-q2-c3": "標準的な丁寧さです。",
+        "expr-request-appreciate-q2-c4": "感謝を前に出す、メールでの丁寧な依頼です。",
+        "expr-request-appreciate-q2-c1": "遠回しで断る余地を大きく残す、最も丁寧な言い方です。"
+      },
+      "status": "unverified"
+    }
+  ]
+}

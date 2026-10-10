@@ -1,0 +1,1179 @@
+{
+  "id": "expressions",
+  "version": 1,
+  "kind": "expressions",
+  "categories": [
+    {
+      "id": "cat-ideas",
+      "name": "考えを伝える",
+      "order": 1
+    },
+    {
+      "id": "cat-asking",
+      "name": "頼む・断る",
+      "order": 3
+    }
+  ],
+  "functions": [
+    {
+      "id": "fn-opinion",
+      "categoryId": "cat-ideas",
+      "name": "意見を言う",
+      "order": 1
+    },
+    {
+      "id": "fn-disagree",
+      "categoryId": "cat-ideas",
+      "name": "反対する",
+      "order": 3
+    },
+    {
+      "id": "fn-request",
+      "categoryId": "cat-asking",
+      "name": "依頼する",
+      "order": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "expr-opinion-think",
+      "functionId": "fn-opinion",
+      "expression": "I think…",
+      "politeness": "neutral",
+      "politenessRank": 3,
+      "strength": "neutral",
+      "setting": "both",
+      "nuanceJa": "意見であることを示すだけの基本形で、強さも丁寧さも付かない。迷ったらこれで足りるが、会議では理由を続けないと軽く聞こえる。",
+      "cautionJa": "同じ文頭が続くと単調になるので、長い発言では他の言い方と入れ替える。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "What do you think about the new schedule?"
+        },
+        {
+          "speaker": "B",
+          "text": "I think it gives us more time to prepare."
+        },
+        {
+          "speaker": "A",
+          "text": "Good point. Let's try it."
+        },
+        {
+          "speaker": "B",
+          "text": "Great. I'll update the plan today."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-opinion-feel",
+          "noteJa": "口調が軽く、根拠を求められにくい"
+        },
+        {
+          "id": "expr-opinion-inmyop",
+          "noteJa": "改まって意見を区切る"
+        },
+        {
+          "id": "expr-opinion-firmly",
+          "noteJa": "確信を強く出す"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-feel",
+      "functionId": "fn-opinion",
+      "expression": "I feel like…",
+      "politeness": "casual",
+      "politenessRank": 1,
+      "strength": "soft",
+      "setting": "daily",
+      "nuanceJa": "「なんとなくそう思う」という感覚を出し、断定を避ける。根拠を求められにくい軽さがあり、友人との雑談で気軽に使える。",
+      "cautionJa": "会議や報告で使うと、考えが固まっていない印象を与える。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Where should we eat tonight?"
+        },
+        {
+          "speaker": "B",
+          "text": "I feel like Thai food tonight."
+        },
+        {
+          "speaker": "A",
+          "text": "Sounds good to me."
+        },
+        {
+          "speaker": "B",
+          "text": "Great. I'll book a table."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-opinion-think",
+          "noteJa": "意見の基本形で、軽さがない"
+        },
+        {
+          "id": "expr-opinion-askme",
+          "noteJa": "聞かれて答える立場の雑談調"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-askme",
+      "functionId": "fn-opinion",
+      "expression": "If you ask me, …",
+      "politeness": "casual",
+      "politenessRank": 2,
+      "strength": "neutral",
+      "setting": "daily",
+      "nuanceJa": "聞かれたから答える、という立場で個人的な意見を出す。「あくまで私の場合は」と距離が置けるので、意見が割れる話題でも角が立たない。",
+      "cautionJa": "上司への正式な報告には砕けすぎる。聞かれていない場面で使うと唐突に響く。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Which phone is better, do you think?"
+        },
+        {
+          "speaker": "B",
+          "text": "If you ask me, the cheaper one is enough."
+        },
+        {
+          "speaker": "A",
+          "text": "Really? Why?"
+        },
+        {
+          "speaker": "B",
+          "text": "You don't need the extra camera."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-opinion-feel",
+          "noteJa": "感覚で言う軽い言い方"
+        },
+        {
+          "id": "expr-opinion-think",
+          "noteJa": "聞かれた立場を示さない基本形"
+        },
+        {
+          "id": "expr-opinion-inmyop",
+          "noteJa": "改まって意見を区切る"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-inmyop",
+      "functionId": "fn-opinion",
+      "expression": "In my opinion, …",
+      "politeness": "polite",
+      "politenessRank": 4,
+      "strength": "neutral",
+      "setting": "work",
+      "nuanceJa": "意見であることを改まって示し、主張の区切りを作る。議論やスピーチ、文章で「ここからが私の考え」と聞き手に知らせる働きがある。",
+      "cautionJa": "日常の雑談で使うと、堅苦しく聞こえる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Could you share your view on the plan?"
+        },
+        {
+          "speaker": "B",
+          "text": "In my opinion, the plan needs a longer test period."
+        },
+        {
+          "speaker": "A",
+          "text": "That makes sense. How long?"
+        },
+        {
+          "speaker": "B",
+          "text": "About three months, I think."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-opinion-think",
+          "noteJa": "区切りを作らない基本形"
+        },
+        {
+          "id": "expr-opinion-inclined",
+          "noteJa": "控えめで反論の余地を残す"
+        },
+        {
+          "id": "expr-opinion-argue",
+          "noteJa": "根拠を添えて主張を押し出す"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-inclined",
+      "functionId": "fn-opinion",
+      "expression": "I'm inclined to think…",
+      "politeness": "polite",
+      "politenessRank": 5,
+      "strength": "soft",
+      "setting": "work",
+      "nuanceJa": "断定を避けて、考えの方向だけを示す。相手に反論の余地を残すので、議論の途中で使いやすい。",
+      "cautionJa": "日常の雑談で使うと、大げさに聞こえる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Should we hire another designer?"
+        },
+        {
+          "speaker": "B",
+          "text": "I'm inclined to think we should wait until spring."
+        },
+        {
+          "speaker": "A",
+          "text": "Why spring?"
+        },
+        {
+          "speaker": "B",
+          "text": "The budget will be clearer by then."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-opinion-asfar",
+          "noteJa": "情報が足りないことを理由に控えめにする"
+        },
+        {
+          "id": "expr-opinion-inmyop",
+          "noteJa": "中立の強さで意見を区切る"
+        },
+        {
+          "id": "expr-opinion-think",
+          "noteJa": "考えの方向を示さない基本形"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-asfar",
+      "functionId": "fn-opinion",
+      "expression": "As far as I can see, …",
+      "politeness": "neutral",
+      "politenessRank": 3,
+      "strength": "soft",
+      "setting": "both",
+      "nuanceJa": "自分に見えている範囲に限って意見を述べ、断言を避ける。I think と違い、「まだ全体は見えていない」という前提を添えるので、情報が足りない段階の会議でも、現状の見立てとして話を進められる。",
+      "cautionJa": "何度も使うと、責任を避けている印象になる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Is the report ready?"
+        },
+        {
+          "speaker": "B",
+          "text": "As far as I can see, only the last chapter is missing."
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks. I'll check it later."
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, I'll finish it tomorrow."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-opinion-inclined",
+          "noteJa": "考えの方向を控えめに示す"
+        },
+        {
+          "id": "expr-opinion-think",
+          "noteJa": "範囲を限定しない基本形"
+        },
+        {
+          "id": "expr-opinion-firmly",
+          "noteJa": "確信を強く出す"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-argue",
+      "functionId": "fn-opinion",
+      "expression": "I'd argue that…",
+      "politeness": "polite",
+      "politenessRank": 4,
+      "strength": "firm",
+      "setting": "work",
+      "nuanceJa": "根拠を示して主張を押し出す、議論向きの前置き。反対意見がある場面で、自分の立場を論理的に述べる響きがある。",
+      "cautionJa": "日常の会話で使うと、討論のように聞こえて相手が身構える。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Some people say printed books will disappear."
+        },
+        {
+          "speaker": "B",
+          "text": "I'd argue that they will stay, because people like to hold them."
+        },
+        {
+          "speaker": "A",
+          "text": "Interesting. I hadn't thought about that."
+        },
+        {
+          "speaker": "B",
+          "text": "Yes. Many readers say holding a book feels calmer."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-opinion-inmyop",
+          "noteJa": "意見を区切るだけで、主張の強さは中立"
+        },
+        {
+          "id": "expr-opinion-firmly",
+          "noteJa": "根拠よりも確信を前に出す"
+        },
+        {
+          "id": "expr-opinion-inclined",
+          "noteJa": "控えめで反論の余地を残す"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-opinion-firmly",
+      "functionId": "fn-opinion",
+      "expression": "I firmly believe…",
+      "politeness": "neutral",
+      "politenessRank": 3,
+      "strength": "firm",
+      "setting": "both",
+      "nuanceJa": "強い確信を示し、考えを譲らない姿勢を伝える。反対が予想される場面で、主張を押し出すのに使える。",
+      "cautionJa": "多用すると頑固な印象になる。確信のない内容に使うと、後で説得力を失う。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Will the plan work?"
+        },
+        {
+          "speaker": "B",
+          "text": "I firmly believe it will, if we start now."
+        },
+        {
+          "speaker": "A",
+          "text": "I hope you're right."
+        },
+        {
+          "speaker": "B",
+          "text": "Me too. Let's start tomorrow."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-opinion-argue",
+          "noteJa": "根拠を添えて論理的に主張する"
+        },
+        {
+          "id": "expr-opinion-think",
+          "noteJa": "確信の強さを示さない基本形"
+        },
+        {
+          "id": "expr-opinion-asfar",
+          "noteJa": "範囲を限って控えめに言う"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-dont",
+      "functionId": "fn-disagree",
+      "expression": "I don't think so.",
+      "politeness": "neutral",
+      "politenessRank": 3,
+      "strength": "neutral",
+      "setting": "both",
+      "nuanceJa": "短く否定する基本形。I don’t agree より軽く、相手を責める響きは弱い。理由を続けないと、そっけなく聞こえる。",
+      "cautionJa": "語尾を下げて短く言うと、冷たく突き放して聞こえる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "This restaurant is cheap, right?"
+        },
+        {
+          "speaker": "B",
+          "text": "I don't think so. It was expensive last time."
+        },
+        {
+          "speaker": "A",
+          "text": "Oh, really?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes. Let's check another place."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-disagree-notsure",
+          "noteJa": "確信がなく穏やかに疑う"
+        },
+        {
+          "id": "expr-disagree-differently",
+          "noteJa": "見方の違いとして述べる"
+        },
+        {
+          "id": "expr-disagree-noway",
+          "noteJa": "くだけた強い否定"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-noway",
+      "functionId": "fn-disagree",
+      "expression": "No way.",
+      "politeness": "casual",
+      "politenessRank": 1,
+      "strength": "firm",
+      "setting": "daily",
+      "nuanceJa": "強い否定や「ありえない」という驚きを、くだけた口調で示す。友人同士の軽い反応に向き、冗談の調子も出せる。",
+      "cautionJa": "仕事の場面や目上の人に使うと失礼。本気の反対には軽すぎる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "I'll run ten kilometers tomorrow morning."
+        },
+        {
+          "speaker": "B",
+          "text": "No way! You hate running."
+        },
+        {
+          "speaker": "A",
+          "text": "I'm serious this time."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay, I'll believe you. Good luck!"
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-disagree-dont",
+          "noteJa": "落ち着いた短い否定"
+        },
+        {
+          "id": "expr-disagree-notsee",
+          "noteJa": "自分の見方に引きつけて反対する"
+        },
+        {
+          "id": "expr-disagree-afraid",
+          "noteJa": "丁寧にはっきり反対する"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-differently",
+      "functionId": "fn-disagree",
+      "expression": "I see it differently.",
+      "politeness": "neutral",
+      "politenessRank": 3,
+      "strength": "soft",
+      "setting": "both",
+      "nuanceJa": "相手の意見を否定せず、見方が違うことだけを示す。対立を作らずに別の考えを切り出せる。",
+      "cautionJa": "理由を続けないと、あいまいなまま話が進まない。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "This plan is too risky."
+        },
+        {
+          "speaker": "B",
+          "text": "I see it differently. I think the risk is small."
+        },
+        {
+          "speaker": "A",
+          "text": "Tell me more."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure. The first step costs very little."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-disagree-notsee",
+          "noteJa": "「私の見方は違う」と言い切り、くだけた響き"
+        },
+        {
+          "id": "expr-disagree-point",
+          "noteJa": "相手の指摘を認めてから反論する"
+        },
+        {
+          "id": "expr-disagree-dont",
+          "noteJa": "見方でなく判断そのものを否定する"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-afraid",
+      "functionId": "fn-disagree",
+      "expression": "I'm afraid I disagree.",
+      "politeness": "polite",
+      "politenessRank": 5,
+      "strength": "neutral",
+      "setting": "work",
+      "nuanceJa": "afraid が「残念ながら」というクッションになり、丁寧に、しかしはっきり反対を伝える。会議や顧客相手の定番の言い方。",
+      "cautionJa": "言い方が硬いので、親しい相手には距離を感じさせる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Can we reduce the price by half?"
+        },
+        {
+          "speaker": "B",
+          "text": "I'm afraid I disagree. That would be below our cost."
+        },
+        {
+          "speaker": "A",
+          "text": "I understand."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you. We can discuss other options."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-disagree-haveto",
+          "noteJa": "義務感があり譲らない"
+        },
+        {
+          "id": "expr-disagree-respect",
+          "noteJa": "敬意を前置きして強く反対する"
+        },
+        {
+          "id": "expr-disagree-notsure",
+          "noteJa": "確信がない形で穏やかに疑う"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-point",
+      "functionId": "fn-disagree",
+      "expression": "I see your point, but…",
+      "politeness": "polite",
+      "politenessRank": 4,
+      "strength": "soft",
+      "setting": "both",
+      "nuanceJa": "相手の論点をまず認め、but 以降で自分の考えを述べる。反対しても相手の顔を立てられる。本題は but の後なので、前半は短くまとめる。",
+      "cautionJa": "前半が長いと本心が見えにくく、but の後で急に冷たく聞こえる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "The meeting is too long."
+        },
+        {
+          "speaker": "B",
+          "text": "I see your point, but the team needs time to discuss."
+        },
+        {
+          "speaker": "A",
+          "text": "Maybe we can use a timer."
+        },
+        {
+          "speaker": "B",
+          "text": "That's a good idea."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-disagree-differently",
+          "noteJa": "指摘を認めず、見方の違いだけを示す"
+        },
+        {
+          "id": "expr-disagree-afraid",
+          "noteJa": "認める前置きなしで、はっきり反対する"
+        },
+        {
+          "id": "expr-disagree-dont",
+          "noteJa": "前置きなしの短い否定"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-notsee",
+      "functionId": "fn-disagree",
+      "expression": "That's not how I see it.",
+      "politeness": "casual",
+      "politenessRank": 2,
+      "strength": "neutral",
+      "setting": "daily",
+      "nuanceJa": "「私の見方は違う」と自分の視点に引きつけて反対する。相手の誤りを指摘する形にならないが、口調が強いと突き放した響きになる。",
+      "cautionJa": "初対面の人や目上の人には、くだけすぎて聞こえる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "He should apologize first."
+        },
+        {
+          "speaker": "B",
+          "text": "That's not how I see it. Both sides made mistakes."
+        },
+        {
+          "speaker": "A",
+          "text": "Hmm, maybe."
+        },
+        {
+          "speaker": "B",
+          "text": "Maybe. Let's talk to both of them."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-disagree-differently",
+          "noteJa": "より穏やかに見方の違いを示す"
+        },
+        {
+          "id": "expr-disagree-dont",
+          "noteJa": "見方でなく判断を否定する"
+        },
+        {
+          "id": "expr-disagree-noway",
+          "noteJa": "驚きを込めた強い否定"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-haveto",
+      "functionId": "fn-disagree",
+      "expression": "I have to disagree.",
+      "politeness": "polite",
+      "politenessRank": 4,
+      "strength": "firm",
+      "setting": "work",
+      "nuanceJa": "「反対せざるを得ない」という義務感を出し、丁寧ながら譲らない姿勢を示す。理由が安全や規則など、動かせないときに向く。",
+      "cautionJa": "頻繁に使うと、いつも反対する人という印象になる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Let's skip the safety check this time."
+        },
+        {
+          "speaker": "B",
+          "text": "I have to disagree. It's required by the rules."
+        },
+        {
+          "speaker": "A",
+          "text": "Right. Let's do it."
+        },
+        {
+          "speaker": "B",
+          "text": "Thanks. I'll prepare the check now."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-disagree-afraid",
+          "noteJa": "残念という気づかいが前に出る"
+        },
+        {
+          "id": "expr-disagree-respect",
+          "noteJa": "敬意の前置きを付けて強く反対する"
+        },
+        {
+          "id": "expr-disagree-point",
+          "noteJa": "認める前置きを置いて穏やかに反対する"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-respect",
+      "functionId": "fn-disagree",
+      "expression": "With all due respect, I disagree.",
+      "politeness": "polite",
+      "politenessRank": 5,
+      "strength": "firm",
+      "setting": "work",
+      "nuanceJa": "敬意を前置きしたうえで、強く異を唱える形式的な言い方。上位者や公の場で反対する際に使う。",
+      "cautionJa": "前置きだけ丁寧で内容が厳しいと、かえって攻撃的、皮肉に聞こえる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "The decision is final."
+        },
+        {
+          "speaker": "B",
+          "text": "With all due respect, I disagree. The data shows a different result."
+        },
+        {
+          "speaker": "A",
+          "text": "Please show me."
+        },
+        {
+          "speaker": "B",
+          "text": "Here are the numbers."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-disagree-haveto",
+          "noteJa": "前置きなしで義務感を示す"
+        },
+        {
+          "id": "expr-disagree-afraid",
+          "noteJa": "クッションを置いて丁寧に反対する"
+        },
+        {
+          "id": "expr-disagree-noway",
+          "noteJa": "くだけた強い否定"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-disagree-notsure",
+      "functionId": "fn-disagree",
+      "expression": "I'm not so sure about that.",
+      "politeness": "neutral",
+      "politenessRank": 3,
+      "strength": "soft",
+      "setting": "both",
+      "nuanceJa": "確信がない形で疑問を示す、最も穏やかな反対。断定を避けるので、相手が考え直す余地を残せる。",
+      "cautionJa": "本気で反対したいときに使うと、弱く聞こえて伝わらない。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Let's take the night bus."
+        },
+        {
+          "speaker": "B",
+          "text": "I'm not so sure about that. It might be tiring."
+        },
+        {
+          "speaker": "A",
+          "text": "Then let's take the train."
+        },
+        {
+          "speaker": "B",
+          "text": "Good idea. I'll check the time."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-disagree-dont",
+          "noteJa": "はっきり否定する"
+        },
+        {
+          "id": "expr-disagree-differently",
+          "noteJa": "見方の違いとして述べる"
+        },
+        {
+          "id": "expr-disagree-afraid",
+          "noteJa": "丁寧にはっきり反対する"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-can",
+      "functionId": "fn-request",
+      "expression": "Can you…?",
+      "politeness": "casual",
+      "politenessRank": 2,
+      "strength": "neutral",
+      "setting": "daily",
+      "nuanceJa": "最も気軽な頼み方。親しい相手や同僚に、口頭で気軽に使う。",
+      "cautionJa": "目上の人や取引先に使うと、馴れ馴れしく聞こえる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Can you close the window?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure."
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks."
+        },
+        {
+          "speaker": "B",
+          "text": "No problem."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-request-could",
+          "noteJa": "一段丁寧で、断る余地を残す"
+        },
+        {
+          "id": "expr-request-favor",
+          "noteJa": "頼みを切り出す前置き"
+        },
+        {
+          "id": "expr-request-need",
+          "noteJa": "必要性を伝える強い言い方"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-favor",
+      "functionId": "fn-request",
+      "expression": "Can you do me a favor?",
+      "politeness": "casual",
+      "politenessRank": 1,
+      "strength": "neutral",
+      "setting": "daily",
+      "nuanceJa": "「ちょっと頼みがある」と最初に切り出し、内容は後に続ける。親しい間柄で、相手に心づもりをさせる前置きになる。",
+      "cautionJa": "親しくない相手に使うと、大きな頼みを想像させて身構えさせる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Can you do me a favor?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, what is it?"
+        },
+        {
+          "speaker": "A",
+          "text": "Can you water my plants this weekend?"
+        },
+        {
+          "speaker": "B",
+          "text": "Of course. Just send me the key."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-request-can",
+          "noteJa": "前置きなしで頼む"
+        },
+        {
+          "id": "expr-request-could",
+          "noteJa": "改まった頼み方"
+        },
+        {
+          "id": "expr-request-mind",
+          "noteJa": "相手の気持ちを気づかって頼む"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-could",
+      "functionId": "fn-request",
+      "expression": "Could you…?",
+      "politeness": "neutral",
+      "politenessRank": 3,
+      "strength": "soft",
+      "setting": "both",
+      "nuanceJa": "can より一段丁寧で、断られる余地を残す。日常でも仕事でも使える標準的な丁寧さで、迷ったらこれで足りる。",
+      "cautionJa": "大きな頼みや目上の相手には、さらに丁寧な言い方（possibly など）の方が安心。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Could you send me the file by noon?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, I'll do it now."
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you."
+        },
+        {
+          "speaker": "B",
+          "text": "You're welcome."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-request-can",
+          "noteJa": "気軽でくだけた頼み方"
+        },
+        {
+          "id": "expr-request-possibly",
+          "noteJa": "恐縮を足してさらに丁寧にする"
+        },
+        {
+          "id": "expr-request-mind",
+          "noteJa": "相手の気持ちを先に気づかう"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-sure",
+      "functionId": "fn-request",
+      "expression": "Please make sure to…",
+      "politeness": "neutral",
+      "politenessRank": 3,
+      "strength": "firm",
+      "setting": "work",
+      "nuanceJa": "依頼というより念押しで、必ずしてほしい点を確実に伝える。期限や必須事項の周知に向く。",
+      "cautionJa": "初対面や目上の相手に使うと、命令のように聞こえる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Everyone, please make sure to check the list before you submit."
+        },
+        {
+          "speaker": "B",
+          "text": "Got it."
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks."
+        },
+        {
+          "speaker": "B",
+          "text": "I'll check mine now."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-request-need",
+          "noteJa": "必要性を伝えて実質的に求める"
+        },
+        {
+          "id": "expr-request-appreciate",
+          "noteJa": "感謝を前に出して頼む"
+        },
+        {
+          "id": "expr-request-can",
+          "noteJa": "念押しでなく気軽に頼む"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-need",
+      "functionId": "fn-request",
+      "expression": "I need you to…",
+      "politeness": "neutral",
+      "politenessRank": 3,
+      "strength": "firm",
+      "setting": "work",
+      "nuanceJa": "必要性を伝え、実質的に求める形。上司から部下、緊急時の指示など、頼むというより指示に近い強さがある。",
+      "cautionJa": "同僚や外部の人に使うと、命令的で強く聞こえる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "I need you to send the data now."
+        },
+        {
+          "speaker": "B",
+          "text": "Understood. I'll send it in five minutes."
+        },
+        {
+          "speaker": "A",
+          "text": "Please hurry."
+        },
+        {
+          "speaker": "B",
+          "text": "Sent. Please check it."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-request-sure",
+          "noteJa": "念押しとして確実にしてほしいと伝える"
+        },
+        {
+          "id": "expr-request-could",
+          "noteJa": "断る余地を残して頼む"
+        },
+        {
+          "id": "expr-request-appreciate",
+          "noteJa": "感謝を前に出して丁寧に頼む"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-mind",
+      "functionId": "fn-request",
+      "expression": "Would you mind …ing?",
+      "politeness": "polite",
+      "politenessRank": 4,
+      "strength": "soft",
+      "setting": "both",
+      "nuanceJa": "「嫌でなければ」と相手の気持ちを先に気づかう。手間をかける頼みや、断りにくい相手への配慮に向く。",
+      "cautionJa": "答えが逆になる。Yes は「嫌です」、No は「いいですよ」の意味になるので、返す側は No, not at all と答える。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Would you mind moving your bag a little?"
+        },
+        {
+          "speaker": "B",
+          "text": "No, not at all. Here you go."
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you."
+        },
+        {
+          "speaker": "B",
+          "text": "You're welcome."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-request-could",
+          "noteJa": "気づかいを前に出さず標準的に頼む"
+        },
+        {
+          "id": "expr-request-possibly",
+          "noteJa": "無理を承知で恐縮して頼む"
+        },
+        {
+          "id": "expr-request-appreciate",
+          "noteJa": "感謝を前に出して頼む"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-appreciate",
+      "functionId": "fn-request",
+      "expression": "I'd appreciate it if you could…",
+      "politeness": "polite",
+      "politenessRank": 4,
+      "strength": "neutral",
+      "setting": "work",
+      "nuanceJa": "「してもらえるとありがたい」と感謝を前に出す。依頼が通ることを前提に丁寧に頼むので、メールでの正式な依頼の定番になる。",
+      "cautionJa": "口頭の雑談で使うと、堅苦しく聞こえる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "I'd appreciate it if you could reply by Friday."
+        },
+        {
+          "speaker": "B",
+          "text": "Of course. I'll send it on Thursday."
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "B",
+          "text": "You're welcome."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-request-wondering",
+          "noteJa": "遠回しに頼み、断る余地を大きく残す"
+        },
+        {
+          "id": "expr-request-possibly",
+          "noteJa": "無理を承知で恐縮して頼む"
+        },
+        {
+          "id": "expr-request-could",
+          "noteJa": "感謝を前に出さず標準的に頼む"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-possibly",
+      "functionId": "fn-request",
+      "expression": "Could you possibly…?",
+      "politeness": "polite",
+      "politenessRank": 5,
+      "strength": "soft",
+      "setting": "work",
+      "nuanceJa": "possibly が「無理かもしれないが」という恐縮を足す。本来の範囲を超える頼みや、目上の相手への依頼で使う。",
+      "cautionJa": "軽い頼みに付けると、大げさに聞こえる。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "Could you possibly review this report tonight?"
+        },
+        {
+          "speaker": "B",
+          "text": "Of course. When do you need it?"
+        },
+        {
+          "speaker": "A",
+          "text": "By tomorrow morning."
+        },
+        {
+          "speaker": "B",
+          "text": "Understood. I'll start now."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-request-could",
+          "noteJa": "恐縮を足さない標準的な頼み方"
+        },
+        {
+          "id": "expr-request-wondering",
+          "noteJa": "さらに遠回しに頼む"
+        },
+        {
+          "id": "expr-request-appreciate",
+          "noteJa": "感謝を前に出して頼む"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "expr-request-wondering",
+      "functionId": "fn-request",
+      "expression": "I was wondering if you could…",
+      "politeness": "polite",
+      "politenessRank": 5,
+      "strength": "soft",
+      "setting": "work",
+      "nuanceJa": "遠回しに頼み、断る余地をたっぷり残す。依頼が大きいときや、面識の浅い相手に向く。",
+      "cautionJa": "頻繁に使うと、話が長く回りくどい印象になる。急ぎの場面には向かない。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "I was wondering if you could join our workshop."
+        },
+        {
+          "speaker": "B",
+          "text": "I'd be happy to. When is it?"
+        },
+        {
+          "speaker": "A",
+          "text": "Next Tuesday afternoon."
+        },
+        {
+          "speaker": "B",
+          "text": "Great, see you there."
+        }
+      ],
+      "related": [
+        {
+          "id": "expr-request-possibly",
+          "noteJa": "恐縮を足して直接たずねる"
+        },
+        {
+          "id": "expr-request-appreciate",
+          "noteJa": "感謝を前に出して頼む"
+        },
+        {
+          "id": "expr-request-could",
+          "noteJa": "遠回しにせず標準的に頼む"
+        }
+      ],
+      "status": "unverified"
+    }
+  ]
+}
