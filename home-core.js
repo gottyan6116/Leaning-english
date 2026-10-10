@@ -4,8 +4,9 @@
  // Dates are Japan Standard Time (UTC+9, no daylight saving), weeks start on Monday.
  const JST_OFFSET=9*3600*1000,DAY=86400000,SECONDS_PER_QUESTION=30,WEEKDAYS=['月','火','水','木','金','土','日'],WEEKDAY_NAMES=['日','月','火','水','木','金','土'];
  // The one place that chooses which number the "this week" block shows. Study time can replace answers once it is measured.
- const PROGRESS_METRIC='answers';
- const METRICS={answers:{label:'今週の回答数',unit:'問',daily:(counts)=>counts}};
+ const PROGRESS_METRIC='minutes';
+ // daily(counts, {dates, studyMs}): counts are answers per day; studyMs is the measured study time (ms) per day.
+ const METRICS={answers:{label:'今週の回答数',unit:'問',daily:(counts)=>counts},minutes:{label:'今週の学習時間',unit:'分',daily:(counts,ctx)=>ctx.dates.map(day=>Math.round((ctx.studyMs?.[day]||0)/60000))}};
  const KINDS=['vocab','colloc','article'];
  const shifted=ts=>new Date(ts+JST_OFFSET);
  const pad=n=>String(n).padStart(2,'0');
@@ -44,7 +45,7 @@
  function weekStats(data,today,metric=PROGRESS_METRIC){
   const dates=weekDates(today),all=events(data),inWeek=all.filter(e=>dates.includes(jstDate(e.ts)));
   const counts=dates.map(date=>all.filter(e=>e.answer&&jstDate(e.ts)===date).length);
-  const series=(METRICS[metric]||METRICS.answers).daily(counts);
+  const series=(METRICS[metric]||METRICS.answers).daily(counts,{dates,studyMs:data.studyMs||{}});
   return {dates,metric:METRICS[metric]?metric:'answers',series,total:series.reduce((a,b)=>a+b,0),
    words:new Set(inWeek.filter(e=>e.kind==='vocab'&&e.wordId).map(e=>e.wordId)).size,
    articles:new Set(inWeek.filter(e=>e.read).map(e=>e.articleId)).size,

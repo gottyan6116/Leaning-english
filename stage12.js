@@ -18,8 +18,10 @@
  const marks=n=>window.WordbookCore.setLabel(n);
  function data(){
   return {vocabLogs:asArray(readJson(KEYS.quiz,[])),collocLogs:(()=>{try{return window.CollocationUI?.getStore?.()?.logs||[];}catch(error){return [];}})(),
-   articleAnswers:Object.values(readJson(KEYS.articleAnswers,{})||{}),reads:readJson(KEYS.reads,{})||{},completions:asArray(readJson(KEYS.done,[]))};
+   articleAnswers:Object.values(readJson(KEYS.articleAnswers,{})||{}),reads:readJson(KEYS.reads,{})||{},completions:asArray(readJson(KEYS.done,[])),studyMs:studyMs()};
  }
+ // Measured study time per Japan-time day, in ms (overlapping devices already counted once).
+ function studyMs(){try{const agg=window.StudyStats.aggregate(asArray(readJson('english-notes.study.segments.v1',[])));return Object.fromEntries(Object.entries(agg.days).map(([day,value])=>[day,value.total]));}catch(error){return {};}}
  function recordCompletion(session){
   try{
    const kinds=new Set(session.items.map(item=>item.kind==='collocation'?'colloc':'vocab'));let list=asArray(readJson(KEYS.done,[]));
@@ -85,11 +87,21 @@
   return `<section class="hm-card hm-calendar" aria-label="週のカレンダー"><div class="hm-cal-head"><button class="hm-cal-nav" data-hm-week="-1" aria-label="前の週">${svg('chevron','hm-flip')}</button><h2>${esc(H.monthTitle(dates))}</h2><button class="hm-cal-nav" data-hm-week="1" aria-label="次の週">${svg('chevron')}</button></div>
   <div class="hm-cal-grid" role="list">${dates.map((d,i)=>`<div class="hm-cal-day" role="listitem" aria-label="${esc(H.label(d))}${days.has(d)?'、学習した日':''}${d===today?'、今日':''}"><span class="hm-cal-wd">${H.WEEKDAYS[i]}</span><span class="hm-cal-num ${d===today?'today':''}">${H.dayOfMonth(d)}</span><span class="hm-cal-dot ${days.has(d)?'on':''}" aria-hidden="true"></span></div>`).join('')}</div></section>`;
  }
+ // Shown only for the goals the learner has set (minutes per day / per week).
+ function goalLines(stats){
+  const goals=window.AppUI?.goals?.()||{},rows=[];
+  if(stats.metric==='minutes'){
+   if(goals.daily)rows.push(`今日 ${stats.series[stats.todayIndex]??0} / ${goals.daily}分`);
+   if(goals.weekly)rows.push(`今週 ${stats.total} / ${goals.weekly}分`);
+  }
+  return rows.length?`<ul class="hm-goals">${rows.map(text=>`<li>${esc(text)}</li>`).join('')}</ul>`:'';
+ }
  function progressCard(stats){
   const metric=H.METRICS[stats.metric],max=Math.max(1,...stats.series);
   return `<section class="hm-card hm-progress" aria-labelledby="hm-progress-title"><div class="hm-card-head"><h2 id="hm-progress-title">${svg('chart','hm-head-icon')}学習の進捗</h2><button class="hm-link" data-hm-go="records">詳細${chevron()}</button></div>
   <div class="hm-week"><div class="hm-week-total"><span class="hm-week-label">${esc(metric.label)}</span><strong>${stats.total}<small>${esc(metric.unit)}</small></strong></div>
   <div class="hm-bars" role="img" aria-label="${esc(stats.dates.map((d,i)=>`${H.WEEKDAYS[i]}曜 ${stats.series[i]}${metric.unit}`).join('、'))}">${stats.series.map((v,i)=>`<div class="hm-bar-col"><span class="hm-bar-track"><span class="hm-bar ${i===stats.todayIndex?'today':''}" style="height:${Math.max(8,Math.round(v/max*100))}%"></span></span><span class="hm-bar-label ${i===stats.todayIndex?'today':''}">${H.WEEKDAYS[i]}</span></div>`).join('')}</div></div>
+  ${goalLines(stats)}
   <div class="hm-tiles"><div class="hm-tile"><span>学習した単語</span><strong>${stats.words}<small>語</small></strong></div><div class="hm-tile"><span>読んだ記事</span><strong>${stats.articles}<small>本</small></strong></div><div class="hm-tile"><span>組み合わせ</span><strong>${stats.collocations}<small>件</small></strong></div></div></section>`;
  }
  function streakCard(days,today){

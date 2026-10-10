@@ -1,41 +1,116 @@
-let recordPeriod='week';
-const recordToday=new Date(2026,9,3);
-const recordStart=new Date(2026,7,1);
-const dayKey=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-const shiftDay=(d,n)=>new Date(d.getFullYear(),d.getMonth(),d.getDate()+n);
-const learningHistory={};
-for(let d=new Date(recordStart);d<=recordToday;d=shiftDay(d,1)){
-  learningHistory[dayKey(d)]=d.getMonth()===7?(d.getDate()%3===1?18:0):(d.getDate()%5===1?15:d.getDate()%5===3?12:0);
-}
-['2026-09-27','2026-10-04'].forEach(k=>learningHistory[k]=0);
-['2026-09-28','2026-09-29','2026-09-30','2026-10-01','2026-10-02','2026-10-03'].forEach((k,i)=>learningHistory[k]=[12,18,15,20,10,15][i]);
-function recordedMinutes(d){return (learningHistory[dayKey(d)]||0)+(dayKey(d)===dayKey(recordToday)?manualMinutes:0)}
-function sumTime(start,end){let total=0;for(let d=new Date(start);d<=end;d=shiftDay(d,1))total+=recordedMinutes(d);return total}
-function timeText(n){return n>=60?`${Math.floor(n/60)}時間${n%60?` ${n%60}分`:''}`:`${n}分`}
-function shortDate(d){return `${d.getMonth()+1}/${d.getDate()}`}
-function recordSummary(period){
-  const weekStart=shiftDay(recordToday,-((recordToday.getDay()+6)%7)),monthStart=new Date(2026,9,1),lastStart=new Date(2026,8,1),lastEnd=new Date(2026,9,0);
-  if(period==='week')return {label:'今週の学習時間',start:weekStart,end:recordToday,compareStart:shiftDay(weekStart,-7),compareEnd:shiftDay(recordToday,-7),compareLabel:'先週の同期間比'};
-  if(period==='month')return {label:'今月の学習時間',start:monthStart,end:recordToday,compareStart:lastStart,compareEnd:new Date(2026,8,3),compareLabel:'先月の同期間比'};
-  if(period==='last')return {label:'先月の学習時間',start:lastStart,end:lastEnd,compareStart:recordStart,compareEnd:new Date(2026,8,0),compareLabel:'前月比'};
-  return {label:'累計の学習時間',start:recordStart,end:recordToday};
-}
-function calendarForPeriod(summary){
-  let start,end,title;
-  if(recordPeriod==='month'||recordPeriod==='last'){
-    start=new Date(summary.start.getFullYear(),summary.start.getMonth(),1);end=new Date(start.getFullYear(),start.getMonth()+1,0);title=`${start.getMonth()+1}月のカレンダー`;
-  }else if(recordPeriod==='week'){start=summary.start;end=shiftDay(start,6);title='今週のカレンダー'}
-  else{start=shiftDay(recordToday,-27);end=recordToday;title='最近4週間のカレンダー'}
-  const blanks=Array.from({length:start.getDay()},()=>'<span aria-hidden="true"></span>').join('');
-  let cells='';for(let d=new Date(start);d<=end;d=shiftDay(d,1)){
-    const minutes=recordedMinutes(d),level=minutes>=20?3:minutes>=15?2:minutes?1:0,future=d>recordToday;
-    cells+=`<div class="calday ${level?'level'+level:''} ${dayKey(d)===dayKey(recordToday)?'current':''} ${future?'future':''}" title="${shortDate(d)}・${future?'これから':minutes+'分'}" aria-label="${d.getMonth()+1}月${d.getDate()}日 ${future?'これから':minutes+'分'}">${d.getDate()}</div>`;
-  }
-  return `<section class="section"><div class="sectionhead"><h2>${title}</h2><span class="muted recordrange">${shortDate(start)} — ${shortDate(end)}</span></div><div class="calendar">${['日','月','火','水','木','金','土'].map(d=>`<div class="label">${d}</div>`).join('')}${blanks}${cells}</div><p class="muted calendarlegend">色の濃さは学習時間</p></section>`;
-}
-function records(){
-  const summary=recordSummary(recordPeriod),total=sumTime(summary.start,summary.end),previous=summary.compareStart?sumTime(summary.compareStart,summary.compareEnd):null;
-  const delta=previous===null?null:total-previous;
-  const thisMonth=sumTime(new Date(2026,9,1),recordToday),lastSame=sumTime(new Date(2026,8,1),new Date(2026,8,3)),lastFull=sumTime(new Date(2026,8,1),new Date(2026,9,0)),scale=Math.max(thisMonth,lastSame,1);
-  return `<div class="eyebrow">YOUR PROGRESS</div><h1>学びの積み重ね</h1><p class="muted">続けた時間を、振り返ろう。</p><section class="section timeoverview"><div class="sectionhead"><h2>学習時間</h2><button class="textbtn" onclick="manualTime()">＋ 時間を追加</button></div><div class="tabs recordtabs" aria-label="学習時間の表示期間">${[['week','今週'],['month','今月'],['last','先月'],['all','累計']].map(([v,label])=>`<button class="${recordPeriod===v?'active':''}" onclick="recordPeriod='${v}';render()" aria-pressed="${recordPeriod===v}">${label}</button>`).join('')}</div><div class="timehero" aria-live="polite"><div class="eyebrow">${summary.label}</div><strong>${timeText(total)}</strong><div class="muted recordrange">${shortDate(summary.start)} — ${shortDate(summary.end)}</div>${previous!==null?`<div class="timechange">${summary.compareLabel} <b>${delta===0?'±0分':(delta>0?'+':'−')+timeText(Math.abs(delta))}</b><span>（${shortDate(summary.compareStart)} — ${shortDate(summary.compareEnd)}）</span></div>`:`<div class="timechange">学習開始から <b>64日間</b></div>`}</div></section><section class="section monthcomparison"><div class="sectionhead"><h2>先月と比べる</h2><span class="muted recordrange">月初の3日間</span></div><div class="comparisonrow"><div><b>今月</b><small>10/1 — 10/3</small></div><div class="comparisontrack"><i style="width:${thisMonth/scale*100}%"></i></div><strong>${timeText(thisMonth)}</strong></div><div class="comparisonrow previous"><div><b>先月</b><small>9/1 — 9/3</small></div><div class="comparisontrack"><i style="width:${lastSame/scale*100}%"></i></div><strong>${timeText(lastSame)}</strong></div><p class="comparisonnote">同じ日数で ${thisMonth===lastSame?'変わらず':thisMonth>lastSame?timeText(thisMonth-lastSame)+'増えています':timeText(lastSame-thisMonth)+'少なくなっています'}<span>先月全体は ${timeText(lastFull)}</span></p></section><div class="streaksummary"><span class="streaknumber">6</span><div><h3>日連続で学習中</h3><p>1週間まで、あと1日。</p></div><span class="streakstar" aria-hidden="true">✦</span></div>${calendarForPeriod(summary)}`;
-}
+// Records screen (stage 15). Every number comes from the measured study segments of this account
+// (all devices, overlapping time counted once). Nothing here is a fixed or sample value.
+(function(){
+ 'use strict';
+ const KEY='english-notes.study.segments.v1';
+ const MANUAL_TYPES={conversation:'英会話',reading:'読書',media:'動画・ポッドキャスト',other:'その他'};
+ const KIND_LABEL={vocab:'単語',colloc:'組み合わせ',article:'記事',listening:'リスニング',manual:'アプリ外'};
+ const HOUR=3600000,MIN=60000,DAY_CAP=24*HOUR;
+ let period='week';
+ const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const store=()=>window.AppStorage||window.localStorage;
+ const S=()=>window.StudyStats;
+ function segments(){try{const list=JSON.parse(store().getItem(KEY)||'[]');return Array.isArray(list)?list:[];}catch(error){return [];}}
+ function writeSegments(list){store().setItem(KEY,JSON.stringify(list));}
+ const todayKey=()=>S().dayOf(Date.now());
+ const WEEKDAY=['日','月','火','水','木','金','土'];
+ const dateLabel=day=>{const d=new Date(day+'T00:00:00Z');return `${d.getUTCMonth()+1}月${d.getUTCDate()}日（${WEEKDAY[d.getUTCDay()]}）`;};
+ // 75 minutes -> "1時間 15分", 45 minutes -> "45分", under a minute -> "1分未満".
+ function durationText(ms){
+  const minutes=Math.floor(ms/MIN);
+  if(ms<=0)return '0分';if(minutes<1)return '1分未満';
+  return minutes>=60?`${Math.floor(minutes/60)}時間${minutes%60?` ${minutes%60}分`:''}`:`${minutes}分`;
+ }
+ const signedMinutes=ms=>`${ms>0?'+':'−'}${durationText(Math.abs(ms))}`;
+ function remainingText(ms){return ms>=HOUR?`${Math.ceil(ms/HOUR)}時間`:`${Math.max(1,Math.ceil(ms/MIN))}分`;}
+ function heroHtml(agg){
+  const m=S().milestone(agg.total);
+  return `<section class="rc-card rc-hero" aria-labelledby="rc-total-title"><h2 id="rc-total-title" class="rc-label">累計の学習時間</h2><strong class="rc-total">${esc(durationText(agg.total))}</strong>
+  ${m.next?`<p class="rc-next">${m.next}時間まであと${esc(remainingText(m.remainingMs))}</p>`:'<p class="rc-next">1000時間を超えました</p>'}
+  <div class="rc-progress" role="progressbar" aria-label="次の節目までの進み具合" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(m.progress*100)}"><i style="width:${Math.max(1,Math.round(m.progress*100))}%"></i></div></section>`;
+ }
+ function heatmapHtml(agg,today){
+  const weeks=window.matchMedia&&window.matchMedia('(min-width:768px)').matches?17:12,columns=S().heatmap(agg,today,weeks);
+  const cells=columns.map(col=>`<div class="rc-week">${col.map(c=>c.future?'<span class="rc-cell rc-future" aria-hidden="true"></span>':`<button type="button" class="rc-cell rc-heat-${c.level}" onclick="recordsPick('${c.day}',${c.ms})" onmouseenter="recordsPick('${c.day}',${c.ms})" aria-label="${esc(dateLabel(c.day))} ${esc(durationText(c.ms))}"></button>`).join('')}</div>`).join('');
+  return `<section class="rc-card" aria-labelledby="rc-heat-title"><h2 id="rc-heat-title" class="rc-title">学習カレンダー</h2>
+  <div class="rc-heat" role="group" aria-label="日ごとの学習時間（色が濃いほど長い）"><div class="rc-weekdays" aria-hidden="true"><span>月</span><span></span><span>水</span><span></span><span>金</span><span></span><span>日</span></div><div class="rc-weeks">${cells}</div></div>
+  <p class="rc-detail" id="rc-detail" role="status">日をタップすると、その日の学習時間が表示されます</p>
+  <div class="rc-legend" aria-hidden="true"><span>少ない</span>${[0,1,2,3,4,5].map(n=>`<i class="rc-cell rc-heat-${n}"></i>`).join('')}<span>多い</span></div></section>`;
+ }
+ function weekHtml(agg,today){
+  const series=S().weekSeries(agg,today),max=Math.max(1,...series.map(d=>d.total)),total=series.reduce((s,d)=>s+d.total,0),cmp=S().compareWeek(agg,today);
+  const kinds=['vocab','colloc','article','listening','manual'];
+  const bars=series.map((d,i)=>{
+   const name=WEEKDAY[(i+1)%7],stack=kinds.filter(k=>d.kinds[k]>0).map(k=>`<span class="rc-seg rc-k-${k}" style="height:${(d.kinds[k]/max*100).toFixed(2)}%"></span>`).join('');
+   return `<div class="rc-col${d.day===today?' rc-today':''}" role="img" aria-label="${name}曜 ${esc(durationText(d.total))}"><span class="rc-stack">${stack}</span><span class="rc-colname">${name}</span></div>`;
+  }).join('');
+  const present=kinds.filter(k=>series.some(d=>d.kinds[k]>0)||['vocab','colloc','article'].includes(k));
+  const compare=cmp.current===0&&cmp.previous===0?'':`<p class="rc-compare">先週の同じ期間より ${cmp.delta>0?`<b>${esc(signedMinutes(cmp.delta))}</b>`:cmp.delta<0?`<b>${esc(durationText(-cmp.delta))}少なめ</b>`:'<b>同じ</b>'}</p>`;
+  return `<section class="rc-card" aria-labelledby="rc-week-title"><h2 id="rc-week-title" class="rc-title">今週の学習時間</h2><strong class="rc-weektotal">${esc(durationText(total))}</strong>
+  <div class="rc-bars">${bars}</div><ul class="rc-keys">${present.map(k=>`<li><i class="rc-dot rc-k-${k}"></i>${KIND_LABEL[k]}</li>`).join('')}${series.some(d=>d.kinds.manual>0)?'':'<li><i class="rc-dot rc-k-manual"></i>アプリ外</li>'}</ul>${compare}</section>`;
+ }
+ function breakdownHtml(agg,today){
+  const b=S().breakdown(agg,period,today);
+  const tabs=[['week','今週'],['month','今月'],['all','累計']].map(([v,l])=>`<button type="button" class="${period===v?'active':''}" onclick="recordsPeriod('${v}')" aria-pressed="${period===v}">${l}</button>`).join('');
+  return `<section class="rc-card" aria-labelledby="rc-break-title"><h2 id="rc-break-title" class="rc-title">種類別の内訳</h2><div class="tabs rc-tabs" aria-label="表示する期間">${tabs}</div>
+  ${b.total?`<ul class="rc-break">${b.items.map(x=>`<li><span class="rc-break-name"><i class="rc-dot rc-k-${x.kind}"></i>${KIND_LABEL[x.kind]}</span><span class="rc-break-time">${esc(durationText(x.ms))}</span><span class="rc-break-pct">${x.percent}%</span><span class="rc-break-bar"><i class="rc-k-${x.kind}" style="width:${x.percent}%"></i></span></li>`).join('')}</ul>`:'<p class="rc-quiet">この期間の記録はまだありません</p>'}</section>`;
+ }
+ function manualHtml(list){
+  const rows=list.filter(s=>s.method==='manual'&&!s.deletedAt).sort((a,b)=>String(b.studyDate).localeCompare(String(a.studyDate))||String(b.updatedAt).localeCompare(String(a.updatedAt)));
+  if(!rows.length)return '';
+  return `<section class="rc-card" aria-labelledby="rc-manual-title"><h2 id="rc-manual-title" class="rc-title">アプリ外の学習</h2><ul class="rc-manual">${rows.map(s=>`<li><span class="rc-manual-main"><strong>${esc(dateLabel(s.studyDate))}　${esc(MANUAL_TYPES[s.targetId]||'その他')}</strong><span>${esc(durationText(s.countedMs))}</span>${s.note?`<small>${esc(s.note)}</small>`:''}</span><span class="rc-manual-actions"><button type="button" class="textbtn" onclick="openStudyForm('${esc(s.id)}')">編集</button><button type="button" class="textbtn" onclick="deleteStudyRecord('${esc(s.id)}')">削除</button></span></li>`).join('')}</ul></section>`;
+ }
+ function records(){
+  const list=segments(),agg=S().aggregate(list),today=todayKey();
+  const head=`<div class="rc-head"><h1>学びの積み重ね</h1><button type="button" class="textbtn" onclick="openStudyForm()">＋ 学習時間を追加</button></div>`;
+  if(!agg.total)return `<div class="rc">${head}<section class="rc-empty"><p>学習すると、ここに記録が積み上がります</p><button type="button" class="textbtn" onclick="go('home')">ホームへ</button></section></div>`;
+  return `<div class="rc">${head}${heroHtml(agg)}${heatmapHtml(agg,today)}${weekHtml(agg,today)}${breakdownHtml(agg,today)}${manualHtml(list)}</div>`;
+ }
+ // ---- manual records ("＋ 学習時間を追加") ----
+ function closeForm(){document.getElementById('rc-form')?.remove();document.body.classList.remove('rc-form-open');}
+ function dayTotal(list,day,exceptId){return S().aggregate(list.filter(s=>s.id!==exceptId)).days[day]?.total||0;}
+ function openStudyForm(id){
+  closeForm();
+  const list=segments(),editing=id?list.find(s=>s.id===id&&s.method==='manual'&&!s.deletedAt):null,today=todayKey();
+  const min=S().addDays(today,-90),minutes=editing?Math.round(editing.countedMs/MIN):60;
+  const overlay=document.createElement('div');overlay.id='rc-form';overlay.className='rc-overlay';
+  overlay.innerHTML=`<form class="rc-sheet" role="dialog" aria-modal="true" aria-labelledby="rc-form-title" novalidate>
+   <h2 id="rc-form-title">${editing?'学習時間を編集':'学習時間を追加'}</h2>
+   <label>日付<input type="date" name="date" min="${min}" max="${today}" value="${editing?esc(editing.studyDate):today}" required></label>
+   <div class="rc-row"><label>時間<select name="hours">${Array.from({length:7},(_,h)=>`<option value="${h}"${Math.floor(minutes/60)===h?' selected':''}>${h}時間</option>`).join('')}</select></label>
+   <label>分<select name="minutes">${Array.from({length:60},(_,m)=>`<option value="${m}"${minutes%60===m?' selected':''}>${m}分</option>`).join('')}</select></label></div>
+   <label>種類<select name="type">${Object.entries(MANUAL_TYPES).map(([v,l])=>`<option value="${v}"${editing?.targetId===v?' selected':''}>${l}</option>`).join('')}</select></label>
+   <label>メモ（任意・100文字まで）<input type="text" name="note" maxlength="100" value="${editing?esc(editing.note||''):''}"></label>
+   <p class="rc-error" role="alert" hidden></p>
+   <div class="rc-actions"><button type="button" class="textbtn" data-cancel>キャンセル</button><button type="submit" class="primary">保存</button></div></form>`;
+  document.body.append(overlay);document.body.classList.add('rc-form-open');
+  const form=overlay.querySelector('form'),error=form.querySelector('.rc-error');
+  const fail=text=>{error.textContent=text;error.hidden=false;};
+  overlay.addEventListener('click',event=>{if(event.target===overlay)closeForm();});
+  overlay.addEventListener('keydown',event=>{if(event.key==='Escape')closeForm();});
+  form.querySelector('[data-cancel]').addEventListener('click',closeForm);
+  form.addEventListener('submit',event=>{
+   event.preventDefault();error.hidden=true;
+   const date=form.date.value,hours=Number(form.hours.value),mins=Number(form.minutes.value),ms=(hours*60+mins)*MIN,note=form.note.value.trim();
+   if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||date>today)return fail('未来の日付は選べません。');
+   if(date<min)return fail('記録できるのは過去90日までです。');
+   if(ms<MIN||ms>6*HOUR)return fail('時間は1分から6時間の間で入力してください。');
+   if(Array.from(note).length>100)return fail('メモは100文字までです。');
+   const current=segments();
+   if(dayTotal(current,date,editing?.id)+ms>DAY_CAP)return fail('その日の学習時間が24時間を超えるため、保存できません。');
+   const row={id:editing?.id||crypto.randomUUID(),kind:'manual',targetId:form.type.value,method:'manual',startedAt:null,endedAt:null,studyDate:date,countedMs:ms,deviceId:window.StudyTimer?.deviceId||'device-unknown',note:note||null,updatedAt:new Date().toISOString(),deletedAt:null};
+   try{writeSegments(editing?current.map(s=>s.id===row.id?row:s):[...current,row]);}catch(problem){return fail('保存できませんでした。もう一度お試しください。');}
+   closeForm();render();toast(editing?'更新しました':'追加しました');
+  });
+  form.date.focus();
+ }
+ function deleteStudyRecord(id){
+  if(!window.confirm('この記録を削除しますか？'))return;
+  try{const now=new Date().toISOString();writeSegments(segments().map(s=>s.id===id&&s.method==='manual'?{...s,deletedAt:now,updatedAt:now}:s));render();toast('削除しました');}catch(error){toast('削除できませんでした。もう一度お試しください');}
+ }
+ function recordsPick(day,ms){const box=document.getElementById('rc-detail');if(box)box.textContent=`${dateLabel(day)}　${ms>0?durationText(ms):'学習の記録なし'}`;}
+ function recordsPeriod(value){period=value;render();}
+ Object.assign(window,{records,openStudyForm,deleteStudyRecord,recordsPick,recordsPeriod});
+ // The heat map shows 17 weeks on a wide screen and 12 on a narrow one.
+ if(window.matchMedia){window.matchMedia('(min-width:768px)').addEventListener?.('change',()=>{if(typeof view!=='undefined'&&view==='records'&&!document.body.classList.contains('quiz-active'))render();});}
+})();

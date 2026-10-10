@@ -24,7 +24,7 @@ test('a brand-new learner sees every block without holes, fake numbers or empty 
  assert.match(page,/基礎単語①/);assert.match(page,/組み合わせクイズ/);assert.match(page,/記事を読む/);assert.match(page,/最初のタスクをはじめる/);assert.match(page,/0 \/ 3 完了/);
  assert.doesNotMatch(page,/hm-recent/,'no record, no recent-learning card');
  assert.match(page,/今日から始めましょう/);assert.doesNotMatch(page,/hm-week-checks/);
- assert.equal((page.match(/class="hm-bar /g)||[]).length,7);assert.match(page,/<strong>0<small>問<\/small>/);assert.match(page,/今週の回答数/);
+ assert.equal((page.match(/class="hm-bar /g)||[]).length,7);assert.match(page,/<strong>0<small>分<\/small>/);assert.match(page,/今週の学習時間/);
  assert.doesNotMatch(page,/リスニング|LISTEN|ベル|今日も一歩ずつ/);
  assert.equal((page.match(/data-hm-article=/g)||[]).length,2);assert.ok(page.indexOf('Newest article')<page.indexOf('Older article'),'newest first');
  assert.doesNotMatch(page,/hm-name/,'no display name, no name in the greeting');

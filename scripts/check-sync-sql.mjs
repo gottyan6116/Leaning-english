@@ -13,10 +13,10 @@ try {
  insert into auth.users values('${A}'),('${B}');`);
  const files=(await fs.readdir('supabase/migrations')).filter(f=>f.endsWith('.sql')).sort();
  for(const file of files)await db.exec(await fs.readFile('supabase/migrations/'+file,'utf8'));
- ok(files.length===7,'seven ordered migrations applied');
- const tables=['answer_logs','saved_words','preferences','unit_sessions','article_states','opinion_drafts'];
+ ok(files.length===8,'eight ordered migrations applied');
+ const tables=['answer_logs','saved_words','preferences','unit_sessions','article_states','opinion_drafts','study_segments'];
  const rows=await db.query(`select relname,relrowsecurity from pg_class join pg_namespace n on n.oid=relnamespace where n.nspname in ('public','private') and relkind='r'`);
- ok(rows.rows.length===7&&rows.rows.every(r=>r.relrowsecurity),'all seven tables have RLS');
+ ok(rows.rows.length===8&&rows.rows.every(r=>r.relrowsecurity),'all eight tables have RLS');
  ok((await db.query(`select count(*)::int n from pg_proc join pg_namespace n on n.oid=pronamespace where n.nspname in ('public','private') and prosecdef`)).rows[0].n===0,'no privileged functions');
  await db.exec(`set role authenticated;select set_config('request.jwt.claim.sub','${A}',false);`);
  const fixture={
@@ -25,7 +25,8 @@ try {
   preferences:`(user_id,setting_key,value,updated_at) values('${A}','mode','"ja"','2026-01-02')`,
   unit_sessions:`(user_id,session_id,unit_id,mode,total,correct,completed_at) values('${A}','unit-session','c1-01','ja',10,8,now())`,
   article_states:`(user_id,article_id,read,updated_at) values('${A}','article',true,'2026-01-02')`,
-  opinion_drafts:`(user_id,article_id,prompt_id,body,updated_at) values('${A}','article','opinion','Draft','2026-01-02')`
+  opinion_drafts:`(user_id,article_id,prompt_id,body,updated_at) values('${A}','article','opinion','Draft','2026-01-02')`,
+  study_segments:`(user_id,id,kind,method,started_at,ended_at,counted_ms,device_id,updated_at) values('${A}','44444444-4444-4444-8444-444444444444','vocab','auto','2026-10-10 01:00:00+00','2026-10-10 01:10:00+00',600000,'dev-a','2026-10-10 01:10:00+00')`
  };
  for(const table of tables){await db.exec(`insert into public.${table} ${fixture[table]}`);await assert.rejects(db.exec(`insert into public.${table} ${fixture[table].replaceAll(A,B)}`));checks++;}
  for(const key of ['daily','weekly']){
@@ -38,6 +39,24 @@ try {
   await db.exec(`update public.preferences set value='${max}'::jsonb,updated_at='2026-01-04' where setting_key='${key}'`);
   ok((await db.query(`select value from public.preferences where setting_key='${key}'`)).rows[0].value===max,'valid upper goal accepted');
  }
+ // study_segments: automatic rows never change, manual rows accept only newer updates, shapes are enforced.
+ await db.exec(`update public.study_segments set counted_ms=5000,updated_at='2027-01-01' where id='44444444-4444-4444-8444-444444444444'`);
+ ok((await db.query(`select counted_ms from public.study_segments where id='44444444-4444-4444-8444-444444444444'`)).rows[0].counted_ms===600000,'automatic segment cannot be changed');
+ const manual=(id,minutes,stamp)=>`insert into public.study_segments(user_id,id,kind,method,study_date,counted_ms,target_id,device_id,updated_at) values('${A}','${id}','manual','manual','2026-10-09',${minutes*60000},'reading','dev-a','${stamp}')`;
+ const M='55555555-5555-4555-8555-555555555555';
+ await db.exec(manual(M,30,'2026-10-10 02:00:00+00'));
+ await db.exec(`update public.study_segments set counted_ms=2700000,updated_at='2026-10-10 03:00:00+00' where id='${M}'`);
+ ok((await db.query(`select counted_ms from public.study_segments where id='${M}'`)).rows[0].counted_ms===2700000,'newer manual update accepted');
+ await db.exec(`update public.study_segments set counted_ms=60000,updated_at='2026-10-10 01:00:00+00' where id='${M}'`);
+ ok((await db.query(`select counted_ms from public.study_segments where id='${M}'`)).rows[0].counted_ms===2700000,'older manual update ignored');
+ await db.exec(`update public.study_segments set deleted_at='2026-10-10 04:00:00+00',updated_at='2026-10-10 04:00:00+00' where id='${M}'`);
+ ok((await db.query(`select deleted_at is not null d from public.study_segments where id='${M}'`)).rows[0].d,'manual deletion is recorded as a stamp');
+ for(const bad of [
+  manual('66666666-6666-4666-8666-666666666666',361,'2026-10-10 02:00:00+00'),
+  manual('77777777-7777-4777-8777-777777777777',0,'2026-10-10 02:00:00+00'),
+  `insert into public.study_segments(user_id,id,kind,method,started_at,ended_at,counted_ms,device_id,updated_at) values('${A}','88888888-8888-4888-8888-888888888888','vocab','auto','2026-10-10 01:00:00+00','2026-10-10 01:00:03+00',3000,'d','2026-10-10 01:00:03+00')`,
+  `insert into public.study_segments(user_id,id,kind,method,started_at,ended_at,counted_ms,device_id,updated_at) values('${A}','99999999-9999-4999-8999-999999999999','vocab','auto','2026-10-10 01:00:00+00','2026-10-10 03:00:00+00',7200000,'d','2026-10-10 03:00:00+00')`
+ ]){await assert.rejects(db.exec(bad));checks++;}
  for(const key of ['mode','autoAdvance'])for(const value of ['NULL',"'null'::jsonb"]){await assert.rejects(db.exec(`insert into public.preferences(user_id,setting_key,value,updated_at) values('${A}','${key}',${value},'2026-01-05') on conflict(user_id,setting_key) do update set value=excluded.value,updated_at=excluded.updated_at`));checks++;}
  const stamp=(await db.query(`select server_updated_at::text s from public.preferences where setting_key='mode'`)).rows[0].s;
  for(const date of ['2026-01-01','2026-01-02']){const result=await db.query(`insert into public.preferences(user_id,setting_key,value,updated_at,server_updated_at) values('${A}','mode','"en"','${date}','1900-01-01') on conflict(user_id,setting_key) do update set value=excluded.value,updated_at=excluded.updated_at,server_updated_at=excluded.server_updated_at returning *`);ok(result.rows.length===0,'older or equal upsert ignored');}

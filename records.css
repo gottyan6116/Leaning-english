@@ -1,0 +1,67 @@
+/* Records screen (stage 15). Colors come from design-tokens.css only. */
+.rc{display:grid;gap:16px;max-width:760px;margin:0 auto;padding-bottom:24px}
+.rc-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.rc-head h1{margin:0}
+.rc-card{background:var(--color-surface);border-radius:var(--radius-surface);box-shadow:var(--shadow-surface);padding:20px}
+.rc-title,.rc-label{margin:0 0 10px;font-size:var(--font-size-section-title);color:var(--color-text)}
+.rc-label{font-size:var(--font-size-caption);color:var(--color-text-sub)}
+.rc-total{display:block;font-size:var(--font-size-target);line-height:1.1;font-weight:var(--font-weight-bold);color:var(--color-text)}
+.rc-next{margin:10px 0 8px;color:var(--color-text-sub)}
+.rc-progress{height:6px;border-radius:var(--radius-button);background:var(--color-border);overflow:hidden}
+.rc-progress i{display:block;height:100%;background:var(--color-primary);border-radius:var(--radius-button)}
+.rc-empty{display:grid;justify-items:center;gap:8px;padding:40px 16px;text-align:center;color:var(--color-text-sub)}
+.rc-empty p{margin:0}
+/* Calendar heat map: columns are weeks (Monday first), rows are weekdays. */
+.rc-heat{display:flex;gap:6px;align-items:stretch}
+.rc-weekdays{display:grid;grid-template-rows:repeat(7,1fr);gap:3px;font-size:11px;color:var(--color-text-muted);text-align:center}
+.rc-weeks{flex:1;display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:3px;min-width:0}
+.rc-week{display:grid;grid-template-rows:repeat(7,1fr);gap:3px}
+.rc-cell{display:block;aspect-ratio:1;border-radius:3px;border:0;padding:0;min-width:0;background:var(--color-heat-0)}
+button.rc-cell{cursor:pointer}
+.rc-cell.rc-future{background:var(--color-clear)}
+.rc-heat-0{background:var(--color-heat-0)}.rc-heat-1{background:var(--color-heat-1)}.rc-heat-2{background:var(--color-heat-2)}.rc-heat-3{background:var(--color-heat-3)}.rc-heat-4{background:var(--color-heat-4)}.rc-heat-5{background:var(--color-heat-5)}
+.rc-detail{margin:10px 0 0;min-height:1.5em;color:var(--color-text)}
+.rc-legend{display:flex;align-items:center;gap:4px;margin-top:8px;font-size:11px;color:var(--color-text-muted)}
+.rc-legend .rc-cell{width:12px;aspect-ratio:1}
+.rc-legend span:first-child{margin-right:2px}.rc-legend span:last-child{margin-left:2px}
+/* Kind colors: the same pink / purple / green as the home screen; study outside the app is grey. */
+.rc-k-vocab{background:var(--color-kind-vocab-fg)}.rc-k-colloc{background:var(--color-kind-colloc-fg)}.rc-k-article{background:var(--color-kind-article-fg)}.rc-k-listening{background:var(--color-text-sub)}.rc-k-manual{background:var(--color-kind-outside-fg)}
+.rc-dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
+/* This week: stacked bars. */
+.rc-weektotal{display:block;margin-bottom:12px;font-size:28px;font-weight:var(--font-weight-bold);color:var(--color-text)}
+.rc-bars{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;align-items:end}
+.rc-col{display:grid;gap:6px;justify-items:center}
+.rc-stack{display:flex;flex-direction:column-reverse;justify-content:flex-start;width:100%;max-width:36px;height:120px;border-radius:6px;background:var(--color-bg);overflow:hidden}
+.rc-seg{display:block;width:100%}
+.rc-colname{font-size:12px;color:var(--color-text-sub)}
+.rc-today .rc-colname{color:var(--color-primary-text);font-weight:var(--font-weight-bold)}
+.rc-keys{display:flex;flex-wrap:wrap;gap:4px 14px;margin:12px 0 0;padding:0;list-style:none;font-size:var(--font-size-caption);color:var(--color-text-sub)}
+.rc-compare{margin:12px 0 0;color:var(--color-text-sub)}
+.rc-compare b{color:var(--color-text)}
+/* Breakdown by kind. */
+.rc-tabs{margin:0 0 14px}
+.rc-break{display:grid;gap:12px;margin:0;padding:0;list-style:none}
+.rc-break li{display:grid;grid-template-columns:1fr auto auto;gap:2px 12px;align-items:center}
+.rc-break-name{display:flex;align-items:center}
+.rc-break-time{font-weight:var(--font-weight-bold)}
+.rc-break-pct{color:var(--color-text-sub);min-width:3ch;text-align:right}
+.rc-break-bar{grid-column:1/-1;height:6px;border-radius:var(--radius-button);background:var(--color-bg);overflow:hidden}
+.rc-break-bar i{display:block;height:100%;border-radius:var(--radius-button)}
+.rc-quiet{margin:0;color:var(--color-text-sub)}
+/* Study outside the app. */
+.rc-manual{display:grid;gap:4px;margin:0;padding:0;list-style:none}
+.rc-manual li{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--color-border)}
+.rc-manual li:last-child{border-bottom:0}
+.rc-manual-main{display:grid;gap:2px;min-width:0}
+.rc-manual-main small{color:var(--color-text-sub);overflow-wrap:anywhere}
+.rc-manual-actions{display:flex;gap:4px;flex-shrink:0}
+/* Add / edit sheet. */
+.rc-overlay{position:fixed;inset:0;z-index:40;display:flex;align-items:flex-end;justify-content:center;background:var(--color-scrim)}
+.rc-sheet{width:100%;max-width:480px;display:grid;gap:14px;padding:20px 20px max(20px,env(safe-area-inset-bottom));background:var(--color-surface);border-radius:var(--radius-surface) var(--radius-surface) 0 0;box-shadow:var(--shadow-surface)}
+.rc-sheet h2{margin:0;font-size:var(--font-size-section-title)}
+.rc-sheet label{display:grid;gap:6px;font-size:var(--font-size-caption);color:var(--color-text-sub)}
+.rc-sheet input,.rc-sheet select{font:inherit;font-size:var(--font-size-body);padding:10px 12px;border:1px solid var(--color-border);border-radius:var(--radius-input);background:var(--color-surface);color:var(--color-text)}
+.rc-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.rc-error{margin:0;color:var(--color-wrong-text)}
+.rc-actions{display:flex;justify-content:flex-end;align-items:center;gap:12px}
+@media(min-width:768px){.rc-overlay{align-items:center}.rc-sheet{border-radius:var(--radius-surface)}}

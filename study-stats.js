@@ -50,6 +50,39 @@
   for(const [day,value] of Object.entries(agg.days)){if(day<from||day>to)continue;total+=value.total;for(const k of KINDS)kinds[k]+=value.kinds[k];}
   return {total,kinds};
  }
- const api={KINDS,DAY_MS,dayOf,dayStart,addDays,weekStart,splitByDay,aggregate,sumRange};
+ // ---- Figures for the records screen and the home screen ----
+ const MILESTONE_HOURS=[10,30,50,100,200,300,500,1000];
+ // The next milestone above the total, and how far the way from the last one has come (1 once all are passed).
+ function milestone(totalMs){
+  const hours=totalMs/3600000,next=MILESTONE_HOURS.find(m=>m>hours)||null,previous=[...MILESTONE_HOURS].reverse().find(m=>m<=hours)||0;
+  return {next,previous,remainingMs:next?next*3600000-totalMs:0,progress:next?(totalMs-previous*3600000)/((next-previous)*3600000):1};
+ }
+ // Five shades for days with study time: 1-9, 10-19, 20-39, 40-59, 60+ minutes. 0 is its own (grey) value.
+ function heatLevel(ms){const m=ms/60000;return m<=0?0:m<10?1:m<20?2:m<40?3:m<60?4:5;}
+ const weekDays=today=>Array.from({length:7},(_,i)=>addDays(weekStart(today),i));
+ const dayValue=(agg,day)=>({total:agg.days[day]?.total||0,kinds:{...emptyKinds(),...(agg.days[day]?.kinds||{})}});
+ // Monday..Sunday of the week that contains today. Days after today are marked future.
+ const weekSeries=(agg,today)=>weekDays(today).map(day=>({day,...dayValue(agg,day),future:day>today}));
+ // This week up to today against last week up to the same weekday.
+ function compareWeek(agg,today){
+  const start=weekStart(today),index=(new Date(today+'T00:00:00Z').getUTCDay()+6)%7,lastStart=addDays(start,-7);
+  const current=sumRange(agg,start,today).total,previous=sumRange(agg,lastStart,addDays(lastStart,index)).total;
+  return {current,previous,delta:current-previous};
+ }
+ // Columns of weeks (Monday first) ending with the current week, for the calendar heat map.
+ function heatmap(agg,today,weeks){
+  const first=addDays(weekStart(today),-7*(weeks-1));
+  return Array.from({length:weeks},(_,w)=>Array.from({length:7},(_,d)=>{const day=addDays(first,w*7+d),ms=dayValue(agg,day).total;return {day,ms,level:heatLevel(ms),future:day>today};}));
+ }
+ // Time per kind with percentages that add up to exactly 100 (largest remainder).
+ function breakdown(agg,period,today){
+  const from=period==='week'?weekStart(today):period==='month'?today.slice(0,8)+'01':'0000-01-01';
+  const {total,kinds}=sumRange(agg,from,today);
+  const items=KINDS.map(kind=>({kind,ms:kinds[kind]})).filter(x=>x.ms>0||['vocab','colloc','article','manual'].includes(x.kind));
+  const raw=items.map(x=>total?x.ms/total*100:0),floor=raw.map(Math.floor);let left=total?100-floor.reduce((a,b)=>a+b,0):0;
+  raw.map((value,i)=>[value-floor[i],i]).sort((a,b)=>b[0]-a[0]||a[1]-b[1]).forEach(([,i])=>{if(left>0){floor[i]++;left--;}});
+  return {total,items:items.map((x,i)=>({...x,percent:floor[i]}))};
+ }
+ const api={KINDS,MILESTONE_HOURS,milestone,heatLevel,weekDays,weekSeries,compareWeek,heatmap,breakdown,DAY_MS,dayOf,dayStart,addDays,weekStart,splitByDay,aggregate,sumRange};
  if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.StudyStats=api;
 })(typeof window!=='undefined'?window:globalThis);

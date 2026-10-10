@@ -49,11 +49,11 @@ test('week statistics count answers per day and distinct words, collocations and
   articleAnswers:[{answeredAt:iso(jst(2026,10,7,10)),articleId:'a',sessionId:'r'}],
   reads:{a:{completedAt:iso(jst(2026,10,7,10,5))},b:{completedAt:iso(jst(2026,10,1,10))}}
  };
- const s=H.weekStats(data,TODAY);
+ const s=H.weekStats(data,TODAY,"answers");
  assert.deepEqual(s.series,[2,2,3,0,0,0,0],'skips and time-outs are answers; the previous Sunday and next Monday are excluded');
  assert.equal(s.total,7);assert.equal(s.words,2,'distinct words of vocabulary answers only');assert.equal(s.collocations,2);assert.equal(s.articles,1,'only reads of this week');assert.equal(s.todayIndex,2);
  const empty=H.weekStats({},TODAY);assert.deepEqual(empty.series,[0,0,0,0,0,0,0]);assert.equal(empty.total,0);assert.equal(empty.words,0);
- assert.equal(H.PROGRESS_METRIC,'answers');assert.equal(H.METRICS.answers.label,'今週の回答数');
+ assert.equal(H.PROGRESS_METRIC,'minutes');assert.equal(H.METRICS.minutes.label,'今週の学習時間');assert.equal(H.METRICS.answers.label,'今週の回答数');
 });
 test('minutes are estimated at 30 seconds per question',()=>{assert.equal(H.minutesFor(10),5);assert.equal(H.minutesFor(3),2);assert.equal(H.minutesFor(1),1);assert.equal(H.minutesFor(24),12);assert.equal(H.minutesFor(0),1);});
 test('the practice set: first not-cleared set in genre and number order; when all are cleared, the lowest best, ties to the earlier set',()=>{
@@ -112,4 +112,10 @@ test('recent learning: sessions and articles newest first, three at most, with r
  assert.equal(H.recent(data,now,resolve,10).length,5,'unknown articles are skipped; sessions and articles are separate entries');
  assert.deepEqual(H.recent({},now,resolve),[]);
  assert.equal(H.agoText(now-30000,now),'たった今');assert.equal(H.agoText(now-26*3600000,now),'10月6日');assert.equal(H.agoText(now+60000,now),'たった今');
+});
+
+test('stage 15: the week block shows measured study minutes per day (rounded)',()=>{
+ const stats=H.weekStats({studyMs:{[TODAY]:90*60000,'2026-01-01':5*60000}},TODAY);
+ assert.equal(stats.metric,'minutes');assert.equal(stats.total,90);assert.equal(stats.series[stats.todayIndex],90);
+ assert.equal(H.weekStats({},TODAY).total,0);
 });

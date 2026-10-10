@@ -4,11 +4,11 @@
   else root.SupabaseSync=api.createSyncClient({fetch:root.fetch.bind(root),authStorage:root.localStorage,events:root,document:root.document});
 })(typeof window!=='undefined'?window:globalThis,function(){
   'use strict';
-  const TABLE_KEYS={answer_logs:['event_id'],saved_words:['word_key'],preferences:['setting_key'],unit_sessions:['session_id'],article_states:['article_id'],opinion_drafts:['article_id','prompt_id']};
+  const TABLE_KEYS={answer_logs:['event_id'],saved_words:['word_key'],preferences:['setting_key'],unit_sessions:['session_id'],article_states:['article_id'],opinion_drafts:['article_id','prompt_id'],study_segments:['id']};
   const APPEND=new Set(['answer_logs','unit_sessions']);
   const AUTH_KEY='english-notes.auth.session.v1',LAST_KEY='english-notes.sync.last.v1';
   const quoted=value=>'"'+String(value).replace(/\\/g,'\\\\').replace(/"/g,'\\"')+'"';
-  const filterValue=(column,value)=>column==='event_id'||column==='user_id'?String(value):quoted(value);
+  const filterValue=(column,value)=>column==='event_id'||column==='user_id'||column==='id'?String(value):quoted(value);
   function createSyncClient(options={}){
     const fetcher=options.fetch||globalThis.fetch.bind(globalThis),authStorage=options.authStorage;
     const now=options.now||Date.now,online=options.online||(()=>typeof navigator==='undefined'||navigator.onLine!==false);
@@ -59,10 +59,13 @@
       catch(error){if(error.status!==401)throw error;await refresh(owner,epoch,true);const result=await raw(path,{...opts,token:session.access_token});assertOwner(owner,epoch);return result;}
     }
     function identityQuery(table,rows,owner){const keys=TABLE_KEYS[table],query=new URLSearchParams({select:['user_id',...keys].join(','),user_id:'eq.'+owner});if(keys.length===1)query.set(keys[0],'in.('+rows.map(row=>filterValue(keys[0],row[keys[0]])).join(',')+')');else query.set('or','('+rows.map(row=>'and('+keys.map(key=>key+'.eq.'+filterValue(key,row[key])).join(',')+')').join(',')+')');return query;}
+    // Until the study_segments table exists on the server, its rows stay on the device and the other tables sync as usual.
+    let studyTableMissing=false;
     async function sendPending(owner,epoch){
       // A snapshot prevents a continuously edited note from blocking all reads.
       for(const entry of [...storage.pending()]){
         assertOwner(owner,epoch);
+        if(studyTableMissing&&entry.table==='study_segments')continue;
         if(!TABLE_KEYS[entry.table]||entry.row.user_id!==owner)throw new Error('送信データの利用者が一致しません。');
         try{
           const row={...entry.row};delete row.server_updated_at;
@@ -74,6 +77,7 @@
           assertOwner(owner,epoch);storage.acknowledge(entry.table,entry.key,entry.revision);if(accepted.length)storage.merge(entry.table,accepted);
         }catch(error){
           assertOwner(owner,epoch);
+          if(entry.table==='study_segments'&&error.status===404){studyTableMissing=true;continue;}
           if(error.dataWriteRejected&&error.status>=400&&error.status<500&&error.status!==401&&storage.block){
             storage.block(entry.table,entry.key,entry.revision,{status:error.status,code:error.code});emit();
           }else throw error;
@@ -115,7 +119,11 @@
         // Answers rejected before the collocation migration was applied are retried once per session and on manual resync.
         if(full||!retriedBlocked.has(owner)){retriedBlocked.add(owner);storage.requeueBlocked?.(entry=>entry.table==='answer_logs'&&entry.row?.kind==='collocation');}
         await sendPending(owner,epoch);
-        for(const table of Object.keys(TABLE_KEYS))await pullTable(table,full,owner,epoch);
+        if(full)studyTableMissing=false;
+        for(const table of Object.keys(TABLE_KEYS)){
+          if(table==='study_segments'&&studyTableMissing)continue;
+          try{await pullTable(table,full,owner,epoch);}catch(error){if(table==='study_segments'&&error.status===404){studyTableMissing=true;continue;}throw error;}
+        }
         await verifyIntegration(owner,epoch);
         assertOwner(owner,epoch);state.lastSyncedAt=new Date(now()).toISOString();storage.setItem?.(LAST_KEY,state.lastSyncedAt);
         state.status=storage.blocked?.().length?'failed':storage.pending().length?'pending':'synced';state.error=storage.blocked?.().length?'送信できないデータがあります。':null;emit();

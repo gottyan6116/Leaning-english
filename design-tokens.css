@@ -69,4 +69,13 @@
  --color-kind-colloc-fg:#5B63D6;
  --color-kind-article-bg:var(--color-correct-soft);
  --color-kind-article-fg:var(--color-correct);
+ /* Records screen (stage 15): the five shades of the study calendar, the grey of days without study, and the color of study outside the app. */
+ --color-heat-0:#ECEEF2;
+ --color-heat-1:#FFD9E3;
+ --color-heat-2:#FFB3C7;
+ --color-heat-3:#FF8AA7;
+ --color-heat-4:var(--color-primary);
+ --color-heat-5:var(--color-primary-lip);
+ --color-kind-outside-bg:#EEF0F3;
+ --color-kind-outside-fg:#8A90A0;
 }
