@@ -13,7 +13,7 @@ try {
  insert into auth.users values('${A}'),('${B}');`);
  const files=(await fs.readdir('supabase/migrations')).filter(f=>f.endsWith('.sql')).sort();
  for(const file of files)await db.exec(await fs.readFile('supabase/migrations/'+file,'utf8'));
- ok(files.length===8,'eight ordered migrations applied');
+ ok(files.length===9,'nine ordered migrations applied');
  const tables=['answer_logs','saved_words','preferences','unit_sessions','article_states','opinion_drafts','study_segments'];
  const rows=await db.query(`select relname,relrowsecurity from pg_class join pg_namespace n on n.oid=relnamespace where n.nspname in ('public','private') and relkind='r'`);
  ok(rows.rows.length===8&&rows.rows.every(r=>r.relrowsecurity),'all eight tables have RLS');
@@ -39,6 +39,12 @@ try {
   await db.exec(`update public.preferences set value='${max}'::jsonb,updated_at='2026-01-04' where setting_key='${key}'`);
   ok((await db.query(`select value from public.preferences where setting_key='${key}'`)).rows[0].value===max,'valid upper goal accepted');
  }
+ // Stage 16: expression answers and expression study time are accepted; unknown kinds are still rejected.
+ const answerSql=(kind,id)=>`insert into public.answer_logs(user_id,event_id,session_id,question_id,kind,mode,correct,answered_at) values('${A}','${id}','s','expr-q1','${kind}','en',true,now())`;
+ await db.exec(answerSql('expression','aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa'));checks++;
+ await assert.rejects(db.exec(answerSql('speaking','bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb')));checks++;
+ await db.exec(`insert into public.study_segments(user_id,id,kind,method,started_at,ended_at,counted_ms,device_id,updated_at) values('${A}','cccccccc-cccc-4ccc-8ccc-cccccccccccc','expr','auto','2026-10-11 01:00:00+00','2026-10-11 01:10:00+00',600000,'dev-a','2026-10-11 01:10:00+00')`);checks++;
+ await assert.rejects(db.exec(`insert into public.study_segments(user_id,id,kind,method,started_at,ended_at,counted_ms,device_id,updated_at) values('${A}','dddddddd-dddd-4ddd-8ddd-dddddddddddd','speaking','auto','2026-10-11 01:00:00+00','2026-10-11 01:10:00+00',600000,'dev-a','2026-10-11 01:10:00+00')`));checks++;
  // study_segments: automatic rows never change, manual rows accept only newer updates, shapes are enforced.
  await db.exec(`update public.study_segments set counted_ms=5000,updated_at='2027-01-01' where id='44444444-4444-4444-8444-444444444444'`);
  ok((await db.query(`select counted_ms from public.study_segments where id='44444444-4444-4444-8444-444444444444'`)).rows[0].counted_ms===600000,'automatic segment cannot be changed');
