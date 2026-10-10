@@ -560,13 +560,13 @@
     "id": "expressions",
     "version": 1,
     "path": "materials/expressions/expressions.json",
-    "sha256": "f3f6c3868e4947cfa4eafe530af7b31d115542f0bbe9b33d0b6eed48a0b0fa0c"
+    "sha256": "a20000a765ef01e8be76b10a5bc7f2802135405af2d0c4b351d52e0d0a780ac8"
   },
   "expressionQuestions": {
     "id": "expression-questions",
     "version": 1,
     "path": "materials/expressions/expression-questions.json",
-    "sha256": "dcae29bffdbb77b1ae5f7a334eba648fb8a76b9df0ffb2748a3261187270a9bb"
+    "sha256": "45e3c2329c86dd01926057100c8d171a57df9d8f45788d3317762e8f670210c6"
   },
   "genres": {
     "id": "wordbook-genres",
