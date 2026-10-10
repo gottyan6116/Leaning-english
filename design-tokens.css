@@ -78,4 +78,7 @@
  --color-heat-5:var(--color-primary-lip);
  --color-kind-outside-bg:#EEF0F3;
  --color-kind-outside-fg:#8A90A0;
+ /* Expression practice (stage 16): its own kind color (orange family). */
+ --color-kind-expr-bg:#FFF1E0;
+ --color-kind-expr-fg:#C2620A;
 }

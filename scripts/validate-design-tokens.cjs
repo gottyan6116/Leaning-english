@@ -1,5 +1,5 @@
 const fs=require('node:fs'),path=require('node:path');
-const root=path.resolve(__dirname,'..'),files=['learning.css','quiz-session.css','stage3.css','stage4.css','records.css'],errors=[];
+const root=path.resolve(__dirname,'..'),files=['learning.css','quiz-session.css','stage3.css','stage4.css','records.css','stage16.css'],errors=[];
 for(const name of files){const css=fs.readFileSync(path.join(root,name),'utf8').replace(/\/\*[\s\S]*?\*\//g,'');
  if(/#[\da-f]{3,8}\b|\b(?:rgb|rgba|hsl|hsla)\(/i.test(css))errors.push(`${name}: color literal outside design-tokens.css`);
  if(/(?:linear|radial|conic)-gradient\(|\bblur\(/i.test(css))errors.push(`${name}: gradient or blur`);

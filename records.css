@@ -25,7 +25,7 @@ button.rc-cell{cursor:pointer}
 .rc-legend .rc-cell{width:12px;aspect-ratio:1}
 .rc-legend span:first-child{margin-right:2px}.rc-legend span:last-child{margin-left:2px}
 /* Kind colors: the same pink / purple / green as the home screen; study outside the app is grey. */
-.rc-k-vocab{background:var(--color-kind-vocab-fg)}.rc-k-colloc{background:var(--color-kind-colloc-fg)}.rc-k-article{background:var(--color-kind-article-fg)}.rc-k-listening{background:var(--color-text-sub)}.rc-k-manual{background:var(--color-kind-outside-fg)}
+.rc-k-vocab{background:var(--color-kind-vocab-fg)}.rc-k-colloc{background:var(--color-kind-colloc-fg)}.rc-k-expr{background:var(--color-kind-expr-fg)}.rc-k-article{background:var(--color-kind-article-fg)}.rc-k-listening{background:var(--color-text-sub)}.rc-k-manual{background:var(--color-kind-outside-fg)}
 .rc-dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
 /* This week: stacked bars. */
 .rc-weektotal{display:block;margin-bottom:12px;font-size:28px;font-weight:var(--font-weight-bold);color:var(--color-text)}

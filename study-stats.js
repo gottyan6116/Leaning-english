@@ -3,8 +3,8 @@
  // Study-time aggregation (stage 15). Pure functions: no DOM, no storage, no clock.
  // Dates are Japan time (UTC+9). Weeks start on Monday.
  const JST_OFFSET_MS=9*3600000,DAY_MS=86400000;
- const KINDS=['vocab','colloc','article','listening','manual'];
- const emptyKinds=()=>({vocab:0,colloc:0,article:0,listening:0,manual:0});
+ const KINDS=['vocab','colloc','article','listening','manual','expr'];
+ const emptyKinds=()=>({vocab:0,colloc:0,article:0,listening:0,manual:0,expr:0});
  // 'YYYY-MM-DD' of an instant, in Japan time.
  const dayOf=ms=>new Date(ms+JST_OFFSET_MS).toISOString().slice(0,10);
  const dayStart=day=>Date.parse(day+'T00:00:00+09:00');

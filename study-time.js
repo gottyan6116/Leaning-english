@@ -3,7 +3,7 @@
  // Study-time recorder (stage 15). Turns "a screen is being studied" into saved segments.
  // Idle limits, minimum and maximum lengths live here, in one place.
  const CONFIG={
-  idleMs:{vocab:60000,colloc:60000,article:180000,listening:null},
+  idleMs:{vocab:60000,colloc:60000,expr:60000,article:180000,listening:null},
   minMs:5000,maxMs:3600000,
   storageKey:'english-notes.study.segments.v1',deviceKey:'english-notes.device-id.v1'
  };

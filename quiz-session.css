@@ -28,3 +28,26 @@ body.quiz-active{overflow:hidden;background:var(--color-bg)}body.quiz-active>hea
 @media(max-width:767px){.qs-frame.article-session .qs-content{gap:12px}.qs-frame.article-session.has-sheet .qs-answerarea{margin-top:0}}
 
 .qs-cols{margin-top:18px}.qs-cols h2{font-size:18px;margin:0 0 6px}.qs-cols h3{font-size:14px;margin:0 0 2px;color:var(--color-text-sub)}.qs-colword{margin-top:14px}.qs-colword h3{color:var(--color-text);font-size:16px}.qs-colword h3 small{display:block;font-size:12px;font-weight:400;color:var(--color-text-sub);margin-top:3px}.qs-cols .qs-wronglist{margin-bottom:0}.qs-sheet .qs-wrongrow{background:transparent;padding:12px 0}.qs-sheet .qs-wrongrow strong{font-size:16px}
+
+/* Expression practice (stage 16) */
+.qs-format{margin:0 0 6px;font-size:var(--font-size-caption);color:var(--color-text-sub)}
+.qs-scene{display:grid;gap:8px}
+.qs-scene p{margin:0;font-size:18px;line-height:1.6;color:var(--color-text);overflow-wrap:anywhere}
+.qs-whynot{margin:14px 0 4px;font-size:var(--font-size-caption);color:var(--color-text-sub)}
+.qs-order{display:grid;gap:10px;width:100%}
+.qs-order-hint{margin:0;font-size:var(--font-size-caption);color:var(--color-text-sub)}
+.qs-order-hint-tap{display:none}
+.qs-order-tap{display:none;gap:8px}
+.qs-order-list{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.qs-order-item,.qs-order-chip{display:flex;align-items:center;gap:12px;width:100%;min-height:52px;padding:10px 14px;text-align:left;background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-input);color:var(--color-text);box-shadow:var(--shadow-secondary)}
+.qs-order-item[draggable=true]{cursor:grab}
+.qs-order-item.ok{border-color:var(--color-correct);background:var(--color-correct-soft)}
+.qs-order-item.ng{border-color:var(--color-wrong);background:var(--color-wrong-soft)}
+.qs-order-chip.picked{border-color:var(--color-primary);background:var(--color-primary-soft)}
+.qs-order-num{flex:0 0 1.6em;font-weight:var(--font-weight-bold);color:var(--color-text-sub);text-align:center}
+.qs-order-text{flex:1;overflow-wrap:anywhere}
+.qs-order-move{display:flex;gap:6px}
+.qs-order-move button{min-width:44px;min-height:44px;border:1px solid var(--color-border);border-radius:var(--radius-input);background:var(--color-surface);color:var(--color-text)}
+.qs-order-move button:disabled{opacity:.4;cursor:default}
+.qs-order-submit{margin-top:6px}
+@media (pointer:coarse){.qs-order-hint-tap,.qs-order-tap{display:grid}.qs-order-hint-drag,.qs-order-drag{display:none}}

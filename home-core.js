@@ -30,6 +30,7 @@
   const list=[];
   for(const e of data.vocabLogs||[]){const ts=timeOf(e.answeredAt);if(ts!==null)list.push({ts,kind:'vocab',wordId:e.wordId,sessionId:e.sessionId,answer:true});}
   for(const e of data.collocLogs||[]){const ts=timeOf(e.answeredAt);if(ts!==null)list.push({ts,kind:'colloc',collocationId:e.collocationId,wordId:e.wordId,sessionId:e.sessionId,answer:true});}
+  for(const e of data.exprLogs||[]){const ts=timeOf(e.answeredAt);if(ts!==null)list.push({ts,kind:'expr',expressionId:e.expressionId,sessionId:e.sessionId,answer:true});}
   for(const e of data.articleAnswers||[]){const ts=timeOf(e.answeredAt);if(ts!==null)list.push({ts,kind:'article',articleId:e.articleId,sessionId:e.sessionId,answer:true});}
   for(const [articleId,read] of Object.entries(data.reads||{})){const ts=timeOf(read?.completedAt);if(ts!==null)list.push({ts,kind:'article',articleId,read:true});}
   return list;
@@ -78,7 +79,10 @@
  // ctx: wordReview, collocReview (counts), set ({id,title}|null), articles (newest first), readIds (Set), setTitle
  function tasks(ctx,done){
   const list=[];
-  if(ctx.wordReview>0)list.push({kind:'vocab',action:'word-review',title:'今日の復習',sub:`${ctx.wordReview}語・約${minutesFor(ctx.wordReview)}分`});
+  // Missed expressions join the daily review; with any, the review runs as the mixed session (words, combinations, expressions).
+  const exprN=ctx.exprReview||0;
+  if(exprN>0)list.push({kind:'vocab',action:'mixed-review',title:'今日の復習',sub:`${[ctx.wordReview>0?`${ctx.wordReview}語`:'',`表現${exprN}件`].filter(Boolean).join('・')}・約${minutesFor(ctx.wordReview+exprN)}分`});
+  else if(ctx.wordReview>0)list.push({kind:'vocab',action:'word-review',title:'今日の復習',sub:`${ctx.wordReview}語・約${minutesFor(ctx.wordReview)}分`});
   else if(ctx.set)list.push({kind:'vocab',action:'word-set',setId:ctx.set.id,title:ctx.set.title,sub:`10問・約${minutesFor(10)}分`});
   else list.push({kind:'vocab',action:'none',title:'単語',sub:'教材を読み込んでいます'});
   if(ctx.collocReview>0)list.push({kind:'colloc',action:'colloc-review',title:'組み合わせの復習',sub:`${ctx.collocReview}件・約${minutesFor(ctx.collocReview)}分`});

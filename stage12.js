@@ -17,7 +17,7 @@
  const catalog=()=>window.MaterialCatalog;
  const marks=n=>window.WordbookCore.setLabel(n);
  function data(){
-  return {vocabLogs:asArray(readJson(KEYS.quiz,[])),collocLogs:(()=>{try{return window.CollocationUI?.getStore?.()?.logs||[];}catch(error){return [];}})(),
+  return {vocabLogs:asArray(readJson(KEYS.quiz,[])),collocLogs:(()=>{try{return window.CollocationUI?.getStore?.()?.logs||[];}catch(error){return [];}})(),exprLogs:(()=>{try{return window.ExpressionUI?.getStore?.()?.logs||[];}catch(error){return [];}})(),
    articleAnswers:Object.values(readJson(KEYS.articleAnswers,{})||{}),reads:readJson(KEYS.reads,{})||{},completions:asArray(readJson(KEYS.done,[])),studyMs:studyMs()};
  }
  // Measured study time per Japan-time day, in ms (overlapping devices already counted once).
@@ -58,12 +58,13 @@
  function context(){
   const quiz=quizStore(),mode=quiz?.settings.mode||'ja',sessions=readJson(KEYS.sessions,[]),reads=readJson(KEYS.reads,{})||{};
   const set=H.pickSet(genresList(),setsList(),s=>window.WordbookCore.bestOf(asArray(sessions),s.id,mode));
-  return {wordReview:window.AppUI?.reviewItems?.().length||0,collocReview:window.CollocationUI?.reviewItems?.().length||0,
+  return {wordReview:window.AppUI?.reviewItems?.().length||0,collocReview:window.CollocationUI?.reviewItems?.().length||0,exprReview:window.ExpressionUI?.reviewCount?.()||0,
    set:set?{id:set.id,title:setTitle(set)}:null,articles:articleList(),readIds:new Set(Object.entries(reads).filter(([,v])=>v?.completedAt).map(([id])=>id))};
  }
  function startTask(task){
   switch(task.action){
    case 'word-review':return window.QuizUI.startReviewWords();
+   case 'mixed-review':return window.QuizUI.startReviewAll();
    case 'word-set':return window.WordbookUI.quickStart(task.setId);
    case 'colloc-review':return window.CollocationUI.startReview();
    case 'colloc-quiz':return window.CollocationUI.start({type:'all'});

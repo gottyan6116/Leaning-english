@@ -556,6 +556,18 @@
     "path": "materials/collocations/article-collocations.json",
     "sha256": "b2f7e763eec458512eb1279eb79f0524860fceee347d2d462d4aa1cd4bd1de41"
   },
+  "expressions": {
+    "id": "expressions",
+    "version": 1,
+    "path": "materials/expressions/expressions.json",
+    "sha256": "f3f6c3868e4947cfa4eafe530af7b31d115542f0bbe9b33d0b6eed48a0b0fa0c"
+  },
+  "expressionQuestions": {
+    "id": "expression-questions",
+    "version": 1,
+    "path": "materials/expressions/expression-questions.json",
+    "sha256": "dcae29bffdbb77b1ae5f7a334eba648fb8a76b9df0ffb2748a3261187270a9bb"
+  },
   "genres": {
     "id": "wordbook-genres",
     "version": 1,

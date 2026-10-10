@@ -9,7 +9,7 @@
  const personIcon='<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg>';
  const arrow=()=>'<span class="action-chevron" aria-hidden="true">›</span>';
  let vocabularyTab='wordbook',vocabularyLevel='C1',detailItem=null,detailBack=null;
- nav.splice(0,nav.length,['home','ホーム'],['vocab','単語'],['articles','記事'],['listen','リスニング'],['records','記録']);
+ nav.splice(0,nav.length,['home','ホーム'],['vocab','単語'],['articles','記事'],['expr','表現'],['records','記録']);
  if(appState){for(const index of appState.articleSaves)if(words[index])words[index].bookmarked=true;for(const word of appState.customWords)if(!words.some(x=>x.en===word.en&&x.ja===word.ja))words.push({...word});}
  function savedWords(){return appState?appState.savedVocabulary(quizStore?.bookmarks||[],words):[];}
  function savedIds(){return savedWords().filter(x=>x.id).map(x=>x.id);}
@@ -28,7 +28,7 @@
   return `<div class="sectionhead"><h1>単語・表現</h1>${vocabularyTab==='saved'?'<button class="textbtn" onclick="addWord()">＋ 追加</button>':''}</div>${tabs}${content}`;
  };
  wordDetail=function(){const item=detailItem||savedWords().find(x=>x.headword.toLowerCase()===words[selectedWord]?.en.toLowerCase());if(!item)return '<button class="textbtn" onclick="go(\'vocab\')">単語・表現へ ›</button>';const state=status(item);return `${detailBack?.articleId?`<button class="back" onclick="AppUI.detailBack()">記事へ ${arrow()}</button>`:`<button class="back" onclick="go('vocab')">単語・表現へ ${arrow()}</button>`}<p class="vocabulary-detail-state">${state}</p><div class="flash"><strong>${esc(item.headword)}</strong><p>${esc(item.meaning)}</p></div>${window.CollocationUI?.sectionHtml?.(item.id)||''}<div class="wordmeaning"><h3>${esc(item.definition||'')}</h3><p>${esc(item.example||'')}</p></div>${item.id?`<button class="primary full" onclick="QuizUI.startWord('${item.id}')">この表現を練習する ${arrow()}</button>`:''}`;};
- function reviewSessionItems(){const words=reviewItems(),cols=window.CollocationUI?.reviewItems?.()||[],mixed=[];for(let i=0;i<Math.max(words.length,cols.length);i++){if(words[i])mixed.push(words[i]);if(cols[i])mixed.push(cols[i]);}return mixed;}
+ function reviewSessionItems(){const words=reviewItems(),cols=window.CollocationUI?.reviewItems?.()||[],exprs=window.ExpressionUI?.reviewItems?.()||[],mixed=[];for(let i=0;i<Math.max(words.length,cols.length,exprs.length);i++){if(words[i])mixed.push(words[i]);if(cols[i])mixed.push(cols[i]);if(exprs[i])mixed.push(exprs[i]);}return mixed;}
  function reviewItems(){return appState&&quizStore?appState.reviewCandidates(quizStore.logs,savedIds(),quizStore.settings.mode).filter(EnglishQuiz.validateItem):[];}
  home=function(){
   const count=reviewSessionItems().length,date=new Date(),dateText=new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',month:'long',day:'numeric',weekday:'long'}).format(date),hour=Number(new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Tokyo',hour:'numeric',hourCycle:'h23'}).format(date)),greeting=hour<11?'おはようございます':hour<18?'こんにちは':'こんばんは';

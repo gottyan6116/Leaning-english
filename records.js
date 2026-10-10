@@ -4,7 +4,7 @@
  'use strict';
  const KEY='english-notes.study.segments.v1';
  const MANUAL_TYPES={conversation:'英会話',reading:'読書',media:'動画・ポッドキャスト',other:'その他'};
- const KIND_LABEL={vocab:'単語',colloc:'組み合わせ',article:'記事',listening:'リスニング',manual:'アプリ外'};
+ const KIND_LABEL={vocab:'単語',colloc:'組み合わせ',expr:'表現',article:'記事',listening:'リスニング',manual:'アプリ外'};
  const HOUR=3600000,MIN=60000,DAY_CAP=24*HOUR;
  let period='week';
  const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -54,7 +54,7 @@
  }
  function weekHtml(agg,today){
   const series=S().weekSeries(agg,today),max=Math.max(1,...series.map(d=>d.total)),total=series.reduce((s,d)=>s+d.total,0),cmp=S().compareWeek(agg,today);
-  const kinds=['vocab','colloc','article','listening','manual'];
+  const kinds=['vocab','colloc','expr','article','listening','manual'];
   const bars=series.map((d,i)=>{
    const name=WEEKDAY[(i+1)%7],stack=kinds.filter(k=>d.kinds[k]>0).map(k=>`<span class="rc-seg rc-k-${k}" style="height:${(d.kinds[k]/max*100).toFixed(2)}%"></span>`).join('');
    return `<div class="rc-col${d.day===today?' rc-today':''}" role="img" aria-label="${name}曜 ${esc(durationText(d.total))}"><span class="rc-stack">${stack}</span><span class="rc-colname">${name}</span></div>`;
